@@ -1,0 +1,6 @@
+ Ui:		ignition voltage
+ Uamin:		minimal anode voltage
+ Uamax:		maximal anode voltage
+ Iamin:		minimal anode current
+ Iamax:		maximal anode current
+ Rint:		internal resistivity

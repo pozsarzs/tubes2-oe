@@ -1,0 +1,6784 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Full-wave rectifiers (Z)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>394</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>113A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>113</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>180</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1200</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>4</prmt>
+     <prmt>2000</prmt>
+     <prmt>458</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1201</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1274</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1275</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.75</prmt>
+     <prmt>250</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>12X4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.3</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>12Z5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode-Diode1</cppn>
+     <cppn nr="3">Cathode-Diode1</cppn>
+     <cppn nr="4">Branch of heater</cppn>
+     <cppn nr="5">Cathode-Diode2</cppn>
+     <cppn nr="6">Anode-Diode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.3</prmt>
+     <prmt>225</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>13</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>140NG</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>14Y4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>14</prmt>
+     <prmt>0.32</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>Ra=150ohm</cpld>
+  </component>
+  <component>
+     <cpnm>1560</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1561</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1801</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1802</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.6</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1803</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.6</prmt>
+     <prmt>500</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1805</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1807</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>180</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>1815</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.3</prmt>
+     <prmt>500</prmt>
+     <prmt>180</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1817</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1821</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1823</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1831</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>700</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1861</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1867</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1868</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>250</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1881A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1881</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>1.2</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1882</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1883</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater-Cathode</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>5</prmt>
+     <prmt>1.6</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1A7</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.25</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1FW1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater-Cathode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1W2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater-Cathode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.2</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1W3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1X4/350</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>350</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>213</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>220</prmt>
+     <prmt>65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2200</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>1.8</prmt>
+     <prmt>2.8</prmt>
+     <prmt>180</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>225DU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>BB7</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Heater2</cppn>
+     <cppn nr="4">Heater2</cppn>
+     <cppn nr="5">Heater1</cppn>
+     <cppn nr="6">Heater1</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <prmt>2</prmt>
+     <prmt>1</prmt>
+     <prmt>750</prmt>
+     <prmt>20</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2340</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>1.8</prmt>
+     <prmt>2.8</prmt>
+     <prmt>340</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>240NG</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>241NG</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>2506</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>40</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>25RE</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Cathode1</cppn>
+     <cppn nr="4">Cathode2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>25</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>85</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>25T3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Anode1)</cppn>
+     <cppn nr="10">(Anode2)</cppn>
+     <prmt>25</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=80ohm</cpld>
+  </component>
+  <component>
+     <cpnm>263</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>26Z6</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode-Diode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode-Diode1</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode-Diode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Cathode-Diode2</cppn>
+     <cppn nr="9">Branch of heater</cppn>
+     <prmt>26.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>325</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>274A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>660</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2769</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.2</prmt>
+     <prmt>4</prmt>
+     <prmt>1000</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>280</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>280M</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>282</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>283</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>284</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>325</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>288</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater-Cathode</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>28Z5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Branch of heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>28</prmt>
+     <prmt>0.24</prmt>
+     <prmt>325</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2NG</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.25</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2R100</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>2S/4S</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.3</prmt>
+     <prmt>200</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>345A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>351A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>35RE</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Cathode1</cppn>
+     <cppn nr="4">Cathode2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>35</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>380</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater-Cathode</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>382</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>383</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>384</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>325</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>38567R</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>3G10</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3G130</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.3</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3G15</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3G310</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.3</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>405BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.5</prmt>
+     <prmt>1500</prmt>
+     <prmt>20</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>408BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.8</prmt>
+     <prmt>300</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>408BV</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>412BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>43IU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>43JU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>44IU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>44JU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>45IU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater-Cathode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>3.2</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>460BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4619</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4647</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.2</prmt>
+     <prmt>4</prmt>
+     <prmt>1000</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4648</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.3</prmt>
+     <prmt>1000</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4651</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>400</prmt>
+     <prmt>175</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>4652</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4655</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>480</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>482</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>483</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.25</prmt>
+     <prmt>450</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4G105</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4G106</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4G200</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4G30</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4G60</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.6</prmt>
+     <prmt>220</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4GG1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4GG2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4R1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4R2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4R3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4S</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>1.35</prmt>
+     <prmt>50</prmt>
+     <prmt>40</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4VGL100</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>4Z11</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4Z60A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.8</prmt>
+     <prmt>300</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4Z60B</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4Z60C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A10</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Cathode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Cathode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>506BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>506</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>52KU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>53KU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2.8</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>54KU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5838</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>12</prmt>
+     <prmt>0.6</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5839</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>26.5</prmt>
+     <prmt>0.285</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5882</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>12</prmt>
+     <prmt>0.6</prmt>
+     <prmt>300</prmt>
+     <prmt>65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5896</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>460</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5903</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>26.5</prmt>
+     <prmt>0.045</prmt>
+     <prmt>460</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5931</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5993</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.8</prmt>
+     <prmt>260</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5AQ4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>If Ua=500V Ia=125mA Ra=125ohm; Ua=350V Ia=250mA Ra=100ohm; Ua=300V Ia=300mA Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5AR4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>1.9</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>Ra=125ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5AW4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>4</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>Ra=150ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5AX4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>350</prmt>
+     <prmt>175</prmt>
+     <cpld>Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5AZ4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5R4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>900</prmt>
+     <prmt>150</prmt>
+     <cpld>Ra=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5T4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5U4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5U4GA</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5U4GB</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>275</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5V4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>525</prmt>
+     <prmt>175</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5W4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5X3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5X4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>5X4G</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>5Y3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5Y3G</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x350V</cpld>
+  </component>
+  <component>
+     <cpnm>5Y4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5Z3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>5Z4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>5Z4G</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater; Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>5Z4GT</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater; Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>5Z5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>6052</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>460</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6053</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>26.5</prmt>
+     <prmt>0.045</prmt>
+     <prmt>460</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6058</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Cathode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Cathode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6063</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6110</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>460</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>612BU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>6</prmt>
+     <prmt>0.4</prmt>
+     <prmt>250</prmt>
+     <prmt>50</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6202</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>1250</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>66KU</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6AW4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6AX5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1.2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6BT4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>250</prmt>
+     <prmt>90</prmt>
+     <cpld>If Ua=250V Ra=125ohm; Ua=300V Ra=215ohm; Ua=350V Ra=300ohm; C=50uF</cpld>
+  </component>
+  <component>
+     <cpnm>6BX4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm</cpld>
+  </component>
+  <component>
+     <cpnm>6CA4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>150</prmt>
+     <cpld>If Ua=250V Ra=150ohm; Ua=300V Ra=200ohm; Ua=350V Ra=240ohm; C=50uF; Uch=500V</cpld>
+  </component>
+  <component>
+     <cpnm>6FX4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.8</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=1kohm</cpld>
+  </component>
+  <component>
+     <cpnm>6GG6</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6R7</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>6V4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm; C=32uF</cpld>
+  </component>
+  <component>
+     <cpnm>6W5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>325</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6X4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6X5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6X5G</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B6</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>450</prmt>
+     <prmt>70</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>6X5GT</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>Ra=350ohm</cpld>
+  </component>
+  <component>
+     <cpnm>6Y5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.8</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6Z40</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>350</prmt>
+     <prmt>EOP</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6Z4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6Z5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Branch of heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.8</prmt>
+     <prmt>230</prmt>
+     <prmt>60</prmt>
+     <cpld>Uf=12.6V If=0.4A</cpld>
+  </component>
+  <component>
+     <cpnm>6ZY5</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>325</prmt>
+     <prmt>40</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>73302</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.5</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>74301</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>74303</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>75301</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>75303</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">(wire to 1)</cppn>
+     <cppn nr="6">(wire to 1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1.3</prmt>
+     <prmt>800</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>75305</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>76301</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>76303</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>180</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>77305</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7Y4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7Y7</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7Z4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>80G</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>80S</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater-Cathode</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>82</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>83</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>83V</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>84/6Z4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>325</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>84</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>88</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>450</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>951F</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Y6</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Cathode1</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Cathode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>200</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>APV4200</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.9</prmt>
+     <prmt>400</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>AX1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AZ11</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ11N</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A10</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater2</cppn>
+     <cppn nr="5">Heater2-Cathode2</cppn>
+     <cppn nr="6">Wire to 3</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater1</cppn>
+     <cppn nr="10">Heater1-Cathode1</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-75mA; 300V-100mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ12</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ150</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>AZ21</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater branch</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>70</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=120mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AZ31</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-75mA; 300V-100mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ32</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua-Ia: 500V-120mA; 300V-160mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ33</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AZ3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1.85</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AZ41</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">wire to 3</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">wire to 4</cppn>
+     <cppn nr="4">wire to 5</cppn>
+     <cppn nr="5">wire to 1</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.72</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-60mA; 300V-70mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>AZ50</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua-Ia: 500V-250mA; 400V-275mA; 300V-300mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV10330</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>900</prmt>
+     <prmt>150</prmt>
+     <cpld>Ra=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1039</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1268</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1289</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1377</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>1.9</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>Ra=125ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1451</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>660</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1535</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm; C=32uF</cpld>
+  </component>
+  <component>
+     <cpnm>CV1708</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1773</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1790</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1800</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.25</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1802</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>4</prmt>
+     <prmt>2.25</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1846</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1849</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1852</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>CV1854</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1856</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1857</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1861</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>CV1863</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>CV1864</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV1963</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>CV1964</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>CV2547</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2548</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2603</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>660</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2606</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>325</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2630</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2640</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.5</prmt>
+     <prmt>1500</prmt>
+     <prmt>20</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2644</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.5</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2645</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2698</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>460</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2748</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater; Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>CV2844</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2860</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>CV2861</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2862</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-75mA; 300V-100mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV346</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>450</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV378</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2.8</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV3891</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>250</prmt>
+     <prmt>90</prmt>
+     <cpld>If Ua=250V Ra=125ohm; Ua=300V Ra=215ohm; Ua=350V Ra=300ohm; C=50uF</cpld>
+  </component>
+  <component>
+     <cpnm>CV3892</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">wire to 3</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">wire to 4</cppn>
+     <cppn nr="4">wire to 5</cppn>
+     <cppn nr="5">wire to 1</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.72</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-60mA; 300V-70mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV4005</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4025</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Cathode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Cathode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4026</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>900</prmt>
+     <prmt>150</prmt>
+     <cpld>Ra=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV493</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5005</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>460</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV503</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV5072</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>150</prmt>
+     <cpld>If Ua=250V Ra=150ohm; Ua=300V Ra=200ohm; Ua=350V Ra=240ohm; C=50uF; Uch=500V</cpld>
+  </component>
+  <component>
+     <cpnm>CV564</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV565</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV572</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV572</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B6</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>450</prmt>
+     <prmt>70</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>CV573</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV574</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>Ra=350ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV575</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV593</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>If Ua=500V Ia=125mA Ra=125ohm; Ua=350V Ia=250mA Ra=100ohm; Ua=300V Ia=300mA Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV617</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV619</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV726</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV729</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>525</prmt>
+     <prmt>175</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV8203</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV8223</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV8237</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV841</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV842</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV871</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Branch of heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.8</prmt>
+     <prmt>230</prmt>
+     <prmt>60</prmt>
+     <cpld>Uf=12.6V If=0.4A</cpld>
+  </component>
+  <component>
+     <cpnm>CV873</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>325</prmt>
+     <prmt>40</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV901</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>D380B</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DW2X</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EML-274A-Mesh</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">?</cppn>
+     <cppn nr="2">?</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">?</cppn>
+     <cppn nr="8">EOP</cppn>
+     <cppn nr="9">Heater</cppn>
+     <cppn nr="10">Anode1</cppn>
+     <cppn nr="11">Anode2</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2.4</prmt>
+     <prmt>450</prmt>
+     <prmt>140</prmt>
+     <cpld>Manufacturer: EmissionLabs. Filter CLC: 4uF+10H+max. 20uF.</cpld>
+  </component>
+  <component>
+     <cpnm>EML-274B-Mesh</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">?</cppn>
+     <cppn nr="2">?</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">?</cppn>
+     <cppn nr="8">EOP</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">Heater</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode1</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Anode2</cppn>
+     <cppn nr="15">NC</cppn>
+     <cppn nr="16">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2.4</prmt>
+     <prmt>450</prmt>
+     <prmt>140</prmt>
+     <cpld>Manufacturer: EmissionLabs. Filter CLC: 4uF+10H+max. 20uF.</cpld>
+  </component>
+  <component>
+     <cpnm>EML-5U4G-Mesh</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">?</cppn>
+     <cppn nr="2">?</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">?</cppn>
+     <cppn nr="8">EOP</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">Heater</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode1</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Anode2</cppn>
+     <cppn nr="15">NC</cppn>
+     <cppn nr="16">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550V</prmt>
+     <prmt>225</prmt>
+     <cpld>Manufacturer: EmissionLabs. C1max=33uF</cpld>
+  </component>
+  <component>
+     <cpnm>EML-5Z3-Mesh</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">?</cppn>
+     <cppn nr="2">?</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">?</cppn>
+     <cppn nr="8">EOP</cppn>
+     <cppn nr="9">Heater</cppn>
+     <cppn nr="10">Anode1</cppn>
+     <cppn nr="11">Anode2</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550V</prmt>
+     <prmt>225</prmt>
+     <cpld>Manufacturer: EmissionLabs. C1max=33uF</cpld>
+  </component>
+  <component>
+     <cpnm>ER80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>EX680</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>EZ11</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.29</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>Uch=600V; Ra=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EZ12</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>Uch=550V; Ra=300ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EZ150</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>XA10</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Cathode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Cathode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3</prmt>
+     <prmt>600</prmt>
+     <prmt>380</prmt>
+     <cpld>Uch=750V; Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EZ22</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>450</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EZ2/3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>EZ2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>EZ33</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EZ35</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>Ra=350ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EZ3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>EZ40</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>250</prmt>
+     <prmt>90</prmt>
+     <cpld>If Ua=250V Ra=125ohm; Ua=300V Ra=215ohm; Ua=350V Ra=300ohm; C=50uF</cpld>
+  </component>
+  <component>
+     <cpnm>EZ41</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>Ra=300ohm; C=32uF</cpld>
+  </component>
+  <component>
+     <cpnm>EZ4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>400</prmt>
+     <prmt>175</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>EZ80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm; C=32uF</cpld>
+  </component>
+  <component>
+     <cpnm>EZ81</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>150</prmt>
+     <cpld>If Ua=250V Ra=150ohm; Ua=300V Ra=200ohm; Ua=350V Ra=240ohm; C=50uF; Uch=500V</cpld>
+  </component>
+  <component>
+     <cpnm>EZ90</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EZ91</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.95</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>FZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>13</prmt>
+     <prmt>0.25</prmt>
+     <prmt>250</prmt>
+     <prmt>50</prmt>
+     <cpld>Uch=350V</cpld>
+  </component>
+  <component>
+     <cpnm>G504</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>GZ30</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater; Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>GZ32</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>If Ua=500V Ia=125mA Ra=125ohm; Ua=350V Ia=250mA Ra=100ohm; Ua=300V Ia=300mA Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>GZ33</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2.8</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>GZ34</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>1.9</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>Ra=125ohm</cpld>
+  </component>
+  <component>
+     <cpnm>GZ41</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>0.75</prmt>
+     <prmt>450</prmt>
+     <prmt>70</prmt>
+     <cpld>Uch=450V</cpld>
+  </component>
+  <component>
+     <cpnm>KX5Z3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>KX80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-204</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Shield</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode1</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>460</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-454</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-492C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Cathode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Cathode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-493C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.95</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-493C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-523C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>350</prmt>
+     <prmt>90</prmt>
+     <cpld>Ra=300ohm; C=32uF</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-549C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anode2</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>150</prmt>
+     <cpld>If Ua=250V Ra=150ohm; Ua=300V Ra=200ohm; Ua=350V Ra=240ohm; C=50uF; Uch=500V</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-711C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>250</prmt>
+     <prmt>90</prmt>
+     <cpld>If Ua=250V Ra=125ohm; Ua=300V Ra=215ohm; Ua=350V Ra=300ohm; C=50uF</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-712C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">wire to 3</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">wire to 4</cppn>
+     <cppn nr="4">wire to 5</cppn>
+     <cppn nr="5">wire to 1</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.72</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua-Ia: 500V-60mA; 400V-60mA; 300V-70mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-848</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>7</prmt>
+     <prmt>0.53</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-901C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-902C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-919C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.29</prmt>
+     <prmt>250</prmt>
+     <prmt>60</prmt>
+     <cpld>Uch=600V; Ra=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-925C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>Uch=550V; Ra=300ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-066</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>If Ua=500V Ia=125mA Ra=125ohm; Ua=350V Ia=250mA Ra=100ohm; Ua=300V Ia=300mA Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-104</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-105</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>350</prmt>
+     <prmt>100</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-177C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-178</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U5</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>450</prmt>
+     <prmt>225</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-179D</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x350V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-180</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ra=100ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-181C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater; Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x400V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-181D</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-213</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-236</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-237</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>Ra=350ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-266C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>1.9</prmt>
+     <prmt>450</prmt>
+     <prmt>250</prmt>
+     <cpld>Ra=125ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-270C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2.8</prmt>
+     <prmt>500</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-507C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1.85</prmt>
+     <prmt>350</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-508C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-524C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-539C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-540C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-541C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>400</prmt>
+     <prmt>175</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-609</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>550</prmt>
+     <prmt>225</prmt>
+     <cpld>Ra=200ohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-609</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-618</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater-Cathode</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>175</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-636</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-637</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-652</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>400</prmt>
+     <prmt>110</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-801C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua-Ia: 500V-250mA; 400V-275mA; 300V-300mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-876C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-877C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-601C</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-616</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MAZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>NU20</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x350V</cpld>
+  </component>
+  <component>
+     <cpnm>OSW3121</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>P280</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>PV4100</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PV4200</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PV4201</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>600</prmt>
+     <prmt>180</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PV430</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.3</prmt>
+     <prmt>300</prmt>
+     <prmt>25</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>PV475</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.75</prmt>
+     <prmt>250</prmt>
+     <prmt>45</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PV480</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>45</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PV495</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PZ30</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Cathode2</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Heater branch</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode1</cppn>
+     <prmt>52</prmt>
+     <prmt>0.3</prmt>
+     <prmt>240</prmt>
+     <prmt>200</prmt>
+     <cpld>Ra=50ohm</cpld>
+  </component>
+  <component>
+     <cpnm>R52</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x350V</cpld>
+  </component>
+  <component>
+     <cpnm>RE4100</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>RGN1054</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>RGN1064</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>500</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>RGN380</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>TAZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>TEZ2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.4</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>(Ua=2x350V Uhcmax=500Vp)</cpld>
+  </component>
+  <component>
+     <cpnm>TEZ3</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>400</prmt>
+     <prmt>100</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>TEZ4</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.9</prmt>
+     <prmt>400</prmt>
+     <prmt>175</prmt>
+     <cpld>(Ua=2x400V  Connect cathode to heater!)</cpld>
+  </component>
+  <component>
+     <cpnm>TV80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TZ1</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>U10</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UX280</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>V2</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V580</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>VG3116</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>VG3716</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>VG5007</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>VT126A</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B6</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>450</prmt>
+     <prmt>70</prmt>
+     <cpld>Ua=2x450V</cpld>
+  </component>
+  <component>
+     <cpnm>VT126</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>325</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT145</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>Ua=2x500V</cpld>
+  </component>
+  <component>
+     <cpnm>VT197</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>350</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x350V</cpld>
+  </component>
+  <component>
+     <cpnm>VT80</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>2</prmt>
+     <prmt>300</prmt>
+     <prmt>125</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>VT83</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>5</prmt>
+     <prmt>3</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT84</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>350</prmt>
+     <prmt>60</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>W6</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>1.1</prmt>
+     <prmt>300</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>WE54</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>WE55</cpnm>
+     <cpct>0</cpct>
+     <cpds>full-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>300</prmt>
+     <prmt>100</prmt>
+     <cpld>Ua=2x300V</cpld>
+  </component>
+  <component>
+     <cpnm>WE56</cpnm>
+     <cpct>0</cpct>
+     <cpds>full wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>2.4</prmt>
+     <prmt>500</prmt>
+     <prmt>120</prmt>
+     <cpld>Ua=2x500V; if Ua=2x300V Ia=200mA</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

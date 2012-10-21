@@ -1,0 +1,5 @@
+ Ia:	anode current
+ Ih:	heater current
+ Symh:	symbol height
+ Uh:	heater voltage
+ Upl:	plate voltage

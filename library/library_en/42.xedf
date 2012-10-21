@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Thyratrons (N)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>9</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ra [kohm]</prmt>
+    <prmt nr="5">Pout [W]</prmt>
+    <prmt nr="6">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>2D21</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV10665</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV4018</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV474</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B8D</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV797</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV8158</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>EN31</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Anode)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1.3</prmt>
+     <prmt>1500</prmt>
+     <prmt>750</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EN70</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B8D</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EN91</cpnm>
+     <cpct>0</cpct>
+     <cpds>thyratron</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>8</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uap=650V Iap=100mA</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,6 @@
+ Ui:	gyújtófeszültség
+ Uamin:	maximális anód feszültség
+ Uamax:	maximális anód feszültség
+ Iamin:	minimális anód áram
+ Iamax:	maximális anód áram
+ Rint:	belső ellenállás

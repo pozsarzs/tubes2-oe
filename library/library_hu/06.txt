@@ -1,0 +1,3 @@
+ If:	stabilizált áram
+ Umin:	minimális működési feszültség
+ Umax:	maximális működési feszültség

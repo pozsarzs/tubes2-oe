@@ -1,0 +1,1508 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Számlálócsövek (dekatronok)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>39</noc>
+    <prmt nr="0">Count. steps</prmt>
+    <prmt nr="1">fcntmax [kHz]</prmt>
+    <prmt nr="2">Usmin [V]</prmt>
+    <prmt nr="3">Us [V]</prmt>
+    <prmt nr="4">Um [V]</prmt>
+    <prmt nr="5">Iacmin [mA]</prmt>
+    <prmt nr="6">Iac [mA]</prmt>
+    <prmt nr="7">Iacmax [mA]</prmt>
+    <prmt nr="8">Ra [kohm]</prmt>
+    <prmt nr="9">Uccdif [V]</prmt>
+    <prmt nr="10">Utrmin [V]</prmt>
+    <prmt nr="11">Ugb [V]</prmt>
+    <prmt nr="12">Ugs [Vp]</prmt>
+    <prmt nr="13">Ugs [Veff]</prmt>
+    <prmt nr="14">tgsp [us]</prmt>
+    <prmt nr="15">Rc [kohm]</prmt>
+    <prmt nr="16">Rcmax [kohm]</prmt>
+    <prmt nr="17">Uout [V]</prmt>
+    <prmt nr="18">Ures [V]</prmt>
+    <prmt nr="19">tres [us]</prmt>
+  </header>
+  <component>
+     <cpnm>4CG10A2</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">C1-9</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">G3</cppn>
+     <cppn nr="6">G3 out C0</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">A</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>380</prmt>
+     <prmt>380</prmt>
+     <prmt>190</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>6802</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-4 C6-7</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">C8</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>425</prmt>
+     <prmt>187</prmt>
+     <prmt>300</prmt>
+     <prmt>290</prmt>
+     <prmt>600</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>35</prmt>
+     <prmt>-75</prmt>
+     <prmt>53</prmt>
+     <prmt>60</prmt>
+     <prmt>100</prmt>
+     <prmt>150</prmt>
+     <prmt>30</prmt>
+     <prmt>-120</prmt>
+     <prmt>50</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>6909</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-4 C6-7</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">C8</cppn>
+     <prmt>10</prmt>
+     <prmt>100</prmt>
+     <prmt>400</prmt>
+     <prmt>450</prmt>
+     <prmt>235</prmt>
+     <prmt>600</prmt>
+     <prmt>796</prmt>
+     <prmt>800</prmt>
+     <prmt>270</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>45</prmt>
+     <prmt>-85</prmt>
+     <prmt>60</prmt>
+     <prmt>4</prmt>
+     <prmt>24</prmt>
+     <prmt>50</prmt>
+     <prmt>15</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Nagysebességű kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>8353</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">G2</cppn>
+     <cppn nr="12">G1</cppn>
+     <cppn nr="13">A</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>350</prmt>
+     <prmt>187</prmt>
+     <prmt>300</prmt>
+     <prmt>350</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>35</prmt>
+     <prmt>35</prmt>
+     <prmt>-75</prmt>
+     <prmt>53</prmt>
+     <prmt>60</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>-120</prmt>
+     <prmt>50</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számláló- és kiválasztócső. Nullhelyzet: 12 és 13 között.</cpld>
+  </component>
+  <component>
+     <cpnm>8433</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C5</cppn>
+     <cppn nr="2">C4</cppn>
+     <cppn nr="3">C3</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">C2</cppn>
+     <cppn nr="6">C1</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">G1</cppn>
+     <cppn nr="9">C9</cppn>
+     <cppn nr="10">C8</cppn>
+     <cppn nr="11">A</cppn>
+     <cppn nr="12">C7</cppn>
+     <cppn nr="13">C6</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>375</prmt>
+     <prmt>475</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>340</prmt>
+     <prmt>525</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>45</prmt>
+     <prmt>40</prmt>
+     <prmt>-120</prmt>
+     <prmt>85</prmt>
+     <prmt>?</prmt>
+     <prmt>103</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>CK6802</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-4 C6-7</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">C8</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>425</prmt>
+     <prmt>187</prmt>
+     <prmt>300</prmt>
+     <prmt>290</prmt>
+     <prmt>600</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>35</prmt>
+     <prmt>-75</prmt>
+     <prmt>53</prmt>
+     <prmt>60</prmt>
+     <prmt>100</prmt>
+     <prmt>150</prmt>
+     <prmt>30</prmt>
+     <prmt>-120</prmt>
+     <prmt>50</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CK6909</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-4 C6-7</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">C8</cppn>
+     <prmt>10</prmt>
+     <prmt>100</prmt>
+     <prmt>400</prmt>
+     <prmt>450</prmt>
+     <prmt>235</prmt>
+     <prmt>600</prmt>
+     <prmt>796</prmt>
+     <prmt>800</prmt>
+     <prmt>270</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>45</prmt>
+     <prmt>-85</prmt>
+     <prmt>60</prmt>
+     <prmt>4</prmt>
+     <prmt>24</prmt>
+     <prmt>50</prmt>
+     <prmt>15</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Nagysebességű kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CT783</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">G3</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C0</cppn>
+     <cppn nr="7">G3 out</cppn>
+     <cppn nr="8">G2</cppn>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>195</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV1739</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-2 C4 C6 C7-8</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (9)</cppn>
+     <cppn nr="7">CB (0)</cppn>
+     <cppn nr="8">CC (3)</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV1740</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>solder_tag_16</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">C0</cppn>
+     <cppn nr="4">C11</cppn>
+     <cppn nr="5">C10</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C8</cppn>
+     <cppn nr="8">C7</cppn>
+     <cppn nr="9">G2</cppn>
+     <cppn nr="10">C6</cppn>
+     <cppn nr="11">C5</cppn>
+     <cppn nr="12">C4</cppn>
+     <cppn nr="13">G1</cppn>
+     <cppn nr="14">C3</cppn>
+     <cppn nr="15">C2</cppn>
+     <cppn nr="16">C1</cppn>
+     <prmt>12</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>192</prmt>
+     <prmt>250</prmt>
+     <prmt>325</prmt>
+     <prmt>550</prmt>
+     <prmt>680</prmt>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>36</prmt>
+     <prmt>-145</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>270</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú kettősdecal számláló- és kiválasztócső. Nullhelyzet: 2 és 3 között.</cpld>
+  </component>
+  <component>
+     <cpnm>CV2271</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>191</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>18</prmt>
+     <prmt>-145</prmt>
+     <prmt>40-70</prmt>
+     <prmt>80</prmt>
+     <prmt>120</prmt>
+     <prmt>150</prmt>
+     <prmt>25-40</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számláló- és kiválasztócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV5143</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">G3</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C0</cppn>
+     <cppn nr="7">G3 out</cppn>
+     <cppn nr="8">G2</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>420</prmt>
+     <prmt>475</prmt>
+     <prmt>215</prmt>
+     <prmt>700</prmt>
+     <prmt>800</prmt>
+     <prmt>1200</prmt>
+     <prmt>330</prmt>
+     <prmt>180</prmt>
+     <prmt>?</prmt>
+     <prmt>60</prmt>
+     <prmt>-144</prmt>
+     <prmt>50-80</prmt>
+     <prmt>25</prmt>
+     <prmt>82</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-140</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV5291</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B12A</cppc>
+     <cppn nr="1">C1</cppn>
+     <cppn nr="2">C0</cppn>
+     <cppn nr="3">C9</cppn>
+     <cppn nr="4">C8</cppn>
+     <cppn nr="5">C7</cppn>
+     <cppn nr="6">C6</cppn>
+     <cppn nr="7">C5</cppn>
+     <cppn nr="8">C4</cppn>
+     <cppn nr="9">C3</cppn>
+     <cppn nr="10">C2</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">A</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>129</prmt>
+     <prmt>?</prmt>
+     <prmt>108</prmt>
+     <prmt>50</prmt>
+     <prmt>60</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Dekatron style register cső.</cpld>
+  </component>
+  <component>
+     <cpnm>CV6044</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú hosszúéletű decimális számlálócső.  Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV6100</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-2 C4 C6 C7-8</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (9)</cppn>
+     <cppn nr="7">CB (0)</cppn>
+     <cppn nr="8">CC (3)</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>CV8630</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B17A</cppc>
+     <cppn nr="1">C6</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">C4</cppn>
+     <cppn nr="5">C3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C2</cppn>
+     <cppn nr="8">A</cppn>
+     <cppn nr="9">C1</cppn>
+     <cppn nr="10">C0</cppn>
+     <cppn nr="11">RG2</cppn>
+     <cppn nr="12">RG1</cppn>
+     <cppn nr="13">C9</cppn>
+     <cppn nr="14">C8</cppn>
+     <cppn nr="15">G2</cppn>
+     <cppn nr="16">C7</cppn>
+     <cppn nr="17">G1</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>380</prmt>
+     <prmt>475</prmt>
+     <prmt>187</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>370</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-70</prmt>
+     <prmt>55</prmt>
+     <prmt>80</prmt>
+     <prmt>82</prmt>
+     <prmt>?</prmt>
+     <prmt>28</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számláló- és kiválasztócső with 2 routing guides.</cpld>
+  </component>
+  <component>
+     <cpnm>DK23</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">C1-9</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">G3</cppn>
+     <cppn nr="6">G3 out C0</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">A</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>380</prmt>
+     <prmt>380</prmt>
+     <prmt>190</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>GC10_4B</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-2 C4 C6 C7-8</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (9)</cppn>
+     <cppn nr="7">CB (0)</cppn>
+     <cppn nr="8">CC (3)</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GC10B</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>191</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>18</prmt>
+     <prmt>-145</prmt>
+     <prmt>40-70</prmt>
+     <prmt>80</prmt>
+     <prmt>120</prmt>
+     <prmt>150</prmt>
+     <prmt>25-40</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számláló- és kiválasztócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GC10B_L</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú hosszúéletű decimális számlálócső.  Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GC10BS</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>191</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>18</prmt>
+     <prmt>-145</prmt>
+     <prmt>40-70</prmt>
+     <prmt>80</prmt>
+     <prmt>120</prmt>
+     <prmt>150</prmt>
+     <prmt>25-40</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számláló- és kiválasztócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GC10D</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">G3</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C0</cppn>
+     <cppn nr="7">G3 out</cppn>
+     <cppn nr="8">G2</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>420</prmt>
+     <prmt>475</prmt>
+     <prmt>215</prmt>
+     <prmt>700</prmt>
+     <prmt>800</prmt>
+     <prmt>1200</prmt>
+     <prmt>330</prmt>
+     <prmt>180</prmt>
+     <prmt>?</prmt>
+     <prmt>60</prmt>
+     <prmt>-144</prmt>
+     <prmt>50-80</prmt>
+     <prmt>25</prmt>
+     <prmt>82</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-140</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GC12_4B</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-4 C6 C8-9 C12</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (10)</cppn>
+     <cppn nr="7">CB (11)</cppn>
+     <cppn nr="8">CC (7)</cppn>
+     <prmt>12</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>40-70</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú 12-step számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>GR10A</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B12A</cppc>
+     <cppn nr="1">C1</cppn>
+     <cppn nr="2">C0</cppn>
+     <cppn nr="3">C9</cppn>
+     <cppn nr="4">C8</cppn>
+     <cppn nr="5">C7</cppn>
+     <cppn nr="6">C6</cppn>
+     <cppn nr="7">C5</cppn>
+     <cppn nr="8">C4</cppn>
+     <cppn nr="9">C3</cppn>
+     <cppn nr="10">C2</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">A</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>129</prmt>
+     <prmt>?</prmt>
+     <prmt>108</prmt>
+     <prmt>50</prmt>
+     <prmt>60</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Dekatron style register cső.</cpld>
+  </component>
+  <component>
+     <cpnm>GS10H</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B17A</cppc>
+     <cppn nr="1">C6</cppn>
+     <cppn nr="2">C5</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">C4</cppn>
+     <cppn nr="5">C3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C2</cppn>
+     <cppn nr="8">A</cppn>
+     <cppn nr="9">C1</cppn>
+     <cppn nr="10">C0</cppn>
+     <cppn nr="11">RG2</cppn>
+     <cppn nr="12">RG1</cppn>
+     <cppn nr="13">C9</cppn>
+     <cppn nr="14">C8</cppn>
+     <cppn nr="15">G2</cppn>
+     <cppn nr="16">C7</cppn>
+     <cppn nr="17">G1</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>380</prmt>
+     <prmt>475</prmt>
+     <prmt>187</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>370</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-70</prmt>
+     <prmt>55</prmt>
+     <prmt>80</prmt>
+     <prmt>82</prmt>
+     <prmt>?</prmt>
+     <prmt>28</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számláló- és kiválasztócső 2 guide-dal.</cpld>
+  </component>
+  <component>
+     <cpnm>GS12C</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>solder_tag_16</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">C0</cppn>
+     <cppn nr="4">C11</cppn>
+     <cppn nr="5">C10</cppn>
+     <cppn nr="6">C9</cppn>
+     <cppn nr="7">C8</cppn>
+     <cppn nr="8">C7</cppn>
+     <cppn nr="9">G2</cppn>
+     <cppn nr="10">C6</cppn>
+     <cppn nr="11">C5</cppn>
+     <cppn nr="12">C4</cppn>
+     <cppn nr="13">G1</cppn>
+     <cppn nr="14">C3</cppn>
+     <cppn nr="15">C2</cppn>
+     <cppn nr="16">C1</cppn>
+     <prmt>12</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>192</prmt>
+     <prmt>250</prmt>
+     <prmt>325</prmt>
+     <prmt>550</prmt>
+     <prmt>680</prmt>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>36</prmt>
+     <prmt>-145</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>270</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú kettősdecal számláló- és kiválasztócső. Nullhelyzet: 2 és 3 között.</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-401C</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-2 C4 C6 C7-8</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (9)</cppn>
+     <cppn nr="7">CB (0)</cppn>
+     <cppn nr="8">CC (3)</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>OG3</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">G3</cppn>
+     <cppn nr="2">C1-9</cppn>
+     <cppn nr="3">G2</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">G1</cppn>
+     <cppn nr="6">A</cppn>
+     <cppn nr="7">G3 (C0)</cppn>
+     <cppn nr="8">C0</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>420</prmt>
+     <prmt>450</prmt>
+     <prmt>190</prmt>
+     <prmt>600</prmt>
+     <prmt>700</prmt>
+     <prmt>800</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>40</prmt>
+     <prmt>-125</prmt>
+     <prmt>?</prmt>
+     <prmt>17-22</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2-5</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 1.</cpld>
+  </component>
+  <component>
+     <cpnm>OG4</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">A</cppn>
+     <cppn nr="4">G1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">G2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">C1-9</cppn>
+     <prmt>10</prmt>
+     <prmt>2</prmt>
+     <prmt>375</prmt>
+     <prmt>450</prmt>
+     <prmt>150</prmt>
+     <prmt>300</prmt>
+     <prmt>400</prmt>
+     <prmt>450</prmt>
+     <prmt>820</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>175</prmt>
+     <prmt>?</prmt>
+     <prmt>160-500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>15</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet az 1 és 8 között.</cpld>
+  </component>
+  <component>
+     <cpnm>VX9194_4B</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-2 C4 C6 C7-8</cppn>
+     <cppn nr="2">CD (5)</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">CA (9)</cppn>
+     <cppn nr="7">CB (0)</cppn>
+     <cppn nr="8">CC (3)</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső átvitel kimenettel. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>VX9194</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>400</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>60</prmt>
+     <prmt>80</prmt>
+     <prmt>33</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú hosszúéletű decimális számlálócső.  Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>Z303C</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">C1-9</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">G1</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">G2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>10</prmt>
+     <prmt>4</prmt>
+     <prmt>350</prmt>
+     <prmt>475</prmt>
+     <prmt>191</prmt>
+     <prmt>250</prmt>
+     <prmt>310</prmt>
+     <prmt>550</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>35</prmt>
+     <prmt>18</prmt>
+     <prmt>-145</prmt>
+     <prmt>40-70</prmt>
+     <prmt>80</prmt>
+     <prmt>120</prmt>
+     <prmt>150</prmt>
+     <prmt>25-40</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú egyszeres impulzusú decimális számláló- és kiválasztócső. Nullhelyzet: Láb 6.</cpld>
+  </component>
+  <component>
+     <cpnm>Z503M</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B12A</cppc>
+     <cppn nr="1">C1</cppn>
+     <cppn nr="2">C0</cppn>
+     <cppn nr="3">C9</cppn>
+     <cppn nr="4">C8</cppn>
+     <cppn nr="5">C7</cppn>
+     <cppn nr="6">C6</cppn>
+     <cppn nr="7">C5</cppn>
+     <cppn nr="8">C4</cppn>
+     <cppn nr="9">C3</cppn>
+     <cppn nr="10">C2</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">A</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>129</prmt>
+     <prmt>?</prmt>
+     <prmt>108</prmt>
+     <prmt>50</prmt>
+     <prmt>60</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Dekatron-féle regisztrálócső.</cpld>
+  </component>
+  <component>
+     <cpnm>Z504S</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C5</cppn>
+     <cppn nr="2">C4</cppn>
+     <cppn nr="3">C3</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">C2</cppn>
+     <cppn nr="6">C1</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">G1</cppn>
+     <cppn nr="9">C9</cppn>
+     <cppn nr="10">C8</cppn>
+     <cppn nr="11">A</cppn>
+     <cppn nr="12">C7</cppn>
+     <cppn nr="13">C6</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>375</prmt>
+     <prmt>475</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>340</prmt>
+     <prmt>525</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>45</prmt>
+     <prmt>40</prmt>
+     <prmt>-120</prmt>
+     <prmt>85</prmt>
+     <prmt>?</prmt>
+     <prmt>103</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>Z505S</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C5</cppn>
+     <cppn nr="2">C4</cppn>
+     <cppn nr="3">C3</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">C2</cppn>
+     <cppn nr="6">C1</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">G1</cppn>
+     <cppn nr="9">C9</cppn>
+     <cppn nr="10">C8</cppn>
+     <cppn nr="11">A</cppn>
+     <cppn nr="12">C7</cppn>
+     <cppn nr="13">C6</cppn>
+     <prmt>10</prmt>
+     <prmt>50</prmt>
+     <prmt>400</prmt>
+     <prmt>500</prmt>
+     <prmt>275</prmt>
+     <prmt>600</prmt>
+     <prmt>800</prmt>
+     <prmt>1000</prmt>
+     <prmt>330</prmt>
+     <prmt>140</prmt>
+     <prmt>50</prmt>
+     <prmt>60</prmt>
+     <prmt>-50</prmt>
+     <prmt>?</prmt>
+     <prmt>6</prmt>
+     <prmt>30</prmt>
+     <prmt>?</prmt>
+     <prmt>24</prmt>
+     <prmt>-100</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>Z564S</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">G1</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">C0</cppn>
+     <cppn nr="4">C9</cppn>
+     <cppn nr="5">C8</cppn>
+     <cppn nr="6">C7</cppn>
+     <cppn nr="7">C6</cppn>
+     <cppn nr="8">G2</cppn>
+     <cppn nr="9">C5</cppn>
+     <cppn nr="10">C4</cppn>
+     <cppn nr="11">C3</cppn>
+     <cppn nr="12">C2</cppn>
+     <cppn nr="13">C1</cppn>
+     <prmt>10</prmt>
+     <prmt>25</prmt>
+     <prmt>400</prmt>
+     <prmt>450</prmt>
+     <prmt>195</prmt>
+     <prmt>700</prmt>
+     <prmt>800</prmt>
+     <prmt>900</prmt>
+     <prmt>300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>47</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-140</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 1.</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1060</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C5</cppn>
+     <cppn nr="2">C4</cppn>
+     <cppn nr="3">C3</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">C2</cppn>
+     <cppn nr="6">C1</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">G1</cppn>
+     <cppn nr="9">C9</cppn>
+     <cppn nr="10">C8</cppn>
+     <cppn nr="11">A</cppn>
+     <cppn nr="12">C7</cppn>
+     <cppn nr="13">C6</cppn>
+     <prmt>10</prmt>
+     <prmt>50</prmt>
+     <prmt>400</prmt>
+     <prmt>500</prmt>
+     <prmt>275</prmt>
+     <prmt>600</prmt>
+     <prmt>800</prmt>
+     <prmt>1000</prmt>
+     <prmt>330</prmt>
+     <prmt>140</prmt>
+     <prmt>50</prmt>
+     <prmt>60</prmt>
+     <prmt>-50</prmt>
+     <prmt>?</prmt>
+     <prmt>6</prmt>
+     <prmt>30</prmt>
+     <prmt>?</prmt>
+     <prmt>24</prmt>
+     <prmt>-100</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1070</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">C5</cppn>
+     <cppn nr="2">C4</cppn>
+     <cppn nr="3">C3</cppn>
+     <cppn nr="4">G2</cppn>
+     <cppn nr="5">C2</cppn>
+     <cppn nr="6">C1</cppn>
+     <cppn nr="7">C0</cppn>
+     <cppn nr="8">G1</cppn>
+     <cppn nr="9">C9</cppn>
+     <cppn nr="10">C8</cppn>
+     <cppn nr="11">A</cppn>
+     <cppn nr="12">C7</cppn>
+     <cppn nr="13">C6</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>375</prmt>
+     <prmt>475</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>340</prmt>
+     <prmt>525</prmt>
+     <prmt>820</prmt>
+     <prmt>140</prmt>
+     <prmt>45</prmt>
+     <prmt>40</prmt>
+     <prmt>-120</prmt>
+     <prmt>85</prmt>
+     <prmt>?</prmt>
+     <prmt>103</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 7.</cpld>
+  </component>
+  <component>
+     <cpnm>ZM562S</cpnm>
+     <cpct>0</cpct>
+     <cpds>dekatron</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">G1</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">C0</cppn>
+     <cppn nr="4">C9</cppn>
+     <cppn nr="5">C8</cppn>
+     <cppn nr="6">C7</cppn>
+     <cppn nr="7">C6</cppn>
+     <cppn nr="8">G2</cppn>
+     <cppn nr="9">C5</cppn>
+     <cppn nr="10">C4</cppn>
+     <cppn nr="11">C3</cppn>
+     <cppn nr="12">C2</cppn>
+     <cppn nr="13">C1</cppn>
+     <prmt>10</prmt>
+     <prmt>5</prmt>
+     <prmt>375</prmt>
+     <prmt>450</prmt>
+     <prmt>190</prmt>
+     <prmt>250</prmt>
+     <prmt>350</prmt>
+     <prmt>550</prmt>
+     <prmt>750</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>40</prmt>
+     <prmt>-100</prmt>
+     <prmt>40-70</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>35</prmt>
+     <prmt>-120</prmt>
+     <prmt>?</prmt>
+     <cpld>Kétirányú kétszeres impulzusú decimális számlálócső. Nullhelyzet: Láb 1.</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

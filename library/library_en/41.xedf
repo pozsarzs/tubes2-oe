@@ -1,0 +1,2256 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Tuning indicator tube - "magic eye" (M)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>76</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Usc [V]</prmt>
+    <prmt nr="5">Isc [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>10M2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>0..-4.2..12.5V</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>if Ua=100V Ia=0.1mA Ug1=0..-2.5..-8V Usc=100 Isc=0.3mA</cpld>
+  </component>
+  <component>
+     <cpnm>13MU4</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>0..-4.2..12.5V</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>if Ua=100V Ia=0.1mA Ug1=0..-2.5..-8V Usc=100 Isc=0.3mA</cpld>
+  </component>
+  <component>
+     <cpnm>1M1</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>1M3</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>1N3</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>4677</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.32</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4678</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>64ME</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>0..-5..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6CD7</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>0..-5..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6G5</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.24</prmt>
+     <prmt>250</prmt>
+     <prmt>4</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6M2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.12</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6U5</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.24</prmt>
+     <prmt>250</prmt>
+     <prmt>4</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AM1</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.095</prmt>
+     <prmt>?</prmt>
+     <prmt>0.13</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AM2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.32</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AM2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.32</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AW6</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.095</prmt>
+     <prmt>?</prmt>
+     <prmt>0.13</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C/EM2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-3.5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>25</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1077</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.095</prmt>
+     <prmt>?</prmt>
+     <prmt>0.13</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1352</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode-Grid2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Screen</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.1</prmt>
+     <prmt>0..-18</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1434</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.15</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>(Ug1=0..-5 and 0..-15V)</cpld>
+  </component>
+  <component>
+     <cpnm>CV2942</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2980</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>CV394</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>0..-5..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV504</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.24</prmt>
+     <prmt>250</prmt>
+     <prmt>4</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DM21</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>120</prmt>
+     <prmt>0.05</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DM70</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>DM71</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>ED78</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Grid</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Ra2=2MOhm</cpld>
+  </component>
+  <component>
+     <cpnm>EM171</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Cathode-Grid1</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">wire to 2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-4</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM171</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode-Grid</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Screen</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-4</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM1</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM2</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-2.5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <prmt>42</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>Rc=600ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EM31</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.095</prmt>
+     <prmt>?</prmt>
+     <prmt>0.13</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM34</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>0..-5..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM35</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.12</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM3</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.22</prmt>
+     <prmt>?</prmt>
+     <prmt>0.3</prmt>
+     <prmt>0..-21</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM4</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.15</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>(Ug1=0..-5 and 0..-15V)</cpld>
+  </component>
+  <component>
+     <cpnm>EM5</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-4..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Ra2=2MOhm</cpld>
+  </component>
+  <component>
+     <cpnm>EM71</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM72</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM80</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode-Grid2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Screen</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.1</prmt>
+     <prmt>0..-18</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EM83</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1-1</cppn>
+     <cppn nr="2">Grid1-2</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Screen</cppn>
+     <cppn nr="7">l</cppn>
+     <cppn nr="8">Anode-2</cppn>
+     <cppn nr="9">Anode-1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-8</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Ic=8mA</cpld>
+  </component>
+  <component>
+     <cpnm>EM85</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode-Grid2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Screen</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.1</prmt>
+     <prmt>0..-1</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EMM801</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1-common</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode-1</cppn>
+     <cppn nr="7">Grid1-1</cppn>
+     <cppn nr="8">Anode-2</cppn>
+     <cppn nr="9">Grid1-2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.54</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>400</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>HM34</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>8.5</prmt>
+     <prmt>0.15</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>200</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>HM71</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>HM85</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode-Grid2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Screen</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>180</prmt>
+     <prmt>?</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-101C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.32</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-102</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.095</prmt>
+     <prmt>?</prmt>
+     <prmt>0.13</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-103</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.15</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>(Ug1=0..-5 and 0..-15V)</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-106</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>0..-5..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-107</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>U6</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.24</prmt>
+     <prmt>250</prmt>
+     <prmt>4</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-109C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-111C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Grid</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-22</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Ra2=2MOhm</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-112</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.12</prmt>
+     <prmt>?</prmt>
+     <prmt>0.46</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-113C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>0..-4.2..12.5V</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>if Ua=100V Ia=0.1mA Ug1=0..-2.5..-8V Usc=100 Isc=0.3mA</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-114C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-115C</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ME4</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>4</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>0.12</prmt>
+     <prmt>250</prmt>
+     <prmt>2</prmt>
+     <prmt>0</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ME6</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.12</prmt>
+     <prmt>250</prmt>
+     <prmt>2</prmt>
+     <prmt>0</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MEM1</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MUM4</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>0..-4.2..12.5V</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>if Ua=100V Ia=0.1mA Ug1=0..-2.5..-8V Usc=100 Isc=0.3mA</cpld>
+  </component>
+  <component>
+     <cpnm>OM5</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>100</prmt>
+     <prmt>0.8</prmt>
+     <prmt>0..-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PM5</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>17</prmt>
+     <prmt>0.3</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>200</prmt>
+     <prmt>0.6</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TV6</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Grid</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-5</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UM11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Grid</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>15</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.1</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-3..-20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UM171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Screen</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Cathode-Grid1</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">wire to 2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <prmt>15</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-4..-20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UM171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo tuning indicator tube</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode-Grid</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Screen</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>15</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-4..-20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UM34</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid</cppn>
+     <cppn nr="5">Screen</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-4.2..-12.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UM35</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>15</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.1</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-3..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Ua2=200V Ia2=0.19mA</cpld>
+  </component>
+  <component>
+     <cpnm>UM4</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Screen</cppn>
+     <cppn nr="5">Grid</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>0..-4.2..12.5V</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>if Ua=100V Ia=0.1mA Ug1=0..-2.5..-8V Usc=100 Isc=0.3mA</cpld>
+  </component>
+  <component>
+     <cpnm>UM80</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode-Grid2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Screen</cppn>
+     <prmt>17</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.35</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>If Ua=170V Ia=0.3mA Ug1=0..-13V; Ua=100V Ia=0.175mA Ug1=0..-7V</cpld>
+  </component>
+  <component>
+     <cpnm>UM83</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1-1</cppn>
+     <cppn nr="2">Grid1-2</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Screen</cppn>
+     <cppn nr="7">l</cppn>
+     <cppn nr="8">Anode-2</cppn>
+     <cppn nr="9">Anode-1</cppn>
+     <prmt>20</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Ic=8mA</cpld>
+  </component>
+  <component>
+     <cpnm>UM85</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator tube</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Cathode-Grid2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Screen</cppn>
+     <cppn nr="7">Anode1</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <prmt>19</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-13</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>180</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>Y25</cpnm>
+     <cpct>0</cpct>
+     <cpds>tuning indicator</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Grid</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Anode</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.025</prmt>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0..-15</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>0.0.75</prmt>
+     <cpld>Ic=0.11mA</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

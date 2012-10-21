@@ -1,0 +1,277 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Számlálócsövek (nomotronok)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>6</noc>
+    <prmt nr="0">Count. steps</prmt>
+    <prmt nr="1">fcntmax [kHz]</prmt>
+    <prmt nr="2">Usmin [V]</prmt>
+    <prmt nr="3">Us [V]</prmt>
+    <prmt nr="4">Usmax [V]</prmt>
+    <prmt nr="5">Um [V]</prmt>
+    <prmt nr="6">Iacmin [mA]</prmt>
+    <prmt nr="7">Iac [mA]</prmt>
+    <prmt nr="8">Iacmax [mA]</prmt>
+    <prmt nr="9">Ra [kohm]</prmt>
+    <prmt nr="10">Utrmin [V]</prmt>
+    <prmt nr="11">Utrmax [V]</prmt>
+    <prmt nr="12">Ugb [V]</prmt>
+    <prmt nr="13">Ugs [Vp]</prmt>
+    <prmt nr="14">Rc [kohm]</prmt>
+    <prmt nr="15">Uout [V]</prmt>
+    <prmt nr="16">Ures [V]</prmt>
+    <prmt nr="17">tres [us]</prmt>
+  </header>
+  <component>
+     <cpnm>11TU7</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B12E</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">átvitel</cppn>
+     <cppn nr="12">Anód</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>315</prmt>
+     <prmt>330</prmt>
+     <prmt>345</prmt>
+     <prmt>180</prmt>
+     <prmt>2.4</prmt>
+     <prmt>3.7</prmt>
+     <prmt>5</prmt>
+     <prmt>24</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>75</prmt>
+     <prmt>-15</prmt>
+     <prmt>15</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2223</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B12E</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">átvitel</cppn>
+     <cppn nr="12">Anód</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>315</prmt>
+     <prmt>330</prmt>
+     <prmt>345</prmt>
+     <prmt>180</prmt>
+     <prmt>2.4</prmt>
+     <prmt>3.7</prmt>
+     <prmt>5</prmt>
+     <prmt>24</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>75</prmt>
+     <prmt>-15</prmt>
+     <prmt>15</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CVX2223</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B12E</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">átvitel</cppn>
+     <cppn nr="12">Anód</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>315</prmt>
+     <prmt>330</prmt>
+     <prmt>345</prmt>
+     <prmt>180</prmt>
+     <prmt>2.4</prmt>
+     <prmt>3.7</prmt>
+     <prmt>5</prmt>
+     <prmt>24</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>75</prmt>
+     <prmt>-15</prmt>
+     <prmt>15</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DZ10</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B14A</cppc>
+     <cppn nr="1">K1</cppn>
+     <cppn nr="2">G1</cppn>
+     <cppn nr="3">K0</cppn>
+     <cppn nr="4">K9</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">K8</cppn>
+     <cppn nr="7">K7</cppn>
+     <cppn nr="8">K6</cppn>
+     <cppn nr="9">G2</cppn>
+     <cppn nr="10">K5</cppn>
+     <cppn nr="11">K4</cppn>
+     <cppn nr="12">Anód</cppn>
+     <cppn nr="13">K3</cppn>
+     <cppn nr="14">K2</cppn>
+     <prmt>10</prmt>
+     <prmt>3</prmt>
+     <prmt>220</prmt>
+     <prmt>300</prmt>
+     <prmt>400</prmt>
+     <prmt>112</prmt>
+     <prmt>2</prmt>
+     <prmt>4</prmt>
+     <prmt>8</prmt>
+     <prmt>47</prmt>
+     <prmt>25</prmt>
+     <prmt>80</prmt>
+     <prmt>25</prmt>
+     <prmt>-50</prmt>
+     <prmt>3.3</prmt>
+     <prmt>13</prmt>
+     <prmt>-80</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>G10/241E</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B12E</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">átvitel</cppn>
+     <cppn nr="12">Anód</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>315</prmt>
+     <prmt>330</prmt>
+     <prmt>345</prmt>
+     <prmt>180</prmt>
+     <prmt>2.4</prmt>
+     <prmt>3.7</prmt>
+     <prmt>5</prmt>
+     <prmt>24</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>75</prmt>
+     <prmt>-15</prmt>
+     <prmt>15</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>G10/241K</cpnm>
+     <cpct>0</cpct>
+     <cpds>nomotron</cpds>
+     <cppc>B12E</cppc>
+     <cppn nr="1">C0</cppn>
+     <cppn nr="2">C9</cppn>
+     <cppn nr="3">C8</cppn>
+     <cppn nr="4">C7</cppn>
+     <cppn nr="5">C6</cppn>
+     <cppn nr="6">C5</cppn>
+     <cppn nr="7">C4</cppn>
+     <cppn nr="8">C3</cppn>
+     <cppn nr="9">C2</cppn>
+     <cppn nr="10">C1</cppn>
+     <cppn nr="11">átvitel</cppn>
+     <cppn nr="12">Anód</cppn>
+     <prmt>10</prmt>
+     <prmt>20</prmt>
+     <prmt>315</prmt>
+     <prmt>330</prmt>
+     <prmt>345</prmt>
+     <prmt>180</prmt>
+     <prmt>2.4</prmt>
+     <prmt>3.7</prmt>
+     <prmt>5</prmt>
+     <prmt>24</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>75</prmt>
+     <prmt>-15</prmt>
+     <prmt>15</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

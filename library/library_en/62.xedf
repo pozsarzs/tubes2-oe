@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Pentode-secunder emission tube (FP)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>3</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug3 [V]</prmt>
+    <prmt nr="5">Ig3 [mA]</prmt>
+    <prmt nr="6">Ug2 [V]</prmt>
+    <prmt nr="7">Ig2 [mA]</prmt>
+    <prmt nr="8">Ug1 [V]</prmt>
+    <prmt nr="9">Uc2 [V]</prmt>
+    <prmt nr="10">Ic2 [mA]</prmt>
+    <prmt nr="11">Rg1m [Mohm]</prmt>
+    <prmt nr="12">S [ma/V]</prmt>
+    <prmt nr="13">Gain</prmt>
+    <prmt nr="14">Rint [kohm]</prmt>
+    <prmt nr="15">Ra [kohm]</prmt>
+    <prmt nr="16">Pout [W]</prmt>
+    <prmt nr="17">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>CV5108</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentode-sec. emission tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode2</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid3</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.37</prmt>
+     <prmt>250</prmt>
+     <prmt>20</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>15.6</prmt>
+     <prmt>?</prmt>
+     <prmt>25</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EFP20</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentode-sec. emission tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Cathode-Grid3-Shield</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">wire to 4</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.45</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.22</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>-4</prmt>
+     <prmt>?</prmt>
+     <prmt>12</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EFP60</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentode-sec. emission tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode2</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode2</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Grid3</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.37</prmt>
+     <prmt>250</prmt>
+     <prmt>20</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>15.6</prmt>
+     <prmt>?</prmt>
+     <prmt>25</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

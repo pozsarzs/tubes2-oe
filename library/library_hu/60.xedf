@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Tetróda-teljesítmény tetróda (EL)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>6</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>VEL11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda2</cppn>
+     <cppn nr="2">Rács2-tetróda2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód-tetróda1</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Rács2-tetróda1</cppn>
+     <cppn nr="8">Rács1-tetróda1</cppn>
+     <cppn nr="9">(Rács1-tetróda2)</cppn>
+     <prmt>90</prmt>
+     <prmt>0.05</prmt>
+     <prmt>40</prmt>
+     <prmt>0.8</prmt>
+     <prmt>30</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0</prmt>
+     <prmt>1</prmt>
+     <prmt>1.6</prmt>
+     <prmt>?</prmt>
+     <prmt>280</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>tetróda rész; Rg2=300kohm+1Mohm</cpld>
+  </component>
+  <component>
+     <cpnm>VEL11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda2</cppn>
+     <cppn nr="2">Rács2-tetróda2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód-tetróda1</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Rács2-tetróda1</cppn>
+     <cppn nr="8">Rács1-tetróda1</cppn>
+     <cppn nr="9">(Rács1-tetróda2)</cppn>
+     <prmt>90</prmt>
+     <prmt>0.05</prmt>
+     <prmt>200</prmt>
+     <prmt>22</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>-6</prmt>
+     <prmt>1</prmt>
+     <prmt>5.2</prmt>
+     <prmt>?</prmt>
+     <prmt>30</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <cpld>teljesítmény pentóda rész; Rc=250ohm</cpld>
+  </component>
+  <component>
+     <cpnm>UEL11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda2</cppn>
+     <cppn nr="2">Rács2-tetróda2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód-tetróda1</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Rács2-tetróda1</cppn>
+     <cppn nr="8">Rács1-tetróda1</cppn>
+     <cppn nr="9">(Rács1-tetróda2)</cppn>
+     <prmt>48</prmt>
+     <prmt>0.1</prmt>
+     <prmt>40</prmt>
+     <prmt>0.8</prmt>
+     <prmt>30</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0</prmt>
+     <prmt>2</prmt>
+     <prmt>1.6</prmt>
+     <prmt>?</prmt>
+     <prmt>280</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>tetróda; Rg2=300kohm+1Mohm; Rc=250ohm</cpld>
+  </component>
+  <component>
+     <cpnm>UEL11</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda2</cppn>
+     <cppn nr="2">Rács2-tetróda2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód-tetróda1</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Rács2-tetróda1</cppn>
+     <cppn nr="8">Rács1-tetróda1</cppn>
+     <cppn nr="9">(Rács1-tetróda2)</cppn>
+     <prmt>48</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>22</prmt>
+     <prmt>200</prmt>
+     <prmt>4</prmt>
+     <prmt>-6</prmt>
+     <prmt>1.2</prmt>
+     <prmt>5.2</prmt>
+     <prmt>?</prmt>
+     <prmt>30</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <cpld>teljesítmény pentóda rész; Rc=250ohm</cpld>
+  </component>
+  <component>
+     <cpnm>UEL51</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda1</cppn>
+     <cppn nr="2">Rács2-tetróda1</cppn>
+     <cppn nr="3">Rács1-tetróda1</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anód-tetróda2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <cppn nr="9">Rács1-tetróda2</cppn>
+     <cppn nr="10">Rács2-tetróda2</cppn>
+     <prmt>62</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.65</prmt>
+     <prmt>?</prmt>
+     <prmt>0.22</prmt>
+     <prmt>-2</prmt>
+     <prmt>1.2</prmt>
+     <prmt>1.7</prmt>
+     <prmt>?</prmt>
+     <prmt>300</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>0.75</prmt>
+     <cpld>tetróda rész; Rg2=600kohm</cpld>
+  </component>
+  <component>
+     <cpnm>UEL51</cpnm>
+     <cpct>0</cpct>
+     <cpds>tetróda-teljesítmény tetróda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-tetróda1</cppn>
+     <cppn nr="2">Rács2-tetróda1</cppn>
+     <cppn nr="3">Rács1-tetróda1</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anód-tetróda2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <cppn nr="9">Rács1-tetróda2</cppn>
+     <cppn nr="10">Rács2-tetróda2</cppn>
+     <prmt>62</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>45</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>700</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>17</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>9</prmt>
+     <cpld>teljesítmény pentóda rész</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

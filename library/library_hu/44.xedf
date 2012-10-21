@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Gáztöltésű kétutas egyenirányítók (X)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>7</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>1070</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <prmt>1.8</prmt>
+     <prmt>1.8</prmt>
+     <prmt>250</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1072</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>Ed2</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">(Anód1)</cppn>
+     <cppn nr="4">(Anód2)</cppn>
+     <prmt>2.1</prmt>
+     <prmt>4.5</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4652</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>79301</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>Ed2</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">(Anód1)</cppn>
+     <cppn nr="4">(Anód2)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>8.5</prmt>
+     <prmt>10000</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AX1</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AX50</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <prmt>4</prmt>
+     <prmt>3.75</prmt>
+     <prmt>500</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-601C</cpnm>
+     <cpct>0</cpct>
+     <cpds>gáztöltésű kétutas egyenirányító</cpds>
+     <cppc>EU4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <prmt>4</prmt>
+     <prmt>2</prmt>
+     <prmt>500</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

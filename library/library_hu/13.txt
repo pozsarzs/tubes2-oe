@@ -1,0 +1,8 @@
+ D:		átmérő
+ H:		magasság
+ Ac:		fotokatód felület
+ Op.reg:	maximum érzékenységhez tartozó műk. tartomány
+ Ua:		anódfeszültség
+ Sens.:		érzékenység
+ Id:		sötétáram
+ Cac:		anód-katód kapacitás

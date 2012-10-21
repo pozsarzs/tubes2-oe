@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Hexódák (H)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>16</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug3 [V]</prmt>
+    <prmt nr="5">Ig3 [mA]</prmt>
+    <prmt nr="6">Ug2 [V]</prmt>
+    <prmt nr="7">Ig2 [mA]</prmt>
+    <prmt nr="8">Ug1 [V]</prmt>
+    <prmt nr="9">Rg1m [Mohm]</prmt>
+    <prmt nr="10">S [ma/V]</prmt>
+    <prmt nr="11">Gain</prmt>
+    <prmt nr="12">Rint [kohm]</prmt>
+    <prmt nr="13">Ra [kohm]</prmt>
+    <prmt nr="14">Pout [W]</prmt>
+    <prmt nr="15">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>13H3</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Rács4</cppn>
+     <cppn nr="2">Rács3</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Shield</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1.7</prmt>
+     <prmt>80</prmt>
+     <prmt>2.6</prmt>
+     <prmt>-2<</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>kh1</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>13U12</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Rács4</cppn>
+     <cppn nr="2">Rács3</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Shield</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>4</prmt>
+     <prmt>100</prmt>
+     <prmt>1.1</prmt>
+     <prmt>-2<</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>kh1</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4A19</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Rács4</cppn>
+     <cppn nr="2">Rács3</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Shield</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>3</prmt>
+     <prmt>80</prmt>
+     <prmt>1.1</prmt>
+     <prmt>-2<</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>kh1</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4H3</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Rács4</cppn>
+     <cppn nr="2">Rács3</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Shield</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.7</prmt>
+     <prmt>80</prmt>
+     <prmt>2.6</prmt>
+     <prmt>-2<</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>kh1</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5-448</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>X6</cppc>
+     <cppn nr="1">Rács2</cppn>
+     <cppn nr="2">Rács3</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód</cppn>
+     <cppn nr="6">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>4</prmt>
+     <prmt>100</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>ch2</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5-449</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>X6</cppc>
+     <cppn nr="1">Rács3</cppn>
+     <cppn nr="2">Rács2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód-Shield</cppn>
+     <cppn nr="6">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1.2</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>80</prmt>
+     <prmt>?</prmt>
+     <prmt>-2<</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>ch1</prmt>
+     <prmt>Anód</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>E449</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>?</prmt>
+     <prmt>-2..-7</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>1000</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EH2</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Rács2</cppn>
+     <cppn nr="3">Rács4</cppn>
+     <cppn nr="4">Rács3</cppn>
+     <cppn nr="5">Katód; Rács5</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <cppn nr="9">(Rács1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1.85</prmt>
+     <prmt>-3..-25</prmt>
+     <prmt>?</prmt>
+     <prmt>100</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-2..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.4..0.01</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>FH2118</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>20</prmt>
+     <prmt>0.18</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>?</prmt>
+     <prmt>-2..-7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>FH4105</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>?</prmt>
+     <prmt>-2..-7</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>1000</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>H604</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Rács2</cppn>
+     <cppn nr="3">Rács4</cppn>
+     <cppn nr="4">Rács3</cppn>
+     <cppn nr="5">Katód; Rács5</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <cppn nr="9">(Rács1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1.85</prmt>
+     <prmt>-3..-25</prmt>
+     <prmt>?</prmt>
+     <prmt>100</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-2..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.4..0.01</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>KH1</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Rács2</cppn>
+     <cppn nr="3">Rács4</cppn>
+     <cppn nr="4">Rács3</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <cppn nr="9">(Rács1)</cppn>
+     <prmt>2</prmt>
+     <prmt>0.135</prmt>
+     <prmt>135</prmt>
+     <prmt>0.75</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>50</prmt>
+     <prmt>1.1</prmt>
+     <prmt>-1.5..-9.5</prmt>
+     <prmt>1</prmt>
+     <prmt>0.45..0.001</prmt>
+     <cpld>Uosc=10V</cpld>
+  </component>
+  <component>
+     <cpnm>MH2018</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>20</prmt>
+     <prmt>0.18</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MH4100</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1.2</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>PH2018</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>20</prmt>
+     <prmt>0.18</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>RENS1234</cpnm>
+     <cpct>0</cpct>
+     <cpds>hexóda</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód; Árnyékolás</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Rács4</cppn>
+     <cppn nr="5">Rács3</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">(Rács1)</cppn>
+     <prmt>4</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>80</prmt>
+     <prmt>?</prmt>
+     <prmt>-2..-7</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>1000</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

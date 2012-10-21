@@ -1,0 +1,17 @@
+ fcntmax:	maximális számlálási sebesség
+ Iac:		tipikus anód-katód áram
+ Iacmax:	maximális anód-katód áram
+ Iacmin:	minimális anód-katód áram
+ Ra:		anód ellenállás
+ Rc:		katód ellenállás
+ Rcmax:		maximális katód ellenállás
+ tres:		minimális törlő impulzus szélesség
+ Uccdif:	maximális feszültség két katód között
+ Ugb:		tipikus guid bias feszültség
+ Ugs:		guid jelfeszültség
+ Um:		működési feszültség
+ Uout:		kimeneti feszültség
+ Ures:		minimális törlő impulzus feszültség
+ Usmin:		minimális tápfeszültség
+ Us:		tipikus tápfeszültség
+ Utrmin:	minimális transzfer feszültség

@@ -1,0 +1,4 @@
+ Is:		tipikus szegmensenkénti áram
+ Ih:		fűtőáram
+ Jelmag.:	jelmagasság
+ Us:		tipikus tápfeszültség

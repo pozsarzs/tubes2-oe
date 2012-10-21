@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Gas filled half-wave rectifiers (W)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>2</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>5695</cpnm>
+     <cpct>0</cpct>
+     <cpds>gas filled half-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">(Anode)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>3</prmt>
+     <prmt>5000</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EW60</cpnm>
+     <cpct>0</cpct>
+     <cpds>gas filled half-wave rectifier</cpds>
+     <cppc>T9</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Cathode1</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2.3</prmt>
+     <prmt>700</prmt>
+     <prmt>400</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Diode-duodiodes (AB)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>3</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>EAB1</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-duodiode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode3</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AAB1</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-duodiode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode3</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <cpld>Uhcmax=100V</cpld>
+  </component>
+  <component>
+     <cpnm>PAB1</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-duodiode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Anode2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode3</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

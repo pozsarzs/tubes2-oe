@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Pentóda-hangolásjelző csövek (varázsszemek)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>5</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Usc [V]</prmt>
+    <prmt nr="5">Isc [mA]</prmt>
+    <prmt nr="6">Ua2 [V]</prmt>
+    <prmt nr="7">Ia2 [mA]</prmt>
+    <prmt nr="8">Ug1 [V]</prmt>
+    <prmt nr="9">Rg1m [Mohm]</prmt>
+    <prmt nr="10">S [ma/V]</prmt>
+    <prmt nr="11">Gain</prmt>
+    <prmt nr="12">Rint [kohm]</prmt>
+    <prmt nr="13">Ra [kohm]</prmt>
+    <prmt nr="14">Pout [W]</prmt>
+    <prmt nr="15">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>EFM11</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-hangolásjelző</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Pentóda-Anód</cppn>
+     <cppn nr="2">Pentóda-Rács1</cppn>
+     <cppn nr="3">Katód; Pentóda-Rács3; Varázsszem-Rács</cppn>
+     <cppn nr="4">Ernyő</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Rács2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.05</prmt>
+     <prmt>-2..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>?</prmt>
+     <prmt>1200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.4</prmt>
+     <cpld>(Rg2=350kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>EFM1</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-hangolásjelző</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Pentóda-Rács2; Varázsszem-Anód</cppn>
+     <cppn nr="3">Pentóda-Rács1</cppn>
+     <cppn nr="4">Ernyő</cppn>
+     <cppn nr="5">Katód; Rács3; Varázsszem-Rács</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.05</prmt>
+     <prmt>-2..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>?</prmt>
+     <prmt>1200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.4</prmt>
+     <cpld>(Rg2=350kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-532C</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-hangolásjelző</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Pentóda-Rács2; Varázsszem-Anód</cppn>
+     <cppn nr="3">Pentóda-Rács1</cppn>
+     <cppn nr="4">Ernyő</cppn>
+     <cppn nr="5">Katód; Rács3; Varázsszem-Rács</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.05</prmt>
+     <prmt>-2..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>?</prmt>
+     <prmt>1200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.4</prmt>
+     <cpld>(Rg2=350kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>UFM11</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-hangolásjelző</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód-pentóda</cppn>
+     <cppn nr="2">Rács1</cppn>
+     <cppn nr="3">Katód-Rács3</cppn>
+     <cppn nr="4">Ernyő</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Rács2</cppn>
+     <prmt>15</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.77</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>15</prmt>
+     <prmt>0.37</prmt>
+     <prmt>-0.5</prmt>
+     <prmt>3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>160+20</prmt>
+     <prmt>?</prmt>
+     <prmt>0.4</prmt>
+     <cpld>Rg2=500kohm</cpld>
+  </component>
+  <component>
+     <cpnm>WE18</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-hangolásjelző</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Pentóda-Rács2; Varázsszem-Anód</cppn>
+     <cppn nr="3">Pentóda-Rács1</cppn>
+     <cppn nr="4">Ernyő</cppn>
+     <cppn nr="5">Katód; Rács3; Varázsszem-Rács</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Árnyékolás</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.05</prmt>
+     <prmt>-2..-20</prmt>
+     <prmt>3</prmt>
+     <prmt>0.85</prmt>
+     <prmt>?</prmt>
+     <prmt>1200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.4</prmt>
+     <cpld>(Rg2=350kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,5 @@
+ Ia:		anódáram
+ Ih:		fűtőáram
+ Jelmag.:	jelmagasság
+ Uh:		fűtőfeszültség
+ Upl:		anódfeszültség

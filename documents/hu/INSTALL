@@ -1,0 +1,51 @@
+Tubes telepítési utasítás Linux operációs rendszerhez
+=====================================================
+
+1. Telepítés
+------------
+
+a. Telepítés bináris '.tar.gz' csomagból
+
+    # cp tubes-trial-2.0-i586.tar.gz /opt
+    # cd /opt
+    # tar -xzf tubes-trial-2.0-i586.tar.gz
+    # cd tubes-trial
+    # ./create_links
+    
+                vagy
+
+    # tar -xzf tubes-trial-2.0-i586.tar.gz
+    # cd tubes-trial
+    # ./install
+
+b. Telepítés '.bin' csomagból
+
+    # ./tubes-trial-2.0-i586.bin
+
+c. Telepítés forráscsomagból
+     
+    # tar -xzf tubes-trial-2.0.tar.gz
+    # ./configure
+    # make
+    # make install
+
+2. Eltávolítás
+--------------
+
+a. Ha bináris '.tar.gz' csomagból telepítette
+
+    # /opt/tubes-trial/remove_links
+    # rm -r /opt/tubes-trial/
+
+            vagy
+
+    # /opt/tubes-trial/uninstall
+
+b. Ha '.bin' csomagból telepítette
+
+    # /opt/tubes-trial/uninstall
+
+c. Ha forráscsomagból telepítette
+
+    # make uninstall
+

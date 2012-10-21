@@ -1,0 +1,10 @@
+ d:	ernyőátmérő
+ l:	csőhossz
+ Uh:	fűtőfeszültség
+ Ih:	fűtőáram
+ Ug1:	első rács feszültsége (Wehnelt-henger)
+ Ua1:	első anód feszültsége
+ Ua2:	második anód feszültsége
+ Ua3:	harmadik anód feszültsége
+ D1-2:	eltérítés érzékenység (X)
+ D3-4:	eltérítés érzékenység (Y)

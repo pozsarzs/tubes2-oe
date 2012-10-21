@@ -1,0 +1,7 @@
+ Uh:	heater voltage
+ Ih:	heater current
+ Ua:	anode voltage
+ Ia:	anode current
+ Ra:	optimal load resistance
+ Pout:	output power
+ Pa:	anode power

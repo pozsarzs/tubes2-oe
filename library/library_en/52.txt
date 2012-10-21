@@ -1,0 +1,4 @@
+ Uh:	heater voltage
+ Ih:	heater current
+ Ua:	anode voltage
+ Ia:	anode current

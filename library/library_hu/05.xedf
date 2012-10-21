@@ -1,0 +1,6995 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Kijelzőcsövek (Nixie csövek)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>228</noc>
+    <prmt nr="0">Symh. [mm]</prmt>
+    <prmt nr="1">Usmin [V]</prmt>
+    <prmt nr="2">Usimax [V]</prmt>
+    <prmt nr="3">Us [V]</prmt>
+    <prmt nr="4">Icmin [mA]</prmt>
+    <prmt nr="5">Icminp [mA]</prmt>
+    <prmt nr="6">Ic [mA]</prmt>
+    <prmt nr="7">Icp [mA]</prmt>
+    <prmt nr="8">Icmax [mA]</prmt>
+    <prmt nr="9">Icmaxp [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>122P224</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0002</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0009</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0016</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>130</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.3</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0017</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0018</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0025</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(9)</cppn>
+     <cppn nr="2">K(8)</cppn>
+     <cppn nr="3">K(7)</cppn>
+     <cppn nr="4">K(6)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">A</cppn>
+     <cppn nr="7">K(4)</cppn>
+     <cppn nr="8">K(3)</cppn>
+     <cppn nr="9">K(2)</cppn>
+     <cppn nr="10">K(1)</cppn>
+     <cppn nr="11">K(0)</cppn>
+     <prmt>13.2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>138</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5 - 2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0028</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0032</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(OverLoad)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  (OverLoad)</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0035</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0046</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(</cppn>
+     <cppn nr="12">)[RH]</cppn>
+     <cppn nr="13">K(5)</cppn>
+     <cppn nr="14">K(6)</cppn>
+     <cppn nr="15">K(0)</cppn>
+     <cppn nr="16">IC</cppn>
+     <cppn nr="17">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  L DP  R vessző</cpld>
+  </component>
+  <component>
+     <cpnm>1970-0047</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>340-0004</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>340-0005</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">K(-)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>4021</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>4031</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(-)</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>4032</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>4038</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(E)</cppn>
+     <cppn nr="2">K(G)</cppn>
+     <cppn nr="3">K(H)</cppn>
+     <cppn nr="4">K(J)</cppn>
+     <cppn nr="5">K(K)</cppn>
+     <cppn nr="6">K(L)</cppn>
+     <cppn nr="7">K(M)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(A)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: A  E  G  H  J  K  L  M</cpld>
+  </component>
+  <component>
+     <cpnm>4041</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>411-0284</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>411284</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>411284</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>4200840</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>4200841</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>5031</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>50347</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>5037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>5092A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>5092</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>5810</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>5870L</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>5870S</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>5870ST</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>5991</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>7009</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>7153</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>7977</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>8037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>8421</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>8423</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>8502</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>8754</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4021AL</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4021G</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4021L</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4021</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4031</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(-)</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>B4032</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4038</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(E)</cppn>
+     <cppn nr="2">K(G)</cppn>
+     <cppn nr="3">K(H)</cppn>
+     <cppn nr="4">K(J)</cppn>
+     <cppn nr="5">K(K)</cppn>
+     <cppn nr="6">K(L)</cppn>
+     <cppn nr="7">K(M)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(A)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: A  E  G  H  J  K  L  M</cpld>
+  </component>
+  <component>
+     <cpnm>B4041</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B4081</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B49989</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(V)</cppn>
+     <cppn nr="2">K(R)</cppn>
+     <cppn nr="3">K(A)</cppn>
+     <cppn nr="4">K(T)</cppn>
+     <cppn nr="5">K(D)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(C)</cppn>
+     <cppn nr="8">K(G)</cppn>
+     <cppn nr="9">K(L)</cppn>
+     <cppn nr="10">K(N)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(S)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: A  C  G  L  N  R  S  T  V  delta</cpld>
+  </component>
+  <component>
+     <cpnm>B4998</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(2)</cppn>
+     <cppn nr="2">K(3)</cppn>
+     <cppn nr="3">K(4)</cppn>
+     <cppn nr="4">K(5)</cppn>
+     <cppn nr="5">K(6)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(1)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B49990</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(W)</cppn>
+     <cppn nr="2">K(H)</cppn>
+     <cppn nr="3">K(E)</cppn>
+     <cppn nr="4">K(C)</cppn>
+     <cppn nr="5">K(D)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(T)</cppn>
+     <cppn nr="8">K(U)</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(B)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(D)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: B  C  D  E  H  T  U  W  delta</cpld>
+  </component>
+  <component>
+     <cpnm>B5016</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(+)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>B5031</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B50347</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5092</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5092 A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5440A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5440</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5441A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5441</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5441X</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5442A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>B5442</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>B5445</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5448A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(OverLoad)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  (OverLoad)</cpld>
+  </component>
+  <component>
+     <cpnm>B5448</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(OverLoad)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  (OverLoad)</cpld>
+  </component>
+  <component>
+     <cpnm>B5560</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(9)</cppn>
+     <cppn nr="2">K(8)</cppn>
+     <cppn nr="3">K(7)</cppn>
+     <cppn nr="4">K(6)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">A</cppn>
+     <cppn nr="7">K(4)</cppn>
+     <cppn nr="8">K(3)</cppn>
+     <cppn nr="9">K(2)</cppn>
+     <cppn nr="10">K(1)</cppn>
+     <cppn nr="11">K(0)</cppn>
+     <prmt>13.2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>138</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5 - 2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5870L</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870S7</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870SF</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870S</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870ST</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870TF</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5870T</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>B5961</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>130</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.3</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B5991</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B59956</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">LD</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.3</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>B6033</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>250</prmt>
+     <prmt>250</prmt>
+     <prmt>143</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B6037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(2)[R]</cppn>
+     <cppn nr="4">K(3)[R]</cppn>
+     <cppn nr="5">K(4)[R]</cppn>
+     <cppn nr="6">K(5)[R]</cppn>
+     <cppn nr="7">K(6)[R]</cppn>
+     <cppn nr="8">K(7)[R]</cppn>
+     <cppn nr="9">K(8)[R]</cppn>
+     <cppn nr="10">K(9)[R]</cppn>
+     <cppn nr="11">K(0)[R]</cppn>
+     <cppn nr="12">K(1)[L]</cppn>
+     <cppn nr="13">K(1)[R]</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 1[L]  0-9[R]</cpld>
+  </component>
+  <component>
+     <cpnm>B6091</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B7009</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>B7153</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>250</prmt>
+     <prmt>250</prmt>
+     <prmt>143</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>BD200</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>BD200S</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>BD206</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>250</prmt>
+     <prmt>250</prmt>
+     <prmt>143</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>BD214</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(+)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>BD244</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>BD302</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD101</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>0.9</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD13A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>0.9</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD13</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>0.9</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD19</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8.2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD25</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>19</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD43</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>16</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD56A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>16</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.75</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD56</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>16</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CD58</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1"> + 2.2</cppn>
+     <cppn nr="2">?</cppn>
+     <cppn nr="3">EOP</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(+)</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">K(-)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <cppn nr="17">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>- 0.5</prmt>
+     <prmt> + 1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>- 1.1</prmt>
+     <prmt> + 1.6</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>CD92</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>0.5</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1.2</prmt>
+     <prmt>0.4</prmt>
+     <prmt>1.9</prmt>
+     <prmt>0.6</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>CK1907</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">K(-)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>CK1916</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>CK1917</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">RD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 R DP</cpld>
+  </component>
+  <component>
+     <cpnm>CK1918</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">RD</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>CK6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CK8037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CK8421</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CK8754</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CV5278</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CV9207</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CV9316</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>CV9732</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GN3</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GN4A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GN4D</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GN4</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GR10M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>GR116D</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>GR116</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>0.5</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1.2</prmt>
+     <prmt>0.4</prmt>
+     <prmt>1.9</prmt>
+     <prmt>0.6</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>IN12A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">NP</cppn>
+     <cppn nr="14">NP</cppn>
+     <prmt>18</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>IN12B</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">LD</cppn>
+     <cppn nr="13">NP</cppn>
+     <cppn nr="14">NP</cppn>
+     <prmt>18</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-7009</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-7977</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-8037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-8421</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-8423</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-8502</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-CB 6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>JAN-CZ 6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>M2726 102500</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL1265</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(</cppn>
+     <cppn nr="12">)[RH]</cppn>
+     <cppn nr="13">K(5)</cppn>
+     <cppn nr="14">K(6)</cppn>
+     <cppn nr="15">K(0)</cppn>
+     <cppn nr="16">IC</cppn>
+     <cppn nr="17">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  L DP  R vessző</cpld>
+  </component>
+  <component>
+     <cpnm>NL4021AL</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL4021A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL4021</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL4031</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(-)</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>NL4032</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL4038</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(E)</cppn>
+     <cppn nr="2">K(G)</cppn>
+     <cppn nr="3">K(H)</cppn>
+     <cppn nr="4">K(J)</cppn>
+     <cppn nr="5">K(K)</cppn>
+     <cppn nr="6">K(L)</cppn>
+     <cppn nr="7">K(M)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(A)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: A  E  G  H  J  K  L  M</cpld>
+  </component>
+  <component>
+     <cpnm>NL4041</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(-)</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL49989</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(V)</cppn>
+     <cppn nr="2">K(R)</cppn>
+     <cppn nr="3">K(A)</cppn>
+     <cppn nr="4">K(T)</cppn>
+     <cppn nr="5">K(D)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(C)</cppn>
+     <cppn nr="8">K(G)</cppn>
+     <cppn nr="9">K(L)</cppn>
+     <cppn nr="10">K(N)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(S)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: A  C  G  L  N  R  S  T  V  delta</cpld>
+  </component>
+  <component>
+     <cpnm>NL4998</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(2)</cppn>
+     <cppn nr="2">K(3)</cppn>
+     <cppn nr="3">K(4)</cppn>
+     <cppn nr="4">K(5)</cppn>
+     <cppn nr="5">K(6)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(1)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL49990</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-176</cppc>
+     <cppn nr="1">K(W)</cppn>
+     <cppn nr="2">K(H)</cppn>
+     <cppn nr="3">K(E)</cppn>
+     <cppn nr="4">K(C)</cppn>
+     <cppn nr="5">K(D)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(T)</cppn>
+     <cppn nr="8">K(U)</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(B)</cppn>
+     <cppn nr="11">1A</cppn>
+     <cppn nr="12">K(D)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>7.75</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.35</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: B  C  D  E  H  T  U  W  delta</cpld>
+  </component>
+  <component>
+     <cpnm>NL5016</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(+)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>NL50347</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL5440A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL5440</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL54417</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5441A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5441</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">LD</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">1RD</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>142</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.5</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5442A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>NL5442</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>NL5445</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(1)</cppn>
+     <cppn nr="3">K(2)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">K(8)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">K(5)</cppn>
+     <cppn nr="13">K(6)</cppn>
+     <cppn nr="14">K(0)</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL5870L</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5870</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5870S</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5870ST</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5870T</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>2.3</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL5961</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>130</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.3</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL6844A</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>135</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL7009</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.2</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL7153</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>250</prmt>
+     <prmt>250</prmt>
+     <prmt>143</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL7977</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>154</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL8037</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL803</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL807</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.12</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL809</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">LD</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.3</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL821</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.12</prmt>
+     <prmt>0.3</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL840</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL841</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL8421</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL8423</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>20.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL842</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">RD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 R DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL842PT</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">RD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>NL843</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">K(+)</cppn>
+     <cppn nr="7">K(-)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -</cpld>
+  </component>
+  <component>
+     <cpnm>NL848</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">LD</cppn>
+     <cppn nr="12">RD</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL8502</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(8)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(0)</cppn>
+     <cppn nr="11">A</cppn>
+     <prmt>8</prmt>
+     <prmt>120</prmt>
+     <prmt>120</prmt>
+     <prmt>102</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.4</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL856</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>147</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL876</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>RTS-11</cppc>
+     <cppn nr="1">K(7)</cppn>
+     <cppn nr="2">K(5)</cppn>
+     <cppn nr="3">K(8)</cppn>
+     <cppn nr="4">A</cppn>
+     <cppn nr="5">K(1)</cppn>
+     <cppn nr="6">K(4)</cppn>
+     <cppn nr="7">K(2)</cppn>
+     <cppn nr="8">K(6)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(3)</cppn>
+     <cppn nr="11">RD</cppn>
+     <cppn nr="12">NP</cppn>
+     <cppn nr="13">K(0)</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>?</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.35</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9 R DP</cpld>
+  </component>
+  <component>
+     <cpnm>NL918</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-116</cppc>
+     <cppn nr="1">K(9)</cppn>
+     <cppn nr="2">K(8)</cppn>
+     <cppn nr="3">K(7)</cppn>
+     <cppn nr="4">K(6)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">A</cppn>
+     <cppn nr="7">K(4)</cppn>
+     <cppn nr="8">K(3)</cppn>
+     <cppn nr="9">K(2)</cppn>
+     <cppn nr="10">K(1)</cppn>
+     <cppn nr="11">K(0)</cppn>
+     <prmt>13.2</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>138</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5 - 2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal (inv). Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>NL987</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-182</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">IC</cppn>
+     <cppn nr="3">K(-)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">IC</cppn>
+     <cppn nr="6">IC</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(OverLoad)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">K(+)</cppn>
+     <cppn nr="14">IC</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  (OverLoad)</cpld>
+  </component>
+  <component>
+     <cpnm>Z510M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>127</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0 - 2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z520M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5 - 2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z5220M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z522M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z5600M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>135</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z560M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>135</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>1.75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>Z566M</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1000E</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1000</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1000R</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1001E</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">K(Y)</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">K(~)</cppn>
+     <cppn nr="5">K(-)</cppn>
+     <cppn nr="6">Pr</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(+)</cppn>
+     <cppn nr="9">K(X)</cppn>
+     <cppn nr="10">K(Z)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">NP</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: + - ~  X  Y  Z</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1001</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">K(Y)</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">K(~)</cppn>
+     <cppn nr="5">K(-)</cppn>
+     <cppn nr="6">Pr</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(+)</cppn>
+     <cppn nr="9">K(X)</cppn>
+     <cppn nr="10">K(Z)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">NP</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: + - ~  X  Y  Z</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1001R</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">K(Y)</cppn>
+     <cppn nr="3">IC</cppn>
+     <cppn nr="4">K(~)</cppn>
+     <cppn nr="5">K(-)</cppn>
+     <cppn nr="6">Pr</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(+)</cppn>
+     <cppn nr="9">K(X)</cppn>
+     <cppn nr="10">K(Z)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">NP</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: + - ~  X  Y  Z</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1002</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">K(Hz)</cppn>
+     <cppn nr="3">K(KHz)</cppn>
+     <cppn nr="4">IC</cppn>
+     <cppn nr="5">K(ns)</cppn>
+     <cppn nr="6">K(s)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(us)</cppn>
+     <cppn nr="9">K(MHz)</cppn>
+     <cppn nr="10">K(ms)</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">NP</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: s  ms  us  ns  Hz  KHz  MHz</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1005</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1005R</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">NP/IC</cppn>
+     <cppn nr="12">Pr</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">NP/IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1010</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">K(9)</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">LD</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1011</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-8</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1012</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">K(8)</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 1-8</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1013</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">K(0)</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-6</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1014</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>EUGrd</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">IC</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">IC</cppn>
+     <cppn nr="10">IC</cppn>
+     <cppn nr="11">IC</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">A</cppn>
+     <cppn nr="14">A</cppn>
+     <cppn nr="15">IC</cppn>
+     <cppn nr="16">IC</cppn>
+     <prmt>14</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 1-6</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1020/01</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1020</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1022</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(0)</cppn>
+     <cppn nr="4">K(9)</cppn>
+     <cppn nr="5">K(8)</cppn>
+     <cppn nr="6">K(7)</cppn>
+     <cppn nr="7">K(6)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(5)</cppn>
+     <cppn nr="10">K(4)</cppn>
+     <cppn nr="11">K(3)</cppn>
+     <cppn nr="12">K(2)</cppn>
+     <cppn nr="13">K(1)</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1040</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1042/01</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1042</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>B13B</cppc>
+     <cppn nr="1">IC</cppn>
+     <cppn nr="2">A</cppn>
+     <cppn nr="3">K(1)</cppn>
+     <cppn nr="4">K(0)</cppn>
+     <cppn nr="5">K(9)</cppn>
+     <cppn nr="6">K(8)</cppn>
+     <cppn nr="7">K(7)</cppn>
+     <cppn nr="8">IC</cppn>
+     <cppn nr="9">K(6)</cppn>
+     <cppn nr="10">K(5)</cppn>
+     <cppn nr="11">K(4)</cppn>
+     <cppn nr="12">K(3)</cppn>
+     <cppn nr="13">K(2)</cppn>
+     <prmt>30</prmt>
+     <prmt>170</prmt>
+     <prmt>160</prmt>
+     <prmt>140</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>6.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1162</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">IC</cppn>
+     <cppn nr="13">IC</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>15.5</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>140</prmt>
+     <prmt>1.0</prmt>
+     <prmt>?</prmt>
+     <prmt>2.0</prmt>
+     <prmt>?</prmt>
+     <prmt>3.0</prmt>
+     <prmt>?</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1186</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">LD</cppn>
+     <cppn nr="13">NP</cppn>
+     <cppn nr="14">NP</cppn>
+     <prmt>16</prmt>
+     <prmt>180</prmt>
+     <prmt>180</prmt>
+     <prmt>145</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.75</prmt>
+     <prmt>0.4</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1188</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-136</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">K(0)</cppn>
+     <cppn nr="3">K(9)</cppn>
+     <cppn nr="4">K(8)</cppn>
+     <cppn nr="5">K(7)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">K(5)</cppn>
+     <cppn nr="8">K(4)</cppn>
+     <cppn nr="9">K(3)</cppn>
+     <cppn nr="10">K(2)</cppn>
+     <cppn nr="11">K(1)</cppn>
+     <cppn nr="12">LD</cppn>
+     <cppn nr="13">NP</cppn>
+     <cppn nr="14">NP</cppn>
+     <prmt>16</prmt>
+     <prmt>180</prmt>
+     <prmt>180</prmt>
+     <prmt>145</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.75</prmt>
+     <prmt>0.4</prmt>
+     <prmt>3.5</prmt>
+     <prmt>0.7</prmt>
+     <cpld>Kijelzés: vég. Jelek: 0-9 L DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1330K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>4.0</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1330</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>4.0</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1332F</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>4.0</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1332K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>4.0</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1332</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>4.0</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1334K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>175</prmt>
+     <prmt>175</prmt>
+     <prmt>145</prmt>
+     <prmt>11.0</prmt>
+     <prmt>0.1</prmt>
+     <prmt>14.0</prmt>
+     <prmt>2.0</prmt>
+     <prmt>18.0</prmt>
+     <prmt>3.0</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1334</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>175</prmt>
+     <prmt>175</prmt>
+     <prmt>145</prmt>
+     <prmt>11.0</prmt>
+     <prmt>0.1</prmt>
+     <prmt>14.0</prmt>
+     <prmt>2.0</prmt>
+     <prmt>18.0</prmt>
+     <prmt>3.0</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1335K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(+)</cppn>
+     <cppn nr="2">NP</cppn>
+     <cppn nr="3">NP</cppn>
+     <cppn nr="4">NP</cppn>
+     <cppn nr="5">NP</cppn>
+     <cppn nr="6">K(W)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">NP</cppn>
+     <cppn nr="9">K(~)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.8</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  ~  ohm  R DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1335</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(+)</cppn>
+     <cppn nr="2">NP</cppn>
+     <cppn nr="3">NP</cppn>
+     <cppn nr="4">NP</cppn>
+     <cppn nr="5">NP</cppn>
+     <cppn nr="6">K(W)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">NP</cppn>
+     <cppn nr="9">K(~)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.8</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  ~  ohm  R DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1336K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>175</prmt>
+     <prmt>175</prmt>
+     <prmt>145</prmt>
+     <prmt>11.0</prmt>
+     <prmt>0.1</prmt>
+     <prmt>14.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>18.0</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1336</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(1)</cppn>
+     <cppn nr="2">K(2)</cppn>
+     <cppn nr="3">K(3)</cppn>
+     <cppn nr="4">K(4)</cppn>
+     <cppn nr="5">K(5)</cppn>
+     <cppn nr="6">K(6)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">K(7)</cppn>
+     <cppn nr="9">K(8)</cppn>
+     <cppn nr="10">A</cppn>
+     <cppn nr="11">K(9)</cppn>
+     <cppn nr="12">K(0)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">LD</cppn>
+     <prmt>13.1</prmt>
+     <prmt>175</prmt>
+     <prmt>175</prmt>
+     <prmt>145</prmt>
+     <prmt>11.0</prmt>
+     <prmt>0.1</prmt>
+     <prmt>14.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>18.0</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: 0-9  LR DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1337K</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(+)</cppn>
+     <cppn nr="2">NP</cppn>
+     <cppn nr="3">NP</cppn>
+     <cppn nr="4">NP</cppn>
+     <cppn nr="5">NP</cppn>
+     <cppn nr="6">K(W)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">NP</cppn>
+     <cppn nr="9">K(~)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.8</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  ~  ohm  R DP</cpld>
+  </component>
+  <component>
+     <cpnm>ZM1337</cpnm>
+     <cpct>0</cpct>
+     <cpds>Nixie cső</cpds>
+     <cppc>SK-207</cppc>
+     <cppn nr="1">K(+)</cppn>
+     <cppn nr="2">NP</cppn>
+     <cppn nr="3">NP</cppn>
+     <cppn nr="4">NP</cppn>
+     <cppn nr="5">NP</cppn>
+     <cppn nr="6">K(W)</cppn>
+     <cppn nr="7">A</cppn>
+     <cppn nr="8">NP</cppn>
+     <cppn nr="9">K(~)</cppn>
+     <cppn nr="10">NP</cppn>
+     <cppn nr="11">NP</cppn>
+     <cppn nr="12">K(-)</cppn>
+     <cppn nr="13">RD</cppn>
+     <cppn nr="14">IC</cppn>
+     <prmt>13.1</prmt>
+     <prmt>170</prmt>
+     <prmt>170</prmt>
+     <prmt>145</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2.0</prmt>
+     <prmt>0.2</prmt>
+     <prmt>2.8</prmt>
+     <prmt>0.3</prmt>
+     <cpld>Kijelzés: oldal. Jelek: +  -  ~  ohm  R DP</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

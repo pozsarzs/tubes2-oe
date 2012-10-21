@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Nonodes (Q)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>8</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA</prmt>
+    <prmt nr="4">Ug5</prmt>
+    <prmt nr="5">Ug4</prmt>
+    <prmt nr="6">Ig4</prmt>
+    <prmt nr="7">Ug3</prmt>
+    <prmt nr="8">Ig3</prmt>
+    <prmt nr="9">Ug2 [V]</prmt>
+    <prmt nr="10">Ig2 [mA]</prmt>
+    <prmt nr="11">Ug1 [V]</prmt>
+    <prmt nr="12">Rg1m [Mohm]</prmt>
+    <prmt nr="13">S [ma/V]</prmt>
+    <prmt nr="14">Gain</prmt>
+    <prmt nr="15">Rint [kohm]</prmt>
+    <prmt nr="16">Ra [kohm]</prmt>
+    <prmt nr="17">Pout [W]</prmt>
+    <prmt nr="18">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>M2462-714C</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2-4-6</cppn>
+     <cppn nr="4">Grid5</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3</cppn>
+     <cppn nr="7">Cathode-Grid7</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>-4.7</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>-4.7</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>1.45</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>400</prmt>
+     <prmt>?</prmt>
+     <prmt>0.1</prmt>
+     <cpld>Rc=700ohm; Rg2=34/4kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EQ40</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>R8</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2-4-6</cppn>
+     <cppn nr="4">Grid5</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3</cppn>
+     <cppn nr="7">Cathode-Grid7</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.1</prmt>
+     <prmt>-4.7</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>-4.7</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>1.45</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>400</prmt>
+     <prmt>?</prmt>
+     <prmt>0.1</prmt>
+     <cpld>Rc=700ohm; Rg2=34/4kohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-434C</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">G2-4-6</cppn>
+     <cppn nr="2">Grid3</cppn>
+     <cppn nr="3">Cathode-Grid7</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">wire to 3</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.28</prmt>
+     <prmt>-4</prmt>
+     <prmt>20</prmt>
+     <prmt>0.03</prmt>
+     <prmt>-4</prmt>
+     <prmt>0.09</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EQ80</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">G2-4-6</cppn>
+     <cppn nr="2">Grid3</cppn>
+     <cppn nr="3">Cathode-Grid7</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">wire to 3</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.28</prmt>
+     <prmt>-4</prmt>
+     <prmt>20</prmt>
+     <prmt>0.03</prmt>
+     <prmt>-4</prmt>
+     <prmt>0.09</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6BE7</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">G2-4-6</cppn>
+     <cppn nr="2">Grid3</cppn>
+     <cppn nr="3">Cathode-Grid7</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">wire to 3</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.28</prmt>
+     <prmt>-4</prmt>
+     <prmt>20</prmt>
+     <prmt>0.03</prmt>
+     <prmt>-4</prmt>
+     <prmt>0.09</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EQ80</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">G2-4-6</cppn>
+     <cppn nr="2">Grid3</cppn>
+     <cppn nr="3">Cathode-Grid7</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">wire to 3</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.28</prmt>
+     <prmt>-4</prmt>
+     <prmt>20</prmt>
+     <prmt>0.03</prmt>
+     <prmt>-4</prmt>
+     <prmt>0.09</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EQ171</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Anode</cppn>
+     <cppn nr="5">Grid4-6</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Grid3</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <cppn nr="10">Grid7</cppn>
+     <cppn nr="11">Grid1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-4</prmt>
+     <prmt>60</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>5000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UQ80</cpnm>
+     <cpct>0</cpct>
+     <cpds>nonode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">G2-4-6</cppn>
+     <cppn nr="2">Grid3</cppn>
+     <cppn nr="3">Cathode-Grid7</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode</cppn>
+     <cppn nr="7">Grid1</cppn>
+     <cppn nr="8">wire to 3</cppn>
+     <cppn nr="9">Grid5</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>170</prmt>
+     <prmt>0.275</prmt>
+     <prmt>-4.5</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>-4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>1.5</prmt>
+     <prmt>0</prmt>
+     <prmt>10</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>5000</prmt>
+     <prmt>470</prmt>
+     <prmt>?</prmt>
+     <prmt>0.1</prmt>
+     <cpld>Rc=680ohm;</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

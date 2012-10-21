@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Diode-duodiode-powerpentodes (ABL)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>1</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>CABL21</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-duodiode-power pentode</cpds>
+     <cppc>T9</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Diode-anode1</cppn>
+     <cppn nr="3">Diode-anode2</cppn>
+     <cppn nr="4">Diode-anode3</cppn>
+     <cppn nr="5">Cathode</cppn>
+     <cppn nr="6">Grid1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Grid3-anode</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>42</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>45</prmt>
+     <prmt>100</prmt>
+     <prmt>5.5</prmt>
+     <prmt>-9.5</prmt>
+     <prmt>?</prmt>
+     <prmt>8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>4</prmt>
+     <prmt>?</prmt>
+     <cpld>Rc=175</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

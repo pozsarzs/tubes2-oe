@@ -1,0 +1,515 @@
+#: frmabout:message01
+msgid "About"
+msgstr "Névjegy"
+
+#: frmabout:message02
+msgid "&Close"
+msgstr "&Bezár"
+
+#: frmabout:message03
+msgid "Electrontube catalogue"
+msgstr "Elektroncső katalógus"
+
+#: frmabout:message04
+msgid "Licence: GNU GPL 3.0 or later."
+msgstr "Licenc: GNU GPL 3.0 vagy újabb."
+
+#: frmabout:message05
+msgid "Sorry, there is off-line mode."
+msgstr "Elnézést, de ez kapcsolat nélküli módban nem lehetséges."
+
+#: frmconfig:message01
+msgid "Settings"
+msgstr "Beállítások"
+
+#: frmconfig:message02
+msgid "Mailer programme"
+msgstr "Levelező program"
+
+#: frmconfig:message03
+msgid "Browser programme"
+msgstr "Böngésző program"
+
+#: frmconfig:message04
+msgid "Disable search new version on internet"
+msgstr "Új verzió keresése kikapcsolva"
+
+#: frmconfig:message05
+msgid "Full off-line mode"
+msgstr "Kapcsolat nélküli mód"
+
+#: frmconfig:message06
+msgid "Browse.."
+msgstr "Tallóz.."
+
+#: frmconfig:message07
+msgid "Save"
+msgstr "Mentés"
+
+#: frmconfig:message08
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: frmconfig:message09
+msgid "Select browser programme"
+msgstr "Válasszon böngészőt"
+
+#: frmconfig:message10
+msgid "Select mailer programme"
+msgstr "Válasszon levelezőt"
+
+#: frmconfig:message11
+msgid "executables|*.exe|all files|*.*"
+msgstr "alkalmazások|*.exe|minden fájl|*.*"
+
+#: frmconfig:message12
+msgid "all files|*.*"
+msgstr "minden fájl|*.*"
+
+#: frmconfig:message13
+msgid "Default"
+msgstr "Alap"
+
+#: frmhelppic:message01
+msgid "Gallery"
+msgstr "Galéria"
+
+#: frmhelppic:message02
+msgid "&Close"
+msgstr "&Bezár"
+
+#: frmhelppic:message03
+msgid "There are not any pictures."
+msgstr "Nincsenek képek."
+
+#: frmmain:message01
+msgid "&File"
+msgstr "&Fájl"
+
+#: frmmain:message02
+msgid "Base"
+msgstr "Csőfej"
+
+#: frmmain:message03
+msgid "&Save"
+msgstr "&Mentés"
+
+#: frmmain:message04
+msgid "Type search"
+msgstr "Típus keresése"
+
+#: frmmain:message05
+msgid "&Quit"
+msgstr "&Kilépés"
+
+#: frmmain:message06
+msgid "&Help"
+msgstr "&Segítség"
+
+#: frmmain:message07
+msgid "Help co&ntent"
+msgstr "Segítség &tartalom"
+
+#: frmmain:message08
+msgid "&Image gallery"
+msgstr "&Képgyűjtemény"
+
+#: frmmain:message09
+msgid "&About"
+msgstr "&Névjegy"
+
+#: frmmain:message10
+msgid "Missing files! Please reinstall Tubes."
+msgstr "Hiányzó fájlok! Telepítse újra a programot."
+
+#: frmmain:message11
+msgid "Type"
+msgstr "Típus"
+
+#: frmmain:message12
+msgid "&View"
+msgstr "&Nézet"
+
+#: frmmain:message13
+msgid "Auto &fill"
+msgstr "&Auto kitöltés"
+
+#: frmmain:message14
+msgid "Auto &column size"
+msgstr "Auto &oszlop méret"
+
+#: frmmain:message15
+msgid "&Search"
+msgstr "&Keresés"
+
+#: frmmain:message16
+msgid "&Type search"
+msgstr "&Típus keresése"
+
+#: frmmain:message17
+msgid "&Parameter search"
+msgstr "&Paraméteres keresés"
+
+#: frmmain:message18
+msgid "&Sort"
+msgstr "&Rendezés"
+
+#: frmmain:message19
+msgid "File exists, overwrite?"
+msgstr "A fájl létezik, felülírjam?"
+
+#: frmmain:message20
+msgid "Write error!"
+msgstr "Írási hiba!"
+
+#: frmmain:message21
+msgid "Electrontube datasheet"
+msgstr "Elektroncső adatlap"
+
+#: frmmain:message22
+msgid "Pinout"
+msgstr "Lábak"
+
+#: frmmain:message23
+msgid "Category"
+msgstr "Kategória"
+
+#: frmmain:message24
+msgid "Parameters"
+msgstr "Jellemzők"
+
+#: frmmain:message25
+msgid "Electrontube"
+msgstr "Elektroncső"
+
+#: frmmain:message26
+msgid "Not found"
+msgstr "Nincs találat"
+
+#: frmmain:message27
+msgid "Sorry, there is not help viewer!"
+msgstr "Nincs segítség megjelenítő!"
+
+#: frmmain:message28
+msgid "Save"
+msgstr "Mentés"
+
+#: frmmain:message29
+msgid "Save to file"
+msgstr "Mentés másként"
+
+#: frmmain:message30
+msgid "Type search"
+msgstr "Típus keresés"
+
+#: frmmain:message31
+msgid "Function"
+msgstr "Funkció"
+
+#: frmmain:message32
+msgid "&Upgrade database"
+msgstr "&Adatbázis frissítés"
+
+#: frmmain:message33
+msgid "Version"
+msgstr "Változat"
+
+#: frmmain:message34
+msgid "Database is corrupt!"
+msgstr "Hibás adatbázis!"
+
+#: frmmain:message35
+msgid "New version of database is available, click on 'Upgrade database' to install it."
+msgstr "Frissebb adatbázis elérhető, használja az 'Adatbázis frissítés'-t a telepítéséhez."
+
+#: frmmain:message36
+msgid "Original size"
+msgstr "&Eredeti méretek"
+
+#: frmmain:message37
+msgid "Copy pinout to clipboard"
+msgstr "Lábkiosztás másolása a vágólapra"
+
+#: frmmain:message38
+msgid "Copy description to clipboard"
+msgstr "Leírás másolása a vágólapra"
+
+#: frmmain:message39
+msgid "Electrontubes"
+msgstr "Elektroncsövek"
+
+#: frmmain:message40
+msgid "Description"
+msgstr "Leírás"
+
+#: frmmain:message41
+msgid "New version of Tubes is available."
+msgstr "A Tubes új kiadása már elérhető."
+
+#: frmmain:message42
+msgid "(This message does not show again.)"
+msgstr "(Ez az üzenet később nem fog megjelenni.)"
+
+#: frmmain:message43
+msgid "homepage"
+msgstr "honlap"
+
+#: frmmain:message44
+msgid "HTML files (*.html)|*.html| text files (*.txt)|*.txt|"
+msgstr "HTML fájlok (*.html)|*.html| szöveges fájlok (*.txt)|*.txt|"
+
+#: frmmain:message45
+msgid "Show description"
+msgstr "A leírás megjelenítése"
+
+#: frmmain:message46
+msgid "Parameter search"
+msgstr "Paraméteres keresés"
+
+#: frmmain:message47
+msgid "&Links to manufacturers"
+msgstr "&Gyártók honlapjai"
+
+#: frmmain:message48
+msgid "&Reporting a bug"
+msgstr "&Hibajelentés"
+
+#: frmmain:message49
+msgid "Select manufacturers and press 'Go!'"
+msgstr "Válassz egy gyártót és nyomd meg az 'Ugrást!'-t"
+
+#: frmmain:message50
+msgid "Go!"
+msgstr "Ugrás!"
+
+#: frmmain:message51
+msgid "Sorry, there is off-line mode."
+msgstr "Elnézést, de kapcsolat nélküli módban vagyunk."
+
+#: frmmain:message52
+msgid "Settin&gs"
+msgstr "Beállítás&ok"
+
+#: frmmain:message53
+msgid "Cannot run browser!"
+msgstr "Nem tudom megnyitni a böngészőt!"
+
+#: frmmain:message54
+msgid "Cannot run mailer!"
+msgstr "Nem tudom megnyitni a levelezőt!"
+
+#: frmmain:message55
+msgid "Parameters"
+msgstr "Jellemzők"
+
+#: frmmain:message56
+msgid "Show lines"
+msgstr "Rács"
+
+#: frmmain:message57
+msgid "Please visit http://www.pozsarzs.hu for download it."
+msgstr "A letöltéshez látogassa meg a http://www.pozsarzs.hu-t."
+
+#: frmmain:message58
+msgid "pinout"
+msgstr "labkiosztas"
+
+#: frmmain:message59
+msgid "On-line pinout searcher"
+msgstr "On-line csőfejbekötés kereső"
+
+#: frmmain:message60
+msgid "New type re&quest"
+msgstr "Ú&j típus bejelentése"
+
+#: frmmain:message62
+msgid "Search in all category"
+msgstr "Keresés az összes kategóriában"
+
+#: frmmain:message63
+msgid "Package information"
+msgstr "Csomag információ"
+
+#: frmmain:message64
+msgid "File is not readable."
+msgstr "Az állomány nem olvasható!"
+
+#: frmmain:message65
+msgid "Pa&ckage information"
+msgstr "Csomag info&rmáció"
+
+#: frmmain:message66
+msgid "Li&cence"
+msgstr "Lic&enc"
+
+#: frmmain:message67
+msgid "Licence"
+msgstr "Licenc"
+
+#: frmmain:message68
+msgid "&Search in all category"
+msgstr "&Keresés az összes kategóriában"
+
+#: frmmain:message69
+msgid "Ad"
+msgstr "Reklám"
+
+#: frmmain:message70
+msgid "Index file is corrupt!"
+msgstr "Hibás az index fájl!"
+
+#: frmmain:message71
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: frmmain.message72
+msgid "&Download full release"
+msgstr "Teljes &változat letöltése"
+
+#: frmmain:message73
+msgid "&Bookmarks"
+msgstr "Köny&vjelzők"
+
+#: frmmain:message74
+msgid "&Show bookmarks"
+msgstr "&Mutasd a könyvjelzőket"
+
+#: frmmain:message75
+msgid "&Add to bookmarks"
+msgstr "&Add hozzá a könyvjelzőkhöz"
+
+#: frmmain:message76
+msgid "&Remove from bookmarks"
+msgstr "Be&jegyzés eltávolítása"
+
+#: frmmain:message77
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#: frmparsearch:message01
+msgid "Parameter search"
+msgstr "Paraméteres keresés"
+
+#: frmparsearch:message02
+msgid "parameter/unit"
+msgstr "paraméter/egység"
+
+#: frmparsearch:message03
+msgid "min."
+msgstr "min."
+
+#: frmparsearch:message04
+msgid "max."
+msgstr "max."
+
+#: frmparsearch:message05
+msgid "&Search"
+msgstr "&Keres"
+
+#: frmparsearch:message06
+msgid "&Close"
+msgstr "&Bezár"
+
+#: frmparsearch:message07
+msgid "&Reset"
+msgstr "Ú&jra"
+
+#: frmparsearch:message08
+msgid "result list"
+msgstr "eredmény lista"
+
+#: frmparsearch:message09
+msgid "Not found!"
+msgstr "Nem találtam!"
+
+#: frmparsearch:message10
+msgid "&Jump"
+msgstr "U&grás"
+
+#: frmsort:message01
+msgid "Base column"
+msgstr "Rendezési alap"
+
+#: frmsort:message02
+msgid "&Start sort"
+msgstr "&Rendez"
+
+#: frmsort:message03
+msgid "Sort"
+msgstr "Rendezés"
+
+#: frmsort:message04
+msgid "&Close"
+msgstr "&Bezár"
+
+#: frmupgrade:message01
+msgid "Upgrade database"
+msgstr "Adatbázis frissítés"
+
+#: frmupgrade:message02
+msgid "&Close"
+msgstr "&Bezár"
+
+#: frmupgrade:message03
+msgid "&Browse"
+msgstr "&Tallóz"
+
+#: frmupgrade:message04
+msgid "&Download"
+msgstr "&Letölt"
+
+#: frmupgrade:message05
+msgid "Install and upgrade from file"
+msgstr "Telepítés és frissítés fájlból"
+
+#: frmupgrade:message06
+msgid "Install and upgrade from internet"
+msgstr "Telepítés és frissítés az internetről"
+
+#: frmupgrade:message07
+msgid "Open ZIP file"
+msgstr "ZIP fájl megnyitása"
+
+#: frmupgrade:message08
+msgid "There is no new version of database!"
+msgstr "Nincs frissebb adatbázis!"
+
+#: frmupgrade:message09
+msgid "Download error!"
+msgstr "Letöltési hiba"
+
+#: frmupgrade:message10
+msgid "Datafile is installed."
+msgstr "Az adatfájl telepítve!"
+
+#: frmupgrade:message11
+msgid "Install error!"
+msgstr "Telepítési hiba!"
+
+#: frmupgrade:message12
+msgid "Datafile corrupt!"
+msgstr "Hibás az adatfájl!"
+
+#: frmupgrade:message13
+msgid "File read/write error!"
+msgstr "Fájl olvasási/írási hiba!"
+
+#: frmupgrade:message14
+msgid "Remove all upgrade"
+msgstr "Az összes frissítés eltávolítása"
+
+#: frmupgrade:message15
+msgid "&Remove"
+msgstr "&Eltávolítás"
+
+#: frmupgrade:message16
+msgid "Remove error!"
+msgstr "Eltávolítási hiba!"
+
+#: frmupgrade:message17
+msgid "Tubes needs restart to use new or preinstalled database. Press OK to terminate application."
+msgstr "Az új vagy az előtelepített adatbázis használatához a program újraindítása szükséges. A kilépéshez nyomja meg az OK-t!"
+
+#: frmupgrade:message18
+msgid "ZIP archives|*.zip|all files|*.*"
+msgstr "ZIP archívumok|*.zip|all files|*.*"

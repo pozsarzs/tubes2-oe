@@ -1,0 +1,14 @@
+ Uh:	heater voltage
+ Ih:	heater current
+ Ua:	anode voltage
+ Ia:	anode current
+ Usc:	screen voltage
+ Isc:	screen current
+ Ug1:	grid1 voltage
+ Rg1m:	maximal grid1 resistor
+ S:	mutual conductance
+ Gain:	gain coefficient
+ Rint:	internal resistance
+ Ra:	optimal load resistance
+ Pout:	output power
+ Pa:	anode power

@@ -1,0 +1,7 @@
+ Uh:	fűtőfeszültség
+ Ih:	fűtőáram
+ Ua:	anódfeszültség
+ Ia:	anódáram
+ Ra:	optimális terhelő ellenállás
+ Pout:	kimenő teljesítmény
+ Pa:	anód teljesítmény

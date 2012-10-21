@@ -1,0 +1,4 @@
+ Is:	typical current per segment
+ Ih:	heater current
+ Symh:	symbol height
+ Us:	typical supply voltage

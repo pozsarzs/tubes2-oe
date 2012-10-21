@@ -1,0 +1,524 @@
+#: frmabout:message01
+msgid "About"
+msgstr ""
+
+#: frmabout:message02
+msgid "&Close"
+msgstr ""
+
+#: frmabout:message03
+msgid "Electrontube catalogue"
+msgstr ""
+
+#: frmabout.message04
+msgid "Licence: GNU GPL 3.0 or later."
+msgstr ""
+
+#: frmabout:message05
+msgid "Sorry, there is off-line mode."
+msgstr ""
+
+#: frmconfig:message01
+msgid "Settings"
+msgstr ""
+
+#: frmconfig:message02
+msgid "Mailer programme"
+msgstr ""
+
+#: frmconfig:message03
+msgid "Browser programme"
+msgstr ""
+
+#: frmconfig:message04
+msgid "Disable search new version on internet"
+msgstr ""
+
+#: frmconfig:message05
+msgid "Full off-line mode"
+msgstr ""
+
+#: frmconfig:message06
+msgid "Browse.."
+msgstr ""
+
+#: frmconfig:message07
+msgid "Save"
+msgstr ""
+
+#: frmconfig:message08
+msgid "Cancel"
+msgstr ""
+
+#: frmconfig:message09
+msgid "Select browser programme"
+msgstr ""
+
+#: frmconfig:message10
+msgid "Select mailer programme"
+msgstr ""
+
+#: frmconfig:message11
+msgid "executables|*.exe|all files|*.*"
+msgstr ""
+
+#: frmconfig:message12
+msgid "all files|*.*"
+msgstr ""
+
+#: frmconfig:message13
+msgid "Default"
+msgstr ""
+
+#: frmhelppic:message01
+msgid "Gallery"
+msgstr ""
+
+#: frmhelppic:message02
+msgid "&Close"
+msgstr ""
+
+#: frmhelppic:message03
+msgid "There are not any pictures."
+msgstr ""
+
+#: frmmain:message01
+msgid "&File"
+msgstr ""
+
+#: frmmain:message02
+msgid "Base"
+msgstr ""
+
+#: frmmain:message03
+msgid "&Save"
+msgstr ""
+
+#: frmmain:message04
+msgid "Type search"
+msgstr ""
+
+#: frmmain:message05
+msgid "&Quit"
+msgstr ""
+
+#: frmmain:message06
+msgid "&Help"
+msgstr ""
+
+#: frmmain:message07
+msgid "Help co&ntent"
+msgstr ""
+
+#: frmmain:message08
+msgid "&Image gallery"
+msgstr ""
+
+#: frmmain:message09
+msgid "&About"
+msgstr ""
+
+#: frmmain:message10
+msgid "Missing files! Please reinstall Tubes."
+msgstr ""
+
+#: frmmain:message11
+msgid "Type"
+msgstr ""
+
+#: frmmain:message12
+msgid "&View"
+msgstr ""
+
+#: frmmain:message13
+msgid "Auto &fill"
+msgstr ""
+
+#: frmmain:message14
+msgid "Auto &column size"
+msgstr ""
+
+#: frmmain:message15
+msgid "&Search"
+msgstr ""
+
+#: frmmain:message16
+msgid "&Type search"
+msgstr ""
+
+#: frmmain:message17
+msgid "&Parameter search"
+msgstr ""
+
+#: frmmain:message18
+msgid "&Sort"
+msgstr ""
+
+#: frmmain:message19
+msgid "File exists, overwrite?"
+msgstr ""
+
+#: frmmain:message20
+msgid "Write error!"
+msgstr ""
+
+#: frmmain:message21
+msgid "Electrontube datasheet"
+msgstr ""
+
+#: frmmain:message22
+msgid "Pinout"
+msgstr ""
+
+#: frmmain:message23
+msgid "Category"
+msgstr ""
+
+#: frmmain:message24
+msgid "Parameters"
+msgstr ""
+
+#: frmmain:message25
+msgid "Electrontube"
+msgstr ""
+
+#: frmmain:message26
+msgid "Not found"
+msgstr ""
+
+#: frmmain:message27
+msgid "Sorry, there is not help viewer!"
+msgstr ""
+
+#: frmmain:message28
+msgid "Save"
+msgstr ""
+
+#: frmmain:message29
+msgid "Save to file"
+msgstr ""
+
+#: frmmain:message30
+msgid "Type search"
+msgstr ""
+
+#: frmmain:message31
+msgid "Function"
+msgstr ""
+
+#: frmmain:message32
+msgid "&Upgrade database"
+msgstr ""
+
+#: frmmain:message33
+msgid "Version"
+msgstr ""
+
+#: frmmain:message34
+msgid "Database is corrupt!"
+msgstr ""
+
+#: frmmain:message35
+msgid "New version of database is available, click on 'Upgrade database' to install it."
+msgstr ""
+
+#: frmmain:message36
+msgid "Original size"
+msgstr ""
+
+#: frmmain:message37
+msgid "Copy pinout to clipboard"
+msgstr ""
+
+#: frmmain:message38
+msgid "Copy description to clipboard"
+msgstr ""
+
+#: frmmain:message39
+msgid "Electrontubes"
+msgstr ""
+
+#: frmmain:message40
+msgid "Description"
+msgstr ""
+
+#: frmmain:message41
+msgid "New version of Tubes is available."
+msgstr ""
+
+#: frmmain:message42
+msgid "(This message does not show again.)"
+msgstr ""
+
+#: frmmain:message43
+msgid "homepage"
+msgstr ""
+
+#: frmmain:message44
+msgid "HTML files (*.html)|*.html| text files (*.txt)|*.txt|"
+msgstr ""
+
+#: frmmain:message45
+msgid "Show description"
+msgstr ""
+
+#: frmmain:message46
+msgid "Parameter search"
+msgstr ""
+
+#: frmmain:message47
+msgid "&Links to manufacturers"
+msgstr ""
+
+#: frmmain:message48
+msgid "&Reporting a bug"
+msgstr ""
+
+#: frmmain:message49
+msgid "Select and press 'Go!'"
+msgstr ""
+
+#: frmmain:message50
+msgid "Go!"
+msgstr ""
+
+#: frmmain:message51
+msgid "Sorry, there is off-line mode."
+msgstr ""
+
+#: frmmain:message52
+msgid "Settin&gs"
+msgstr ""
+
+#: frmmain:message53
+msgid "Cannot run browser!"
+msgstr ""
+
+#: frmmain:message54
+msgid "Cannot run mailer!"
+msgstr ""
+
+#: frmmain:message55
+msgid "Parameters"
+msgstr ""
+
+#: frmmain:message56
+msgid "Show lines"
+msgstr ""
+
+#: frmmain:message57
+msgid "Please visit http://www.pozsarzs.hu for download it."
+msgstr ""
+
+#: frmmain:message58
+msgid "pinout"
+msgstr ""
+
+#: frmmain:message59
+msgid "On-line pinout searcher"
+msgstr ""
+
+#: frmmain:message60
+msgid "New type re&quest"
+msgstr ""
+
+#: frmmain:message61
+msgid ""
+msgstr ""
+
+#: frmmain:message62
+msgid "Search in all category"
+msgstr ""
+
+#: frmmain:message63
+msgid "Package information"
+msgstr ""
+
+#: frmmain:message64
+msgid "File is not readable."
+msgstr ""
+
+#: frmmain:message65
+msgid "Pa&ckage information"
+msgstr ""
+
+#: frmmain:message66
+msgid "Li&cence"
+msgstr ""
+
+#: frmmain:message67
+msgid "Licence"
+msgstr ""
+
+#: frmmain:message68
+msgid "&Search in all category"
+msgstr ""
+
+#: frmmain:message69
+msgid "Ad"
+msgstr ""
+
+#: frmmain:message70
+msgid "Index file is corrupt!"
+msgstr ""
+
+#: frmmain:message71
+msgid "Loading..."
+msgstr ""
+
+#: frmmain.message72
+msgid "&Download full release"
+msgstr ""
+
+#: frmmain.message73
+msgid "&Bookmarks"
+msgstr ""
+
+#: frmmain:message74
+msgid "&Show bookmarks"
+msgstr ""
+
+#: frmmain:message75
+msgid "&Add to bookmarks"
+msgstr ""
+
+#: frmmain:message76
+msgid "&Remove from bookmarks"
+msgstr ""
+
+#: frmmain:message77
+msgid "Bookmarks"
+msgstr ""
+
+#: frmparsearch:message01
+msgid "Parameter search"
+msgstr ""
+
+#: frmparsearch:message02
+msgid "parameter/unit"
+msgstr ""
+
+#: frmparsearch:message03
+msgid "min."
+msgstr ""
+
+#: frmparsearch:message04
+msgid "max."
+msgstr ""
+
+#: frmparsearch:message05
+msgid "&Search"
+msgstr ""
+
+#: frmparsearch:message06
+msgid "&Close"
+msgstr ""
+
+#: frmparsearch:message07
+msgid "&Reset"
+msgstr ""
+
+#: frmparsearch:message08
+msgid "result list"
+msgstr ""
+
+#: frmparsearch:message09
+msgid "Not found!"
+msgstr ""
+
+#: frmparsearch:message10
+msgid "&Jump"
+msgstr ""
+
+#: frmsort:message01
+msgid "Base column"
+msgstr ""
+
+#: frmsort:message02
+msgid "&Start sort"
+msgstr ""
+
+#: frmsort:message03
+msgid "Sort"
+msgstr ""
+
+#: frmsort:message04
+msgid "&Close"
+msgstr ""
+
+#: frmtextview:message01
+msgid "&Close"
+msgstr ""
+
+#: frmupgrade:message01
+msgid "Upgrade database"
+msgstr ""
+
+#: frmupgrade:message02
+msgid "&Close"
+msgstr ""
+
+#: frmupgrade:message03
+msgid "&Browse"
+msgstr ""
+
+#: frmupgrade:message04
+msgid "&Download"
+msgstr ""
+
+#: frmupgrade:message05
+msgid "Install and upgrade from file"
+msgstr ""
+
+#: frmupgrade:message06
+msgid "Install and upgrade from internet"
+msgstr ""
+
+#: frmupgrade:message07
+msgid "Open ZIP file"
+msgstr ""
+
+#: frmupgrade:message08
+msgid "There is no new version of database!"
+msgstr ""
+
+#: frmupgrade:message09
+msgid "Download error!"
+msgstr ""
+
+#: frmupgrade:message10
+msgid "Datafile is installed."
+msgstr ""
+
+#: frmupgrade:message11
+msgid "Install error!"
+msgstr ""
+
+#: frmupgrade:message12
+msgid "Datafile corrupt!"
+msgstr ""
+
+#: frmupgrade:message13
+msgid "File read/write error!"
+msgstr ""
+
+#: frmupgrade:message14
+msgid "Remove all upgrade"
+msgstr ""
+
+#: frmupgrade:message15
+msgid "&Remove"
+msgstr ""
+
+#: frmupgrade:message16
+msgid "Remove error!"
+msgstr ""
+
+#: frmupgrade:message17
+msgid "Tubes needs restart to use new or preinstalled database. Press OK to terminate application."
+msgstr ""
+
+#: frmupgrade:message18
+msgid "ZIP archives|*.zip|all files|*.*"
+msgstr ""
+

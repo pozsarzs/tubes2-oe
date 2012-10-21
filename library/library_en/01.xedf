@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Display tubes (flurotrons)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>6</noc>
+    <prmt nr="0">Symh. [mm]</prmt>
+    <prmt nr="1">Upl [V]</prmt>
+    <prmt nr="2">Ia [mA]</prmt>
+    <prmt nr="3">Uh [V]</prmt>
+    <prmt nr="4">Ih [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>8843</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9APlus</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">F</cppn>
+     <cppn nr="3">E</cppn>
+     <cppn nr="4">G</cppn>
+     <cppn nr="5">D</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">C</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">Heater</cppn>
+     <cppn nr="10">Dp</cppn>
+     <prmt>15</prmt>
+     <prmt>27</prmt>
+     <prmt>0.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>40</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DT-1719B</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">A|</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">A-</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>14.5</prmt>
+     <prmt>27</prmt>
+     <prmt>?</prmt>
+     <prmt>1.6</prmt>
+     <prmt>45</prmt>
+     <cpld>Displayed symbols: | -</cpld>
+  </component>
+  <component>
+     <cpnm>DT-1730B</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">A1/4</cppn>
+     <cppn nr="3">NC0</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">A1/2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>17.8</prmt>
+     <prmt>27</prmt>
+     <prmt>?</prmt>
+     <prmt>1.6</prmt>
+     <prmt>45</prmt>
+     <cpld>Displayed symbols: 1/4lb 1/2lb</cpld>
+  </component>
+  <component>
+     <cpnm>Y-1938</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">F</cppn>
+     <cppn nr="3">E</cppn>
+     <cppn nr="4">G</cppn>
+     <cppn nr="5">D</cppn>
+     <cppn nr="6">Heater+</cppn>
+     <cppn nr="7">C</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>14.5</prmt>
+     <prmt>27</prmt>
+     <prmt>0.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>40</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>Y-1939</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9APlus</cppc>
+     <cppn nr="1">A</cppn>
+     <cppn nr="2">F</cppn>
+     <cppn nr="3">E</cppn>
+     <cppn nr="4">G</cppn>
+     <cppn nr="5">D</cppn>
+     <cppn nr="6">Heater+</cppn>
+     <cppn nr="7">C</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">Heater</cppn>
+     <cppn nr="10">Dp</cppn>
+     <prmt>14.5</prmt>
+     <prmt>27</prmt>
+     <prmt>0.5</prmt>
+     <prmt>1.5</prmt>
+     <prmt>40</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>Y-4112</cpnm>
+     <cpct>0</cpct>
+     <cpds>flurotron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">A1/4</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">A1/2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater</cppn>
+     <prmt>14.5</prmt>
+     <prmt>27</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <prmt>40</prmt>
+     <cpld>Displayed symbols: 1/4lb 1/2lb</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,3362 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Cathode ray tube (for oscilloscope)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>103</noc>
+    <prmt nr="0">d [mm]</prmt>
+    <prmt nr="1">l [mm]</prmt>
+    <prmt nr="2">Uh [V]</prmt>
+    <prmt nr="3">Ih[A]</prmt>
+    <prmt nr="4">Ug1 [V]</prmt>
+    <prmt nr="5">Ua1 [V]</prmt>
+    <prmt nr="6">Ua2 [V]</prmt>
+    <prmt nr="7">Ua3 [kV]</prmt>
+    <prmt nr="8">D1-2 [mm/V]</prmt>
+    <prmt nr="9">D3-4 [mm/V]</prmt>
+  </header>
+  <component>
+     <cpnm>3BP11-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>3BP1-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>3BP2-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>3JP11</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3JP1</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3JP2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3JP7</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3KP11</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>3KP1</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>3KP2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>5BP11-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>5BP1-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>5BP2-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>5CP11-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>5CP1-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>5CP2-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>5CP7-A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>5CP7A</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>5YP11</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5YP1</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5YP2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5YP7</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2191</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>CV2869</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2934</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>CV2935</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV3733</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>CV3954</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>CV3955</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>CV5004</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5034</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV600</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DB10-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">lin. adj.</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Deflector2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Deflector1</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Anode1</cppn>
+     <cppn nr="9">astig.</cppn>
+     <cppn nr="10">Deflector3</cppn>
+     <cppn nr="11">geo. adj.</cppn>
+     <cppn nr="12">D</cppn>
+     <cppn nr="13">Deflector4</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>102</prmt>
+     <prmt>335</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>28...56</prmt>
+     <prmt>80...180</prmt>
+     <prmt>700</prmt>
+     <prmt>5.6</prmt>
+     <prmt>1.07</prmt>
+     <prmt>3.57</prmt>
+     <cpld>or Ug1=-40...80V; Ua1=100...300V; Ua2=1000V; Ua3=6kV; D1-2=0.8; D3-4=2.5</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-114</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">Deflector2</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>375</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>48...82</prmt>
+     <prmt>360...620</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-48...82V; Ua1=360...620V; Ua2=2000V; Ua3=4kV; D1-2=0.3; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-132</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>136</prmt>
+     <prmt>384.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>30...90</prmt>
+     <prmt>340...640</prmt>
+     <prmt>2000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.47</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-134</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>135.5</prmt>
+     <prmt>430</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>32...56</prmt>
+     <prmt>300...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.55</prmt>
+     <prmt>0.75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-154</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-160</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode2b</cppn>
+     <cppn nr="8">Anode2e</cppn>
+     <cppn nr="9">Anode2a</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode2c</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <cppn nr="20">(Anode3)</cppn>
+     <cppn nr="21">(Anode4)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>468.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-30...80</prmt>
+     <prmt>180...350</prmt>
+     <prmt>1000</prmt>
+     <prmt>1</prmt>
+     <prmt>0.6</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DB13-54</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB7-113</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>DB7-115</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>DB7-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DB7-126</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">(Anode3)</cppn>
+     <prmt>77.8</prmt>
+     <prmt>200</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>40...100</prmt>
+     <prmt>0...150</prmt>
+     <prmt>400</prmt>
+     <prmt>1.6</prmt>
+     <prmt>0.44</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-50...120V; Ua1=0...200V; Ua2=500V; Ua3=1kV; D1-2=0.4; D3-4=0.57</cpld>
+  </component>
+  <component>
+     <cpnm>DBM13-136</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-18</cppc>
+     <cppn nr="1">Cathode-B</cppn>
+     <cppn nr="2">Heater-B</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2a-Common</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode1-A</cppn>
+     <cppn nr="7">Grid1-A</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater-A</cppn>
+     <cppn nr="10">Cathode-A</cppn>
+     <cppn nr="11">Heater-A</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">Anode2c-B</cppn>
+     <cppn nr="15">Anode1-B</cppn>
+     <cppn nr="16">Grid1-B</cppn>
+     <cppn nr="17">NC</cppn>
+     <cppn nr="18">Heater-B</cppn>
+     <cppn nr="19">Deflector1-B</cppn>
+     <cppn nr="20">Deflector2-B</cppn>
+     <cppn nr="21">Deflector4-B</cppn>
+     <cppn nr="22">Deflector3-B</cppn>
+     <cppn nr="23">Anode2b-Common</cppn>
+     <cppn nr="24">Deflector4-A</cppn>
+     <cppn nr="25">Deflector3-A</cppn>
+     <cppn nr="26">Deflector2-A</cppn>
+     <cppn nr="27">Deflector1-A</cppn>
+     <cppn nr="28">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>497.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>2x0.3</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>300...640</prmt>
+     <prmt>1500</prmt>
+     <prmt>7.5</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DBM13-140</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14c</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode-b</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Grid1-B</cppn>
+     <cppn nr="5">Anode1-B</cppn>
+     <cppn nr="6">Anode2b-Common</cppn>
+     <cppn nr="7">Anode2c-B</cppn>
+     <cppn nr="8">Anode2a-Common</cppn>
+     <cppn nr="9">Anode2d-Common</cppn>
+     <cppn nr="10">Anode1-A</cppn>
+     <cppn nr="11">Grid1-A</cppn>
+     <cppn nr="12">Cathode-A</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">D1-Common</cppn>
+     <cppn nr="15">D2-Common</cppn>
+     <cppn nr="16">Anode2e-Common</cppn>
+     <cppn nr="17">Deflector3-A</cppn>
+     <cppn nr="18">Deflector4-A</cppn>
+     <cppn nr="19">Deflector3-B</cppn>
+     <cppn nr="20">Deflector4-B</cppn>
+     <cppn nr="21">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>480</prmt>
+     <prmt>6.3</prmt>
+     <prmt>1.2</prmt>
+     <prmt>-50...80</prmt>
+     <prmt>200...500</prmt>
+     <prmt>1670</prmt>
+     <prmt>10</prmt>
+     <prmt>0.33</prmt>
+     <prmt>1.56</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG10-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">lin. adj.</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Deflector2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Deflector1</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Anode1</cppn>
+     <cppn nr="9">astig.</cppn>
+     <cppn nr="10">Deflector3</cppn>
+     <cppn nr="11">geo. adj.</cppn>
+     <cppn nr="12">D</cppn>
+     <cppn nr="13">Deflector4</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>102</prmt>
+     <prmt>335</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>28...56</prmt>
+     <prmt>80...180</prmt>
+     <prmt>700</prmt>
+     <prmt>5.6</prmt>
+     <prmt>1.07</prmt>
+     <prmt>3.57</prmt>
+     <cpld>or Ug1=-40...80V; Ua1=100...300V; Ua2=1000V; Ua3=6kV; D1-2=0.8; D3-4=2.5</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-114</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">Deflector2</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>375</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>48...82</prmt>
+     <prmt>360...620</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-48...82V; Ua1=360...620V; Ua2=2000V; Ua3=4kV; D1-2=0.3; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-132</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>136</prmt>
+     <prmt>384.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>340...640</prmt>
+     <prmt>2000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.47</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-134</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>135.5</prmt>
+     <prmt>430</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-32...56</prmt>
+     <prmt>300...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.55</prmt>
+     <prmt>0.75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-154</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-160</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode2b</cppn>
+     <cppn nr="8">Anode2e</cppn>
+     <cppn nr="9">Anode2a</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode2c</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <cppn nr="20">(Anode3)</cppn>
+     <cppn nr="21">(Anode4)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>468.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-30...80</prmt>
+     <prmt>180...350</prmt>
+     <prmt>1000</prmt>
+     <prmt>1</prmt>
+     <prmt>0.6</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DG13-54</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-113</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-115</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...G67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-123</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>71</prmt>
+     <prmt>162</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>50...100</prmt>
+     <prmt>0...120</prmt>
+     <prmt>500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-80...160V; Ua1=0...180V; Ua2=800V; D1-2=0.25; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-125</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector2</cppn>
+     <cppn nr="7">Deflector1</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Deflector4</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>77.8</prmt>
+     <prmt>172</prmt>
+     <prmt>6.3</prmt>
+     <prmt>95</prmt>
+     <prmt>-30...60</prmt>
+     <prmt>0...180</prmt>
+     <prmt>800</prmt>
+     <prmt>0</prmt>
+     <prmt>0.25</prmt>
+     <prmt>0.37</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-126</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">(Anode3)</cppn>
+     <prmt>77.8</prmt>
+     <prmt>200</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>40...100</prmt>
+     <prmt>0...150</prmt>
+     <prmt>400</prmt>
+     <prmt>1.6</prmt>
+     <prmt>0.44</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-50...120V; Ua1=0...200V; Ua2=500V; Ua3=1kV; D1-2=0.4; D3-4=0.57</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-131</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>71</prmt>
+     <prmt>172</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-50...100</prmt>
+     <prmt>0...120</prmt>
+     <prmt>500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.27</prmt>
+     <prmt>0.48</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DG7-132</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>71</prmt>
+     <prmt>172</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-50...100</prmt>
+     <prmt>0...120</prmt>
+     <prmt>500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.27</prmt>
+     <prmt>0.48</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DGM13-136</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-18</cppc>
+     <cppn nr="1">Cathode-B</cppn>
+     <cppn nr="2">Heater-B</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2a-Common</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode1-A</cppn>
+     <cppn nr="7">Grid1-A</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater-A</cppn>
+     <cppn nr="10">Cathode-A</cppn>
+     <cppn nr="11">Heater-A</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">Anode2c-B</cppn>
+     <cppn nr="15">Anode1-B</cppn>
+     <cppn nr="16">Grid1-B</cppn>
+     <cppn nr="17">NC</cppn>
+     <cppn nr="18">Heater-B</cppn>
+     <cppn nr="19">Deflector1-B</cppn>
+     <cppn nr="20">Deflector2-B</cppn>
+     <cppn nr="21">Deflector4-B</cppn>
+     <cppn nr="22">Deflector3-B</cppn>
+     <cppn nr="23">Anode2b-Common</cppn>
+     <cppn nr="24">Deflector4-A</cppn>
+     <cppn nr="25">Deflector3-A</cppn>
+     <cppn nr="26">Deflector2-A</cppn>
+     <cppn nr="27">Deflector1-A</cppn>
+     <cppn nr="28">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>497.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>2x0.3</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>300...640</prmt>
+     <prmt>1500</prmt>
+     <prmt>7.5</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DGM13-140</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14c</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode-b</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Grid1-B</cppn>
+     <cppn nr="5">Anode1-B</cppn>
+     <cppn nr="6">Anode2b-Common</cppn>
+     <cppn nr="7">Anode2c-B</cppn>
+     <cppn nr="8">Anode2a-Common</cppn>
+     <cppn nr="9">Anode2d-Common</cppn>
+     <cppn nr="10">Anode1-A</cppn>
+     <cppn nr="11">Grid1-A</cppn>
+     <cppn nr="12">Cathode-A</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">D1-Common</cppn>
+     <cppn nr="15">D2-Common</cppn>
+     <cppn nr="16">Anode2e-Common</cppn>
+     <cppn nr="17">Deflector3-A</cppn>
+     <cppn nr="18">Deflector4-A</cppn>
+     <cppn nr="19">Deflector3-B</cppn>
+     <cppn nr="20">Deflector4-B</cppn>
+     <cppn nr="21">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>480</prmt>
+     <prmt>6.3</prmt>
+     <prmt>1.2</prmt>
+     <prmt>-50...80</prmt>
+     <prmt>200...500</prmt>
+     <prmt>1670</prmt>
+     <prmt>10</prmt>
+     <prmt>0.33</prmt>
+     <prmt>1.56</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN10-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">lin. adj.</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Deflector2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Deflector1</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Anode1</cppn>
+     <cppn nr="9">astig.</cppn>
+     <cppn nr="10">Deflector3</cppn>
+     <cppn nr="11">geo. adj.</cppn>
+     <cppn nr="12">D</cppn>
+     <cppn nr="13">Deflector4</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>102</prmt>
+     <prmt>335</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>28...56</prmt>
+     <prmt>80...180</prmt>
+     <prmt>700</prmt>
+     <prmt>5.6</prmt>
+     <prmt>1.07</prmt>
+     <prmt>3.57</prmt>
+     <cpld>or Ug1=-40...80V; Ua1=100...300V; Ua2=1000V; Ua3=6kV; D1-2=0.8; D3-4=2.5</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Deflector1</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Grid1</cppn>
+     <cppn nr="11">Heater-Cathode</cppn>
+     <prmt>136</prmt>
+     <prmt>435</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>26...60</prmt>
+     <prmt>240...470</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-35...80V; Ua1=320...620V; Ua2=2000V; D1-2=0.3; D3-4=0.33</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-114</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">Deflector2</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>375</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>48...82</prmt>
+     <prmt>360...620</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-48...82V; Ua1=360...620V; Ua2=2000V; Ua3=4kV; D1-2=0.3; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-132</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>136</prmt>
+     <prmt>384.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>340...640</prmt>
+     <prmt>2000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.47</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-134</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>135.5</prmt>
+     <prmt>430</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-32...56</prmt>
+     <prmt>300...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.55</prmt>
+     <prmt>0.75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-154</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-160</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode2b</cppn>
+     <cppn nr="8">Anode2e</cppn>
+     <cppn nr="9">Anode2a</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode2c</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <cppn nr="20">(Anode3)</cppn>
+     <cppn nr="21">(Anode4)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>468.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-30...80</prmt>
+     <prmt>180...350</prmt>
+     <prmt>1000</prmt>
+     <prmt>1</prmt>
+     <prmt>0.6</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN13-54</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN7-113</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>DN7-115</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...67.5</prmt>
+     <prmt>240...540</prmt>
+     <prmt>1500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.17</prmt>
+     <prmt>0.22</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=320...720V; Ua2=2500V; D1-2=0.13; D3-4=0.17</cpld>
+  </component>
+  <component>
+     <cpnm>DN7-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DN7-124</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>71</prmt>
+     <prmt>162</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>50...100</prmt>
+     <prmt>0...120</prmt>
+     <prmt>500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-80...160V; Ua1=0...180V; Ua2=800V; D1-2=0.25; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DN7-126</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">(Anode3)</cppn>
+     <prmt>77.8</prmt>
+     <prmt>200</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>40...100</prmt>
+     <prmt>0...150</prmt>
+     <prmt>400</prmt>
+     <prmt>1.6</prmt>
+     <prmt>0.44</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-50...120V; Ua1=0...200V; Ua2=500V; Ua3=1kV; D1-2=0.4; D3-4=0.57</cpld>
+  </component>
+  <component>
+     <cpnm>DNM13-136</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-18</cppc>
+     <cppn nr="1">Cathode-B</cppn>
+     <cppn nr="2">Heater-B</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2a-Common</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode1-A</cppn>
+     <cppn nr="7">Grid1-A</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater-A</cppn>
+     <cppn nr="10">Cathode-A</cppn>
+     <cppn nr="11">Heater-A</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">Anode2c-B</cppn>
+     <cppn nr="15">Anode1-B</cppn>
+     <cppn nr="16">Grid1-B</cppn>
+     <cppn nr="17">NC</cppn>
+     <cppn nr="18">Heater-B</cppn>
+     <cppn nr="19">Deflector1-B</cppn>
+     <cppn nr="20">Deflector2-B</cppn>
+     <cppn nr="21">Deflector4-B</cppn>
+     <cppn nr="22">Deflector3-B</cppn>
+     <cppn nr="23">Anode2b-Common</cppn>
+     <cppn nr="24">Deflector4-A</cppn>
+     <cppn nr="25">Deflector3-A</cppn>
+     <cppn nr="26">Deflector2-A</cppn>
+     <cppn nr="27">Deflector1-A</cppn>
+     <cppn nr="28">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>497.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>2x0.3</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>300...640</prmt>
+     <prmt>1500</prmt>
+     <prmt>7.5</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DNM13-140</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14c</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode-b</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Grid1-B</cppn>
+     <cppn nr="5">Anode1-B</cppn>
+     <cppn nr="6">Anode2b-Common</cppn>
+     <cppn nr="7">Anode2c-B</cppn>
+     <cppn nr="8">Anode2a-Common</cppn>
+     <cppn nr="9">Anode2d-Common</cppn>
+     <cppn nr="10">Anode1-A</cppn>
+     <cppn nr="11">Grid1-A</cppn>
+     <cppn nr="12">Cathode-A</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">D1-Common</cppn>
+     <cppn nr="15">D2-Common</cppn>
+     <cppn nr="16">Anode2e-Common</cppn>
+     <cppn nr="17">Deflector3-A</cppn>
+     <cppn nr="18">Deflector4-A</cppn>
+     <cppn nr="19">Deflector3-B</cppn>
+     <cppn nr="20">Deflector4-B</cppn>
+     <cppn nr="21">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>480</prmt>
+     <prmt>6.3</prmt>
+     <prmt>1.2</prmt>
+     <prmt>-50...80</prmt>
+     <prmt>200...500</prmt>
+     <prmt>1670</prmt>
+     <prmt>10</prmt>
+     <prmt>0.33</prmt>
+     <prmt>1.56</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP10-111</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">lin. adj.</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Deflector2</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Deflector1</cppn>
+     <cppn nr="7">Cathode</cppn>
+     <cppn nr="8">Anode1</cppn>
+     <cppn nr="9">astig.</cppn>
+     <cppn nr="10">Deflector3</cppn>
+     <cppn nr="11">geo. adj.</cppn>
+     <cppn nr="12">D</cppn>
+     <cppn nr="13">Deflector4</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>102</prmt>
+     <prmt>335</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>28...56</prmt>
+     <prmt>80...180</prmt>
+     <prmt>700</prmt>
+     <prmt>5.6</prmt>
+     <prmt>1.07</prmt>
+     <prmt>3.57</prmt>
+     <cpld>or Ug1=-40...80V; Ua1=100...300V; Ua2=1000V; Ua3=6kV; D1-2=0.8; D3-4=2.5</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-114</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">Deflector2</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>375</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>48...82</prmt>
+     <prmt>360...620</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.45</prmt>
+     <cpld>or Ug1=-48...82V; Ua1=360...620V; Ua2=2000V; Ua3=4kV; D1-2=0.3; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-132</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-12</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Heater</cppn>
+     <prmt>136</prmt>
+     <prmt>384.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>340...640</prmt>
+     <prmt>2000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.38</prmt>
+     <prmt>0.47</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-134</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">?</cppn>
+     <cppn nr="4">?</cppn>
+     <cppn nr="5">?</cppn>
+     <cppn nr="6">?</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <prmt>135.5</prmt>
+     <prmt>430</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-32...56</prmt>
+     <prmt>300...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.55</prmt>
+     <prmt>0.75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-154</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-160</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anode2b</cppn>
+     <cppn nr="8">Anode2e</cppn>
+     <cppn nr="9">Anode2a</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">Anode2c</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <cppn nr="20">(Anode3)</cppn>
+     <cppn nr="21">(Anode4)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>468.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>-30...80</prmt>
+     <prmt>180...350</prmt>
+     <prmt>1000</prmt>
+     <prmt>1</prmt>
+     <prmt>0.6</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-2</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>DP13-54</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14b</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">NC</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">Deflector2</cppn>
+     <cppn nr="16">Deflector1</cppn>
+     <cppn nr="17">Anode2</cppn>
+     <cppn nr="18">Deflector3</cppn>
+     <cppn nr="19">Deflector4</cppn>
+     <prmt>135.5</prmt>
+     <prmt>457.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>360...700</prmt>
+     <prmt>2000</prmt>
+     <prmt>4</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP7-116</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP7-124</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>71</prmt>
+     <prmt>162</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>50...100</prmt>
+     <prmt>0...120</prmt>
+     <prmt>500</prmt>
+     <prmt>0</prmt>
+     <prmt>0.4</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-80...160V; Ua1=0...180V; Ua2=800V; D1-2=0.25; D3-4=0.37</cpld>
+  </component>
+  <component>
+     <cpnm>DP7-125</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector2</cppn>
+     <cppn nr="7">Deflector1</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector3</cppn>
+     <cppn nr="10">Deflector4</cppn>
+     <cppn nr="11">NC</cppn>
+     <prmt>77.8</prmt>
+     <prmt>172</prmt>
+     <prmt>6.3</prmt>
+     <prmt>95</prmt>
+     <prmt>-30...60</prmt>
+     <prmt>0...180</prmt>
+     <prmt>800</prmt>
+     <prmt>0</prmt>
+     <prmt>0.25</prmt>
+     <prmt>0.37</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DP7-126</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11a</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">Deflector3</cppn>
+     <cppn nr="7">Deflector4</cppn>
+     <cppn nr="8">Anode2</cppn>
+     <cppn nr="9">Deflector2</cppn>
+     <cppn nr="10">Deflector1</cppn>
+     <cppn nr="11">NC</cppn>
+     <cppn nr="12">(Anode3)</cppn>
+     <prmt>77.8</prmt>
+     <prmt>200</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>40...100</prmt>
+     <prmt>0...150</prmt>
+     <prmt>400</prmt>
+     <prmt>1.6</prmt>
+     <prmt>0.44</prmt>
+     <prmt>0.61</prmt>
+     <cpld>or Ug1=-50...120V; Ua1=0...200V; Ua2=500V; Ua3=1kV; D1-2=0.4; D3-4=0.57</cpld>
+  </component>
+  <component>
+     <cpnm>DPM13-136</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-18</cppc>
+     <cppn nr="1">Cathode-B</cppn>
+     <cppn nr="2">Heater-B</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anode2a-Common</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anode1-A</cppn>
+     <cppn nr="7">Grid1-A</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Heater-A</cppn>
+     <cppn nr="10">Cathode-A</cppn>
+     <cppn nr="11">Heater-A</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">Anode2c-B</cppn>
+     <cppn nr="15">Anode1-B</cppn>
+     <cppn nr="16">Grid1-B</cppn>
+     <cppn nr="17">NC</cppn>
+     <cppn nr="18">Heater-B</cppn>
+     <cppn nr="19">Deflector1-B</cppn>
+     <cppn nr="20">Deflector2-B</cppn>
+     <cppn nr="21">Deflector4-B</cppn>
+     <cppn nr="22">Deflector3-B</cppn>
+     <cppn nr="23">Anode2b-Common</cppn>
+     <cppn nr="24">Deflector4-A</cppn>
+     <cppn nr="25">Deflector3-A</cppn>
+     <cppn nr="26">Deflector2-A</cppn>
+     <cppn nr="27">Deflector1-A</cppn>
+     <cppn nr="28">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>497.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>2x0.3</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>300...640</prmt>
+     <prmt>1500</prmt>
+     <prmt>7.5</prmt>
+     <prmt>0.35</prmt>
+     <prmt>0.65</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DPM13-140</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14c</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode-b</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Grid1-B</cppn>
+     <cppn nr="5">Anode1-B</cppn>
+     <cppn nr="6">Anode2b-Common</cppn>
+     <cppn nr="7">Anode2c-B</cppn>
+     <cppn nr="8">Anode2a-Common</cppn>
+     <cppn nr="9">Anode2d-Common</cppn>
+     <cppn nr="10">Anode1-A</cppn>
+     <cppn nr="11">Grid1-A</cppn>
+     <cppn nr="12">Cathode-A</cppn>
+     <cppn nr="13">Anode2c-A</cppn>
+     <cppn nr="14">D1-Common</cppn>
+     <cppn nr="15">D2-Common</cppn>
+     <cppn nr="16">Anode2e-Common</cppn>
+     <cppn nr="17">Deflector3-A</cppn>
+     <cppn nr="18">Deflector4-A</cppn>
+     <cppn nr="19">Deflector3-B</cppn>
+     <cppn nr="20">Deflector4-B</cppn>
+     <cppn nr="21">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>480</prmt>
+     <prmt>6.3</prmt>
+     <prmt>1.2</prmt>
+     <prmt>-50...80</prmt>
+     <prmt>200...500</prmt>
+     <prmt>1670</prmt>
+     <prmt>10</prmt>
+     <prmt>0.33</prmt>
+     <prmt>1.56</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-311</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>77.5</prmt>
+     <prmt>260.5</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-30...90</prmt>
+     <prmt>400...690</prmt>
+     <prmt>2000</prmt>
+     <prmt>2</prmt>
+     <prmt>0.15</prmt>
+     <prmt>0.2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-312</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-325</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-11</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode</cppn>
+     <cppn nr="4">Anode1</cppn>
+     <cppn nr="5">Deflector3</cppn>
+     <cppn nr="6">Deflector4</cppn>
+     <cppn nr="7">Anode2</cppn>
+     <cppn nr="8">Deflector2</cppn>
+     <cppn nr="9">Deflector1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Heater</cppn>
+     <prmt>77.7</prmt>
+     <prmt>298</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>-22.5...45</prmt>
+     <prmt>160...300</prmt>
+     <prmt>1000</prmt>
+     <prmt>0</prmt>
+     <prmt>0.43</prmt>
+     <prmt>0.55</prmt>
+     <cpld>or Ug1=-45...90V; Ua1=320...600V; Ua2=2000V; D1-2=0.21; D3-4=0.25</cpld>
+  </component>
+  <component>
+     <cpnm>M2727-326</cpnm>
+     <cpct>0</cpct>
+     <cpds>CRT for oscilloscope</cpds>
+     <cppc>CRT-14</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Deflector3</cppn>
+     <cppn nr="8">Deflector4</cppn>
+     <cppn nr="9">Anode2</cppn>
+     <cppn nr="10">Deflector2</cppn>
+     <cppn nr="11">Deflector1</cppn>
+     <cppn nr="12">NC</cppn>
+     <cppn nr="13">NC</cppn>
+     <cppn nr="14">Heater</cppn>
+     <cppn nr="15">(Anode3)</cppn>
+     <prmt>135.5</prmt>
+     <prmt>431</prmt>
+     <prmt>6.3</prmt>
+     <prmt>0.6</prmt>
+     <prmt>22.5...67.5</prmt>
+     <prmt>280...520</prmt>
+     <prmt>1500</prmt>
+     <prmt>3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>0.44</prmt>
+     <cpld>or Ug1=-30...90V; Ua1=370...690V; Ua2=2000V; Ua3=2kV; D1-2=0.36; D3-4=0.42</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>-</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,4 @@
+ Uh:	fűtőfeszültség
+ Ih:	fűtőáram
+ Ua:	anódfeszültség
+ Ia:	anódáram

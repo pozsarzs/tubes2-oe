@@ -1,0 +1,10 @@
+ Usmin:		minimális tápfeszültség
+ Usimax:	maximális ionizáció
+ Us:		tipikus táplálás
+ Icmin:		minimális katód áram
+ Icminp:	minimális katód impulzusáram
+ Ic:		tipikus katód áram
+ Icp:		tipikus katód impulzusáram
+ Icmax:		maximális katód áram
+ Icmaxp:	maximális katód impulzusáram
+ Jelmag.:	jelmagasság

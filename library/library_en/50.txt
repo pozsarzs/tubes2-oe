@@ -1,0 +1,6 @@
+ fo:	operation frequency
+ ft:	tuning frequency range
+ Ic:	cathode current
+ Poutmin:	minimal output power
+ Uh:	heater voltage
+ Ur:	resonator voltage range

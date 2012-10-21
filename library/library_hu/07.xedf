@@ -1,0 +1,3332 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Gáztöltésű feszültségstabilizátorok</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>170</noc>
+    <prmt nr="0">Ui [V]</prmt>
+    <prmt nr="1">Uamin [V]</prmt>
+    <prmt nr="2">Uamax [V]</prmt>
+    <prmt nr="3">Iamin [mA]</prmt>
+    <prmt nr="4">Iamax [mA]</prmt>
+    <prmt nr="5">Rint [ohm]</prmt>
+  </header>
+  <component>
+     <cpnm>00H42</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>XS7</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <prmt>200</prmt>
+     <prmt>140</prmt>
+     <prmt>160</prmt>
+     <prmt>1</prmt>
+     <prmt>15</prmt>
+     <prmt>1000</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0A2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0A2WA</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0A3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0B2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0B2WA</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0B3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>125</prmt>
+     <prmt>90</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0C2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>115</prmt>
+     <prmt>75</prmt>
+     <prmt>81</prmt>
+     <prmt>2</prmt>
+     <prmt>60</prmt>
+     <prmt>130</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0C3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0D3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0E3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">összekötés 4</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>285</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0G3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>100E1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>105</prmt>
+     <prmt>50</prmt>
+     <prmt>200</prmt>
+     <prmt>7</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>105s5-30</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>108C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>110E/18</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1266</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>125</prmt>
+     <prmt>70</prmt>
+     <prmt>?</prmt>
+     <prmt>10</prmt>
+     <prmt>30</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>13201A</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>15</prmt>
+     <prmt>200</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>13201</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>15</prmt>
+     <prmt>200</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>13202X</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K5</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">(Anód)</cppn>
+     <prmt>75</prmt>
+     <prmt>50</prmt>
+     <prmt>65</prmt>
+     <prmt>20</prmt>
+     <prmt>50</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150A1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>650</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150B2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>146</prmt>
+     <prmt>154</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150C1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150C2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>180</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150C3</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>38205</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4357</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <prmt>115</prmt>
+     <prmt>85</prmt>
+     <prmt>100</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>75</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4687A</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>85</prmt>
+     <prmt>100</prmt>
+     <prmt>10</prmt>
+     <prmt>30</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4687</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>85</prmt>
+     <prmt>100</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>5651</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6074</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6354</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>146</prmt>
+     <prmt>154</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7475</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>75C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>75</prmt>
+     <prmt>81</prmt>
+     <prmt>2</prmt>
+     <prmt>60</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7980</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>82.6</prmt>
+     <prmt>84.1</prmt>
+     <prmt>3.5</prmt>
+     <prmt>6</prmt>
+     <prmt>116</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>83A1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>82.6</prmt>
+     <prmt>84.1</prmt>
+     <prmt>3.5</prmt>
+     <prmt>6</prmt>
+     <prmt>350</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>85A1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">összekötés 4</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>285</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>85A2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>90C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>125</prmt>
+     <prmt>86</prmt>
+     <prmt>94</prmt>
+     <prmt>1</prmt>
+     <prmt>40</prmt>
+     <prmt>350</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AG5209</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AG5210</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AG5211</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>180</prmt>
+     <prmt>145</prmt>
+     <prmt>160</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C2C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>70</prmt>
+     <prmt>81</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>180</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C3C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>127</prmt>
+     <prmt>105</prmt>
+     <prmt>112</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>80</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C4C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>145</prmt>
+     <prmt>166</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C5</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-3A</cppc>
+     <cppn nr="1">Gyújtó anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Anód</cppn>
+     <prmt>180</prmt>
+     <prmt>142</prmt>
+     <prmt>157</prmt>
+     <prmt>5</prmt>
+     <prmt>10</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CK5651</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1068</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>CV1069</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>240</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>CV1832</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1833</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV188</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1895</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2012</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV216</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2225</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>146</prmt>
+     <prmt>154</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2573</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2766</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>85</prmt>
+     <prmt>100</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2903</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV3798</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV3799</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>125</prmt>
+     <prmt>90</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV3979</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4028</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4084</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>75</prmt>
+     <prmt>81</prmt>
+     <prmt>2</prmt>
+     <prmt>60</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4100</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV431</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">összekötés 4</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>285</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV449</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5188</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV685</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV8161</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV8162</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV9341</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>E1436</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ES11</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2A</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <prmt>135</prmt>
+     <prmt>95</prmt>
+     <prmt>100</prmt>
+     <prmt>0.5</prmt>
+     <prmt>8</prmt>
+     <prmt>700</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ES1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód1</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anód2</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Katód</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>130</prmt>
+     <prmt>85</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>80</prmt>
+     <prmt>140</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ES2</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <prmt>140</prmt>
+     <prmt>100</prmt>
+     <prmt>106</prmt>
+     <prmt>2</prmt>
+     <prmt>80</prmt>
+     <prmt>260</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>GD150M/S</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>GR100DA</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Gyújtó anód</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>100</prmt>
+     <prmt>10</prmt>
+     <prmt>60</prmt>
+     <prmt>150</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>GR100DM</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>XS9</cppc>
+     <cppn nr="1">Gyújtóanód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <prmt>140</prmt>
+     <prmt>?</prmt>
+     <prmt>100</prmt>
+     <prmt>5</prmt>
+     <prmt>60</prmt>
+     <prmt>150</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>GR150DA</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Gyújtó anód</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <prmt>50</prmt>
+     <prmt>200</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>GR150DM</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Es2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <cppn nr="3">Gyújtó anód</cppn>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <prmt>60</prmt>
+     <prmt>300</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-851</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Gyújtóanóddal Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-852</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>15</prmt>
+     <prmt>200</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-853</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-856</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-857</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-858</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-859</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-861</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-862</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>125</prmt>
+     <prmt>90</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-863</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">összekötés 4</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>285</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-864</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-867</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-873C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>15</prmt>
+     <prmt>200</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-874C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>650</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-875C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Katód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>205</prmt>
+     <prmt>144</prmt>
+     <prmt>164</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>125</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-876</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-880C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Katód</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <cppn nr="8">Anód2</cppn>
+     <prmt>200</prmt>
+     <prmt>70</prmt>
+     <prmt>82</prmt>
+     <prmt>5</prmt>
+     <prmt>20</prmt>
+     <prmt>400</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-885C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-890C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9D</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 2</cppn>
+     <cppn nr="6">Gyújtó anód</cppn>
+     <cppn nr="7">összekötés 1</cppn>
+     <cppn nr="8">összekötés 2</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>135</prmt>
+     <prmt>98</prmt>
+     <prmt>101</prmt>
+     <prmt>5</prmt>
+     <prmt>60</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-892</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-895</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>130</prmt>
+     <prmt>105</prmt>
+     <prmt>111</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-897</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>146</prmt>
+     <prmt>154</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-898C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2465-899C</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>125</prmt>
+     <prmt>86</prmt>
+     <prmt>94</prmt>
+     <prmt>1</prmt>
+     <prmt>40</prmt>
+     <prmt>350</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M8026</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>125</prmt>
+     <prmt>86</prmt>
+     <prmt>94</prmt>
+     <prmt>1</prmt>
+     <prmt>40</prmt>
+     <prmt>350</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M8098</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M8224</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>OSW3806</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>OSW3808</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>240</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>QS1205</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>QS1209</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>QS92-10</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>140</prmt>
+     <prmt>90</prmt>
+     <prmt>110</prmt>
+     <prmt>1</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR2A</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 2</cppn>
+     <cppn nr="4">Anód1</cppn>
+     <cppn nr="5">összekötés 4</cppn>
+     <cppn nr="6">Anód2</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <cppn nr="8">összekötés 2</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>120</prmt>
+     <prmt>86</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>80</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR3A</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 2</cppn>
+     <cppn nr="4">Anód1</cppn>
+     <cppn nr="5">összekötés 4</cppn>
+     <cppn nr="6">Anód2</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <cppn nr="8">összekötés 2</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>135</prmt>
+     <prmt>105</prmt>
+     <prmt>110</prmt>
+     <prmt>2</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR41</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-3A</cppc>
+     <cppn nr="1">Gyújtó anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Anód</cppn>
+     <prmt>135</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>0.05</prmt>
+     <prmt>0.25</prmt>
+     <prmt>22500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR42</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-3A</cppc>
+     <cppn nr="1">Gyújtó anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Anód</cppn>
+     <prmt>130</prmt>
+     <prmt>82</prmt>
+     <prmt>86</prmt>
+     <prmt>0.5</prmt>
+     <prmt>2.5</prmt>
+     <prmt>2000</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR43</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-3A</cppc>
+     <cppn nr="1">Gyújtó anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">Anód</cppn>
+     <prmt>210</prmt>
+     <prmt>145</prmt>
+     <prmt>150</prmt>
+     <prmt>0.5</prmt>
+     <prmt>2</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR44</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2A</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>87</prmt>
+     <prmt>0.5</prmt>
+     <prmt>5</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR4</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2A</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <prmt>115</prmt>
+     <prmt>85</prmt>
+     <prmt>87</prmt>
+     <prmt>0.5</prmt>
+     <prmt>2</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR51</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>115</prmt>
+     <prmt>75</prmt>
+     <prmt>81</prmt>
+     <prmt>2</prmt>
+     <prmt>60</prmt>
+     <prmt>130</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR52</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>131</prmt>
+     <prmt>83</prmt>
+     <prmt>84</prmt>
+     <prmt>3.5</prmt>
+     <prmt>6</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR53</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>115</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>480</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR54</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>115</prmt>
+     <prmt>82</prmt>
+     <prmt>92</prmt>
+     <prmt>1.5</prmt>
+     <prmt>3.5</prmt>
+     <prmt>300</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR55</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>127</prmt>
+     <prmt>105</prmt>
+     <prmt>112</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR56</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>180</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR57</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <prmt>180</prmt>
+     <prmt>145</prmt>
+     <prmt>154</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR5</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <cppn nr="8">(Anód)</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>450</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR6</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <prmt>115</prmt>
+     <prmt>84</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <prmt>10</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>SR7</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <prmt>140</prmt>
+     <prmt>102</prmt>
+     <prmt>105</prmt>
+     <prmt>0.5</prmt>
+     <prmt>5</prmt>
+     <prmt>600</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STR150/30</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STR280/40</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STR85/10</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV100/25ZII</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>XS7</cppc>
+     <cppn nr="1">Anód2</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód1</cppn>
+     <prmt>160</prmt>
+     <prmt>98</prmt>
+     <prmt>104</prmt>
+     <prmt>5</prmt>
+     <prmt>25</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV100/60</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9D</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 2</cppn>
+     <cppn nr="6">Gyújtó anód</cppn>
+     <cppn nr="7">összekötés 1</cppn>
+     <cppn nr="8">összekötés 2</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>135</prmt>
+     <prmt>98</prmt>
+     <prmt>101</prmt>
+     <prmt>5</prmt>
+     <prmt>60</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV100/60ZII</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Gyújtó anód</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <prmt>106</prmt>
+     <prmt>98</prmt>
+     <prmt>103</prmt>
+     <prmt>5</prmt>
+     <prmt>60</prmt>
+     <prmt>20</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>STV100/60Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Gyújtó anód</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <prmt>150</prmt>
+     <prmt>?</prmt>
+     <prmt>104</prmt>
+     <prmt>10</prmt>
+     <prmt>60</prmt>
+     <prmt>120</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>STV108/30</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>115</prmt>
+     <prmt>101</prmt>
+     <prmt>114</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV150/15</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>XS7</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <prmt>200</prmt>
+     <prmt>140</prmt>
+     <prmt>160</prmt>
+     <prmt>1</prmt>
+     <prmt>15</prmt>
+     <prmt>1000</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV150/20</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Katód</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <cppn nr="8">Anód2</cppn>
+     <prmt>200</prmt>
+     <prmt>70</prmt>
+     <prmt>82</prmt>
+     <prmt>5</prmt>
+     <prmt>20</prmt>
+     <prmt>400</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV150/250</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód2</cppn>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>50</prmt>
+     <prmt>250</prmt>
+     <prmt>55</prmt>
+     <cpld>Ua=2x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STV150/30</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>156</prmt>
+     <prmt>140</prmt>
+     <prmt>168</prmt>
+     <prmt>5</prmt>
+     <prmt>30</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV150/60</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>XS10</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód</cppn>
+     <cppn nr="3">Katód</cppn>
+     <prmt>165</prmt>
+     <prmt>140</prmt>
+     <prmt>160</prmt>
+     <prmt>10</prmt>
+     <prmt>60</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV280/40</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STV280/40Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>40</prmt>
+     <prmt>340</prmt>
+     <cpld>Gyújtóanóddal Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STV280/80</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>335</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>240</prmt>
+     <cpld>Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STV280/80Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Eu5</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">Anód3</cppn>
+     <cppn nr="5">Anód4</cppn>
+     <prmt>330</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>240</prmt>
+     <cpld>Gyújtóanóddal Ua=4x70V</cpld>
+  </component>
+  <component>
+     <cpnm>STV500/0.1</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Katód1</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Katód2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anód3</cppn>
+     <cppn nr="7">Katód3</cppn>
+     <cppn nr="8">Anód4</cppn>
+     <cppn nr="9">Katód4</cppn>
+     <prmt>600</prmt>
+     <prmt>497</prmt>
+     <prmt>503</prmt>
+     <prmt>0.09</prmt>
+     <prmt>0.5</prmt>
+     <prmt>4800</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV70/60</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV70/6</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Es2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>72</prmt>
+     <prmt>80</prmt>
+     <prmt>3</prmt>
+     <prmt>20</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV75/5R</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Es2</cppc>
+     <cppn nr="1">Katód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>78</prmt>
+     <prmt>3.5</prmt>
+     <prmt>6</prmt>
+     <prmt>1000</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV75/5Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>Es2</cppc>
+     <cppn nr="1">Gyújtóanód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <cppn nr="3">Katód</cppn>
+     <prmt>100</prmt>
+     <prmt>?</prmt>
+     <prmt>78</prmt>
+     <prmt>3.5</prmt>
+     <prmt>6</prmt>
+     <prmt>1000</prmt>
+     <cpld>Gyújtóanóddal</cpld>
+  </component>
+  <component>
+     <cpnm>StV85/10</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 2</cppn>
+     <cppn nr="5">összekötés 1</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 2</cppn>
+     <prmt>125</prmt>
+     <prmt>83</prmt>
+     <prmt>87</prmt>
+     <prmt>1</prmt>
+     <prmt>10</prmt>
+     <prmt>280</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>STV85/8</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Katód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Gyújtó anód</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>112</prmt>
+     <prmt>81.5</prmt>
+     <prmt>82.9</prmt>
+     <prmt>1.7</prmt>
+     <prmt>8</prmt>
+     <prmt>500</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR105</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR150/30</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR150</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR45</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>105</prmt>
+     <prmt>75</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR75</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VR90</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 7</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>125</prmt>
+     <prmt>90</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT139</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>160</prmt>
+     <prmt>142</prmt>
+     <prmt>165</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT200</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>115</prmt>
+     <prmt>103</prmt>
+     <prmt>116</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT260</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">összekötés 8</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>100</prmt>
+     <prmt>68</prmt>
+     <prmt>85</prmt>
+     <prmt>5</prmt>
+     <prmt>40</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ZZ1000</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>WIRE-2A</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <prmt>115</prmt>
+     <prmt>80.1</prmt>
+     <prmt>81.9</prmt>
+     <prmt>2</prmt>
+     <prmt>4</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ZZ1010</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Gyújtó anód</cppn>
+     <cppn nr="3">Katód</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 3</cppn>
+     <cppn nr="6">összekötés 1</cppn>
+     <cppn nr="7">összekötés 3</cppn>
+     <prmt>112</prmt>
+     <prmt>83.6</prmt>
+     <prmt>85.2</prmt>
+     <prmt>4</prmt>
+     <prmt>70</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ZZ1020</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Katód</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Gyújtó anód</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>108</prmt>
+     <prmt>82</prmt>
+     <prmt>83</prmt>
+     <prmt>3</prmt>
+     <prmt>4.5</prmt>
+     <prmt>480</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ZZ1030</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Katód1</cppn>
+     <cppn nr="3">Anód2</cppn>
+     <cppn nr="4">Katód2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Anód3</cppn>
+     <cppn nr="7">Katód3</cppn>
+     <cppn nr="8">Anód4</cppn>
+     <cppn nr="9">Katód4</cppn>
+     <prmt>145</prmt>
+     <prmt>123</prmt>
+     <prmt>127</prmt>
+     <prmt>0.1</prmt>
+     <prmt>5</prmt>
+     <prmt>12000</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ZZ1040</cpnm>
+     <cpct>0</cpct>
+     <cpds>feszültségstabilizátor</cpds>
+     <cppc>B9D</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Katód</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">összekötés 1</cppn>
+     <cppn nr="5">összekötés 2</cppn>
+     <cppn nr="6">Gyújtó anód</cppn>
+     <cppn nr="7">összekötés 1</cppn>
+     <cppn nr="8">összekötés 2</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>135</prmt>
+     <prmt>98</prmt>
+     <prmt>101</prmt>
+     <prmt>5</prmt>
+     <prmt>60</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

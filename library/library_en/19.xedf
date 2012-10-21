@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Duo-powerpentodes (LL)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>9</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>DLL101</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Grid1-1</cppn>
+     <cppn nr="4">Grid2s</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Grid1-2</cppn>
+     <cppn nr="7">Heater-Grid3s</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.1</prmt>
+     <prmt>135</prmt>
+     <prmt>5.72</prmt>
+     <prmt>67.5</prmt>
+     <prmt>2.95</prmt>
+     <prmt>-13</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.8</prmt>
+     <prmt>2.6</prmt>
+     <cpld>Raa=22kohm</cpld>
+  </component>
+  <component>
+     <cpnm>DLL102</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Grid1-1</cppn>
+     <cppn nr="4">Grid2s</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">Grid1-2</cppn>
+     <cppn nr="7">Heater-Grid3s</cppn>
+     <prmt>2.8</prmt>
+     <prmt>0.025</prmt>
+     <prmt>40</prmt>
+     <prmt>1.3</prmt>
+     <prmt>40</prmt>
+     <prmt>1</prmt>
+     <prmt>0</prmt>
+     <prmt>0.5</prmt>
+     <prmt>0.7</prmt>
+     <prmt>?</prmt>
+     <prmt>350</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DLL21</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Grid3s</cppn>
+     <cppn nr="2">Grid1-1</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid2-1</cppn>
+     <cppn nr="5">Grid1-2</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.2</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <cpld>Po=0.6W: Ua=Ug2=120V; Ia=2x1-4.1mA; Ig2=2x0.16-1.1mA; Ug1=-8.7V; Raa=30kohm; Po=1.2W: Ua=Ug2=120V; Ia=2x2-7.5mA; Ig2=2x0.35-2mA; Ug1=-8.2V; Raa=15kohm; Po=1.5W: Ua=Ug2=135V; Ia=2x1.5-8.2mA; Ig2=2x0.25-2.4mA; Ug1=-9.5V; Raa=15kohm</cpld>
+  </component>
+  <component>
+     <cpnm>DLL22</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater-Grid3s</cppn>
+     <cppn nr="2">Grid1-1</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid2-1</cppn>
+     <cppn nr="5">Grid2-2</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Grid1-2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.2</prmt>
+     <prmt>120</prmt>
+     <prmt>5</prmt>
+     <prmt>120</prmt>
+     <prmt>2</prmt>
+     <prmt>6.5</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DLL25</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Grid3s-Heater-Common-</cppn>
+     <cppn nr="2">Grid1-1</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid2-1</cppn>
+     <cppn nr="5">Grid1-2</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater+</cppn>
+     <cppn nr="8">Heater+</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.2</prmt>
+     <prmt>120</prmt>
+     <prmt>2</prmt>
+     <prmt>120</prmt>
+     <prmt>0.7</prmt>
+     <prmt>-8</prmt>
+     <prmt>1</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>400</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Ig2=2x0.35mA; Raa=15kohm;</cpld>
+  </component>
+  <component>
+     <cpnm>ELL1</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Triode1-Anode</cppn>
+     <cppn nr="2">Common-Grid2</cppn>
+     <cppn nr="3">Triode2-Grid1</cppn>
+     <cppn nr="4">Triode2-Anode</cppn>
+     <cppn nr="5">Common-C; G3; Shield</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Triode1-Grid1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.45</prmt>
+     <prmt>250</prmt>
+     <prmt>15</prmt>
+     <prmt>250</prmt>
+     <prmt>2.5</prmt>
+     <prmt>-20</prmt>
+     <cpld>(Pout=2x4.5W)</cpld>
+  </component>
+  <component>
+     <cpnm>KLL32</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid1-1</cppn>
+     <cppn nr="5">Grid1-2</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Grid2-1 Grid2-2</cppn>
+     <prmt>2</prmt>
+     <prmt>0.3</prmt>
+     <prmt>120</prmt>
+     <prmt>3.3</prmt>
+     <prmt>120</prmt>
+     <prmt>9.2</prmt>
+     <prmt>-10.2</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>16</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Ig2=2x4.6mA; Grid3s are connected to branch of heater.</cpld>
+  </component>
+  <component>
+     <cpnm>KLL3</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">Grid2-1</cppn>
+     <cppn nr="3">Grid1-2</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Grid2-2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater-Grid3s</cppn>
+     <cppn nr="8">Grid1-1</cppn>
+     <prmt>2</prmt>
+     <prmt>0.465</prmt>
+     <prmt>135</prmt>
+     <prmt>8</prmt>
+     <prmt>135</prmt>
+     <prmt>3.4</prmt>
+     <prmt>-12</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-129C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powerpentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Grid3s</cppn>
+     <cppn nr="2">Grid1-1</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Grid2-1</cppn>
+     <cppn nr="5">Grid1-2</cppn>
+     <cppn nr="6">Anode2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.2</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>120</prmt>
+     <prmt>?</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <cpld>Po=0.6W: Ua=Ug2=120V; Ia=2x1-4.1mA; Ig2=2x0.16-1.1mA; Ug1=-8.7V; Raa=30kohm; Po=1.2W: Ua=Ug2=120V; Ia=2x2-7.5mA; Ig2=2x0.35-2mA; Ug1=-8.2V; Raa=15kohm; Po=1.5W: Ua=Ug2=135V; Ia=2x1.5-8.2mA; Ig2=2x0.25-2.4mA; Ug1=-9.5V; Raa=15kohm</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,16 @@
+ Uh:	fűtőfeszültség
+ Ih:	fűtőáram
+ Ua:	anódfeszültség
+ Ia:	anódáram
+ Ug3:	fékezőrács feszültség
+ Ig3:	fékezőrács áram
+ Ug2:	segédrács feszültség
+ Ig2:	segédrács áram
+ Ug1:	vezérlőrács feszültség
+ Rg1m:	maximális vezérlőrács ellenállás
+ S:	meredekség
+ Gain:	erősítési tényező
+ Rint:	belső ellenállás
+ Ra:	optimális terhelő ellenállás
+ Pout:	kimenő teljesítmény
+ Pa:	anód teljesítmény

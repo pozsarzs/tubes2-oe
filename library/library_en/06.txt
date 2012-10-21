@@ -1,0 +1,3 @@
+ If:	stabilized current
+ Umin:	minimal operation voltage
+ Umax:	maximal operation voltage

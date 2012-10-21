@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tubes
+Name[hu]=Tubes
+Exec=tubes
+Icon=tubes.xpm
+Comment=Electrontube catalogue
+Comment[hu]=Elektroncső katalógus
+Type=Application
+Categories=Application;Electronics;
+Terminal=false
+StartupNotify=true

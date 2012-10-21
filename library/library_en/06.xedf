@@ -1,0 +1,867 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Gas filled current stabilizers (baretters)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>54</noc>
+    <prmt nr="0">If [mA]</prmt>
+    <prmt nr="1">Umin</prmt>
+    <prmt nr="2">Umax</prmt>
+  </header>
+  <component>
+     <cpnm>0.24B12-18</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Ed1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>256</prmt>
+     <prmt>12</prmt>
+     <prmt>18</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0.3B17-35</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">wire: 3-4</cppn>
+     <cppn nr="4">wire: 3-4</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">R2</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>300</prmt>
+     <prmt>17</prmt>
+     <prmt>35</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0.3B65-135</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">wire: 3-4</cppn>
+     <cppn nr="4">wire: 3-4</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">R2</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>300</prmt>
+     <prmt>65</prmt>
+     <prmt>135</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0.425B5.5-12</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">R2</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>425</prmt>
+     <prmt>5.5</prmt>
+     <prmt>12</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>0.85B5.5-12</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">R2</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>850</prmt>
+     <prmt>5.5</prmt>
+     <prmt>12</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>100R</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>100</prmt>
+     <prmt>50</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1014</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">branch</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">R2</cppn>
+     <prmt>500</prmt>
+     <prmt>2</prmt>
+     <prmt>42</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1102</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">branch</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">R2</cppn>
+     <prmt>600</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1111</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">branch</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">R2</cppn>
+     <prmt>600</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1456</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">branch</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">branch</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>250</prmt>
+     <prmt>10</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>150R</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>150</prmt>
+     <prmt>50</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1903</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Ed1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>220</prmt>
+     <prmt>139</prmt>
+     <prmt>141</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1904</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>100</prmt>
+     <prmt>30</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1905</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Es1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>1000</prmt>
+     <prmt>2</prmt>
+     <prmt>6</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1910</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>1400</prmt>
+     <prmt>5</prmt>
+     <prmt>15</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1911</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>150</prmt>
+     <prmt>50</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1913</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Ed1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>200</prmt>
+     <prmt>4</prmt>
+     <prmt>12</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1918</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Ed1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>100</prmt>
+     <prmt>4</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1920</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>250</prmt>
+     <prmt>50</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1926</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>180</prmt>
+     <prmt>?</prmt>
+     <prmt>16</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1927</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>180</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1928</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>180</prmt>
+     <prmt>100</prmt>
+     <prmt>240</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1929</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>180</prmt>
+     <prmt>35</prmt>
+     <prmt>150</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1930</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>180</prmt>
+     <prmt>19</prmt>
+     <prmt>21</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1933</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>100</prmt>
+     <prmt>50</prmt>
+     <prmt>160</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1941</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>300</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1945</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>275</prmt>
+     <prmt>80</prmt>
+     <prmt>120</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1947</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Ed1</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R2</cppn>
+     <prmt>500</prmt>
+     <prmt>2</prmt>
+     <prmt>6</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1949</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>300</prmt>
+     <prmt>30</prmt>
+     <prmt>90</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1B10-17</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>1000</prmt>
+     <prmt>10</prmt>
+     <prmt>17</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1B5-9</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu4</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <prmt>100</prmt>
+     <prmt>5</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>200RI</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>100</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>200RII</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>40</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>452</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>Eu3</cppc>
+     <cppn nr="1">branch</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">R2</cppn>
+     <prmt>1220</prmt>
+     <prmt>7</prmt>
+     <prmt>20</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C10</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">wire: 3-6</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">wire: 5-7</cppn>
+     <cppn nr="6">wire: 3-6</cppn>
+     <cppn nr="7">wire: 3-6</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C11</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">branch</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C12</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">branch</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C1</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C1X</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C2</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C2Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C3</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">wire: 7-8</cppn>
+     <cppn nr="8">wire: 7-8</cppn>
+     <prmt>200</prmt>
+     <prmt>100</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C4</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">wire: 3-5-6-7</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">wire: 3-5-6-7</cppn>
+     <cppn nr="6">wire: 3-5-6-7</cppn>
+     <cppn nr="7">wire: 3-5-6-7</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>40</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C6</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>70</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C7</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>70</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C8</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">wire: 7-8</cppn>
+     <cppn nr="8">wire: 7-8</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>C9</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">R1</cppn>
+     <cppn nr="3">wire: 3-5-6</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">wire: 3-5-6</cppn>
+     <cppn nr="6">wire: 3-5-6</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV12</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">branch</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1X</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2Z</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TC1</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>80</prmt>
+     <prmt>200</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TC2</cpnm>
+     <cpct>0</cpct>
+     <cpds>baretter</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">R1</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">R2</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>200</prmt>
+     <prmt>35</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

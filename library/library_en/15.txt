@@ -1,0 +1,10 @@
+ d:	diameter of display
+ l:	length of tube
+ Uh:	heater voltage
+ Ih:	heater current
+ Ug1:	first grid voltage (Wehnelt-cylinder)
+ Ua1:	first anode voltage
+ Ua2:	second anode voltage
+ Ua3:	third anode voltage
+ D1-2:	deflection sensetivity (X)
+ D3-4:	deflection sensetivity (Y)

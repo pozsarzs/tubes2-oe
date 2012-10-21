@@ -1,0 +1,1854 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Duodiode-pentodes (BF)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>61</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>2B7</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>38227</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6B7</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6B8</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6B8EG</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6B8G</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>89RS</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1706</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1711</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1837</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1891</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2925</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode parts</cpld>
+  </component>
+  <component>
+     <cpnm>CV2925</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2..-38</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8..0.018</prmt>
+     <prmt>2700</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part Rg2=95kohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV501</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>CV501</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part; Rc=300ohm; Rg2=92kohm</cpld>
+  </component>
+  <component>
+     <cpnm>CV791</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EBF11</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Pentode-Grid2</cppn>
+     <cppn nr="2">Pentode-Grid1</cppn>
+     <cppn nr="3">Cathode; Shield; Pentode-Grid3</cppn>
+     <cppn nr="4">Anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode1-Anode</cppn>
+     <cppn nr="8">Diode2-Anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode parts</cpld>
+  </component>
+  <component>
+     <cpnm>EBF11</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Pentode-Grid2</cppn>
+     <cppn nr="2">Pentode-Grid1</cppn>
+     <cppn nr="3">Cathode; Shield; Pentode-Grid3</cppn>
+     <cppn nr="4">Anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode1-Anode</cppn>
+     <cppn nr="8">Diode2-Anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.8</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8..0.01</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part</cpld>
+  </component>
+  <component>
+     <cpnm>EBF15</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.47</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>EBF15</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.47</prmt>
+     <prmt>250</prmt>
+     <prmt>12</prmt>
+     <prmt>100</prmt>
+     <prmt>3</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <cpld>pentode part; Rc=160ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Diode-anode1</cppn>
+     <cppn nr="2">Diode-anode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Cathode-Grid3-Shield</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Pentode-anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>6</prmt>
+     <prmt>80</prmt>
+     <prmt>1.8</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>Rc=400ohm; Rg2=80kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">wire to 1</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">wire to 1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Grid1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>6</prmt>
+     <prmt>80</prmt>
+     <prmt>1.8</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>Rc=400ohm; Rg2=80kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF175</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">wire to 1</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Diode-anode2</cppn>
+     <cppn nr="7">wire to 1</cppn>
+     <cppn nr="8">Pentode-anode</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <cppn nr="10">Grid2</cppn>
+     <cppn nr="11">Grid1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.45</prmt>
+     <prmt>250</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>1.8</prmt>
+     <prmt>2</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>700</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.8</prmt>
+     <cpld>Rc=170ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF1</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode-anode1</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Cathode-Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>EBF1</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode-anode1</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Cathode-Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>650</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>pentode part; Rc=330ohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF21</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Pentode-Anode</cppn>
+     <cppn nr="3">Diode-anode1</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Grid1</cppn>
+     <cppn nr="7">Cathode-Grid3</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.33</prmt>
+     <prmt>250</prmt>
+     <prmt>7.5</prmt>
+     <prmt>100</prmt>
+     <prmt>2</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>2.2</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EBF2</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode parts</cpld>
+  </component>
+  <component>
+     <cpnm>EBF2</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2..-38</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8..0.018</prmt>
+     <prmt>2700</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part Rg2=95kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF2G</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Diode-anode2</cppn>
+     <cppn nr="7">Cathode-Grid3</cppn>
+     <cppn nr="8">Heater</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EBF32</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>EBF32</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part; Rc=300ohm; Rg2=92kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF80</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>350</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>EBF80</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>85</prmt>
+     <prmt>1.75</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>2.2</prmt>
+     <prmt>?</prmt>
+     <prmt>1400</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part; Rc=300ohm; Rg2=100kohm</cpld>
+  </component>
+  <component>
+     <cpnm>EBF89</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <prmt>3</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>900</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>Ic=16.5mA; Rg2=62kohm</cpld>
+  </component>
+  <component>
+     <cpnm>ER2B7</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-908C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Pentode-Grid2</cppn>
+     <cppn nr="2">Pentode-Grid1</cppn>
+     <cppn nr="3">Cathode; Shield; Pentode-Grid3</cppn>
+     <cppn nr="4">Anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode1-Anode</cppn>
+     <cppn nr="8">Diode2-Anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode parts</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-908C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Pentode-Grid2</cppn>
+     <cppn nr="2">Pentode-Grid1</cppn>
+     <cppn nr="3">Cathode; Shield; Pentode-Grid3</cppn>
+     <cppn nr="4">Anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode1-Anode</cppn>
+     <cppn nr="8">Diode2-Anode</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.8</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8..0.01</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-920C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>20</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>80</prmt>
+     <prmt>1.7</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-188</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-189</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-520C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode parts</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-520C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Pentode-Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Diode1-Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Cathode; Grid3</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2..-38</prmt>
+     <prmt>3</prmt>
+     <prmt>1.8..0.018</prmt>
+     <prmt>2700</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>pentode part Rg2=95kohm</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-608C</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-610</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>OBF2</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Cathode-Grid3</cppn>
+     <cppn nr="7">Diode-anode2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>8.5</prmt>
+     <prmt>0.15</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Rc=300ohm; Rg2=95kohm</cpld>
+  </component>
+  <component>
+     <cpnm>PBF2</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Diode-anode2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>6</prmt>
+     <prmt>100</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UBF11</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>20</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>80</prmt>
+     <prmt>1.7</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UBF15</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>27</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>diode part</cpld>
+  </component>
+  <component>
+     <cpnm>UBF15</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>27</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>12</prmt>
+     <prmt>100</prmt>
+     <prmt>3</prmt>
+     <prmt>-2</prmt>
+     <prmt>3</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3</prmt>
+     <cpld>pentode part; Rc=135ohm</cpld>
+  </component>
+  <component>
+     <cpnm>UBF171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Diode-anode1</cppn>
+     <cppn nr="2">Diode-anode2</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Cathode-Grid3-Shield</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Pentode-anode</cppn>
+     <prmt>20</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.7</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>Rc=300ohm; Rg2=60kohm</cpld>
+  </component>
+  <component>
+     <cpnm>UBF171</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">wire to 1</cppn>
+     <cppn nr="5">Grid2</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">wire to 1</cppn>
+     <cppn nr="10">NC</cppn>
+     <cppn nr="11">Grid1</cppn>
+     <prmt>20</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.7</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1.5</prmt>
+     <cpld>Rc=300ohm; Rg2=60kohm</cpld>
+  </component>
+  <component>
+     <cpnm>UBF175</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>Y11</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">wire to 1</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Diode-anode2</cppn>
+     <cppn nr="7">wire to 1</cppn>
+     <cppn nr="8">Pentode-anode</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <cppn nr="10">Grid2</cppn>
+     <cppn nr="11">Grid1</cppn>
+     <prmt>28.5</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>10</prmt>
+     <prmt>80</prmt>
+     <prmt>1.8</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>700</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.8</prmt>
+     <cpld>Rc=170</cpld>
+  </component>
+  <component>
+     <cpnm>UBF2</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Pentode-anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Diode-anode1</cppn>
+     <cppn nr="6">Cathode-Grid3</cppn>
+     <cppn nr="7">Diode-anode2</cppn>
+     <cppn nr="8">Heater</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>100</prmt>
+     <prmt>1.6</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1300</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Rc=300ohm; Rg2=95kohm</cpld>
+  </component>
+  <component>
+     <cpnm>UBF80</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <prmt>17</prmt>
+     <prmt>0.1</prmt>
+     <prmt>170</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>1.75</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.2</prmt>
+     <prmt>?</prmt>
+     <prmt>900</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Rc=295ohm; Rg2=47kohm</cpld>
+  </component>
+  <component>
+     <cpnm>UBF89</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Shield</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Pentode-anode</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <cppn nr="9">Grid3</cppn>
+     <prmt>19</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>11</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-1.5</prmt>
+     <prmt>3</prmt>
+     <prmt>4.5</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>Rg2=30kohm; Ic=16.5mA</cpld>
+  </component>
+  <component>
+     <cpnm>Ut2B7</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>2.5</prmt>
+     <prmt>0.8</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>Ut6B7</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VBF11</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Grid2</cppn>
+     <cppn nr="2">Grid1</cppn>
+     <cppn nr="3">Cathode-Grid3</cppn>
+     <cppn nr="4">Pentode-anode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Diode-anode1</cppn>
+     <cppn nr="8">Diode-anode2</cppn>
+     <prmt>38</prmt>
+     <prmt>0.05</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>1.7</prmt>
+     <prmt>-2</prmt>
+     <prmt>?</prmt>
+     <prmt>1.8</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Rg2=70kohm</cpld>
+  </component>
+  <component>
+     <cpnm>VT68</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT68</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Cathode; Grid3</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>?</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2.25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>VT93</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode-pentode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Diode2-Anode</cppn>
+     <cppn nr="5">Diode1-Anode</cppn>
+     <cppn nr="6">Grid2</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode; Grid3</cppn>
+     <cppn nr="9">(Grid1)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>9</prmt>
+     <prmt>125</prmt>
+     <prmt>2.3</prmt>
+     <prmt>-3..-21</prmt>
+     <prmt>?</prmt>
+     <prmt>1.1</prmt>
+     <prmt>730</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

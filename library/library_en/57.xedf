@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Diode-heptodes (AH)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>2</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>M2463-123C</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-heptode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Grid5-Heater branch</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid4</cppn>
+     <cppn nr="6">Diode-anode</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Grid1-Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.05</prmt>
+     <prmt>15</prmt>
+     <prmt>1.5</prmt>
+     <prmt>15</prmt>
+     <prmt>0.2</prmt>
+     <prmt>0</prmt>
+     <prmt>3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>?</prmt>
+     <prmt>900</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uh=2.8V 0.025A; diode: Ua=50V Ia=0.2mA</cpld>
+  </component>
+  <component>
+     <cpnm>DAH50</cpnm>
+     <cpct>0</cpct>
+     <cpds>diode-heptode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Grid5-Heater branch</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid4</cppn>
+     <cppn nr="6">Diode-anode</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Grid1-Heater</cppn>
+     <prmt>1.4</prmt>
+     <prmt>0.05</prmt>
+     <prmt>15</prmt>
+     <prmt>1.5</prmt>
+     <prmt>15</prmt>
+     <prmt>0.2</prmt>
+     <prmt>0</prmt>
+     <prmt>3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>?</prmt>
+     <prmt>900</prmt>
+     <prmt>20</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>Uh=2.8V 0.025A; diode: Ua=50V Ia=0.2mA</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

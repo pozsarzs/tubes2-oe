@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Pentóda-szekunder emissziós cső (FP)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>3</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug3 [V]</prmt>
+    <prmt nr="5">Ig3 [mA]</prmt>
+    <prmt nr="6">Ug2 [V]</prmt>
+    <prmt nr="7">Ig2 [mA]</prmt>
+    <prmt nr="8">Ug1 [V]</prmt>
+    <prmt nr="9">Uc2 [V]</prmt>
+    <prmt nr="10">Ic2 [mA]</prmt>
+    <prmt nr="11">Rg1m [Mohm]</prmt>
+    <prmt nr="12">S [ma/V]</prmt>
+    <prmt nr="13">Gain</prmt>
+    <prmt nr="14">Rint [kohm]</prmt>
+    <prmt nr="15">Ra [kohm]</prmt>
+    <prmt nr="16">Pout [W]</prmt>
+    <prmt nr="17">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>CV5108</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-szekunder emissziós cső</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód2</cppn>
+     <cppn nr="3">Rács1</cppn>
+     <cppn nr="4">Katód2</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">Rács3</cppn>
+     <cppn nr="7">Rács2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.37</prmt>
+     <prmt>250</prmt>
+     <prmt>20</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>15.6</prmt>
+     <prmt>?</prmt>
+     <prmt>25</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EFP20</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-szekunder emissziós cső</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód2</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">Katód-Rács3-Árnyékolás</cppn>
+     <cppn nr="5">Rács1</cppn>
+     <cppn nr="6">Rács2</cppn>
+     <cppn nr="7">összekötve 4</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.45</prmt>
+     <prmt>250</prmt>
+     <prmt>5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>0.22</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>-4</prmt>
+     <prmt>?</prmt>
+     <prmt>12</prmt>
+     <prmt>?</prmt>
+     <prmt>500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EFP60</cpnm>
+     <cpct>0</cpct>
+     <cpds>pentóda-szekunder emissziós cső</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód2</cppn>
+     <cppn nr="3">Rács1</cppn>
+     <cppn nr="4">Katód2</cppn>
+     <cppn nr="5">Anód</cppn>
+     <cppn nr="6">Rács3</cppn>
+     <cppn nr="7">Rács2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.37</prmt>
+     <prmt>250</prmt>
+     <prmt>20</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>150</prmt>
+     <prmt>1.5</prmt>
+     <prmt>-2</prmt>
+     <prmt>150</prmt>
+     <prmt>15.6</prmt>
+     <prmt>?</prmt>
+     <prmt>25</prmt>
+     <prmt>?</prmt>
+     <prmt>70</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

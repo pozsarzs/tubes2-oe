@@ -1,0 +1,999 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Octodes (K)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>30</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA</prmt>
+    <prmt nr="4">Ug3 [V]</prmt>
+    <prmt nr="5">Ig3 [mA]</prmt>
+    <prmt nr="6">Ug2 [V]</prmt>
+    <prmt nr="7">Ig2 [mA]</prmt>
+    <prmt nr="8">Ug1 [V]</prmt>
+    <prmt nr="9">Rg1m [Mohm]</prmt>
+    <prmt nr="10">S [ma/V]</prmt>
+    <prmt nr="11">Gain</prmt>
+    <prmt nr="12">Rint [kohm]</prmt>
+    <prmt nr="13">Ra [kohm]</prmt>
+    <prmt nr="14">Pout [W]</prmt>
+    <prmt nr="15">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>13M1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Vosc=8.5V (if Ua=100V S=0.55..0.001mA/V Rint=1000kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>3M1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3-Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid6-Cathode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4A12</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>X7</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid3</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode-Grid6</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4A16</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>X7</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid2</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid3</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Cathode-Grid6</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>-8.5</prmt>
+     <prmt>?</prmt>
+     <prmt>0.6</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>4M1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.6..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Uosc=8.5</cpld>
+  </component>
+  <component>
+     <cpnm>6E8</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AK1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode; Grid6; Shild</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3; Grid5</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>AK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.6..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Uosc=8.5</cpld>
+  </component>
+  <component>
+     <cpnm>CK1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Vosc=8.5V (if Ua=100V S=0.55..0.001mA/V Rint=1000kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>CK3</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>19</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>100</prmt>
+     <prmt>5.5</prmt>
+     <prmt>100</prmt>
+     <prmt>1</prmt>
+     <prmt>-2.5..-42</prmt>
+     <prmt>1</prmt>
+     <prmt>0.65..0.003</prmt>
+     <prmt>?</prmt>
+     <prmt>1200</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>Vosc=12V (if Ua=100V Ug1=-2.3..-42V Rint=800kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>CV1426</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DK21</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater +; Grid6</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid5</cppn>
+     <cppn nr="5">Grid1; Grid3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Heater -</cppn>
+     <prmt>1.25</prmt>
+     <prmt>0.05</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>0.25</prmt>
+     <prmt>0..-6</prmt>
+     <prmt>3</prmt>
+     <prmt>0.5..0.005</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.2</prmt>
+     <cpld>Uosc=8.7V (if Ua=90V Ug1=0..-6V)</cpld>
+  </component>
+  <component>
+     <cpnm>DK25</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater -</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">Grid2</cppn>
+     <cppn nr="4">Grid1; Grid3</cppn>
+     <cppn nr="5">Grid6; Shield</cppn>
+     <cppn nr="6">Grid4</cppn>
+     <cppn nr="7">Grid5</cppn>
+     <cppn nr="8">Heater +</cppn>
+     <prmt>1.25</prmt>
+     <prmt>0.05</prmt>
+     <prmt>90</prmt>
+     <prmt>1</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>0.2</prmt>
+     <prmt>0..-8</prmt>
+     <prmt>3</prmt>
+     <prmt>0.4..0.004</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.2</prmt>
+     <cpld>Uosc=6V</cpld>
+  </component>
+  <component>
+     <cpnm>EK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EK3</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>2.5</prmt>
+     <prmt>100</prmt>
+     <prmt>6</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>-2.5..-42</prmt>
+     <prmt>3</prmt>
+     <prmt>0.65..0.003</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>Vosc=12V</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-127C</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater +; Grid6</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid5</cppn>
+     <cppn nr="5">Grid1; Grid3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Heater -</cppn>
+     <prmt>1.25</prmt>
+     <prmt>0.05</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>0.25</prmt>
+     <prmt>0..-6</prmt>
+     <prmt>3</prmt>
+     <prmt>0.5..0.005</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.2</prmt>
+     <cpld>Uosc=8.7V (if Ua=90V Ug1=0..-6V)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-512C</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Vosc=8.5V (if Ua=100V S=0.55..0.001mA/V Rint=1000kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-517C</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MDK21</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Heater +; Grid6</cppn>
+     <cppn nr="2">Shield</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid5</cppn>
+     <cppn nr="5">Grid1; Grid3</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">Heater -</cppn>
+     <prmt>1.25</prmt>
+     <prmt>0.05</prmt>
+     <prmt>120</prmt>
+     <prmt>1.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>90</prmt>
+     <prmt>0.25</prmt>
+     <prmt>0..-6</prmt>
+     <prmt>3</prmt>
+     <prmt>0.5..0.005</prmt>
+     <prmt>?</prmt>
+     <prmt>1000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.2</prmt>
+     <cpld>Uosc=8.7V (if Ua=90V Ug1=0..-6V)</cpld>
+  </component>
+  <component>
+     <cpnm>MEK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>MO465</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode; Grid6; Shild</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3; Grid5</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TAK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.6..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Uosc=8.5</cpld>
+  </component>
+  <component>
+     <cpnm>TCK1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Vosc=8.5V (if Ua=100V S=0.55..0.001mA/V Rint=1000kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>TEK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TK1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode; Grid6; Shild</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3; Grid5</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>TK2</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.6..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Uosc=8.5</cpld>
+  </component>
+  <component>
+     <cpnm>UK1</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>13</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Vosc=8.5V (if Ua=100V S=0.55..0.001mA/V Rint=1000kohm)</cpld>
+  </component>
+  <component>
+     <cpnm>VR57A</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>1</prmt>
+     <prmt>200</prmt>
+     <prmt>2.5</prmt>
+     <prmt>50</prmt>
+     <prmt>0.8</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.55..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>2000</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>1</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>WE21</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>U7</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Cathode; Grid6; Shild</cppn>
+     <cppn nr="3">Anode</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Grid1</cppn>
+     <cppn nr="6">Grid3; Grid5</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2</prmt>
+     <prmt>0.6..0.001</prmt>
+     <prmt>?</prmt>
+     <prmt>1500</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>WE32</cpnm>
+     <cpct>0</cpct>
+     <cpds>octode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Grid3; Grid5</cppn>
+     <cppn nr="3">Grid1</cppn>
+     <cppn nr="4">Grid2</cppn>
+     <cppn nr="5">Cathode; Grid6</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield</cppn>
+     <cppn nr="9">(Grid4)</cppn>
+     <prmt>4</prmt>
+     <prmt>0.65</prmt>
+     <prmt>250</prmt>
+     <prmt>1.6</prmt>
+     <prmt>90</prmt>
+     <prmt>2</prmt>
+     <prmt>70</prmt>
+     <prmt>3.8</prmt>
+     <prmt>-1.5..-25</prmt>
+     <prmt>2.5</prmt>
+     <prmt>0.6..0.002</prmt>
+     <prmt>?</prmt>
+     <prmt>1600</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>0.5</prmt>
+     <cpld>Uosc=8.5</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

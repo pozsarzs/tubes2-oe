@@ -1,0 +1,51 @@
+Trafo installation instructions for Linux operation system
+==========================================================
+
+1. Install
+----------
+
+a. Installation from binary '.tar.gz' package
+
+    # cp tubes-trial-2.0-i586.tar.gz /opt
+    # cd /opt
+    # tar -xzf tubes-trial-2.0-i586.tar.gz
+    # cd tubes-trial
+    # ./create_links
+
+                or
+
+    # tar -xzf tubes-trial-2.0-i586.tar.gz
+    # cd tubes-trial
+    # ./install
+
+b. Installation from '.bin' package
+
+    # ./tubes-trial-2.0-i586.bin
+
+c. Installation from source package
+     
+    # tar -xzf tubes-trial-2.0.tar.gz
+    # ./configure
+    # make
+    # make install
+
+2. Uninstall
+------------
+
+a. If you installed it from binary '.tar.gz' package
+
+    # /opt/tubes-trial/remove_links
+    # rm -r /opt/tubes-trial/
+
+            or
+
+    # /opt/tubes-trial/uninstall
+
+b. If you installed it from '.bin' package
+
+    # /opt/tubes-trial/uninstall
+
+c. If you installed it from source package:
+
+    # make uninstall
+

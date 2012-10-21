@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Heil tubes (velocity modulated oscillator tubes)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>37</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">fo [MHz]</prmt>
+    <prmt nr="2">Poutmin [W]</prmt>
+    <prmt nr="3">Ur [V]</prmt>
+    <prmt nr="4">Ic [mA]</prmt>
+    <prmt nr="5">ft [MHz]</prmt>
+  </header>
+  <component>
+     <cpnm>CV2189</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3950-4050</prmt>
+     <prmt>0.35</prmt>
+     <prmt>240-280</prmt>
+     <prmt>45</prmt>
+     <prmt>+-9.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2190</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2700-4200</prmt>
+     <prmt>0.3</prmt>
+     <prmt>190-380</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2221</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2700-4000</prmt>
+     <prmt>0.5</prmt>
+     <prmt>190-350</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV228</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4850</prmt>
+     <prmt>0.45</prmt>
+     <prmt>200-250</prmt>
+     <prmt>65</prmt>
+     <prmt>+-6.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV234</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1700-3700</prmt>
+     <prmt>0.3</prmt>
+     <prmt>100-300</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV299</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1700-3700</prmt>
+     <prmt>0.3</prmt>
+     <prmt>100-300</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV485</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4850</prmt>
+     <prmt>0.45</prmt>
+     <prmt>200-250</prmt>
+     <prmt>65</prmt>
+     <prmt>+-6.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV485</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4850</prmt>
+     <prmt>0.45</prmt>
+     <prmt>200-250</prmt>
+     <prmt>65</prmt>
+     <prmt>+-6.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5048</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3780-4040</prmt>
+     <prmt>0.35</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>+-7.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5049</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4000-4240</prmt>
+     <prmt>0.35</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>+-7.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5292</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3550-4250</prmt>
+     <prmt>0.9</prmt>
+     <prmt>250-400</prmt>
+     <prmt>50</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV5463</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4263-4297</prmt>
+     <prmt>0.75</prmt>
+     <prmt>235-275</prmt>
+     <prmt>65</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV6165</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3790-4020</prmt>
+     <prmt>0.25</prmt>
+     <prmt>230-280</prmt>
+     <prmt>45</prmt>
+     <prmt>11</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV6166</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4020-4240</prmt>
+     <prmt>0.25</prmt>
+     <prmt>230-310</prmt>
+     <prmt>45</prmt>
+     <prmt>11</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DV40B</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4850</prmt>
+     <prmt>0.45</prmt>
+     <prmt>200-250</prmt>
+     <prmt>65</prmt>
+     <prmt>+-6.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>DV56</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1700-3700</prmt>
+     <prmt>0.3</prmt>
+     <prmt>100-300</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2466-321C</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2700-4200</prmt>
+     <prmt>0.3</prmt>
+     <prmt>190-380</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V190C/1M</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>800-1000</prmt>
+     <prmt>2</prmt>
+     <prmt>180-270</prmt>
+     <prmt>80</prmt>
+     <prmt>+-2.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V230A/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>1700-3700</prmt>
+     <prmt>0.3</prmt>
+     <prmt>100-300</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V233A/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2700-4200</prmt>
+     <prmt>0.3</prmt>
+     <prmt>190-380</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V235A/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>2700-4000</prmt>
+     <prmt>0.5</prmt>
+     <prmt>190-350</prmt>
+     <prmt>50-65</prmt>
+     <prmt>+-1.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V237C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3560-3820</prmt>
+     <prmt>0.35</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>+-4.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V237C/2K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3560-3790</prmt>
+     <prmt>0.25</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V238A/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3550-4250</prmt>
+     <prmt>0.9</prmt>
+     <prmt>250-400</prmt>
+     <prmt>50</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V238A/2KS</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3550-4250</prmt>
+     <prmt>0.55</prmt>
+     <prmt>365-410</prmt>
+     <prmt>50</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V239C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3780-4040</prmt>
+     <prmt>0.35</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>+-7.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V239C/2K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3790-4020</prmt>
+     <prmt>0.25</prmt>
+     <prmt>230-280</prmt>
+     <prmt>45</prmt>
+     <prmt>11</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V240C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4000-4100</prmt>
+     <prmt>0.35</prmt>
+     <prmt>240-280</prmt>
+     <prmt>45</prmt>
+     <prmt>+-9.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V240C/2K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>3950-4050</prmt>
+     <prmt>0.35</prmt>
+     <prmt>240-280</prmt>
+     <prmt>45</prmt>
+     <prmt>+-9.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V241C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4000-4240</prmt>
+     <prmt>0.35</prmt>
+     <prmt>225-285</prmt>
+     <prmt>45</prmt>
+     <prmt>+-7.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V241C/2K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4020-4240</prmt>
+     <prmt>0.25</prmt>
+     <prmt>230-310</prmt>
+     <prmt>45</prmt>
+     <prmt>11</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V243A/2FS</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4263-4297</prmt>
+     <prmt>0.75</prmt>
+     <prmt>235-275</prmt>
+     <prmt>65</prmt>
+     <prmt>?</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V245C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4630</prmt>
+     <prmt>0.2</prmt>
+     <prmt>230-265</prmt>
+     <prmt>50</prmt>
+     <prmt>+-10.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V246A/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4400-4850</prmt>
+     <prmt>0.45</prmt>
+     <prmt>200-250</prmt>
+     <prmt>65</prmt>
+     <prmt>+-6.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V246A/2K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4560-4860</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200-230</prmt>
+     <prmt>40</prmt>
+     <prmt>+-4.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V247C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4570-4750</prmt>
+     <prmt>0.2</prmt>
+     <prmt>230-265</prmt>
+     <prmt>50</prmt>
+     <prmt>+-10.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>V249C/1K</cpnm>
+     <cpct>0</cpct>
+     <cpds>heil tube</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Grid1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Heater</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">Resonator</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>4760-5000</prmt>
+     <prmt>0.2</prmt>
+     <prmt>249-290</prmt>
+     <prmt>50</prmt>
+     <prmt>+-9.0</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

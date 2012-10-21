@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Duo-powertetrodes (LL)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>7</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+    <prmt nr="4">Ug2 [V]</prmt>
+    <prmt nr="5">Ig2 [mA]</prmt>
+    <prmt nr="6">Ug1 [V]</prmt>
+    <prmt nr="7">Rg1m [Mohm]</prmt>
+    <prmt nr="8">S [ma/V]</prmt>
+    <prmt nr="9">Gain</prmt>
+    <prmt nr="10">Rint [kohm]</prmt>
+    <prmt nr="11">Ra [kohm]</prmt>
+    <prmt nr="12">Pout [W]</prmt>
+    <prmt nr="13">Pa [W]</prmt>
+  </header>
+  <component>
+     <cpnm>6360</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Grid1-tetrode1</cppn>
+     <cppn nr="2">Cathode</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Anode-tetrode1</cppn>
+     <cppn nr="7">Grid2-tetrode1</cppn>
+     <cppn nr="8">Anode-tetrode2</cppn>
+     <cppn nr="9">branch of heater</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.41</prmt>
+     <prmt>300</prmt>
+     <prmt>130</prmt>
+     <prmt>200</prmt>
+     <prmt>?</prmt>
+     <prmt>-150</prmt>
+     <prmt>?</prmt>
+     <prmt>3.3</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 0.82A</cpld>
+  </component>
+  <component>
+     <cpnm>CV9536</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-662</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>QQE03/20</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>6252</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>6252</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>9910</cpnm>
+     <cpct>0</cpct>
+     <cpds>duo-powertetrode</cpds>
+     <cppc>XE7</cppc>
+     <cppn nr="1">Cathode-Shield</cppn>
+     <cppn nr="2">branch of heater</cppn>
+     <cppn nr="3">Grid1-tetrode2</cppn>
+     <cppn nr="4">Heater</cppn>
+     <cppn nr="5">Heater</cppn>
+     <cppn nr="6">Grid1-tetrode1</cppn>
+     <cppn nr="7">Grid2</cppn>
+     <cppn nr="8">(Anode-tetrode1)</cppn>
+     <cppn nr="9">(Anode-tetrode2)</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.65</prmt>
+     <prmt>600</prmt>
+     <prmt>?</prmt>
+     <prmt>250</prmt>
+     <prmt>?</prmt>
+     <prmt>-75</prmt>
+     <prmt>?</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <cpld>or Uh=6.3V 1.3A</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

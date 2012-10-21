@@ -1,0 +1,17 @@
+ fcntmax:		maximal counting speed
+ Iac:		typical anode-cathode current
+ Iacmax:		maximal anode-cathode current
+ Iacmin:		minimal anode-cathode current
+ Ra:		anode resistor
+ Rc:		cathode resistor
+ tgsp:		minimal guide signal pulse duration
+ Rcmax:		maximal cathode resistor
+ tres:		minimal reset pulse duration
+ Ugb:		typical guid bias voltage
+ Ugs:		guid signal voltage
+ Um:		maintaning voltage
+ Uout:		output voltage
+ Ures:		minimal reset pulse voltage
+ Usmin:		minimal supply voltage
+ Us:		typical supply voltage
+ Utrmin:		minimal transfer voltage

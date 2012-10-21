@@ -1,0 +1,771 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Display tubes (numitrons)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>39</noc>
+    <prmt nr="0">Symh. [mm]</prmt>
+    <prmt nr="1">Us [V]</prmt>
+    <prmt nr="2">Is [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>3015-F</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>DIP-16</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">f</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Common</cppn>
+     <cppn nr="6">e</cppn>
+     <cppn nr="7">d</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">Dp</cppn>
+     <cppn nr="10">Common</cppn>
+     <cppn nr="11">c</cppn>
+     <cppn nr="12">Common</cppn>
+     <cppn nr="13">Common</cppn>
+     <cppn nr="14">b</cppn>
+     <cppn nr="15">a</cppn>
+     <cppn nr="16">NC</cppn>
+     <prmt>9</prmt>
+     <prmt>5</prmt>
+     <prmt>8</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-1300</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>wire-9</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-1310</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>wire-9</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-1320</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>wire-9</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2000</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2010</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2020</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2100</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2110</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2120</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2300</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2310</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DA-2320</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">C</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">B</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>12</prmt>
+     <prmt>5</prmt>
+     <prmt>23</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2000</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2010</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2020</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">c</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>15</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: +-1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2030</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">|</cppn>
+     <cppn nr="9">NC</cppn>
+     <prmt>7.5</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: +-</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2100</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2100V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2110</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2110V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2115</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2120</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">c</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: +-1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2120V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">c</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2130</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2130V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>24</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2200</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2200V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2210</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2210V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2215</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2215V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Dp</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">e</cppn>
+     <cppn nr="4">d</cppn>
+     <cppn nr="5">c</cppn>
+     <cppn nr="6">g</cppn>
+     <cppn nr="7">a</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">f</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2220</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">c</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: + -</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2220V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">_</cppn>
+     <cppn nr="7">c</cppn>
+     <cppn nr="8">b</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: + -</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2230</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>DR-2230V1</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Common</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">_</cppn>
+     <cppn nr="8">NC</cppn>
+     <cppn nr="9">|</cppn>
+     <prmt>10</prmt>
+     <prmt>2.5</prmt>
+     <prmt>?</prmt>
+     <cpld>Displayed symbols: + - 1</cpld>
+  </component>
+  <component>
+     <cpnm>IV-13</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>B9A</cppc>
+     <cppn nr="1">Common</cppn>
+     <cppn nr="2">Dp</cppn>
+     <cppn nr="3">c</cppn>
+     <cppn nr="4">b</cppn>
+     <cppn nr="5">a</cppn>
+     <cppn nr="6">f</cppn>
+     <cppn nr="7">d</cppn>
+     <cppn nr="8">e</cppn>
+     <cppn nr="9">g</cppn>
+     <prmt>20</prmt>
+     <prmt>4.5</prmt>
+     <prmt>25</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>IV-16</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Common</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">b</cppn>
+     <cppn nr="4">c</cppn>
+     <cppn nr="5">a</cppn>
+     <cppn nr="6">f</cppn>
+     <cppn nr="7">g</cppn>
+     <cppn nr="8">d</cppn>
+     <cppn nr="9">e</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>17-22</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>IV-9</cpnm>
+     <cpct>0</cpct>
+     <cpds>numitron</cpds>
+     <cppc>TO-100</cppc>
+     <cppn nr="1">Common</cppn>
+     <cppn nr="2">Dp</cppn>
+     <cppn nr="3">b</cppn>
+     <cppn nr="4">c</cppn>
+     <cppn nr="5">a</cppn>
+     <cppn nr="6">f</cppn>
+     <cppn nr="7">g</cppn>
+     <cppn nr="8">d</cppn>
+     <cppn nr="9">e</cppn>
+     <prmt>10</prmt>
+     <prmt>4.5</prmt>
+     <prmt>19.5</prmt>
+     <cpld>Displayed symbols: 7 segment</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

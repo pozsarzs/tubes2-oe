@@ -1,0 +1,95 @@
+.TH "xedf" "5" "" "Pozsar Zsolt" "Adatállomány az Elizához és a Tubeshez."
+.SH "NÉV"
+.LP 
+*.xedf - Adatállomány az Elizához és a Tubeshez
+.SH "LEÍRÁS"
+.LP 
+Ez fájltípus az EDF fájlok új, XML alapú változata.
+.br
+Használható a követketõ programokhoz:
+.br
+    - Eliza v1.0 vagy későbbi,
+.br
+    - Tubes v0.1 vagy későbbi.
+.LP
+\fBFelépítése:\fP
+.LP
+-------------------------------------------------------
+.br
+<?xml version='1.0' encoding='utf-8' ?>
+.br
+<xedf>
+.br
+  <header>
+.br
+    <dscr>A katalógus rövid leírása</dscr>
+.br
+    <ctgr nr="1">~Kategória 1</ctgr>
+.br
+    <ctgr nr="2">K~ategória 2</ctgr>
+.br
+    <ctgr nr="3">Ka~tegória 3</ctgr>
+.br
+    <ctgr nr="4">Kat~egória 4</ctgr>
+.br
+    <prmt cat="2">1. kategória 1. paramétere [egység]</prmt>
+.br
+    <prmt cat="2">1. kategória 2. paramétere [egység]</prmt>
+.br
+    <prmt cat="2">2. kategória 1. paramétere [egység]</prmt>
+.br
+    <prmt cat="2">2. kategória 2. paramétere [egység]</prmt>
+.br
+  </header>
+.br
+  <component>
+.br
+    <cpnm>Név</cpnm>
+.br
+    <cpct>Kategória</cpct>
+.br
+    <cpds>Rövid leírás</cpds>
+.br
+    <cppc>Tokozás</cppc>
+.br
+    <cppn nr="1">1. lábnév</cppn>
+.br
+    <cppn nr="2">2. lábnév</cppn>
+.br
+    <cppn nr="3">3. lábnév</cppn>
+.br
+    <cppn nr="4">4. lábnév</cppn>
+.br
+    <prmt>Az_alkatrész_kategóriájának_1._paramétere_egység_nélkül</prmt>
+.br
+    <prmt>Az_alkatrész_kategóriájának_2._paramétere_egység_nélkül</prmt>
+.br
+    <cpld>Részletes leírás</cpld>
+.br
+  </component>
+.br
+    ...
+.br
+    ...
+.br
+  <component>
+.br
+    ...   
+.br
+  </component>
+.br
+</xedf>
+.br
+-------------------------------------------------------
+.LP
+\fBETC:\fP
+.LP
+* Az elemeknek nincs hosszúság korlátozásuk.
+.br
+.SH "SZERZÕ"
+.LP 
+Pozsár Zsolt
+.br
+Web:      http://www.pozsarzs.hu
+.br
+E-mail és MSN:   pozsarzs@gmail.com

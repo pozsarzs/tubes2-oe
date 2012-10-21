@@ -1,0 +1,10 @@
+ Usmin:	minimal supply voltage
+ Usimax:	maximal ionization
+ Us:	typical maintaning
+ Icmin:	minimal cathode current
+ Icminp:	minimal pulse cathode current
+ Ic:	typical cathode current
+ Icp:	typical pulse cathode current
+ Icmax:	maximal cathode curren
+ Icmaxp:	maximal pulse cathode current
+ Symh.:	symbol height

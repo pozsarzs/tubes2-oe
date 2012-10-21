@@ -1,0 +1,6 @@
+ fo:		működési frekvencia
+ ft:		hangolási tartomány
+ Ic:		katódáram
+ Poutmin:	minimális kimeneti teljesítmény
+ Uh:		fűtőfeszültség
+ Ur:		rezonátor feszültségtartomány

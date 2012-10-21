@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Kettős diódák (AA)</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>38</noc>
+    <prmt nr="0">Uh [V]</prmt>
+    <prmt nr="1">Ih [A]</prmt>
+    <prmt nr="2">Ua [V]</prmt>
+    <prmt nr="3">Ia [mA]</prmt>
+  </header>
+  <component>
+     <cpnm>12AL5</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>12H6</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>117</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>3AL5</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>3.15</prmt>
+     <prmt>0.6</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6058</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6AL5</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6AZ5</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">Anód-Dióda1</cppn>
+     <cppn nr="2">Katód-Dióda1</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Katód-Dióda2</cppn>
+     <cppn nr="8">Anód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>10</prmt>
+     <prmt>15</prmt>
+     <cpld>Ua=150V Ia=4mA</cpld>
+  </component>
+  <component>
+     <cpnm>6AZ6</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>S8</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Anód-Dióda1</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Katód-Dióda2</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Anód-Dióda2</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.15</prmt>
+     <prmt>3.5</prmt>
+     <prmt>8</prmt>
+     <cpld>Ua=200V Ia=20mA</cpld>
+  </component>
+  <component>
+     <cpnm>6B22</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód-Dióda1</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Árnyékolás</cppn>
+     <cppn nr="6">Anód-Dióda2</cppn>
+     <cppn nr="7">Katód-Dióda2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>7</prmt>
+     <prmt>0.16</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6D2</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>500</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>6H6</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>150</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>7A6</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód-Dióda1</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Árnyékolás</cppn>
+     <cppn nr="6">Anód-Dióda2</cppn>
+     <cppn nr="7">Katód-Dióda2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>7</prmt>
+     <prmt>0.16</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV10324</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1301</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>150</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV140</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1930</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>150</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2004</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2005</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV283</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV2882</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV4025</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV8200</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV876</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód-Dióda1</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Árnyékolás</cppn>
+     <cppn nr="6">Anód-Dióda2</cppn>
+     <cppn nr="7">Katód-Dióda2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>7</prmt>
+     <prmt>0.16</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV916</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>117</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>D63</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>150</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EAA11</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Katód1</cppn>
+     <cppn nr="3">Árnyékolás</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Katód2</cppn>
+     <cppn nr="8">Anód2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.35</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EAA171</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Fűtés2</cppn>
+     <cppn nr="3">Fűtés1</cppn>
+     <cppn nr="4">Anód2</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">Fűtés1</cppn>
+     <cppn nr="7">Fűtés2</cppn>
+     <cppn nr="8">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.36</prmt>
+     <prmt>200</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EAA901S</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>330</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>EAA91</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-408B</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-492C</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2462-819</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Fűtés</cppn>
+     <cppn nr="2">Katód-Dióda1</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Árnyékolás</cppn>
+     <cppn nr="6">Anód-Dióda2</cppn>
+     <cppn nr="7">Katód-Dióda2</cppn>
+     <cppn nr="8">Fűtés</cppn>
+     <prmt>7</prmt>
+     <prmt>0.16</prmt>
+     <prmt>150</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-150</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>117</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>M2463-196</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.3</prmt>
+     <prmt>150</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UAA11</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>A8</cppc>
+     <cppn nr="1">Anód1</cppn>
+     <cppn nr="2">Katód1</cppn>
+     <cppn nr="3">Árnyékolás</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Fűtés</cppn>
+     <cppn nr="6">Fűtés</cppn>
+     <cppn nr="7">Katód2</cppn>
+     <cppn nr="8">Anód2</cppn>
+     <prmt>22</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>5</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UAA171</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Fűtés2</cppn>
+     <cppn nr="3">Fűtés1</cppn>
+     <cppn nr="4">Anód2</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">Fűtés1</cppn>
+     <cppn nr="7">Fűtés2</cppn>
+     <cppn nr="8">Anód1</cppn>
+     <prmt>25</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UAA171</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>XA11</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés1</cppn>
+     <cppn nr="3">Fűtés1</cppn>
+     <cppn nr="4">Katód1</cppn>
+     <cppn nr="5">Anód1</cppn>
+     <cppn nr="6">Árnyékolás</cppn>
+     <cppn nr="7">Árnyékolás</cppn>
+     <cppn nr="8">Anód2</cppn>
+     <cppn nr="9">Katód2</cppn>
+     <cppn nr="10">Fűtés2</cppn>
+     <cppn nr="11">Fűtés2</cppn>
+     <prmt>25</prmt>
+     <prmt>0.1</prmt>
+     <prmt>200</prmt>
+     <prmt>10</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UAA91</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>B7G</cppc>
+     <cppn nr="1">Katód1</cppn>
+     <cppn nr="2">Anód2</cppn>
+     <cppn nr="3">Fűtés</cppn>
+     <cppn nr="4">Fűtés</cppn>
+     <cppn nr="5">Katód2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Anód1</cppn>
+     <prmt>19</prmt>
+     <prmt>0.1</prmt>
+     <prmt>117</prmt>
+     <prmt>9</prmt>
+     <cpld>Uch=330V</cpld>
+  </component>
+  <component>
+     <cpnm>VT214</cpnm>
+     <cpct>0</cpct>
+     <cpds>két dióda</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Árnyékolás</cppn>
+     <cppn nr="2">Fűtés</cppn>
+     <cppn nr="3">Anód-Dióda1</cppn>
+     <cppn nr="4">Katód-Dióda1</cppn>
+     <cppn nr="5">Anód-Dióda2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fűtés</cppn>
+     <cppn nr="8">Katód-Dióda2</cppn>
+     <prmt>12.6</prmt>
+     <prmt>0.15</prmt>
+     <prmt>117</prmt>
+     <prmt>8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <cppn nr="2">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

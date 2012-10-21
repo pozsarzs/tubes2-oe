@@ -1,0 +1,8 @@
+ D:	diameter
+ H:	height
+ Ac:	photocathode surface
+ Op.reg:	operation region (of maximum sensitivity)
+ Ua:	anode voltage
+ Sens.:	sensitivity
+ Id:	dark current
+ Cac:	anode-cathode capacity

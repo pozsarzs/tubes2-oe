@@ -1,0 +1,90 @@
+.TH "cxedf" "5" "" "Pozsar Zsolt" "Database file for Tubes"
+.SH "NAME"
+.LP 
+*.cxedf - Database file for Tubes.
+.SH "DESCRIPTION"
+.LP 
+This is coded XEDF file, what you can use for Tubes v2.0 or later.
+.LP
+\fBStructure of the file:\fP
+.LP
+-------------------------------------------------------
+.br
+<?xml version='1.0' encoding='utf-8' ?>
+.br
+<xedf>
+.br
+  <header>
+.br
+    <dscr>Short description of catalogue</dscr>
+.br
+    <ctgr nr="1">~Category 1</ctgr>
+.br
+    <ctgr nr="2">C~ategory 2</ctgr>
+.br
+    <ctgr nr="3">Ca~tegory 3</ctgr>
+.br
+    <ctgr nr="4">Cat~egory 4</ctgr>
+.br
+    <prmt cat="1">parameter_1_of_1st_category [unit]</prmt>
+.br
+    <prmt cat="1">parameter_2_of_1st_category [unit]</prmt>
+.br
+    <prmt cat="2">parameter_1_of_2nd_category [unit]</prmt>
+.br
+    <prmt cat="2">parameter_2_of_2nd_category [unit]</prmt>
+.br
+  </header>
+.br
+  <component>
+.br
+    <cpnm>Name</cpnm>
+.br
+    <cpct>Category</cpct>
+.br
+    <cpds>Short description</cpds>
+.br
+    <cppc>Package</cppc>
+.br
+    <cppn nr="1">name of 1st pin</cppn>
+.br
+    <cppn nr="2">name of 2nd pin</cppn>
+.br
+    <cppn nr="3">name of 3rd pin</cppn>
+.br
+    <cppn nr="4">name of 4th pin</cppn>
+.br
+    <prmt>parameter_1_of_this_element's_category_without_unit</prmt>
+.br
+    <prmt>parameter_2_of_this_element's_category_without_unit</prmt>
+.br
+    <cpld>Long description</cpld>
+.br
+  </component>
+.br
+    ...
+.br
+    ...
+.br
+  <component>
+.br
+    ...   
+.br
+  </component>
+.br
+</xedf>
+.br
+-------------------------------------------------------
+.LP
+\fBETC:\fP
+.LP
+* Values are not plain text! 
+.br
+* There is not length-limit of elements.
+.SH "AUTHOR"
+.LP 
+Pozsar Zsolt
+.br
+Web:             http://www.pozsarzs.hu
+.br
+E-mail és MSN:   pozsarzs@gmail.com

@@ -1,0 +1,1043 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<xedf>
+  <header>
+    <dscr>Fotocellák</dscr>
+    <ctgr nr="0"></ctgr>
+    <noc>55</noc>
+    <prmt nr="0">D [mm]</prmt>
+    <prmt nr="1">H [mm]</prmt>
+    <prmt nr="2">Ac [cm2]</prmt>
+    <prmt nr="3">Op. region [nm]</prmt>
+    <prmt nr="4">Ua [V]</prmt>
+    <prmt nr="5">Sens. [uA/Lm]</prmt>
+    <prmt nr="6">Id [uA]</prmt>
+    <prmt nr="7">Cac [pF]</prmt>
+  </header>
+  <component>
+     <cpnm>022</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>12</prmt>
+     <prmt>28</prmt>
+     <prmt>1.2</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>115</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>023</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>12</prmt>
+     <prmt>28</prmt>
+     <prmt>1.2</prmt>
+     <prmt>750</prmt>
+     <prmt>100...200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>121</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>12</prmt>
+     <prmt>43</prmt>
+     <prmt>2.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>122</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>12</prmt>
+     <prmt>43</prmt>
+     <prmt>2.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>115</prmt>
+     <prmt>0.1</prmt>
+     <prmt>1.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>211</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>2210</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>221</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>222</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.1</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>2230</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO2</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100...200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>223/7</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>53</prmt>
+     <prmt>4.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100..200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>223</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100...200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>224</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.075</prmt>
+     <prmt>2.5</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>227</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>300</prmt>
+     <prmt>0.075</prmt>
+     <prmt>2.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>321</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>22</prmt>
+     <prmt>54</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>322</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>350</prmt>
+     <prmt>0.075</prmt>
+     <prmt>2.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>3530</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>3554</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>UO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Fotokatód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>30</prmt>
+     <prmt>88</prmt>
+     <prmt>5.2</prmt>
+     <prmt>750</prmt>
+     <prmt>90</prmt>
+     <prmt>150</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>411</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>23</prmt>
+     <prmt>59</prmt>
+     <prmt>6</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>421</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>23</prmt>
+     <prmt>59</prmt>
+     <prmt>6</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>422</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>23</prmt>
+     <prmt>59</prmt>
+     <prmt>6</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>423</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>23</prmt>
+     <prmt>59</prmt>
+     <prmt>6</prmt>
+     <prmt>750</prmt>
+     <prmt>100...200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>424</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>6</prmt>
+     <prmt>800</prmt>
+     <prmt>200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2.4</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>522</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>HO1</cppc>
+     <cppn nr="1">Fotokatód</cppn>
+     <cppn nr="2">Anód</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>2</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>350</prmt>
+     <prmt>0.075</prmt>
+     <prmt>1.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>58CG</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>16</prmt>
+     <prmt>33</prmt>
+     <prmt>1.1</prmt>
+     <prmt>750</prmt>
+     <prmt>90</prmt>
+     <prmt>108</prmt>
+     <prmt>0.1</prmt>
+     <prmt>3</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>90AG</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO2</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>4</prmt>
+     <prmt>500</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>130</prmt>
+     <prmt>0.1</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>90AV</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>4</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <prmt>30</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>90CG</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.1</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>90CV</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>914</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>EO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Fotokatód</cppn>
+     <prmt>28</prmt>
+     <prmt>85</prmt>
+     <prmt>9</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>9172</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>6</prmt>
+     <prmt>800</prmt>
+     <prmt>100</prmt>
+     <prmt>350</prmt>
+     <prmt>0.075</prmt>
+     <prmt>2.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>917</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>921</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>22.5</prmt>
+     <prmt>44</prmt>
+     <prmt>2.8</prmt>
+     <prmt>750</prmt>
+     <prmt>90</prmt>
+     <prmt>119</prmt>
+     <prmt>0.01</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>922</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>53</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>9233</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>UO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Fotokatód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>?</prmt>
+     <prmt>?</prmt>
+     <prmt>11</prmt>
+     <prmt>750</prmt>
+     <prmt>200</prmt>
+     <prmt>40</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>923</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>UO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Fotokatód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>28</prmt>
+     <prmt>90.5</prmt>
+     <prmt>10</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>924</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>EO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Fotokatód</cppn>
+     <prmt>28</prmt>
+     <prmt>85</prmt>
+     <prmt>9</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>925</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Fotokatód</cppn>
+     <prmt>28</prmt>
+     <prmt>51.5</prmt>
+     <prmt>5</prmt>
+     <prmt>750</prmt>
+     <prmt>100...200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>926</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO2</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>9271</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>7.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>700</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>9272</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>7.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>350</prmt>
+     <prmt>0.075</prmt>
+     <prmt>2.5</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>927</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>928</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO2</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>800</prmt>
+     <prmt>100</prmt>
+     <prmt>700</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>930</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Fotokatód</cppn>
+     <prmt>30</prmt>
+     <prmt>63.5</prmt>
+     <prmt>6</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>CV1417</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>CV2132</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>4</prmt>
+     <prmt>500</prmt>
+     <prmt>100</prmt>
+     <prmt>30</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>CV2133</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.1</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>CV2134</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>CV2270</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO2</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>4</prmt>
+     <prmt>500</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>130</prmt>
+     <prmt>0.1</prmt>
+     <prmt>1</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>CV620</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO11</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>850</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>F223</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>20</prmt>
+     <prmt>44</prmt>
+     <prmt>2</prmt>
+     <prmt>750</prmt>
+     <prmt>100..200</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>M2467-805</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>UO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Fotokatód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>28</prmt>
+     <prmt>90.5</prmt>
+     <prmt>10</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>M2467-806</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>XO6</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">Fotokatód</cppn>
+     <cppn nr="3">NC</cppn>
+     <prmt>19</prmt>
+     <prmt>52</prmt>
+     <prmt>4</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>2</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>M2467-810</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>B5</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Anód</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Fotokatód</cppn>
+     <prmt>30</prmt>
+     <prmt>63.5</prmt>
+     <prmt>6</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-20</prmt>
+     <prmt>135</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>M2467-814C</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>MO3</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Anód</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Fotokatód</cppn>
+     <prmt>19</prmt>
+     <prmt>48</prmt>
+     <prmt>3.5</prmt>
+     <prmt>750</prmt>
+     <prmt>100</prmt>
+     <prmt>20</prmt>
+     <prmt>0.05</prmt>
+     <prmt>1</prmt>
+     <cpld>vákum</cpld>
+  </component>
+  <component>
+     <cpnm>VT252</cpnm>
+     <cpct>0</cpct>
+     <cpds>fotocella</cpds>
+     <cppc>UO1</cppc>
+     <cppn nr="1">Anód</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">Fotokatód</cppn>
+     <cppn nr="4">NC</cppn>
+     <prmt>28</prmt>
+     <prmt>90.5</prmt>
+     <prmt>10</prmt>
+     <prmt>750</prmt>
+     <prmt>100+-10</prmt>
+     <prmt>150</prmt>
+     <prmt>0.05</prmt>
+     <prmt>3.4</prmt>
+     <cpld>gáztöltésű</cpld>
+  </component>
+  <component>
+     <cpnm>-</cpnm>
+     <cpct>0</cpct>
+     <cpds>-</cpds>
+     <cppc>-</cppc>
+     <cppn nr="1">-</cppn>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <prmt>-</prmt>
+     <cpld>-</cpld>
+  </component>
+</xedf>

@@ -1,0 +1,84 @@
+
+                       Information about application
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. General information
+~~~~~~~~~~~~~~~~~~~~~~
+   This is an electrontube catalogue. Its database contents base type, pin-out
+and some parameters of components. This database is refreshing continuosly.
+You can download two version of this application from here:
+
+1. You can try out it with 'Trial' version for free, but if you decide to
+   keep and use it you must register. You can redistribute this version
+   and/or modify it under the terms of the GNU GPL 3.0 or later.
+
+2. By buying the 'Pro' version, you obtain non-transferable right to use
+   application and updates without restriction. The registration cost is
+   5 EUR (or 1490 HUF for motherland users). 'Pro' version is distributed
+   WITHOUT ANY WARRANTY. You can copy and share it for free without personal
+   registration key, but decoding and analysing inner construction is are
+   not allowed. You are not allowed to transfer the registration for other
+   person. You may install this software on all operation systems of computer
+   and all of the users on computers may use it.
+
+   OS support: Linux and Windows.
+   Language support: English and Hungarian.
+
+2. Installer packages
+~~~~~~~~~~~~~~~~~~~~~
+a. for Linux
+   tubes-2.0-trial-i586.tar.gz         binary package
+   tubes-2.0-trial-i586.bin            installer programme
+   tubes_2.0-trial-1_i386.deb          binary package
+  
+   tubes-2.0-pro-i586.tar.gz           binary package
+   tubes-2.0-pro-i586.bin              installer programme
+   tubes_2.0-pro-1_i386.deb            binary package
+
+b. for Windows
+   tubes-2.0-trial-win32.zip           binary package
+   tubes-2.0-trial-win32.exe           installer application
+
+   tubes-2.0-pro-win32.zip             binary package
+   tubes-2.0-pro-win32.exe             installer application
+
+c. source code
+   tubes-2.0-trial.tar.gz              source package
+
+3. Settings
+~~~~~~~~~~~
+   On linux use 'LANG' environment variable to set language of the
+   application.
+
+   for example: English:   en_US,
+                Hungarian: hu_HU
+
+4. Important information
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Copyright (C) 2008-2012 Pozsar Zsolt
+
+   This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+5. Download and contact
+~~~~~~~~~~~~~~~~~~~~~~~
+   Homepage:                     http://www.pozsarzs.hu
+   Facebook:                     http://www.facebook.com/pozsarzs.hu
+
+   Contact:                      Pozsar Zsolt
+   E-mail:                       pozsarzs@gmail.com
+   MSN:                          pozsarzs@gmail.com
+   Skype:                        pozsarzs
+   Phone:                        +36 (56) 470-272
+   Mobilphone:                   +36 (30) 249-5030
+
