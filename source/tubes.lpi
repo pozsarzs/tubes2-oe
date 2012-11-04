@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="7"/>
     <General>
       <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
       <Title Value="Tubes"/>
-      <UseXPManifest Value="True"/>
       <Icon Value="0"/>
-      <ActiveWindowIndexAtStart Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="1"/>
     </General>
     <i18n>
       <EnableI18N Value="True"/>
@@ -15,12 +16,7 @@
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
-      <MajorVersionNr Value="2"/>
-      <StringTable FileDescription="Electrontube catalogue" LegalCopyright="(C)2008-2012 Pozsar Zsolt" ProductVersion=""/>
     </VersionInfo>
-    <BuildModes Count="1">
-      <Item1 Name="default" Default="True"/>
-    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -51,13 +47,11 @@
         <Filename Value="tubes.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="tubes"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
         <CursorPos X="11" Y="2"/>
+        <TopLine Value="2"/>
+        <EditorIndex Value="0"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="frmmain.pp"/>
@@ -65,14 +59,11 @@
         <ComponentName Value="Form1"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmmain"/>
-        <IsVisibleTab Value="True"/>
+        <CursorPos X="56" Y="1283"/>
+        <TopLine Value="1277"/>
         <EditorIndex Value="1"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1369"/>
-        <CursorPos X="28" Y="1392"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="frmabout.pp"/>
@@ -80,20 +71,18 @@
         <ComponentName Value="Form2"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmabout"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="87"/>
         <CursorPos X="30" Y="90"/>
+        <TopLine Value="87"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="frmhelptext.pp"/>
         <ComponentName Value="Form3"/>
         <UnitName Value="frmhelptext"/>
-        <TopLine Value="17"/>
         <CursorPos X="26" Y="17"/>
+        <TopLine Value="17"/>
         <UsageCount Value="5"/>
       </Unit3>
       <Unit4>
@@ -102,8 +91,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmhelppic"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="1"/>
         <UsageCount Value="200"/>
       </Unit4>
       <Unit5>
@@ -113,32 +102,27 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmsort"/>
-        <EditorIndex Value="7"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="7"/>
         <UsageCount Value="306"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="frmupgrade.pp"/>
         <ComponentName Value="Form6"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmupgrade"/>
-        <TopLine Value="1"/>
         <CursorPos X="28" Y="15"/>
+        <TopLine Value="1"/>
         <UsageCount Value="326"/>
       </Unit6>
       <Unit7>
         <Filename Value="strconv.pp"/>
         <UnitName Value="strconv"/>
-        <EditorIndex Value="8"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="1"/>
         <UsageCount Value="53"/>
-        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="frmparsearch.pp"/>
@@ -147,13 +131,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmparsearch"/>
-        <EditorIndex Value="4"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="4"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="frmconfig.pp"/>
@@ -161,13 +143,11 @@
         <ComponentName Value="Form7"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmconfig"/>
-        <EditorIndex Value="3"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="101"/>
         <CursorPos X="1" Y="122"/>
+        <TopLine Value="101"/>
+        <EditorIndex Value="3"/>
         <UsageCount Value="179"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="frmtextview.pp"/>
@@ -175,13 +155,11 @@
         <ComponentName Value="Form8"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmtextview"/>
-        <EditorIndex Value="6"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="4"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="4"/>
+        <EditorIndex Value="6"/>
         <UsageCount Value="78"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="frmprogressbar.pp"/>
@@ -189,21 +167,18 @@
         <ComponentName Value="Form9"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmprogressbar"/>
-        <EditorIndex Value="5"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="5"/>
         <UsageCount Value="44"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="unttranslator.pp"/>
         <UnitName Value="unttranslator"/>
-        <EditorIndex Value="9"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="8"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit12>
@@ -332,16 +307,15 @@
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="9"/>
+    <Version Value="8"/>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="/usr/lib/fpc/2.2.4/units/i386-linux/unzip;synapse"/>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+      <OtherUnitFiles Value="/usr/lib/fpc/2.2.4/units/i386-linux/unzip/;synapse/"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
         <CStyleOperator Value="False"/>
-        <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>

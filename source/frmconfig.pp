@@ -91,7 +91,7 @@ begin
   frmmain.nocheckupdate:=CheckBox2.Checked;
 
   {$IFDEF LINUX}
-  assignfile(tf,userdir+'/.tubesrc');
+  assignfile(tf,userdir+'/.tubes2trial/config/tubes.cfg');
   {$ENDIF}
   {$IFDEF WIN32}
   assignfile(tf,userdir+'\Application data\tubes.cfg');
@@ -100,7 +100,7 @@ begin
     write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
   writeln(tf,'# | Tubes 2.0 * Electrontube catalogue                                         |');
   writeln(tf,'# | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com                   |');
-  writeln(tf,'# | tubes.cfg - .tubesrc                                                       |');
+  writeln(tf,'# | tubes.cfg                                                                  |');
   writeln(tf,'# | Configuration file                                                         |');
   write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
   writeln(tf,'BP='+Edit1.Text);
@@ -108,6 +108,8 @@ begin
   write(tf,'FO='); if offline=true then writeln(tf,'1') else writeln(tf,'0');
   write(tf,'DF='); if nocheckupdate=true then writeln(tf,'1') else writeln(tf,'0');
   closefile(tf);
+  Form1.MenuItem31.Enabled:=not frmmain.offline;
+  Form1.MenuItem62.Enabled:=not frmmain.offline;
   Form7.Close;
 end;
 
@@ -159,7 +161,6 @@ end;
 //-- CheckBox change event -----------------------------------------------------
 procedure TForm7.CheckBox1Change(Sender: TObject);
 begin
-  CheckBox2.Enabled:=not CheckBox1.Checked;
 end;
 
 //-- OnShow event --------------------------------------------------------------
@@ -189,6 +190,7 @@ begin
   if Edit2.Text='' then Edit2.Text:=defmailer;
   CheckBox1.Checked:=frmmain.offline;
   CheckBox2.Checked:=true;
+  CheckBox2.Enabled:=false;
 end;
 end.
 

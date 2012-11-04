@@ -27,9 +27,8 @@ uses
   {$IFDEF WIN32}Windows,{$ENDIF}
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
-  ComCtrls, Buttons, frmparsearch, PairSplitter, PopupNotifier,
-  frmconfig, frmtextview, frmprogressbar, LCLIntF,
-  dos, gettext, strconv, httpsend;
+  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, dos, gettext,
+  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv;
 type
   { TForm1 }
   TForm1 = class(TForm)
@@ -237,7 +236,7 @@ Resourcestring
   MESSAGE38='Copy description to clipboard';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
-  MESSAGE41='New version of Tubes2 is available.';
+  MESSAGE41='New version of Tubes is available.';
   MESSAGE42='(This message does not show again.)';
   MESSAGE43='homepage';
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
@@ -343,10 +342,10 @@ var
 begin
   searchnewprogversion:=false;
   {$IFDEF LINUX}
-  assign(tf,userdir+'/.tubes2/prog_version.txt');
+  assign(tf,userdir+'/.tubes2trial/config/prog_version.txt');
   {$ENDIF}
   {$IFDEF WIN32}
-  assign(tf,userdir+'\Application data\tubes2\prog_version.txt');
+  assign(tf,userdir+'\Application data\tubes2trial\config\prog_version.txt');
   {$ENDIF}
   txt:=TStringList.Create;
   with THTTPSend.Create do
@@ -780,10 +779,10 @@ procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
   try
     {$IFDEF LINUX}
-    ListBox1.Items.SaveToFile(userdir+'/.tubes_bookmarks');
+    ListBox1.Items.SaveToFile(userdir+'/.tubes2trial/config/tubes.bmk');
     {$ENDIF}
     {$IFDEF WIN32}
-    ListBox1.Items.SaveToFile(userdir+'\Application data\tubes.bmk');
+    ListBox1.Items.SaveToFile(userdir+'\Application data\tubes2trial\config\tubes.bmk');
     {$ENDIF}
   except
   end;
@@ -1137,15 +1136,15 @@ begin
 
   // user's datadirectory
   {$IFDEF LINUX}
-  {$I-}mkdir(userdir+'/.tubes2/');{$I+} ioresult;
-  {$I-}mkdir(userdir+'/.tubes2/');{$I+} ioresult;
-  {$I-}mkdir(userdir+'/.tubes2/base/');{$I+} ioresult;
+  {$I-}mkdir(userdir+'/.tubes2trial/');{$I+} ioresult;
+  {$I-}mkdir(userdir+'/.tubes2trial/config');{$I+} ioresult;
+  {$I-}mkdir(userdir+'/.tubes2trial/base/');{$I+} ioresult;
   {$ENDIF}
   {$IFDEF WIN32}
   {$I-}mkdir(userdir+'\Application data\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2\base\');{$I+} ioresult;
+  {$I-}mkdir(userdir+'\Application data\tubes2trial\');{$I+} ioresult;
+  {$I-}mkdir(userdir+'\Application data\tubes2trial\config\');{$I+} ioresult;
+  {$I-}mkdir(userdir+'\Application data\tubes2trial\base\');{$I+} ioresult;
   {$ENDIF}
   if ioresult<>0 then writeln('User''s datadirectory is exist.');
 
@@ -1265,30 +1264,30 @@ begin
 
   //search datafile - in user folder
   {$IFDEF LINUX}
-  if FSearch('version.txt',userdir+'/.tubes2/')<>'' then
+  if FSearch('version.txt',userdir+'/.tubes2trial/')<>'' then
   begin
-    xedfpath:=userdir+'/.tubes2/';
-    picspath:=userdir+'/.tubes2/base/';
+    xedfpath:=userdir+'/.tubes2trial/';
+    picspath:=userdir+'/.tubes2trial/base/';
   end;
   {$ENDIF}
   {$IFDEF WIN32}
-  if FSearch('version.txt',userdir+'\Application data\tubes2\')<>'' then
+  if FSearch('version.txt',userdir+'\Application data\tubes2trial\')<>'' then
   begin
-    xedfpath:=userdir+'\Application data\tubes2\';
-    picspath:=userdir+'\Application data\tubes2\base\';
+    xedfpath:=userdir+'\Application data\tubes2trial\';
+    picspath:=userdir+'\Application data\tubes2trial\base\';
   end;
   {$ENDIF}
 
   //load settings
   {$IFDEF LINUX}
-  if FSearch('.tubesrc',userdir)<>''then
+  if FSearch('tubes.cfg',userdir+'/.tubes2trial/config/')<>''then
   begin
-    assignfile(tf,userdir+'/.tubesrc');
+    assignfile(tf,userdir+'/.tubes2trial/config/tubes.cfg');
   {$ENDIF}
   {$IFDEF WIN32}
-  if FSearch('tubes.cfg',userdir+'\Application data\')<>'' then
+  if FSearch('tubes.cfg',userdir+'\Application data\tubes2trial\config')<>'' then
   begin
-    assignfile(tf,userdir+'\Application data\tubes.cfg');
+    assignfile(tf,userdir+'\Application data\tubes2trial\config\tubes.cfg');
   {$ENDIF}
     reset(tf);
     browserprogramme:='';
@@ -1301,10 +1300,11 @@ begin
         for b:=4 to length(s) do mailerprogramme:=mailerprogramme+s[b];
       if s[1]+s[2]+s[3]='FO=' then
         if s[4]='1' then offline:=true else offline:=false;
-      if s[1]+s[2]+s[3]='DF=' then
-        if s[4]='1' then nocheckupdate:=true else nocheckupdate:=false;
     until(eof(tf));
     closefile(tf);
+    nocheckupdate:=true;
+    Form1.MenuItem31.Enabled:=not frmmain.offline;
+    Form1.MenuItem62.Enabled:=not frmmain.offline;
   end;
 
   // search package info
@@ -1404,16 +1404,6 @@ begin
 
     if (Application.Params[1]='-o') or (Application.Params[1]='--offline') then offline:=true;
 
-    // search new database version on internet
-    if (offline=false) and (nocheckupdate=false)
-     then frmmain.thereisnewversion:=searchnewversion
-     else thereisnewversion:=false;
-    if thereisnewversion=true then showmessage(MESSAGE35);
-
-    // search new programme version on internet
-    if (offline=false) and (nocheckupdate=false) then
-      if searchnewprogversion=true then showmessage(MESSAGE41+' '+MESSAGE57+' '+MESSAGE42); // New version is available!
-
     SpeedButton2.Enabled:=true;
     MenuItem2.Enabled:=true;
     MenuItem19.Enabled:=true;
@@ -1429,10 +1419,10 @@ begin
   // load bookmarks
   try
   {$IFDEF LINUX}
-  ListBox1.Items.LoadFromFile(userdir+'/.tubes_bookmarks');
+  ListBox1.Items.LoadFromFile(userdir+'/.tubes2trial/config/tubes.bmk');
   {$ENDIF}
   {$IFDEF WIN32}
-  ListBox1.Items.LOADFromFile(userdir+'\Application data\tubes.bmk');
+  ListBox1.Items.LOADFromFile(userdir+'\Application data\tubes2trial\config\tubes.bmk');
   {$ENDIF}
   except
   end;

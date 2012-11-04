@@ -20,7 +20,7 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-unit strconv;
+unit untstrconv;
 interface
 var
   s: widestring;
