@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="7"/>
+    <Version Value="9"/>
     <General>
       <MainUnit Value="0"/>
-      <TargetFileExt Value=""/>
       <Title Value="Tubes"/>
-      <Icon Value="0"/>
       <UseXPManifest Value="True"/>
-      <ActiveEditorIndexAtStart Value="1"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <i18n>
       <EnableI18N Value="True"/>
@@ -16,7 +15,13 @@
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="2"/>
+      <RevisionNr Value="1"/>
+      <StringTable FileDescription="Electrontube catalogue - trial version" LegalCopyright="(C)2008-2012 Pozsár Zsolt" ProductName="Tubes" ProductVersion="2.0.1"/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -47,11 +52,14 @@
         <Filename Value="tubes.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="tubes"/>
-        <CursorPos X="11" Y="2"/>
-        <TopLine Value="2"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="1" Y="36"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="frmmain.pp"/>
@@ -59,11 +67,13 @@
         <ComponentName Value="Form1"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmmain"/>
-        <CursorPos X="56" Y="1283"/>
-        <TopLine Value="1277"/>
         <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1238"/>
+        <CursorPos X="56" Y="1283"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="frmabout.pp"/>
@@ -71,18 +81,20 @@
         <ComponentName Value="Form2"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmabout"/>
-        <CursorPos X="30" Y="90"/>
-        <TopLine Value="87"/>
         <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="87"/>
+        <CursorPos X="30" Y="90"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="frmhelptext.pp"/>
         <ComponentName Value="Form3"/>
         <UnitName Value="frmhelptext"/>
-        <CursorPos X="26" Y="17"/>
         <TopLine Value="17"/>
+        <CursorPos X="26" Y="17"/>
         <UsageCount Value="5"/>
       </Unit3>
       <Unit4>
@@ -91,8 +103,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmhelppic"/>
-        <CursorPos X="1" Y="4"/>
         <TopLine Value="1"/>
+        <CursorPos X="1" Y="4"/>
         <UsageCount Value="200"/>
       </Unit4>
       <Unit5>
@@ -102,26 +114,28 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmsort"/>
-        <CursorPos X="1" Y="4"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="4"/>
         <UsageCount Value="306"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="frmupgrade.pp"/>
         <ComponentName Value="Form6"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmupgrade"/>
-        <CursorPos X="28" Y="15"/>
         <TopLine Value="1"/>
+        <CursorPos X="28" Y="15"/>
         <UsageCount Value="326"/>
       </Unit6>
       <Unit7>
         <Filename Value="strconv.pp"/>
         <UnitName Value="strconv"/>
-        <CursorPos X="1" Y="4"/>
         <TopLine Value="1"/>
+        <CursorPos X="1" Y="4"/>
         <UsageCount Value="53"/>
       </Unit7>
       <Unit8>
@@ -131,11 +145,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmparsearch"/>
-        <CursorPos X="1" Y="4"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="4"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="frmconfig.pp"/>
@@ -143,11 +159,13 @@
         <ComponentName Value="Form7"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmconfig"/>
-        <CursorPos X="1" Y="122"/>
-        <TopLine Value="101"/>
         <EditorIndex Value="3"/>
-        <UsageCount Value="179"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="62"/>
+        <CursorPos X="9" Y="98"/>
+        <UsageCount Value="180"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="frmtextview.pp"/>
@@ -155,11 +173,13 @@
         <ComponentName Value="Form8"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmtextview"/>
-        <CursorPos X="1" Y="4"/>
-        <TopLine Value="4"/>
         <EditorIndex Value="6"/>
-        <UsageCount Value="78"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="1" Y="4"/>
+        <UsageCount Value="79"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="frmprogressbar.pp"/>
@@ -167,18 +187,21 @@
         <ComponentName Value="Form9"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmprogressbar"/>
-        <CursorPos X="1" Y="4"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="5"/>
-        <UsageCount Value="44"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="4"/>
+        <UsageCount Value="45"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="unttranslator.pp"/>
         <UnitName Value="unttranslator"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit12>
@@ -186,136 +209,137 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="6" Column="37" TopLine="1"/>
+        <Caret Line="1259" Column="24" TopLine="1248"/>
       </Position1>
       <Position2>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="1259" Column="24" TopLine="1248"/>
+        <Caret Line="1261" Column="55" TopLine="1248"/>
       </Position2>
       <Position3>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="1261" Column="55" TopLine="1248"/>
+        <Caret Line="436" Column="1" TopLine="429"/>
       </Position3>
       <Position4>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="436" Column="1" TopLine="429"/>
+        <Caret Line="462" Column="3" TopLine="459"/>
       </Position4>
       <Position5>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="462" Column="3" TopLine="459"/>
+        <Caret Line="10" Column="29" TopLine="1"/>
       </Position5>
       <Position6>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="10" Column="29" TopLine="1"/>
+        <Caret Line="756" Column="36" TopLine="233"/>
       </Position6>
       <Position7>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="756" Column="36" TopLine="233"/>
+        <Caret Line="245" Column="30" TopLine="237"/>
       </Position7>
       <Position8>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="245" Column="30" TopLine="237"/>
+        <Caret Line="246" Column="30" TopLine="237"/>
       </Position8>
       <Position9>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="246" Column="30" TopLine="237"/>
+        <Caret Line="245" Column="30" TopLine="237"/>
       </Position9>
       <Position10>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="245" Column="30" TopLine="237"/>
+        <Caret Line="247" Column="30" TopLine="237"/>
       </Position10>
       <Position11>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="247" Column="30" TopLine="237"/>
+        <Caret Line="15" Column="30" TopLine="15"/>
       </Position11>
       <Position12>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="15" Column="30" TopLine="15"/>
+        <Caret Line="41" Column="39" TopLine="30"/>
       </Position12>
       <Position13>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="41" Column="39" TopLine="30"/>
+        <Caret Line="184" Column="59" TopLine="173"/>
       </Position13>
       <Position14>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="184" Column="59" TopLine="173"/>
+        <Caret Line="252" Column="30" TopLine="241"/>
       </Position14>
       <Position15>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="252" Column="30" TopLine="241"/>
+        <Caret Line="279" Column="19" TopLine="268"/>
       </Position15>
       <Position16>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="279" Column="19" TopLine="268"/>
+        <Caret Line="307" Column="15" TopLine="296"/>
       </Position16>
       <Position17>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="307" Column="15" TopLine="296"/>
+        <Caret Line="308" Column="19" TopLine="296"/>
       </Position17>
       <Position18>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="308" Column="19" TopLine="296"/>
+        <Caret Line="310" Column="18" TopLine="296"/>
       </Position18>
       <Position19>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="310" Column="18" TopLine="296"/>
+        <Caret Line="313" Column="38" TopLine="296"/>
       </Position19>
       <Position20>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="313" Column="38" TopLine="296"/>
+        <Caret Line="463" Column="65" TopLine="450"/>
       </Position20>
       <Position21>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="463" Column="65" TopLine="450"/>
+        <Caret Line="458" Column="3" TopLine="455"/>
       </Position21>
       <Position22>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="458" Column="3" TopLine="455"/>
+        <Caret Line="4" Column="31" TopLine="1"/>
       </Position22>
       <Position23>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="4" Column="31" TopLine="1"/>
+        <Caret Line="447" Column="54" TopLine="432"/>
       </Position23>
       <Position24>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="447" Column="54" TopLine="432"/>
+        <Caret Line="196" Column="72" TopLine="184"/>
       </Position24>
       <Position25>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="196" Column="72" TopLine="184"/>
+        <Caret Line="169" Column="16" TopLine="155"/>
       </Position25>
       <Position26>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="169" Column="16" TopLine="155"/>
+        <Caret Line="187" Column="14" TopLine="164"/>
       </Position26>
       <Position27>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="187" Column="14" TopLine="164"/>
+        <Caret Line="354" Column="31" TopLine="331"/>
       </Position27>
       <Position28>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="354" Column="31" TopLine="331"/>
+        <Caret Line="396" Column="31" TopLine="373"/>
       </Position28>
       <Position29>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="396" Column="31" TopLine="373"/>
+        <Caret Line="1305" Column="64" TopLine="1282"/>
       </Position29>
       <Position30>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="1305" Column="64" TopLine="1282"/>
+        <Filename Value="tubes.lpr"/>
+        <Caret Line="2" Column="11" TopLine="2"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="9"/>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)/"/>
-      <OtherUnitFiles Value="/usr/lib/fpc/2.2.4/units/i386-linux/unzip/;synapse/"/>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="/usr/lib/fpc/2.2.4/units/i386-linux/unzip;synapse"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
         <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>
@@ -334,6 +358,9 @@
         <ShowNotes Value="False"/>
         <ShowHints Value="False"/>
       </Verbosity>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
       <CompilerPath Value="$(CompPath)"/>
     </Other>
   </CompilerOptions>

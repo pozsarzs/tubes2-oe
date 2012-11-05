@@ -94,7 +94,7 @@ begin
   assignfile(tf,userdir+'/.tubes2trial/config/tubes.cfg');
   {$ENDIF}
   {$IFDEF WIN32}
-  assignfile(tf,userdir+'\Application data\tubes.cfg');
+  assignfile(tf,userdir+'\Application data\tubes2trial\config\tubes.cfg');
   {$ENDIF}
   rewrite(tf);
     write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');

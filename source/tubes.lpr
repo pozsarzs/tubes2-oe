@@ -25,7 +25,7 @@ program tubes;
 
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
-  Interfaces, Forms, LResources,
+  Interfaces, Forms,
   {$IFNDEF UseFHS} DefaultTranslator,{$ENDIF}
   // own forms:
   frmmain, frmabout, frmsort, frmparsearch, frmconfig,
@@ -33,10 +33,9 @@ uses
   // own units:
 {$IFDEF UseFHS}, unttranslator{$ENDIF};
   
-{$IFDEF WINDOWS}{$R tubes.rc}{$ENDIF}
+{$R *.res}
 
 begin
-  {$I tubes.lrs}
   if (Application.Params[1]='-h') or (Application.Params[1]='--help')
   then
   begin
