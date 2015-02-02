@@ -1,51 +1,122 @@
-Trafo installation instructions for Linux operation system
-==========================================================
+Installation instruction for Linux operation system
+===================================================
+
+I. Install and remove application
+=================================
 
 1. Install
 ----------
 
-a. Installation from binary '.tar.gz' package
+a. Install from binary '.tar.gz' package
 
-    # cp tubes-trial-2.0-i586.tar.gz /opt
+    # cp tubes2-trial-2.0.2-i586.tar.gz /opt
     # cd /opt
-    # tar -xzf tubes-trial-2.0-i586.tar.gz
-    # cd tubes-trial
+    # tar -xzf tubes2-trial-2.0.2-i586.tar.gz
+    # cd tubes2-trial
     # ./create_links
-
+    
                 or
 
-    # tar -xzf tubes-trial-2.0-i586.tar.gz
-    # cd tubes-trial
+    # tar -xzf tubes2-trial-2.0.2-i586.tar.gz
+    # cd tubes2-trial
     # ./install
 
-b. Installation from '.bin' package
+b. Install from '.bin' package
 
-    # ./tubes-trial-2.0-i586.bin
+    # ./tubes2-trial-2.0.2-i586.bin
 
-c. Installation from source package
+c. Install from '.deb' package
+
+    # dpkg -i tubes2-trial_2.0.2-1_i386.deb
+
+d. Install from '.rpm' package
+
+    # rpm -i tubes2-trial-2.0.2-1.i586.rpm
+
+e. Install from source
      
-    # tar -xzf tubes-trial-2.0.tar.gz
+    # tar -xzf tubes2-trial-2.0.2.tar.gz
+    # cd tubes2-trial
     # ./configure
     # make
     # make install
 
-2. Uninstall
-------------
+2. Remove
+---------
 
-a. If you installed it from binary '.tar.gz' package
+a. If you have installed from binary '.tar.gz' package
 
-    # /opt/tubes-trial/remove_links
-    # rm -r /opt/tubes-trial/
+    # /opt/tubes2-trial/remove_links
+    # rm -r /opt/tubes2-trial/
 
-            or
+            vagy
 
-    # /opt/tubes-trial/uninstall
+    # /opt/tubes2-trial/uninstall
 
-b. If you installed it from '.bin' package
+b. If you have installed from '.bin' package
 
-    # /opt/tubes-trial/uninstall
+    # /opt/tubes2-trial/uninstall
 
-c. If you installed it from source package:
+c. If you have installed from '.deb' package
 
+    # dpkg -r tubes2-trial
+
+d. If you have installed from '.rpm' package
+
+    # rpm -e tubes2-trial
+
+e. If you have installed from source
+
+    # cd tubes2-trial
     # make uninstall
+
+II. Install and remove language package
+=======================================
+
+1. Install
+----------
+
+a. Install from '.tar.gz' package
+
+    # tar -xzf tubes2-trial-??-2.0.2-all.tar.gz
+    # cd tubes2-trial-??
+    # ./install
+
+b. Install from '.bin' package
+
+    # ./tubes2-trial-??-2.0.2-all.bin
+
+c. Install from '.deb' package
+
+    # dpkg -i tubes2-trial-??_2.0.2-1_all.deb
+
+d. Install from '.rpm' package
+
+    # rpm -i tubes2-trial-??-2.0.2-1.noarch.rpm
+
+e. Install from source
+     
+    # tar -xzf tubes2-trial-??-2.0.2.tar.gz
+    # cd tubes2-trial-??
+    # ./configure
+    # make
+    # make install
+
+2. Remove
+---------
+
+a. If you have installed from '.deb' package
+
+    # dpkg -r tubes2-trial-??
+
+b. If you have installed from '.rpm' package
+
+    # rpm -e tubes2-trial-??
+
+c. If you have installed from source
+
+    # cd tubes2-trial-??
+    # make uninstall
+
+                                                           [DN: 19/4/1-EN-2.0.2]
 

@@ -1,0 +1,18 @@
+2012-10-19 Pozsar Zsolt <pozsarzs@gmail.com>
+	* Version 2.0:
+	Some unimportant function has removed.
+
+2012-11-04 Pozsar Zsolt <pozsarzs@gmail.com>
+	* Version 2.0.1:
+	New user's directory structure.
+        Fixed bug: 'Missing files! Please reinstall Tubes.' on linux only.
+
+2015-??-?? Pozsar Zsolt <pozsarzs@gmail.com>
+	* Version 2.0.2:
+	Renamed common files and directories (trial/pro).
+	New sponsor menu is included.
+	Free registration for translating menu is included.
+	New installer and uninstaller scripts on linux.
+	Detailed offline documentation.
+	Fixed bugs of 'Parameter search'.
+

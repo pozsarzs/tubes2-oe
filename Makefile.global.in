@@ -1,11 +1,11 @@
 # +----------------------------------------------------------------------------+
-# | Tubes 2.0 * Electrontube catalogue                                         |
-# | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 2.0.2 trial * Electrontube catalogue                                |
+# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile.global(.in)                                                       |
 # | Input file for make file                                                   |
 # +----------------------------------------------------------------------------+
 
-name		= tubes
+name		= tubes2trial
 version		= @version@
 architecture	= @architecture@
 
@@ -27,7 +27,7 @@ install		= @install@
 make		= @make@
 rm		= @rm@ --force
 
-fpflag		= @fpflag@ -TLinux -dUseFHS -MObjFPC -Scgi -O1 -WG -ve \
+fpflag		= @fpflag@ -TLinux -dUseFHS -MObjFPC -Scgi -O1 -ve \
                   -Fi./lib/i386-linux/ \
                   -Fu@lazdir@/lcl/units/i386-linux/ \
                   -Fu@lazdir@/lcl/units/i386-linux/gtk2/ \

@@ -1,6 +1,6 @@
 dnl +--------------------------------------------------------------------------+
-dnl | Tubes 2.0 * Electrontube catalogue                                       |
-dnl | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                |
+dnl | Tubes2 2.0.2 trial * Electrontube catalogue                              |
+dnl | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                |
 dnl | configure.in                                                             |
 dnl | Autoconf input file.                                                     |
 dnl +--------------------------------------------------------------------------+
@@ -15,12 +15,13 @@ test x"$prefix" = xNONE && prefix="$ac_default_prefix"
 AC_PATH_PROG(rm, rm, no)
 AC_PATH_PROG(install, install, no)
 AC_CHECK_PROGS(make, gmake make)
+
 AC_CHECK_PROGS(havefpc,ppc386,no)
-
 test x"$havefpc" = xno && AC_MSG_ERROR(There is not FreePascal compiler on your system.)
-AC_CHECK_PROGS(havelazarus,lazarus,no)
 
-test x"$havelazarus" = xno && AC_MSG_ERROR(There is not Lazarus IDE on your system.)
+AC_CHECK_PROGS(havelazarus1,lazarus,no)
+AC_CHECK_PROGS(havelazarus2,lazarus-ide,no)
+test x"$havelazarus1" = xno && test x"$havelazarus2" = xno && AC_MSG_ERROR(There is not Lazarus IDE on your system.)
 DIRS=`whereis lazarus`
 DIR=`echo $DIRS | awk '{ print $4 }'`
 lazdir=`find $DIR/*.*.* -maxdepth 0`
@@ -50,7 +51,14 @@ AC_SUBST(rm)
 AC_SUBST(sysconfdir)
 AC_SUBST(version)
 
-AC_OUTPUT( Makefile.global source/config.inc )
+AC_OUTPUT( Makefile.global\
+           help/help_en/registration.html\
+           help/help_en/free_registration.html\
+           help/help_en/support.html\
+           help/help_hu/registration.html\
+           help/help_hu/free_registration.html\
+           help/help_hu/support.html\
+           source/config.inc )
 
 echo "
 Summary
@@ -59,6 +67,6 @@ Summary
     Target processor	$architecture
     Programme version	$version
     Install prefix	$prefix
-
+$lazdir
   Type '${make}' for compilation and then '${make} install'.
 "

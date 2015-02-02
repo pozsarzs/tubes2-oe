@@ -4,83 +4,188 @@
 
 1. Általános információk
 ~~~~~~~~~~~~~~~~~~~~~~~~
-    Ez egy folyamatosan bővülő elektroncső katalógus. Az alkalmazás adatbázisa
+   Ez egy folyamatosan bővülő elektroncső katalógus. Az alkalmazás adatbázisa
 tartalmazza az elektroncsövek csőfej típusát, csőfejbekötését és fontosabb
 adatait. A honlapról a Tubes kétféle változatát töltheti le:
 
-1. A "trial" változat segítségével a teljes értékű termék megvétele előtt
+a. A "trial" változat segítségével a teljes értékű termék megvétele előtt
    díjmentesen kipróbálhatja és eldöntheti, hogy megfelel-e az elvárásának.
    A "trial" változat a GNU GPL 3.0 szerint módosítható és/vagy terjeszthető.
 
-2. A "pro" változat megvásárlásával a felhasználó át nem ruházható jogot szerez
+b. A "pro" változat megvásárlásával a felhasználó át nem ruházható jogot szerez
    az alkalmazásnak és a frissítéseinek korlátozás nélküli használatára.
-   A regisztrációs költség 5 EUR, a honi felhasználók számára 1490 Ft. A "pro"
-   változat GARANCIA NÉLKÜL kerül terjesztésre. Az alkalmazás a személyre
-   szóló regisztrációs kulcs nélkül szabadon másolható és terjeszthető, de a
-   visszafejtése, a belső felépítésének elemzése tilos. A Tubes a
-   regisztráláskor megadott megadott számú számítógépen lévő összes operációs
-   rendszerre telepíthető, és azokat a számítógép összes felhasználója
-   használhatja.
 
    Operációs rendszerek: Linux és Windows.
-   Nyelvi támogatás: angol és magyar. 
+   Nyelvi támogatás: angol és magyar.
 
 2. Telepítő csomagok
 ~~~~~~~~~~~~~~~~~~~~
 a. Linuxra
-   tubes-2.0-trial-i586.tar.gz         bináris csomag
-   tubes-2.0-trial-i586.bin            telepítő program
-   tubes_2.0-trial-1_i386.deb          bináris csomag
+   tubes2-trial-2.0.2-i586.tar.gz         bináris csomag
+   tubes2-trial-2.0.2-i586.bin            telepítő program
+   tubes2-trial_2.0.2-1_i386.deb          Debian bináris csomag
+   tubes2-trial-2.0.2-1.i586.rpm          RedHat bináris csomag
   
-   tubes-2.0-pro-i586.tar.gz           bináris csomag
-   tubes-2.0-pro-i586.bin              telepítő program
-   tubes_2.0-pro-1_i386.deb            bináris csomag
+   tubes2-pro-2.0.2-i586.tar.gz           bináris csomag
+   tubes2-pro-2.0.2-i586.bin              telepítő program
+   tubes2-pro_2.0.2-1_i386.deb            Debian bináris csomag
+   tubes2-pro-2.0.2-1.i586.rpm            RedHat bináris csomag
 
 b. Windowszra
-   tubes-2.0-trial-win32.zip           bináris csomag
-   tubes-2.0-trial-win32.exe           telepítő program
+   tubes2-trial-2.0.2-win32.zip           bináris csomag
+   tubes2-trial-2.0.2-win32.exe           telepítő program
 
-   tubes-2.0-pro-win32.zip             bináris csomag
-   tubes-2.0-pro-win32.exe             telepítő program
+   tubes2-pro-2.0.2-win32.zip             bináris csomag
+   tubes2-pro-2.0.2-win32.exe             telepítő program
 
-c. forrás csomag
-   tubes-2.0-trial.tar.gz              forrás csomag
+c. forrásnyelvű csomag
+   tubes2-trial-2.0.2.tar.gz              forrás csomag
 
 3. Beállítások
 ~~~~~~~~~~~~~~
    Linux operációs rendszeren a 'LANG' környezeti változó  használatával ál-
 líthatja be az alkalmazás nyelvét:
 
-   pl.: angol:   en_US,
-        magyar:  hu_HU.
+   angol:   en_US,
+   magyar:  hu_HU.
 
 4. Fontos információk
 ~~~~~~~~~~~~~~~~~~~~~
-   Copyright (C) 2008-2012 Pozsár Zsolt
+   Copyright (C) 2008-2015 Pozsár Zsolt <pozsarzs@gmail.com>
 
-   Ez a program szabad szoftver; terjeszthetõ és/vagy módosítható a
-Free Software Foundation által publikált GNU General Public License 3.
-vagy annál újabb verziója alapján.
+a. A "trial" változat felhasználási feltételei:
 
-   A program annak reményében kerül terjesztésre, hogy hasznosnak
-bizonyul, de GARANCIA NÉLKÜL; még a PIACKÉPESSÉG illetve egy BIZONYOS
-CÉLRA VALÓ ALKALMASSÁG sincs garantálva. További részletek a GNU General
-Public License-ben.
+     Ez a program szabad szoftver; terjeszthetõ és/vagy módosítható a Free
+   Software Foundation által publikált GNU General Public License 3. vagy annál
+   újabb verziója alapján.
 
-   Önnek ezzel a programmal meg kellett kapnia a GNU General Public
-Licence egy példányát, amennyiben nem így lenne, látogasson el ide:
-<http://www.gnu.org/licenses/>.
+     A program annak reményében kerül terjesztésre, hogy hasznosnak bizonyul, de
+   GARANCIA NÉLKÜL; még a PIACKÉPESSÉG illetve egy BIZONYOS CÉLRA VALÓ
+   ALKALMASSÁG sincs garantálva. További részletek a GNU General Public License-
+   ben.
 
-5. Letöltés és kapcsolat
+     Önnek ezzel a programmal meg kellett kapnia a GNU General Public Licence
+   egy példányát, amennyiben nem így lenne, látogasson el ide:
+   <http://www.gnu.org/licenses/>.
+
+b. A "pro" változat felhasználási feltételei:
+
+   - A szoftver GARANCIA NÉLKÜL kerül terjesztésre.
+   - A szoftver, a személyre szóló regisztrációs kulcs nélkül szabadon másolható
+     és terjeszthető.
+   - A szoftvert tilos visszafordítani, visszafejteni illetve és a belső
+     felépítését elemezni.
+   - A regisztráció másra át nem ruházható.
+   - A szoftver, a regisztráláskor megadott számú számítógépen lévő összes
+     operációs rendszerre feltelepíthető, és azt a számítógép összes felhaszná-
+     lója használhatja.
+
+5. A regisztrációról
+~~~~~~~~~~~~~~~~~~~~
+   A regisztrációs űrlapot a reg_form.txt, a reg_form.odt és a reg_form.pdf
+tartalmazza.
+
+a. On-line regisztráció:
+   Az alkalmazás 'Konfiguráció' menüjében  található 'On-line regisztrációval'
+   webes felületen kezdeményezheti a regisztrációt.
+
+b. Regisztráció e-mailben:
+   Töltse ki és küldje el e-mailben az űrlapot a lent található címre.
+
+c. Regisztráció telefaxon:
+   Töltse ki és küldje el faxon az űrlapot a lent található telefax számra.
+
+d. Regisztráció postai úton:
+   Töltse ki és küldje el levélben az űrlapot a lent található postai címre.
+
+   A regisztrációs költség a licenc típusától függ, értékét az űrlapon megtalál-
+ja. A regisztrációs űrlap beérkezése után visszaigazolást fog kapni e-mailben
+amely tartalmazza a fizetendő összeget és a sorozatszámot. Az e-mailben
+megküldött végösszeg kiegyenlítése történhet banki átutalással, banki befizetés-
+sel, belföldi postautalvánnyal (rózsaszín csekkel) vagy PayPal-on keresztül. Az
+összeg beérkezése után e-mailben fogja megkapni a regisztrációs kulcsot és a
+számlát PDF formátumban.
+
+   FIGYELEM! A banki készpénz befizetés és a PayPal használat esetén a bank
+által felszámolt kezelési költséget a vásárlóra hárítjuk, amelynek a díja PayPal
+esetében 2.9% + 0.25 USD, pénztári befizetés esetén 0,03%, de minimum 140 HUF!
+
+6. Ingyenes regisztráció
 ~~~~~~~~~~~~~~~~~~~~~~~~
-   Honlap:               http://www.pozsarzs.hu
-   Facebook:             http://www.facebook.com/pozsarzs.hu
+   Az alkalmazás honlapjáról letölthető fordítási csomag bármely nyelvre történő
+lefordításával magánszemélyek 2 db 1 számítógépes, oktatási intézmények és non-
+profit szervezetek 1 db 2-5 számítógépes, üzleti felhasználók 1 db egy számító-
+gépes licencet szerezhetnek ingyen.
+
+   A részvétel feltételei:
+   - Az igénylő kizárólag a free_reg_form.txt-ben, a free_reg_form.odt-ben, vagy
+     a free_reg_form.pdf-ben található űrlap kitöltésével és elektronikus meg-
+     küldésével jelentkezhet;
+   - Amennyiben az általa megjelölt nyelvű fordítás már létezik vagy a fordítása
+     folyamatban van, az igénylése elutasításra kerül, erről tájékoztatást kap;
+   - Ingyen licenc csak a teljesen lefordított csomagért adható. A licenckulcs
+     és a sorozatszám megküldése a beküldött csomag ellenőrzése után történik;
+   - A lefordított fájlok karakterkódolása csak UTF-8 lehet.
+
+   A fordítási csomag tartalma:
+
+     README                       csak 5 sor
+     tubes2trial.desktop          csak 2 sor
+     documents/INSTALL            csak a címek
+     documents/reg_form.txt
+     documents/free_reg_form.txt
+     documents/support_form.txt
+     languages/tubes2trial.pot
+     database_keywords.txt        csak kulcsszavak (anód, katód, dióda stb.)
+
+   Letöltés: <http://www.pozsarzs.hu/tubes/tubes2_translate.zip>
+
+   Az elkészült nyelvi csomagok telepítő állományai az alkalmazás honlapjáról
+mindkét változat (trial/pro) részére letölthetőek.
+     
+7. Támogatás
+~~~~~~~~~~~~
+   Elektroncső gyártásával és forgalmazásával foglalkozó vállalkozók és cégek
+részére lehetőség van a projekt támogatására. A támogatás éves díja az otthoni
+felhasználású licenc árával megegyezik. A támogatásért cserébe a cég honlapját
+a projekt honlapján <http://www.pozsarzs.hu/tubes.html> és a alkalmazás
+menüjéből egy kattintással elérhetővé tesszük.
+
+   A részvétel feltételei:
+   - Az igénylő kizárólag a support_reg_form.txt-ben, a support_reg_form.odt-ben
+     vagy a support_reg_form.pdf-ben található űrlap kitöltésével és elektroni-
+     kus megküldésével jelentkezhet.
+   - Az űrlap beérkezése után visszaigazolást fog kapni e-mailben amely
+     tartalmazza a fizetendő összeget. Az e-mailben megküldött végösszeg
+     kiegyenlítése történhet banki átutalással vagy PayPal-on keresztül.
+     Az összeg beérkezése után e-mailben fogja megkapni a számlát PDF
+     formátumban.
+
+8. Letöltés és kapcsolat
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Honlap:               <http://www.pozsarzs.hu>
+   Facebook:             <http://www.facebook.com/pozsarzs.hu>
+   Twitter:              <http://www.twitter.com/pozsarzs_hu>
 
    Gyártó:               Pozsár Zsolt ev.
+   Adószám:              60407850-1-51
+   Regisztrációs szám:   20703695
+   
    E-mail:               pozsarzs@gmail.com
-   MSN:                  pozsarzs@gmail.com
+   PGP nyilvános kulcs:  <http://pgp.mit.edu/pks/lookup?search=pozsarzs@gmail.com&op=index&fingerprint=on>
+   
    Skype:                pozsarzs
+   TorChat ID:           rbhnfsrlftohhw2p
    Telefon:              +36 (56) 470-272
    Telefax:              +36 (56) 470-272
-   Mobiltelefon:         +36 (30) 2495-030
+   Mobiltelefon:         +36 (30) 359-8783
+   Postai cím:           Pozsár Zsolt
+                         5430 Tiszaföldvár, Kurázsi Fő út 1.
+
+   Számlaszám:           10400061-67514856-53531005 (K&H Bank)
+   IBAN:                 HU67 1040 0061 6751 4856 5353 1005
+   SWIFT:                OKHB HU HB
+   PayPal:               pozsarzs@gmail.com
+
+                                                           [DN: 19/4/2-HU-2.0.2]
 

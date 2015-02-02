@@ -1,6 +1,6 @@
 # +----------------------------------------------------------------------------+
-# | Tubes 2.0 * Electrontube catalogue                                         |
-# | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 2.0.2 trial * Electrontube catalogue                                |
+# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file                                                                  |
 # +----------------------------------------------------------------------------+

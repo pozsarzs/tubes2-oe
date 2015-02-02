@@ -1,30 +1,42 @@
-Tubes telepítési utasítás Linux operációs rendszerhez
-=====================================================
+Telepítési utasítás Linux operációs rendszerhez
+===============================================
+
+I. Az alkalmazás telepítése és eltávolítása
+===========================================
 
 1. Telepítés
 ------------
 
 a. Telepítés bináris '.tar.gz' csomagból
 
-    # cp tubes-trial-2.0-i586.tar.gz /opt
+    # cp tubes2-trial-2.0.2-i586.tar.gz /opt
     # cd /opt
-    # tar -xzf tubes-trial-2.0-i586.tar.gz
-    # cd tubes-trial
+    # tar -xzf tubes2-trial-2.0.2-i586.tar.gz
+    # cd tubes2-trial
     # ./create_links
     
                 vagy
 
-    # tar -xzf tubes-trial-2.0-i586.tar.gz
-    # cd tubes-trial
+    # tar -xzf tubes2-trial-2.0.2-i586.tar.gz
+    # cd tubes2-trial
     # ./install
 
 b. Telepítés '.bin' csomagból
 
-    # ./tubes-trial-2.0-i586.bin
+    # ./tubes2-trial-2.0.2-i586.bin
 
-c. Telepítés forráscsomagból
+c. Telepítés '.deb' csomagból
+
+    # dpkg -i tubes2-trial_2.0.2-1_i386.deb
+
+d. Telepítés '.rpm' csomagból
+
+    # rpm -i tubes2-trial-2.0.2-1.i586.rpm
+
+e. Telepítés forráscsomagból
      
-    # tar -xzf tubes-trial-2.0.tar.gz
+    # tar -xzf tubes2-trial-2.0.2.tar.gz
+    # cd tubes2-trial
     # ./configure
     # make
     # make install
@@ -34,18 +46,77 @@ c. Telepítés forráscsomagból
 
 a. Ha bináris '.tar.gz' csomagból telepítette
 
-    # /opt/tubes-trial/remove_links
-    # rm -r /opt/tubes-trial/
+    # /opt/tubes2-trial/remove_links
+    # rm -r /opt/tubes2-trial/
 
             vagy
 
-    # /opt/tubes-trial/uninstall
+    # /opt/tubes2-trial/uninstall
 
 b. Ha '.bin' csomagból telepítette
 
-    # /opt/tubes-trial/uninstall
+    # /opt/tubes2-trial/uninstall
+
+c. Ha '.deb' csomagból telepítette
+
+    # dpkg -r tubes2-trial
+
+d. Ha '.rpm' csomagból telepítette
+
+    # rpm -e tubes2-trial
+
+e. Ha forráscsomagból telepítette
+
+    # cd tubes2-trial
+    # make uninstall
+
+II. A nyelvi csomagok telepítése és eltávolítása
+================================================
+
+1. Telepítés
+------------
+
+a. Telepítés '.tar.gz' csomagból
+
+    # tar -xzf tubes2-trial-??-2.0.2-all.tar.gz
+    # cd tubes2-trial-??
+    # ./install
+
+b. Telepítés '.bin' csomagból
+
+    # ./tubes2-trial-??-2.0.2-all.bin
+
+c. Telepítés '.deb' csomagból
+
+    # dpkg -i tubes2-trial-??_2.0.2-1_all.deb
+
+d. Telepítés '.rpm' csomagból
+
+    # rpm -i tubes2-trial-??-2.0.2-1.noarch.rpm
+
+e. Telepítés forráscsomagból
+     
+    # tar -xzf tubes2-trial-??-2.0.2.tar.gz
+    # cd tubes2-trial-??
+    # ./configure
+    # make
+    # make install
+
+2. Eltávolítás
+--------------
+
+a. Ha '.deb' csomagból telepítette
+
+    # dpkg -r tubes2-trial-??
+
+b. Ha '.rpm' csomagból telepítette
+
+    # rpm -e tubes2-trial-??
 
 c. Ha forráscsomagból telepítette
 
+    # cd tubes2-trial-??
     # make uninstall
+
+                                                           [DN: 19/4/1-HU-2.0.2]
 
