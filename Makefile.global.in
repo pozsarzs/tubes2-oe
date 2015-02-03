@@ -11,6 +11,7 @@ architecture	= @architecture@
 
 prefix		= @prefix@
 bindir		= @bindir@
+datarootdir	= @datarootdir@
 datadir		= @datadir@
 exec_prefix	= @exec_prefix@
 libdir		= @libdir@
@@ -27,11 +28,12 @@ install		= @install@
 make		= @make@
 rm		= @rm@ --force
 
-fpflag		= @fpflag@ -TLinux -dUseFHS -MObjFPC -Scgi -O1 -ve \
+fpflag		= @fpflag@ -Tlinux -dUseFHS -MObjFPC -Scgi -O1 -v0 \
                   -Fi./lib/i386-linux/ \
                   -Fu@lazdir@/lcl/units/i386-linux/ \
                   -Fu@lazdir@/lcl/units/i386-linux/gtk2/ \
                   -Fu@lazdir@/packager/units/i386-linux/ \
+                  -Fu@lazdir@/components/lazutils/lib/i386-linux/ \
                   -Fu. \
                   -Fu./synapse/ \
                   -Fu./lib/i386-linux/ \

@@ -67,6 +67,6 @@ Summary
     Target processor	$architecture
     Programme version	$version
     Install prefix	$prefix
-$lazdir
+
   Type '${make}' for compilation and then '${make} install'.
 "

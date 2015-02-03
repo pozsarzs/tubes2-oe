@@ -16,9 +16,9 @@
     <UL>
       <LI>Fill registration form and send me via e-mail for support project. You can
       find it in following files:
-      <A HREF="../../documents/hu/support_form.txt">support_form.txt</A>,
-      <A HREF="../../documents/hu/support_form.odt">support_form.odt</A> and
-      <A HREF="../../documents/hu/support_form.pdf">support_form.pdf</A>;</LI>
+      <A HREF="@prefix@/share/doc/tubes2trial/support_form.txt">support_form.txt</A>,
+      <A HREF="@prefix@/share/doc/tubes2trial/support_form.odt">support_form.odt</A> and
+      <A HREF="@prefix@/share/doc/tubes2trial/support_form.pdf">support_form.pdf</A>;</LI>
       <LI>After  you  sent the  registration form, you will receive a  confirmation
      e-mail with the  amount to  be  paid. After paying you will receive invoice
      in PDF format.</LI>
