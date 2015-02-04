@@ -7,8 +7,8 @@
 
 include ../Makefile.global
 
-srcfiles = tubes.lpr
-binfiles = tubes
+srcfiles = tubes2trial.lpr
+binfiles = tubes2trial
 
 all:
 	@echo Compiling source code...

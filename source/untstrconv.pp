@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | strconv.pp                                                               | }
 { | String converter                                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -34,6 +34,7 @@ Function rmchr3(input: widestring): widestring;
 
 implementation
 
+//-- convert special signs ----------------------------------------------------- 
 function stringconverter(input: widestring): widestring;
 begin
   for b:=1 to length(input) do
@@ -62,12 +63,12 @@ begin
   {$ENDIF}
 end;
 
-//-- Remove space and tabulator from start of line -----------------------------
-Function rmchr3(input: widestring): widestring;
-Begin
+//-- remove space and tabulator from start of line -----------------------------
+function rmchr3(input: widestring): widestring;
+begin
   rmchr3 := '';
-  While (input[1]=#9) or (input[1]=#32) Do delete(input,1,1);
+  while (input[1]=#9) or (input[1]=#32) do delete(input,1,1);
   rmchr3 := input;
-End;
+end;
 
 end.

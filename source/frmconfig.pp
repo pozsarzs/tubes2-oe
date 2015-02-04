@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmconfig.pp                                                             | }
 { | Settings window                                                          | }
 { +--------------------------------------------------------------------------+ }
@@ -29,7 +29,8 @@ uses
 type
   { TForm7 }
   TForm7 = class(TForm)
-    Bevel2: TBevel;
+    Bevel1: TBevel;
+    Bevel3: TBevel;
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
@@ -39,8 +40,6 @@ type
     CheckBox2: TCheckBox;
     Edit1: TEdit;
     Edit2: TEdit;
-    GroupBox1: TGroupBox;
-    GroupBox2: TGroupBox;
     Label1: TLabel;
     Label2: TLabel;
     OpenDialog1: TOpenDialog;
@@ -62,8 +61,8 @@ var
 
 Resourcestring
   MESSAGE01='Settings';
-  MESSAGE02='Mailer programme';
-  MESSAGE03='Browser programme';
+  MESSAGE02='Mailer application';
+  MESSAGE03='Browser application';
   MESSAGE04='Disable search new version on internet';
   MESSAGE05='Full off-line mode';
   MESSAGE06='Browse..';
@@ -98,8 +97,8 @@ begin
   {$ENDIF}
   rewrite(tf);
     write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
-  writeln(tf,'# | Tubes 2.0 * Electrontube catalogue                                         |');
-  writeln(tf,'# | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com                   |');
+  writeln(tf,'# | Tubes2 2.0.2 * Electrontube catalogue                                      |');
+  writeln(tf,'# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com                   |');
   writeln(tf,'# | tubes.cfg                                                                  |');
   writeln(tf,'# | Configuration file                                                         |');
   write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');

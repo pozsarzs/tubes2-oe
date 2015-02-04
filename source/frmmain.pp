@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmmain.pp                                                               | }
 { | Main window                                                              | }
 { +--------------------------------------------------------------------------+ }
@@ -28,7 +28,7 @@ uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
   ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, dos, gettext,
-  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv;
+  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv, types;
 type
   { TForm1 }
   TForm1 = class(TForm)
@@ -93,10 +93,7 @@ type
     MenuItem7: TMenuItem;
     MenuItem8: TMenuItem;
     MenuItem9: TMenuItem;
-    Notebook1: TNotebook;
-    Page1: TPage;
-    Page2: TPage;
-    Page4: TPage;
+    PageControl1: TPageControl;
     PairSplitter1: TPairSplitter;
     PairSplitterSide1: TPairSplitterSide;
     PairSplitterSide2: TPairSplitterSide;
@@ -114,12 +111,17 @@ type
     SpeedButton4: TSpeedButton;
     StatusBar1: TStatusBar;
     StringGrid1: TStringGrid;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet4: TTabSheet;
     procedure ComboBox1Change;
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormResize(Sender: TObject);
     procedure ListBox1Click(Sender: TObject);
+    procedure Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
+      var Handled: Boolean);
     procedure MenuItem31Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
@@ -191,7 +193,7 @@ const
   CSIDL_PROFILE = 40;
   SHGFP_TYPE_CURRENT = 0;
   {$ENDIF}
-  VERSION='2.0';
+  VERSION='2.0.2';
 
 {$I config.inc}
 
@@ -236,7 +238,7 @@ Resourcestring
   MESSAGE38='Copy description to clipboard';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
-  MESSAGE41='New version of Tubes is available.';
+  MESSAGE41='New version of Tubes2 is available.';
   MESSAGE42='(This message does not show again.)';
   MESSAGE43='homepage';
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
@@ -298,8 +300,8 @@ begin
   ComboBox1.Width:=Width-120;
   Bevel1.Left:=Width-206;
   Image1.Left:=Bevel1.Left+1;
-  Notebook1.Left:=Width-206;
-  Notebook1.Height:=Height-297;
+  PageControl1.Left:=Width-206;
+  PageControl1.Height:=Height-297;
   StatusBar1.Panels.Items[1].Width:=Width-297;
 end;
 
@@ -437,7 +439,7 @@ begin
   try
     {$IFDEF LINUX}
       {$IFDEF UseFHS}
-        Form8.Memo1.Lines.LoadFromFile(instpath+'share/doc/tubes/COPYING');
+        Form8.Memo1.Lines.LoadFromFile(instpath+'share/doc/tubes2trial/COPYING');
       {$ELSE}
         Form8.Memo1.Lines.LoadFromFile(exepath+'documents/COPYING');
       {$ENDIF}
@@ -451,28 +453,28 @@ begin
   Form8.Show;
 end;
 
-// Download full version
+//-- download full version -----------------------------------------------------
 procedure TForm1.MenuItem62Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser('http://www.pozsarzs.hu/tubes/tubes.html')
   else runbrowser('http://www.pozsarzs.hu/tubes/tubes_en.html');
 end;
 
-// Send a bugreport
+//-- send a bugreport ----------------------------------------------------------
 procedure TForm1.MenuItem31Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser('http://www.pozsarzs.hu/tubes/bugreport_hu.php')
   else runbrowser('http://www.pozsarzs.hu/tubes/bugreport_en.php');
 end;
 
-//-- Show bookmarks ------------------------------------------------------------
+//-- show bookmarks ------------------------------------------------------------
 procedure TForm1.MenuItem64Click(Sender: TObject);
 begin
-  Page4.Show;
-  Page4.SetFocus;
+  TabSheet4.Show;
+  TabSheet4.SetFocus;
 end;
 
-//-- Remove type to bookmark ------------------------------------------------------
+//-- remove type to bookmark ---------------------------------------------------
 procedure TForm1.MenuItem65Click(Sender: TObject);
 begin
   if ListBox1.Count>0 then
@@ -480,7 +482,7 @@ begin
     then ListBox1.Items.Delete(ListBox1.ItemIndex);
 end;
 
-//-- Add type to bookmark ------------------------------------------------------
+//-- add type to bookmark ------------------------------------------------------
 procedure TForm1.MenuItem66Click(Sender: TObject);
 begin
   ListBox1.Items.Add(StringGrid1.Cells[0,StringGrid1.Row]);
@@ -950,7 +952,7 @@ begin
   Form7.ShowModal;
 end;
 
-// -- Save to file -------------------------------------------------------------
+// -- save to file -------------------------------------------------------------
 procedure TForm1.MenuItem12Click(Sender: TObject);
 var
   tfdir, tfname, tfext: shortstring;
@@ -972,7 +974,7 @@ begin
     writeln(tf,'<head>');
     writeln(tf,'<meta http-equiv="content-type" content="text/html; charset=utf-8">');
     writeln(tf,'<title>'+MESSAGE21+' - '+StringGrid1.Cells[0,StringGrid1.Row]+'</title>');
-    writeln(tf,'<meta name="generator" content="Tubes '+VERSION+'">');
+    writeln(tf,'<meta name="generator" content="Tubes2 '+VERSION+'">');
     writeln(tf,'</head>');
     writeln(tf,'<body>');
     writeln(tf,'<font face="freemono, monospace" size=3>');
@@ -1013,7 +1015,7 @@ begin
     writeln(tf,'</td>');
     writeln(tf,'</tr>');
     writeln(tf,'</table>');
-    writeln(tf,'<font size=2>Tubes '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
+    writeln(tf,'<font size=2>Tubes2 '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
     writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
     writeln(tf,'</font>');
     writeln(tf,'</body>');
@@ -1101,6 +1103,13 @@ begin
     1: if savetohtml(s)=false then showmessage(MESSAGE20);
     2: if savetotxt(s)=false then showmessage(MESSAGE20);
   end;
+end;
+
+//-- dummy popup menu ----------------------------------------------------------
+procedure TForm1.Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
+  var Handled: Boolean);
+begin
+  Handled:=true;
 end;
 
 // -- OnCreate event -----------------------------------------------------------
@@ -1214,16 +1223,16 @@ begin
   SpeedButton3.Hint:=MESSAGE62;
   SpeedButton4.Hint:=MESSAGE63;
   ComboBox1.Hint:=MESSAGE49;
-  Page1.Caption:=MESSAGE22;
-  Page2.Caption:=MESSAGE55;
-  Page4.Caption:=MESSAGE77;
+  TabSheet1.Caption:=MESSAGE22;
+  TabSheet2.Caption:=MESSAGE55;
+  TabSheet4.Caption:=MESSAGE77;
 
  // set help file
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
-      if FSearch('index.html',instpath+'share/tubes/help_'+lang)<>''
-      then helpfile:=instpath+'share/tubes/help_'+lang+'/'
-      else helpfile:=instpath+'share/tubes/help_en/';
+      if FSearch('index.html',instpath+'share/tubes2trial/help_'+lang)<>''
+      then helpfile:=instpath+'share/tubes2trial/help_'+lang+'/'
+      else helpfile:=instpath+'share/tubes2trial/help_en/';
     {$ELSE}
       if FSearch('index.html',exepath+'help/help_'+lang)<>''
       then helpfile:=exepath+'help/help_'+lang+'/'
@@ -1244,10 +1253,10 @@ begin
   // search datafile - in original folder
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
-      picspath:=instpath+'share/tubes/base/';
-      if FSearch('version.txt',instpath+'share/tubes/library_'+lang)<>''
-      then xedfpath:=instpath+'share/tubes/library_'+lang+'/'
-      else xedfpath:=instpath+'share/tubes/library_en/';
+      picspath:=instpath+'share/tubes2trial/base/';
+      if FSearch('version.txt',instpath+'share/tubes2trial/library_'+lang)<>''
+      then xedfpath:=instpath+'share/tubes2trial/library_'+lang+'/'
+      else xedfpath:=instpath+'share/tubes2trial/library_en/';
     {$ELSE}
       picspath:=exepath+'library/base/';
       if FSearch('version.txt',exepath+'library/library_'+lang)<>''
@@ -1428,7 +1437,7 @@ begin
   end;
 end;
 
-// watch scroll-lock button
+//-- watch scroll-lock button --------------------------------------------------
 procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
   scrlckstate: boolean;

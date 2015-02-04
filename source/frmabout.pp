@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmabout.pp                                                              | }
 { | About                                                                    | }
 { +--------------------------------------------------------------------------+ }
@@ -114,7 +114,7 @@ end;
 procedure TForm2.Form2Show(Sender: TObject);
 begin
   Form2.Caption:=MESSAGE01;
-  Label1.Caption:='Tubes '+frmmain.VERSION+' Trial';
+  Label1.Caption:='Tubes2 '+frmmain.VERSION+' trial';
   Label2.Caption:=MESSAGE03;
   Label4.Caption:=MESSAGE04;
   Button1.Caption:=MESSAGE02;

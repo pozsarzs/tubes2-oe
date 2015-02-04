@@ -116,7 +116,7 @@ object Form2: TForm2
   }
   OnShow = Form2Show
   Position = poMainFormCenter
-  LCLVersion = '0.9.28.2'
+  LCLVersion = '1.0.14.0'
   object Bevel1: TBevel
     Left = 4
     Height = 178
@@ -5457,7 +5457,7 @@ object Form2: TForm2
     Height = 14
     Top = 120
     Width = 134
-    Caption = '(C) 2008-2012 Pozsár Zsolt'
+    Caption = '(C) 2008-2015 Pozsár Zsolt'
     Font.Color = clNone
     ParentColor = False
     ParentFont = False

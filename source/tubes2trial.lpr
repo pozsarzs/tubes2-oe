@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | tubes.lpr                                                                | }
 { | Project file.                                                            | }
 { +--------------------------------------------------------------------------+ }
@@ -20,7 +20,7 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-program tubes;
+program tubes2trial;
 {$MODE OBJFPC}{$H+}
 
 uses
@@ -46,10 +46,10 @@ begin
   end;
   if (Application.Params[1]='-v') or (Application.Params[1]='--version') then
   begin
-    writeln('Tubes v'+frmmain.VERSION+' Trial');
+    writeln('Tubes2 v'+frmmain.VERSION+' trial');
     Halt(0);
   end;
-  Application.Title:='Tubes';
+  Application.Title:='Tubes2 trial';
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
   Application.CreateForm(TForm2, Form2);

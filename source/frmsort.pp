@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmsort.pp                                                               | }
 { | Sort                                                                     | }
 { +--------------------------------------------------------------------------+ }
@@ -29,10 +29,10 @@ uses
 type
   { TForm5 }
   TForm5 = class(TForm)
+    Bevel1: TBevel;
     Button1: TButton;
     Button2: TButton;
     ComboBox1: TComboBox;
-    GroupBox1: TGroupBox;
     Label1: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);

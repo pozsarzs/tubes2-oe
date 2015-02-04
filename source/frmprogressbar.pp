@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmprogressbar.pp                                                        | }
 { | Progress bar                                                             | }
 { +--------------------------------------------------------------------------+ }
@@ -29,7 +29,7 @@ uses
 type
   { TForm9 }
   TForm9 = class(TForm)
-    GroupBox1: TGroupBox;
+    Bevel1: TBevel;
     ProgressBar1: TProgressBar;
   private
     { private declarations }

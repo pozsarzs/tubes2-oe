@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes 2.0 Trial * Electrontube catalogue                                 | }
-{ | Copyright (C) 2008-2012 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
+{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmparsearch.pp                                                          | }
 { | Parameter search                                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -29,6 +29,7 @@ uses
 type
   { TForm3 }
   TForm3 = class(TForm)
+    Bevel1: TBevel;
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
@@ -38,7 +39,6 @@ type
     ComboBox1: TComboBox;
     ComboBox2: TComboBox;
     ComboBox3: TComboBox;
-    GroupBox1: TGroupBox;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
