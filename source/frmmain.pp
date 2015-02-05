@@ -269,12 +269,18 @@ Resourcestring
   MESSAGE69='Ad';
   MESSAGE70='Index file is corrupt!';
   MESSAGE71='Loading...';
-  MESSAGE72='&Download full release';
+  MESSAGE72='&Go to homepage';
   MESSAGE73='&Bookmarks';
   MESSAGE74='&Show bookmarks';
   MESSAGE75='&Add to bookmarks';
   MESSAGE76='&Remove from bookmarks';
   MESSAGE77='Bookmarks';
+  MESSAGE78='Do you want two free registrations for pro version? See Help for details.';
+  MESSAGE79='';
+  MESSAGE80='';
+  MESSAGE81='';
+  MESSAGE82='';
+  MESSAGE83='';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -1435,6 +1441,9 @@ begin
   {$ENDIF}
   except
   end;
+
+  StatusBar1.Panels.Items[1].Text:=' '+MESSAGE78;
+
 end;
 
 //-- watch scroll-lock button --------------------------------------------------

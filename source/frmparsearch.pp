@@ -151,8 +151,7 @@ end;
 //-- search --------------------------------------------------------------------
 procedure TForm3.Button1Click(Sender: TObject);
 var
-  e: integer;
-  v: longint;
+  v: extended;
 begin
   Button4.Enabled:=false;
   if SpinEdit1.Value>SpinEdit2.Value then
@@ -179,7 +178,7 @@ begin
     if Form1.StringGrid1.Cells[b,0]=ComboBox1.Items[ComboBox1.ItemIndex] then break;
   for i:=1 to Form1.StringGrid1.RowCount-1 do
   begin
-    val(Form1.StringGrid1.Cells[b,i],v,e);
+    v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
     if (SpinEdit1.Value<v) and (SpinEdit2.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
   end;
@@ -190,7 +189,7 @@ begin
       if Form1.StringGrid1.Cells[b,0]=ComboBox2.Items[ComboBox2.ItemIndex] then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
-      val(Form1.StringGrid1.Cells[b,i],v,e);
+      v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
       if (SpinEdit3.Value<v) and (SpinEdit4.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
     end;
@@ -202,7 +201,7 @@ begin
       if Form1.StringGrid1.Cells[b,0]=ComboBox3.Items[ComboBox3.ItemIndex] then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
-      val(Form1.StringGrid1.Cells[b,i],v,e);
+      v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
       if (SpinEdit5.Value<v) and (SpinEdit6.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
     end;
@@ -258,9 +257,9 @@ begin
   ComboBox1.Clear;
   ComboBox2.Clear;
   ComboBox3.Clear;
-  for b:=3 to Form1.StringGrid1.ColCount-2 do ComboBox1.Items.Add(Form1.StringGrid1.Cells[b,0]);
-  for b:=3 to Form1.StringGrid1.ColCount-2 do ComboBox2.Items.Add(Form1.StringGrid1.Cells[b,0]);
-  for b:=3 to Form1.StringGrid1.ColCount-2 do ComboBox3.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox1.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox2.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox3.Items.Add(Form1.StringGrid1.Cells[b,0]);
   ComboBox1.ItemIndex:=0;
   ComboBox2.ItemIndex:=0;
   ComboBox3.ItemIndex:=0;
