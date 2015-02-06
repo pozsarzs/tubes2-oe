@@ -37,6 +37,7 @@ type
     Bevel5: TBevel;
     Bevel6: TBevel;
     ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
     HTMLBrowserHelpViewer1: THTMLBrowserHelpViewer;
     HTMLHelpDatabase1: THTMLHelpDatabase;
     Image1: TImage;
@@ -114,6 +115,7 @@ type
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
     TabSheet4: TTabSheet;
+    Timer1: TTimer;
     procedure ComboBox1Change;
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
@@ -146,6 +148,7 @@ type
     procedure SpeedButton3Click(Sender: TObject);
     procedure SpeedButton4Click(Sender: TObject);
     procedure StringGrid1Selection;
+    procedure Timer1Timer(Sender: TObject);
   private
     { private declarations }
   public
@@ -176,6 +179,7 @@ var
   thereisnewversion: boolean;    // it's true if there's new version on internet
   xedfname, xedfdscr: array[1..64] of string;           //xedf filename and desc
   compnumall, compnumcat: integer;                        // components' numbers
+  sponsors: array[0..1,0..63] of string;         // sponsors name and webaddress
   // paths, files
   xedfpath: string;                                        // path of xedf files
   picspath: string;                                     // path of base pictures
@@ -246,7 +250,7 @@ Resourcestring
   MESSAGE46='Parameter search';
   MESSAGE47='&Get ';
   MESSAGE48='&Reporting a bug';
-  MESSAGE49='Select and press ''Go!''';
+  MESSAGE49='Categories of electrontubes';
   MESSAGE50='Go!';
   MESSAGE51='Sorry, there is off-line mode.';
   MESSAGE52='Settin&gs';
@@ -275,12 +279,24 @@ Resourcestring
   MESSAGE75='&Add to bookmarks';
   MESSAGE76='&Remove from bookmarks';
   MESSAGE77='Bookmarks';
-  MESSAGE78='Do you want two free registrations for pro version? See Help for details.';
-  MESSAGE79='';
-  MESSAGE80='';
-  MESSAGE81='';
-  MESSAGE82='';
-  MESSAGE83='';
+  MESSAGE78='Do you want up to 2 free registrations for pro version? See Help.';
+  MESSAGE79='Do you want to insert your website into ''Useful address''? Be supportter!';
+  MESSAGE80='Buy a licence for pro version and you will get database update.';
+  MESSAGE81='This is a trial version with base database. You cannot update it.';
+  MESSAGE82='Translate this application to your language and get up to 2 free licence.';
+  MESSAGE83='Try a minimalist electrontube pinout searcher at http://pinout.pozsarzs.hu.';
+  MESSAGE84='Visit http://www.pozsarzs.hu for other applications.';
+  MESSAGE85='Visit Pozsi''s webshop at http://webshop.pozsarzs.hu.';
+  MESSAGE86='Do you find a bug? Please report it with ''Send a bugreport'' in Help.';
+  MESSAGE87='Do you have an idea or question? See Help for contact.';
+  MESSAGE88='Do you want quick answer your probleme? Use TorChat and see Help for my ID.';
+  MESSAGE89='Useful websites';
+  MESSAGE90='Pozsi''s homepage';
+  MESSAGE91='Pozsi''s webshop';
+  MESSAGE92='Electrontube pinouts';
+  MESSAGE93='http://www.pozsarzs.hu/en/index.php';
+  MESSAGE94='http://webshop.pozsarzs.hu/index.php?language=en';
+  MESSAGE95='http://pinout.pozsarzs.hu';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -303,7 +319,7 @@ begin
   if MenuItem28.Checked=true
   then PairSplitter1.Position:=Height-150
   else PairSplitter1.Position:=PairSplitter1.Top+PairSplitter1.Height;
-  ComboBox1.Width:=Width-120;
+  ComboBox1.Width:=Width-332;
   Bevel1.Left:=Width-206;
   Image1.Left:=Bevel1.Left+1;
   PageControl1.Left:=Width-206;
@@ -529,6 +545,23 @@ begin
     {$ENDIF}
   except
     Image1.Picture.Clear;
+  end;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  case random(10) of
+    0: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE78;
+    1: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE79;
+    2: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE80;
+    3: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE81;
+    4: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE82;
+    5: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE83;
+    6: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE84;
+    7: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE85;
+    8: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE86;
+    9: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE87;
+    10: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE88;
   end;
 end;
 
@@ -1229,6 +1262,7 @@ begin
   SpeedButton3.Hint:=MESSAGE62;
   SpeedButton4.Hint:=MESSAGE63;
   ComboBox1.Hint:=MESSAGE49;
+  ComboBox2.Hint:=MESSAGE89;
   TabSheet1.Caption:=MESSAGE22;
   TabSheet2.Caption:=MESSAGE55;
   TabSheet4.Caption:=MESSAGE77;
@@ -1442,8 +1476,38 @@ begin
   except
   end;
 
-  StatusBar1.Panels.Items[1].Text:=' '+MESSAGE78;
+  // load useful links
+  for b:=0 to 63 do
+  begin
+    sponsors[0,0]:='';
+    sponsors[1,0]:='';
+  end;
+  // my links
+  sponsors[0,0]:=MESSAGE90;
+  sponsors[0,1]:=MESSAGE91;
+  sponsors[0,2]:=MESSAGE92;
+  sponsors[1,0]:=MESSAGE93;
+  sponsors[1,1]:=MESSAGE94;
+  sponsors[1,2]:=MESSAGE95;
+  ComboBox2.Items.Add(MESSAGE90);
+  ComboBox2.Items.Add(MESSAGE91);
+  ComboBox2.Items.Add(MESSAGE92);
+  // other links
 
+  //--
+  sponsors[0,3]:='Sponsor1';
+  sponsors[1,3]:='Link1';
+  sponsors[0,4]:='Sponsor2';
+  sponsors[1,4]:='Link2';
+  //--
+
+  for b:=3 to 63 do
+    if (length(sponsors[0,b])>0) and (length(sponsors[1,b])>0)
+       then ComboBox2.Items.Add(sponsors[0,b]);
+  ComboBox2.ItemIndex:=0;
+  // tips
+  randomize;
+  Timer1Timer(Sender);
 end;
 
 //-- watch scroll-lock button --------------------------------------------------
