@@ -117,6 +117,7 @@ type
     TabSheet4: TTabSheet;
     Timer1: TTimer;
     procedure ComboBox1Change;
+    procedure ComboBox2Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -193,11 +194,16 @@ var
   bin: TFileStream;
 
 const
-  {$IFDEF WIN32}
-  CSIDL_PROFILE = 40;
-  SHGFP_TYPE_CURRENT = 0;
-  {$ENDIF}
   VERSION='2.0.2';
+  URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2pro/sponsors.csv';
+  {$IFDEF LINUX}
+    FILE_SPONSORS='/.tubes2trial/config/sponsors.csv';
+  {$ENDIF}
+  {$IFDEF WIN32}
+    FILE_SPONSORS='\Application data\tubes2trial\config\sponsors.csv';
+    CSIDL_PROFILE = 40;
+    SHGFP_TYPE_CURRENT = 0;
+  {$ENDIF}
 
 {$I config.inc}
 
@@ -815,6 +821,14 @@ begin
   firstload:=false;
 end;
 
+// open useful links
+procedure TForm1.ComboBox2Click(Sender: TObject);
+begin
+  for b:=0 to 63 do
+    if sponsors[0,b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
+  runbrowser(sponsors[1,b]);
+end;
+
 //-- save bookmarks before exit ------------------------------------------------
 procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
@@ -1170,6 +1184,43 @@ var
   end;
 {$ENDIF}
 
+procedure loadsponsorsaddress;
+var
+  bin: TFileStream;
+  tb: byte;
+begin
+  if offline=false then
+  begin
+    // download new list
+    bin:=TFileStream.Create(userdir+FILE_SPONSORS,fmCreate);
+    try    
+      with THTTPSend.Create do
+        HttpGetBinary(URL_SPONSORS,bin);
+    except
+    end;
+    bin.Free;
+  end;
+  // load to array
+  assignfile(tf,userdir+FILE_SPONSORS);
+  try
+    reset(tf);
+    tb:=3;
+    repeat
+      readln(tf,ss);
+      ss:=rmchr3(ss);
+      for b:=2 to length(ss) do
+        if ss[b]<>'"' then sponsors[0,tb]:=sponsors[0,tb]+ss[b] else break;
+      for b:=b+1 to length(ss) do
+        if ss[b]='"' then break;
+      for b:=b+1 to length(ss) do
+        if ss[b]<>'"' then sponsors[1,tb]:=sponsors[1,tb]+ss[b] else break;
+      if tb<63 then tb:=tb+1;
+    until eof(tf) or (tb=63);
+    closefile(tf);
+  except;
+  end;
+end;
+
 begin
   // path of executable / binary file
   fsplit(paramstr(0),exepath,p,p);
@@ -1354,6 +1405,7 @@ begin
     nocheckupdate:=true;
     Form1.MenuItem31.Enabled:=not frmmain.offline;
     Form1.MenuItem62.Enabled:=not frmmain.offline;
+    Form1.ComboBox2.Enabled:=not frmmain.offline;
   end;
 
   // search package info
@@ -1493,14 +1545,7 @@ begin
   ComboBox2.Items.Add(MESSAGE91);
   ComboBox2.Items.Add(MESSAGE92);
   // other links
-
-  //--
-  sponsors[0,3]:='Sponsor1';
-  sponsors[1,3]:='Link1';
-  sponsors[0,4]:='Sponsor2';
-  sponsors[1,4]:='Link2';
-  //--
-
+  loadsponsorsaddress;
   for b:=3 to 63 do
     if (length(sponsors[0,b])>0) and (length(sponsors[1,b])>0)
        then ComboBox2.Items.Add(sponsors[0,b]);
