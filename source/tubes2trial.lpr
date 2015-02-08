@@ -26,13 +26,10 @@ program tubes2trial;
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
   Interfaces, Forms,
-  {$IFNDEF UseFHS} DefaultTranslator,{$ENDIF}
   // own forms:
   frmmain, frmabout, frmsort, frmparsearch, frmconfig,
-  frmtextview, frmprogressbar
-  // own units:
-{$IFDEF UseFHS}, unttranslator{$ENDIF};
-  
+  frmtextview, frmprogressbar;
+
 {$R *.res}
 
 begin

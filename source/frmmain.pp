@@ -28,7 +28,8 @@ uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
   ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, dos, gettext,
-  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv, types;
+  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv,
+  types;
 type
   { TForm1 }
   TForm1 = class(TForm)
@@ -217,7 +218,7 @@ Resourcestring
   MESSAGE07='Help co&ntent';
   MESSAGE08='&Image gallery';
   MESSAGE09='&About';
-  MESSAGE10='Missing files! Please reinstall Tubes.';
+  MESSAGE10='Missing files! Please reinstall Tubes2.';
   MESSAGE11='Type';
   MESSAGE12='&View';
   MESSAGE13='Auto &fill';
@@ -285,17 +286,17 @@ Resourcestring
   MESSAGE75='&Add to bookmarks';
   MESSAGE76='&Remove from bookmarks';
   MESSAGE77='Bookmarks';
-  MESSAGE78='Do you want up to 2 free registrations for pro version? See Help.';
-  MESSAGE79='Do you want to insert your website into ''Useful address''? Be supportter!';
+  MESSAGE78='Do you want up to 2 free registrations for pro version? See ''Help''.';
+  MESSAGE79='Do you want to insert your website into ''Useful websites''? Be supportter!';
   MESSAGE80='Buy a licence for pro version and you will get database update.';
   MESSAGE81='This is a trial version with base database. You cannot update it.';
   MESSAGE82='Translate this application to your language and get up to 2 free licence.';
   MESSAGE83='Try a minimalist electrontube pinout searcher at http://pinout.pozsarzs.hu.';
   MESSAGE84='Visit http://www.pozsarzs.hu for other applications.';
   MESSAGE85='Visit Pozsi''s webshop at http://webshop.pozsarzs.hu.';
-  MESSAGE86='Do you find a bug? Please report it with ''Send a bugreport'' in Help.';
-  MESSAGE87='Do you have an idea or question? See Help for contact.';
-  MESSAGE88='Do you want quick answer your probleme? Use TorChat and see Help for my ID.';
+  MESSAGE86='Do you find a bug? Please report it with ''Send a bugreport''.';
+  MESSAGE87='Do you have an idea or question? See ''Help'' for contact.';
+  MESSAGE88='Do you want quick answer your probleme? Use TorChat and see ''Help'' for my ID.';
   MESSAGE89='Useful websites';
   MESSAGE90='Pozsi''s homepage';
   MESSAGE91='Pozsi''s webshop';
@@ -809,7 +810,7 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:='Tubes v2.0 Trial / '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:='Tubes2 '+VERSION+' trial / '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then
@@ -1119,7 +1120,7 @@ begin
     write(tf,pinout[StringGrid1.Row]);
     for b:=1 to 80 do write(tf,'-');
     writeln(tf,'');
-    writeln(tf,'Tubes '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
+    writeln(tf,'Tubes2 '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
     writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
     closefile(tf);
     result:=true;
@@ -1263,13 +1264,16 @@ begin
   {$ENDIF}
   if length(s)=0 then s:='en';
   lang:=lowercase(s[1..2]);
-
   // messages
   {$IFDEF LINUX}
-  translateresourcestrings(exepath+'message/tubes_'+lang+'.mo');
+    {$IFDEF UseFHS}
+      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2trial.mo');
+    {$ELSE}
+      translateresourcestrings(exepath+'languages/'+lang+'/tubes2trial.mo');
+    {$ENDIF}
   {$ENDIF}
   {$IFDEF WIN32}
-  translateresourcestrings(exepath+'message\tubes_'+lang+'.mo');
+    translateresourcestrings(exepath+'languages\'+lang+'\tubes2trial.mo');
   {$ENDIF}
   MenuItem1.Caption:=MESSAGE15;
   MenuItem11.Caption:=MESSAGE16+'..';

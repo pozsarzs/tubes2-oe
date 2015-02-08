@@ -23,12 +23,12 @@ msgid "Settings"
 msgstr "Beállítások"
 
 #: frmconfig:message02
-msgid "Mailer programme"
-msgstr "Levelező program"
+msgid "Mailer application"
+msgstr "Levelező alkalmazás"
 
 #: frmconfig:message03
-msgid "Browser programme"
-msgstr "Böngésző program"
+msgid "Browser application"
+msgstr "Böngésző alkalmazás"
 
 #: frmconfig:message04
 msgid "Disable search new version on internet"
@@ -70,18 +70,6 @@ msgstr "minden fájl|*.*"
 msgid "Default"
 msgstr "Alap"
 
-#: frmhelppic:message01
-msgid "Gallery"
-msgstr "Galéria"
-
-#: frmhelppic:message02
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmhelppic:message03
-msgid "There are not any pictures."
-msgstr "Nincsenek képek."
-
 #: frmmain:message01
 msgid "&File"
 msgstr "&Fájl"
@@ -119,7 +107,7 @@ msgid "&About"
 msgstr "&Névjegy"
 
 #: frmmain:message10
-msgid "Missing files! Please reinstall Tubes."
+msgid "Missing files! Please reinstall Tubes2."
 msgstr "Hiányzó fájlok! Telepítse újra a programot."
 
 #: frmmain:message11
@@ -243,8 +231,8 @@ msgid "Description"
 msgstr "Leírás"
 
 #: frmmain:message41
-msgid "New version of Tubes is available."
-msgstr "A Tubes új kiadása már elérhető."
+msgid "New version of Tubes2 is available."
+msgstr "A Tubes2 új kiadása már elérhető."
 
 #: frmmain:message42
 msgid "(This message does not show again.)"
@@ -275,8 +263,8 @@ msgid "&Reporting a bug"
 msgstr "&Hibajelentés"
 
 #: frmmain:message49
-msgid "Select manufacturers and press 'Go!'"
-msgstr "Válassz egy gyártót és nyomd meg az 'Ugrást!'-t"
+msgid "Categories of electrontubes"
+msgstr "Elektroncső kategóriák"
 
 #: frmmain:message50
 msgid "Go!"
@@ -363,8 +351,8 @@ msgid "Loading..."
 msgstr "Betöltés..."
 
 #: frmmain.message72
-msgid "&Download full release"
-msgstr "Teljes &változat letöltése"
+msgid "&Go to homepage"
+msgstr "Hon&lap"
 
 #: frmmain:message73
 msgid "&Bookmarks"
@@ -385,6 +373,78 @@ msgstr "Be&jegyzés eltávolítása"
 #: frmmain:message77
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
+
+#: frmmain.message78
+msgid "Do you want up to 2 free registrations for pro version? See 'Help'."
+msgstr "Szeretne akár két ingyen licencet a pro verzióhoz? Részletek a 'Segítségben'."
+
+#: frmmain.message79
+msgid "Do you want to insert your website into 'Useful websites'? Be supportter!"
+msgstr "Szeretné a saját weboldalát a 'Hasznos weboldalak' között látni? Legyen támogató!"
+
+#: frmmain.message80
+msgid "Buy a licence for pro version and you will get database update."
+msgstr "Vásároljon pro licencet és megkapja az adatbázis frissítéseket."
+
+#: frmmain.message81
+msgid "This is a trial version with base database. You cannot update it."
+msgstr "Ez egy trial változat alap adatbázissal amit Ön nem tud frissíteni."
+
+#: frmmain.message82
+msgid "Translate this application to your language and get up to 2 free licence."
+msgstr "Fordítsa le az alkalmazást az Ön nyelvére és kapjon akár 2 ingyen licencet."
+
+#: frmmain.message83
+msgid "Try a minimalist electrontube pinout searcher at http://pinout.pozsarzs.hu."
+msgstr "Próbálja ki a minimalista csőfejbekötés keresőt: http://labkiosztas.pozsarzs.hu."
+
+#: frmmain.message84
+msgid "Visit http://www.pozsarzs.hu for other applications."
+msgstr "Látogassa meg Pozsi honlapját: http://www.pozsarzs.hu."
+
+#: frmmain.message85
+msgid "Visit Pozsi's webshop at http://webshop.pozsarzs.hu."
+msgstr "Keresse fel Pozsi webboltját: http://webshop.pozsarzs.hu."
+
+#: frmmain.message86
+msgid "Do you find a bug? Please report it with 'Send a bugreport'."
+msgstr "Hibát talált? Kérem jelentse be a 'Hibajelentés' funkcióval."
+
+#: frmmain.message87
+msgid "Do you have an idea or question? See 'Help' for contact."
+msgstr "Ötlete vagy kérdése van? Az elérhetőséget a 'Segítségben' találja."
+
+#: frmmain.message88
+msgid "Do you want quick answer your probleme? Use TorChat and see 'Help' for my ID."
+msgstr "Gyors választ szeretne a kérdésére? Keressen meg TorChat-en."
+
+#: frmmain.message89
+msgid "Useful websites"
+msgstr "Hasznos weboldalak"
+
+#: frmmain.message90
+msgid "Pozsi's homepage"
+msgstr "Pozsi honlapja"
+
+#: frmmain.message91
+msgid "Pozsi's webshop"
+msgstr "Pozsi webboltja"
+
+#: frmmain.message92
+msgid "Electrontube pinouts"
+msgstr "Eletroncső csőfejbekötések"
+
+#: frmmain.message93
+msgid "http://www.pozsarzs.hu/en/index.php"
+msgstr "http://www.pozsarzs.hu"
+
+#: frmmain.message94
+msgid "http://webshop.pozsarzs.hu/index.php?language=en"
+msgstr "http://webshop.pozsarzs.hu"
+
+#: frmmain.message95
+msgid "http://pinout.pozsarzs.hu"
+msgstr "http://labkiosztas.pozsarzs.hu"
 
 #: frmparsearch:message01
 msgid "Parameter search"
@@ -442,74 +502,6 @@ msgstr "Rendezés"
 msgid "&Close"
 msgstr "&Bezár"
 
-#: frmupgrade:message01
-msgid "Upgrade database"
-msgstr "Adatbázis frissítés"
-
-#: frmupgrade:message02
+#: frmtextview.message01
 msgid "&Close"
 msgstr "&Bezár"
-
-#: frmupgrade:message03
-msgid "&Browse"
-msgstr "&Tallóz"
-
-#: frmupgrade:message04
-msgid "&Download"
-msgstr "&Letölt"
-
-#: frmupgrade:message05
-msgid "Install and upgrade from file"
-msgstr "Telepítés és frissítés fájlból"
-
-#: frmupgrade:message06
-msgid "Install and upgrade from internet"
-msgstr "Telepítés és frissítés az internetről"
-
-#: frmupgrade:message07
-msgid "Open ZIP file"
-msgstr "ZIP fájl megnyitása"
-
-#: frmupgrade:message08
-msgid "There is no new version of database!"
-msgstr "Nincs frissebb adatbázis!"
-
-#: frmupgrade:message09
-msgid "Download error!"
-msgstr "Letöltési hiba"
-
-#: frmupgrade:message10
-msgid "Datafile is installed."
-msgstr "Az adatfájl telepítve!"
-
-#: frmupgrade:message11
-msgid "Install error!"
-msgstr "Telepítési hiba!"
-
-#: frmupgrade:message12
-msgid "Datafile corrupt!"
-msgstr "Hibás az adatfájl!"
-
-#: frmupgrade:message13
-msgid "File read/write error!"
-msgstr "Fájl olvasási/írási hiba!"
-
-#: frmupgrade:message14
-msgid "Remove all upgrade"
-msgstr "Az összes frissítés eltávolítása"
-
-#: frmupgrade:message15
-msgid "&Remove"
-msgstr "&Eltávolítás"
-
-#: frmupgrade:message16
-msgid "Remove error!"
-msgstr "Eltávolítási hiba!"
-
-#: frmupgrade:message17
-msgid "Tubes needs restart to use new or preinstalled database. Press OK to terminate application."
-msgstr "Az új vagy az előtelepített adatbázis használatához a program újraindítása szükséges. A kilépéshez nyomja meg az OK-t!"
-
-#: frmupgrade:message18
-msgid "ZIP archives|*.zip|all files|*.*"
-msgstr "ZIP archívumok|*.zip|all files|*.*"
