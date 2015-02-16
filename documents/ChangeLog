@@ -7,7 +7,7 @@
 	New user's directory structure.
         Fixed bug: 'Missing files! Please reinstall Tubes.' on linux only.
 
-2015-??-?? Pozsar Zsolt <pozsarzs@gmail.com>
+2015-02-08 Pozsar Zsolt <pozsarzs@gmail.com>
 	* Version 2.0.2:
 	Renamed common files and directories (trial/pro).
 	New sponsor menu is included.

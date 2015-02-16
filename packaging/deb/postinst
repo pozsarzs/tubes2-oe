@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdocs
+if [ "$1" = "configure" ]; then
+  if [ -d /usr/doc -a ! -e /usr/doc/tubes2trial -a -d /usr/share/doc/tubes2-trial ]; then
+    ln -sf /usr/share/doc/tubes2trial /usr/doc/tubes2trial
+  fi
+fi
+# End automatically added section
