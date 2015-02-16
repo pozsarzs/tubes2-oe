@@ -1,0 +1,81 @@
+# +----------------------------------------------------------------------------+
+# | Tubes2 2.0.2 trial * Electrontube catalogue                                |
+# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | default.apspec                                                             |
+# | apspec file for autopackage                                                |
+# +----------------------------------------------------------------------------+
+
+[Meta]
+RootName: @pozsarzs.hu/tubes2:$SOFTWAREVERSION
+DisplayName: Electrontube catalogue - trial version
+ShortName: tubes2-trial
+Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
+Packager: Pozsar Zsolt <pozsarzs@gmail.com>
+Summary: Electrontube catalogue - trial version.
+URL: http://www.pozsarzs.hu/tubes/tubes.html
+License: GNU General Public License, Version 3 or later
+SoftwareVersion: 2.0.2
+Repository: http://www.pozsarzs.hu/tubes/tubes2trial.xml
+AutopackageTarget: 1.2
+
+[BuildPrepare]
+# documents
+mkdir --parent $build_root/share/tubes2trial/documents/hu
+cp $source_dir/documents/* $build_root/share/tubes2trial/documents/
+cp $source_dir/documents/hu/* $build_root/share/tubes2trial/documents/hu/
+# help
+mkdir --parent $build_root/share/tubes2trial/help/help_en/pics
+mkdir --parent $build_root/share/tubes2trial/help/help_hu/pics
+cp $source_dir/help/help_en/* $build_root/share/tubes2trial/help/help_en/
+cp $source_dir/help/help_en/pics/* $build_root/share/tubes2trial/help/help_en/pics/
+cp $source_dir/help/help_hu/* $build_root/share/tubes2trial/help/help_hu/
+cp $source_dir/help/help_hu/pics/* $build_root/share/tubes2trial/help/help_hu/pics/
+# locales
+mkdir --parent $build_root/share/tubes2trial/languages/hu
+cp $source_dir/languages/* $build_root/share/tubes2trial/languages/
+cp $source_dir/languages/hu/* $build_root/share/tubes2trial/languages/hu/
+# library
+mkdir --parent $build_root/share/tubes2trial/library/base
+mkdir --parent $build_root/share/tubes2trial/library/library_en
+mkdir --parent $build_root/share/tubes2trial/library/library_hu
+cp $source_dir/library/* $build_root/share/tubes2trial/library/
+cp $source_dir/library/base/* $build_root/share/tubes2trial/library/base/
+cp $source_dir/library/library_en/* $build_root/share/tubes2trial/library/library_en/
+cp $source_dir/library/library_hu/* $build_root/share/tubes2trial/library/library_hu/
+# manuals
+mkdir --parent $build_root/share/tubes2trial/manual
+cp $source_dir/manual/* $build_root/share/tubes2trial/manual/
+# other files
+cp $source_dir/tubes2trial $build_root/share/tubes2trial/
+cp $source_dir/README $build_root/share/tubes2trial/README
+mkdir --parent $build_root/share/application/
+cp $source_dir/tubes2trial.desktop $build_root/share/application/
+mkdir --parent $build_root/share/pixmaps/
+cp $source_dir/tubes2trial.xpm $build_root/share/pixmaps/
+
+[BuildUnprepare]
+unprepareBuild
+
+[Imports]
+echo 'share/' | import
+
+[Prepare]
+# Dependency checking
+require @xfree86.org/xlib 6.0
+
+[Install]
+installData share/tubes2trial
+outputStatus "$intl_INSTALLING_EXE"
+linkFile --silent $PREFIX/share/tubes2trial/tubes2trial $PREFIX/bin/tubes2trial
+linkFile --silent $PREFIX/share/manual/tubes2trial_en.7 $PREFIX/share/man/man7/tubes2trial.7
+linkFile --silent $PREFIX/share/manual/tubes2trial_hu.7 $PREFIX/share/man/hu/man7/tubes2trial.7
+linkFile --silent $PREFIX/share/manual/xedf_en.5 $PREFIX/share/man/man5/xedf.5
+linkFile --silent $PREFIX/share/manual/xedf_hu.5 $PREFIX/share/man/hu/man5/xedf.5
+linkFile --silent $PREFIX/share/manual/cxedf_en.5 $PREFIX/share/man/man5/cxedf.5
+linkFile --silent $PREFIX/share/manual/cxedf_hu.5 $PREFIX/share/man/hu/man5/cxedf.5
+installDesktop "Application/Electronics" share/application/tubes2trial.desktop
+installIcon share/pixmaps/tubes2trial.xpm
+
+[Uninstall]
+# Usually just the following line is enough to uninstall everything
+uninstallFromLog
