@@ -3,7 +3,7 @@
   <header>
     <dscr>Kettősdiódák (B)</dscr>
     <ctgr nr="0"></ctgr>
-    <noc>87</noc>
+    <noc>1</noc>
     <prmt nr="0">Uh [V]</prmt>
     <prmt nr="1">Ih [A]</prmt>
     <prmt nr="2">Ua [V]</prmt>

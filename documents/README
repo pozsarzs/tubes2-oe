@@ -3,190 +3,177 @@
                            ~~~~~~~~~~~~~~~~~
 
 1. General information
-~~~~~~~~~~~~~~~~~~~~~~
-   This is an electrontube catalogue. Its database contents base type, pin-out
+
+  This is an electrontube catalogue. Its database contents base type, pin-out
 and some parameters of components. This database is refreshing continuosly.
-You can download two version of this application from here:
 
-a. You can try out it with 'trial' version for free, but if you decide to
-   keep and use it you must register. You can redistribute this version
-   and/or modify it under the terms of the GNU GPL 3.0 or later.
+  OS support: Linux and Windows.
+  Language support: English and Hungarian.
 
-b. By buying the 'pro' version, you obtain non-transferable right to use
-   application and updates without restriction.'Pro' version is distributed
-   WITHOUT ANY WARRANTY. You can copy and share it for free without personal
-   registration key, but decoding and analysing inner construction is are
-   not allowed. You are not allowed to transfer the registration for other
-   person. You may install this software on all operation systems of computer
-   and all of the users on computers may use it.
+  You can download two version of this application:
+  - You can try out it with 'Trial' version for free. You can redistribute
+    this version and/or modify it under the terms of the GNU GPL 3.0 or later.
+  - By buying the 'Pro' version, youobtain non-transferable right to use
+    application and updates without restriction. 'Pro' version is distributed
+    WITHOUT ANY WARRANTY. You can copy and share it for free without personal
+    registration key, but decoding and analysing inner construction is are not
+    allowed. You are not allowed to transfer the registration for other person.
+    You may install this software on all operation systems of computer and all
+    of the users on computers may use it.
 
-   OS support: Linux and Windows.
-   Language support: English and Hungarian.
+  Categories of database:
+    Cathode ray tube (for oscilloscope) Gas filled full-wave rectifiers (X)
+    Counter tubes (dekatrons)           Gas filled half-wave rectifiers (W)
+    Counter tubes (nomotrons)           Gas filled voltage stabilizer
+    Diode-duodiode (AB)                 Half-wave rectifiers (Y)
+    Diode-duodiode-powerpentodes (ABL)  Heil tubes
+    Diode-duodiode-triodes (ABC)        Heptodes (H)
+    Diode-heptodes (AH)                 Hexodes (H)
+    Diode-pentodes (AF)                 Nonodes (Q)
+    Diode-tetrodes (AE)                 Octodes (K)
+    Diode-triodes (AC)                  Pentode-secunder emission tube 
+    Diodes (A)                          Pentode-tuning indicator (FM)
+    Display tubes (Nixie tubes)         Pentodes (F)
+    Display tubes (flurotrons)          Photocells 
+    Display tubes (numitrons)           Power pentodes (L)
+    Duo-half-wave rectifiers (YY)       Power triodes (D)
+    Duo-powerpentodes (LL)              Tetrode-power pentodes (CL)
+    Duo-powertriodes (DD)               Tetrode-power tetrodes (CL)
+    Duodiode-pentodes (BL)              Tetrode-secunder emission tube
+    Duodiode-power pentodes (BL)        Tetrodes (E)
+    Duodiode-triodes (BC)               Thyratrons (N)
+    Duodiodes (AA)                      Triode-heptodes (CH)
+    Duodiodes (B)                       Triode-hexodes (CH)
+    Duopentodes (FF)                    Triode-pentodes (CF)
+    Duotetrodes (EE)                    Triode-power pentodes (CL)
+    Duotriodes (CC)                     Triode-power tetrodes (CL)
+    Full-wave rectifiers (Z)            Triodes (C)
+    Gas filled current stabilizers      Tuning indicator tube - "magic eye" (M)
 
-2. Installer packages
-~~~~~~~~~~~~~~~~~~~~~
+  The base database of both applications contains 4147 electrontube data. Trial
+version uses xedf type, pro uses encoded, cxedf type datafiles. Pro version
+application's database updates monthly. In on-line mode, Tubes2 notifies about
+available updates.
+
+2. Registration and support
+
+a. Free trial product key 
+   You can order trial (with 1 month time-limit) product key for free. Everyone
+order it one time only. To order, fill out registration form (reg_form.txt,
+annexed to application) or on-line form on homepage.
+
+b. Free product key(s) - in exchange translate 
+  If you translate the 'translate package' to any language you can get 2 pieces
+personal (home use only - 1 computer) licences or 1 pc. education/non-profit
+organisation/commercial (2-5 computers) licence for free. To apply, fill out
+registration form (free_reg_form.txt, annexed to application) or on-line form
+on homepage. If the language, what you have specified is busy, your request
+will be rejected. I will send e-mail about it.
+
+  Conditions:
+  - Just give free licence to the completely translated package. You will get
+    serial number and keyfile after I checked the package.
+  - Character set must be UTF-8.
+
+  Translate package: http://www.pozsarzs.hu/tubes/tubes2_translate.zip
+  Released language packages will downloadable for both (trial/pro) versions.
+
+c. Registration 
+  If you want to buy normal licence without time-limit, fill out registration
+form (reg_form.txt, annexed to application) or on-line form on homepage.
+
+d. Support/advertise 
+  If you are electrontube manufacturer or distributor and you want a cheap
+advertisement then support Tubes2 projekt. I show your web address in link box
+on Tubes2 applications and on homepage of the project, and include your
+electrontubes to Tubes2 database. To apply, fill out support form
+(support_form.txt, annexed to application) or on-line form on homepage.
+
+  After you sent the registration form, you will receive a confirmation e-mail
+with the amount to be paid. After paying you will receive invoice in PDF
+format.
+
+3. Installer packages
+
 a. for Linux
-   tubes2-trial-2.0.2-i586.tar.gz         binary package
-   tubes2-trial-2.0.2-i586.bin            installer program
-   tubes2-trial_2.0.2-1_i386.deb          Debian binary package
-   tubes2-trial-2.0.2-1.i586.rpm          RedHat binary package
-  
-   tubes2-pro-2.0.2-i586.tar.gz           binary package
-   tubes2-pro-2.0.2-i586.bin              installer program
-   tubes2-pro_2.0.2-1_i386.deb            Debian binary package
-   tubes2-pro-2.0.2-1.i586.rpm            RedHat binary package
+  tubes2-trial-2.1-1.i386.rpm
+  tubes2-trial-2.1-i586-1.txz
+  tubes2-trial-2.1-i586.bin
+  tubes2-trial-2.1-i586.tar.gz
+  tubes2-trial-2.1.package
+  tubes2-trial_2.1-1_i386.deb
+  tubes2-pro-2.1-1.i386.rpm
+  tubes2-pro-2.1-i586-1.txz
+  tubes2-pro-2.1-i586.bin
+  tubes2-pro-2.1-i586.tar.gz
+  tubes2-pro-2.1.package
+  tubes2-pro_2.1-1_i386.deb
 
 b. for Windows
-   tubes2-trial-2.0.2-win32.zip           binary package
-   tubes2-trial-2.0.2-win32.exe           installer program
-
-   tubes2-pro-2.0.2-win32.zip             binary package
-   tubes2-pro-2.0.2-win32.exe             installer program
+  tubes2-trial-2.1-win32.exe
+  tubes2-trial-2.1-win32.msi
+  tubes2-trial-2.1-win32.zip
+  tubes2-pro-2.1-win32.exe
+  tubes2-pro-2.1-win32.msi
+  tubes2-pro-2.1-win32.zip
 
 c. source package
-   tubes2-trial-2.0.2.tar.gz              source
+  tubes2-trial-2.1.tar.gz
 
-3. Settings
-~~~~~~~~~~~
-   On linux use 'LANG' environment variable to set language of the
-   application.
+4. Settings
 
-   for example: English:   en_US,
-                Hungarian: hu_HU
+  On linux use 'LANG' environment variable to set language of the application.
+  (English: en_US, Hungarian: hu_HU).
 
-4. Important information
-~~~~~~~~~~~~~~~~~~~~~~~~
-   Copyright (C) 2008-2015 Pozsár Zsolt <pozsarzs@gmail.com>
+5. Important information
 
-a. Terms and conditions of the 'trial'version:
+  Copyright (C) 2008-2016 Pozsár Zsolt <pozsarzs@gmail.com>
 
-     This program is free software: you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by the
-   Free Software Foundation, either version 3 of the License, or (at your
-   option) any later version.
+a. Terms and conditions of the 'Trial' version:
 
-     This program is distributed in the hope that it will be useful, but
-   WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-   General Public License for more details.
+  This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
 
-     You should have received a copy of the GNU General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-b. Terms and conditions of the "pro" version:
+  You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
 
-   - This application is distributed WITHOUT ANY WARRANTY.
-   - You can copy  and  share this software for free without personal
-     registration key.
-   - You  are   not allowed to  decode  and  analyse  inner contruction
-     of this software.
-   - You are not allowed to transfer the registration for other person.
-   - You may install this software on all operation systems of computer and
-     all of the users on computers may use it.
+b. Terms and conditions of the 'Pro' version:
 
-5. Registration procedure
-~~~~~~~~~~~~~~~~~~~~~~~~~
-   You can find registration form in following files: reg_form.txt,
-reg_form.odt and reg_form.pdf.
+  - This application is distributed WITHOUT ANY WARRANTY.
+  - You can copy  and  share this software for free without personal
+    registration key.
+  - You  are   not allowed to  decode  and  analyse  inner contruction
+    of this software.
+  - You are not allowed to transfer the registration for other person.
+  - You may install this software on all operation systems of computer and
+    all of the users on computers may use it.
 
-   a. On-line registration:
-      You can start the registration  procedure  with 'Configuration/On-line
-      registration menu of the application.
+6. Download and contact
 
-   b. Registration in e-mail:
-      Fill the registration form and send it in e-mail to the address below.
-
-   c. Registration with telefax:
-      Fill the registration form and send it on telefax to the fax number below.
-
-   d. Registration in postal letter:
-      Fill the registration form and send it in letter to the address below.
-
-   After  you  sent the  registration form, you will receive a  confirmation e-
-mail with the  amount to  be  paid and your serial number. The registration
-price  depends on type of licence, you can  find  it on  registration forms.
-After paying you will receive registration key and the invoice in PDF format
-via e-mail.
-
-   WARNING! If you pay via Paypal, we add its handling fee to total amount (2.9%
-+ 0.25 USD).
-
-6. Free registration
-~~~~~~~~~~~~~~~~~~~~
-   If you translate the 'translate package' to any language you can get 2 pieces
-personal (home use only - 1 computer) licences or 1 pc. education/non-profit
-organisation (2-5 computers) licence or 1 pc. commercial licence (1 computer)
-for free.
-
-   Conditions:
-   - Fill registration form and send me via e-mail for request free licenc. You
-     can find it in following files: free_reg_form.txt, free_reg_form.odt or
-     free_reg_form.pdf;
-   - If the language, what you have specified is busy, your request will be
-     rejected. I will send e-mail about it;
-   - Just give free licence to the completely translated package. You will get
-     serial number and keyfile after I checked the package.
-   - Character set must be UTF-8.
-
-   Content of translate package:
-
-     README                       only 5 line
-     tubes2trial.desktop          only 2 line
-     documents/INSTALL            only titles
-     documents/reg_form.txt
-     documents/free_reg_form.txt
-     documents/support_form.txt
-     languages/tubes2trial.pot
-     database_keywords.txt        only keywords (anode, cathode, diode etc.)
-
-   Download: <http://www.pozsarzs.hu/tubes/tubes2_translate.zip>
-
-   Released language packages are downloadable from homepage of project for
-both (trial/pro) versions.
-     
-7. Project support
-~~~~~~~~~~~~~~~~~~
-   If you are electrontube manufacturer or distributor and you want a cheap
-advertisement then support Tubes2 projekt. I show your web address in a link
-box on Tubes2 application and on homepage of the project
-<http://www.pozsarzs.hu/tubes.html> in exchange of price of personal, home
-licence.
-
-   Conditions:
-   - Fill registration form and send me via e-mail for support project. You can
-     find it in following files: support_reg_form.txt, support_reg_form.odt or
-     support_reg_form.pdf.
-   - After  you  sent the  registration form, you will receive a  confirmation
-     e-mail with the  amount to  be  paid. After paying you will receive invoice
-     in PDF format.
-
-8. Download and contact
-~~~~~~~~~~~~~~~~~~~~~~~
    Homepage:             <http://www.pozsarzs.hu>
    Facebook:             <http://www.facebook.com/pozsarzs.hu>
-   Twitter:              <http://www.twitter.com/pozsarzs_hu>
 
-   Author:               Pozsar Zsolt ev.
-   Tax ID:               60407850-1-51
+   Author:               Pozsar Zsolt self-employed
+   Tax ID:               60407850-1-36
    Registration num.:    20703695
    
    E-mail:               <pozsarzs@gmail.com>
-   PGP public key:       <http://pgp.mit.edu/pks/lookup?search=pozsarzs@gmail.com&op=index&fingerprint=on>
    
-   Skype:                pozsarzs
-   TorChat ID:           rbhnfsrlftohhw2p
-   Phone:                +36 (56) 470-272
-   Fax:                  +36 (56) 470-272
-   Mobile:               +36 (30) 359-8783
+   Phone:                +36 56/470-272
+   Fax:                  +36 56/470-272
+   Mobile:               +36 30/359-8783
    Postal address:       Pozsar Zsolt
                          Kurazsi Fo ut 1.
                          HU-5430 Tiszafoldvar
                          Hungary
 
-   Bank account:         10400061-67514856-53531005 (K&H Bank)
-   IBAN:                 HU67 1040 0061 6751 4856 5353 1005
-   SWIFT:                OKHB HU HB
+   GIRO:                 10400061-67514856-53531005 (K&H Bank)
+   IBAN:                 HU08 1040 0061 6751 4856 5353 1005
    PayPal:               pozsarzs@gmail.com
-
-                                                           [DN: 19/4/2-EN-2.0.2]
 

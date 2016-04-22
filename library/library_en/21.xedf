@@ -3,7 +3,7 @@
   <header>
     <dscr>Duodiodes (B)</dscr>
     <ctgr nr="0"></ctgr>
-    <noc>87</noc>
+    <noc>1</noc>
     <prmt nr="0">Uh [V]</prmt>
     <prmt nr="1">Ih [A]</prmt>
     <prmt nr="2">Ua [V]</prmt>
@@ -569,6 +569,25 @@
      <cpnm>ARDD5</cpnm>
      <cpct>0</cpct>
      <cpds>duodiode</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Chatode1</cppn>
+     <cppn nr="2">Anode1</cppn>
+     <cppn nr="3">Shield1</cppn>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Chatode2</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Shield2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>ARDD5</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode</cpds>
      <cppc>K8A</cppc>
      <cppn nr="1">Shield</cppn>
      <cppn nr="2">Heater</cppn>
@@ -681,6 +700,25 @@
      <cppn nr="6">Heater</cppn>
      <cppn nr="7">Heater</cppn>
      <cppn nr="8">Shield2</cppn>
+     <prmt>6.3</prmt>
+     <prmt>0.2</prmt>
+     <prmt>200</prmt>
+     <prmt>0.8</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>CV1054</cpnm>
+     <cpct>0</cpct>
+     <cpds>duodiode</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">Shield</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Anode1</cppn>
+     <cppn nr="4">Cathode1</cppn>
+     <cppn nr="5">Anode2</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode2</cppn>
      <prmt>6.3</prmt>
      <prmt>0.2</prmt>
      <prmt>200</prmt>

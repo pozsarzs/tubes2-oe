@@ -1,6 +1,6 @@
 dnl +--------------------------------------------------------------------------+
-dnl | Tubes2 2.0.2 trial * Electrontube catalogue                              |
-dnl | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                |
+dnl | Tubes2 2.1 trial * Electrontube catalogue                                |
+dnl | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                |
 dnl | configure.in                                                             |
 dnl | Autoconf input file.                                                     |
 dnl +--------------------------------------------------------------------------+
@@ -22,9 +22,7 @@ test x"$havefpc" = xno && AC_MSG_ERROR(There is not FreePascal compiler on your 
 AC_CHECK_PROGS(havelazarus1,lazarus,no)
 AC_CHECK_PROGS(havelazarus2,lazarus-ide,no)
 test x"$havelazarus1" = xno && test x"$havelazarus2" = xno && AC_MSG_ERROR(There is not Lazarus IDE on your system.)
-DIRS=`whereis lazarus`
-DIR=`echo $DIRS | awk '{ print $4 }'`
-lazdir=`find $DIR/*.*.* -maxdepth 0`
+lazdir=`find /usr/lib/lazarus/*.*.* -maxdepth 0`
 
 version=`cat documents/VERSION`
 

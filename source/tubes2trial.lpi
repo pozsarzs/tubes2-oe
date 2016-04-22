@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
     <Version Value="9"/>
@@ -71,8 +71,8 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="9" Y="2"/>
+        <TopLine Value="198"/>
+        <CursorPos X="2" Y="209"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -227,7 +227,7 @@
         <UsageCount Value="10"/>
       </Unit14>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="frmmain.pp"/>
         <Caret Line="1513" Column="29" TopLine="1498"/>
@@ -342,8 +342,12 @@
       </Position28>
       <Position29>
         <Filename Value="frmmain.pp"/>
-        <Caret Line="2" Column="5" TopLine="1"/>
+        <Caret Line="2" Column="9" TopLine="1"/>
       </Position29>
+      <Position30>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="199" Column="8" TopLine="198"/>
+      </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -397,4 +401,5 @@
       </Item2>
     </Exceptions>
   </Debugging>
+  <EditorMacros Count="0"/>
 </CONFIG>

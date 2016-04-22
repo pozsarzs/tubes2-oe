@@ -3,7 +3,7 @@
   <header>
     <dscr>Half-wave rectifiers (Y)</dscr>
     <ctgr nr="0"></ctgr>
-    <noc>274</noc>
+    <noc>1</noc>
     <prmt nr="0">Uh [V]</prmt>
     <prmt nr="1">Ih [A]</prmt>
     <prmt nr="2">Ua [V]</prmt>
@@ -288,6 +288,21 @@
      <cpld>?</cpld>
   </component>
   <component>
+     <cpnm>16</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>U4</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Heater</cppn>
+     <prmt>7.5</prmt>
+     <prmt>1.25</prmt>
+     <prmt>750</prmt>
+     <prmt>85</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
      <cpnm>1654</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -308,21 +323,6 @@
   </component>
   <component>
      <cpnm>16B</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>U4</cppc>
-     <cppn nr="1">Heater</cppn>
-     <cppn nr="2">Anode</cppn>
-     <cppn nr="3">NC</cppn>
-     <cppn nr="4">Heater</cppn>
-     <prmt>7.5</prmt>
-     <prmt>1.25</prmt>
-     <prmt>750</prmt>
-     <prmt>85</prmt>
-     <cpld>?</cpld>
-  </component>
-  <component>
-     <cpnm>16</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
      <cppc>U4</cppc>
@@ -403,6 +403,20 @@
   </component>
   <component>
      <cpnm>1802</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>Eu3</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.3</prmt>
+     <prmt>250</prmt>
+     <prmt>25</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1810</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
      <cppc>Eu3</cppc>
@@ -671,25 +685,6 @@
      <cpld>?</cpld>
   </component>
   <component>
-     <cpnm>1B3GT</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>K8A</cppc>
-     <cppn nr="1">NC</cppn>
-     <cppn nr="2">Heater</cppn>
-     <cppn nr="3">NC</cppn>
-     <cppn nr="4">NC</cppn>
-     <cppn nr="5">Anode</cppn>
-     <cppn nr="6">NC</cppn>
-     <cppn nr="7">Heater</cppn>
-     <cppn nr="8">Cathode</cppn>
-     <prmt>1.25</prmt>
-     <prmt>0.2</prmt>
-     <prmt>30000</prmt>
-     <prmt>2</prmt>
-     <cpld>?</cpld>
-  </component>
-  <component>
      <cpnm>1B3</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -705,6 +700,25 @@
      <prmt>1.25</prmt>
      <prmt>0.2</prmt>
      <prmt>?</prmt>
+     <prmt>2</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>1B3GT</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>K8A</cppc>
+     <cppn nr="1">NC</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Anode</cppn>
+     <cppn nr="6">NC</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode</cppn>
+     <prmt>1.25</prmt>
+     <prmt>0.2</prmt>
+     <prmt>30000</prmt>
      <prmt>2</prmt>
      <cpld>?</cpld>
   </component>
@@ -1594,6 +1608,20 @@
      <cpld>?</cpld>
   </component>
   <component>
+     <cpnm>4G100</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>Eu3</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <prmt>7.5</prmt>
+     <prmt>1.25</prmt>
+     <prmt>750</prmt>
+     <prmt>110</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
      <cpnm>4G1000</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -1607,20 +1635,6 @@
      <prmt>1.25</prmt>
      <prmt>1000</prmt>
      <prmt>80</prmt>
-     <cpld>?</cpld>
-  </component>
-  <component>
-     <cpnm>4G100</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>Eu3</cppc>
-     <cppn nr="1">Anode</cppn>
-     <cppn nr="2">Heater</cppn>
-     <cppn nr="3">Heater</cppn>
-     <prmt>7.5</prmt>
-     <prmt>1.25</prmt>
-     <prmt>750</prmt>
-     <prmt>110</prmt>
      <cpld>?</cpld>
   </component>
   <component>
@@ -1666,6 +1680,20 @@
      <cpld>?</cpld>
   </component>
   <component>
+     <cpnm>4G50</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>Eu3</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">Heater</cppn>
+     <cppn nr="3">Heater</cppn>
+     <prmt>4</prmt>
+     <prmt>0.6</prmt>
+     <prmt>500</prmt>
+     <prmt>30</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
      <cpnm>4G5000</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -1683,20 +1711,6 @@
      <prmt>2.6</prmt>
      <prmt>5000</prmt>
      <prmt>5</prmt>
-     <cpld>?</cpld>
-  </component>
-  <component>
-     <cpnm>4G50</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>Eu3</cppc>
-     <cppn nr="1">Anode</cppn>
-     <cppn nr="2">Heater</cppn>
-     <cppn nr="3">Heater</cppn>
-     <prmt>4</prmt>
-     <prmt>0.6</prmt>
-     <prmt>500</prmt>
-     <prmt>30</prmt>
      <cpld>?</cpld>
   </component>
   <component>
@@ -3198,25 +3212,6 @@
      <cpld>?</cpld>
   </component>
   <component>
-     <cpnm>CY21</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>B8G</cppc>
-     <cppn nr="1">Heater</cppn>
-     <cppn nr="2">Anode</cppn>
-     <cppn nr="3">NC</cppn>
-     <cppn nr="4">NC</cppn>
-     <cppn nr="5">NC</cppn>
-     <cppn nr="6">Cathode</cppn>
-     <cppn nr="7">NC</cppn>
-     <cppn nr="8">Heater</cppn>
-     <prmt>20</prmt>
-     <prmt>0.2</prmt>
-     <prmt>250</prmt>
-     <prmt>100</prmt>
-     <cpld>?</cpld>
-  </component>
-  <component>
      <cpnm>CY2</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -3234,6 +3229,25 @@
      <prmt>250</prmt>
      <prmt>120</prmt>
      <cpld>(if Ua=127V Ia=60mA)</cpld>
+  </component>
+  <component>
+     <cpnm>CY21</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>B8G</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">NC</cppn>
+     <cppn nr="6">Cathode</cppn>
+     <cppn nr="7">NC</cppn>
+     <cppn nr="8">Heater</cppn>
+     <prmt>20</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>100</prmt>
+     <cpld>?</cpld>
   </component>
   <component>
      <cpnm>CY31</cpnm>
@@ -4355,6 +4369,41 @@
      <cpld>?</cpld>
   </component>
   <component>
+     <cpnm>UY1</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode</cppn>
+     <cppn nr="2">NC</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Chatode</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">NC</cppn>
+     <prmt>20</prmt>
+     <prmt>0.2</prmt>
+     <prmt>250</prmt>
+     <prmt>80</prmt>
+     <cpld>?</cpld>
+  </component>
+  <component>
+     <cpnm>UY1</cpnm>
+     <cpct>0</cpct>
+     <cpds>half-wave rectifier</cpds>
+     <cppc>K5A</cppc>
+     <cppn nr="1">Heater</cppn>
+     <cppn nr="2">Anode</cppn>
+     <cppn nr="3">NC</cppn>
+     <cppn nr="4">Cathode</cppn>
+     <cppn nr="5">Heater</cppn>
+     <prmt>50</prmt>
+     <prmt>0.1</prmt>
+     <prmt>250</prmt>
+     <prmt>140</prmt>
+     <cpld>Uchmax=500V</cpld>
+  </component>
+  <component>
      <cpnm>UY11</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
@@ -4374,20 +4423,23 @@
      <cpld>Uchmax=500V</cpld>
   </component>
   <component>
-     <cpnm>UY1</cpnm>
+     <cpnm>UY2</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
-     <cppc>K5A</cppc>
-     <cppn nr="1">Heater</cppn>
-     <cppn nr="2">Anode</cppn>
+     <cppc>K8</cppc>
+     <cppn nr="1">Anode1</cppn>
+     <cppn nr="2">NC</cppn>
      <cppn nr="3">NC</cppn>
-     <cppn nr="4">Cathode</cppn>
-     <cppn nr="5">Heater</cppn>
-     <prmt>50</prmt>
-     <prmt>0.1</prmt>
+     <cppn nr="4">Anode2</cppn>
+     <cppn nr="5">Cathode1</cppn>
+     <cppn nr="6">Heater</cppn>
+     <cppn nr="7">Heater</cppn>
+     <cppn nr="8">Cathode2</cppn>
+     <prmt>30</prmt>
+     <prmt>0.2</prmt>
      <prmt>250</prmt>
-     <prmt>140</prmt>
-     <cpld>Uchmax=500V</cpld>
+     <prmt>120</prmt>
+     <cpld>(if Ua=127V Ia=60mA)</cpld>
   </component>
   <component>
      <cpnm>UY21</cpnm>
@@ -4428,23 +4480,23 @@
      <cpld>?</cpld>
   </component>
   <component>
-     <cpnm>UY2</cpnm>
+     <cpnm>UY3</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
      <cppc>K8</cppc>
-     <cppn nr="1">Anode1</cppn>
+     <cppn nr="1">Anode</cppn>
      <cppn nr="2">NC</cppn>
      <cppn nr="3">NC</cppn>
-     <cppn nr="4">Anode2</cppn>
-     <cppn nr="5">Cathode1</cppn>
+     <cppn nr="4">NC</cppn>
+     <cppn nr="5">Cathode</cppn>
      <cppn nr="6">Heater</cppn>
      <cppn nr="7">Heater</cppn>
-     <cppn nr="8">Cathode2</cppn>
-     <prmt>30</prmt>
-     <prmt>0.2</prmt>
+     <cppn nr="8">NC</cppn>
+     <prmt>50</prmt>
+     <prmt>0.1</prmt>
      <prmt>250</prmt>
-     <prmt>120</prmt>
-     <cpld>(if Ua=127V Ia=60mA)</cpld>
+     <prmt>140</prmt>
+     <cpld>Uch=500V; Ra=175ohm; C=60uF</cpld>
   </component>
   <component>
      <cpnm>UY31</cpnm>
@@ -4466,7 +4518,7 @@
      <cpld>?</cpld>
   </component>
   <component>
-     <cpnm>UY3</cpnm>
+     <cpnm>UY4</cpnm>
      <cpct>0</cpct>
      <cpds>half-wave rectifier</cpds>
      <cppc>K8</cppc>
@@ -4478,11 +4530,11 @@
      <cppn nr="6">Heater</cppn>
      <cppn nr="7">Heater</cppn>
      <cppn nr="8">NC</cppn>
-     <prmt>50</prmt>
+     <prmt>35</prmt>
      <prmt>0.1</prmt>
      <prmt>250</prmt>
-     <prmt>140</prmt>
-     <cpld>Uch=500V; Ra=175ohm; C=60uF</cpld>
+     <prmt>55</prmt>
+     <cpld>Uch=350V; Ra=175ohm</cpld>
   </component>
   <component>
      <cpnm>UY41</cpnm>
@@ -4521,25 +4573,6 @@
      <prmt>110</prmt>
      <prmt>100</prmt>
      <cpld>?</cpld>
-  </component>
-  <component>
-     <cpnm>UY4</cpnm>
-     <cpct>0</cpct>
-     <cpds>half-wave rectifier</cpds>
-     <cppc>K8</cppc>
-     <cppn nr="1">Anode</cppn>
-     <cppn nr="2">NC</cppn>
-     <cppn nr="3">NC</cppn>
-     <cppn nr="4">NC</cppn>
-     <cppn nr="5">Cathode</cppn>
-     <cppn nr="6">Heater</cppn>
-     <cppn nr="7">Heater</cppn>
-     <cppn nr="8">NC</cppn>
-     <prmt>35</prmt>
-     <prmt>0.1</prmt>
-     <prmt>250</prmt>
-     <prmt>55</prmt>
-     <cpld>Uch=350V; Ra=175ohm</cpld>
   </component>
   <component>
      <cpnm>UY82</cpnm>
