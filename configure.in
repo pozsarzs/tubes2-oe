@@ -50,12 +50,6 @@ AC_SUBST(sysconfdir)
 AC_SUBST(version)
 
 AC_OUTPUT( Makefile.global\
-           help/help_en/registration.html\
-           help/help_en/free_registration.html\
-           help/help_en/support.html\
-           help/help_hu/registration.html\
-           help/help_hu/free_registration.html\
-           help/help_hu/support.html\
            source/config.inc )
 
 echo "

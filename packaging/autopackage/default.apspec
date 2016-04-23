@@ -1,12 +1,12 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.0.2 trial * Electrontube catalogue                                |
-# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 2.1 trial * Electrontube catalogue                                  |
+# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | default.apspec                                                             |
 # | apspec file for autopackage                                                |
 # +----------------------------------------------------------------------------+
 
 [Meta]
-RootName: @pozsarzs.hu/tubes2:$SOFTWAREVERSION
+RootName: @pozsarzs.hu/tubes2trial:$SOFTWAREVERSION
 DisplayName: Electrontube catalogue - trial version
 ShortName: tubes2-trial
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
@@ -14,7 +14,7 @@ Packager: Pozsar Zsolt <pozsarzs@gmail.com>
 Summary: Electrontube catalogue - trial version.
 URL: http://www.pozsarzs.hu/tubes/tubes.html
 License: GNU General Public License, Version 3 or later
-SoftwareVersion: 2.0.2
+SoftwareVersion: 2.1
 Repository: http://www.pozsarzs.hu/tubes/tubes2trial.xml
 AutopackageTarget: 1.2
 

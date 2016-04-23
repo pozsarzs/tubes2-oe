@@ -6,7 +6,7 @@ Release: 1
 Summary: Electrontube catalog.
 Url: http://www.pozsarzs.hu/tubes/tubes.html
 Vendor: Pozsar Zsolt
-Version: 2.0.2
+Version: 2.1
 
 %description
 This is an electrontube catalog.
@@ -26,28 +26,16 @@ if you decide to keep and use it you must register.
 /usr/share/doc/tubes2trial/COPYING
 /usr/share/doc/tubes2trial/AUTHORS
 /usr/share/doc/tubes2trial/ChangeLog
-/usr/share/doc/tubes2trial/free_reg_form.odt
 /usr/share/doc/tubes2trial/free_reg_form.txt
-/usr/share/doc/tubes2trial/support_form.pdf
 /usr/share/doc/tubes2trial/README
-/usr/share/doc/tubes2trial/reg_form.odt
-/usr/share/doc/tubes2trial/reg_form.pdf
-/usr/share/doc/tubes2trial/hu/free_reg_form.odt
 /usr/share/doc/tubes2trial/hu/free_reg_form.txt
-/usr/share/doc/tubes2trial/hu/support_form.pdf
 /usr/share/doc/tubes2trial/hu/README
-/usr/share/doc/tubes2trial/hu/reg_form.odt
-/usr/share/doc/tubes2trial/hu/reg_form.pdf
 /usr/share/doc/tubes2trial/hu/reg_form.txt
 /usr/share/doc/tubes2trial/hu/INSTALL
-/usr/share/doc/tubes2trial/hu/free_reg_form.pdf
 /usr/share/doc/tubes2trial/hu/support_form.txt
-/usr/share/doc/tubes2trial/hu/support_form.odt
 /usr/share/doc/tubes2trial/reg_form.txt
 /usr/share/doc/tubes2trial/INSTALL
-/usr/share/doc/tubes2trial/free_reg_form.pdf
 /usr/share/doc/tubes2trial/support_form.txt
-/usr/share/doc/tubes2trial/support_form.odt
 /usr/share/doc/tubes2trial/VERSION
 /usr/share/locale/hu/LC_MESSAGES/tubes2trial.mo
 /usr/share/pixmaps/tubes2trial.xpm

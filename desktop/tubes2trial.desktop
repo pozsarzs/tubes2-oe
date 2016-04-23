@@ -3,10 +3,11 @@ Encoding=UTF-8
 Name=Tubes2 trial
 Name[hu]=Tubes2 trial
 Exec=tubes2trial
-Icon=tubes2trial.xpm
+Icon=tubes2trial
 Comment=Electrontube catalogue
 Comment[hu]=Elektroncső katalógus
 Type=Application
 Categories=Application;Electronics;
 Terminal=false
 StartupNotify=true
+
