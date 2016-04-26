@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
-{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmmain.pp                                                               | }
 { | Main window                                                              | }
 { +--------------------------------------------------------------------------+ }
@@ -150,7 +150,6 @@ type
     procedure SpeedButton3Click(Sender: TObject);
     procedure SpeedButton4Click(Sender: TObject);
     procedure StringGrid1Selection;
-    procedure Timer1Timer(Sender: TObject);
   private
     { private declarations }
   public
@@ -187,6 +186,7 @@ var
   picspath: string;                                     // path of base pictures
   exepath, p: shortstring;                                 // path of executable
   userdir: string;                                   // directory of actual user
+  copyfile: string;                                              // copying file
   helpfile: string;                                                 // help file
   browserprogramme: string;                       // browser programme with path
   mailerprogramme: string;                         // mailer programme with path
@@ -194,17 +194,11 @@ var
   checkupdateurl: string;                                          // update url
   bin: TFileStream;
 
+{$IFDEF WIN32}
 const
-  VERSION='2.0.2';
-  URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2pro/sponsors.csv';
-  {$IFDEF LINUX}
-    FILE_SPONSORS='/.tubes2trial/config/sponsors.csv';
-  {$ENDIF}
-  {$IFDEF WIN32}
-    FILE_SPONSORS='\Application data\tubes2trial\config\sponsors.csv';
-    CSIDL_PROFILE = 40;
-    SHGFP_TYPE_CURRENT = 0;
-  {$ENDIF}
+  CSIDL_PROFILE = 40;
+  SHGFP_TYPE_CURRENT = 0;
+{$ENDIF}
 
 {$I config.inc}
 
@@ -218,7 +212,7 @@ Resourcestring
   MESSAGE07='Help co&ntent';
   MESSAGE08='&Image gallery';
   MESSAGE09='&About';
-  MESSAGE10='Missing files! Please reinstall Tubes2.';
+  MESSAGE10='Missing files! Please reinstall Tubes2 trial.';
   MESSAGE11='Type';
   MESSAGE12='&View';
   MESSAGE13='Auto &fill';
@@ -249,7 +243,7 @@ Resourcestring
   MESSAGE38='Copy description to clipboard';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
-  MESSAGE41='New version of Tubes2 is available.';
+  MESSAGE41='New version of Tubes2 trial is available.';
   MESSAGE42='(This message does not show again.)';
   MESSAGE43='homepage';
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
@@ -286,24 +280,13 @@ Resourcestring
   MESSAGE75='&Add to bookmarks';
   MESSAGE76='&Remove from bookmarks';
   MESSAGE77='Bookmarks';
-  MESSAGE78='Do you want up to 2 free registrations for pro version? See ''Help''.';
-  MESSAGE79='Do you want to insert your website into ''Useful websites''? Be supportter!';
-  MESSAGE80='Buy a licence for pro version and you will get database update.';
-  MESSAGE81='This is a trial version with base database. You cannot update it.';
-  MESSAGE82='Translate this application to your language and get up to 2 free licence.';
-  MESSAGE83='Try a minimalist electrontube pinout searcher at http://pinout.pozsarzs.hu.';
-  MESSAGE84='Visit http://www.pozsarzs.hu for other applications.';
-  MESSAGE85='Visit Pozsi''s webshop at http://webshop.pozsarzs.hu.';
-  MESSAGE86='Do you find a bug? Please report it with ''Send a bugreport''.';
-  MESSAGE87='Do you have an idea or question? See ''Help'' for contact.';
-  MESSAGE88='Do you want quick answer your probleme? Use TorChat and see ''Help'' for my ID.';
-  MESSAGE89='Useful websites';
-  MESSAGE90='Pozsi''s homepage';
-  MESSAGE91='Pozsi''s webshop';
-  MESSAGE92='Electrontube pinouts';
-  MESSAGE93='http://www.pozsarzs.hu/en/index.php';
-  MESSAGE94='http://webshop.pozsarzs.hu/index.php?language=en';
-  MESSAGE95='http://pinout.pozsarzs.hu';
+  MESSAGE78='Useful websites';
+  MESSAGE79='Pozsi''s homepage';
+  MESSAGE80='Pozsi''s webshop';
+  MESSAGE81='Electrontube pinouts';
+  MESSAGE82='http://www.pozsarzs.hu/en/index.php';
+  MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
+  MESSAGE84='http://pinout.pozsarzs.hu';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -372,12 +355,7 @@ var
   storedversion: string;
 begin
   searchnewprogversion:=false;
-  {$IFDEF LINUX}
-  assign(tf,userdir+'/.tubes2trial/config/prog_version.txt');
-  {$ENDIF}
-  {$IFDEF WIN32}
-  assign(tf,userdir+'\Application data\tubes2trial\config\prog_version.txt');
-  {$ENDIF}
+  assign(tf,userdir+DIR_CACHE+'prog_version.txt');
   txt:=TStringList.Create;
   with THTTPSend.Create do
   begin
@@ -466,34 +444,25 @@ begin
   Form8.Caption:=MESSAGE67;
   Form8.Memo1.Clear;
   try
-    {$IFDEF LINUX}
-      {$IFDEF UseFHS}
-        Form8.Memo1.Lines.LoadFromFile(instpath+'share/doc/tubes2trial/COPYING');
-      {$ELSE}
-        Form8.Memo1.Lines.LoadFromFile(exepath+'documents/COPYING');
-      {$ENDIF}
-    {$ENDIF}
-    {$IFDEF WIN32}
-    Form8.Memo1.Lines.LoadFromFile(exepath+'documents\copying.txt');
-    {$ENDIF}
+  Form8.Memo1.Lines.LoadFromFile(copyfile);
   except
     Form8.Memo1.Lines.Add(MESSAGE64);
   end;
   Form8.Show;
 end;
 
-//-- download full version -----------------------------------------------------
+//-- open homepage -------------------------------------------------------------
 procedure TForm1.MenuItem62Click(Sender: TObject);
 begin
-  if lang='hu' then runbrowser('http://www.pozsarzs.hu/tubes/tubes.html')
-  else runbrowser('http://www.pozsarzs.hu/tubes/tubes_en.html');
+  if lang='hu' then runbrowser(URL_HOMEPAGE_HU)
+  else runbrowser(URL_HOMEPAGE);
 end;
 
 //-- send a bugreport ----------------------------------------------------------
 procedure TForm1.MenuItem31Click(Sender: TObject);
 begin
-  if lang='hu' then runbrowser('http://www.pozsarzs.hu/tubes/bugreport_hu.php')
-  else runbrowser('http://www.pozsarzs.hu/tubes/bugreport_en.php');
+  if lang='hu' then runbrowser(URL_BUGREPORT_HU)
+  else runbrowser(URL_BUGREPORT);
 end;
 
 //-- show bookmarks ------------------------------------------------------------
@@ -552,23 +521,6 @@ begin
     {$ENDIF}
   except
     Image1.Picture.Clear;
-  end;
-end;
-
-procedure TForm1.Timer1Timer(Sender: TObject);
-begin
-  case random(10) of
-    0: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE78;
-    1: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE79;
-    2: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE80;
-    3: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE81;
-    4: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE82;
-    5: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE83;
-    6: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE84;
-    7: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE85;
-    8: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE86;
-    9: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE87;
-    10: StatusBar1.Panels.Items[1].Text:=' '+MESSAGE88;
   end;
 end;
 
@@ -810,7 +762,7 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:='Tubes2 '+VERSION+' trial / '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:=NAME+' '+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then
@@ -834,12 +786,7 @@ end;
 procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
   try
-    {$IFDEF LINUX}
-    ListBox1.Items.SaveToFile(userdir+'/.tubes2trial/config/tubes.bmk');
-    {$ENDIF}
-    {$IFDEF WIN32}
-    ListBox1.Items.SaveToFile(userdir+'\Application data\tubes2trial\config\tubes.bmk');
-    {$ENDIF}
+    ListBox1.Items.SaveToFile(userdir+DIR_CONFIG+'tubes2.bmk');
   except
   end;
   CanClose:=true;
@@ -1028,7 +975,7 @@ begin
     writeln(tf,'<head>');
     writeln(tf,'<meta http-equiv="content-type" content="text/html; charset=utf-8">');
     writeln(tf,'<title>'+MESSAGE21+' - '+StringGrid1.Cells[0,StringGrid1.Row]+'</title>');
-    writeln(tf,'<meta name="generator" content="Tubes2 '+VERSION+'">');
+    writeln(tf,'<meta name="generator" content="'+NAME+' '+VERSION+'">');
     writeln(tf,'</head>');
     writeln(tf,'<body>');
     writeln(tf,'<font face="freemono, monospace" size=3>');
@@ -1069,7 +1016,7 @@ begin
     writeln(tf,'</td>');
     writeln(tf,'</tr>');
     writeln(tf,'</table>');
-    writeln(tf,'<font size=2>Tubes2 '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
+    writeln(tf,'<font size=2>'+NAME+' '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
     writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
     writeln(tf,'</font>');
     writeln(tf,'</body>');
@@ -1120,7 +1067,7 @@ begin
     write(tf,pinout[StringGrid1.Row]);
     for b:=1 to 80 do write(tf,'-');
     writeln(tf,'');
-    writeln(tf,'Tubes2 '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
+    writeln(tf,NAME+' '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
     writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
     closefile(tf);
     result:=true;
@@ -1193,7 +1140,7 @@ begin
   if offline=false then
   begin
     // download new list
-    bin:=TFileStream.Create(userdir+FILE_SPONSORS,fmCreate);
+    bin:=TFileStream.Create(userdir+DIR_CACHE+'sponsors.csv',fmCreate);
     try    
       with THTTPSend.Create do
         HttpGetBinary(URL_SPONSORS,bin);
@@ -1202,7 +1149,7 @@ begin
     bin.Free;
   end;
   // load to array
-  assignfile(tf,userdir+FILE_SPONSORS);
+  assignfile(tf,userdir+DIR_CACHE+'sponsors.csv');
   try
     reset(tf);
     tb:=3;
@@ -1317,12 +1264,24 @@ begin
   SpeedButton3.Hint:=MESSAGE62;
   SpeedButton4.Hint:=MESSAGE63;
   ComboBox1.Hint:=MESSAGE49;
-  ComboBox2.Hint:=MESSAGE89;
+  ComboBox2.Hint:=MESSAGE78;
   TabSheet1.Caption:=MESSAGE22;
   TabSheet2.Caption:=MESSAGE55;
   TabSheet4.Caption:=MESSAGE77;
 
- // set help file
+  // set copying file
+  {$IFDEF LINUX}
+    {$IFDEF UseFHS}
+      copyfile:=instpath+'share/doc/tubes2trial/COPYING';
+    {$ELSE}
+      copyfile:=exepath+'documents/COPYING';
+    {$ENDIF}
+  {$ENDIF}
+  {$IFDEF WIN32}
+    copyfile:=exepath+'documents\copying.txt';
+  {$ENDIF}
+
+  // set help file
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
       if FSearch('index.html',instpath+'share/tubes2trial/help_'+lang)<>''
@@ -1339,9 +1298,9 @@ begin
     HTMLBrowserHelpViewer1.AutoRegister:=true;
   {$ENDIF}
   {$IFDEF WIN32}
-  if FSearch('tubes_'+lang+'.chm',exepath+'help\')=''
-  then helpfile:=exepath+'help\tubes_en.chm'
-  else helpfile:=exepath+'help\tubes_'+lang+'.chm';
+  if FSearch('tubes2trial_'+lang+'.chm',exepath+'help\')=''
+  then helpfile:=exepath+'help\tubes2trial_en.chm'
+  else helpfile:=exepath+'help\tubes2trial_'+lang+'.chm';
   Application.HelpFile:=helpfile;
   {$ENDIF}
 
@@ -1367,32 +1326,16 @@ begin
   {$ENDIF}
 
   //search datafile - in user folder
-  {$IFDEF LINUX}
-  if FSearch('version.txt',userdir+'/.tubes2trial/')<>'' then
+  if FSearch('version.txt',userdir+DIR_DATA)<>'' then
   begin
-    xedfpath:=userdir+'/.tubes2trial/';
-    picspath:=userdir+'/.tubes2trial/base/';
+    xedfpath:=userdir+DIR_DATA;
+    picspath:=userdir+DIR_PICS;
   end;
-  {$ENDIF}
-  {$IFDEF WIN32}
-  if FSearch('version.txt',userdir+'\Application data\tubes2trial\')<>'' then
-  begin
-    xedfpath:=userdir+'\Application data\tubes2trial\';
-    picspath:=userdir+'\Application data\tubes2trial\base\';
-  end;
-  {$ENDIF}
 
   //load settings
-  {$IFDEF LINUX}
-  if FSearch('tubes.cfg',userdir+'/.tubes2trial/config/')<>''then
+  if FSearch('tubes2.cfg',userdir+DIR_CONFIG)<>''then
   begin
-    assignfile(tf,userdir+'/.tubes2trial/config/tubes.cfg');
-  {$ENDIF}
-  {$IFDEF WIN32}
-  if FSearch('tubes.cfg',userdir+'\Application data\tubes2trial\config')<>'' then
-  begin
-    assignfile(tf,userdir+'\Application data\tubes2trial\config\tubes.cfg');
-  {$ENDIF}
+    assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
     reset(tf);
     browserprogramme:='';
     mailerprogramme:='';
@@ -1523,12 +1466,7 @@ begin
 
   // load bookmarks
   try
-  {$IFDEF LINUX}
-  ListBox1.Items.LoadFromFile(userdir+'/.tubes2trial/config/tubes.bmk');
-  {$ENDIF}
-  {$IFDEF WIN32}
-  ListBox1.Items.LOADFromFile(userdir+'\Application data\tubes2trial\config\tubes.bmk');
-  {$ENDIF}
+  ListBox1.Items.LoadFromFile(userdir+DIR_CONFIG+'tubes2.bmk');
   except
   end;
 
@@ -1539,24 +1477,21 @@ begin
     sponsors[1,0]:='';
   end;
   // my links
-  sponsors[0,0]:=MESSAGE90;
-  sponsors[0,1]:=MESSAGE91;
-  sponsors[0,2]:=MESSAGE92;
-  sponsors[1,0]:=MESSAGE93;
-  sponsors[1,1]:=MESSAGE94;
-  sponsors[1,2]:=MESSAGE95;
-  ComboBox2.Items.Add(MESSAGE90);
-  ComboBox2.Items.Add(MESSAGE91);
-  ComboBox2.Items.Add(MESSAGE92);
+  sponsors[0,0]:=MESSAGE79;
+  sponsors[0,1]:=MESSAGE80;
+  sponsors[0,2]:=MESSAGE81;
+  sponsors[1,0]:=MESSAGE82;
+  sponsors[1,1]:=MESSAGE83;
+  sponsors[1,2]:=MESSAGE84;
+  ComboBox2.Items.Add(MESSAGE79);
+  ComboBox2.Items.Add(MESSAGE80);
+  ComboBox2.Items.Add(MESSAGE81);
   // other links
   loadsponsorsaddress;
   for b:=3 to 63 do
     if (length(sponsors[0,b])>0) and (length(sponsors[1,b])>0)
        then ComboBox2.Items.Add(sponsors[0,b]);
   ComboBox2.ItemIndex:=0;
-  // tips
-  randomize;
-  Timer1Timer(Sender);
 end;
 
 //-- watch scroll-lock button --------------------------------------------------

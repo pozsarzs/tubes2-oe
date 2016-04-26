@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
-{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | config.inc(.in)                                                          | }
 { | Setting for source code.                                                 | }
 { +--------------------------------------------------------------------------+ }
@@ -20,6 +20,30 @@ General Public License for more details.
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-const myi18path='@prefix@/share/locale/';
-const instpath='@prefix@/';
+const
+  // general
+  NAME='Tubes2 trial';
+  VERSION='2.1';
+  // install path
+  INSTPATH='@prefix@/';
+  MYI18PATH='@prefix@/share/locale/';
+  // urls
+  URL_BUGREPORT='http://www.pozsarzs.hu/tubes/bugreport.php';
+  URL_BUGREPORT_HU='http://www.pozsarzs.hu/tubes/bugreport_hu.php';
+  URL_HOMEPAGE='http://www.pozsarzs.hu/tubes/tubes.html';
+  URL_HOMEPAGE_HU='http://www.pozsarzs.hu/tubes/tubes_hu.html';
+  URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2trial/sponsors.csv';
+  // user's folders
+  {$IFDEF LINUX}
+    DIR_CACHE='/.cache/tubes2trial/';
+    DIR_CONFIG='/.config/tubes2trial/';
+    DIR_DATA='/.local/share/tubes2trial/';
+    DIR_PICS='/.local/share/tubes2trial/base/';
+  {$ENDIF}
+  {$IFDEF WIN32}
+    DIR_CACHE='\AppData\Local\tubes2trial\cache\';
+    DIR_CONFIG='\AppData\Local\tubes2trial\config\';
+    DIR_DATA='\AppData\Local\tubes2trial\data\';
+    DIR_PICS='\AppData\Local\tubes2trial\data\base\';
+  {$ENDIF}
 

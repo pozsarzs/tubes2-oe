@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
-{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmtextview.pp                                                           | }
 { | Text viewer                                                              | }
 { +--------------------------------------------------------------------------+ }

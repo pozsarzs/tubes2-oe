@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
-{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | tubes.lpr                                                                | }
 { | Project file.                                                            | }
 { +--------------------------------------------------------------------------+ }
@@ -43,7 +43,7 @@ begin
   end;
   if (Application.Params[1]='-v') or (Application.Params[1]='--version') then
   begin
-    writeln('Tubes2 v'+frmmain.VERSION+' trial');
+    writeln('Tubes2 trial v'+frmmain.VERSION);
     Halt(0);
   end;
   Application.Title:='Tubes2 trial';

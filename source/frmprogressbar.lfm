@@ -1,13 +1,13 @@
 object Form9: TForm9
   Cursor = crHourGlass
   Left = 287
-  Height = 58
+  Height = 56
   Top = 190
   Width = 261
   BorderIcons = []
   BorderStyle = bsSingle
   Caption = 'Form9'
-  ClientHeight = 58
+  ClientHeight = 56
   ClientWidth = 261
   FormStyle = fsStayOnTop
   Icon.Data = {
@@ -117,7 +117,7 @@ object Form9: TForm9
   }
   Position = poMainFormCenter
   ShowInTaskBar = stNever
-  LCLVersion = '1.0.14.0'
+  LCLVersion = '1.2.4.0'
   object Bevel1: TBevel
     Left = 4
     Height = 42

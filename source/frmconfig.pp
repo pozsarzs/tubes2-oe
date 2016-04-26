@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.0.2 trial * Electrontube catalogue                              | }
-{ | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmconfig.pp                                                             | }
 { | Settings window                                                          | }
 { +--------------------------------------------------------------------------+ }
@@ -68,8 +68,8 @@ Resourcestring
   MESSAGE06='Browse..';
   MESSAGE07='Save';
   MESSAGE08='Cancel';
-  MESSAGE09='Select browser programme';
-  MESSAGE10='Select mailer programme';
+  MESSAGE09='Select browser application';
+  MESSAGE10='Select mailer application';
   MESSAGE11='executables|*.exe|all files|*.*';
   MESSAGE12='all files|*.*';
   MESSAGE13='Default';
@@ -89,17 +89,12 @@ begin
   frmmain.offline:=CheckBox1.Checked;
   frmmain.nocheckupdate:=CheckBox2.Checked;
 
-  {$IFDEF LINUX}
-  assignfile(tf,userdir+'/.tubes2trial/config/tubes.cfg');
-  {$ENDIF}
-  {$IFDEF WIN32}
-  assignfile(tf,userdir+'\Application data\tubes2trial\config\tubes.cfg');
-  {$ENDIF}
+  assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
   rewrite(tf);
     write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
-  writeln(tf,'# | Tubes2 2.0.2 * Electrontube catalogue                                      |');
-  writeln(tf,'# | Copyright (C) 2008-2015 Pozsar Zsolt <pozsarzs@gmail.com                   |');
-  writeln(tf,'# | tubes.cfg                                                                  |');
+  writeln(tf,'# | Tubes2 2.1 * Electrontube catalogue                                        |');
+  writeln(tf,'# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com                   |');
+  writeln(tf,'# | tubes2.cfg                                                                 |');
   writeln(tf,'# | Configuration file                                                         |');
   write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
   writeln(tf,'BP='+Edit1.Text);

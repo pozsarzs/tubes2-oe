@@ -1,13 +1,13 @@
 object Form1: TForm1
   Left = 291
-  Height = 443
+  Height = 444
   Top = 117
-  Width = 708
+  Width = 706
   HelpType = htKeyword
   ActiveControl = StringGrid1
   Caption = 'Form1'
-  ClientHeight = 424
-  ClientWidth = 708
+  ClientHeight = 425
+  ClientWidth = 706
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -332,8 +332,8 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 15
-    Top = 409
-    Width = 708
+    Top = 410
+    Width = 706
     Panels = <    
       item
         Alignment = taCenter
@@ -534,7 +534,7 @@ object Form1: TForm1
     end
   end
   object ComboBox2: TComboBox
-    Left = 503
+    Left = 501
     Height = 25
     Top = 7
     Width = 170
@@ -1336,11 +1336,5 @@ object Form1: TForm1
       Caption = 'New Item1'
       OnClick = MenuItem65Click
     end
-  end
-  object Timer1: TTimer
-    Interval = 10000
-    OnTimer = Timer1Timer
-    left = 608
-    top = 184
   end
 end
