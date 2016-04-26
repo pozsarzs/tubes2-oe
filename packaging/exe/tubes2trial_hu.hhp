@@ -1,25 +1,17 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=tubes_hu.chm
-Default Window=Tubes2 Segítség
+Compiled file=tubes2trial_hu.chm
 Default topic=help_hu\index.html
 Display compile progress=No
 Language=0x40e magyar (Magyarország)
 Title=Tubes2 Segítség
 
-[WINDOWS]
-Tubes2 Help="Tubes2 Help",,,"help_en\index.html","Projektek\Tubes2\tubes2-trial-win32\trunk\help\help_en\index.html",,,,,0x42020,,0x3046,[533,286,832,482],,,,,,,0
-Tubes2 Segítség="Tubes2 Segítség",,,"help_hu\index.html","help_hu\index.html",,,,,0x40020,,0x3046,[271,372,593,566],,,,,,,0
-
 
 [FILES]
 help_hu\cmdparams.html
 help_hu\contact.html
-help_hu\dialog_psearch.html
 help_hu\dialog_settings.html
-help_hu\dialog_sort.html
-help_hu\dialog_tsearch.html
-help_hu\dialog_tsearchallcat.html
+help_hu\dialog_upgrade.html
 help_hu\free_registration.html
 help_hu\hotkeys.html
 help_hu\index.html
@@ -42,6 +34,7 @@ help_hu\sign_philips.html
 help_hu\sign_soviet.html
 help_hu\sign_usa.html
 help_hu\support.html
+help_hu\trialproductkey.html
 
 [INFOTYPES]
 
