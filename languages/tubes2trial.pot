@@ -1,12 +1,8 @@
-msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8"
-
 #: frmabout.message01
 msgid "About"
 msgstr ""
 
 #: frmabout.message02
-msgctxt "frmabout.message02"
 msgid "&Close"
 msgstr ""
 
@@ -19,7 +15,6 @@ msgid "Licence: GNU GPL 3.0 or later."
 msgstr ""
 
 #: frmabout.message05
-msgctxt "frmabout.message05"
 msgid "Sorry, there is off-line mode."
 msgstr ""
 
@@ -48,7 +43,6 @@ msgid "Browse.."
 msgstr ""
 
 #: frmconfig.message07
-msgctxt "frmconfig.message07"
 msgid "Save"
 msgstr ""
 
@@ -89,7 +83,6 @@ msgid "&Save"
 msgstr ""
 
 #: frmmain.message04
-msgctxt "frmmain.message04"
 msgid "Type search"
 msgstr ""
 
@@ -134,7 +127,6 @@ msgid "Auto &column size"
 msgstr ""
 
 #: frmmain.message15
-msgctxt "frmmain.message15"
 msgid "&Search"
 msgstr ""
 
@@ -171,7 +163,6 @@ msgid "Category"
 msgstr ""
 
 #: frmmain.message24
-msgctxt "frmmain.message24"
 msgid "Parameters"
 msgstr ""
 
@@ -188,7 +179,6 @@ msgid "Sorry, there is not help viewer!"
 msgstr ""
 
 #: frmmain.message28
-msgctxt "frmmain.message28"
 msgid "Save"
 msgstr ""
 
@@ -197,7 +187,6 @@ msgid "Save to file"
 msgstr ""
 
 #: frmmain.message30
-msgctxt "frmmain.message30"
 msgid "Type search"
 msgstr ""
 
@@ -262,7 +251,6 @@ msgid "Show description"
 msgstr ""
 
 #: frmmain.message46
-msgctxt "frmmain.message46"
 msgid "Parameter search"
 msgstr ""
 
@@ -283,7 +271,6 @@ msgid "Go!"
 msgstr ""
 
 #: frmmain.message51
-msgctxt "frmmain.message51"
 msgid "Sorry, there is off-line mode."
 msgstr ""
 
@@ -300,7 +287,6 @@ msgid "Cannot run mailer!"
 msgstr ""
 
 #: frmmain.message55
-msgctxt "frmmain.message55"
 msgid "Parameters"
 msgstr ""
 
@@ -426,8 +412,9 @@ msgid ""
 "Visit our website to find out how to buy product key or require free key.\n"
 msgstr ""
 
+
+
 #: frmparsearch.message01
-msgctxt "frmparsearch.message01"
 msgid "Parameter search"
 msgstr ""
 
@@ -444,12 +431,10 @@ msgid "max."
 msgstr ""
 
 #: frmparsearch.message05
-msgctxt "frmparsearch.message05"
 msgid "&Search"
 msgstr ""
 
 #: frmparsearch.message06
-msgctxt "frmparsearch.message06"
 msgid "&Close"
 msgstr ""
 
@@ -482,12 +467,10 @@ msgid "Sort"
 msgstr ""
 
 #: frmsort.message04
-msgctxt "frmsort.message04"
 msgid "&Close"
 msgstr ""
 
 #: frmtextview.message01
-msgctxt "frmtextview.message01"
 msgid "&Close"
 msgstr ""
 
@@ -496,7 +479,6 @@ msgid "Upgrade database"
 msgstr ""
 
 #: frmupgrade.message02
-msgctxt "frmupgrade.message02"
 msgid "&Close"
 msgstr ""
 
