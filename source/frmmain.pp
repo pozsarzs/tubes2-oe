@@ -290,6 +290,8 @@ Resourcestring
   MESSAGE82='http://www.pozsarzs.hu/en/index.php';
   MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
   MESSAGE84='http://pinout.pozsarzs.hu';
+  MESSAGE85='If you want to get all datapackage upgrade, use ''pro'' version of Tubes2.'+#13+#10+
+            'Visit our website to find out how to buy product key or require free key.';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -792,12 +794,14 @@ begin
     ListBox1.Items.SaveToFile(userdir+DIR_CONFIG+'tubes2.bmk');
   except
   end;
+  ShowMessage(MESSAGE85);
   CanClose:=true;
 end;
 
 //-- exit ----------------------------------------------------------------------
 procedure TForm1.MenuItem46Click(Sender: TObject);
 begin
+  Form1.Close;
   Application.Terminate;
 end;
 
@@ -844,7 +848,12 @@ var
     itype, icat: string;
   begin
     result:='';
-    assignfile(tf,xedfpath+'index.csv');
+    {$IFDEF LINUX}
+      assignfile(tf,xedfpath+'../index.csv');
+    {$ENDIF}
+    {$IFDEF WIN32}
+      assignfile(tf,xedfpath+'..\index.csv');
+    {$ENDIF}
     try
       reset(tf);
       repeat
@@ -1373,8 +1382,8 @@ begin
       readln(xmlfile,s);
       compnumall:=compnumall+1;
     until eof(xmlfile);
-  finally
     closefile(xmlfile);
+  except
   end;
 
   // load categories

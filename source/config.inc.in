@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const
   // general
-  NAME='Tubes2 trial';
+  APPNAME='Tubes2 trial';
   VERSION='2.1';
   // install path
   INSTPATH='@prefix@/';
