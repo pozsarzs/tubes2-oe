@@ -1,12 +1,12 @@
 object Form8: TForm8
-  Left = 350
+  Left = 347
   Height = 368
   Top = 161
-  Width = 602
+  Width = 605
   ActiveControl = Memo1
   Caption = 'Form8'
   ClientHeight = 368
-  ClientWidth = 602
+  ClientWidth = 605
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -114,7 +114,7 @@ object Form8: TForm8
   }
   OnCreate = FormCreate
   OnResize = FormResize
-  Position = poDefault
+  Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
   object Button1: TButton
     Left = 523

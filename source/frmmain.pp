@@ -73,6 +73,7 @@ type
     MenuItem30: TMenuItem;
     MenuItem31: TMenuItem;
     MenuItem32: TMenuItem;
+    MenuItem33: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
@@ -111,6 +112,7 @@ type
     SpeedButton2: TSpeedButton;
     SpeedButton3: TSpeedButton;
     SpeedButton4: TSpeedButton;
+    SpeedButton5: TSpeedButton;
     StatusBar1: TStatusBar;
     StringGrid1: TStringGrid;
     TabSheet1: TTabSheet;
@@ -246,7 +248,7 @@ Resourcestring
   MESSAGE40='Description';
   MESSAGE41='New version of Tubes2 trial is available.';
   MESSAGE42='(This message does not show again.)';
-  MESSAGE43='homepage';
+  MESSAGE43='Homepage';
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
   MESSAGE45='Show description';
   MESSAGE46='Parameter search';
@@ -264,7 +266,7 @@ Resourcestring
   MESSAGE58='pinout';
   MESSAGE59='On-line pinout searcher';
   MESSAGE60='New type re&quest';
-  MESSAGE61='';
+  MESSAGE61='Go to website';
   MESSAGE62='Search in all category';
   MESSAGE63='Package information';
   MESSAGE64='File is not readable.';
@@ -842,12 +844,7 @@ var
     itype, icat: string;
   begin
     result:='';
-    {$IFDEF LINUX}
-    assignfile(tf,picspath+'../index.csv');
-    {$ENDIF}
-    {$IFDEF WIN32}
-    assignfile(tf,picspath+'..\index.csv');
-    {$ENDIF}
+    assignfile(tf,xedfpath+'index.csv');
     try
       reset(tf);
       repeat
@@ -1017,7 +1014,7 @@ begin
     writeln(tf,'</td>');
     writeln(tf,'</tr>');
     writeln(tf,'</table>');
-    writeln(tf,'<font size=2>'+APPNAME+' '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
+    writeln(tf,'<font size=2>'+APPNAME+' v'+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
     writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
     writeln(tf,'</font>');
     writeln(tf,'</body>');
@@ -1068,7 +1065,7 @@ begin
     write(tf,pinout[StringGrid1.Row]);
     for b:=1 to 80 do write(tf,'-');
     writeln(tf,'');
-    writeln(tf,APPNAME+' '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
+    writeln(tf,APPNAME+' v'+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
     writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
     closefile(tf);
     result:=true;
@@ -1229,6 +1226,7 @@ begin
   MenuItem14.Caption:=MESSAGE14;
   MenuItem15.Caption:=MESSAGE52+'..';
   MenuItem16.Caption:=MESSAGE17+'..';
+  MenuItem33.Caption:=MESSAGE62+'..';
   MenuItem18.Caption:=MESSAGE18+'..';
   MenuItem19.Caption:=MESSAGE16+'..';
   MenuItem2.Caption:=MESSAGE01;
@@ -1262,6 +1260,7 @@ begin
   SpeedButton2.Hint:=MESSAGE30;
   SpeedButton3.Hint:=MESSAGE62;
   SpeedButton4.Hint:=MESSAGE63;
+  SpeedButton5.Hint:=MESSAGE61;
   ComboBox1.Hint:=MESSAGE49;
   ComboBox2.Hint:=MESSAGE78;
   TabSheet1.Caption:=MESSAGE22;
@@ -1360,8 +1359,25 @@ begin
   then SpeedButton4.Enabled:=true
   else SpeedButton4.Enabled:=false;
 
-  // load categories
+  // count components
   compnumall:=0;
+  {$IFDEF LINUX}
+    assignfile(xmlfile,xedfpath+'../index.csv');
+  {$ENDIF}
+  {$IFDEF WIN32}
+    assignfile(xmlfile,xedfpath+'..\index.csv');
+  {$ENDIF}
+  try
+    reset(xmlfile);
+    repeat
+      readln(xmlfile,s);
+      compnumall:=compnumall+1;
+    until eof(xmlfile);
+  finally
+    closefile(xmlfile);
+  end;
+
+  // load categories
   compnumcat:=0;
   for b:=1 to 64 do xedfname[b]:='';
   for b:=1 to 64 do xedfdscr[b]:='';
@@ -1410,17 +1426,6 @@ begin
               ComboBox1.Items.Add(xedfdscr[b]);
             end;
 
-            if s[2..4]='noc' then
-            begin
-              ss:='';
-              for bb:=6 to length(s) do
-              begin
-                if s[bb]='<' then break;
-                ss:=ss+s[bb];
-              end;
-              val(ss,i,n5);
-              compnumall:=compnumall+i;
-            end;
           until (eof(xmlfile)) or (s='</header>');
         until (eof(xmlfile));
       until (eof(xmlfile)) or (s='</xedf>');
@@ -1538,10 +1543,10 @@ var
   begin
     result:='';
     {$IFDEF LINUX}
-    assignfile(tf,picspath+'../index.csv');
+      assignfile(tf,xedfpath+'../index.csv');
     {$ENDIF}
     {$IFDEF WIN32}
-    assignfile(tf,picspath+'..\index.csv');
+      assignfile(tf,xedfpath+'..\index.csv');
     {$ENDIF}
     try
       reset(tf);

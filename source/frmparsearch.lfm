@@ -117,7 +117,7 @@ object Form3: TForm3
     0000
   }
   OnShow = FormShow
-  Position = poDefault
+  Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
   object Label1: TLabel
     Left = 40

@@ -1,6 +1,6 @@
 object Form7: TForm7
   Left = 322
-  Height = 217
+  Height = 213
   Top = 223
   Width = 366
   HorzScrollBar.Page = 385
@@ -9,12 +9,11 @@ object Form7: TForm7
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Form7'
-  ClientHeight = 217
+  ClientHeight = 213
   ClientWidth = 366
   OnShow = FormShow
   Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
-  Visible = False
   object Label1: TLabel
     Left = 16
     Height = 11
@@ -43,7 +42,7 @@ object Form7: TForm7
     Height = 21
     Top = 80
     Width = 248
-    TabOrder = 1
+    TabOrder = 2
   end
   object Button1: TButton
     Left = 272
@@ -53,7 +52,7 @@ object Form7: TForm7
     BorderSpacing.InnerBorder = 4
     Caption = 'Button1'
     OnClick = Button1Click
-    TabOrder = 2
+    TabOrder = 1
   end
   object Button2: TButton
     Left = 272
