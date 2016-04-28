@@ -1,11 +1,11 @@
 object Form8: TForm8
   Left = 347
-  Height = 368
+  Height = 370
   Top = 161
   Width = 605
   ActiveControl = Memo1
   Caption = 'Form8'
-  ClientHeight = 368
+  ClientHeight = 370
   ClientWidth = 605
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000

@@ -290,8 +290,8 @@ Resourcestring
   MESSAGE82='http://www.pozsarzs.hu/en/index.php';
   MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
   MESSAGE84='http://pinout.pozsarzs.hu';
-  MESSAGE85='If you want to get all datapackage upgrade, use ''pro'' version of Tubes2.'+#13+#10+
-            'Visit our website to find out how to buy product key or require free key.';
+  MESSAGE85='If you want to get all datapackage upgrade, use ''pro'' version of Tubes2.';
+  MESSAGE86='Visit our website to find out how to buy product key or require free key.';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -794,7 +794,7 @@ begin
     ListBox1.Items.SaveToFile(userdir+DIR_CONFIG+'tubes2.bmk');
   except
   end;
-  ShowMessage(MESSAGE85);
+  ShowMessage(MESSAGE85+#13+#10+MESSAGE86);
   CanClose:=true;
 end;
 

@@ -407,12 +407,12 @@ msgid "http://pinout.pozsarzs.hu"
 msgstr "http://labkiosztas.pozsarzs.hu"
 
 #: frmmain.message85
-msgid ""
-"If you want to get all datapackage upgrade, use 'pro' version of Tubes2.\n"
-"Visit our website to find out how to buy product key or require free key.\n"
-msgstr ""
-"Használja a 'pro' változatot, ha meg akarja kapni az összes adatcsomag frissítést.\n"
-"Látogassa meg a honlapot, hogy megtudja, hogyan vásárolhat termékkulcsot, vagy hogyan igényelhet ingyenes kulcsot.\n"
+msgid "If you want to get all datapackage upgrade, use 'pro' version of Tubes2."
+msgstr "Használja a 'pro' változatot, ha meg akarja kapni az összes adatcsomag frissítést."
+
+#: frmmain.message86
+msgid "Visit our website to find out how to buy product key or require free key."
+msgstr "Látogassa meg a honlapot, hogy megtudja, hogyan vásárolhat termékkulcsot, vagy hogyan igényelhet ingyenes kulcsot."
 
 #: frmparsearch:message01
 msgid "Parameter search"
@@ -524,4 +524,24 @@ msgstr "Hibás az adatfájl!"
 
 #: frmupgrade:message13
 msgid "File read/write error!"
+msgstr "Fálj írás/olvasási hiba!"
 
+#: frmupgrade:message14
+msgid "Remove all upgrade"
+msgstr "Az összes frissítés eltávolítása"
+
+#: frmupgrade:message15
+msgid "&Remove"
+msgstr "&Eltávolítás"
+
+#: frmupgrade:message16
+msgid "Remove error!"
+msgstr "Eltávolítási hiba!"
+
+#: frmupgrade:message17
+msgid "Tubes2 needs restart to use new or preinstalled database. Press OK to terminate application."
+msgstr "Az új vagy az előtelepített adatbázis használatához a program újraindítása szükséges. A kilépéshez nyomja meg az OK-t!"
+
+#: frmupgrade:message18
+msgid "ZIP archives|*.zip|all files|*.*"
+msgstr "ZIP archívumok|*.zip|all files|*.*"

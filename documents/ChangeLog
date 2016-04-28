@@ -18,3 +18,7 @@
 
 2016-05-30 Pozsar Zsolt <pozsarzs@gmail.com>
 	* Version 2.1:
+	Fixed some little bugs.
+	New user's directories.
+	Reinclude update function.
+    

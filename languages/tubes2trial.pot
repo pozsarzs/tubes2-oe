@@ -407,12 +407,12 @@ msgid "http://pinout.pozsarzs.hu"
 msgstr ""
 
 #: frmmain.message85
-msgid ""
-"If you want to get all datapackage upgrade, use 'pro' version of Tubes2.\n"
-"Visit our website to find out how to buy product key or require free key.\n"
+msgid "If you want to get all datapackage upgrade, use 'pro' version of Tubes2."
 msgstr ""
 
-
+#: frmmain.message86
+msgid "Visit our website to find out how to buy product key or require free key."
+msgstr ""
 
 #: frmparsearch.message01
 msgid "Parameter search"

@@ -1,13 +1,13 @@
 object Form9: TForm9
   Cursor = crHourGlass
   Left = 287
-  Height = 56
+  Height = 55
   Top = 190
   Width = 261
   BorderIcons = []
   BorderStyle = bsSingle
   Caption = 'Form9'
-  ClientHeight = 56
+  ClientHeight = 55
   ClientWidth = 261
   FormStyle = fsStayOnTop
   Icon.Data = {
