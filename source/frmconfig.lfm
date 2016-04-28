@@ -1,6 +1,6 @@
 object Form7: TForm7
   Left = 322
-  Height = 212
+  Height = 217
   Top = 223
   Width = 366
   HorzScrollBar.Page = 385
@@ -9,11 +9,12 @@ object Form7: TForm7
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Form7'
-  ClientHeight = 212
+  ClientHeight = 217
   ClientWidth = 366
   OnShow = FormShow
   Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
+  Visible = False
   object Label1: TLabel
     Left = 16
     Height = 11
@@ -99,9 +100,6 @@ object Form7: TForm7
     Top = 152
     Width = 79
     Caption = 'CheckBox2'
-    Checked = True
-    Enabled = False
-    State = cbChecked
     TabOrder = 5
   end
   object Button5: TButton

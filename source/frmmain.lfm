@@ -1,12 +1,12 @@
 object Form1: TForm1
   Left = 291
-  Height = 444
+  Height = 324
   Top = 117
   Width = 706
   HelpType = htKeyword
   ActiveControl = StringGrid1
   Caption = 'Form1'
-  ClientHeight = 425
+  ClientHeight = 305
   ClientWidth = 706
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
@@ -332,7 +332,7 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 15
-    Top = 410
+    Top = 290
     Width = 706
     Panels = <    
       item
@@ -641,7 +641,6 @@ object Form1: TForm1
       end
       object MenuItem13: TMenuItem
         Caption = 'New Item33'
-        Enabled = False
         Bitmap.Data = {
           36040000424D3604000000000000360000002800000010000000100000000100
           2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
@@ -678,6 +677,7 @@ object Form1: TForm1
           FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF004AB6DE004AB2DEFF4AB2D6FF4AAE
           D600FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
         }
+        OnClick = MenuItem13Click
       end
       object MenuItem60: TMenuItem
         Caption = 'New Item46'

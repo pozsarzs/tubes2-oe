@@ -114,7 +114,7 @@ end;
 procedure TForm2.Form2Show(Sender: TObject);
 begin
   Form2.Caption:=MESSAGE01;
-  Label1.Caption:=frmmain.NAME+' '+frmmain.VERSION;
+  Label1.Caption:=frmmain.APPNAME+' '+frmmain.VERSION;
   Label2.Caption:=MESSAGE03;
   Label4.Caption:=MESSAGE04;
   Button1.Caption:=MESSAGE02;

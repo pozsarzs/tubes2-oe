@@ -150,7 +150,7 @@ begin
   Edit1.Text:=defbrowser;
   Edit2.Text:=defmailer;
   CheckBox1.Checked:=false;
-  CheckBox2.Checked:=true;
+  CheckBox1.Checked:=false;
 end;
 
 //-- CheckBox change event -----------------------------------------------------
@@ -184,8 +184,7 @@ begin
   Edit2.Text:=frmmain.mailerprogramme;
   if Edit2.Text='' then Edit2.Text:=defmailer;
   CheckBox1.Checked:=frmmain.offline;
-  CheckBox2.Checked:=true;
-  CheckBox2.Enabled:=false;
+  CheckBox2.Checked:=frmmain.nocheckupdate;
 end;
 end.
 

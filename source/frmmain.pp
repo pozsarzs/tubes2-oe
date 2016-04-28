@@ -27,9 +27,9 @@ uses
   {$IFDEF WIN32}Windows,{$ENDIF}
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
-  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, dos, gettext,
-  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, untstrconv,
-  types;
+  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, Types, dos, gettext,
+  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, frmupgrade,
+  untstrconv;
 type
   { TForm1 }
   TForm1 = class(TForm)
@@ -126,6 +126,7 @@ type
     procedure ListBox1Click(Sender: TObject);
     procedure Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
       var Handled: Boolean);
+    procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
@@ -762,7 +763,7 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:=NAME+' '+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:=APPNAME+' '+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then
@@ -975,7 +976,7 @@ begin
     writeln(tf,'<head>');
     writeln(tf,'<meta http-equiv="content-type" content="text/html; charset=utf-8">');
     writeln(tf,'<title>'+MESSAGE21+' - '+StringGrid1.Cells[0,StringGrid1.Row]+'</title>');
-    writeln(tf,'<meta name="generator" content="'+NAME+' '+VERSION+'">');
+    writeln(tf,'<meta name="generator" content="'+APPNAME+' '+VERSION+'">');
     writeln(tf,'</head>');
     writeln(tf,'<body>');
     writeln(tf,'<font face="freemono, monospace" size=3>');
@@ -1016,7 +1017,7 @@ begin
     writeln(tf,'</td>');
     writeln(tf,'</tr>');
     writeln(tf,'</table>');
-    writeln(tf,'<font size=2>'+NAME+' '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
+    writeln(tf,'<font size=2>'+APPNAME+' '+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
     writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
     writeln(tf,'</font>');
     writeln(tf,'</body>');
@@ -1067,7 +1068,7 @@ begin
     write(tf,pinout[StringGrid1.Row]);
     for b:=1 to 80 do write(tf,'-');
     writeln(tf,'');
-    writeln(tf,NAME+' '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
+    writeln(tf,APPNAME+' '+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
     writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
     closefile(tf);
     result:=true;
@@ -1104,6 +1105,12 @@ begin
     1: if savetohtml(s)=false then showmessage(MESSAGE20);
     2: if savetotxt(s)=false then showmessage(MESSAGE20);
   end;
+end;
+
+//-- open update window ------------------------------------------------------
+procedure TForm1.MenuItem13Click(Sender: TObject);
+begin
+  Form6.ShowModal;
 end;
 
 //-- dummy popup menu ----------------------------------------------------------
@@ -1182,18 +1189,10 @@ begin
   {$ENDIF}
 
   // user's datadirectory
-  {$IFDEF LINUX}
-  {$I-}mkdir(userdir+'/.tubes2trial/');{$I+} ioresult;
-  {$I-}mkdir(userdir+'/.tubes2trial/config');{$I+} ioresult;
-  {$I-}mkdir(userdir+'/.tubes2trial/base/');{$I+} ioresult;
-  {$ENDIF}
-  {$IFDEF WIN32}
-  {$I-}mkdir(userdir+'\Application data\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2trial\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2trial\config\');{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Application data\tubes2trial\base\');{$I+} ioresult;
-  {$ENDIF}
-  if ioresult<>0 then writeln('User''s datadirectory is exist.');
+  ForceDirectories(userdir+DIR_CACHE);
+  ForceDirectories(userdir+DIR_CONFIG);
+  ForceDirectories(userdir+DIR_DATA);
+  ForceDirectories(userdir+DIR_PICS);
 
   // language
   {$IFDEF LINUX}
@@ -1347,9 +1346,10 @@ begin
         for b:=4 to length(s) do mailerprogramme:=mailerprogramme+s[b];
       if s[1]+s[2]+s[3]='FO=' then
         if s[4]='1' then offline:=true else offline:=false;
+      if s[1]+s[2]+s[3]='DF=' then
+        if s[4]='1' then nocheckupdate:=true else nocheckupdate:=false;
     until(eof(tf));
     closefile(tf);
-    nocheckupdate:=true;
     Form1.MenuItem31.Enabled:=not frmmain.offline;
     Form1.MenuItem62.Enabled:=not frmmain.offline;
     Form1.ComboBox2.Enabled:=not frmmain.offline;
@@ -1451,6 +1451,16 @@ begin
     dbln:=datafileversion[length(datafileversion)-1]+datafileversion[length(datafileversion)];
 
     if (Application.Params[1]='-o') or (Application.Params[1]='--offline') then offline:=true;
+
+    // search new database version on internet
+    if (offline=false) and (nocheckupdate=false)
+     then frmmain.thereisnewversion:=searchnewversion
+     else thereisnewversion:=false;
+    if thereisnewversion=true then showmessage(MESSAGE35);
+
+    // search new programme version on internet
+    if (offline=false) and (nocheckupdate=false) then
+      if searchnewprogversion=true then showmessage(MESSAGE41+' '+MESSAGE57+' '+MESSAGE42); // New version is available!
 
     SpeedButton2.Enabled:=true;
     MenuItem2.Enabled:=true;
