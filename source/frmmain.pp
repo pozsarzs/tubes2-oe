@@ -1279,7 +1279,7 @@ begin
   // set copying file
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
-      copyfile:=instpath+'share/doc/tubes2trial/COPYING';
+      copyfile:=instpath+'share/doc/tubes2-trial/COPYING';
     {$ELSE}
       copyfile:=exepath+'documents/COPYING';
     {$ENDIF}
@@ -1291,9 +1291,9 @@ begin
   // set help file
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
-      if FSearch('index.html',instpath+'share/tubes2trial/help_'+lang)<>''
-      then helpfile:=instpath+'share/tubes2trial/help_'+lang+'/'
-      else helpfile:=instpath+'share/tubes2trial/help_en/';
+      if FSearch('index.html',instpath+'share/tubes2-trial/help_'+lang)<>''
+      then helpfile:=instpath+'share/tubes2-trial/help_'+lang+'/'
+      else helpfile:=instpath+'share/tubes2-trial/help_en/';
     {$ELSE}
       if FSearch('index.html',exepath+'help/help_'+lang)<>''
       then helpfile:=exepath+'help/help_'+lang+'/'
@@ -1314,10 +1314,10 @@ begin
   // search datafile - in original folder
   {$IFDEF LINUX}
     {$IFDEF UseFHS}
-      picspath:=instpath+'share/tubes2trial/base/';
-      if FSearch('version.txt',instpath+'share/tubes2trial/library_'+lang)<>''
-      then xedfpath:=instpath+'share/tubes2trial/library_'+lang+'/'
-      else xedfpath:=instpath+'share/tubes2trial/library_en/';
+      picspath:=instpath+'share/tubes2-trial/base/';
+      if FSearch('version.txt',instpath+'share/tubes2-trial/library_'+lang)<>''
+      then xedfpath:=instpath+'share/tubes2-trial/library_'+lang+'/'
+      else xedfpath:=instpath+'share/tubes2-trial/library_en/';
     {$ELSE}
       picspath:=exepath+'library/base/';
       if FSearch('version.txt',exepath+'library/library_'+lang)<>''
