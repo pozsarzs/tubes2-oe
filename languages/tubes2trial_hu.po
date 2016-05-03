@@ -539,7 +539,7 @@ msgid "Remove error!"
 msgstr "Eltávolítási hiba!"
 
 #: frmupgrade:message17
-msgid "Tubes2 needs restart to use new or preinstalled database. Press OK to terminate application."
+msgid "Tubes2 needs restart to use new or preinstalled database. Press OK to close application."
 msgstr "Az új vagy az előtelepített adatbázis használatához a program újraindítása szükséges. A kilépéshez nyomja meg az OK-t!"
 
 #: frmupgrade:message18
