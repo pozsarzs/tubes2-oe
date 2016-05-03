@@ -17,8 +17,8 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="2"/>
-      <RevisionNr Value="2"/>
-      <StringTable FileDescription="Electrontube catalogue - trial version" LegalCopyright="(C)2008-2015 Pozsár Zsolt" ProductName="Tubes2 trial" ProductVersion="2.0.2"/>
+      <MinorVersionNr Value="1"/>
+      <StringTable CompanyName="Pozsár Zsolt" FileDescription="Electrontube catalogue - trial version" LegalCopyright="(C)2008-2016 Pozsár Zsolt" ProductName="Tubes2 trial" ProductVersion="2.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -134,7 +134,7 @@
         <UnitName Value="frmupgrade"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="55"/>
+        <TopLine Value="7"/>
         <CursorPos X="1" Y="7"/>
         <UsageCount Value="326"/>
         <Loaded Value="True"/>

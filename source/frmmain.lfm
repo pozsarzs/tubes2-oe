@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 291
+  Left = 188
   Height = 444
-  Top = 117
+  Top = 113
   Width = 706
   HelpType = htKeyword
   ActiveControl = StringGrid1
@@ -123,21 +123,25 @@ object Form1: TForm1
   LCLVersion = '1.2.4.0'
   Visible = True
   object Bevel1: TBevel
+    AnchorSideTop.Control = SpeedButton2
+    AnchorSideTop.Side = asrBottom
     Left = 501
     Height = 202
-    Top = 43
+    Top = 40
     Width = 202
+    BorderSpacing.Top = 8
   end
   object Image1: TImage
+    AnchorSideTop.Control = Bevel1
     Left = 502
     Height = 200
-    Top = 44
+    Top = 40
     Width = 200
     Proportional = True
   end
   object SpeedButton2: TSpeedButton
     Left = 4
-    Height = 29
+    Height = 25
     Top = 7
     Width = 23
     Glyph.Data = {
@@ -182,14 +186,14 @@ object Form1: TForm1
   end
   object Bevel5: TBevel
     Left = 79
-    Height = 29
+    Height = 25
     Top = 8
     Width = 9
     Shape = bsLeftLine
   end
   object SpeedButton1: TSpeedButton
     Left = 28
-    Height = 29
+    Height = 25
     Top = 7
     Width = 23
     Glyph.Data = {
@@ -234,7 +238,7 @@ object Form1: TForm1
   end
   object SpeedButton3: TSpeedButton
     Left = 52
-    Height = 29
+    Height = 25
     Top = 7
     Width = 23
     Glyph.Data = {
@@ -279,7 +283,7 @@ object Form1: TForm1
   end
   object SpeedButton4: TSpeedButton
     Left = 84
-    Height = 29
+    Height = 25
     Top = 7
     Width = 23
     Glyph.Data = {
@@ -324,7 +328,7 @@ object Form1: TForm1
   end
   object Bevel6: TBevel
     Left = 111
-    Height = 29
+    Height = 25
     Top = 7
     Width = 2
     Shape = bsRightLine
@@ -355,11 +359,17 @@ object Form1: TForm1
     SimplePanel = False
   end
   object PairSplitter1: TPairSplitter
+    AnchorSideTop.Control = SpeedButton2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar1
     Cursor = crVSplit
     Left = 4
     Height = 362
-    Top = 43
+    Top = 40
     Width = 490
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Top = 8
+    BorderSpacing.Bottom = 8
     Position = 300
     SplitterType = pstVertical
     object PairSplitterSide1: TPairSplitterSide
@@ -462,20 +472,26 @@ object Form1: TForm1
     TabOrder = 0
   end
   object PageControl1: TPageControl
+    AnchorSideTop.Control = Bevel1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar1
     Left = 501
-    Height = 154
-    Top = 251
+    Height = 156
+    Top = 246
     Width = 202
     ActivePage = TabSheet1
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Top = 4
+    BorderSpacing.Bottom = 8
     TabIndex = 0
     TabOrder = 4
     object TabSheet1: TTabSheet
       Caption = 'TabSheet1'
-      ClientHeight = 125
+      ClientHeight = 127
       ClientWidth = 196
       object Memo1: TMemo
         Left = 0
-        Height = 125
+        Height = 127
         Top = 0
         Width = 196
         Align = alClient
@@ -491,7 +507,7 @@ object Form1: TForm1
     end
     object TabSheet2: TTabSheet
       Caption = 'TabSheet2'
-      ClientHeight = 125
+      ClientHeight = 127
       ClientWidth = 196
       object Memo3: TMemo
         Left = 0
@@ -514,7 +530,7 @@ object Form1: TForm1
     end
     object TabSheet4: TTabSheet
       Caption = 'TabSheet4'
-      ClientHeight = 125
+      ClientHeight = 127
       ClientWidth = 196
       object ListBox1: TListBox
         Left = 0
@@ -534,11 +550,13 @@ object Form1: TForm1
     end
   end
   object ComboBox2: TComboBox
+    AnchorSideRight.Control = SpeedButton5
     Left = 501
     Height = 25
     Top = 7
-    Width = 170
+    Width = 178
     Anchors = [akTop, akRight]
+    BorderSpacing.Right = 1
     ItemHeight = 0
     ParentFont = False
     ParentShowHint = False
@@ -548,10 +566,16 @@ object Form1: TForm1
     TabOrder = 1
   end
   object SpeedButton5: TSpeedButton
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
     Left = 680
-    Height = 29
+    Height = 25
     Top = 7
-    Width = 23
+    Width = 22
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 7
+    BorderSpacing.Right = 4
     Glyph.Data = {
       36040000424D3604000000000000360000002800000010000000100000000100
       2000000000000004000064000000640000000000000000000000000000000000
