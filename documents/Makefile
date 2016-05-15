@@ -16,17 +16,17 @@ clean:
 
 install:
 	@echo -n Installing document files...
-	@$(install) --directory $(datadir)/doc/$(name)/$(lang)
+	@$(install) --directory $(datadir)/doc/$(name1)/$(lang)
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(install) --mode $(txtmode) $$x $(datadir)/doc/$(name)/$(lang); fi; \
+	  if [ -e $$x ]; then $(install) --mode $(txtmode) $$x $(datadir)/doc/$(name1)/$(lang); fi; \
 	done
 	@echo "done."
 
 uninstall:
 	@echo -n Removing document files...
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(rm) $(datadir)/doc/$(name)/$(lang)/$$x; fi; \
+	  if [ -e $$x ]; then $(rm) $(datadir)/doc/$(name1)/$(lang)/$$x; fi; \
 	done
-	@rmdir $(datadir)/doc/$(name)/$(lang)
+	@rmdir $(datadir)/doc/$(name1)/$(lang)
 	@echo "done."
 

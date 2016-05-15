@@ -6,6 +6,7 @@
 # +----------------------------------------------------------------------------+
 
 name		= tubes2trial
+name1		= tubes2-trial
 version		= @version@
 architecture	= @architecture@
 
