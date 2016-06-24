@@ -1,5 +1,5 @@
 dnl +--------------------------------------------------------------------------+
-dnl | Tubes2 2.1 trial * Electrontube catalogue                                |
+dnl | Tubes2 2.1.1 trial * Electrontube catalogue                              |
 dnl | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                |
 dnl | configure.in                                                             |
 dnl | Autoconf input file.                                                     |
@@ -55,10 +55,14 @@ AC_OUTPUT( Makefile.global\
 echo "
 Summary
 =======
-    Op. system		$host_os
-    Target processor	$architecture
-    Programme version	$version
-    Install prefix	$prefix
-
-  Type '${make}' for compilation and then '${make} install'.
+  Application		Tubes2 trial v$version
+  Install prefix	$prefix
+  Op. system		$host_os
+  Target processor	$architecture
+-------------------------------------------
+You can use following commands:
+  compile:		'${make}'
+  install:		'${make} install'
+  clean source:		'${make} clean'
+  uninstall:		'${make} uninstall'
 "

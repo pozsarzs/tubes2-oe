@@ -1,8 +1,8 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
+# | Tubes2 2.1.1 trial * Electrontube catalogue                                |
 # | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile.global(.in)                                                       |
-# | Input file for make file                                                   |
+# | Input file for Makefile.global                                             |
 # +----------------------------------------------------------------------------+
 
 name		= tubes2trial

@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | tubes.lpr                                                                | }
-{ | Project file.                                                            | }
+{ | tubes2trial.lpr                                                          | }
+{ | project file                                                             | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -20,31 +20,102 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-program tubes2trial;
 {$MODE OBJFPC}{$H+}
-
+program tubes2trial;
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
-  Interfaces, Forms,
+  Dialogs, Forms, Interfaces, Sysutils, crt,
   // own forms:
-  frmmain, frmabout, frmsort, frmparsearch, frmconfig,
-  frmtextview, frmprogressbar, frmupgrade;
+  frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
+  frmtextview, frmupgrade;
+var
+  fe, fn: string;
+  appmode: byte;
+const
+  commands: array[1..4,1..2] of string=
+  (
+    ('(none)','start catalogue application;'),
+    ('tester','start tubetester tool;'),
+    ('drawer','start characteristic drawer tool;'),
+    ('viewer','start characteristic drawer in viewer mode;')
+  );
+  params: array[1..4,1..3] of string=
+  (
+    ('-d','--dontcheckupdate','on-line mode, but do not check updates'),
+    ('-h','--help','show help'),
+    ('-o','--offline','full off-line mode'),
+    ('-v','--version','show version and build information')
+  );
 
 {$R *.res}
 
+procedure help(mode: boolean);
+var
+ b: byte;
 begin
-  if (Application.Params[1]='-h') or (Application.Params[1]='--help')
-  then
+  if mode then
+    showmessage('There are one or more bad parameter in command line.') else
+    begin
+      writeln('Usage:');
+      writeln(' ',fn,{$IFDEF WIN32}'.',fe,{$ENDIF}' [command] [parameter] [input.csv]');
+      writeln;
+      writeln('commands:');
+      for b:=1 to 4 do
+      begin
+        write('  ',commands[b,1]);
+        gotoxy(30,wherey); writeln(commands[b,2]);
+      end;
+      writeln;
+      writeln('parameters:');
+      for b:=1 to 4 do
+      begin
+        write('  ',params[b,1]);
+        gotoxy(8,wherey); write(params[b,2]);
+        gotoxy(30,wherey); writeln(params[b,3]);
+      end;
+      writeln;
+      write('input.csv:');
+      gotoxy(30,wherey); writeln('input data file in viewer mode');
+      writeln;
+    end;
+  halt(0);
+end;
+
+procedure verinfo;
+begin
+  writeln('Tubes2 trial v'+frmmain.VERSION);
+  writeln;
+  writeln('This application was compiled at ',{$I %TIME%},' on ',{$I %DATE%},
+    ' by ',{$I %USER%});
+  writeln('FPC version: ',{$I %FPCVERSION%});
+  writeln('Target OS:   ',{$I %FPCTARGETOS%});
+  writeln('Target CPU:  ',{$I %FPCTARGETCPU%});
+  halt(0);
+end;
+
+begin
+  fn:=extractfilename(paramstr(0));
+  appmode:=0;
+  if length(paramstr(1))=0 then appmode:=1 else
   begin
-    writeln('Useable parameters:');
-    writeln(#9+'"-o" or "--offline"'+#9+'full off-line mode;');
-    writeln(#9+'"-v" or "--version"'+#9+'version information.');
-    Halt(0);
+    for b:=2 to 4 do
+      if paramstr(1)=commands[b,1] then appmode:=b;
+    for b:=1 to 4 do
+      if paramstr(1)=params[b,1] then appmode:=10*b;
+    for b:=1 to 4 do
+      if paramstr(1)=params[b,2] then appmode:=10*b;
   end;
-  if (Application.Params[1]='-v') or (Application.Params[1]='--version') then
-  begin
-    writeln('Tubes2 trial v'+frmmain.VERSION);
-    Halt(0);
+  case appmode of
+     0: help(true);
+{    1: Run application as catalogue }
+{   10: Set after load config file }
+    20: help(false);
+{   30: Set after load config file }
+    40: verinfo;
+{   50: Set after load config file }
+    60: help(false);
+{   70: Set after load config file }
+    80: verinfo;
   end;
   Application.Title:='Tubes2 trial';
   Application.Initialize;
@@ -58,3 +129,4 @@ begin
   Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.
+

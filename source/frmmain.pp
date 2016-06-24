@@ -1465,6 +1465,7 @@ begin
     dbln:=datafileversion[length(datafileversion)-1]+datafileversion[length(datafileversion)];
 
     if (Application.Params[1]='-o') or (Application.Params[1]='--offline') then offline:=true;
+    if (Application.Params[1]='-d') or (Application.Params[1]='--dontcheckupdate') then nocheckupdate:=true;
 
     // search new database version on internet
     if (offline=false) and (nocheckupdate=false)

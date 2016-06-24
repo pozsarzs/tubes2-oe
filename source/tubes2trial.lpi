@@ -53,10 +53,11 @@
         <Filename Value="tubes2trial.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="tubes2trial"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="15" Y="12"/>
+        <TopLine Value="83"/>
+        <CursorPos X="28" Y="105"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -68,10 +69,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmmain"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="193"/>
+        <TopLine Value="111"/>
         <CursorPos X="2" Y="206"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -98,7 +98,7 @@
         <UnitName Value="frmhelptext"/>
         <TopLine Value="17"/>
         <CursorPos X="26" Y="17"/>
-        <UsageCount Value="5"/>
+        <UsageCount Value="4"/>
       </Unit3>
       <Unit4>
         <Filename Value="frmhelppic.pp"/>
@@ -108,7 +108,7 @@
         <UnitName Value="frmhelppic"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="200"/>
+        <UsageCount Value="199"/>
       </Unit4>
       <Unit5>
         <Filename Value="frmsort.pp"/>
@@ -145,7 +145,7 @@
         <UnitName Value="strconv"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="53"/>
+        <UsageCount Value="52"/>
       </Unit7>
       <Unit8>
         <Filename Value="frmparsearch.pp"/>
@@ -171,9 +171,9 @@
         <UnitName Value="frmconfig"/>
         <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
+        <TopLine Value="132"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="194"/>
+        <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit9>
@@ -188,7 +188,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="93"/>
+        <UsageCount Value="99"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit10>
@@ -203,7 +203,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="59"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit11>
@@ -213,7 +213,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="12"/>
       </Unit12>
       <Unit13>
         <Filename Value="untstrconv.pp"/>
@@ -222,7 +222,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="15"/>
+        <UsageCount Value="18"/>
         <Loaded Value="True"/>
       </Unit13>
       <Unit14>
@@ -230,7 +230,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="11"/>
       </Unit14>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
