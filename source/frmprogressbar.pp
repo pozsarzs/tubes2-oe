@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmprogressbar.pp                                                        | }
 { | Progress bar                                                             | }
@@ -21,7 +21,7 @@
 }
 
 unit frmprogressbar;
-{$mode objfpc}{$H+}
+{$MODE OBJFPC}{$H+}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,

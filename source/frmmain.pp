@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmmain.pp                                                               | }
 { | Main window                                                              | }
@@ -173,6 +173,8 @@ var
   lang: string[2];                                                   // language
   datafileversion: string;                            // version of the database
   dbln: string;                                          // language of database
+  cmdpoffline: boolean;                                  // computer is off-line
+  cmdpnocheckupdate: boolean;                                // no check upgrade
   offline: boolean;                                      // computer is off-line
   nocheckupdate: boolean;                                    // no check upgrade
   // data
@@ -1464,8 +1466,8 @@ begin
     StatusBar1.Panels.Items[2].Text:=StatusBar1.Panels.Items[2].Text+s;
     dbln:=datafileversion[length(datafileversion)-1]+datafileversion[length(datafileversion)];
 
-    if (Application.Params[1]='-o') or (Application.Params[1]='--offline') then offline:=true;
-    if (Application.Params[1]='-d') or (Application.Params[1]='--dontcheckupdate') then nocheckupdate:=true;
+    if cmdpoffline then offline:=true;
+    if cmdpnocheckupdate then nocheckupdate:=true;
 
     // search new database version on internet
     if (offline=false) and (nocheckupdate=false)

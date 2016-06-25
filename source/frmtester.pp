@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmtextview.pp                                                           | }
-{ | Text viewer                                                              | }
+{ | frmtester.pp                                                             | }
+{ | Tube tester tool                                                         | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -20,53 +20,28 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-unit frmtextview;
-{$MODE OBJFPC}{$H+}
+unit frmtester;
+{$MODE OBJFPC}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls;
+  StdCtrls;
 type
-  { TForm8 }
-  TForm8 = class(TForm)
-    Button1: TButton;
-    Memo1: TMemo;
-    procedure Button1Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
-    procedure FormResize(Sender: TObject);
+  { TForm4 }
+  TForm4 = class(TForm)
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
   private
     { private declarations }
   public
     { public declarations }
-  end; 
+  end;
 var
-  Form8: TForm8; 
-
-Resourcestring
-  MESSAGE01='&Close';
+  Form4: TForm4;
 
 implementation
 {$R *.lfm}
-{ TForm8 }
+initialization
 
-//-- FormCreate event ----------------------------------------------------------
-procedure TForm8.FormCreate(Sender: TObject);
-begin
-  Button1.Caption:=MESSAGE01;
-end;
-
-//-- Resize event --------------------------------------------------------------
-procedure TForm8.FormResize(Sender: TObject);
-begin
-  Memo1.Width:=Width-9;
-  Memo1.Height:=Height-46;
-  Button1.Top:=Height-29;
-  Button1.Left:=Width-79;
-end;
-
-//-- Close window --------------------------------------------------------------
-procedure TForm8.Button1Click(Sender: TObject);
-begin
-  Form8.Close;
-end;
 end.
+

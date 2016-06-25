@@ -1,13 +1,13 @@
 object Form2: TForm2
   Left = 344
-  Height = 223
+  Height = 226
   Top = 321
   Width = 378
   ActiveControl = Button1
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Form2'
-  ClientHeight = 223
+  ClientHeight = 226
   ClientWidth = 378
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000

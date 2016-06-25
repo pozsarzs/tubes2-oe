@@ -20,14 +20,14 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-{$MODE OBJFPC}{$H+}
 program tubes2trial;
+{$MODE OBJFPC}{$H+}
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
   Dialogs, Forms, Interfaces, Sysutils, crt,
   // own forms:
   frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
-  frmtextview, frmupgrade;
+  frmtextview, frmupgrade, frmtester;
 var
   fe, fn: string;
   appmode: byte;
@@ -83,7 +83,7 @@ end;
 
 procedure verinfo;
 begin
-  writeln('Tubes2 trial v'+frmmain.VERSION);
+  writeln(frmmain.APPNAME+' v'+frmmain.VERSION);
   writeln;
   writeln('This application was compiled at ',{$I %TIME%},' on ',{$I %DATE%},
     ' by ',{$I %USER%});
@@ -96,6 +96,8 @@ end;
 begin
   fn:=extractfilename(paramstr(0));
   appmode:=0;
+  frmmain.cmdpnocheckupdate:=false;
+  frmmain.cmdpoffline:=false;
   if length(paramstr(1))=0 then appmode:=1 else
   begin
     for b:=2 to 4 do
@@ -107,26 +109,36 @@ begin
   end;
   case appmode of
      0: help(true);
-{    1: Run application as catalogue }
-{   10: Set after load config file }
+//     4: frmdrawer.viewer:=true;
+    10: frmmain.cmdpnocheckupdate:=true;
     20: help(false);
-{   30: Set after load config file }
+    30: frmmain.cmdpoffline:=true;
     40: verinfo;
-{   50: Set after load config file }
+    50: frmmain.cmdpnocheckupdate:=true;
     60: help(false);
-{   70: Set after load config file }
+    70: frmmain.cmdpoffline:=true;
     80: verinfo;
   end;
-  Application.Title:='Tubes2 trial';
+  Application.Title:=frmmain.APPNAME;
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TForm2, Form2);
-  Application.CreateForm(TForm3, Form3);
-  Application.CreateForm(TForm5, Form5);
-  Application.CreateForm(TForm6, Form6);
-  Application.CreateForm(TForm7, Form7);
-  Application.CreateForm(TForm8, Form8);
-  Application.CreateForm(TForm9, Form9);
+  case appmode of
+    2: Application.CreateForm(TForm4, Form4);
+//    3: Application.CreateForm(TForm10, Form10);
+//    4: Application.CreateForm(TForm10, Form10);
+  else
+    begin
+      Application.CreateForm(TForm1, Form1);
+      Application.CreateForm(TForm2, Form2);
+      Application.CreateForm(TForm3, Form3);
+      Application.CreateForm(TForm4, Form4);
+      Application.CreateForm(TForm5, Form5);
+      Application.CreateForm(TForm6, Form6);
+      Application.CreateForm(TForm7, Form7);
+      Application.CreateForm(TForm8, Form8);
+      Application.CreateForm(TForm9, Form9);
+//      Application.CreateForm(TForm10, Form10);
+    end;
+  end;
   Application.Run;
 end.
 

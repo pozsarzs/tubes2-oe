@@ -1,6 +1,6 @@
 object Form3: TForm3
   Left = 347
-  Height = 167
+  Height = 168
   Top = 257
   Width = 497
   HorzScrollBar.Page = 503
@@ -9,7 +9,7 @@ object Form3: TForm3
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Form3'
-  ClientHeight = 167
+  ClientHeight = 168
   ClientWidth = 497
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000

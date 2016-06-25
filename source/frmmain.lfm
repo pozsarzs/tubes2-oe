@@ -1,13 +1,13 @@
 object Form1: TForm1
-  Left = 188
-  Height = 264
-  Top = 113
-  Width = 706
+  Left = 169
+  Height = 494
+  Top = 180
+  Width = 708
   HelpType = htKeyword
   ActiveControl = StringGrid1
   Caption = 'Form1'
-  ClientHeight = 245
-  ClientWidth = 706
+  ClientHeight = 475
+  ClientWidth = 708
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -336,8 +336,8 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 15
-    Top = 230
-    Width = 706
+    Top = 460
+    Width = 708
     Panels = <    
       item
         Alignment = taCenter
@@ -364,7 +364,7 @@ object Form1: TForm1
     AnchorSideBottom.Control = StatusBar1
     Cursor = crVSplit
     Left = 4
-    Height = 182
+    Height = 412
     Top = 40
     Width = 490
     Anchors = [akTop, akLeft, akBottom]
@@ -430,11 +430,11 @@ object Form1: TForm1
     object PairSplitterSide2: TPairSplitterSide
       Cursor = crArrow
       Left = 0
-      Height = 1
-      Top = 182
+      Height = 107
+      Top = 305
       Width = 490
       ClientWidth = 490
-      ClientHeight = 1
+      ClientHeight = 107
       object Memo2: TMemo
         AnchorSideLeft.Control = PairSplitterSide2
         AnchorSideTop.Control = PairSplitterSide2
@@ -443,7 +443,7 @@ object Form1: TForm1
         AnchorSideBottom.Control = PairSplitterSide2
         AnchorSideBottom.Side = asrBottom
         Left = 0
-        Height = 35
+        Height = 107
         Top = 0
         Width = 490
         Align = alClient
@@ -476,7 +476,7 @@ object Form1: TForm1
     AnchorSideTop.Side = asrBottom
     AnchorSideBottom.Control = StatusBar1
     Left = 501
-    Height = 1
+    Height = 206
     Top = 246
     Width = 202
     ActivePage = TabSheet1
@@ -487,11 +487,11 @@ object Form1: TForm1
     TabOrder = 4
     object TabSheet1: TTabSheet
       Caption = 'TabSheet1'
-      ClientHeight = 1
+      ClientHeight = 177
       ClientWidth = 196
       object Memo1: TMemo
         Left = 0
-        Height = 35
+        Height = 177
         Top = 0
         Width = 196
         Align = alClient
@@ -507,7 +507,7 @@ object Form1: TForm1
     end
     object TabSheet2: TTabSheet
       Caption = 'TabSheet2'
-      ClientHeight = 1
+      ClientHeight = 177
       ClientWidth = 196
       object Memo3: TMemo
         Left = 0
@@ -530,7 +530,7 @@ object Form1: TForm1
     end
     object TabSheet4: TTabSheet
       Caption = 'TabSheet4'
-      ClientHeight = 1
+      ClientHeight = 177
       ClientWidth = 196
       object ListBox1: TListBox
         Left = 0
@@ -551,7 +551,7 @@ object Form1: TForm1
   end
   object ComboBox2: TComboBox
     AnchorSideRight.Control = SpeedButton5
-    Left = 501
+    Left = 503
     Height = 25
     Top = 7
     Width = 178
@@ -569,7 +569,7 @@ object Form1: TForm1
     AnchorSideTop.Control = Owner
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 680
+    Left = 682
     Height = 25
     Top = 7
     Width = 22

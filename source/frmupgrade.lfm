@@ -1,6 +1,6 @@
 object Form6: TForm6
   Left = 315
-  Height = 167
+  Height = 168
   Top = 223
   Width = 412
   HorzScrollBar.Page = 301
@@ -9,7 +9,7 @@ object Form6: TForm6
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Form6'
-  ClientHeight = 167
+  ClientHeight = 168
   ClientWidth = 412
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000

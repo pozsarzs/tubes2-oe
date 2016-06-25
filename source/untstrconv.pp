@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | strconv.pp                                                               | }
+{ | untstrconv.pp                                                            | }
 { | String converter                                                         | }
 { +--------------------------------------------------------------------------+ }
 

@@ -1,7 +1,7 @@
 object Form8: TForm8
-  Left = 347
+  Left = 209
   Height = 370
-  Top = 161
+  Top = 171
   Width = 605
   ActiveControl = Memo1
   Caption = 'Form8'
