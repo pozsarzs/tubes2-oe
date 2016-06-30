@@ -55,12 +55,6 @@ var
   usersdatadir: string;
 
 Resourcestring
-  MESSAGE01='Upgrade database';
-  MESSAGE02='&Close';
-  MESSAGE03='&Browse';
-  MESSAGE04='&Download';
-  MESSAGE05='Install and upgrade from file';
-  MESSAGE06='Install and upgrade from internet';
   MESSAGE07='Open ZIP file';
   MESSAGE08='There is no new version of database!';
   MESSAGE09='Download error!';
@@ -68,8 +62,6 @@ Resourcestring
   MESSAGE11='Install error!';
   MESSAGE12='Datafile corrupt!';
   MESSAGE13='File read/write error!';
-  MESSAGE14='Remove all upgrade';
-  MESSAGE15='&Remove';
   MESSAGE16='Remove error!';
   MESSAGE17='Tubes2 needs restart to use new or preinstalled database. Press OK to close application.';
   MESSAGE18='ZIP archives|*.zip|all files|*.*';
@@ -146,7 +138,7 @@ var
   zipfile: string;
 begin
   zipfile:=usersdatadir+'xedf-tubes2-current-'+frmmain.dbln+'.zip';
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   chdir(usersdatadir);
   zresult:=FileUnzipEx(@zipfile[1],'./','');
   {$ENDIF}
@@ -256,14 +248,6 @@ end;
 procedure TForm6.FormShow(Sender: TObject);
 begin
   usersdatadir:=frmmain.userdir+DIR_DATA;
-  Form6.Caption:=MESSAGE01;
-  Label1.Caption:=MESSAGE05;
-  Label2.Caption:=MESSAGE06;
-  Label3.Caption:=MESSAGE14;
-  Button1.Caption:=MESSAGE03+'..';
-  Button2.Caption:=MESSAGE04;
-  Button3.Caption:=MESSAGE02;
-  Button4.Caption:=MESSAGE15;
   restart:=false;
   Button2.Enabled:=not frmmain.offline=true;
 end;

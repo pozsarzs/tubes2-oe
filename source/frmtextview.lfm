@@ -1,12 +1,12 @@
 object Form8: TForm8
-  Left = 209
-  Height = 370
-  Top = 171
-  Width = 605
+  Left = 309
+  Height = 395
+  Top = 134
+  Width = 396
   ActiveControl = Memo1
   Caption = 'Form8'
-  ClientHeight = 370
-  ClientWidth = 605
+  ClientHeight = 395
+  ClientWidth = 396
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -112,24 +112,42 @@ object Form8: TForm8
     0000000000000000000000000000000000000000000000000000000000000000
     0000
   }
-  OnCreate = FormCreate
-  OnResize = FormResize
   Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
   object Button1: TButton
-    Left = 523
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 317
     Height = 25
-    Top = 339
+    Top = 366
     Width = 75
-    Caption = 'Button1'
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 4
+    BorderSpacing.Bottom = 4
+    Caption = '&Close'
     OnClick = Button1Click
     TabOrder = 0
   end
   object Memo1: TMemo
-    Left = 5
-    Height = 322
-    Top = 9
-    Width = 593
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 4
+    Height = 358
+    Top = 4
+    Width = 388
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    BorderSpacing.Bottom = 33
     Font.Pitch = fpFixed
     ParentFont = False
     ReadOnly = True

@@ -25,12 +25,21 @@ unit frmtester;
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls;
+  StdCtrls, ExtCtrls, Grids;
 type
   { TForm4 }
   TForm4 = class(TForm)
+    Bevel2: TBevel;
+    Bevel3: TBevel;
     ComboBox1: TComboBox;
     ComboBox2: TComboBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    StringGrid1: TStringGrid;
+    StringGrid2: TStringGrid;
+    StringGrid3: TStringGrid;
   private
     { private declarations }
   public
@@ -41,6 +50,7 @@ var
 
 implementation
 {$R *.lfm}
+
 initialization
 
 end.

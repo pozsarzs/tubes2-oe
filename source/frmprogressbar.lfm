@@ -1,14 +1,14 @@
 object Form9: TForm9
   Cursor = crHourGlass
-  Left = 287
-  Height = 54
-  Top = 190
-  Width = 261
+  Left = 383
+  Height = 53
+  Top = 247
+  Width = 259
   BorderIcons = []
   BorderStyle = bsSingle
   Caption = 'Form9'
-  ClientHeight = 54
-  ClientWidth = 261
+  ClientHeight = 53
+  ClientWidth = 259
   FormStyle = fsStayOnTop
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000

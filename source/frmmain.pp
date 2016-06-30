@@ -42,6 +42,7 @@ type
     HTMLBrowserHelpViewer1: THTMLBrowserHelpViewer;
     HTMLHelpDatabase1: THTMLHelpDatabase;
     Image1: TImage;
+    ImageList1: TImageList;
     ListBox1: TListBox;
     MainMenu1: TMainMenu;
     Memo1: TMemo;
@@ -74,7 +75,16 @@ type
     MenuItem31: TMenuItem;
     MenuItem32: TMenuItem;
     MenuItem33: TMenuItem;
+    MenuItem34: TMenuItem;
+    MenuItem35: TMenuItem;
+    MenuItem36: TMenuItem;
+    MenuItem37: TMenuItem;
+    MenuItem38: TMenuItem;
+    MenuItem39: TMenuItem;
     MenuItem4: TMenuItem;
+    MenuItem40: TMenuItem;
+    MenuItem42: TMenuItem;
+    MenuItem43: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
     MenuItem47: TMenuItem;
@@ -119,6 +129,18 @@ type
     TabSheet2: TTabSheet;
     TabSheet4: TTabSheet;
     Timer1: TTimer;
+    ToolBar1: TToolBar;
+    ToolButton1: TToolButton;
+    ToolButton10: TToolButton;
+    ToolButton11: TToolButton;
+    ToolButton12: TToolButton;
+    ToolButton2: TToolButton;
+    ToolButton3: TToolButton;
+    ToolButton4: TToolButton;
+    ToolButton5: TToolButton;
+    ToolButton6: TToolButton;
+    ToolButton7: TToolButton;
+    ToolButton9: TToolButton;
     procedure ComboBox1Change;
     procedure ComboBox2Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
@@ -208,24 +230,10 @@ const
 {$I config.inc}
 
 Resourcestring
-  MESSAGE01='&File';
   MESSAGE02='Base';
-  MESSAGE03='&Save';
   MESSAGE04='Type search';
-  MESSAGE05='&Quit';
-  MESSAGE06='&Help';
-  MESSAGE07='Help co&ntent';
-  MESSAGE08='&Image gallery';
-  MESSAGE09='&About';
   MESSAGE10='Missing files! Please reinstall Tubes2 trial.';
   MESSAGE11='Type';
-  MESSAGE12='&View';
-  MESSAGE13='Auto &fill';
-  MESSAGE14='Auto &column size';
-  MESSAGE15='&Search';
-  MESSAGE16='&Type search';
-  MESSAGE17='&Parameter search';
-  MESSAGE18='&Sort';
   MESSAGE19='File exists, overwrite?';
   MESSAGE20='Write error!';
   MESSAGE21='Electrontube datasheet';
@@ -239,13 +247,10 @@ Resourcestring
   MESSAGE29='Save to file';
   MESSAGE30='Type search';
   MESSAGE31='Function';
-  MESSAGE32='&Upgrade database';
   MESSAGE33='Version';
   MESSAGE34='Database is corrupt!';
   MESSAGE35='New version of database is available, click on ''Upgrade database'' to install it.';
   MESSAGE36='Original size';
-  MESSAGE37='Copy pinout to clipboard';
-  MESSAGE38='Copy description to clipboard';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
   MESSAGE41='New version of Tubes2 trial is available.';
@@ -254,12 +259,8 @@ Resourcestring
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
   MESSAGE45='Show description';
   MESSAGE46='Parameter search';
-  MESSAGE47='&Get ';
-  MESSAGE48='&Reporting a bug';
   MESSAGE49='Categories of electrontubes';
-  MESSAGE50='Go!';
   MESSAGE51='Sorry, there is off-line mode.';
-  MESSAGE52='Settin&gs';
   MESSAGE53='Cannot run browser!';
   MESSAGE54='Cannot run mailer!';
   MESSAGE55='Parameters';
@@ -267,23 +268,13 @@ Resourcestring
   MESSAGE57='Please visit http://www.pozsarzs.hu for download it.';
   MESSAGE58='pinout';
   MESSAGE59='On-line pinout searcher';
-  MESSAGE60='New type re&quest';
   MESSAGE61='Go to website';
   MESSAGE62='Search in all category';
   MESSAGE63='Package information';
   MESSAGE64='File is not readable.';
-  MESSAGE65='Pa&ckage information';
-  MESSAGE66='Li&cence';
   MESSAGE67='Licence';
-  MESSAGE68='&Search in all category';
-  MESSAGE69='Ad';
   MESSAGE70='Index file is corrupt!';
   MESSAGE71='Loading...';
-  MESSAGE72='&Go to homepage';
-  MESSAGE73='&Bookmarks';
-  MESSAGE74='&Show bookmarks';
-  MESSAGE75='&Add to bookmarks';
-  MESSAGE76='&Remove from bookmarks';
   MESSAGE77='Bookmarks';
   MESSAGE78='Useful websites';
   MESSAGE79='Pozsi''s homepage';
@@ -1189,7 +1180,7 @@ begin
   fsplit(paramstr(0),exepath,p,p);
 
   // home directory
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   userdir:=getenvironmentvariable('HOME');
   {$ENDIF}
   {$IFDEF WIN32}
@@ -1203,7 +1194,7 @@ begin
   ForceDirectories(userdir+DIR_PICS);
 
   // language
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   s:=getenv('LANG');
   {$ENDIF}
   {$IFDEF WIN32}
@@ -1219,7 +1210,7 @@ begin
   if length(s)=0 then s:='en';
   lang:=lowercase(s[1..2]);
   // messages
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     {$IFDEF UseFHS}
       translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2trial.mo');
     {$ELSE}
@@ -1229,44 +1220,6 @@ begin
   {$IFDEF WIN32}
     translateresourcestrings(exepath+'languages\'+lang+'\tubes2trial.mo');
   {$ENDIF}
-  MenuItem1.Caption:=MESSAGE15;
-  MenuItem11.Caption:=MESSAGE16+'..';
-  MenuItem12.Caption:=MESSAGE03+'..';
-  MenuItem13.Caption:=MESSAGE32+'..';
-  MenuItem46.Caption:=MESSAGE05;
-  MenuItem14.Caption:=MESSAGE14;
-  MenuItem15.Caption:=MESSAGE52+'..';
-  MenuItem16.Caption:=MESSAGE17+'..';
-  MenuItem33.Caption:=MESSAGE62+'..';
-  MenuItem18.Caption:=MESSAGE18+'..';
-  MenuItem19.Caption:=MESSAGE16+'..';
-  MenuItem2.Caption:=MESSAGE01;
-  MenuItem22.Caption:=MESSAGE18+'..';
-  MenuItem24.Caption:=MESSAGE13;
-  MenuItem25.Caption:=MESSAGE14;
-  MenuItem20.Caption:=MESSAGE37;
-  MenuItem26.Caption:=MESSAGE38;
-  MenuItem28.Caption:=MESSAGE45;
-  MenuItem30.Caption:=MESSAGE45;
-  MenuItem3.Caption:=MESSAGE06;
-  MenuItem4.Caption:=MESSAGE07+'..';
-  MenuItem5.Caption:=MESSAGE17+'..';
-  MenuItem7.Caption:=MESSAGE09+'..';
-  MenuItem8.Caption:=MESSAGE12;
-  MenuItem9.Caption:=MESSAGE13;
-  MenuItem31.Caption:=MESSAGE48;
-  MenuItem48.Caption:=MESSAGE56;
-  MenuItem49.Caption:=MESSAGE45;
-  MenuItem50.Caption:=MESSAGE56;
-  MenuItem57.Caption:=MESSAGE68+'..';
-  MenuItem60.Caption:=MESSAGE65+'..';
-  MenuItem61.Caption:=MESSAGE66+'..';
-  MenuItem62.Caption:=MESSAGE72;
-  MenuItem63.Caption:=MESSAGE73;
-  MenuItem64.Caption:=MESSAGE74;
-  MenuItem66.Caption:=MESSAGE75;
-  MenuItem68.Caption:=MESSAGE75;
-  MenuItem65.Caption:=MESSAGE76;
   SpeedButton1.Hint:=MESSAGE46;
   SpeedButton2.Hint:=MESSAGE30;
   SpeedButton3.Hint:=MESSAGE62;
@@ -1274,12 +1227,9 @@ begin
   SpeedButton5.Hint:=MESSAGE61;
   ComboBox1.Hint:=MESSAGE49;
   ComboBox2.Hint:=MESSAGE78;
-  TabSheet1.Caption:=MESSAGE22;
-  TabSheet2.Caption:=MESSAGE55;
-  TabSheet4.Caption:=MESSAGE77;
 
   // set copying file
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     {$IFDEF UseFHS}
       copyfile:=instpath+'share/doc/tubes2-trial/COPYING';
     {$ELSE}
@@ -1291,7 +1241,7 @@ begin
   {$ENDIF}
 
   // set help file
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     {$IFDEF UseFHS}
       if FSearch('index.html',instpath+'share/tubes2-trial/help_'+lang)<>''
       then helpfile:=instpath+'share/tubes2-trial/help_'+lang+'/'
@@ -1314,7 +1264,7 @@ begin
   {$ENDIF}
 
   // search datafile - in original folder
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     {$IFDEF UseFHS}
       picspath:=instpath+'share/tubes2-trial/base/';
       if FSearch('version.txt',instpath+'share/tubes2-trial/library_'+lang)<>''
@@ -1372,7 +1322,7 @@ begin
 
   // count components
   compnumall:=0;
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     assignfile(xmlfile,xedfpath+'../index.csv');
   {$ENDIF}
   {$IFDEF WIN32}
@@ -1554,7 +1504,7 @@ var
     itype, icat: string;
   begin
     result:='';
-    {$IFDEF LINUX}
+    {$IFDEF UNIX}
       assignfile(tf,xedfpath+'../index.csv');
     {$ENDIF}
     {$IFDEF WIN32}

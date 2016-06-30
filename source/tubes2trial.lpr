@@ -2,7 +2,7 @@
 { | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | tubes2trial.lpr                                                          | }
-{ | project file                                                             | }
+{ | Project file                                                             | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -27,7 +27,7 @@ uses
   Dialogs, Forms, Interfaces, Sysutils, crt,
   // own forms:
   frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
-  frmtextview, frmupgrade, frmtester;
+  frmtextview, frmupgrade, frmtester, frmdrawer;
 var
   fe, fn: string;
   appmode: byte;
@@ -109,7 +109,7 @@ begin
   end;
   case appmode of
      0: help(true);
-//     4: frmdrawer.viewer:=true;
+     4: frmdrawer.viewer:=true;
     10: frmmain.cmdpnocheckupdate:=true;
     20: help(false);
     30: frmmain.cmdpoffline:=true;
@@ -123,8 +123,8 @@ begin
   Application.Initialize;
   case appmode of
     2: Application.CreateForm(TForm4, Form4);
-//    3: Application.CreateForm(TForm10, Form10);
-//    4: Application.CreateForm(TForm10, Form10);
+    3: Application.CreateForm(TForm10, Form10);
+    4: Application.CreateForm(TForm10, Form10);
   else
     begin
       Application.CreateForm(TForm1, Form1);
@@ -136,7 +136,7 @@ begin
       Application.CreateForm(TForm7, Form7);
       Application.CreateForm(TForm8, Form8);
       Application.CreateForm(TForm9, Form9);
-//      Application.CreateForm(TForm10, Form10);
+      Application.CreateForm(TForm10, Form10);
     end;
   end;
   Application.Run;

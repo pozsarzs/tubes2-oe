@@ -47,18 +47,11 @@ var
   Form5: TForm5; 
   b: byte;
   s: string;
-  
-Resourcestring
-  MESSAGE01='Base column';
-  MESSAGE02='&Start sort';
-  MESSAGE03='Sort';
-  MESSAGE04='&Close';
 
 implementation
 {$R *.lfm}
 uses frmMain;
-
-{ TForm5 }
+{TForm5}
 
 //-- start sort ----------------------------------------------------------------
 procedure TForm5.Button1Click(Sender: TObject);
@@ -96,10 +89,6 @@ end;
 //-- OnShow event --------------------------------------------------------------
 procedure TForm5.FormShow(Sender: TObject);
 begin
-  Label1.Caption:=MESSAGE01;
-  Button1.Caption:=MESSAGE02;
-  Form5.Caption:=MESSAGE03;
-  Button2.Caption:=MESSAGE04;
   ComboBox1.Items.Clear;
   for b:=0 to Form1.StringGrid1.ColCount-1
     do ComboBox1.Items.Add(Form1.StringGrid1.Cells[b,0]);

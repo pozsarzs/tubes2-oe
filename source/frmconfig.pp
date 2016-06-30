@@ -31,6 +31,7 @@ type
   TForm7 = class(TForm)
     Bevel1: TBevel;
     Bevel3: TBevel;
+    Bevel4: TBevel;
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;

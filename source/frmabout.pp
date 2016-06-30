@@ -57,10 +57,6 @@ var
   Form2: TForm2; 
 
 Resourcestring
-  MESSAGE01='About';
-  MESSAGE02='&Close';
-  MESSAGE03='Electrontube catalogue';
-  MESSAGE04='Licence: GNU GPL 3.0 or later.';
   MESSAGE05='Sorry, there is off-line mode.';
 
 implementation
@@ -113,10 +109,6 @@ end;
 //-- OnShow event --------------------------------------------------------------
 procedure TForm2.Form2Show(Sender: TObject);
 begin
-  Form2.Caption:=MESSAGE01;
   Label1.Caption:=frmmain.APPNAME+' '+frmmain.VERSION;
-  Label2.Caption:=MESSAGE03;
-  Label4.Caption:=MESSAGE04;
-  Button1.Caption:=MESSAGE02;
 end;
 end.

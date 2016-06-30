@@ -1,16 +1,16 @@
 object Form5: TForm5
-  Left = 366
-  Height = 112
-  Top = 212
-  Width = 251
+  Left = 545
+  Height = 104
+  Top = 264
+  Width = 250
   HorzScrollBar.Page = 246
   VertScrollBar.Page = 110
   ActiveControl = Button1
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
-  Caption = 'Form5'
-  ClientHeight = 112
-  ClientWidth = 251
+  Caption = 'Sort'
+  ClientHeight = 104
+  ClientWidth = 250
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -123,8 +123,8 @@ object Form5: TForm5
     Left = 16
     Height = 11
     Top = 14
-    Width = 32
-    Caption = 'Label1'
+    Width = 62
+    Caption = 'Base column'
     ParentColor = False
   end
   object ComboBox1: TComboBox
@@ -142,17 +142,17 @@ object Form5: TForm5
     Top = 32
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button1'
+    Caption = '&Start sort'
     OnClick = Button1Click
     TabOrder = 1
   end
   object Button2: TButton
-    Left = 173
+    Left = 171
     Height = 25
-    Top = 82
+    Top = 76
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button2'
+    Caption = '&Close'
     OnClick = Button2Click
     TabOrder = 2
   end

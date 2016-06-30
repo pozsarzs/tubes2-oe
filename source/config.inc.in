@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.1 trial * Electrontube catalogue                                | }
+{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
 { | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | config.inc(.in)                                                          | }
-{ | Setting for source code.                                                 | }
+{ | Setting for source code                                                  | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -34,7 +34,7 @@ const
   URL_HOMEPAGE_HU='http://www.pozsarzs.hu/tubes/tubes_hu.html';
   URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2trial/sponsors.csv';
   // user's folders
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     DIR_CACHE='/.cache/tubes2trial/';
     DIR_CONFIG='/.config/tubes2trial/';
     DIR_DATA='/.local/share/tubes2trial/';

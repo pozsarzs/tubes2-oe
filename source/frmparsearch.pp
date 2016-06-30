@@ -68,22 +68,12 @@ var
   i: integer;
 
 Resourcestring
-  MESSAGE01='Parameter search';
-  MESSAGE02='parameter/unit';
-  MESSAGE03='min.';
-  MESSAGE04='max.';
-  MESSAGE05='&Search';
-  MESSAGE06='&Close';
-  MESSAGE07='&Reset';
-  MESSAGE08='result list';
   MESSAGE09='Not found!';
-  MESSAGE10='&Jump';
 
 implementation
 {$R *.lfm}
 uses frmmain;
-
-{ TForm3 }
+{TForm3}
 
 procedure TForm3.CheckBox3Click(Sender: TObject);
 begin
@@ -245,15 +235,6 @@ begin
   ListBox1.Clear;
   CheckBox2.Checked:=false;
   CheckBox3.Checked:=false;
-  Form3.Caption:=MESSAGE01;
-  Label1.Caption:=MESSAGE02;
-  Label2.Caption:=MESSAGE03;
-  Label3.Caption:=MESSAGE04;
-  Label4.Caption:=MESSAGE08;
-  Button1.Caption:=MESSAGE05;
-  Button2.Caption:=MESSAGE06;
-  Button3.Caption:=MESSAGE07;
-  Button4.Caption:=MESSAGE10;
   ComboBox1.Clear;
   ComboBox2.Clear;
   ComboBox3.Clear;

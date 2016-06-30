@@ -1,16 +1,16 @@
 object Form3: TForm3
   Left = 347
-  Height = 168
-  Top = 257
-  Width = 497
+  Height = 166
+  Top = 66
+  Width = 496
   HorzScrollBar.Page = 503
   VertScrollBar.Page = 183
   ActiveControl = SpinEdit1
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
-  Caption = 'Form3'
-  ClientHeight = 168
-  ClientWidth = 497
+  Caption = 'Parameter search'
+  ClientHeight = 166
+  ClientWidth = 496
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -123,51 +123,51 @@ object Form3: TForm3
     Left = 40
     Height = 11
     Top = 16
-    Width = 32
-    Caption = 'Label1'
+    Width = 73
+    Caption = 'parameter/unit'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 168
     Height = 11
     Top = 16
-    Width = 32
-    Caption = 'Label2'
+    Width = 21
+    Caption = 'min.'
     ParentColor = False
   end
   object Label3: TLabel
     Left = 256
     Height = 11
     Top = 16
-    Width = 32
-    Caption = 'Label3'
+    Width = 25
+    Caption = 'max.'
     ParentColor = False
   end
   object Label4: TLabel
     Left = 349
     Height = 11
     Top = 16
-    Width = 32
-    Caption = 'Label4'
+    Width = 43
+    Caption = 'result list'
     ParentColor = False
   end
   object Button1: TButton
     Left = 4
     Height = 25
-    Top = 138
+    Top = 136
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button1'
+    Caption = '&Search'
     OnClick = Button1Click
     TabOrder = 11
   end
   object Button2: TButton
-    Left = 419
+    Left = 416
     Height = 25
-    Top = 138
+    Top = 136
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button2'
+    Caption = '&Close'
     OnClick = Button2Click
     TabOrder = 13
   end
@@ -223,10 +223,10 @@ object Form3: TForm3
   object Button3: TButton
     Left = 84
     Height = 25
-    Top = 138
+    Top = 136
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button3'
+    Caption = '&Reset'
     OnClick = Button3Click
     TabOrder = 12
   end
@@ -308,10 +308,10 @@ object Form3: TForm3
   object Button4: TButton
     Left = 165
     Height = 25
-    Top = 138
+    Top = 136
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button4'
+    Caption = '&Jump'
     Enabled = False
     OnClick = Button4Click
     TabOrder = 15

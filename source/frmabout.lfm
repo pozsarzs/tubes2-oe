@@ -1,13 +1,13 @@
 object Form2: TForm2
-  Left = 344
-  Height = 226
-  Top = 321
+  Left = 345
+  Height = 217
+  Top = 244
   Width = 378
   ActiveControl = Button1
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
-  Caption = 'Form2'
-  ClientHeight = 226
+  Caption = 'About'
+  ClientHeight = 217
   ClientWidth = 378
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
@@ -5441,8 +5441,8 @@ object Form2: TForm2
     Left = 13
     Height = 21
     Top = 40
-    Width = 51
-    Caption = 'Label2'
+    Width = 177
+    Caption = 'Electrontube catalogue'
     Font.CharSet = 19
     Font.Color = clMaroon
     Font.Height = 16
@@ -5466,8 +5466,8 @@ object Form2: TForm2
     Left = 13
     Height = 11
     Top = 136
-    Width = 32
-    Caption = 'Label4'
+    Width = 148
+    Caption = 'Licence: GNU GPL 3.0 or later.'
     Font.Color = clNone
     ParentColor = False
     ParentFont = False
@@ -5525,10 +5525,10 @@ object Form2: TForm2
   object Button1: TButton
     Left = 299
     Height = 25
-    Top = 194
+    Top = 188
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button1'
+    Caption = '&Close'
     OnClick = Button1Click
     TabOrder = 0
   end

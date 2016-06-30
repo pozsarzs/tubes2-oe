@@ -121,7 +121,14 @@ object Form7: TForm7
     Left = 4
     Height = 56
     Top = 120
-    Width = 358
+    Width = 178
+    Shape = bsFrame
+  end
+  object Bevel4: TBevel
+    Left = 186
+    Height = 56
+    Top = 120
+    Width = 176
     Shape = bsFrame
   end
   object OpenDialog1: TOpenDialog
