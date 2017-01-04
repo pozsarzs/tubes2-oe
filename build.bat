@@ -1,16 +1,14 @@
 @echo off
 rem ----------------------------------------------------------------------------
-'| Tubes2 Open edition 0.2 * Electrontube catalogue                            |
-'| Copyright (C) 2008-2017 Pozsar Zsolt pozsarzs@gmail.com                     |
-rem  R-circuits v0.4.1 * Resistor circuit calculator                            |
-rem  Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>
+rem  Tubes2 Open edition 0.2 * Electrontube catalogue
+rem  Copyright (C) 2008-2017 Pozsar Zsolt pozsarzs@gmail.com
 rem  build.bat
 rem  Utility for build/install/uninstall application on Windows
 rem ----------------------------------------------------------------------------
 
 set PPC=c:\lazarus\fpc\2.6.4\bin\i386-win32\ppc386.exe
 set LAZ=c:\lazarus\
-set NAME=R-circuits
+set NAME=Tubes2oe
 set /p VERSION=<documents\VERSION
 set OS=win32
 set ARCH=i386
@@ -51,7 +49,7 @@ set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
 cd source
 echo Compiling source code...
 echo.
-%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% r-circuits.lpr
+%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% tubes2oe.lpr
 echo.
 if errorlevel 0 echo Run 'build.bat install' to install application.
 cd ..
@@ -75,7 +73,7 @@ if not exist "%INSTDIR%" ( echo Error: target directory not found! & goto end )
 set INSTDIR=%INSTDIR%\%NAME%
 echo Selected target folder: %INSTDIR%
 echo %INSTDIR% > install.log
-if not exist "source\lib\%ARCH%-%OS%\r-circuits.exe" ( echo Error: firstly run "build.bat" to compile source code! & goto end )
+if not exist "source\lib\%ARCH%-%OS%\tubes2oe.exe" ( echo Error: firstly run "build.bat" to compile source code! & goto end )
 echo Installing application...
 md %INSTDIR%
 if not errorlevel 0 ( echo Error: cannot install application! & goto end )

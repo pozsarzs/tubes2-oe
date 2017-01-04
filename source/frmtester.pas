@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
-{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmdrawer.pp                                                             | }
-{ | Characteristic drawer tool                                               | }
+{ | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
+{ | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | frmtester.pp                                                             | }
+{ | Tube tester tool                                                         | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -20,26 +20,38 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-unit frmdrawer;
+unit frmtester;
 {$MODE OBJFPC}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  StdCtrls, ExtCtrls, Grids;
 type
-  TForm10 = class(TForm)
+  { TForm4 }
+  TForm4 = class(TForm)
+    Bevel2: TBevel;
+    Bevel3: TBevel;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    StringGrid1: TStringGrid;
+    StringGrid2: TStringGrid;
+    StringGrid3: TStringGrid;
   private
     { private declarations }
   public
     { public declarations }
   end;
 var
-  Form10: TForm10;
-  viewer: boolean;
+  Form4: TForm4;
+
 implementation
- {$R *.lfm}
+{$R *.lfm}
 
 initialization
-
 
 end.
 

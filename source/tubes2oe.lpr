@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
-{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
+{ | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | tubes2trial.lpr                                                          | }
 { | Project file                                                             | }
 { +--------------------------------------------------------------------------+ }
@@ -20,7 +20,7 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-program tubes2trial;
+program tubes2oe;
 {$MODE OBJFPC}{$H+}
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}

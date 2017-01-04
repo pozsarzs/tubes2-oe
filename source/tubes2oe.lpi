@@ -4,7 +4,7 @@
     <Version Value="9"/>
     <General>
       <MainUnit Value="0"/>
-      <Title Value="Tubes2 trial"/>
+      <Title Value="Tubes2 Open edition"/>
       <UseAppBundle Value="False"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
@@ -18,7 +18,7 @@
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="2"/>
       <MinorVersionNr Value="2"/>
-      <StringTable CompanyName="Pozsár Zsolt" FileDescription="Electrontube catalogue - trial version" LegalCopyright="(C)2008-2016 Pozsár Zsolt" ProductName="Tubes2 trial" ProductVersion="2.2"/>
+      <StringTable CompanyName="Pozsár Zsolt" FileDescription="Electrontube catalogue" LegalCopyright="(C)2008-2017 Pozsár Zsolt" ProductName="Tubes2 Open edition" ProductVersion="2.2"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -50,9 +50,9 @@
     </RequiredPackages>
     <Units Count="17">
       <Unit0>
-        <Filename Value="tubes2trial.lpr"/>
+        <Filename Value="tubes2oe.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="tubes2trial"/>
+        <UnitName Value="tubes2oe"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
@@ -62,7 +62,7 @@
         <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="frmmain.pp"/>
+        <Filename Value="frmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
@@ -71,14 +71,14 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="928"/>
-        <CursorPos X="3" Y="953"/>
+        <TopLine Value="216"/>
+        <CursorPos X="5" Y="230"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="frmabout.pp"/>
+        <Filename Value="frmabout.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
@@ -93,7 +93,7 @@
         <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="frmhelptext.pp"/>
+        <Filename Value="frmhelptext.pas"/>
         <ComponentName Value="Form3"/>
         <UnitName Value="frmhelptext"/>
         <TopLine Value="17"/>
@@ -101,7 +101,7 @@
         <UsageCount Value="2"/>
       </Unit3>
       <Unit4>
-        <Filename Value="frmhelppic.pp"/>
+        <Filename Value="frmhelppic.pas"/>
         <ComponentName Value="Form4"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
@@ -111,7 +111,7 @@
         <UsageCount Value="197"/>
       </Unit4>
       <Unit5>
-        <Filename Value="frmsort.pp"/>
+        <Filename Value="frmsort.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form5"/>
         <HasResources Value="True"/>
@@ -126,7 +126,7 @@
         <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
-        <Filename Value="frmupgrade.pp"/>
+        <Filename Value="frmupgrade.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form6"/>
         <HasResources Value="True"/>
@@ -141,14 +141,14 @@
         <LoadedDesigner Value="True"/>
       </Unit6>
       <Unit7>
-        <Filename Value="strconv.pp"/>
+        <Filename Value="strconv.pas"/>
         <UnitName Value="strconv"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
         <UsageCount Value="50"/>
       </Unit7>
       <Unit8>
-        <Filename Value="frmparsearch.pp"/>
+        <Filename Value="frmparsearch.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form3"/>
         <HasResources Value="True"/>
@@ -163,7 +163,7 @@
         <LoadedDesigner Value="True"/>
       </Unit8>
       <Unit9>
-        <Filename Value="frmconfig.pp"/>
+        <Filename Value="frmconfig.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form7"/>
         <HasResources Value="True"/>
@@ -178,7 +178,7 @@
         <LoadedDesigner Value="True"/>
       </Unit9>
       <Unit10>
-        <Filename Value="frmtextview.pp"/>
+        <Filename Value="frmtextview.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form8"/>
         <HasResources Value="True"/>
@@ -193,7 +193,7 @@
         <LoadedDesigner Value="True"/>
       </Unit10>
       <Unit11>
-        <Filename Value="frmprogressbar.pp"/>
+        <Filename Value="frmprogressbar.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form9"/>
         <HasResources Value="True"/>
@@ -208,7 +208,7 @@
         <LoadedDesigner Value="True"/>
       </Unit11>
       <Unit12>
-        <Filename Value="unttranslator.pp"/>
+        <Filename Value="unttranslator.pas"/>
         <UnitName Value="unttranslator"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
@@ -216,7 +216,7 @@
         <UsageCount Value="10"/>
       </Unit12>
       <Unit13>
-        <Filename Value="untstrconv.pp"/>
+        <Filename Value="untstrconv.pas"/>
         <UnitName Value="untstrconv"/>
         <EditorIndex Value="11"/>
         <WindowIndex Value="0"/>
@@ -233,7 +233,7 @@
         <UsageCount Value="9"/>
       </Unit14>
       <Unit15>
-        <Filename Value="frmtester.pp"/>
+        <Filename Value="frmtester.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form4"/>
         <HasResources Value="True"/>
@@ -248,7 +248,7 @@
         <LoadedDesigner Value="True"/>
       </Unit15>
       <Unit16>
-        <Filename Value="frmdrawer.pp"/>
+        <Filename Value="frmdrawer.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form10"/>
         <HasResources Value="True"/>
@@ -265,124 +265,124 @@
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="941" Column="3" TopLine="916"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="940" Column="3" TopLine="915"/>
       </Position1>
       <Position2>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="940" Column="3" TopLine="915"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="941" Column="3" TopLine="916"/>
       </Position2>
       <Position3>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="941" Column="3" TopLine="916"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="940" Column="3" TopLine="915"/>
       </Position3>
       <Position4>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="940" Column="3" TopLine="915"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="941" Column="3" TopLine="916"/>
       </Position4>
       <Position5>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="941" Column="3" TopLine="916"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="942" Column="3" TopLine="917"/>
       </Position5>
       <Position6>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="942" Column="3" TopLine="917"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="943" Column="3" TopLine="918"/>
       </Position6>
       <Position7>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="943" Column="3" TopLine="918"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="944" Column="3" TopLine="919"/>
       </Position7>
       <Position8>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="944" Column="3" TopLine="919"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="945" Column="3" TopLine="920"/>
       </Position8>
       <Position9>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="945" Column="3" TopLine="920"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="946" Column="3" TopLine="921"/>
       </Position9>
       <Position10>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="946" Column="3" TopLine="921"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="947" Column="3" TopLine="922"/>
       </Position10>
       <Position11>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="947" Column="3" TopLine="922"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="948" Column="3" TopLine="923"/>
       </Position11>
       <Position12>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="948" Column="3" TopLine="923"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="949" Column="3" TopLine="924"/>
       </Position12>
       <Position13>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="949" Column="3" TopLine="924"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="948" Column="3" TopLine="923"/>
       </Position13>
       <Position14>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="948" Column="3" TopLine="923"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="949" Column="3" TopLine="924"/>
       </Position14>
       <Position15>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="949" Column="3" TopLine="924"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="948" Column="3" TopLine="923"/>
       </Position15>
       <Position16>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="948" Column="3" TopLine="923"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="949" Column="3" TopLine="924"/>
       </Position16>
       <Position17>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="949" Column="3" TopLine="924"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="948" Column="3" TopLine="923"/>
       </Position17>
       <Position18>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="948" Column="3" TopLine="923"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="949" Column="3" TopLine="924"/>
       </Position18>
       <Position19>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="949" Column="3" TopLine="924"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="950" Column="3" TopLine="925"/>
       </Position19>
       <Position20>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="950" Column="3" TopLine="925"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="951" Column="3" TopLine="926"/>
       </Position20>
       <Position21>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="951" Column="3" TopLine="926"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="952" Column="3" TopLine="927"/>
       </Position21>
       <Position22>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="952" Column="3" TopLine="927"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="953" Column="3" TopLine="928"/>
       </Position22>
       <Position23>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="953" Column="3" TopLine="928"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="952" Column="3" TopLine="927"/>
       </Position23>
       <Position24>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="952" Column="3" TopLine="927"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="953" Column="3" TopLine="928"/>
       </Position24>
       <Position25>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="953" Column="3" TopLine="928"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="952" Column="3" TopLine="927"/>
       </Position25>
       <Position26>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="952" Column="3" TopLine="927"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="953" Column="3" TopLine="928"/>
       </Position26>
       <Position27>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="953" Column="3" TopLine="928"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="952" Column="3" TopLine="927"/>
       </Position27>
       <Position28>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="952" Column="3" TopLine="927"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="951" Column="3" TopLine="926"/>
       </Position28>
       <Position29>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="951" Column="3" TopLine="926"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="952" Column="3" TopLine="927"/>
       </Position29>
       <Position30>
-        <Filename Value="frmmain.pp"/>
-        <Caret Line="952" Column="3" TopLine="927"/>
+        <Filename Value="frmmain.pas"/>
+        <Caret Line="953" Column="3" TopLine="928"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>

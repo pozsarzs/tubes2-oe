@@ -2,12 +2,12 @@
 # | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
 # | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
-# | Make file                                                                  |
+# | Makefile for documents                                                     |
 # +----------------------------------------------------------------------------+
 
 include ../Makefile.global
 
-docfiles= `ls -I ?? | grep -v Makefile`
+docfiles= `ls | grep -v Makefile | grep -v ??`
 lang=
 
 all:
@@ -15,18 +15,18 @@ all:
 clean:
 
 install:
-	@echo -n Installing document files...
-	@$(install) --directory $(datadir)/doc/$(name1)/$(lang)
+	@echo -n "- Installing document files..."
+	@$(install) -d $(datarootdir)/doc/$(name)/$(lang)
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(install) --mode $(txtmode) $$x $(datadir)/doc/$(name1)/$(lang); fi; \
+	  if [ -e $$x ]; then $(install) -m $(txtmode) $$x $(datarootdir)/doc/$(name)/$(lang); fi; \
 	done
 	@echo "done."
 
 uninstall:
-	@echo -n Removing document files...
+	@echo -n "- Removing document files..."
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(rm) $(datadir)/doc/$(name1)/$(lang)/$$x; fi; \
+	  if [ -e $$x ]; then $(rm) $(datarootdir)/doc/$(name)/$(lang)/$$x; fi; \
 	done
-	@rmdir $(datadir)/doc/$(name1)/$(lang)
+	@rmdir $(datarootdir)/doc/$(name)/$(lang)
 	@echo "done."
 

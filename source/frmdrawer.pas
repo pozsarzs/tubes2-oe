@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
-{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmprogressbar.pp                                                        | }
-{ | Progress bar                                                             | }
+{ | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
+{ | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | frmdrawer.pp                                                             | }
+{ | Characteristic drawer tool                                               | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -20,26 +20,26 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-unit frmprogressbar;
-{$MODE OBJFPC}{$H+}
+unit frmdrawer;
+{$MODE OBJFPC}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, StdCtrls, ComCtrls;
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs;
 type
-  { TForm9 }
-  TForm9 = class(TForm)
-    Bevel1: TBevel;
-    ProgressBar1: TProgressBar;
+  TForm10 = class(TForm)
   private
     { private declarations }
   public
     { public declarations }
   end;
 var
-  Form9: TForm9;
-
+  Form10: TForm10;
+  viewer: boolean;
 implementation
-{$R *.lfm}
-{ TForm9 }
+ {$R *.lfm}
+
+initialization
+
+
 end.
+

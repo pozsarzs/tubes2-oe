@@ -1,18 +1,22 @@
+Short information
+-----------------
+Tubes2 Open edition * Electrontube catalog
+Copyright (C) 2011-2017 Pozsar Zsolt <pozsarzs@gmail.com>
+- Licence: GNU GPL 3.0 or later
+- OS: FreeBSD, Linux and Windows
+- Language: English and Hungarian
+- Homepage: <http://www.pozsarzs.hu/tubes/tubes_en.html>
+
 [EN] Information files:
-       Author                   documents/AUTHORS
-       Change log               documents/ChangeLog
-       Licence                  documents/COPYING
-       Installation             documents/INSTALL
-       General information      documents/README
-       Version                  documents/VERSION
-       Registration form        documents/reg_form.txt
-       Free registration form   documents/free_reg_form.txt
-       Supporter form           documents/support_form.txt
+       Author                          documents/AUTHORS
+       Change log                      documents/ChangeLog
+       General information             documents/README
+       Installation instruction        documents/INSTALL
+       Licence                         documents/COPYING
+       Order form                      documents/ordrform.txt
+       Version                         documents/VERSION
 
 [HU] Információs állományok:
-       Telepítés                documents/hu/INSTALL
-       Általános információk    documents/hu/README
-       Regisztrációs űrlap      documents/hu/reg_form.txt
-       Ingyenes reg. űrlap      documents/hu/free_reg_form.txt
-       Támogatói űrlap          documents/hu/support_form.txt
-
+       Általános információk           documents/hu/readme.txt
+       Megrendelőlap                   documents/hu/ordrform.txt
+       Telepítési utasítás             documents/hu/INSTALL

@@ -1,44 +1,54 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.1.1 trial * Electrontube catalogue                                |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
-# | Makefile.global(.in)                                                       |
-# | Input file for Makefile.global                                             |
+# | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
+# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Makefile.global                                                            |
+# | Global makefile for Unix-like systems                                      |
 # +----------------------------------------------------------------------------+
 
-name		= tubes2trial
-name1		= tubes2-trial
+name		= tubes2oe
 version		= @version@
 architecture	= @architecture@
+os              = @os@
 
 prefix		= @prefix@
 bindir		= @bindir@
 datarootdir	= @datarootdir@
-datadir		= @datadir@
 exec_prefix	= @exec_prefix@
 libdir		= @libdir@
-localedir	= @datadir@/locale
-mandir		= @datadir@/man
+localedir	= @datarootdir@/locale
+mandir		= @mandir@
 srcdir		= @srcdir@
 sysconfdir	= @sysconfdir@
-lazdir		= @lazdir@
+lcldir		= @lazdir@
 
 binmode		= 0755
 txtmode		= 0644
 
 install		= @install@
 make		= @make@
-rm		= @rm@ --force
+rm		= @rm@ -f
 
-fpflag		= @fpflag@ -Tlinux -dUseFHS -MObjFPC -Scgi -O1 -v0 \
-                  -Fi./lib/i386-linux/ \
-                  -Fu@lazdir@/lcl/units/i386-linux/ \
-                  -Fu@lazdir@/lcl/units/i386-linux/gtk2/ \
-                  -Fu@lazdir@/packager/units/i386-linux/ \
-                  -Fu@lazdir@/components/lazutils/lib/i386-linux/ \
-                  -Fu. \
+fpflag		= -T@os@ \
+                  -dUseFHS \
+                  -MObjFPC \
+                  -Scgi \
+                  -O1 \
+                  -ve \
                   -Fu./synapse/ \
-                  -Fu./lib/i386-linux/ \
-                  -FE./lib/i386-linux/ \
+                  -Fu./modules/ \
+                  -Fi@lcldir@/../components/printers/unix/ \
+                  -Fu@lcldir@/../components/cairocanvas/ \
+                  -Fu@lcldir@/../components/cairocanvas/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/lazutils/lib/@architecture@-@os@/ \
+                  -Fu@lcldir@/../components/printers/ \
+                  -Fu@lcldir@/../components/printers/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/printers/unix/ \
+                  -Fu@lcldir@/../packager/units/@architecture@-@os@/ \
+                  -Fu@lcldir@/units/@architecture@-@os@/ \
+                  -Fu@lcldir@/units/@architecture@-@os@/gtk2/ \
+                  -Fu. \
+                  -Fu./lib/@architecture@-@os@/ \
+                  -FE./lib/@architecture@-@os@/ \
                   -dLCL \
                   -dLCLgtk2
 

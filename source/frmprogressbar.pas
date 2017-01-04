@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 2.2 trial * Electrontube catalogue                                | }
-{ | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmtester.pp                                                             | }
-{ | Tube tester tool                                                         | }
+{ | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
+{ | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | frmprogressbar.pp                                                        | }
+{ | Progress bar                                                             | }
 { +--------------------------------------------------------------------------+ }
 
 {
@@ -20,38 +20,26 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
-unit frmtester;
-{$MODE OBJFPC}
+unit frmprogressbar;
+{$MODE OBJFPC}{$H+}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls, Grids;
+  ExtCtrls, StdCtrls, ComCtrls;
 type
-  { TForm4 }
-  TForm4 = class(TForm)
-    Bevel2: TBevel;
-    Bevel3: TBevel;
-    ComboBox1: TComboBox;
-    ComboBox2: TComboBox;
-    Label1: TLabel;
-    Label2: TLabel;
-    Label3: TLabel;
-    Label4: TLabel;
-    StringGrid1: TStringGrid;
-    StringGrid2: TStringGrid;
-    StringGrid3: TStringGrid;
+  { TForm9 }
+  TForm9 = class(TForm)
+    Bevel1: TBevel;
+    ProgressBar1: TProgressBar;
   private
     { private declarations }
   public
     { public declarations }
   end;
 var
-  Form4: TForm4;
+  Form9: TForm9;
 
 implementation
 {$R *.lfm}
-
-initialization
-
+{ TForm9 }
 end.
-

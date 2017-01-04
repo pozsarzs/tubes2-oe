@@ -1,37 +1,38 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
+# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file for FreePascal source.                                           |
 # +----------------------------------------------------------------------------+
 
 include ../Makefile.global
 
-srcfiles = tubes2trial.lpr
-binfiles = tubes2trial
+srcfiles = tubes2oe.lpr
+binfiles = tubes2oe
 
 all:
-	@echo Compiling source code...
+	@echo "- Compiling source code..."
+	@mkdir -p ./lib/$(architecture)-$(os)/
 	@for x in $(srcfiles); do \
 	  if [ -e $$x ]; then ppc386 $(fpflag) $$x; echo ""; fi; \
 	done
 	@echo "done."
 
 clean:
-	@echo -n Cleaning source code...
-	@$(rm) ./lib/i386-linux/*
+	@echo -n "- Cleaning source code..."
+	@$(rm) ./lib/$(architecture)-$(os)/*
 	@echo "done."
 
 install:
-	@echo -n Installing binary files...
-	@$(install) --directory $(bindir)
+	@echo -n "- Installing binary files..."
+	@$(install) -d $(bindir)
 	@for x in $(binfiles); do \
-	  if [ -e ./lib/i386-linux/$$x ]; then $(install) --mode $(binmode) ./lib/i386-linux/$$x $(bindir); fi; \
+	  if [ -e ./lib/$(architecture)-$(os)/$$x ]; then $(install) -m $(binmode) ./lib/$(architecture)-$(os)/$$x $(bindir); fi; \
 	done
 	@echo "done."
 
 uninstall:
-	@echo -n Installing manual files...
+	@echo -n "- Removing binary files..."
 	@for x in $(binfiles); do $(rm) $(bindir)/$$x; done
 	@echo "Done."
 
