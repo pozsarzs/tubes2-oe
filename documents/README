@@ -1,135 +1,151 @@
+Tubes2 and Tubes2 Open edition - electrontube catalogue
 
-                           About application
-                           ~~~~~~~~~~~~~~~~~
-
-1. General information
+I. About software
 
   This is an electrontube catalogue. Its database contents base type, pin-out
-and some parameters of components. This database is refreshing continuosly.
+and some parameters of components. The base database of both applications
+contains 4147 electrontube data. In on-line mode, Tubes2 notifies about
+available updates (except DOS version, this uses a batch file update).
 
-  OS support: Linux and Windows.
+  OS support: DOS (CUI version), FreeBSD, Linux and Windows.
   Language support: English and Hungarian.
 
-  You can download two version of this application:
-  - You can try out it with 'Trial' version for free. You can redistribute
-    this version and/or modify it under the terms of the GNU GPL 3.0 or later.
-  - By buying the 'Pro' version, youobtain non-transferable right to use
-    application and updates without restriction. 'Pro' version is distributed
-    WITHOUT ANY WARRANTY. You can copy and share it for free without personal
-    registration key, but decoding and analysing inner construction is are not
-    allowed. You are not allowed to transfer the registration for other person.
-    You may install this software on all operation systems of computer and all
-    of the users on computers may use it.
-
   Categories of database:
-    Cathode ray tube (for oscilloscope) Gas filled full-wave rectifiers (X)
-    Counter tubes (dekatrons)           Gas filled half-wave rectifiers (W)
-    Counter tubes (nomotrons)           Gas filled voltage stabilizer
-    Diode-duodiode (AB)                 Half-wave rectifiers (Y)
-    Diode-duodiode-powerpentodes (ABL)  Heil tubes
-    Diode-duodiode-triodes (ABC)        Heptodes (H)
-    Diode-heptodes (AH)                 Hexodes (H)
-    Diode-pentodes (AF)                 Nonodes (Q)
-    Diode-tetrodes (AE)                 Octodes (K)
-    Diode-triodes (AC)                  Pentode-secunder emission tube 
-    Diodes (A)                          Pentode-tuning indicator (FM)
-    Display tubes (Nixie tubes)         Pentodes (F)
-    Display tubes (flurotrons)          Photocells 
-    Display tubes (numitrons)           Power pentodes (L)
-    Duo-half-wave rectifiers (YY)       Power triodes (D)
-    Duo-powerpentodes (LL)              Tetrode-power pentodes (CL)
-    Duo-powertriodes (DD)               Tetrode-power tetrodes (CL)
-    Duodiode-pentodes (BF)              Tetrode-secunder emission tube
-    Duodiode-power pentodes (BL)        Tetrodes (E)
-    Duodiode-triodes (BC)               Thyratrons (N)
-    Duodiodes (AA)                      Triode-heptodes (CH)
-    Duodiodes (B)                       Triode-hexodes (CH)
-    Duopentodes (FF)                    Triode-pentodes (CF)
-    Duotetrodes (EE)                    Triode-power pentodes (CL)
-    Duotriodes (CC)                     Triode-power tetrodes (CL)
-    Full-wave rectifiers (Z)            Triodes (C)
-    Gas filled current stabilizers      Tuning indicator tube - "magic eye" (M)
 
-  The base database of both applications contains 4147 electrontube data. Trial
-version uses xedf type, pro uses encoded, cxedf type datafiles. Pro version
-application's database updates monthly. In on-line mode, Tubes2 notifies about
-available updates.
+  * Cathode ray tube (for oscilloscope)   * Gas filled full-wave rectifiers (X)
+  * Counter tubes (dekatrons)             * Gas filled half-wave rectifiers (W)
+  * Counter tubes (nomotrons)             * Gas filled voltage stabilizer
+  * Diode-duodiode (AB)                   * Half-wave rectifiers (Y)
+  * Diode-duodiode-powerpentodes (ABL)    * Heil tubes
+  * Diode-duodiode-triodes (ABC)          * Heptodes (H)
+  * Diode-heptodes (AH)                   * Hexodes (H)
+  * Diode-pentodes (AF)                   * Nonodes (Q)
+  * Diode-tetrodes (AE)                   * Octodes (K)
+  * Diode-triodes (AC)                    * Pentode-secunder emission tube
+  * Diodes (A)                            * Pentode-tuning indicator (FM)
+  * Display tubes (Nixie tubes)           * Pentodes (F)
+  * Display tubes (flurotrons)            * Photocells
+  * Display tubes (numitrons)             * Power pentodes (L)
+  * Duo-half-wave rectifiers (YY)         * Power triodes (D)
+  * Duo-powerpentodes (LL)                * Tetrode-power pentodes (CL)
+  * Duo-powertriodes (DD)                 * Tetrode-power tetrodes (CL)
+  * Duodiode-pentodes (BF)                * Tetrode-secunder emission tube
+  * Duodiode-power pentodes (BL)          * Tetrodes (E)
+  * Duodiode-triodes (BC)                 * Thyratrons (N)
+  * Duodiodes (AA)                        * Triode-heptodes (CH)
+  * Duodiodes (B)                         * Triode-hexodes (CH)
+  * Duopentodes (FF)                      * Triode-pentodes (CF)
+  * Duotetrodes (EE)                      * Triode-power pentodes (CL)
+  * Duotriodes (CC)                       * Triode-power tetrodes (CL)
+  * Full-wave rectifiers (Z)              * Triodes (C)
+  * Gas filled current stabilizers        * Tuning indicator tubes (M)
 
-2. Registration and support
+You can choice between following two versions of Tubes2:
 
-a. Free trial product key 
-   You can order trial (with 1 month time-limit) product key for free. Everyone
-order it one time only. To order, fill out registration form (reg_form.txt,
-annexed to application) or on-line form on homepage.
+1. Tubes2 Open Edition
 
-b. Free product key(s) - in exchange translate 
-  If you translate the 'translate package' to any language you can get 2 pieces
-personal (home use only - 1 computer) licences or 1 pc. education/non-profit
-organisation/commercial (2-5 computers) licence for free. To apply, fill out
-registration form (free_reg_form.txt, annexed to application) or on-line form
-on homepage. If the language, what you have specified is busy, your request
-will be rejected. I will send e-mail about it.
+  +   You can use it for free.
+  +   Its base database contains 4147 electrontubes data record.
+  +   There are one kind of installer package for DOS and FreeBSD,
+      three kinds for Windows and seven kinds for Linux.
+  +   Source code is available.
+  +   Doesn't request serial number and product key.
+  +   No time limit.
+  +   You can update datafiles from internet.
+  -   It uses plain (edf or xedf) datafiles only.
+  -   Tubes2 Open edition's database updates only one times on year.
+  *   You can redistribute this version and/or modify it under the terms of the
+      GNU GPL 3.0 or later.
 
-  Conditions:
-  - Just give free licence to the completely translated package. You will get
-    serial number and keyfile after I checked the package.
-  - Character set must be UTF-8.
+2. Tubes2
 
-  Translate package: http://www.pozsarzs.hu/tubes/tubes2_translate.zip
-  Released language packages will downloadable for both (trial/pro) versions.
+  +   It is a cheap electrontubes catalog.
+  +   Its base database contains 4147 electrontubes data record.
+  +   There are one kind of installer package for DOS and FreeBSD, three
+      kinds for Windows and six kinds for Linux.
+  +   You can buy more kinds of product keys (personal/education/non-profit/
+      business for 1/2-5/5+ computers).
+  +   It uses plain and encoded (edf/cedf or xedf/cxedf) datafiles.
+  +   Tubes2's database updates monthly.
+  +   You can update datafiles from internet.
+  -   Source code is not available.
+  *   By buying Tubes2, you obtain non-transferable right to use application
+      and updates without restriction.
 
-c. Registration 
-  If you want to buy normal licence without time-limit, fill out registration
-form (reg_form.txt, annexed to application) or on-line form on homepage.
+II. How to get product key for Tubes2?
 
-d. Support/advertise 
-  If you are electrontube manufacturer or distributor and you want a cheap
-advertisement then support Tubes2 projekt. I show your web address in link box
-on Tubes2 applications and on homepage of the project, and include your
-electrontubes to Tubes2 database. To apply, fill out support form
-(support_form.txt, annexed to application) or on-line form on homepage.
+   If you want to buy licence without time-limit, fill out order form
+(ordrform.txt, annexed to application) or on-line form at homepage.
 
-  After you sent the registration form, you will receive a confirmation e-mail
-with the amount to be paid. After paying you will receive invoice in PDF
-format.
+III. How to get installer package for my OS?
 
-3. Installer packages
+   Visit homepage (see later) to download installer packages:
 
-a. for Linux
-  tubes2-trial-2.1-1.i386.rpm
-  tubes2-trial-2.1-i586-1.txz
-  tubes2-trial-2.1-i586.bin
-  tubes2-trial-2.1-i586.tar.gz
-  tubes2-trial-2.1.package
-  tubes2-trial_2.1-1_i386.deb
-  tubes2-pro-2.1-1.i386.rpm
-  tubes2-pro-2.1-i586-1.txz
-  tubes2-pro-2.1-i586.bin
-  tubes2-pro-2.1-i586.tar.gz
-  tubes2-pro-2.1.package
-  tubes2-pro_2.1-1_i386.deb
+  DOS:         tubeso02.zip                    portable (with source)
+               edf-tubes2-YYMMDD-en.zip
 
-b. for Windows
-  tubes2-trial-2.1-win32.exe
-  tubes2-trial-2.1-win32.msi
-  tubes2-trial-2.1-win32.zip
-  tubes2-pro-2.1-win32.exe
-  tubes2-pro-2.1-win32.msi
-  tubes2-pro-2.1-win32.zip
+               tubes02.zip                     portable
+               cedf-tubes2-YYMMDD-en.zip
+  -----------------------------------------------------------------------------
+  FreeBSD:     tubes2oe-2.2.txz
+               tubes2oe-2.2-FreeBSD-Port.shar  port package
+               xedf-tubes2-YYMMDD-en.zip
 
-c. source package
-  tubes2-trial-2.1.tar.gz
+               tubes2-2.2.txz
+               cxedf-tubes2-YYMMDD-en.zip
+  -----------------------------------------------------------------------------
+  Linux:       tubes2oe_2.2-1_i386.deb         Debian GNU/Linux
+               tubes2oe-2.2-i586-1.txz         Slackware
+               tubes2oe-2.2-1.i386.rpm         Suse Linux
+               tubes2oe-2.2-i586.bin           (linux-i586)
+               tubes2oe-2.2-i586.tar.gz        (linux-i586) - portable
+               tubes2oe-2.2.package            (linux-i586)
+               xedf-tubes2-YYMMDD-en.zip
 
-4. Settings
+               tubes2_2.2-1_i386.deb           Debian GNU/Linux
+               tubes2-2.2-i586-1.txz           Slackware
+               tubes2-2.2-1.i386.rpm           Suse Linux
+               tubes2-2.2-i586.bin             (linux-i586)
+               tubes2-2.2-i586.tar.gz          (linux-i586) - portable
+               tubes2-2.2.package              (linux-i586)
+               cxedf-tubes2-YYMMDD-en.zip
+  -----------------------------------------------------------------------------
+  Windows:     tubes2oe-2.2-win32.exe
+               tubes2oe-2.2-win32.msi
+               tubes2oe-2.2-win32.zip          portable
+               xedf-tubes2-YYMMDD-en.zip
 
-  On linux use 'LANG' environment variable to set language of the application.
-  (English: en_US, Hungarian: hu_HU).
+               tubes2-2.2-win32.exe
+               tubes2-2.2-win32.msi
+               tubes2-2.2-win32.zip            portable
+               cxedf-tubes2-YYMMDD-en.zip
+  -----------------------------------------------------------------------------
+  source:      tubes2oe-2.2.tar.gz
+               xedf-tubes2-YYMMDD-en.zip
 
-5. Important information
+IV. Settings
 
-  Copyright (C) 2008-2016 Pozsár Zsolt <pozsarzs@gmail.com>
+  DOS:
+  - Set LANG environmental variable to set language (e.g. LANG=en).
+  - Edit CONFIG/TUBES2*.CFG file to set program.
+  - For update from internet function, install packet driver for your NIC
+    (e.g. C:\DRIVERS\3C509\PKTDVR\3C5X9PD 0X60).
+  - Edit CONFIG/WATTCP.CFG file (network settings).
+  - If a WATTCP.CFG environmental variable exists and its value is good,
+    you can skip previous step.
 
-a. Terms and conditions of the 'Trial' version:
+  FreeBSD, Linux:
+  - Set LANG environmental variable to set language (e.g. LANG=en).
+  - Use 'File/Settings' in main menu to set application.
+
+  Windows:
+  - Use 'File/Settings' in main menu to set application.
+
+V. Important information
+
+  Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>
+
+1. Terms and conditions of Tubes2 Open edition:
 
   This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -143,28 +159,27 @@ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
   You should have received a copy of the GNU General Public License along with
 this program.  If not, see <http://www.gnu.org/licenses/>.
 
-b. Terms and conditions of the 'Pro' version:
+2. Terms and conditions of the Tubes2:
 
   - This application is distributed WITHOUT ANY WARRANTY.
-  - You can copy  and  share this software for free without personal
-    registration key.
-  - You  are   not allowed to  decode  and  analyse  inner contruction
-    of this software.
-  - You are not allowed to transfer the registration for other person.
+  - You can copy and share this software for free without personal
+    product key.
+  - You are not allowed to decode and analyse inner contruction of this
+    software.
+  - You are not allowed to transfer the serial number and product key for
+    other person.
   - You may install this software on all operation systems of computer and
     all of the users on computers may use it.
 
-6. Download and contact
+VI. Contact
 
-   Homepage:             <http://www.pozsarzs.hu>
-   Facebook:             <http://www.facebook.com/pozsarzs.hu>
+   Homepage:             <http://www.pozsarzs.hu/tubes/tubes_en.html>
 
    Author:               Pozsar Zsolt self-employed
    Tax ID:               60407850-1-36
    Registration num.:    20703695
-   
+
    E-mail:               <pozsarzs@gmail.com>
-   
    Phone:                +36 56/470-272
    Fax:                  +36 56/470-272
    Mobile:               +36 30/359-8783
@@ -176,4 +191,3 @@ b. Terms and conditions of the 'Pro' version:
    GIRO:                 10400061-67514856-53531005 (K&H Bank)
    IBAN:                 HU08 1040 0061 6751 4856 5353 1005
    PayPal:               pozsarzs@gmail.com
-

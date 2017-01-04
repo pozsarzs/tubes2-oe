@@ -1,37 +1,35 @@
-                                                                      Tubes2 pro
+                                                                         Tubes2
 --------------------------------------------------------------------------------
 
-                             REGISZTRÁCIÓS ŰRLAP
+                          M E G R E N D E L Ő L A P
 
  Reg. név (1):       ..........................................................
 
- OS változat (2):    [ ]  GNU/Linux: ..........................................
+ OS változat (2):    [ ]  DOS: ................................................
+                     [ ]  FreeBSD: ............................................
+                     [ ]  GNU/Linux: ..........................................
                      [ ]  Windows: ............................................
 
- Licenc típus:       ( )  Időkorlátos próba termékkulcs igénylése         0 HUF
-                     ( )  Időkorlát nélkül:
-                          - Magáncélú, otthoni felhasználásra
-                            [ ]  1 számítógépre                       1 990 HUF
+ Licenc típus:       Magáncélú, otthoni felhasználásra
+                     [ ]  1 számítógépre                              2 750 HUF
 
-                          - Oktatási intézmény részére
-                            [ ]  1 számítógépre                       1 990 HUF
-                            [ ]  2-5 számítógépre                     3 980 HUF
-                            [ ]  5-.. számítógépre                    9 950 HUF
+                     Oktatási intézmény részére
+                     [ ]  1 számítógépre                              2 500 HUF
+                     [ ]  2-5 számítógépre                            5 000 HUF
+                     [ ]  5-.. számítógépre                          12 500 HUF
 
-                          - Non-profit szervezet részére
-                            [ ]  1 számítógépre                       1 990 HUF
-                            [ ]  2-5 számítógépre                     3 980 HUF
-                            [ ]  5-.. számítógépre                    9 950 HUF
+                     Non-profit szervezet részére
+                     [ ]  1 számítógépre                              2 750 HUF
+                     [ ]  2-5 számítógépre                            5 500 HUF
+                     [ ]  5-.. számítógépre                          13 750 HUF
 
-                          - Üzleti használatra
-                            [ ]  1 számítógépre                       2 490 HUF
-                            [ ]  2-5 számítógépre                     4 980 HUF
-                            [ ]  5-.. számítógépre                   12 450 HUF
+                     Üzleti használatra
+                     [ ]  1 számítógépre                              3 000 HUF
+                     [ ]  2-5 számítógépre                            6 000 HUF
+                     [ ]  5-.. számítógépre                          15 000 HUF
 
  Kér-e adathordozót? ( )  nem                                             0 HUF
                      ( )  igen                     +csomagolási és postaköltség
-                          - [ ]  Magyar Posta
-                          - [ ]  Webox
 
  Fizetési mód:       ( )  banki készpénz befizetés
                      ( )  banki átutalás
@@ -56,7 +54,7 @@
   Állam/Megye:       ..........................................................
   Ir. szám/Város:    ....... . ................................................
   Cím:               ..........................................................
- 
+
  Postázási adatok                                    [ ] Megegyezik az előzővel
   Név:               ..........................................................
   Ország:            ..........................................................

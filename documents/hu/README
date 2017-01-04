@@ -1,157 +1,164 @@
+Tubes2/Tubes2 Open edition - elektroncső katalógus
 
-                           Információk az alkalmazásról
-                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. A szoftverről
 
-1. Általános információk
+  Ez egy folyamatosan bővülő elektroncső katalógus. Az alkalmazás adatbázisa
+tartalmazza az elektroncsövek csőfej típusát, csőfejbekötését és fontosabb
+adatait. Mindkét változat alap adatbázisa 4147 elektroncső adatait tartalmazza.
+Az alkalmazás on-line módban tájékoztat az elérhető frissítésekről (kivéve a
+DOS-os változat, amely külső parancsfájl segítségével frissíthető).
 
-  Ez egy folyamatosan bôvülô elektroncsô katalógus. Az alkalmazás adatbázisa
-tartalmazza az elektroncsövek csôfej típusát, csôfejbekötését és fontosabb
-adatait.
-
-  Operációs rendszerek: Linux és Windows.
+  Operációs rendszerek: DOS (CUI változat), FreeBSD, Linux és Windows.
   Nyelvi támogatás: angol és magyar.
 
-  A honlapról a Tubes2 kétféle változatát töltheti le:
-  - A trial változat segítségével a teljes értékû termék megvétele elôtt
-    díjmentesen kipróbálhatja és eldöntheti, hogy megfelel-e az elvárásának. A
-    "trial" változat a GNU GPL 3.0 szerint módosítható és/vagy terjeszthetô.
-  - A pro változat csak érvényes termékkulccsal használható, amely
-    megvásárlásával a felhasználó át nem ruházható jogot szerez az
-    alkalmazásnak és a frissítéseinek korlátozás nélküli használatára. A "pro"
-    változat GARANCIA NÉLKÜL kerül terjesztésre. Az alkalmazás a személyre szóló
-    regisztrációs kulcs nélkül szabadon másolható és terjeszthetô, de a
-    visszafejtése, a belsô felépítésének elemzése tilos. A Tubes2 a
-    regisztráláskor megadott megadott számítógépen lévô összes operációs
-    rendszerre telepíthetô, és azokat a számítógép összes felhasználója
-    használhatja.
-
   A katalógus az elektroncsöveket az alábbi kategóriákba sorolja:
-   amplitronok                           kettős-teljesítménytriódák (DD)
-   dekatronok                            kettősdióda-teljesítménypentódák (BL)
-   dióda-heptódák (AH)                   kettősdióda-triódák (BC)
-   dióda-kettősdióda-                    kettőspentódák (FF)
-   teljesítménypentódák (ABL)            kettőstetródák (EE)
-   dióda-kettősdióda-triódák (ABC)       kettőstriódák (CC)
-   dióda-kettősdiódák (AB)               klisztronok
-   dióda-pentódák (AF)                   kétutas egyenirányítók (Z)
-   dióda-tetródák (AE)                   magnetronok
-   dióda-triódák (AC)                    nixie csövek
-   diódák (A)                            nomotronok
-   egyutas egyenirányítók (Y)            nonodes (Q)
-   flurotronok                           numitronok
-   fotocellák                            októdák (K)
-   gáztöltésû feszültség stabilizátorok  pentóda-hangolásjelzû csövek (FM)
-   gáztöltésû áram stabilizátorok        pentóda-szekunder emissziós cső (FP)
-   gáztöltésű egyutas egyenirányítók (W) pentódák (F)
-   gáztöltésű kétutas egyenirányítók (X) stabilitronok
-   hangolásjelző csövek (M)              teljesítmény pentódák (L)
-   ueil cső                              teljesítmény tetródák (L)
-   heptódák (H)                          teljesítmény triódák (D)
-   hexódák (H)                           tetróda-szekunder emissziós cső (EP)
-   karcinotronok                         tetróda-teljesítménypentódák (CL)
-   katódsugárcsövek (egyéb)              tetróda-teljesítménytetródák (CL)
-   katódsugárcsövek (monitor, TV)        tetródák (E)
-   katódsugárcsövek (oszcilloszkóp)      tirátronok (N)
-   kettôs teljesítmény pentódák (LL)     trióda-heptódák (CH)
-   kettôsdióda-pentódák (BF)             trióda-hexódák (CH)
-   kettôsdiódák (B)                      trióda-pentódák (CF)
-   kettős diódák (AA)                    trióda-teljesítménypentódák (CL)
-   kettős egyutas egyenirányítók (YY)    trióda-teljesítménytetródák (CL)
-   kettős-teljesítménytetródák (LL)      triódák (C)
 
-  Mindkét változat alap adatbázisa 4147 elektroncső adatait tartalmazza. A
-trial változat xedf típusú adatfájlokat, a pro kódolt, cxedf típusú
-adatfájlokat használ. A pro adatbázisa havi rendszerességel frissül. Az
-alkalmazás (on-line módban) tájékoztat az elérhető frissítésekről.
+  * amplitronok                           * kettős-teljesítménytriódák (DD)
+  * dekatronok                            * kettősdióda-teljesítménypentódák (BL)
+  * dióda-heptódák (AH)                   * kettősdióda-triódák (BC)
+  * dióda-kettősdióda-                    * kettőspentódák (FF)
+  * teljesítménypentódák (ABL)            * kettőstetródák (EE)
+  * dióda-kettősdióda-triódák (ABC)       * kettőstriódák (CC)
+  * dióda-kettősdiódák (AB)               * klisztronok
+  * dióda-pentódák (AF)                   * kétutas egyenirányítók (Z)
+  * dióda-tetródák (AE)                   * magnetronok
+  * dióda-triódák (AC)                    * nixie csövek
+  * diódák (A)                            * nomotronok
+  * egyutas egyenirányítók (Y)            * nonodes (Q)
+  * flurotronok                           * numitronok
+  * fotocellák                            * októdák (K)
+  * gáztöltésű feszültség stabilizátorok  * pentóda-hangolásjelző csövek (FM)
+  * gáztöltésű áram stabilizátorok        * pentóda-szekunder emissziós cső (FP)
+  * gáztöltésű egyutas egyenirányítók (W) * pentódák (F)
+  * gáztöltésű kétutas egyenirányítók (X) * stabilitronok
+  * hangolásjelző csövek (M)              * teljesítmény pentódák (L)
+  * Heil cső                              * teljesítmény tetródák (L)
+  * heptódák (H)                          * teljesítmény triódák (D)
+  * hexódák (H)                           * tetróda-szekunder emissziós cső (EP)
+  * karcinotronok                         * tetróda-teljesítménypentódák (CL)
+  * katódsugárcsövek (egyéb)              * tetróda-teljesítménytetródák (CL)
+  * katódsugárcsövek (monitor, TV)        * tetródák (E)
+  * katódsugárcsövek (oszcilloszkóp)      * tirátronok (N)
+  * kettős teljesítmény pentódák (LL)     * trióda-heptódák (CH)
+  * kettősdióda-pentódák (BF)             * trióda-hexódák (CH)
+  * kettősdiódák (B)                      * trióda-pentódák (CF)
+  * kettős diódák (AA)                    * trióda-teljesítménypentódák (CL)
+  * kettős egyutas egyenirányítók (YY)    * trióda-teljesítménytetródák (CL)
+  * kettős-teljesítménytetródák (LL)      * triódák (C)
 
-2. Regisztráció és támogatás
+A honlapról a Tubes2 kétféle változatát töltheti le:
 
-a. Ingyenes próba termékkulcs igénylése 
-  Lehetőség van 1 hónapig érvényes ingyenes próba termékkulcs igénylésére
-amelyet az alkalmazáshoz mellékelt regisztrációs űrlap (reg_form.txt) vagy
-a honlapon lévő űrlap kitöltésével és elküldésével igényelhet. Minden
-igénylő csak egyszer kaphat ingyenes próba termékkulcsot.
+1. Tubes2 Open edition
 
-b. Ingyenes termékkulcs(ok) - fordításért cserébe 
+  +  Ingyen és szabadon használható.
+  +  Az alap adatbázisa 4147 elektroncső adat bejegyzést tartalmaz.
+  +  DOS-hoz és FreeBSD-hez 1-1 féle, Windows-hoz 3, Linuxhoz 7 féle
+     telepítőcsomaggal rendelkezik.
+  +  Elérhető a forráskód.
+  +  Nem igényel sorozatszámot és termékkulcsot.
+  +  Nincs időkorlát.
+  +  Az adatfájlok internetről frissíthetőek.
+  -  Csak a nyílt (edf vagy xedf) adatfájlokat képes kezelni.
+  -  Az alkalmazás adatbázisa évente egyszer frissül.
+  *  A Tubes2 Open edition a GNU GPL 3.0 szerint módosítható és/vagy
+     terjeszthető.
 
-   Az letölthetô fordítási csomag bármely nyelvre történô lefordításával
-magánszemélyek 2 db 1 számítógépes, oktatási intézmények, non-profit
-szervezetek és az üzleti felhasználók 1 db 2-5 számítógépes licencet
-szerezhetnek ingyen. Jelentkezni az alkalmazáshoz mellékelt regisztrációs űrlap
-(free_reg_form.txt) vagy a honlapon lévő űrlap kitöltésével és elküldésével
-tud. Ha az Ön által megjelölt nyelvû fordítás már létezik vagy elkészítése
-folyamatban van, akkor errôl tájékoztatást fog kapni.
+2. Tubes2
 
-A részvétel feltételei:
-  - Ingyen licenc csak a teljesen lefordított csomagért adható. A licenckulcs és
-    a sorozatszám megküldése a beküldött csomag ellenôrzése után történik;
-  - A lefordított fájlok karakterkódolása csak UTF-8 lehet.
+  +  Ez egy olcsó elektroncső katalógus.
+  +  Az alap adatbázisa 4147 elektroncső adat bejegyzést tartalmaz.
+  +  DOS-hoz és FreeBSD-hez 1-1 féle, Windows-hoz 3, Linuxhoz 6 féle
+     telepítőcsomaggal rendelkezik.
+  +  Vásárolhat többféle termékkulcsot (otthoni/oktatási/non-profit/üzleti
+     1/2-5/5+ számítógépre).
+  +  A Tubes2 a nyílt és a kódolt (edf/cedf vagy xedf/cxedf) adatfájlok
+     használatát is támogatja.
+  +  Az adatfájlok az internetről frissíthetőek.
+  +  Az alkalmazás adatbázisa minden hónapban frissül.
+  -  A forráskód nem elérhető.
+  *  Tubes2 csak érvényes termékkulccsal használható, amely megvásárlásával
+     a felhasználó át nem ruházható jogot szerez az alkalmazásnak és a
+     frissítéseinek korlátozás nélküli használatára.
 
-  Fordítási csomag: http://www.pozsarzs.hu/tubes/tubes2_translate.zip
-  Az elkészült nyelvi csomagok mindkét változat részére letölthetôek.
+II. Hogyan szerezhetek termékkulcsot a Tubes2-höz?
 
-c. Regisztráció 
-   Időkorlát nélküli termékkulcsot az alkalmazáshoz mellékelt regisztrációs
-űrlap (reg_form.txt) vagy a honlapon lévő űrlap kitöltésével és elküldésével
+  Időkorlát nélküli termékkulcsot az alkalmazáshoz mellékelt regisztrációs
+űrlap (ordrform.txt) vagy a honlapon lévő űrlap kitöltésével és elküldésével
 igényelhet.
 
-d. Támogatás/reklám 
-   Elektroncsô gyártásával és forgalmazásával foglalkozó vállalkozók és cégek
-részére lehetôség van a projekt támogatására. A támogatás éves díja az otthoni
-felhasználású licenc árával megegyezik. A támogatásért cserébe a cég által
-gyártott elektroncsövek adatait a szerepeltetjük katalógusban (külön megjelölve
-a gyártót), a cég honlapját, a projekt honlapján és az alkalmazás mindkét
-változatából elérhetôvé tesszük. Jelentkezni az alkalmazáshoz mellékelt
-regisztrációs űrlap (support_form.txt) vagy a honlapon lévő űrlap kitöltésével
-és elküldésével lehet. 
+III. Hogyan szerezhetek telepítő csomagot az általam használt
+     operációs rendszerhez?
 
-   Az ûrlapok beérkezése után visszaigazolást fog kapni e-mailben amely
-tartalmazza a fizetendô összeget. Az e-mailben megküldött végösszeg
-kiegyenlítése történhet banki átutalással vagy PayPal-on keresztül. Az összeg
-beérkezése után e-mailben fogja megkapni a számlát PDF formátumban.
+  Látogassa meg a honlapot (a címet lásd később) az alábbi telepítőcsomagok
+  letöltéséhez:
 
-3. Telepítő csomagok
+  DOS:         tubesoe02.zip                    hordozható (forráskóddal)
+               edf-tubes2-YYMMDD-hu.zip
 
-a. Linuxra
-  tubes2-trial-2.1-1.i386.rpm
-  tubes2-trial-2.1-i586-1.txz
-  tubes2-trial-2.1-i586.bin
-  tubes2-trial-2.1-i586.tar.gz
-  tubes2-trial-2.1.package
-  tubes2-trial_2.1-1_i386.deb
-  tubes2-pro-2.1-1.i386.rpm
-  tubes2-pro-2.1-i586-1.txz
-  tubes2-pro-2.1-i586.bin
-  tubes2-pro-2.1-i586.tar.gz
-  tubes2-pro-2.1.package
-  tubes2-pro_2.1-1_i386.deb
+               tubes02.zip                      hordozható
+               cedf-tubes2-YYMMDD-hu.zip
+  -----------------------------------------------------------------------------
+  FreeBSD:     tubes2oe-2.2.txz
+               tubes2oe-2.2-FreeBSD-Port.shar   port cdomag
+               xedf-tubes2-YYMMDD-hu.zip
 
-b. Windows-ra
-  tubes2-trial-2.1-win32.exe
-  tubes2-trial-2.1-win32.msi
-  tubes2-trial-2.1-win32.zip
-  tubes2-pro-2.1-win32.exe
-  tubes2-pro-2.1-win32.msi
-  tubes2-pro-2.1-win32.zip
+               tubes2-2.2.txz
+               cxedf-tubes2-YYMMDD-hu.zip
+  -----------------------------------------------------------------------------
+  Linux:       tubes2oe_2.2_i386.deb            Debian GNU/Linux
+               tubes2oe-2.2-i586-1.txz          Slackware
+               tubes2oe-2.2-1.i586.rpm          Suse Linux
+               tubes2oe-2.2-i586.bin            (linux-i586)
+               tubes2oe-2.2-i586.tar.gz         (linux-i586) - hordozható
+               tubes2oe-2.2.package             (linux-i586)
+               xedf-tubes2-YYMMDD-hu.zip
 
-c. forrásnyelvű csomag
-   tubes2-trial-2.1.tar.gz
+               tubes2_2.2_i386.deb              Debian GNU/Linux
+               tubes2-2.2-i586-1.txz            Slackware
+               tubes2-2.2-1.i586.rpm            Suse Linux
+               tubes2-2.2-i586.bin              (linux-i586)
+               tubes2-2.2-i586.tar.gz           (linux-i586) - hordozható
+               tubes2-2.2.package               (linux-i586)
+               cxedf-tubes2-YYMMDD-hu.zip
+  -----------------------------------------------------------------------------
+  Windows:     tubes2oe-2.2-win32.exe
+               tubes2oe-2.2-win32.msi
+               tubes2oe-2.2-win32.zip           hordozható
+               xedf-tubes2-YYMMDD-hu.zip
 
-4. Beállítások
-   
-  Linux operációs rendszeren a 'LANG' környezeti változó  használatával ál-
-líthatja be az alkalmazás nyelvét:
+               tubes2-2.2-win32.exe
+               tubes2-2.2-win32.msi
+               tubes2-2.2-win32.zip             hordozható
+               cxedf-tubes2-YYMMDD-hu.zip
+  -----------------------------------------------------------------------------
+  forrás:      tubes2oe-2.2.tar.gz
+               xedf-tubes2-YYMMDD-hu.zip
 
-   angol:   en_US,
-   magyar:  hu_HU.
+IV. Beállítások
 
-5. Fontos információk
+  DOS:
+  - Állítsa be a nyelvet a LANG környezeti változóval (pl. LANG=hu).
+  - Szerkessze a CONFIG/TUBES2*.CFG fájlt a program beállításához.
+  - Az internetes frissítés működéséhez telepítse a hálózati kártyának
+    megfelelő packet drivert (pl. C:\DRIVERS\3C509\PKTDVR\3C5X9PD 0X60).
+  - Szerkessze a CONFIG/WATTCP.CFG fájt (hálózati beállítások).
+  - Ha a WATTCP.CFG környzeti változó létezik, és az értéke helyes, akkor az
+    előző lépés kihagyható.
 
-  Copyright (C) 2008-2016 Pozsár Zsolt <pozsarzs@gmail.com>
+  FreeBSD, Linux:
+  - Állítsa be a nyelvet a LANG környezeti változóval (pl. LANG=hu_HU).
+  - Használja a "Fájl/Beállítások" menüpontot az alkalmazás beállításához.
 
-a. A "trial" változat felhasználási feltételei:
+  Windows:
+  - Használja a "Fájl/Beállítások" menüpontot az alkalmazás beállításához.
 
-  Ez a program szabad szoftver; terjeszthetõ és/vagy módosítható a Free
+V. Fontos információk
+
+  Copyright (C) 2008-2017 Pozsár Zsolt <pozsarzs@gmail.com>
+
+1. A Tubes2 Open edition felhasználási feltételei:
+
+  Ez a program szabad szoftver; terjeszthető és/vagy módosítható a Free
 Software Foundation által publikált GNU General Public License 3. vagy annál
 újabb verziója alapján.
 
@@ -163,27 +170,26 @@ sincs garantálva. További részletek a GNU General Public License-ben.
 példányát, amennyiben nem így lenne, látogasson el ide:
 <http://www.gnu.org/licenses/>.
 
-b. A "pro" változat felhasználási feltételei:
+2. A Tubes2 felhasználási feltételei:
 
   - A szoftver GARANCIA NÉLKÜL kerül terjesztésre.
   - A szoftver, a személyre szóló regisztrációs kulcs nélkül szabadon másolható
     és terjeszthető.
   - A szoftvert tilos visszafordítani, visszafejteni illetve és a belső
     felépítését elemezni.
-  - A regisztráció másra át nem ruházható.
+  - A sorozatszám és a termékkulcs másra át nem ruházható.
   - A szoftver, a regisztráláskor megadott számú számítógépen lévő összes
     operációs rendszerre feltelepíthető, és azt a számítógép összes felhaszná-
     lója használhatja.
 
-8. Letöltés és kapcsolat
+VI. Elérhetőség
 
-   Honlap:               <http://www.pozsarzs.hu>
-   Facebook:             <http://www.facebook.com/pozsarzs.hu>
+   Honlap:               <http://www.pozsarzs.hu/tubes/tubes.html>
 
-   Gyártó:               Pozsár Zsolt ev.
+   Szerző:               Pozsár Zsolt ev.
    Adószám:              60407850-1-36
    Regisztrációs szám:   20703695
-   
+
    E-mail:               pozsarzs@gmail.com
    Telefon:              +36 56/470-272
    Telefax:              +36 56/470-272
@@ -194,4 +200,3 @@ b. A "pro" változat felhasználási feltételei:
    GIRO:                 10400061-67514856-53531005 (K&H Bank)
    IBAN:                 HU08 1040 0061 6751 4856 5353 1005
    PayPal:               pozsarzs@gmail.com
-

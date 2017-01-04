@@ -1,9 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Tubes2 trial
-Name[hu]=Tubes2 trial
-Exec=tubes2trial
-Icon=tubes2trial
+Name=Tubes2 Open edition
+Exec=tubes2oe
+Icon=tubes2oe
 Comment=Electrontube catalogue
 Comment[hu]=Elektroncső katalógus
 Type=Application

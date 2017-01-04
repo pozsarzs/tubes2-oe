@@ -1,53 +1,87 @@
-Telepítési utasítás Linux operációs rendszerhez
-===============================================
+                              Telepítési utasítás
+                              ~~~~~~~~~~~~~~~~~~~
+1. FreeBSD
+~~~~~~~~~~
+a. Bináris (txz) csomagból
 
-1. Telepítés
-------------
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
 
-a. Telepítés bináris '.tar.gz' csomagból
+b. Forrásnyelvű csomagból
 
-    # cp tubes2-trial-2.1-i586.tar.gz /opt
-    # cd /opt
-    # tar -xzf tubes2-trial-2.1-i586.tar.gz
-    # cd tubes2-trial
-    # ./create_links
-    
-                vagy
+   Fordítás és telepítés:
+   # tar -xzf tubes2oe-2.2.tar.gz
+   # ./configure
+   # make
+   # make install
 
-    # tar -xzf tubes2-trial-2.1-i586.tar.gz
-    # cd tubes2-trial
-    # ./install
+   Eltávolítás:
+   # make uninstall
 
-b. Telepítés '.bin' csomagból
+2. Linux
+~~~~~~~~
+a. Bináris (deb, package, rpm, txz) csomagból
 
-    # ./tubes2-trial-2.1-i586.bin
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
 
-c. Telepítés forráscsomagból
-     
-    # tar -xzf tubes2-trial-2.1.tar.gz
-    # cd tubes2-trial-2.1
-    # ./configure
-    # make
-    # make install
+b. Bináris (bin) csomagból
 
-2. Eltávolítás
---------------
+   Telepítés:
+   # ./tubes2oe-2.2-i586.bin
 
-a. Ha bináris '.tar.gz' csomagból telepítette
+   Eltávolítás:
+   # /opt/tubes2oe/uninstall
 
-    # /opt/tubes2-trial/remove_links
-    # rm -r /opt/tubes2-trial/
+c. Bináris (tar.gz) csomagból
 
+   Telepítés:
+   # cp tubes2oe-2.2-i586.tar.gz /opt
+   # cd /opt
+   # tar -xzf tubes2oe-2.2-i586.tar.gz
+   # cd tubes2oe
+   # ./create_links
             vagy
+   # tar -xzf tubes2oe-2.2-i586.tar.gz
+   # cd tubes2oe
+   # ./install
 
-    # /opt/tubes2-trial/uninstall
+   Eltávolítás:
+   # /opt/tubes2oe/remove_links
+   # rm -r /opt/tubes2oe/
+            vagy
+   # /opt/tubes2oe/uninstall
 
-b. Ha '.bin' csomagból telepítette
+d. Forrásnyelvű csomagból
 
-    # /opt/tubes2-trial/uninstall
+   Fordítás és telepítés:
+   $ tar -xzf tubes2oe-2.2.tar.gz
+   $ ./configure
+   $ make
+   # make install
 
-c. Ha forráscsomagból telepítette
+   Eltávolítás:
+   # make uninstall
 
-    # cd tubes2-trial-2.1
-    # make uninstall
+3. Windows
+~~~~~~~~~~
+a. Bináris (exe) csomagból
+
+   Futtassa a telepítőfájl és kövesse az utasításokat.
+
+b. Bináris (msi) csomagból
+
+   > msiexec.exe /i tubes2oe-2.2-win32.msi  (vagy duplakattintással
+                                                    nyissa meg a csomagot) 
+c. Bináris (zip) csomagból
+
+   > unzip tubes2oe-2.2-win32.zip           (vagy használjon csomagoló
+                                                    alkalmazást)
+d. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   > tar -xzf tubes2oe-2.2.tar.gz           (vagy használjon csomagoló
+   > build.bat                                      alkalmazást)
+   > build.bat install
+
+   Eltávolítás:
+   > build.bat uninstall
 

@@ -1,53 +1,87 @@
-Installation instruction for Linux operation system
-===================================================
+                            Installation instruction
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+1. FreeBSD
+~~~~~~~~~~
+a. From binary (txz) package
 
-1. Install
-----------
+   Use package manager to install/remove application.
 
-a. Install from binary '.tar.gz' package
+b. From source package
 
-    # cp tubes2-trial-2.1-i586.tar.gz /opt
-    # cd /opt
-    # tar -xzf tubes2-trial-2.1-i586.tar.gz
-    # cd tubes2-trial
-    # ./create_links
-    
-                or
+   Build and install:
+   # tar -xzf tubes2oe-2.2.tar.gz
+   # ./configure
+   # make
+   # make install
 
-    # tar -xzf tubes2-trial-2.1-i586.tar.gz
-    # cd tubes2-trial
-    # ./install
+   Remove:
+   # make uninstall
 
-b. Install from '.bin' package
+2. Linux
+~~~~~~~~
+a. From binary (deb, package, rpm, txz) package
 
-    # ./tubes2-trial-2.1-i586.bin
+   Use package manager to install/remove application.
 
-c. Install from source
-     
-    # tar -xzf tubes2-trial-2.1.tar.gz
-    # cd tubes2-trial-2.1
-    # ./configure
-    # make
-    # make install
+b. From binary (bin) package
 
-2. Remove
----------
+   Install:
+   # ./tubes2oe-2.2-i586.bin
 
-a. If you have installed from binary '.tar.gz' package
+   Remove:
+   # /opt/tubes2oe/uninstall
 
-    # /opt/tubes2-trial/remove_links
-    # rm -r /opt/tubes2-trial/
+c. From binary (tar.gz) package
 
-            vagy
+   Install:
+   # cp tubes2oe-2.2-i586.tar.gz /opt
+   # cd /opt
+   # tar -xzf tubes2oe-2.2-i586.tar.gz
+   # cd tubes2oe
+   # ./create_links
+            or
+   # tar -xzf tubes2oe-2.2-i586.tar.gz
+   # cd tubes2oe
+   # ./install
 
-    # /opt/tubes2-trial/uninstall
+   Remove:
+   # /opt/tubes2oe/remove_links
+   # rm -r /opt/tubes2oe/
+            or
+   # /opt/tubes2oe/uninstall
 
-b. If you have installed from '.bin' package
+d. From source package
 
-    # /opt/tubes2-trial/uninstall
+   Build and install:
+   $ tar -xzf tubes2oe-2.2.tar.gz
+   $ ./configure
+   $ make
+   # make install
 
-c. If you have installed from source
+   Remove:
+   # make uninstall
 
-    # cd tubes2-trial-2.1
-    # make uninstall
+3. Windows
+~~~~~~~~~~
+a. From binary (exe) package
+
+   Run installer file and follow intructions.
+
+b. From binary (msi) package
+
+   > msiexec.exe /i tubes2oe-2.2-win32.msi (or double-click to open
+                                                   package) 
+c. From binary (zip) package
+
+   > unzip tubes2oe-2.2-win32.zip          (or use unpacking application)
+
+d. From source package
+
+   Build and install:
+   > tar -xzf tubes2oe-2.2.tar.gz          (or use unpacking application)
+   > build.bat
+   > build.bat install
+
+   Remove:
+   > build.bat uninstall
 
