@@ -1,8 +1,6 @@
 # +----------------------------------------------------------------------------+
 # | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
 # | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file                                                                  |
 # +----------------------------------------------------------------------------+
@@ -16,7 +14,7 @@ all:
 clean:
 
 install:
-	@echo -n Installing message files...
+	@echo -n "- Installing message files..."
 	@for x in $(languages); do \
 	  if [ -e $(name)_$$x.mo ]; \
 	  then \
@@ -28,7 +26,7 @@ install:
 	@echo "done."
 
 uninstall:
-	@echo -n Removing message files...
+	@echo -n "- Removing message files..."
 	@for x in $(languages); do \
 	  if [ -e $(name)_$$x.mo ]; \
 	  then \

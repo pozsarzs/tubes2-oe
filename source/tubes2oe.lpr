@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | tubes2trial.lpr                                                          | }
+{ | tubes2oe.lpr                                                             | }
 { | Project file                                                             | }
 { +--------------------------------------------------------------------------+ }
 
@@ -27,15 +27,14 @@ uses
   Dialogs, Forms, Interfaces, Sysutils, crt,
   // own forms:
   frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
-  frmtextview, frmupgrade, frmtester, frmdrawer;
+  frmtextview, frmupgrade, frmdrawer, frmsubst;
 var
   fe, fn: string;
   appmode: byte;
 const
-  commands: array[1..4,1..2] of string=
+  commands: array[1..3,1..2] of string=
   (
     ('(none)','start catalogue application;'),
-    ('tester','start tubetester tool;'),
     ('drawer','start characteristic drawer tool;'),
     ('viewer','start characteristic drawer in viewer mode;')
   );
@@ -60,7 +59,7 @@ begin
       writeln(' ',fn,{$IFDEF WIN32}'.',fe,{$ENDIF}' [command] [parameter] [input.csv]');
       writeln;
       writeln('commands:');
-      for b:=1 to 4 do
+      for b:=1 to 3 do
       begin
         write('  ',commands[b,1]);
         gotoxy(30,wherey); writeln(commands[b,2]);
@@ -100,7 +99,7 @@ begin
   frmmain.cmdpoffline:=false;
   if length(paramstr(1))=0 then appmode:=1 else
   begin
-    for b:=2 to 4 do
+    for b:=2 to 3 do
       if paramstr(1)=commands[b,1] then appmode:=b;
     for b:=1 to 4 do
       if paramstr(1)=params[b,1] then appmode:=10*b;
@@ -119,24 +118,23 @@ begin
     70: frmmain.cmdpoffline:=true;
     80: verinfo;
   end;
-  Application.Title:=frmmain.APPNAME;
+  Application.Title:='Tubes2 Open edition';
   Application.Initialize;
   case appmode of
-    2: Application.CreateForm(TForm4, Form4);
+    2: Application.CreateForm(TForm10, Form10);
     3: Application.CreateForm(TForm10, Form10);
-    4: Application.CreateForm(TForm10, Form10);
   else
     begin
       Application.CreateForm(TForm1, Form1);
       Application.CreateForm(TForm2, Form2);
       Application.CreateForm(TForm3, Form3);
-      Application.CreateForm(TForm4, Form4);
       Application.CreateForm(TForm5, Form5);
       Application.CreateForm(TForm6, Form6);
       Application.CreateForm(TForm7, Form7);
       Application.CreateForm(TForm8, Form8);
       Application.CreateForm(TForm9, Form9);
       Application.CreateForm(TForm10, Form10);
+      Application.CreateForm(TForm11, Form11);
     end;
   end;
   Application.Run;

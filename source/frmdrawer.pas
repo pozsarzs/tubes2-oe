@@ -1,8 +1,8 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmdrawer.pp                                                             | }
-{ | Characteristic drawer tool                                               | }
+{ | frmdrawer.pas                                                            | }
+{ | Characteristic drawer                                                    | }
 { +--------------------------------------------------------------------------+ }
 
 {

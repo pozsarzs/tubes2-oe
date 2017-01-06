@@ -1,8 +1,6 @@
 # +----------------------------------------------------------------------------+
 # | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
 # | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file                                                                  |
 # +----------------------------------------------------------------------------+
@@ -14,25 +12,26 @@ all:
 clean:
 
 install:
-	@echo -n Installing datafiles...
-	@$(install) --directory $(datadir)/$(name1)/library_en
-	@$(install) --directory $(datadir)/$(name1)/library_hu
-	@$(install) --directory $(datadir)/$(name1)/base
-	@$(install) --mode $(txtmode) library_en/* $(datadir)/$(name1)/library_en/
-	@$(install) --mode $(txtmode) library_hu/* $(datadir)/$(name1)/library_hu/
-	@$(install) --mode $(txtmode) base/* $(datadir)/$(name1)/base/
-	@$(install) --mode $(txtmode) index.csv $(datadir)/$(name1)/
+	@echo -n "- Installing datafiles..."
+	@$(install) --directory $(datarootdir)/$(name)/library_en
+	@$(install) --directory $(datarootdir)/$(name)/library_hu
+	@$(install) --directory $(datarootdir)/$(name)/base
+	@$(install) --mode $(txtmode) library_en/* $(datarootdir)/$(name)/library_en/
+	@$(install) --mode $(txtmode) library_hu/* $(datarootdir)/$(name)/library_hu/
+	@$(install) --mode $(txtmode) base/* $(datarootdir)/$(name)/base/
+	@$(install) --mode $(txtmode) index.csv $(datarootdir)/$(name)/
+	@$(install) --mode $(txtmode) subst.dat $(datarootdir)/$(name)/
 	@echo "done."
 
 uninstall:
-	@echo -n Removing datafiles...
-	@$(rm) $(datadir)/$(name1)/library_en/*
-	@$(rm) $(datadir)/$(name1)/library_hu/*
-	@$(rm) $(datadir)/$(name1)/base/*
-	@$(rm) $(datadir)/$(name1)/index.csv
-	@rmdir $(datadir)/$(name1)/library_en
-	@rmdir $(datadir)/$(name1)/library_hu
-	@rmdir $(datadir)/$(name1)/base
-	@rmdir $(datadir)/$(name1)/
-	@echo "Done."
+	@echo -n "- Removing datafiles..."
+	@$(rm) $(datarootdir)/$(name)/library_en/*
+	@$(rm) $(datarootdir)/$(name)/library_hu/*
+	@$(rm) $(datarootdir)/$(name)/base/*
+	@$(rm) $(datarootdir)/$(name)/index.csv
+	@rmdir $(datarootdir)/$(name)/library_en
+	@rmdir $(datarootdir)/$(name)/library_hu
+	@rmdir $(datarootdir)/$(name)/base
+	@rmdir $(datarootdir)/$(name)/
+	@echo "done."
 

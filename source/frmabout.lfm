@@ -5424,9 +5424,9 @@ object Form2: TForm2
   end
   object Label1: TLabel
     Left = 13
-    Height = 19
+    Height = 25
     Top = 16
-    Width = 46
+    Width = 57
     Caption = 'Label1'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clMaroon
@@ -5454,19 +5454,19 @@ object Form2: TForm2
   end
   object Label3: TLabel
     Left = 13
-    Height = 11
+    Height = 15
     Top = 120
-    Width = 133
-    Caption = '(C) 2008-2016 Pozsár Zsolt'
+    Width = 176
+    Caption = '(C) 2008-2017 Pozsár Zsolt'
     Font.Color = clNone
     ParentColor = False
     ParentFont = False
   end
   object Label4: TLabel
     Left = 13
-    Height = 11
+    Height = 15
     Top = 136
-    Width = 148
+    Width = 192
     Caption = 'Licence: GNU GPL 3.0 or later.'
     Font.Color = clNone
     ParentColor = False
@@ -5475,9 +5475,9 @@ object Form2: TForm2
   object Label5: TLabel
     Cursor = crHandPoint
     Left = 56
-    Height = 11
+    Height = 15
     Top = 151
-    Width = 103
+    Width = 137
     Caption = 'pozsarzs@gmail.com'
     Font.Color = clSkyBlue
     Font.Style = [fsUnderline]
@@ -5490,9 +5490,9 @@ object Form2: TForm2
   object Label6: TLabel
     Cursor = crHandPoint
     Left = 56
-    Height = 11
+    Height = 15
     Top = 167
-    Width = 112
+    Width = 145
     Caption = 'http://www.pozsarzs.hu'
     Font.Color = clSkyBlue
     Font.Style = [fsUnderline]
@@ -5504,9 +5504,9 @@ object Form2: TForm2
   end
   object Label7: TLabel
     Left = 13
-    Height = 11
+    Height = 15
     Top = 151
-    Width = 34
+    Width = 44
     Caption = 'E-mail:'
     Font.Color = clWhite
     ParentColor = False
@@ -5514,9 +5514,9 @@ object Form2: TForm2
   end
   object Label8: TLabel
     Left = 13
-    Height = 11
+    Height = 15
     Top = 167
-    Width = 23
+    Width = 30
     Caption = 'Web:'
     Font.Color = clWhite
     ParentColor = False

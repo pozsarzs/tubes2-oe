@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmabout.pp                                                              | }
+{ | frmabout.pas                                                             | }
 { | About                                                                    | }
 { +--------------------------------------------------------------------------+ }
 
@@ -109,6 +109,6 @@ end;
 //-- OnShow event --------------------------------------------------------------
 procedure TForm2.Form2Show(Sender: TObject);
 begin
-  Label1.Caption:=frmmain.APPNAME+' '+frmmain.VERSION;
+  Label1.Caption:=frmmain.APPNAME+' v'+frmmain.VERSION;
 end;
 end.

@@ -14,32 +14,46 @@ object Form7: TForm7
   OnShow = FormShow
   Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
+  object Bevel3: TBevel
+    Left = 4
+    Height = 56
+    Top = 120
+    Width = 160
+    Shape = bsFrame
+  end
+  object Bevel1: TBevel
+    Left = 4
+    Height = 109
+    Top = 8
+    Width = 358
+    Shape = bsFrame
+  end
   object Label1: TLabel
     Left = 16
-    Height = 11
+    Height = 15
     Top = 16
-    Width = 32
+    Width = 42
     Caption = 'Label1'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 16
-    Height = 11
+    Height = 15
     Top = 64
-    Width = 32
+    Width = 42
     Caption = 'Label2'
     ParentColor = False
   end
   object Edit1: TEdit
     Left = 16
-    Height = 21
+    Height = 23
     Top = 32
     Width = 248
     TabOrder = 0
   end
   object Edit2: TEdit
     Left = 16
-    Height = 21
+    Height = 23
     Top = 80
     Width = 248
     TabOrder = 2
@@ -72,7 +86,7 @@ object Form7: TForm7
     BorderSpacing.InnerBorder = 4
     Caption = 'Button3'
     OnClick = Button3Click
-    TabOrder = 6
+    TabOrder = 7
   end
   object Button4: TButton
     Left = 287
@@ -82,22 +96,22 @@ object Form7: TForm7
     BorderSpacing.InnerBorder = 4
     Caption = 'Button4'
     OnClick = Button4Click
-    TabOrder = 7
+    TabOrder = 8
   end
   object CheckBox1: TCheckBox
     Left = 16
-    Height = 22
+    Height = 21
     Top = 128
-    Width = 79
+    Width = 94
     Caption = 'CheckBox1'
     OnChange = CheckBox1Change
     TabOrder = 4
   end
   object CheckBox2: TCheckBox
     Left = 16
-    Height = 22
+    Height = 21
     Top = 152
-    Width = 79
+    Width = 94
     Caption = 'CheckBox2'
     TabOrder = 5
   end
@@ -108,28 +122,41 @@ object Form7: TForm7
     Width = 75
     Caption = 'Button5'
     OnClick = Button5Click
-    TabOrder = 8
-  end
-  object Bevel1: TBevel
-    Left = 4
-    Height = 109
-    Top = 8
-    Width = 358
-    Shape = bsFrame
-  end
-  object Bevel3: TBevel
-    Left = 4
-    Height = 56
-    Top = 120
-    Width = 178
-    Shape = bsFrame
+    TabOrder = 9
   end
   object Bevel4: TBevel
-    Left = 186
+    Left = 168
     Height = 56
     Top = 120
-    Width = 176
+    Width = 194
     Shape = bsFrame
+  end
+  object ComboBox1: TComboBox
+    Left = 175
+    Height = 25
+    Top = 144
+    Width = 172
+    ItemHeight = 0
+    ItemIndex = 2
+    Items.Strings = (
+      'Bing'
+      'DuckDuckGo'
+      'Google'
+      'Yahoo'
+      'Yandex'
+    )
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 6
+    Text = 'Google'
+  end
+  object Label3: TLabel
+    Left = 175
+    Height = 15
+    Top = 128
+    Width = 42
+    Caption = 'Label3'
+    ParentColor = False
   end
   object OpenDialog1: TOpenDialog
     Filter = 'executables|*.exe|all files|*.*'

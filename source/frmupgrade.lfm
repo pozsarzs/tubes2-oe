@@ -134,9 +134,9 @@ object Form6: TForm6
   end
   object Label3: TLabel
     Left = 18
-    Height = 11
+    Height = 15
     Top = 104
-    Width = 97
+    Width = 126
     Caption = 'Remove all upgrade'
     ParentColor = False
   end
@@ -182,17 +182,17 @@ object Form6: TForm6
   end
   object Label1: TLabel
     Left = 16
-    Height = 11
+    Height = 15
     Top = 24
-    Width = 135
+    Width = 178
     Caption = 'Install and upgrade from file'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 16
-    Height = 11
+    Height = 15
     Top = 54
-    Width = 160
+    Width = 210
     Caption = 'Install and upgrade from internet'
     ParentColor = False
   end

@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmmain.pp                                                               | }
+{ | frmmain.pas                                                              | }
 { | Main window                                                              | }
 { +--------------------------------------------------------------------------+ }
 
@@ -35,8 +35,6 @@ type
   TForm1 = class(TForm)
     Bevel1: TBevel;
     Bevel3: TBevel;
-    Bevel5: TBevel;
-    Bevel6: TBevel;
     ComboBox1: TComboBox;
     ComboBox2: TComboBox;
     HTMLBrowserHelpViewer1: THTMLBrowserHelpViewer;
@@ -80,7 +78,6 @@ type
     MenuItem36: TMenuItem;
     MenuItem37: TMenuItem;
     MenuItem38: TMenuItem;
-    MenuItem39: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem40: TMenuItem;
     MenuItem42: TMenuItem;
@@ -118,11 +115,6 @@ type
     Process2: TProcess;
     Process3: TProcess;
     SaveDialog1: TSaveDialog;
-    SpeedButton1: TSpeedButton;
-    SpeedButton2: TSpeedButton;
-    SpeedButton3: TSpeedButton;
-    SpeedButton4: TSpeedButton;
-    SpeedButton5: TSpeedButton;
     StatusBar1: TStatusBar;
     StringGrid1: TStringGrid;
     TabSheet1: TTabSheet;
@@ -140,6 +132,7 @@ type
     ToolButton5: TToolButton;
     ToolButton6: TToolButton;
     ToolButton7: TToolButton;
+    ToolButton8: TToolButton;
     ToolButton9: TToolButton;
     procedure ComboBox1Change;
     procedure ComboBox2Click(Sender: TObject);
@@ -171,10 +164,11 @@ type
     procedure MenuItem66Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
-    procedure SpeedButton1Click(Sender: TObject);
-    procedure SpeedButton3Click(Sender: TObject);
+//    procedure SpeedButton1Click(Sender: TObject);
     procedure SpeedButton4Click(Sender: TObject);
     procedure StringGrid1Selection;
+    procedure ToolButton3Click(Sender: TObject);
+    procedure ToolButton4Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -232,7 +226,7 @@ const
 Resourcestring
   MESSAGE02='Base';
   MESSAGE04='Type search';
-  MESSAGE10='Missing files! Please reinstall Tubes2 trial.';
+  MESSAGE10='Missing files! Please reinstall application.';
   MESSAGE11='Type';
   MESSAGE19='File exists, overwrite?';
   MESSAGE20='Write error!';
@@ -253,7 +247,7 @@ Resourcestring
   MESSAGE36='Original size';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
-  MESSAGE41='New version of Tubes2 trial is available.';
+  MESSAGE41='New version of Tubes2 Open edition is available.';
   MESSAGE42='(This message does not show again.)';
   MESSAGE43='Homepage';
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
@@ -302,7 +296,7 @@ implementation
 //-- resize window -------------------------------------------------------------
 procedure TForm1.FormResize(Sender: TObject);
 begin
-  PairSplitter1.Height:=Height-89;
+ { PairSplitter1.Height:=Height-89;
   PairSplitter1.Width:=Width-219;
   if MenuItem28.Checked=true
   then PairSplitter1.Position:=Height-150
@@ -311,7 +305,7 @@ begin
   Bevel1.Left:=Width-206;
   Image1.Left:=Bevel1.Left+1;
   PageControl1.Left:=Width-206;
-  PageControl1.Height:=Height-297;
+  PageControl1.Height:=Height-297;             }
   StatusBar1.Panels.Items[1].Width:=Width-297;
 end;
 
@@ -826,13 +820,13 @@ begin
 end;
 
 //-- parameter search ----------------------------------------------------------
-procedure TForm1.SpeedButton1Click(Sender: TObject);
+procedure TForm1.ToolButton3Click(Sender: TObject);
 begin
   Form3.ShowModal;
 end;
 
 //-- search in all database ----------------------------------------------------
-procedure TForm1.SpeedButton3Click(Sender: TObject);
+procedure TForm1.ToolButton4Click(Sender: TObject);
 var
   ftype, catnum: string;
 
@@ -1212,26 +1206,26 @@ begin
   // messages
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
-      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2trial.mo');
+      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2oe.mo');
     {$ELSE}
-      translateresourcestrings(exepath+'languages/'+lang+'/tubes2trial.mo');
+      translateresourcestrings(exepath+'languages/'+lang+'/tubes2oe.mo');
     {$ENDIF}
   {$ENDIF}
   {$IFDEF WIN32}
-    translateresourcestrings(exepath+'languages\'+lang+'\tubes2trial.mo');
+    translateresourcestrings(exepath+'languages\'+lang+'\tubes2oe.mo');
   {$ENDIF}
-  SpeedButton1.Hint:=MESSAGE46;
-  SpeedButton2.Hint:=MESSAGE30;
-  SpeedButton3.Hint:=MESSAGE62;
-  SpeedButton4.Hint:=MESSAGE63;
-  SpeedButton5.Hint:=MESSAGE61;
+//  SpeedButton1.Hint:=MESSAGE46;
+//  ToolButton2.Hint:=MESSAGE30;
+//  ToolButton4.Hint:=MESSAGE62;
+//  SpeedButton4.Hint:=MESSAGE63;
+//  SpeedButton5.Hint:=MESSAGE61;
   ComboBox1.Hint:=MESSAGE49;
   ComboBox2.Hint:=MESSAGE78;
 
   // set copying file
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
-      copyfile:=instpath+'share/doc/tubes2-trial/COPYING';
+      copyfile:=instpath+'share/doc/tubes2oe/COPYING';
     {$ELSE}
       copyfile:=exepath+'documents/COPYING';
     {$ENDIF}
@@ -1243,9 +1237,9 @@ begin
   // set help file
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
-      if FSearch('index.html',instpath+'share/tubes2-trial/help_'+lang)<>''
-      then helpfile:=instpath+'share/tubes2-trial/help_'+lang+'/'
-      else helpfile:=instpath+'share/tubes2-trial/help_en/';
+      if FSearch('index.html',instpath+'share/tubes2oe/help_'+lang)<>''
+      then helpfile:=instpath+'share/tubes2oe/help_'+lang+'/'
+      else helpfile:=instpath+'share/tubes2oe/help_en/';
     {$ELSE}
       if FSearch('index.html',exepath+'help/help_'+lang)<>''
       then helpfile:=exepath+'help/help_'+lang+'/'
@@ -1257,19 +1251,19 @@ begin
     HTMLBrowserHelpViewer1.AutoRegister:=true;
   {$ENDIF}
   {$IFDEF WIN32}
-  if FSearch('tubes2trial_'+lang+'.chm',exepath+'help\')=''
-  then helpfile:=exepath+'help\tubes2trial_en.chm'
-  else helpfile:=exepath+'help\tubes2trial_'+lang+'.chm';
+  if FSearch('tubes2oe_'+lang+'.chm',exepath+'help\')=''
+  then helpfile:=exepath+'help\tubes2oe_en.chm'
+  else helpfile:=exepath+'help\tubes2oe_'+lang+'.chm';
   Application.HelpFile:=helpfile;
   {$ENDIF}
 
   // search datafile - in original folder
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
-      picspath:=instpath+'share/tubes2-trial/base/';
-      if FSearch('version.txt',instpath+'share/tubes2-trial/library_'+lang)<>''
-      then xedfpath:=instpath+'share/tubes2-trial/library_'+lang+'/'
-      else xedfpath:=instpath+'share/tubes2-trial/library_en/';
+      picspath:=instpath+'share/tubes2oe/base/';
+      if FSearch('version.txt',instpath+'share/tubes2oe/library_'+lang)<>''
+      then xedfpath:=instpath+'share/tubes2oe/library_'+lang+'/'
+      else xedfpath:=instpath+'share/tubes2oe/library_en/';
     {$ELSE}
       picspath:=exepath+'library/base/';
       if FSearch('version.txt',exepath+'library/library_'+lang)<>''
@@ -1316,9 +1310,9 @@ begin
   end;
 
   // search package info
-  if FSearch('news.txt',xedfpath)<>''
-  then SpeedButton4.Enabled:=true
-  else SpeedButton4.Enabled:=false;
+ // if FSearch('news.txt',xedfpath)<>''
+//  then SpeedButton4.Enabled:=true
+//  else SpeedButton4.Enabled:=false;
 
   // count components
   compnumall:=0;
@@ -1429,13 +1423,13 @@ begin
     if (offline=false) and (nocheckupdate=false) then
       if searchnewprogversion=true then showmessage(MESSAGE41+' '+MESSAGE57+' '+MESSAGE42); // New version is available!
 
-    SpeedButton2.Enabled:=true;
+    ToolButton2.Enabled:=true;
     MenuItem2.Enabled:=true;
     MenuItem19.Enabled:=true;
     MenuItem22.Enabled:=true;
   end else
   begin
-    SpeedButton2.Enabled:=false;
+    ToolButton2.Enabled:=false;
     MenuItem2.Enabled:=false;
     MenuItem19.Enabled:=false;
     MenuItem22.Enabled:=false;

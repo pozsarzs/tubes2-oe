@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmconfig.pp                                                             | }
+{ | frmconfig.pas                                                            | }
 { | Settings window                                                          | }
 { +--------------------------------------------------------------------------+ }
 
@@ -39,10 +39,12 @@ type
     Button5: TButton;
     CheckBox1: TCheckBox;
     CheckBox2: TCheckBox;
+    ComboBox1: TComboBox;
     Edit1: TEdit;
     Edit2: TEdit;
     Label1: TLabel;
     Label2: TLabel;
+    Label3: TLabel;
     OpenDialog1: TOpenDialog;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
@@ -50,6 +52,7 @@ type
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure CheckBox1Change(Sender: TObject);
+    procedure ComboBox1Change(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     { private declarations }
@@ -93,8 +96,8 @@ begin
   assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
   rewrite(tf);
     write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
-  writeln(tf,'# | Tubes2 2.1 * Electrontube catalogue                                        |');
-  writeln(tf,'# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com                   |');
+  writeln(tf,'# | Tubes2 2.2 * Electrontube catalogue                                        |');
+  writeln(tf,'# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com                   |');
   writeln(tf,'# | tubes2.cfg                                                                 |');
   writeln(tf,'# | Configuration file                                                         |');
   write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
@@ -157,6 +160,11 @@ end;
 //-- CheckBox change event -----------------------------------------------------
 procedure TForm7.CheckBox1Change(Sender: TObject);
 begin
+end;
+
+procedure TForm7.ComboBox1Change(Sender: TObject);
+begin
+
 end;
 
 //-- OnShow event --------------------------------------------------------------

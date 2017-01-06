@@ -1,8 +1,6 @@
 # +----------------------------------------------------------------------------+
 # | Tubes2 Open edition 2.2 * Electrontube catalogue                           |
 # | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file                                                                  |
 # +----------------------------------------------------------------------------+
@@ -16,18 +14,18 @@ all:
 clean:
 
 install:
-	@echo -n Installing manual files...
+	@echo -n "- Installing manual files..."
 	@for x in $(languages); do \
-	  if [ -e $(name)_$$x.7 ]; \
+	  if [ -e $(name)_$$x.1 ]; \
 	  then \
-	    $(install) --directory $(mandir)/$$x/man7; \
-	    $(install) --mode $(txtmode) $(name)_$$x.7 $(mandir)/$$x/man7; \
-	    mv $(mandir)/$$x/man7/$(name)_$$x.7 $(mandir)/$$x/man7/$(name).7 ; \
+	    $(install) --directory $(mandir)/$$x/man1; \
+	    $(install) --mode $(txtmode) $(name)_$$x.1 $(mandir)/$$x/man1; \
+	    mv $(mandir)/$$x/man1/$(name)_$$x.1 $(mandir)/$$x/man1/$(name).1 ; \
 	  fi; \
 	done
-	@$(install) --directory $(mandir)/man7;
-	@mv $(mandir)/en/man7/* $(mandir)/man7
-	@rmdir $(mandir)/en/man7/
+	@$(install) --directory $(mandir)/man1;
+	@mv $(mandir)/en/man1/* $(mandir)/man1
+	@rmdir $(mandir)/en/man1/
 	@rmdir $(mandir)/en
 	@for x in $(languages); do \
 	  if [ -e xedf_$$x.5 ]; \
@@ -52,14 +50,14 @@ install:
 	@echo "done."
 
 uninstall:
-	@echo -n Removing manual files...
+	@echo -n "- Removing manual files..."
 	@for x in $(languages); do \
-	  if [ -e $(name)_$$x.7 ]; \
+	  if [ -e $(name)_$$x.1 ]; \
 	  then \
-	    $(rm) $(mandir)/$$x/man7/$(name).7; \
+	    $(rm) $(mandir)/$$x/man1/$(name).1; \
 	  fi; \
 	done
-	@$(rm) $(mandir)/man7/$(name).7;
+	@$(rm) $(mandir)/man1/$(name).1;
 	@for x in $(languages); do \
 	  if [ -e xedf_$$x.5 ]; \
 	  then \

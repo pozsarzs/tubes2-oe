@@ -21,4 +21,9 @@
 	Fixed some little bugs.
 	New user's directories.
 	Reinclude update function.
-    
+
+2016-01-31 Pozsar Zsolt <pozsarzs@gmail.com>
+	* Version 2.2:
+	Added type substitution.
+	Added characteristic drawer.
+

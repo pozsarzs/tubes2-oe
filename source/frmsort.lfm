@@ -121,15 +121,15 @@ object Form5: TForm5
   LCLVersion = '1.2.4.0'
   object Label1: TLabel
     Left = 16
-    Height = 11
+    Height = 15
     Top = 14
-    Width = 62
+    Width = 83
     Caption = 'Base column'
     ParentColor = False
   end
   object ComboBox1: TComboBox
     Left = 16
-    Height = 25
+    Height = 27
     Top = 32
     Width = 136
     ItemHeight = 0
