@@ -28,7 +28,8 @@ uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
   ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, Types, dos, gettext,
-  httpsend, frmparsearch, frmconfig, frmtextview, frmprogressbar, frmupgrade,
+  httpsend, frmparsearch, frmconfig, frmdrawer, frmtextview, frmprogressbar,
+  frmsubst, frmupgrade,
   untstrconv;
 type
   { TForm1 }
@@ -135,20 +136,24 @@ type
     ToolButton7: TToolButton;
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
-    procedure Bevel1ChangeBounds(Sender: TObject);
     procedure ComboBox1Change;
     procedure ComboBox2Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormResize(Sender: TObject);
-    procedure Image1Click(Sender: TObject);
     procedure ListBox1Click(Sender: TObject);
     procedure Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
       var Handled: Boolean);
     procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
+    procedure MenuItem35Click(Sender: TObject);
+    procedure MenuItem36Click(Sender: TObject);
+    procedure MenuItem37Click(Sender: TObject);
+    procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
+    procedure MenuItem43Click(Sender: TObject);
+    procedure MenuItem57Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem11Click(Sender: TObject);
@@ -168,11 +173,8 @@ type
     procedure MenuItem66Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
-//    procedure SpeedButton1Click(Sender: TObject);
     procedure SpeedButton4Click(Sender: TObject);
     procedure StringGrid1Selection;
-    procedure ToolButton3Click(Sender: TObject);
-    procedure ToolButton4Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -297,27 +299,7 @@ implementation
 {$R *.lfm}
 { TForm1 }
 
-//-- resize window -------------------------------------------------------------
-procedure TForm1.FormResize(Sender: TObject);
-begin
- { PairSplitter1.Height:=Height-89;
-  PairSplitter1.Width:=Width-219;
-  if MenuItem28.Checked=true
-  then PairSplitter1.Position:=Height-150
-  else PairSplitter1.Position:=PairSplitter1.Top+PairSplitter1.Height;
-  ComboBox1.Width:=Width-332;
-  Bevel1.Left:=Width-206;
-  Image1.Left:=Bevel1.Left+1;
-  PageControl1.Left:=Width-206;
-  PageControl1.Height:=Height-297;             }
-  StatusBar1.Panels.Items[1].Width:=Width-297;
-end;
-
-procedure TForm1.Image1Click(Sender: TObject);
-begin
-
-end;
-
+//******************* GENERAL PROCEDURES AND FUNCTIONS 1. **********************
 //-- run browser ---------------------------------------------------------------
 procedure runbrowser(url: string);
 begin
@@ -425,18 +407,388 @@ begin
   txt.Free;
 end;
 
-//-- show about ----------------------------------------------------------------
-procedure TForm1.MenuItem7Click(Sender: TObject);
+//****************************** FILE MENU *************************************
+// -- save to file -------------------------------------------------------------
+procedure TForm1.MenuItem12Click(Sender: TObject);
+var
+  tfdir, tfname, tfext: shortstring;
+
+// save in html format
+function savetohtml(filename: string): boolean;
 begin
-  Form2.ShowModal;
+  assignfile(tf,s);
+  {$IFDEF LINUX}
+  {$I-}mkdir(tfdir+'/pics/');{$I+} ioresult;
+  {$ENDIF}
+  {$IFDEF WIN32}
+  {$I-}mkdir(tfdir+'\pics\');{$I+} ioresult;
+  {$ENDIF}
+  try
+    rewrite(tf);
+    writeln(tf,'<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">');
+    writeln(tf,'<html>');
+    writeln(tf,'<head>');
+    writeln(tf,'<meta http-equiv="content-type" content="text/html; charset=utf-8">');
+    writeln(tf,'<title>'+MESSAGE21+' - '+StringGrid1.Cells[0,StringGrid1.Row]+'</title>');
+    writeln(tf,'<meta name="generator" content="'+APPNAME+' '+VERSION+'">');
+    writeln(tf,'</head>');
+    writeln(tf,'<body>');
+    writeln(tf,'<font face="freemono, monospace" size=3>');
+    writeln(tf,'<table border=1 cellpadding=2 cellspacing=0><col width=492><col width=200>');
+    writeln(tf,'<tr>');
+    writeln(tf,'<td colspan=2 width=696 valign=top><font size=5><center><b>');
+    writeln(tf,MESSAGE21);
+    writeln(tf,'</b></center></font></td>');
+    writeln(tf,'</tr>');
+    writeln(tf,'<tr valign=top>');
+    writeln(tf,'<td width=492>');
+    writeln(tf,'<b>'+MESSAGE11+': </b>'+StringGrid1.Cells[0,StringGrid1.Row]+'<br>');
+    writeln(tf,'<b>'+MESSAGE31+': </b>'+StringGrid1.Cells[1,StringGrid1.Row]+'<br>');
+    writeln(tf,'<b>'+MESSAGE02+': </b>'+StringGrid1.Cells[2,StringGrid1.Row]+'<br>');
+    writeln(tf,'</td>');
+    writeln(tf,'<td width=200>');
+    writeln(tf,'<img src="pics/'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png" name="" alt="" align=bottom width=200 height=200 border=0>');
+    writeln(tf,'</td>');
+    writeln(tf,'</tr>');
+    writeln(tf,'<tr valign=top>');
+    writeln(tf,'<td width=492>');
+
+    writeln(tf,'<b>'+MESSAGE24+':</b><br>');
+    for b:=3 to StringGrid1.ColCount-1 do
+      writeln(tf,StringGrid1.Cells[b,0]+': '+StringGrid1.Cells[b,StringGrid1.Row]+'<br>');
+
+    writeln(tf,'<br>');
+
+    writeln(tf,'<b>'+MESSAGE40+':</b><br>');
+    for b:=0 to Memo2.Lines.Count do
+      writeln(tf,Memo2.Lines.Strings[b]+'<br>');
+
+    writeln(tf,'</td>');
+    writeln(tf,'<td width=200>');
+    writeln(tf,'<b>'+MESSAGE22+':</b><br>');
+    for b:=0 to Memo1.Lines.Count do
+      writeln(tf,Memo1.Lines.Strings[b]+'<br>');
+    writeln(tf,'</td>');
+    writeln(tf,'</tr>');
+    writeln(tf,'</table>');
+    writeln(tf,'<font size=2>'+APPNAME+' v'+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
+    writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
+    writeln(tf,'</font>');
+    writeln(tf,'</body>');
+    writeln(tf,'</html>');
+    closefile(tf);
+    // save picture
+    try
+      {$IFDEF LINUX}
+      Image1.Picture.SaveToFile(tfdir+'/pics/'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png')
+      {$ENDIF}
+      {$IFDEF WIN32}
+      Image1.Picture.SaveToFile(tfdir+'\pics\'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png')
+      {$ENDIF}
+    except
+      result:=false;
+      exit;
+    end;
+    result:=true;
+  except
+    result:=false
+  end;
 end;
 
-//-- original column size ------------------------------------------------------
+// save in plain text format
+function savetotxt(filename: string): boolean;
+begin
+  assignfile(tf,s);
+  try
+    rewrite(tf);
+    writeln(tf,MESSAGE21);
+    for b:=1 to 80 do write(tf,'=');
+    writeln(tf,'');
+    writeln(tf,MESSAGE11+': '+StringGrid1.Cells[0,StringGrid1.Row]);
+    writeln(tf,MESSAGE31+': '+StringGrid1.Cells[1,StringGrid1.Row]);
+    writeln(tf,MESSAGE02+': '+StringGrid1.Cells[2,StringGrid1.Row]);
+    for b:=1 to 80 do write(tf,'-');
+    writeln(tf,'');
+    writeln(tf,MESSAGE24+':');
+    for b:=3 to StringGrid1.ColCount-1 do
+      writeln(tf,StringGrid1.Cells[b,0]+': '+StringGrid1.Cells[b,StringGrid1.Row]);
+    for b:=1 to 80 do write(tf,'-');
+    writeln(tf,'');
+    writeln(tf,MESSAGE40+':');
+    writeln(tf,cpld[StringGrid1.Row]);
+    for b:=1 to 80 do write(tf,'-');
+    writeln(tf,'');
+    writeln(tf,MESSAGE22+':');
+    write(tf,pinout[StringGrid1.Row]);
+    for b:=1 to 80 do write(tf,'-');
+    writeln(tf,'');
+    writeln(tf,APPNAME+' v'+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
+    writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
+    closefile(tf);
+    result:=true;
+  except
+    result:=false
+  end;
+end;
+
+begin
+  SaveDialog1.Title:=MESSAGE28;
+  SaveDialog1.Filename:=StringGrid1.Cells[0,StringGrid1.Row];
+  SaveDialog1.Filter:=MESSAGE44;
+  SaveDialog1.FilterIndex:=1;
+  if SaveDialog1.Execute=false then exit;
+  case SaveDialog1.FilterIndex of
+    1:  begin
+          s:= SaveDialog1.FileName;
+          i:=length(s);
+          if (s[i-4]+s[i-3]+s[i-2]+s[i-1]+s[i]<>'.html') and (s[i-3]+s[i-2]+s[i-1]+s[i]<>'.htm')
+          then s:=s+'.html';
+        end;
+    2:  begin
+          s:= SaveDialog1.FileName;
+          i:=length(s);
+          if (s[i-3]+s[i-2]+s[i-1]+s[i]<>'.txt')
+          then s:=s+'.txt';
+        end;
+  end;
+  fsplit(s,tfdir,tfname,tfext);
+  if FSearch(tfname+tfext,tfdir)<>'' then
+    if MessageDlg(MESSAGE19,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
+  if length(s)=0 then exit;
+  case SaveDialog1.FilterIndex of
+    1: if savetohtml(s)=false then showmessage(MESSAGE20);
+    2: if savetotxt(s)=false then showmessage(MESSAGE20);
+  end;
+end;
+
+// -- print datasheet ----------------------------------------------------------
+procedure TForm1.MenuItem43Click(Sender: TObject);
+begin
+
+end;
+
+//-- open update window --------------------------------------------------------
+procedure TForm1.MenuItem13Click(Sender: TObject);
+begin
+  Form6.ShowModal;
+end;
+
+//-- view package information --------------------------------------------------
+procedure TForm1.SpeedButton4Click(Sender: TObject);
+begin
+  Form8.Caption:=MESSAGE63;
+  Form8.Memo1.Clear;
+  try
+    Form8.Memo1.Lines.LoadFromFile(xedfpath+'news.txt');
+  except
+    Form8.Memo1.Lines.Add(MESSAGE64);
+  end;
+  Form8.Show;
+end;
+
+//-- open settings window ------------------------------------------------------
+procedure TForm1.MenuItem15Click(Sender: TObject);
+begin
+  Form7.ShowModal;
+end;
+
+//-- exit ----------------------------------------------------------------------
+procedure TForm1.MenuItem46Click(Sender: TObject);
+begin
+  Form1.Close;
+  Application.Terminate;
+end;
+
+//****************************** SEARCH MENU ***********************************
+//-- type search on internet ---------------------------------------------------
+procedure TForm1.MenuItem38Click(Sender: TObject);
+begin
+
+end;
+
+//-- type search ---------------------------------------------------------------
+procedure TForm1.MenuItem11Click(Sender: TObject);
+begin
+  s:=uppercase(StringGrid1.Cells[0,StringGrid1.Row]);
+  if inputquery(MESSAGE04,MESSAGE25,s)=false then exit;
+  s:=uppercase(s);
+  for i:=1 to 800 do
+  begin
+    if i=StringGrid1.RowCount then
+    begin
+      showmessage(MESSAGE26); // Not found.
+      exit;
+    end;
+    if uppercase(StringGrid1.Cells[0,i])=s then
+    begin
+      StringGrid1.Row:=i;
+      exit;
+    end;
+  end;
+end;
+
+//-- parameter search ----------------------------------------------------------
 procedure TForm1.MenuItem5Click(Sender: TObject);
 begin
-  StringGrid1.AutoSizeColumn(0);
-  StringGrid1.AutoSizeColumn(2);
-  StringGrid1.ColWidths[1]:=StringGrid1.Width-StringGrid1.ColWidths[0]-StringGrid1.ColWidths[2]-20;
+  Form3.ShowModal;
+end;
+
+//-- search in all database ----------------------------------------------------
+procedure TForm1.MenuItem57Click(Sender: TObject);
+var
+  ftype, catnum: string;
+
+  function getcategory(reqtype: string): string;
+  var
+    itype, icat: string;
+  begin
+    result:='';
+    {$IFDEF LINUX}
+      assignfile(tf,xedfpath+'../index.csv');
+    {$ENDIF}
+    {$IFDEF WIN32}
+      assignfile(tf,xedfpath+'..\index.csv');
+    {$ENDIF}
+    try
+      reset(tf);
+      repeat
+        itype:='';
+        icat:='';
+        readln(tf,ss);
+        ss:=rmchr3(ss);
+        for b:=2 to length(ss) do
+          if ss[b]<>'"' then itype:=itype+ss[b] else break;
+        for b:=b+1 to length(ss) do
+          if ss[b]='"' then break;
+        for b:=b+1 to length(ss) do
+          if ss[b]<>'"' then icat:=icat+ss[b] else break;
+        if uppercase(itype)=reqtype then result:=icat;
+      until eof(tf);
+      closefile(tf);
+    except
+      showmessage(MESSAGE70);
+    end;
+  end;
+
+begin
+  s:=uppercase(StringGrid1.Cells[0,StringGrid1.Row]);
+  if inputquery(MESSAGE62,MESSAGE25,s)=false then exit;
+  ftype:=uppercase(s);
+  catnum:=getcategory(ftype);
+  if catnum='' then
+  begin
+    showmessage(MESSAGE26); // Not found.
+    exit;
+  end;
+  for b:=1 to 64 do
+    if xedfname[b]=catnum+'.xedf' then break;
+  for bb:=0 to ComboBox1.Items.Count do
+    if ComboBox1.Items.Strings[bb]=xedfdscr[b] then break;
+  ComboBox1.ItemIndex:=bb;
+  ComboBox1Change;
+  for i:=1 to 800 do
+  begin
+    if i=StringGrid1.RowCount then
+    begin
+      showmessage(MESSAGE26); // Not found.
+      exit;
+    end;
+    if uppercase(StringGrid1.Cells[0,i])=ftype then
+    begin
+      StringGrid1.Row:=i;
+      exit;
+    end;
+  end;
+end;
+
+//-- sort ----------------------------------------------------------------------
+procedure TForm1.MenuItem18Click(Sender: TObject);
+begin
+  Form5.ShowModal;
+end;
+
+//****************************** VIEW MENU *************************************
+//-- auto fill -----------------------------------------------------------------
+procedure TForm1.MenuItem9Click(Sender: TObject);
+begin
+  StringGrid1.AutoFillColumns:=true;
+  StringGrid1.AutoFillColumns:=false;
+end;
+
+//-- auto column size ----------------------------------------------------------
+procedure TForm1.MenuItem14Click(Sender: TObject);
+begin
+  StringGrid1.AutoSizeColumns;
+end;
+
+//**************************** BOOKMARKS MENU **********************************
+//-- show bookmarks ------------------------------------------------------------
+procedure TForm1.MenuItem64Click(Sender: TObject);
+begin
+  TabSheet4.Show;
+  TabSheet4.SetFocus;
+end;
+
+//-- add type to bookmark ------------------------------------------------------
+procedure TForm1.MenuItem66Click(Sender: TObject);
+begin
+  ListBox1.Items.Add(StringGrid1.Cells[0,StringGrid1.Row]);
+end;
+
+//****************************** TOOLS MENU ************************************
+// -- open characteristic drawer window ----------------------------------------
+procedure TForm1.MenuItem36Click(Sender: TObject);
+begin
+  Form10.ShowModal;
+end;
+
+procedure TForm1.MenuItem37Click(Sender: TObject);
+begin
+
+end;
+
+// -- open type substitution window --------------------------------------------
+procedure TForm1.MenuItem35Click(Sender: TObject);
+begin
+  Form11.ShowModal;
+end;
+
+//****************************** HELP MENU *************************************
+//-- show help -----------------------------------------------------------------
+procedure TForm1.MenuItem4Click(Sender: TObject);
+begin
+{$IFDEF LINUX}
+  ShowHelpOrErrorForKeyword('','HTML/index.html');
+{$ENDIF}
+{$IFDEF WIN32}
+  s:=FSearch('hh.exe',getenv('PATH'));
+  if length(s)<>0 then
+  begin
+    Process1.CommandLine:=s+' '+helpfile;
+    Process1.Execute;
+  end else ShowMessage(MESSAGE27);
+{$ENDIF}
+end;
+
+//-- send a bugreport ----------------------------------------------------------
+procedure TForm1.MenuItem31Click(Sender: TObject);
+begin
+  if lang='hu' then runbrowser(URL_BUGREPORT_HU)
+  else runbrowser(URL_BUGREPORT);
+end;
+
+//-- order commercial release --------------------------------------------------
+procedure TForm1.MenuItem39Click(Sender: TObject);
+begin
+  if lang='hu' then runbrowser(URL_ORDER_HU)
+  else runbrowser(URL_ORDER);
+end;
+
+ //-- open homepage -------------------------------------------------------------
+procedure TForm1.MenuItem62Click(Sender: TObject);
+begin
+  if lang='hu' then runbrowser(URL_HOMEPAGE_HU)
+  else runbrowser(URL_HOMEPAGE);
 end;
 
 //-- view licence --------------------------------------------------------------
@@ -452,34 +804,51 @@ begin
   Form8.Show;
 end;
 
-//-- open homepage -------------------------------------------------------------
-procedure TForm1.MenuItem62Click(Sender: TObject);
+//-- show about ----------------------------------------------------------------
+procedure TForm1.MenuItem7Click(Sender: TObject);
 begin
-  if lang='hu' then runbrowser(URL_HOMEPAGE_HU)
-  else runbrowser(URL_HOMEPAGE);
+  Form2.ShowModal;
 end;
 
-//-- order commercial release --------------------------------------------------
-procedure TForm1.MenuItem39Click(Sender: TObject);
+//****************************** POPUP MENU 1 **********************************
+//-- show/hide stringgrids lines -----------------------------------------------
+procedure TForm1.MenuItem50Click(Sender: TObject);
 begin
-  if lang='hu' then runbrowser(URL_ORDER_HU)
-  else runbrowser(URL_ORDER);
+  MenuItem50.Checked:=not MenuItem50.Checked;
+  MenuItem48.Checked:=MenuItem50.Checked;
+  if MenuItem50.Checked=true
+  then StringGrid1.GridLineWidth:=1
+  else StringGrid1.GridLineWidth:=0;
 end;
 
-//-- send a bugreport ----------------------------------------------------------
-procedure TForm1.MenuItem31Click(Sender: TObject);
+//****************************** POPUP MENU 2 **********************************
+//-- copy pinout to clipboard --------------------------------------------------
+procedure TForm1.MenuItem20Click(Sender: TObject);
 begin
-  if lang='hu' then runbrowser(URL_BUGREPORT_HU)
-  else runbrowser(URL_BUGREPORT);
+  Memo1.SelectAll;
+  Memo1.CopyToClipboard;
 end;
 
-//-- show bookmarks ------------------------------------------------------------
-procedure TForm1.MenuItem64Click(Sender: TObject);
+//****************************** POPUP MENU 3 **********************************
+//-- copy description to clipboard ---------------------------------------------
+procedure TForm1.MenuItem26Click(Sender: TObject);
 begin
-  TabSheet4.Show;
-  TabSheet4.SetFocus;
+  Memo2.SelectAll;
+  Memo2.CopyToClipboard;
 end;
 
+//-- show/hide description -----------------------------------------------------
+procedure TForm1.MenuItem28Click(Sender: TObject);
+begin
+  MenuItem28.Checked:=not MenuItem28.Checked;
+  MenuItem30.Checked:=MenuItem28.Checked;
+  MenuItem49.Checked:=MenuItem28.Checked;
+  if MenuItem28.Checked=true
+  then PairSplitter1.Position:=Height-150
+  else PairSplitter1.Position:=PairSplitter1.Top+PairSplitter1.Height;
+end;
+
+//****************************** POPUP MENU 4 **********************************
 //-- remove type to bookmark ---------------------------------------------------
 procedure TForm1.MenuItem65Click(Sender: TObject);
 begin
@@ -488,23 +857,11 @@ begin
     then ListBox1.Items.Delete(ListBox1.ItemIndex);
 end;
 
-//-- add type to bookmark ------------------------------------------------------
-procedure TForm1.MenuItem66Click(Sender: TObject);
+//******************* GENERAL PROCEDURES AND FUNCTIONS 2. **********************
+//-- resize window -------------------------------------------------------------
+procedure TForm1.FormResize(Sender: TObject);
 begin
-  ListBox1.Items.Add(StringGrid1.Cells[0,StringGrid1.Row]);
-end;
-
-//-- auto fill -----------------------------------------------------------------
-procedure TForm1.MenuItem9Click(Sender: TObject);
-begin
-  StringGrid1.AutoFillColumns:=true;
-  StringGrid1.AutoFillColumns:=false;
-end;
-
-//-- auto column size ----------------------------------------------------------
-procedure TForm1.MenuItem14Click(Sender: TObject);
-begin
-  StringGrid1.AutoSizeColumns;
+  StatusBar1.Panels.Items[1].Width:=Width-297;
 end;
 
 //-- load text and picture of selected component -------------------------------
@@ -530,22 +887,6 @@ begin
   except
     Image1.Picture.Clear;
   end;
-end;
-
-//-- show help -----------------------------------------------------------------
-procedure TForm1.MenuItem4Click(Sender: TObject);
-begin
-{$IFDEF LINUX}
-  ShowHelpOrErrorForKeyword('','HTML/index.html');
-{$ENDIF}
-{$IFDEF WIN32}
-  s:=FSearch('hh.exe',getenv('PATH'));
-  if length(s)<>0 then
-  begin
-    Process1.CommandLine:=s+' '+helpfile;
-    Process1.Execute;
-  end else ShowMessage(MESSAGE27);
-{$ENDIF}
 end;
 
 //-- select another category -----------------------------------------------------
@@ -782,11 +1123,6 @@ begin
   firstload:=false;
 end;
 
-procedure TForm1.Bevel1ChangeBounds(Sender: TObject);
-begin
-
-end;
-
 // open useful links
 procedure TForm1.ComboBox2Click(Sender: TObject);
 begin
@@ -806,48 +1142,15 @@ begin
   CanClose:=true;
 end;
 
-//-- exit ----------------------------------------------------------------------
-procedure TForm1.MenuItem46Click(Sender: TObject);
+//-- dummy popup menu ----------------------------------------------------------
+procedure TForm1.Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
+  var Handled: Boolean);
 begin
-  Form1.Close;
-  Application.Terminate;
+  Handled:=true;
 end;
 
-//-- type search ---------------------------------------------------------------
-procedure TForm1.MenuItem11Click(Sender: TObject);
-begin
-  s:=uppercase(StringGrid1.Cells[0,StringGrid1.Row]);
-  if inputquery(MESSAGE04,MESSAGE25,s)=false then exit;
-  s:=uppercase(s);
-  for i:=1 to 800 do
-  begin
-    if i=StringGrid1.RowCount then
-    begin
-      showmessage(MESSAGE26); // Not found.
-      exit;
-    end;
-    if uppercase(StringGrid1.Cells[0,i])=s then
-    begin
-      StringGrid1.Row:=i;
-      exit;
-    end;
-  end;
-end;
-
-//-- sort ----------------------------------------------------------------------
-procedure TForm1.MenuItem18Click(Sender: TObject);
-begin
-  Form5.ShowModal;
-end;
-
-//-- parameter search ----------------------------------------------------------
-procedure TForm1.ToolButton3Click(Sender: TObject);
-begin
-  Form3.ShowModal;
-end;
-
-//-- search in all database ----------------------------------------------------
-procedure TForm1.ToolButton4Click(Sender: TObject);
+//-- select a bookmark----------------------------------------------------------
+procedure TForm1.ListBox1Click(Sender: TObject);
 var
   ftype, catnum: string;
 
@@ -856,7 +1159,7 @@ var
     itype, icat: string;
   begin
     result:='';
-    {$IFDEF LINUX}
+    {$IFDEF UNIX}
       assignfile(tf,xedfpath+'../index.csv');
     {$ENDIF}
     {$IFDEF WIN32}
@@ -884,9 +1187,7 @@ var
   end;
 
 begin
-  s:=uppercase(StringGrid1.Cells[0,StringGrid1.Row]);
-  if inputquery(MESSAGE62,MESSAGE25,s)=false then exit;
-  ftype:=uppercase(s);
+  ftype:=uppercase(ListBox1.Items.Strings[ListBox1.ItemIndex]);
   catnum:=getcategory(ftype);
   if catnum='' then
   begin
@@ -914,225 +1215,35 @@ begin
   end;
 end;
 
-//-- view package information --------------------------------------------------
-procedure TForm1.SpeedButton4Click(Sender: TObject);
-begin
-  Form8.Caption:=MESSAGE63;
-  Form8.Memo1.Clear;
-  try
-    Form8.Memo1.Lines.LoadFromFile(xedfpath+'news.txt');
-  except
-    Form8.Memo1.Lines.Add(MESSAGE64);
-  end;
-  Form8.Show;
-end;
-
-//-- copy pinout to clipboard --------------------------------------------------
-procedure TForm1.MenuItem20Click(Sender: TObject);
-begin
-  Memo1.SelectAll;
-  Memo1.CopyToClipboard;
-end;
-
-//-- copy description to clipboard ---------------------------------------------
-procedure TForm1.MenuItem26Click(Sender: TObject);
-begin
-  Memo2.SelectAll;
-  Memo2.CopyToClipboard;
-end;
-
-//-- show/hide description -----------------------------------------------------
-procedure TForm1.MenuItem28Click(Sender: TObject);
-begin
-  MenuItem28.Checked:=not MenuItem28.Checked;
-  MenuItem30.Checked:=MenuItem28.Checked;
-  MenuItem49.Checked:=MenuItem28.Checked;
-  if MenuItem28.Checked=true
-  then PairSplitter1.Position:=Height-150
-  else PairSplitter1.Position:=PairSplitter1.Top+PairSplitter1.Height;
-end;
-
-//-- show/hide stringgrids lines -----------------------------------------------
-procedure TForm1.MenuItem50Click(Sender: TObject);
-begin
-  MenuItem50.Checked:=not MenuItem50.Checked;
-  MenuItem48.Checked:=MenuItem50.Checked;
-  if MenuItem50.Checked=true
-  then StringGrid1.GridLineWidth:=1
-  else StringGrid1.GridLineWidth:=0;
-end;
-
-//-- open settings window ------------------------------------------------------
-procedure TForm1.MenuItem15Click(Sender: TObject);
-begin
-  Form7.ShowModal;
-end;
-
-// -- save to file -------------------------------------------------------------
-procedure TForm1.MenuItem12Click(Sender: TObject);
+//-- watch scroll-lock button --------------------------------------------------
+procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
-  tfdir, tfname, tfext: shortstring;
+  scrlckstate: boolean;
 
-// save in html format
-function savetohtml(filename: string): boolean;
+  function LowOrderBitSet( Value: integer ): boolean;
+  begin
+   Result := (Value and 1 > 0);
+  end;
+
 begin
-  assignfile(tf,s);
-  {$IFDEF LINUX}
-  {$I-}mkdir(tfdir+'/pics/');{$I+} ioresult;
-  {$ENDIF}
-  {$IFDEF WIN32}
-  {$I-}mkdir(tfdir+'\pics\');{$I+} ioresult;
-  {$ENDIF}
-  try
-    rewrite(tf);
-    writeln(tf,'<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">');
-    writeln(tf,'<html>');
-    writeln(tf,'<head>');
-    writeln(tf,'<meta http-equiv="content-type" content="text/html; charset=utf-8">');
-    writeln(tf,'<title>'+MESSAGE21+' - '+StringGrid1.Cells[0,StringGrid1.Row]+'</title>');
-    writeln(tf,'<meta name="generator" content="'+APPNAME+' '+VERSION+'">');
-    writeln(tf,'</head>');
-    writeln(tf,'<body>');
-    writeln(tf,'<font face="freemono, monospace" size=3>');
-    writeln(tf,'<table border=1 cellpadding=2 cellspacing=0><col width=492><col width=200>');
-    writeln(tf,'<tr>');
-    writeln(tf,'<td colspan=2 width=696 valign=top><font size=5><center><b>');
-    writeln(tf,MESSAGE21);
-    writeln(tf,'</b></center></font></td>');
-    writeln(tf,'</tr>');
-    writeln(tf,'<tr valign=top>');
-    writeln(tf,'<td width=492>');
-    writeln(tf,'<b>'+MESSAGE11+': </b>'+StringGrid1.Cells[0,StringGrid1.Row]+'<br>');
-    writeln(tf,'<b>'+MESSAGE31+': </b>'+StringGrid1.Cells[1,StringGrid1.Row]+'<br>');
-    writeln(tf,'<b>'+MESSAGE02+': </b>'+StringGrid1.Cells[2,StringGrid1.Row]+'<br>');
-    writeln(tf,'</td>');
-    writeln(tf,'<td width=200>');
-    writeln(tf,'<img src="pics/'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png" name="" alt="" align=bottom width=200 height=200 border=0>');
-    writeln(tf,'</td>');
-    writeln(tf,'</tr>');
-    writeln(tf,'<tr valign=top>');
-    writeln(tf,'<td width=492>');
-
-    writeln(tf,'<b>'+MESSAGE24+':</b><br>');
-    for b:=3 to StringGrid1.ColCount-1 do
-      writeln(tf,StringGrid1.Cells[b,0]+': '+StringGrid1.Cells[b,StringGrid1.Row]+'<br>');
-
-    writeln(tf,'<br>');
-
-    writeln(tf,'<b>'+MESSAGE40+':</b><br>');
-    for b:=0 to Memo2.Lines.Count do
-      writeln(tf,Memo2.Lines.Strings[b]+'<br>');
-
-    writeln(tf,'</td>');
-    writeln(tf,'<td width=200>');
-    writeln(tf,'<b>'+MESSAGE22+':</b><br>');
-    for b:=0 to Memo1.Lines.Count do
-      writeln(tf,Memo1.Lines.Strings[b]+'<br>');
-    writeln(tf,'</td>');
-    writeln(tf,'</tr>');
-    writeln(tf,'</table>');
-    writeln(tf,'<font size=2>'+APPNAME+' v'+VERSION+', <a href="http://www.pozsarzs.hu">'+MESSAGE43+'</a>,');
-    writeln(tf,'<a href="http://'+MESSAGE58+'.pozsarzs.hu">'+MESSAGE59+'</a></font>');
-    writeln(tf,'</font>');
-    writeln(tf,'</body>');
-    writeln(tf,'</html>');
-    closefile(tf);
-    // save picture
-    try
-      {$IFDEF LINUX}
-      Image1.Picture.SaveToFile(tfdir+'/pics/'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png')
-      {$ENDIF}
-      {$IFDEF WIN32}
-      Image1.Picture.SaveToFile(tfdir+'\pics\'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png')
-      {$ENDIF}
-    except
-      result:=false;
-      exit;
-    end;
-    result:=true;
-  except
-    result:=false
+  scrlckstate:=LowOrderBitSet(GetKeyState($91));
+  if scrlckstate then
+  begin
+    StatusBar1.Panels.Items[3].Text:=' SCR';
+    StringGrid1.Options:=StringGrid1.Options+[goScrollKeepVisible];
+  end else
+  begin
+    StatusBar1.Panels.Items[3].Text:='';
+    StringGrid1.Options:=StringGrid1.Options-[goScrollKeepVisible];
   end;
 end;
 
-// save in plain text format
-function savetotxt(filename: string): boolean;
-begin
-  assignfile(tf,s);
-  try
-    rewrite(tf);
-    writeln(tf,MESSAGE21);
-    for b:=1 to 80 do write(tf,'=');
-    writeln(tf,'');
-    writeln(tf,MESSAGE11+': '+StringGrid1.Cells[0,StringGrid1.Row]);
-    writeln(tf,MESSAGE31+': '+StringGrid1.Cells[1,StringGrid1.Row]);
-    writeln(tf,MESSAGE02+': '+StringGrid1.Cells[2,StringGrid1.Row]);
-    for b:=1 to 80 do write(tf,'-');
-    writeln(tf,'');
-    writeln(tf,MESSAGE24+':');
-    for b:=3 to StringGrid1.ColCount-1 do
-      writeln(tf,StringGrid1.Cells[b,0]+': '+StringGrid1.Cells[b,StringGrid1.Row]);
-    for b:=1 to 80 do write(tf,'-');
-    writeln(tf,'');
-    writeln(tf,MESSAGE40+':');
-    writeln(tf,cpld[StringGrid1.Row]);
-    for b:=1 to 80 do write(tf,'-');
-    writeln(tf,'');
-    writeln(tf,MESSAGE22+':');
-    write(tf,pinout[StringGrid1.Row]);
-    for b:=1 to 80 do write(tf,'-');
-    writeln(tf,'');
-    writeln(tf,APPNAME+' v'+VERSION+', '+MESSAGE43+': <http://www.pozsarzs.hu>,');
-    writeln(tf,MESSAGE59+': <http://'+MESSAGE58+'.pozsarzs.hu>');
-    closefile(tf);
-    result:=true;
-  except
-    result:=false
-  end;
-end;
-
-begin
-  SaveDialog1.Title:=MESSAGE28;
-  SaveDialog1.Filename:=StringGrid1.Cells[0,StringGrid1.Row];
-  SaveDialog1.Filter:=MESSAGE44;
-  SaveDialog1.FilterIndex:=1;
-  if SaveDialog1.Execute=false then exit;
-  case SaveDialog1.FilterIndex of
-    1:  begin
-          s:= SaveDialog1.FileName;
-          i:=length(s);
-          if (s[i-4]+s[i-3]+s[i-2]+s[i-1]+s[i]<>'.html') and (s[i-3]+s[i-2]+s[i-1]+s[i]<>'.htm')
-          then s:=s+'.html';
-        end;
-    2:  begin
-          s:= SaveDialog1.FileName;
-          i:=length(s);
-          if (s[i-3]+s[i-2]+s[i-1]+s[i]<>'.txt')
-          then s:=s+'.txt';
-        end;
-  end;
-  fsplit(s,tfdir,tfname,tfext);
-  if FSearch(tfname+tfext,tfdir)<>'' then
-    if MessageDlg(MESSAGE19,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
-  if length(s)=0 then exit;
-  case SaveDialog1.FilterIndex of
-    1: if savetohtml(s)=false then showmessage(MESSAGE20);
-    2: if savetotxt(s)=false then showmessage(MESSAGE20);
-  end;
-end;
-
-//-- open update window ------------------------------------------------------
-procedure TForm1.MenuItem13Click(Sender: TObject);
-begin
-  Form6.ShowModal;
-end;
-
-//-- dummy popup menu ----------------------------------------------------------
-procedure TForm1.Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
-  var Handled: Boolean);
-begin
-  Handled:=true;
-end;
+//-- original column size ------------------------------------------------------
+{begin
+  StringGrid1.AutoSizeColumn(0);
+  StringGrid1.AutoSizeColumn(2);
+  StringGrid1.ColWidths[1]:=StringGrid1.Width-StringGrid1.ColWidths[0]-StringGrid1.ColWidths[2]-20;
+end;}
 
 // -- OnCreate event -----------------------------------------------------------
 procedure TForm1.FormCreate(Sender: TObject);
@@ -1487,95 +1598,6 @@ begin
     if (length(sponsors[0,b])>0) and (length(sponsors[1,b])>0)
        then ComboBox2.Items.Add(sponsors[0,b]);
   ComboBox2.ItemIndex:=0;
-end;
-
-//-- watch scroll-lock button --------------------------------------------------
-procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
-var
-  scrlckstate: boolean;
-
-  function LowOrderBitSet( Value: integer ): boolean;
-  begin
-   Result := (Value and 1 > 0);
-  end;
-
-begin
-  scrlckstate:=LowOrderBitSet(GetKeyState($91));
-  if scrlckstate then
-  begin
-    StatusBar1.Panels.Items[3].Text:=' SCR';
-    StringGrid1.Options:=StringGrid1.Options+[goScrollKeepVisible];
-  end else
-  begin
-    StatusBar1.Panels.Items[3].Text:='';
-    StringGrid1.Options:=StringGrid1.Options-[goScrollKeepVisible];
-  end;
-end;
-
-//-- select a bookmark----------------------------------------------------------
-procedure TForm1.ListBox1Click(Sender: TObject);
-var
-  ftype, catnum: string;
-
-  function getcategory(reqtype: string): string;
-  var
-    itype, icat: string;
-  begin
-    result:='';
-    {$IFDEF UNIX}
-      assignfile(tf,xedfpath+'../index.csv');
-    {$ENDIF}
-    {$IFDEF WIN32}
-      assignfile(tf,xedfpath+'..\index.csv');
-    {$ENDIF}
-    try
-      reset(tf);
-      repeat
-        itype:='';
-        icat:='';
-        readln(tf,ss);
-        ss:=rmchr3(ss);
-        for b:=2 to length(ss) do
-          if ss[b]<>'"' then itype:=itype+ss[b] else break;
-        for b:=b+1 to length(ss) do
-          if ss[b]='"' then break;
-        for b:=b+1 to length(ss) do
-          if ss[b]<>'"' then icat:=icat+ss[b] else break;
-        if uppercase(itype)=reqtype then result:=icat;
-      until eof(tf);
-      closefile(tf);
-    except
-      showmessage(MESSAGE70);
-    end;
-  end;
-
-begin
-  ftype:=uppercase(ListBox1.Items.Strings[ListBox1.ItemIndex]);
-  catnum:=getcategory(ftype);
-  if catnum='' then
-  begin
-    showmessage(MESSAGE26); // Not found.
-    exit;
-  end;
-  for b:=1 to 64 do
-    if xedfname[b]=catnum+'.xedf' then break;
-  for bb:=0 to ComboBox1.Items.Count do
-    if ComboBox1.Items.Strings[bb]=xedfdscr[b] then break;
-  ComboBox1.ItemIndex:=bb;
-  ComboBox1Change;
-  for i:=1 to 800 do
-  begin
-    if i=StringGrid1.RowCount then
-    begin
-      showmessage(MESSAGE26); // Not found.
-      exit;
-    end;
-    if uppercase(StringGrid1.Cells[0,i])=ftype then
-    begin
-      StringGrid1.Row:=i;
-      exit;
-    end;
-  end;
 end;
 
 end.

@@ -1,5 +1,5 @@
 object Form1: TForm1
-  Left = 238
+  Left = 298
   Height = 480
   Top = 123
   Width = 640
@@ -137,7 +137,6 @@ object Form1: TForm1
     BorderSpacing.Left = 4
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
-    OnChangeBounds = Bevel1ChangeBounds
   end
   object Image1: TImage
     AnchorSideLeft.Control = Bevel1
@@ -155,7 +154,6 @@ object Form1: TForm1
     BorderSpacing.Top = 1
     BorderSpacing.Right = 1
     BorderSpacing.Bottom = 1
-    OnClick = Image1Click
     Proportional = True
   end
   object StatusBar1: TStatusBar
@@ -388,26 +386,28 @@ object Form1: TForm1
       Left = 1
       Top = 2
       Caption = '&Type search..'
-      MenuItem = MenuItem11
+      ImageIndex = 0
+      OnClick = MenuItem11Click
     end
     object ToolButton3: TToolButton
       Left = 23
       Top = 2
-      Caption = 'ToolButton3'
+      Caption = '&Parameter search..'
       ImageIndex = 3
+      MenuItem = MenuItem5
     end
     object ToolButton4: TToolButton
       Left = 45
       Top = 2
-      Caption = 'ToolButton4'
+      Caption = '&Search in all categories..'
       ImageIndex = 4
-      OnClick = ToolButton4Click
+      MenuItem = MenuItem57
     end
     object ToolButton5: TToolButton
       Left = 77
       Top = 2
-      Caption = 'ToolButton5'
-      ImageIndex = 2
+      Caption = '&Package information'
+      MenuItem = MenuItem60
     end
     object ToolButton6: TToolButton
       Left = 121
@@ -579,6 +579,7 @@ object Form1: TForm1
           4DFEDDAF8DC1FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
         }
         ShortCut = 16464
+        OnClick = MenuItem43Click
       end
       object MenuItem42: TMenuItem
         Caption = '-'
@@ -791,9 +792,11 @@ object Form1: TForm1
           000000000000FFFFFE03FCF6EA38FBF0DC96F9ECD2D9FCF2DDF9FCF4E2F9FCF5
           E3D9FCF5E596FDF8ED38FEFEFE03000000000000000000000000
         }
+        OnClick = MenuItem38Click
       end
       object MenuItem37: TMenuItem
         Caption = '-'
+        OnClick = MenuItem37Click
       end
       object MenuItem11: TMenuItem
         Caption = '&Type search..'
@@ -875,6 +878,7 @@ object Form1: TForm1
           F7FFD6F3F7FFD6F3F7FFD6F3F7FF000000FFD6F3F7FFD6F3F7FF
         }
         ShortCut = 115
+        OnClick = MenuItem5Click
       end
       object MenuItem57: TMenuItem
         Caption = '&Search in all categories..'
@@ -915,6 +919,7 @@ object Form1: TForm1
           F4FFD0F0F4FFD0F0F4FFD0F0F4FF000000FFD0F0F4FFD0F0F4FF
         }
         ShortCut = 116
+        OnClick = MenuItem57Click
       end
       object MenuItem17: TMenuItem
         Caption = '-'
@@ -1001,9 +1006,11 @@ object Form1: TForm1
       Caption = '&Tools'
       object MenuItem36: TMenuItem
         Caption = '&Characteristic drawer'
+        OnClick = MenuItem36Click
       end
       object MenuItem35: TMenuItem
         Caption = '&Type Substitution'
+        OnClick = MenuItem35Click
       end
     end
     object MenuItem3: TMenuItem
@@ -1237,6 +1244,7 @@ object Form1: TForm1
         000000000000FFFFFE03FCF6EA38FBF0DC96F9ECD2D9FCF2DDF9FCF4E2F9FCF5
         E3D9FCF5E596FDF8ED38FEFEFE03000000000000000000000000
       }
+      OnClick = MenuItem38Click
     end
     object MenuItem68: TMenuItem
       Caption = '&Add selected type to bookmarks'
@@ -1251,9 +1259,11 @@ object Form1: TForm1
     end
     object MenuItem16: TMenuItem
       Caption = '&Parameter search..'
+      OnClick = MenuItem5Click
     end
     object MenuItem33: TMenuItem
       Caption = '&Search in all categories..'
+      OnClick = MenuItem57Click
     end
     object MenuItem21: TMenuItem
       Caption = '-'
