@@ -82,8 +82,10 @@ type
     MenuItem39: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem40: TMenuItem;
+    MenuItem41: TMenuItem;
     MenuItem42: TMenuItem;
     MenuItem43: TMenuItem;
+    MenuItem44: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
     MenuItem47: TMenuItem;
@@ -91,6 +93,12 @@ type
     MenuItem49: TMenuItem;
     MenuItem5: TMenuItem;
     MenuItem50: TMenuItem;
+    MenuItem51: TMenuItem;
+    MenuItem52: TMenuItem;
+    MenuItem53: TMenuItem;
+    MenuItem54: TMenuItem;
+    MenuItem55: TMenuItem;
+    MenuItem56: TMenuItem;
     MenuItem57: TMenuItem;
     MenuItem6: TMenuItem;
     MenuItem60: TMenuItem;
@@ -117,6 +125,7 @@ type
     Process2: TProcess;
     Process3: TProcess;
     SaveDialog1: TSaveDialog;
+    SpeedButton1: TSpeedButton;
     StatusBar1: TStatusBar;
     StringGrid1: TStringGrid;
     TabSheet1: TTabSheet;
@@ -138,7 +147,6 @@ type
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
     procedure ComboBox1Change;
-    procedure ComboBox2Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -153,7 +161,9 @@ type
     procedure MenuItem37Click(Sender: TObject);
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
+    procedure MenuItem41Click(Sender: TObject);
     procedure MenuItem43Click(Sender: TObject);
+    procedure MenuItem44Click(Sender: TObject);
     procedure MenuItem57Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
@@ -175,6 +185,7 @@ type
     procedure MenuItem66Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
     procedure StringGrid1Selection;
   private
     { private declarations }
@@ -231,10 +242,14 @@ const
 {$I config.inc}
 
 Resourcestring
+  MESSAGE01='Sort';
   MESSAGE02='Base';
+  MESSAGE03='Search selected type on internet';
   MESSAGE04='Type search';
+  {...}
   MESSAGE10='Missing files! Please reinstall application.';
   MESSAGE11='Type';
+  {...}
   MESSAGE19='File exists, overwrite?';
   MESSAGE20='Write error!';
   MESSAGE21='Electrontube datasheet';
@@ -248,10 +263,13 @@ Resourcestring
   MESSAGE29='Save to file';
   MESSAGE30='Type search';
   MESSAGE31='Function';
+  MESSAGE32='Add selected type to bookmarks';
   MESSAGE33='Version';
   MESSAGE34='Database is corrupt!';
   MESSAGE35='New version of database is available, click on ''Upgrade database'' to install it.';
   MESSAGE36='Original size';
+  MESSAGE37='Characteristic drawer';
+  MESSAGE38='Type substitution';
   MESSAGE39='Electrontubes';
   MESSAGE40='Description';
   MESSAGE41='New version of Tubes2 Open edition is available.';
@@ -260,8 +278,11 @@ Resourcestring
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
   MESSAGE45='Show description';
   MESSAGE46='Parameter search';
+  {...}
   MESSAGE49='Categories of electrontubes';
+  {...}
   MESSAGE51='Sorry, there is off-line mode.';
+  {...}
   MESSAGE53='Cannot run browser!';
   MESSAGE54='Cannot run mailer!';
   MESSAGE55='Parameters';
@@ -269,13 +290,17 @@ Resourcestring
   MESSAGE57='Please visit http://www.pozsarzs.hu for download it.';
   MESSAGE58='pinout';
   MESSAGE59='On-line pinout searcher';
+  {...}
   MESSAGE61='Go to website';
   MESSAGE62='Search in all category';
   MESSAGE63='Package information';
   MESSAGE64='File is not readable.';
+  {...}
   MESSAGE67='Licence';
+  {...}
   MESSAGE70='Index file is corrupt!';
   MESSAGE71='Loading...';
+  {...}
   MESSAGE77='Bookmarks';
   MESSAGE78='Useful websites';
   MESSAGE79='Pozsi''s homepage';
@@ -568,6 +593,11 @@ begin
 
 end;
 
+procedure TForm1.MenuItem44Click(Sender: TObject);
+begin
+
+end;
+
 //-- open update window --------------------------------------------------------
 procedure TForm1.MenuItem13Click(Sender: TObject);
 begin
@@ -783,6 +813,11 @@ procedure TForm1.MenuItem39Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser(URL_ORDER_HU)
   else runbrowser(URL_ORDER);
+end;
+
+procedure TForm1.MenuItem41Click(Sender: TObject);
+begin
+
 end;
 
  //-- open homepage -------------------------------------------------------------
@@ -1125,7 +1160,7 @@ begin
 end;
 
 // open useful links
-procedure TForm1.ComboBox2Click(Sender: TObject);
+procedure TForm1.SpeedButton1Click(Sender: TObject);
 begin
   for b:=0 to 63 do
     if sponsors[0,b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
@@ -1347,11 +1382,16 @@ begin
   {$IFDEF WIN32}
     translateresourcestrings(exepath+'languages\'+lang+'\tubes2oe.mo');
   {$ENDIF}
-//  SpeedButton1.Hint:=MESSAGE46;
-//  ToolButton2.Hint:=MESSAGE30;
-//  ToolButton4.Hint:=MESSAGE62;
-//  SpeedButton4.Hint:=MESSAGE63;
-//  SpeedButton5.Hint:=MESSAGE61;
+  ToolButton11.Hint:=MESSAGE37;
+  ToolButton13.Hint:=MESSAGE38;
+  ToolButton2.Hint:=MESSAGE30;
+  ToolButton3.Hint:=MESSAGE46;
+  ToolButton4.Hint:=MESSAGE62;
+  ToolButton5.Hint:=MESSAGE28;
+  ToolButton7.Hint:=MESSAGE01;
+  ToolButton8.Hint:=MESSAGE03;
+  ToolButton9.Hint:=MESSAGE32;
+  SpeedButton1.Hint:=MESSAGE61;
   ComboBox1.Hint:=MESSAGE49;
   ComboBox2.Hint:=MESSAGE78;
 
@@ -1445,11 +1485,6 @@ begin
     Form1.ToolButton8.Enabled:=not frmmain.offline;
     Form1.ComboBox2.Enabled:=not frmmain.offline;
   end;
-
-  // search package info
- // if FSearch('news.txt',xedfpath)<>''
-//  then SpeedButton4.Enabled:=true
-//  else SpeedButton4.Enabled:=false;
 
   // count components
   compnumall:=0;
