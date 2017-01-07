@@ -1528,6 +1528,8 @@ begin
         for b:=4 to length(s) do websearchurl:=websearchurl+s[b];
     until(eof(tf));
     closefile(tf);
+    if cmdpnocheckupdate then nocheckupdate:=true;
+    if cmdpoffline then offline:=true;
     Form1.MenuItem31.Enabled:=not frmmain.offline;
     Form1.MenuItem38.Enabled:=not frmmain.offline;
     Form1.MenuItem39.Enabled:=not frmmain.offline;
