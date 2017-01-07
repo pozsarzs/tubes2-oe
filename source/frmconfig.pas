@@ -25,13 +25,15 @@ unit frmconfig;
 interface
 uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Buttons;
+  StdCtrls, Buttons, ComCtrls;
 type
   { TForm7 }
   TForm7 = class(TForm)
     Bevel1: TBevel;
+    Bevel2: TBevel;
     Bevel3: TBevel;
-    Bevel4: TBevel;
+    Bevel5: TBevel;
+    Bevel6: TBevel;
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
@@ -39,20 +41,28 @@ type
     Button5: TButton;
     CheckBox1: TCheckBox;
     CheckBox2: TCheckBox;
-    ComboBox1: TComboBox;
+    CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    ComboBox2: TComboBox;
     Edit1: TEdit;
     Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
     Label1: TLabel;
     Label2: TLabel;
-    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
     OpenDialog1: TOpenDialog;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure CheckBox1Change(Sender: TObject);
-    procedure ComboBox1Change(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     { private declarations }
@@ -62,6 +72,11 @@ type
 var
   Form7: TForm7;
   defbrowser, defmailer: string;
+const wsname: array[1..5] of string=('Bing',
+                                     'DuckDuckGo',
+                                     'Google',
+                                     'Yahoo',
+                                     'Yandex');
 
 Resourcestring
   MESSAGE01='Settings';
@@ -158,17 +173,13 @@ begin
   Edit1.Text:=defbrowser;
   Edit2.Text:=defmailer;
   CheckBox1.Checked:=false;
-  CheckBox1.Checked:=false;
+  CheckBox2.Checked:=false;
 end;
 
 //-- CheckBox change event -----------------------------------------------------
 procedure TForm7.CheckBox1Change(Sender: TObject);
 begin
-end;
-
-procedure TForm7.ComboBox1Change(Sender: TObject);
-begin
-
+  CheckBox2.Enabled:=not CheckBox1.Checked;
 end;
 
 //-- OnShow event --------------------------------------------------------------

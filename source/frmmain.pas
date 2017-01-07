@@ -231,6 +231,7 @@ var
   mailerprogramme: string;                         // mailer programme with path
   //urls
   checkupdateurl: string;                                          // update url
+  websearchurl: string;                                         // websearch url
   bin: TFileStream;
 
 {$IFDEF WIN32}
@@ -634,7 +635,7 @@ end;
 //-- type search on internet ---------------------------------------------------
 procedure TForm1.MenuItem38Click(Sender: TObject);
 begin
-
+  runbrowser(websearchurl+StringGrid1.Cells[0,StringGrid1.Row]);
 end;
 
 //-- type search ---------------------------------------------------------------
