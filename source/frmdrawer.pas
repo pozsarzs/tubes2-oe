@@ -24,8 +24,12 @@ unit frmdrawer;
 {$MODE OBJFPC}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  ValEdit;
 type
+
+  { TForm10 }
+
   TForm10 = class(TForm)
   private
     { private declarations }

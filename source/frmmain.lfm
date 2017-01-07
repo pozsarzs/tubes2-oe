@@ -438,10 +438,10 @@ object Form1: TForm1
       Style = tbsDivider
     end
     object ToolButton11: TToolButton
-      Left = 175
+      Left = 209
       Top = 2
       Caption = 'ToolButton11'
-      OnClick = MenuItem36Click
+      OnClick = MenuItem41Click
     end
     object ToolButton12: TToolButton
       Left = 143
@@ -466,10 +466,17 @@ object Form1: TForm1
       OnClick = MenuItem38Click
     end
     object ToolButton13: TToolButton
-      Left = 197
+      Left = 231
       Top = 2
       Caption = 'ToolButton13'
       OnClick = MenuItem35Click
+    end
+    object ToolButton14: TToolButton
+      Left = 175
+      Top = 2
+      Caption = 'Tube desi&gnation systems'
+      MenuItem = MenuItem36
+      Style = tbsDropDown
     end
   end
   object ComboBox1: TComboBox
@@ -856,7 +863,6 @@ object Form1: TForm1
       end
       object MenuItem37: TMenuItem
         Caption = '-'
-        OnClick = MenuItem37Click
       end
       object MenuItem11: TMenuItem
         Caption = '&Type search..'
@@ -1065,8 +1071,39 @@ object Form1: TForm1
     object MenuItem34: TMenuItem
       Caption = '&Tools'
       object MenuItem36: TMenuItem
+        Caption = 'Tube desi&gnation systems'
+        object MenuItem58: TMenuItem
+          Caption = 'Brimar'
+          OnClick = MenuItem58Click
+        end
+        object MenuItem59: TMenuItem
+          Caption = 'CV (military)'
+          OnClick = MenuItem59Click
+        end
+        object MenuItem69: TMenuItem
+          Caption = 'European (after 1934)'
+          OnClick = MenuItem69Click
+        end
+        object MenuItem70: TMenuItem
+          Caption = 'Mazda'
+          OnClick = MenuItem70Click
+        end
+        object MenuItem71: TMenuItem
+          Caption = 'Philips'
+          OnClick = MenuItem71Click
+        end
+        object MenuItem72: TMenuItem
+          Caption = 'Soviet/Russian'
+          OnClick = MenuItem72Click
+        end
+        object MenuItem73: TMenuItem
+          Caption = 'USA'
+          OnClick = MenuItem73Click
+        end
+      end
+      object MenuItem41: TMenuItem
         Caption = '&Characteristic drawer'
-        OnClick = MenuItem36Click
+        OnClick = MenuItem41Click
       end
       object MenuItem35: TMenuItem
         Caption = '&Type Substitution'
@@ -1115,32 +1152,6 @@ object Form1: TForm1
         }
         ShortCut = 112
         OnClick = MenuItem4Click
-      end
-      object MenuItem41: TMenuItem
-        Caption = 'Tube desi&gnation systems'
-        OnClick = MenuItem41Click
-        object MenuItem44: TMenuItem
-          Caption = 'Brimar'
-          OnClick = MenuItem44Click
-        end
-        object MenuItem51: TMenuItem
-          Caption = 'CV (military)'
-        end
-        object MenuItem52: TMenuItem
-          Caption = 'European (after 1934)'
-        end
-        object MenuItem53: TMenuItem
-          Caption = 'Mazda'
-        end
-        object MenuItem54: TMenuItem
-          Caption = 'Philips'
-        end
-        object MenuItem55: TMenuItem
-          Caption = 'Soviet/Russian'
-        end
-        object MenuItem56: TMenuItem
-          Caption = 'USA'
-        end
       end
       object MenuItem32: TMenuItem
         Caption = '-'

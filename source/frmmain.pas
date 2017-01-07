@@ -85,7 +85,6 @@ type
     MenuItem41: TMenuItem;
     MenuItem42: TMenuItem;
     MenuItem43: TMenuItem;
-    MenuItem44: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
     MenuItem47: TMenuItem;
@@ -93,13 +92,9 @@ type
     MenuItem49: TMenuItem;
     MenuItem5: TMenuItem;
     MenuItem50: TMenuItem;
-    MenuItem51: TMenuItem;
-    MenuItem52: TMenuItem;
-    MenuItem53: TMenuItem;
-    MenuItem54: TMenuItem;
-    MenuItem55: TMenuItem;
-    MenuItem56: TMenuItem;
     MenuItem57: TMenuItem;
+    MenuItem58: TMenuItem;
+    MenuItem59: TMenuItem;
     MenuItem6: TMenuItem;
     MenuItem60: TMenuItem;
     MenuItem61: TMenuItem;
@@ -110,7 +105,12 @@ type
     MenuItem66: TMenuItem;
     MenuItem67: TMenuItem;
     MenuItem68: TMenuItem;
+    MenuItem69: TMenuItem;
     MenuItem7: TMenuItem;
+    MenuItem70: TMenuItem;
+    MenuItem71: TMenuItem;
+    MenuItem72: TMenuItem;
+    MenuItem73: TMenuItem;
     MenuItem8: TMenuItem;
     MenuItem9: TMenuItem;
     PageControl1: TPageControl;
@@ -138,6 +138,7 @@ type
     ToolButton11: TToolButton;
     ToolButton12: TToolButton;
     ToolButton13: TToolButton;
+    ToolButton14: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
@@ -157,14 +158,19 @@ type
     procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
     procedure MenuItem35Click(Sender: TObject);
-    procedure MenuItem36Click(Sender: TObject);
-    procedure MenuItem37Click(Sender: TObject);
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
     procedure MenuItem43Click(Sender: TObject);
-    procedure MenuItem44Click(Sender: TObject);
+    procedure MenuItem51Click(Sender: TObject);
+    procedure MenuItem52Click(Sender: TObject);
+    procedure MenuItem53Click(Sender: TObject);
+    procedure MenuItem54Click(Sender: TObject);
+    procedure MenuItem55Click(Sender: TObject);
+    procedure MenuItem56Click(Sender: TObject);
     procedure MenuItem57Click(Sender: TObject);
+    procedure MenuItem58Click(Sender: TObject);
+    procedure MenuItem59Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem11Click(Sender: TObject);
@@ -183,6 +189,11 @@ type
     procedure MenuItem64Click(Sender: TObject);
     procedure MenuItem65Click(Sender: TObject);
     procedure MenuItem66Click(Sender: TObject);
+    procedure MenuItem69Click(Sender: TObject);
+    procedure MenuItem70Click(Sender: TObject);
+    procedure MenuItem71Click(Sender: TObject);
+    procedure MenuItem72Click(Sender: TObject);
+    procedure MenuItem73Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
@@ -283,7 +294,7 @@ Resourcestring
   MESSAGE49='Categories of electrontubes';
   {...}
   MESSAGE51='Sorry, there is off-line mode.';
-  {...}
+  MESSAGE52='Tube designation systems';
   MESSAGE53='Cannot run browser!';
   MESSAGE54='Cannot run mailer!';
   MESSAGE55='Parameters';
@@ -594,7 +605,32 @@ begin
 
 end;
 
-procedure TForm1.MenuItem44Click(Sender: TObject);
+procedure TForm1.MenuItem51Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem52Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem53Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem54Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem55Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.MenuItem56Click(Sender: TObject);
 begin
 
 end;
@@ -769,14 +805,9 @@ end;
 
 //****************************** TOOLS MENU ************************************
 // -- open characteristic drawer window ----------------------------------------
-procedure TForm1.MenuItem36Click(Sender: TObject);
+procedure TForm1.MenuItem41Click(Sender: TObject);
 begin
   Form10.ShowModal;
-end;
-
-procedure TForm1.MenuItem37Click(Sender: TObject);
-begin
-
 end;
 
 // -- open type substitution window --------------------------------------------
@@ -785,21 +816,46 @@ begin
   Form11.ShowModal;
 end;
 
+procedure TForm1.MenuItem58Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_brimar.html');
+end;
+
+procedure TForm1.MenuItem59Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_cv.html');
+end;
+
+procedure TForm1.MenuItem69Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_euro.html');
+end;
+
+procedure TForm1.MenuItem70Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_mazda.html');
+end;
+
+procedure TForm1.MenuItem71Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_philips.html');
+end;
+
+procedure TForm1.MenuItem72Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_soviet.html');
+end;
+
+procedure TForm1.MenuItem73Click(Sender: TObject);
+begin
+  ShowHelpOrErrorForKeyword('','HTML/sign_usa.html');
+end;
+
 //****************************** HELP MENU *************************************
 //-- show help -----------------------------------------------------------------
 procedure TForm1.MenuItem4Click(Sender: TObject);
 begin
-{$IFDEF LINUX}
   ShowHelpOrErrorForKeyword('','HTML/index.html');
-{$ENDIF}
-{$IFDEF WIN32}
-  s:=FSearch('hh.exe',getenv('PATH'));
-  if length(s)<>0 then
-  begin
-    Process1.CommandLine:=s+' '+helpfile;
-    Process1.Execute;
-  end else ShowMessage(MESSAGE27);
-{$ENDIF}
 end;
 
 //-- send a bugreport ----------------------------------------------------------
@@ -814,11 +870,6 @@ procedure TForm1.MenuItem39Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser(URL_ORDER_HU)
   else runbrowser(URL_ORDER);
-end;
-
-procedure TForm1.MenuItem41Click(Sender: TObject);
-begin
-
 end;
 
  //-- open homepage -------------------------------------------------------------
@@ -1275,13 +1326,6 @@ begin
   end;
 end;
 
-//-- original column size ------------------------------------------------------
-{begin
-  StringGrid1.AutoSizeColumn(0);
-  StringGrid1.AutoSizeColumn(2);
-  StringGrid1.ColWidths[1]:=StringGrid1.Width-StringGrid1.ColWidths[0]-StringGrid1.ColWidths[2]-20;
-end;}
-
 // -- OnCreate event -----------------------------------------------------------
 procedure TForm1.FormCreate(Sender: TObject);
 {$IFDEF WIN32}
@@ -1385,6 +1429,7 @@ begin
   {$ENDIF}
   ToolButton11.Hint:=MESSAGE37;
   ToolButton13.Hint:=MESSAGE38;
+  ToolButton14.Hint:=MESSAGE52;
   ToolButton2.Hint:=MESSAGE30;
   ToolButton3.Hint:=MESSAGE46;
   ToolButton4.Hint:=MESSAGE62;
@@ -1419,17 +1464,16 @@ begin
       then helpfile:=exepath+'help/help_'+lang+'/'
       else helpfile:=exepath+'help/help_en/';
     {$ENDIF}
-    HTMLHelpDatabase1.AutoRegister:=true;
-    HTMLHelpDatabase1.KeywordPrefix:='HTML/';
-    HTMLHelpDatabase1.BaseURL:='file://'+helpfile;
-    HTMLBrowserHelpViewer1.AutoRegister:=true;
   {$ENDIF}
   {$IFDEF WIN32}
-  if FSearch('tubes2oe_'+lang+'.chm',exepath+'help\')=''
-  then helpfile:=exepath+'help\tubes2oe_en.chm'
-  else helpfile:=exepath+'help\tubes2oe_'+lang+'.chm';
-  Application.HelpFile:=helpfile;
+    if FSearch('index.html',exepath+'help\help_'+lang)<>''
+    then helpfile:=exepath+'help\help_'+lang+'\'
+    else helpfile:=exepath+'help\help_en\';
   {$ENDIF}
+  HTMLHelpDatabase1.AutoRegister:=true;
+  HTMLHelpDatabase1.KeywordPrefix:='HTML/';
+  HTMLHelpDatabase1.BaseURL:='file://'+helpfile;
+  HTMLBrowserHelpViewer1.AutoRegister:=true;
 
   // search datafile - in original folder
   {$IFDEF UNIX}
