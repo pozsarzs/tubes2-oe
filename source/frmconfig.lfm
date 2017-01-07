@@ -1,13 +1,13 @@
 object Form7: TForm7
-  Left = 322
+  Left = 586
   Height = 247
-  Top = 223
+  Top = 261
   Width = 369
   HorzScrollBar.Page = 385
   VertScrollBar.Page = 224
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
-  Caption = 'Form7'
+  Caption = 'Settings'
   ClientHeight = 247
   ClientWidth = 369
   OnShow = FormShow
@@ -19,7 +19,7 @@ object Form7: TForm7
     Top = 216
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button3'
+    Caption = 'Save'
     OnClick = Button3Click
     TabOrder = 0
   end
@@ -29,7 +29,7 @@ object Form7: TForm7
     Top = 216
     Width = 75
     BorderSpacing.InnerBorder = 4
-    Caption = 'Button4'
+    Caption = 'Cancel'
     OnClick = Button4Click
     TabOrder = 1
   end
@@ -38,7 +38,7 @@ object Form7: TForm7
     Height = 25
     Top = 216
     Width = 75
-    Caption = 'Button5'
+    Caption = 'Default'
     OnClick = Button5Click
     TabOrder = 2
   end
@@ -49,11 +49,11 @@ object Form7: TForm7
     Height = 210
     Top = 0
     Width = 368
-    ActivePage = TabSheet1
-    TabIndex = 0
+    ActivePage = TabSheet2
+    TabIndex = 1
     TabOrder = 3
     object TabSheet1: TTabSheet
-      Caption = 'TabSheet1'
+      Caption = 'General'
       ClientHeight = 181
       ClientWidth = 364
       object Bevel3: TBevel
@@ -94,16 +94,16 @@ object Form7: TForm7
         Left = 12
         Height = 15
         Top = 16
-        Width = 42
-        Caption = 'Label1'
+        Width = 124
+        Caption = 'Browser application'
         ParentColor = False
       end
       object Label2: TLabel
         Left = 12
         Height = 15
         Top = 64
-        Width = 42
-        Caption = 'Label2'
+        Width = 111
+        Caption = 'Mailer application'
         ParentColor = False
       end
       object Edit1: TEdit
@@ -126,7 +126,7 @@ object Form7: TForm7
         Top = 32
         Width = 75
         BorderSpacing.InnerBorder = 4
-        Caption = 'Button1'
+        Caption = 'Browse..'
         OnClick = Button1Click
         TabOrder = 2
       end
@@ -136,7 +136,7 @@ object Form7: TForm7
         Top = 80
         Width = 75
         BorderSpacing.InnerBorder = 4
-        Caption = 'Button2'
+        Caption = 'Browse..'
         OnClick = Button2Click
         TabOrder = 3
       end
@@ -144,8 +144,8 @@ object Form7: TForm7
         Left = 12
         Height = 21
         Top = 128
-        Width = 94
-        Caption = 'CheckBox1'
+        Width = 131
+        Caption = 'Full off-line mode'
         OnChange = CheckBox1Change
         TabOrder = 4
       end
@@ -153,13 +153,13 @@ object Form7: TForm7
         Left = 12
         Height = 21
         Top = 152
-        Width = 94
-        Caption = 'CheckBox2'
+        Width = 270
+        Caption = 'Disable search new version on internet'
         TabOrder = 5
       end
     end
     object TabSheet2: TTabSheet
-      Caption = 'TabSheet2'
+      Caption = 'Web search'
       ClientHeight = 181
       ClientWidth = 364
       object Bevel2: TBevel
@@ -184,16 +184,16 @@ object Form7: TForm7
         Left = 12
         Height = 15
         Top = 64
-        Width = 42
-        Caption = 'Label4'
+        Width = 25
+        Caption = 'URL'
         ParentColor = False
       end
       object Label5: TLabel
         Left = 12
         Height = 15
         Top = 112
-        Width = 42
-        Caption = 'Label5'
+        Width = 142
+        Caption = 'search word (optional)'
         ParentColor = False
       end
       object Edit3: TEdit
@@ -201,13 +201,14 @@ object Form7: TForm7
         Height = 23
         Top = 80
         Width = 332
+        ReadOnly = True
         TabOrder = 0
       end
       object Edit4: TEdit
         Left = 12
         Height = 23
         Top = 128
-        Width = 128
+        Width = 332
         TabOrder = 1
       end
       object ComboBox2: TComboBox
@@ -216,24 +217,16 @@ object Form7: TForm7
         Top = 32
         Width = 332
         ItemHeight = 0
-        ItemIndex = 2
-        Items.Strings = (
-          'Bing'
-          'DuckDuckGo'
-          'Google'
-          'Yahoo'
-          'Yandex'
-        )
+        OnChange = ComboBox2Change
         Style = csDropDownList
         TabOrder = 2
-        Text = 'Google'
       end
       object Label6: TLabel
         Left = 12
         Height = 15
         Top = 16
-        Width = 42
-        Caption = 'Label6'
+        Width = 86
+        Caption = 'Web searcher'
         ParentColor = False
       end
     end

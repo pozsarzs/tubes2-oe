@@ -63,6 +63,7 @@ type
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure CheckBox1Change(Sender: TObject);
+    procedure ComboBox2Change(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     { private declarations }
@@ -72,26 +73,25 @@ type
 var
   Form7: TForm7;
   defbrowser, defmailer: string;
-const wsname: array[1..5] of string=('Bing',
-                                     'DuckDuckGo',
-                                     'Google',
-                                     'Yahoo',
-                                     'Yandex');
+const
+  wsname: array[1..6] of string=('Bing',
+                                 'DuckDuckGo',
+                                 'Google',
+                                 'Yahoo',
+                                 'Yandex',
+                                 '(User)');
 
+  wsurl: array[1..6] of string= ('http://www.bing.com/search?q=',
+                                 'https://duckduckgo.com/?q=',
+                                 'https://www.google.hu/search?q=',
+                                 'https://search.yahoo.com/search?p=',
+                                 'https://yandex.ru/search/?text=',
+                                 '');
 Resourcestring
-  MESSAGE01='Settings';
-  MESSAGE02='Mailer application';
-  MESSAGE03='Browser application';
-  MESSAGE04='Disable search new version on internet';
-  MESSAGE05='Full off-line mode';
-  MESSAGE06='Browse..';
-  MESSAGE07='Save';
-  MESSAGE08='Cancel';
   MESSAGE09='Select browser application';
   MESSAGE10='Select mailer application';
   MESSAGE11='executables|*.exe|all files|*.*';
   MESSAGE12='all files|*.*';
-  MESSAGE13='Default';
 
 implementation
 {$R *.lfm}
@@ -120,6 +120,9 @@ begin
   writeln(tf,'MP='+Edit2.Text);
   write(tf,'FO='); if offline=true then writeln(tf,'1') else writeln(tf,'0');
   write(tf,'DF='); if nocheckupdate=true then writeln(tf,'1') else writeln(tf,'0');
+  writeln(tf,'SN='+ComboBox2.Items.Strings[ComboBox2.ItemIndex]);
+  writeln(tf,'SU='+Edit3.Text);
+  writeln(tf,'SW='+Edit4.Text);
   closefile(tf);
   Form1.MenuItem31.Enabled:=not frmmain.offline;
   Form1.MenuItem38.Enabled:=not frmmain.offline;
@@ -172,8 +175,11 @@ procedure TForm7.Button5Click(Sender: TObject);
 begin
   Edit1.Text:=defbrowser;
   Edit2.Text:=defmailer;
+  Edit4.Clear;
   CheckBox1.Checked:=false;
   CheckBox2.Checked:=false;
+  ComboBox2.ItemIndex:=0;
+  ComboBox2Change(Sender);
 end;
 
 //-- CheckBox change event -----------------------------------------------------
@@ -182,19 +188,18 @@ begin
   CheckBox2.Enabled:=not CheckBox1.Checked;
 end;
 
+//-- ComboBox change event -----------------------------------------------------
+procedure TForm7.ComboBox2Change(Sender: TObject);
+begin
+  for b:=1 to 6 do
+    if wsname[b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
+  Edit3.Text:=wsurl[b];
+  if length(wsurl[b])=0 then Edit3.ReadOnly:=false else Edit3.ReadOnly:=true;
+end;
+
 //-- OnShow event --------------------------------------------------------------
 procedure TForm7.FormShow(Sender: TObject);
 begin
-  Form7.Caption:=MESSAGE01;
-  Label1.Caption:=MESSAGE03;
-  Label2.Caption:=MESSAGE02;
-  CheckBox1.Caption:=MESSAGE05;
-  CheckBox2.Caption:=MESSAGE04;
-  Button1.Caption:=MESSAGE06;
-  Button2.Caption:=MESSAGE06;
-  Button3.Caption:=MESSAGE07;
-  Button4.Caption:=MESSAGE08;
-  Button5.Caption:=MESSAGE13;
   {$IFDEF LINUX}
     defbrowser:='xdg-open';
     defmailer:='xdg-email';
@@ -209,6 +214,11 @@ begin
   if Edit2.Text='' then Edit2.Text:=defmailer;
   CheckBox1.Checked:=frmmain.offline;
   CheckBox2.Checked:=frmmain.nocheckupdate;
+  ComboBox2.Clear;
+  for b:=1 to 6 do
+    ComboBox2.Items.Add(wsname[b]);
+  ComboBox2.ItemIndex:=0;
+  ComboBox2Change(Sender);
 end;
 end.
 
