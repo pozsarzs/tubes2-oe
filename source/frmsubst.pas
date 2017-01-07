@@ -24,9 +24,24 @@ unit frmsubst;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  ExtCtrls, StdCtrls;
 type
+
+  { TForm11 }
+
   TForm11 = class(TForm)
+    Bevel1: TBevel;
+    Button1: TButton;
+    Edit1: TEdit;
+    Label1: TLabel;
+    Memo1: TMemo;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    RadioGroup1: TRadioGroup;
+    procedure Edit1Change(Sender: TObject);
+    procedure RadioGroup1ChangeBounds(Sender: TObject);
   private
     { private declarations }
   public
@@ -37,6 +52,18 @@ var
 
 implementation
 {$R *.lfm}
+
+{ TForm11 }
+
+procedure TForm11.RadioGroup1ChangeBounds(Sender: TObject);
+begin
+
+end;
+
+procedure TForm11.Edit1Change(Sender: TObject);
+begin
+
+end;
 
 end.
 
