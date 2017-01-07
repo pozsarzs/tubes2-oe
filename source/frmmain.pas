@@ -157,6 +157,7 @@ type
       var Handled: Boolean);
     procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
+    procedure MenuItem34Click(Sender: TObject);
     procedure MenuItem35Click(Sender: TObject);
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
@@ -321,8 +322,6 @@ Resourcestring
   MESSAGE82='http://www.pozsarzs.hu/en/index.php';
   MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
   MESSAGE84='http://pinout.pozsarzs.hu';
-  MESSAGE85='If you want to get all datapackage upgrade, use ''pro'' version of Tubes2.';
-  MESSAGE86='Visit our website to find out how to buy product key or require free key.';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -865,6 +864,11 @@ begin
   else runbrowser(URL_BUGREPORT);
 end;
 
+procedure TForm1.MenuItem34Click(Sender: TObject);
+begin
+
+end;
+
 //-- order commercial release --------------------------------------------------
 procedure TForm1.MenuItem39Click(Sender: TObject);
 begin
@@ -1226,7 +1230,6 @@ begin
     ListBox1.Items.SaveToFile(userdir+DIR_CONFIG+'tubes2.bmk');
   except
   end;
-  ShowMessage(MESSAGE85+#13+#10+MESSAGE86);
   CanClose:=true;
 end;
 

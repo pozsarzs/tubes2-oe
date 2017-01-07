@@ -49,8 +49,8 @@ object Form7: TForm7
     Height = 210
     Top = 0
     Width = 368
-    ActivePage = TabSheet2
-    TabIndex = 1
+    ActivePage = TabSheet1
+    TabIndex = 0
     TabOrder = 3
     object TabSheet1: TTabSheet
       Caption = 'General'
