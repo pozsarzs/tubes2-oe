@@ -128,6 +128,7 @@ type
     ToolButton10: TToolButton;
     ToolButton11: TToolButton;
     ToolButton12: TToolButton;
+    ToolButton13: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
@@ -166,6 +167,7 @@ type
     procedure MenuItem46Click(Sender: TObject);
     procedure MenuItem4Click(Sender: TObject);
     procedure MenuItem50Click(Sender: TObject);
+    procedure MenuItem60Click(Sender: TObject);
     procedure MenuItem61Click(Sender: TObject);
     procedure MenuItem62Click(Sender: TObject);
     procedure MenuItem64Click(Sender: TObject);
@@ -173,7 +175,6 @@ type
     procedure MenuItem66Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
     procedure MenuItem9Click(Sender: TObject);
-    procedure SpeedButton4Click(Sender: TObject);
     procedure StringGrid1Selection;
   private
     { private declarations }
@@ -574,7 +575,7 @@ begin
 end;
 
 //-- view package information --------------------------------------------------
-procedure TForm1.SpeedButton4Click(Sender: TObject);
+procedure TForm1.MenuItem60Click(Sender: TObject);
 begin
   Form8.Caption:=MESSAGE63;
   Form8.Memo1.Clear;
@@ -1441,6 +1442,7 @@ begin
     Form1.MenuItem39.Enabled:=not frmmain.offline;
     Form1.MenuItem40.Enabled:=not frmmain.offline;
     Form1.MenuItem62.Enabled:=not frmmain.offline;
+    Form1.ToolButton8.Enabled:=not frmmain.offline;
     Form1.ComboBox2.Enabled:=not frmmain.offline;
   end;
 
