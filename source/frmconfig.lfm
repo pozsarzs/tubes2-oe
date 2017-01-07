@@ -133,7 +133,7 @@ object Form7: TForm7
   end
   object ComboBox1: TComboBox
     Left = 175
-    Height = 25
+    Height = 23
     Top = 144
     Width = 172
     ItemHeight = 0

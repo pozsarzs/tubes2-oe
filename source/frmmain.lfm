@@ -1,13 +1,13 @@
 object Form1: TForm1
-  Left = 191
-  Height = 662
-  Top = 28
-  Width = 713
+  Left = 238
+  Height = 480
+  Top = 123
+  Width = 640
   HelpType = htKeyword
   ActiveControl = StringGrid1
   Caption = 'Form1'
-  ClientHeight = 637
-  ClientWidth = 713
+  ClientHeight = 455
+  ClientWidth = 640
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -129,28 +129,40 @@ object Form1: TForm1
     AnchorSideTop.Side = asrBottom
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 498
+    Left = 438
     Height = 202
     Top = 30
-    Width = 211
+    Width = 198
     Anchors = [akTop, akLeft, akRight]
     BorderSpacing.Left = 4
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
+    OnChangeBounds = Bevel1ChangeBounds
   end
   object Image1: TImage
+    AnchorSideLeft.Control = Bevel1
     AnchorSideTop.Control = Bevel1
-    Left = 502
+    AnchorSideRight.Control = Bevel1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Bevel1
+    AnchorSideBottom.Side = asrBottom
+    Left = 439
     Height = 200
-    Top = 30
-    Width = 200
+    Top = 31
+    Width = 196
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 1
+    BorderSpacing.Top = 1
+    BorderSpacing.Right = 1
+    BorderSpacing.Bottom = 1
+    OnClick = Image1Click
     Proportional = True
   end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 19
-    Top = 618
-    Width = 713
+    Top = 436
+    Width = 640
     Panels = <    
       item
         Alignment = taCenter
@@ -158,11 +170,11 @@ object Form1: TForm1
         Width = 140
       end    
       item
-        Width = 410
+        Width = 350
       end    
       item
         Alignment = taCenter
-        Text = ' 000000/000000'
+        Text = '0000/0000'
         Width = 100
       end    
       item
@@ -179,9 +191,9 @@ object Form1: TForm1
     AnchorSideBottom.Control = StatusBar1
     Cursor = crVSplit
     Left = 4
-    Height = 551
+    Height = 369
     Top = 63
-    Width = 490
+    Width = 430
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Left = 4
     BorderSpacing.Top = 4
@@ -193,8 +205,8 @@ object Form1: TForm1
       Left = 0
       Height = 300
       Top = 0
-      Width = 490
-      ClientWidth = 490
+      Width = 430
+      ClientWidth = 430
       ClientHeight = 300
       object Bevel3: TBevel
         AnchorSideLeft.Control = PairSplitterSide1
@@ -204,7 +216,7 @@ object Form1: TForm1
         Left = 0
         Height = 300
         Top = 0
-        Width = 490
+        Width = 430
         Align = alClient
       end
       object StringGrid1: TStringGrid
@@ -217,7 +229,7 @@ object Form1: TForm1
         Left = 2
         Height = 296
         Top = 2
-        Width = 486
+        Width = 426
         Anchors = [akTop, akLeft, akRight, akBottom]
         BorderSpacing.Left = 2
         BorderSpacing.Top = 2
@@ -246,24 +258,23 @@ object Form1: TForm1
     object PairSplitterSide2: TPairSplitterSide
       Cursor = crArrow
       Left = 0
-      Height = 246
+      Height = 64
       Top = 305
-      Width = 490
-      ClientWidth = 490
-      ClientHeight = 246
+      Width = 430
+      ClientWidth = 430
+      ClientHeight = 64
       object Memo2: TMemo
         AnchorSideLeft.Control = PairSplitterSide2
         AnchorSideTop.Control = PairSplitterSide2
         AnchorSideRight.Side = asrBottom
         AnchorSideBottom.Control = PairSplitterSide2
         AnchorSideBottom.Side = asrBottom
-        Left = 4
-        Height = 246
+        Left = 0
+        Height = 64
         Top = 0
-        Width = 486
+        Width = 430
         Align = alClient
         Anchors = [akTop, akBottom]
-        BorderSpacing.Left = 4
         Font.Height = -11
         Font.Name = 'Courier 10 Pitch'
         ParentFont = False
@@ -282,10 +293,10 @@ object Form1: TForm1
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = StatusBar1
-    Left = 498
-    Height = 378
+    Left = 438
+    Height = 196
     Top = 236
-    Width = 211
+    Width = 198
     ActivePage = TabSheet1
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Left = 4
@@ -296,13 +307,13 @@ object Form1: TForm1
     TabOrder = 2
     object TabSheet1: TTabSheet
       Caption = 'Pinout'
-      ClientHeight = 349
-      ClientWidth = 207
+      ClientHeight = 167
+      ClientWidth = 194
       object Memo1: TMemo
         Left = 0
-        Height = 349
+        Height = 167
         Top = 0
-        Width = 207
+        Width = 194
         Align = alClient
         Font.Height = -11
         Font.Name = 'Courier 10 Pitch'
@@ -316,13 +327,13 @@ object Form1: TForm1
     end
     object TabSheet2: TTabSheet
       Caption = 'Parameters'
-      ClientHeight = 349
-      ClientWidth = 207
+      ClientHeight = 167
+      ClientWidth = 194
       object Memo3: TMemo
         Left = 0
-        Height = 117
+        Height = 167
         Top = 0
-        Width = 196
+        Width = 194
         Align = alClient
         Font.Height = -11
         Font.Name = 'Courier 10 Pitch'
@@ -339,19 +350,19 @@ object Form1: TForm1
     end
     object TabSheet4: TTabSheet
       Caption = 'Bookmarks'
-      ClientHeight = 349
-      ClientWidth = 207
+      ClientHeight = 167
+      ClientWidth = 194
       object ListBox1: TListBox
         Left = 0
-        Height = 302
+        Height = 167
         Top = 0
-        Width = 198
+        Width = 194
         Align = alClient
         ExtendedSelect = False
         ItemHeight = 0
         OnDblClick = ListBox1Click
         PopupMenu = PopupMenu4
-        ScrollWidth = 194
+        ScrollWidth = 190
         Sorted = True
         TabOrder = 0
         TopIndex = -1
@@ -362,7 +373,7 @@ object Form1: TForm1
     Left = 0
     Height = 26
     Top = 0
-    Width = 713
+    Width = 640
     ButtonWidth = 22
     Caption = 'ToolBar1'
     DisabledImages = ImageList1
@@ -377,83 +388,85 @@ object Form1: TForm1
       Left = 1
       Top = 2
       Caption = '&Type search..'
-      ImageIndex = 0
       MenuItem = MenuItem11
     end
     object ToolButton3: TToolButton
-      Left = 26
+      Left = 23
       Top = 2
       Caption = 'ToolButton3'
       ImageIndex = 3
     end
     object ToolButton4: TToolButton
-      Left = 51
+      Left = 45
       Top = 2
       Caption = 'ToolButton4'
       ImageIndex = 4
       OnClick = ToolButton4Click
     end
     object ToolButton5: TToolButton
-      Left = 86
+      Left = 77
       Top = 2
       Caption = 'ToolButton5'
       ImageIndex = 2
     end
     object ToolButton6: TToolButton
-      Left = 136
+      Left = 121
       Top = 2
       Width = 10
       Caption = 'ToolButton6'
       Style = tbsSeparator
     end
     object ToolButton7: TToolButton
-      Left = 146
+      Left = 131
       Top = 2
       Caption = 'ToolButton7'
     end
     object ToolButton9: TToolButton
-      Left = 171
+      Left = 153
       Top = 2
       Caption = 'ToolButton9'
     end
     object ToolButton10: TToolButton
-      Left = 206
+      Left = 185
       Top = 2
       Width = 10
       Caption = 'ToolButton10'
       Style = tbsSeparator
     end
     object ToolButton11: TToolButton
-      Left = 216
+      Left = 195
       Top = 2
       Caption = 'ToolButton11'
     end
     object ToolButton12: TToolButton
-      Left = 196
+      Left = 175
       Top = 2
       Width = 10
       Caption = 'ToolButton12'
       Style = tbsSeparator
     end
     object ToolButton1: TToolButton
-      Left = 76
+      Left = 67
       Top = 2
       Width = 10
       Caption = 'ToolButton1'
       Style = tbsSeparator
     end
     object ToolButton8: TToolButton
-      Left = 111
+      Left = 99
       Top = 2
       Caption = 'ToolButton8'
     end
   end
   object ComboBox1: TComboBox
+    AnchorSideRight.Control = ComboBox2
     AnchorSideBottom.Control = ToolBar1
     Left = 4
     Height = 27
     Top = 32
-    Width = 309
+    Width = 266
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Right = 4
     ItemHeight = 0
     OnChange = ComboBox1Change
     ParentFont = False
@@ -464,11 +477,15 @@ object Form1: TForm1
     TabOrder = 4
   end
   object ComboBox2: TComboBox
-    Left = 316
+    AnchorSideLeft.Control = ComboBox1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Bevel1
+    Left = 274
     Height = 27
     Top = 32
-    Width = 178
-    BorderSpacing.Right = 1
+    Width = 160
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 4
     ItemHeight = 0
     ParentFont = False
     ParentShowHint = False
@@ -478,8 +495,8 @@ object Form1: TForm1
     TabOrder = 5
   end
   object MainMenu1: TMainMenu
-    left = 528
-    top = 88
+    left = 448
+    top = 40
     object MenuItem2: TMenuItem
       Caption = '&File'
       object MenuItem12: TMenuItem
@@ -1075,6 +1092,10 @@ object Form1: TForm1
         }
         OnClick = MenuItem31Click
       end
+      object MenuItem39: TMenuItem
+        Caption = '&Order commercial release'
+        OnClick = MenuItem39Click
+      end
       object MenuItem62: TMenuItem
         Caption = '&Go to homepage'
         Bitmap.Data = {
@@ -1167,17 +1188,17 @@ object Form1: TForm1
   object HTMLBrowserHelpViewer1: THTMLBrowserHelpViewer
     BrowserParams = '%s'
     AutoRegister = False
-    left = 608
-    top = 88
+    left = 560
+    top = 40
   end
   object HTMLHelpDatabase1: THTMLHelpDatabase
     AutoRegister = False
-    left = 608
-    top = 120
+    left = 560
+    top = 88
   end
   object PopupMenu1: TPopupMenu
-    left = 528
-    top = 120
+    left = 448
+    top = 88
     object MenuItem40: TMenuItem
       Caption = 'Search selected type on &internet'
       Bitmap.Data = {
@@ -1280,19 +1301,19 @@ object Form1: TForm1
     WindowTop = 0
     WindowWidth = 0
     FillAttribute = 0
-    left = 568
-    top = 88
+    left = 504
+    top = 40
   end
   object PopupMenu2: TPopupMenu
-    left = 528
-    top = 152
+    left = 448
+    top = 136
     object MenuItem20: TMenuItem
       Caption = '&Copy pinout to clipboard'
       OnClick = MenuItem20Click
     end
   end
   object PopupMenu3: TPopupMenu
-    left = 528
+    left = 448
     top = 184
     object MenuItem26: TMenuItem
       Caption = '&Copy description to clipboard'
@@ -1326,8 +1347,8 @@ object Form1: TForm1
     WindowTop = 0
     WindowWidth = 0
     FillAttribute = 0
-    left = 568
-    top = 120
+    left = 504
+    top = 88
   end
   object Process3: TProcess
     Active = False
@@ -1342,11 +1363,11 @@ object Form1: TForm1
     WindowTop = 0
     WindowWidth = 0
     FillAttribute = 0
-    left = 568
-    top = 152
+    left = 504
+    top = 136
   end
   object PopupMenu4: TPopupMenu
-    left = 568
+    left = 504
     top = 184
     object MenuItem65: TMenuItem
       Caption = '&Remove from bookmarks'
@@ -1354,8 +1375,8 @@ object Form1: TForm1
     end
   end
   object ImageList1: TImageList
-    left = 608
-    top = 160
+    left = 560
+    top = 136
     Bitmap = {
       4C69050000001000000010000000000000FF000000FFD0F0F4FFD0F0F4FFC88C
       64FFC88C64FFC88C64FFC88C64FFC88C64FFD0F0F4FFD0F0F4FFD0F0F4FFD0F0

@@ -107,6 +107,9 @@ begin
   write(tf,'DF='); if nocheckupdate=true then writeln(tf,'1') else writeln(tf,'0');
   closefile(tf);
   Form1.MenuItem31.Enabled:=not frmmain.offline;
+  Form1.MenuItem38.Enabled:=not frmmain.offline;
+  Form1.MenuItem39.Enabled:=not frmmain.offline;
+  Form1.MenuItem40.Enabled:=not frmmain.offline;
   Form1.MenuItem62.Enabled:=not frmmain.offline;
   Form1.ComboBox2.Enabled:=not frmmain.offline;
   Form7.Close;

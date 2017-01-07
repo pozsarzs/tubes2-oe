@@ -78,6 +78,7 @@ type
     MenuItem36: TMenuItem;
     MenuItem37: TMenuItem;
     MenuItem38: TMenuItem;
+    MenuItem39: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem40: TMenuItem;
     MenuItem42: TMenuItem;
@@ -134,17 +135,20 @@ type
     ToolButton7: TToolButton;
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
+    procedure Bevel1ChangeBounds(Sender: TObject);
     procedure ComboBox1Change;
     procedure ComboBox2Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormResize(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
     procedure ListBox1Click(Sender: TObject);
     procedure Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
       var Handled: Boolean);
     procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
+    procedure MenuItem39Click(Sender: TObject);
     procedure MenuItem5Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem11Click(Sender: TObject);
@@ -309,6 +313,11 @@ begin
   StatusBar1.Panels.Items[1].Width:=Width-297;
 end;
 
+procedure TForm1.Image1Click(Sender: TObject);
+begin
+
+end;
+
 //-- run browser ---------------------------------------------------------------
 procedure runbrowser(url: string);
 begin
@@ -448,6 +457,13 @@ procedure TForm1.MenuItem62Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser(URL_HOMEPAGE_HU)
   else runbrowser(URL_HOMEPAGE);
+end;
+
+//-- order commercial release --------------------------------------------------
+procedure TForm1.MenuItem39Click(Sender: TObject);
+begin
+  if lang='hu' then runbrowser(URL_ORDER_HU)
+  else runbrowser(URL_ORDER);
 end;
 
 //-- send a bugreport ----------------------------------------------------------
@@ -764,6 +780,11 @@ begin
     StringGrid1.Row:=1;
   end;
   firstload:=false;
+end;
+
+procedure TForm1.Bevel1ChangeBounds(Sender: TObject);
+begin
+
 end;
 
 // open useful links
@@ -1305,6 +1326,9 @@ begin
     until(eof(tf));
     closefile(tf);
     Form1.MenuItem31.Enabled:=not frmmain.offline;
+    Form1.MenuItem38.Enabled:=not frmmain.offline;
+    Form1.MenuItem39.Enabled:=not frmmain.offline;
+    Form1.MenuItem40.Enabled:=not frmmain.offline;
     Form1.MenuItem62.Enabled:=not frmmain.offline;
     Form1.ComboBox2.Enabled:=not frmmain.offline;
   end;

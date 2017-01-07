@@ -28,10 +28,12 @@ const
   INSTPATH='@prefix@/';
   MYI18PATH='@prefix@/share/locale/';
   // urls
-  URL_BUGREPORT='http://www.pozsarzs.hu/tubes/bugreport.php';
+  URL_BUGREPORT='http://www.pozsarzs.hu/tubes/bugreport_en.php';
   URL_BUGREPORT_HU='http://www.pozsarzs.hu/tubes/bugreport_hu.php';
-  URL_HOMEPAGE='http://www.pozsarzs.hu/tubes/tubes.html';
-  URL_HOMEPAGE_HU='http://www.pozsarzs.hu/tubes/tubes_hu.html';
+  URL_ORDER='http://www.pozsarzs.hu/tubes/registration_en.php';
+  URL_ORDER_HU='http://www.pozsarzs.hu/tubes/registration_hu.php';
+  URL_HOMEPAGE='http://www.pozsarzs.hu/tubes/tubes_en.html';
+  URL_HOMEPAGE_HU='http://www.pozsarzs.hu/tubes/tubes.html';
   URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2trial/sponsors.csv';
   // user's folders
   {$IFDEF UNIX}
