@@ -1466,6 +1466,7 @@ begin
     reset(tf);
     browserprogramme:='';
     mailerprogramme:='';
+    websearchurl:='';
     repeat
       readln(tf,s);
       if s[1]+s[2]+s[3]='BP=' then
@@ -1476,6 +1477,8 @@ begin
         if s[4]='1' then offline:=true else offline:=false;
       if s[1]+s[2]+s[3]='DF=' then
         if s[4]='1' then nocheckupdate:=true else nocheckupdate:=false;
+      if s[1]+s[2]+s[3]='SU=' then
+        for b:=4 to length(s) do websearchurl:=websearchurl+s[b];
     until(eof(tf));
     closefile(tf);
     Form1.MenuItem31.Enabled:=not frmmain.offline;

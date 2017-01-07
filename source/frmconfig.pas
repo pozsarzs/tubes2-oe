@@ -47,11 +47,9 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
-    Edit4: TEdit;
     Label1: TLabel;
     Label2: TLabel;
     Label4: TLabel;
-    Label5: TLabel;
     Label6: TLabel;
     OpenDialog1: TOpenDialog;
     PageControl1: TPageControl;
@@ -107,6 +105,7 @@ begin
   frmmain.mailerprogramme:=Edit2.Text;
   frmmain.offline:=CheckBox1.Checked;
   frmmain.nocheckupdate:=CheckBox2.Checked;
+  frmmain.websearchurl:=Edit3.Text;
 
   assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
   rewrite(tf);
@@ -122,7 +121,6 @@ begin
   write(tf,'DF='); if nocheckupdate=true then writeln(tf,'1') else writeln(tf,'0');
   writeln(tf,'SN='+ComboBox2.Items.Strings[ComboBox2.ItemIndex]);
   writeln(tf,'SU='+Edit3.Text);
-  writeln(tf,'SW='+Edit4.Text);
   closefile(tf);
   Form1.MenuItem31.Enabled:=not frmmain.offline;
   Form1.MenuItem38.Enabled:=not frmmain.offline;
@@ -175,7 +173,6 @@ procedure TForm7.Button5Click(Sender: TObject);
 begin
   Edit1.Text:=defbrowser;
   Edit2.Text:=defmailer;
-  Edit4.Clear;
   CheckBox1.Checked:=false;
   CheckBox2.Checked:=false;
   ComboBox2.ItemIndex:=0;
@@ -217,8 +214,12 @@ begin
   ComboBox2.Clear;
   for b:=1 to 6 do
     ComboBox2.Items.Add(wsname[b]);
-  ComboBox2.ItemIndex:=0;
-  ComboBox2Change(Sender);
+  Edit3.Text:=frmmain.websearchurl;
+  for b:=1 to 6 do
+    if wsurl[b]=Edit3.Text then break;
+  ComboBox2.ItemIndex:=b-1;
+  if (b>0) and (b<6) then ComboBox2Change(Sender);
 end;
+
 end.
 
