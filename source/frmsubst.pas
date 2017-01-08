@@ -27,9 +27,7 @@ uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
   ExtCtrls, StdCtrls;
 type
-
   { TForm11 }
-
   TForm11 = class(TForm)
     Bevel1: TBevel;
     Button1: TButton;
@@ -40,8 +38,10 @@ type
     RadioButton2: TRadioButton;
     RadioButton3: TRadioButton;
     RadioGroup1: TRadioGroup;
+    procedure Button1Click(Sender: TObject);
     procedure Edit1Change(Sender: TObject);
-    procedure RadioGroup1ChangeBounds(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure RadioButton1Change(Sender: TObject);
   private
     { private declarations }
   public
@@ -50,19 +50,50 @@ type
 var
   Form11: TForm11;
 
+Resourcestring
+  MESSAGE01='Not found.';
+
 implementation
 {$R *.lfm}
-
+uses frmmain;
 { TForm11 }
 
-procedure TForm11.RadioGroup1ChangeBounds(Sender: TObject);
+procedure TForm11.Edit1Change(Sender: TObject);
+var
+  i: integer;
+  ct: integer;
 begin
-
+  Memo1.Clear;
+  ct:=0;
+  for i:=1 to 5000 do
+    if pos(Label1.Caption+Edit1.Text,frmmain.substdata[i,1])>0 then
+    begin
+      Memo1.Lines.Add(frmmain.substdata[i,1]+': '+frmmain.substdata[i,2]);
+      ct:=ct+1;
+    end;
+  if ct=0 then Memo1.Lines.Add(MESSAGE01);
 end;
 
-procedure TForm11.Edit1Change(Sender: TObject);
+procedure TForm11.RadioButton1Change(Sender: TObject);
 begin
+  if RadioButton1.Checked then Label1.Caption:=RadioButton1.Caption;
+  if RadioButton2.Checked then Label1.Caption:=RadioButton2.Caption;
+  if RadioButton3.Checked then Label1.Caption:=RadioButton3.Caption+'-';
+  Edit1.Clear;
+  Edit1Change(Sender);
+end;
 
+//-- close box -----------------------------------------------------------------
+procedure TForm11.Button1Click(Sender: TObject);
+begin
+  Form11.Close;
+end;
+
+//-- OnCreate event --------------------------------------------------------------
+procedure TForm11.FormCreate(Sender: TObject);
+begin
+  RadioButton1Change(Sender);
+  Edit1Change(Sender);
 end;
 
 end.

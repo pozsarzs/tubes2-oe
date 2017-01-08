@@ -50,7 +50,7 @@ var
 
 implementation
 {$R *.lfm}
-uses frmMain;
+uses frmmain;
 {TForm5}
 
 //-- start sort ----------------------------------------------------------------

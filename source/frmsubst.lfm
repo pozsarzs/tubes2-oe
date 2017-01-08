@@ -3,6 +3,7 @@ object Form11: TForm11
   Height = 174
   Top = 256
   Width = 394
+  BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Type substitution'
   ClientHeight = 174
@@ -112,6 +113,7 @@ object Form11: TForm11
     0000000000000000000000000000000000000000000000000000000000000000
     0000
   }
+  OnCreate = FormCreate
   Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
   object Bevel1: TBevel
@@ -140,6 +142,7 @@ object Form11: TForm11
     BorderSpacing.Right = 4
     BorderSpacing.Bottom = 4
     Caption = '&Close'
+    OnClick = Button1Click
     TabOrder = 3
   end
   object Edit1: TEdit
@@ -152,6 +155,7 @@ object Form11: TForm11
     Width = 262
     Anchors = [akTop, akLeft, akRight]
     BorderSpacing.Around = 4
+    CharCase = ecUppercase
     OnChange = Edit1Change
     TabOrder = 0
   end
@@ -177,6 +181,7 @@ object Form11: TForm11
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Around = 4
     ReadOnly = True
+    ScrollBars = ssAutoBoth
     TabOrder = 2
   end
   object RadioGroup1: TRadioGroup
@@ -201,7 +206,6 @@ object Form11: TForm11
     ChildSizing.ControlsPerLine = 1
     ClientHeight = 124
     ClientWidth = 62
-    OnChangeBounds = RadioGroup1ChangeBounds
     TabOrder = 1
     object RadioButton1: TRadioButton
       Left = 6
@@ -210,7 +214,9 @@ object Form11: TForm11
       Width = 50
       Caption = 'CV'
       Checked = True
+      OnChange = RadioButton1Change
       TabOrder = 0
+      TabStop = True
     end
     object RadioButton2: TRadioButton
       Left = 6
@@ -218,6 +224,7 @@ object Form11: TForm11
       Top = 42
       Width = 50
       Caption = 'M2'
+      OnChange = RadioButton1Change
       TabOrder = 1
     end
     object RadioButton3: TRadioButton
@@ -226,6 +233,7 @@ object Form11: TForm11
       Top = 84
       Width = 50
       Caption = 'VT'
+      OnChange = RadioButton1Change
       TabOrder = 2
     end
   end

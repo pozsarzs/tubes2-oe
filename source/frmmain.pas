@@ -32,6 +32,10 @@ uses
   frmsubst, frmupgrade,
   untstrconv;
 type
+indata=record
+  name1: string[16];
+  name2: string[16];
+end;
   { TForm1 }
   TForm1 = class(TForm)
     Bevel1: TBevel;
@@ -232,6 +236,7 @@ var
   xedfname, xedfdscr: array[1..64] of string;           //xedf filename and desc
   compnumall, compnumcat: integer;                        // components' numbers
   sponsors: array[0..1,0..63] of string;         // sponsors name and webaddress
+  substdata: array[1..5000,1..2] of string[16];                     // type list
   // paths, files
   xedfpath: string;                                        // path of xedf files
   picspath: string;                                     // path of base pictures
@@ -1348,6 +1353,35 @@ var
   end;
 {$ENDIF}
 
+procedure loadsubstdata;
+var
+  id: indata;
+  rf: file of indata;
+  i: integer;
+
+begin
+  {$IFDEF UNIX}
+    assignfile(rf,xedfpath+'../subst.dat');
+  {$ENDIF}
+  {$IFDEF WIN32}
+    assignfile(rf,xedfpath+'..\subst.dat');
+  {$ENDIF}
+  try
+    reset(rf);
+    i:=1;
+    repeat
+      read(rf,id);
+      substdata[i,1]:=id.name1; substdata[i,2]:=id.name2;
+      i:=i+1;
+    until eof(rf);
+    closefile(rf);
+  except
+    ShowMessage(MESSAGE10); // No datafile!
+    nodatabase:=true;
+    halt;
+  end;
+end;
+
 procedure loadsponsorsaddress;
 var
   bin: TFileStream;
@@ -1419,7 +1453,8 @@ begin
   {$ENDIF}
   if length(s)=0 then s:='en';
   lang:=lowercase(s[1..2]);
-  // messages
+
+    // messages
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
       translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2oe.mo');
@@ -1688,6 +1723,9 @@ begin
     if (length(sponsors[0,b])>0) and (length(sponsors[1,b])>0)
        then ComboBox2.Items.Add(sponsors[0,b]);
   ComboBox2.ItemIndex:=0;
+
+  // load substitution data
+  loadsubstdata;
 end;
 
 end.
