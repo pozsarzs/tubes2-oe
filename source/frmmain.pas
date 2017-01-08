@@ -29,8 +29,7 @@ uses
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
   ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, Types, dos, gettext,
   httpsend, frmparsearch, frmconfig, frmdrawer, frmtextview, frmprogressbar,
-  frmsubst, frmupgrade,
-  untstrconv;
+  frmsubst, frmupgrade, untstrconv;
 type
 indata=record
   name1: string[16];
@@ -89,6 +88,7 @@ end;
     MenuItem41: TMenuItem;
     MenuItem42: TMenuItem;
     MenuItem43: TMenuItem;
+    MenuItem44: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
     MenuItem47: TMenuItem;
@@ -96,6 +96,8 @@ end;
     MenuItem49: TMenuItem;
     MenuItem5: TMenuItem;
     MenuItem50: TMenuItem;
+    MenuItem51: TMenuItem;
+    MenuItem52: TMenuItem;
     MenuItem57: TMenuItem;
     MenuItem58: TMenuItem;
     MenuItem59: TMenuItem;
@@ -143,6 +145,9 @@ end;
     ToolButton12: TToolButton;
     ToolButton13: TToolButton;
     ToolButton14: TToolButton;
+    ToolButton15: TToolButton;
+    ToolButton16: TToolButton;
+    ToolButton17: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
@@ -166,13 +171,8 @@ end;
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
-    procedure MenuItem43Click(Sender: TObject);
+    procedure MenuItem44Click(Sender: TObject);
     procedure MenuItem51Click(Sender: TObject);
-    procedure MenuItem52Click(Sender: TObject);
-    procedure MenuItem53Click(Sender: TObject);
-    procedure MenuItem54Click(Sender: TObject);
-    procedure MenuItem55Click(Sender: TObject);
-    procedure MenuItem56Click(Sender: TObject);
     procedure MenuItem57Click(Sender: TObject);
     procedure MenuItem58Click(Sender: TObject);
     procedure MenuItem59Click(Sender: TObject);
@@ -211,6 +211,7 @@ end;
 var
   // general
   Form1: TForm1;
+  bin: TFileStream;
   firstload: boolean;                                              // first load
   b, bb, bbb: byte;                                          // general variable
   i: integer;                                                // general variable
@@ -232,6 +233,8 @@ var
   nodatabase: boolean;                                  // there is not database
   pinout: array[1..800] of widestring;                                 // pinout
   cpld: array[1..800] of widestring;                         // long description
+  cpws: array[1..800] of widestring;                                  // website
+  cpwd: array[1..800] of widestring;                         // datasheet on web
   thereisnewversion: boolean;    // it's true if there's new version on internet
   xedfname, xedfdscr: array[1..64] of string;           //xedf filename and desc
   compnumall, compnumcat: integer;                        // components' numbers
@@ -249,7 +252,6 @@ var
   //urls
   checkupdateurl: string;                                          // update url
   websearchurl: string;                                         // websearch url
-  bin: TFileStream;
 
 {$IFDEF WIN32}
 const
@@ -327,6 +329,8 @@ Resourcestring
   MESSAGE82='http://www.pozsarzs.hu/en/index.php';
   MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
   MESSAGE84='http://pinout.pozsarzs.hu';
+  MESSAGE85='Datasheet';
+  MESSAGE86='Website';
 
 function searchnewversion: boolean;
 procedure runbrowser(url: string);
@@ -604,39 +608,21 @@ begin
 end;
 
 // -- print datasheet ----------------------------------------------------------
-procedure TForm1.MenuItem43Click(Sender: TObject);
-begin
 
+//-- open manufacturer's website -----------------------------------------------
+procedure TForm1.MenuItem44Click(Sender: TObject);
+begin
+  if frmmain.offline=false
+  then runbrowser(cpws[0])
+  else showmessage(MESSAGE51);
 end;
 
+//-- open datasheet ------------------------------------------------------------
 procedure TForm1.MenuItem51Click(Sender: TObject);
 begin
-
-end;
-
-procedure TForm1.MenuItem52Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.MenuItem53Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.MenuItem54Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.MenuItem55Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.MenuItem56Click(Sender: TObject);
-begin
-
+  if frmmain.offline=false
+  then runbrowser(cpwd[0])
+  else showmessage(MESSAGE51);
 end;
 
 //-- open update window --------------------------------------------------------
@@ -972,6 +958,20 @@ begin
 
   Memo2.Lines.Clear;
   Memo2.Lines.Add(cpld[StringGrid1.Row]);
+  if length(cpwd[StringGrid1.Row])=0
+  then ToolButton16.Enabled:=false else
+  begin
+    Memo2.Lines.Add(MESSAGE85+': '+cpwd[StringGrid1.Row]);
+    ToolButton16.Enabled:=true;
+  end;
+  MenuItem51.Enabled:=ToolButton16.Enabled;
+  if length(cpws[StringGrid1.Row])=0
+  then ToolButton15.Enabled:=false else
+  begin
+    Memo2.Lines.Add(MESSAGE86+': '+cpws[StringGrid1.Row]);
+    ToolButton15.Enabled:=true;
+  end;
+  MenuItem44.Enabled:=ToolButton15.Enabled;
   Memo2.Lines.Insert(0,'');
   Memo2.Lines.Delete(0);
   try
@@ -1005,6 +1005,8 @@ begin
   Application.ProcessMessages;
   for i:=1 to 800 do pinout[i]:='';
   for i:=1 to 800 do cpld[i]:='';
+  for i:=1 to 800 do cpwd[i]:='';
+  for i:=1 to 800 do cpws[i]:='';
   for b:=1 to 64 do
     if xedfdscr[b]=ComboBox1.Items.Strings[ComboBox1.ItemIndex]
     then
@@ -1159,8 +1161,22 @@ begin
                 ss:=ss+s[b];
               end;
               cpld[row]:=stringconverter(ss);
-            end;
 
+            // links
+            for i:=1 to length(cpld[row]) do
+              if cpld[row][i]+cpld[row][i+1]='[h' then break;
+            for i:=i+1 to length(cpld[row]) do
+              if cpld[row][i]=']' then break else cpws[row]:=cpws[row]+cpld[row][i];
+
+            for i:=i+1 to length(cpld[row]) do
+              if cpld[row][i]+cpld[row][i+1]='[h' then break;
+            for i:=i+1 to length(cpld[row]) do
+              if cpld[row][i]=']' then break else cpwd[row]:=cpwd[row]+cpld[row][i];
+
+            for i:=1 to length(cpld[row]) do
+              if cpld[row][i]+cpld[row][i+1]='[h' then break;
+            if cpld[row][i]+cpld[row][i+1]='[h' then delete(cpld[row],i,length(cpld[row]));
+            end;
             if s[2..5]='cppn' then
             begin
               ss:='';
@@ -1729,3 +1745,4 @@ begin
 end;
 
 end.
+
