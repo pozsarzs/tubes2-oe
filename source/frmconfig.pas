@@ -197,7 +197,7 @@ end;
 //-- OnShow event --------------------------------------------------------------
 procedure TForm7.FormShow(Sender: TObject);
 begin
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
     defbrowser:='xdg-open';
     defmailer:='xdg-email';
   {$ENDIF}

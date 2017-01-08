@@ -1557,13 +1557,33 @@ begin
   end;
 
   //load settings
-  if FSearch('tubes2.cfg',userdir+DIR_CONFIG)<>''then
+  if FSearch('tubes2.cfg',userdir+DIR_CONFIG)='' then
   begin
     assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
+    try
+      rewrite(tf);
+      writeln(tf,'# Tubes2 - Default settings');
+      {$IFDEF UNIX}
+      writeln(tf,'BP=xdg-open');
+      writeln(tf,'MP=xdg-email');
+      {$ENDIF}
+      {$IFDEF WINDOWS}
+      writeln(tf,'BP=rundll32.exe url.dll,FileProtocolHandler');
+      writeln(tf,'MP=rundll32.exe url.dll,FileProtocolHandler mailto:');
+      {$ENDIF}
+      writeln(tf,'FO=0');
+      writeln(tf,'DF=0');
+      writeln(tf,'SN='+wsname[1]);
+      writeln(tf,'SU='+wsurl[1]);
+    closefile(tf);
+    except
+    end;
+  end;  
+  browserprogramme:='';
+  mailerprogramme:='';
+  websearchurl:='';
+  try
     reset(tf);
-    browserprogramme:='';
-    mailerprogramme:='';
-    websearchurl:='';
     repeat
       readln(tf,s);
       if s[1]+s[2]+s[3]='BP=' then
@@ -1578,16 +1598,17 @@ begin
         for b:=4 to length(s) do websearchurl:=websearchurl+s[b];
     until(eof(tf));
     closefile(tf);
-    if cmdpnocheckupdate then nocheckupdate:=true;
-    if cmdpoffline then offline:=true;
-    Form1.MenuItem31.Enabled:=not frmmain.offline;
-    Form1.MenuItem38.Enabled:=not frmmain.offline;
-    Form1.MenuItem39.Enabled:=not frmmain.offline;
-    Form1.MenuItem40.Enabled:=not frmmain.offline;
-    Form1.MenuItem62.Enabled:=not frmmain.offline;
-    Form1.ToolButton8.Enabled:=not frmmain.offline;
-    Form1.ComboBox2.Enabled:=not frmmain.offline;
+  except
   end;
+  if cmdpnocheckupdate then nocheckupdate:=true;
+  if cmdpoffline then offline:=true;
+  Form1.MenuItem31.Enabled:=not frmmain.offline;
+  Form1.MenuItem38.Enabled:=not frmmain.offline;
+  Form1.MenuItem39.Enabled:=not frmmain.offline;
+  Form1.MenuItem40.Enabled:=not frmmain.offline;
+  Form1.MenuItem62.Enabled:=not frmmain.offline;
+  Form1.ToolButton8.Enabled:=not frmmain.offline;
+  Form1.ComboBox2.Enabled:=not frmmain.offline;
 
   // count components
   compnumall:=0;
