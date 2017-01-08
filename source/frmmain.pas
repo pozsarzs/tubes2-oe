@@ -166,11 +166,11 @@ end;
       var Handled: Boolean);
     procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem31Click(Sender: TObject);
-    procedure MenuItem34Click(Sender: TObject);
     procedure MenuItem35Click(Sender: TObject);
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
+    procedure MenuItem43Click(Sender: TObject);
     procedure MenuItem44Click(Sender: TObject);
     procedure MenuItem51Click(Sender: TObject);
     procedure MenuItem57Click(Sender: TObject);
@@ -608,21 +608,9 @@ begin
 end;
 
 // -- print datasheet ----------------------------------------------------------
-
-//-- open manufacturer's website -----------------------------------------------
-procedure TForm1.MenuItem44Click(Sender: TObject);
+procedure TForm1.MenuItem43Click(Sender: TObject);
 begin
-  if frmmain.offline=false
-  then runbrowser(cpws[0])
-  else showmessage(MESSAGE51);
-end;
-
-//-- open datasheet ------------------------------------------------------------
-procedure TForm1.MenuItem51Click(Sender: TObject);
-begin
-  if frmmain.offline=false
-  then runbrowser(cpwd[0])
-  else showmessage(MESSAGE51);
+  //print
 end;
 
 //-- open update window --------------------------------------------------------
@@ -766,6 +754,22 @@ begin
 end;
 
 //****************************** VIEW MENU *************************************
+//-- open manufacturer's website -----------------------------------------------
+procedure TForm1.MenuItem44Click(Sender: TObject);
+begin
+  if frmmain.offline=false
+  then runbrowser(cpws[StringGrid1.Row])
+  else showmessage(MESSAGE51);
+end;
+
+//-- open datasheet ------------------------------------------------------------
+procedure TForm1.MenuItem51Click(Sender: TObject);
+begin
+  if frmmain.offline=false
+  then runbrowser(cpwd[StringGrid1.Row])
+  else showmessage(MESSAGE51);
+end;
+
 //-- auto fill -----------------------------------------------------------------
 procedure TForm1.MenuItem9Click(Sender: TObject);
 begin
@@ -853,11 +857,6 @@ procedure TForm1.MenuItem31Click(Sender: TObject);
 begin
   if lang='hu' then runbrowser(URL_BUGREPORT_HU)
   else runbrowser(URL_BUGREPORT);
-end;
-
-procedure TForm1.MenuItem34Click(Sender: TObject);
-begin
-
 end;
 
 //-- order commercial release --------------------------------------------------
