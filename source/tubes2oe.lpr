@@ -24,7 +24,7 @@ program tubes2oe;
 {$MODE OBJFPC}{$H+}
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
-  Dialogs, Forms, Interfaces, Sysutils, crt,
+  Dialogs, Forms, printer4lazarus, Interfaces, Sysutils, crt,
   // own forms:
   frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
   frmtextview, frmupgrade, frmdrawer, frmsubst;
