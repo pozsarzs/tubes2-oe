@@ -42,14 +42,24 @@ uses
     ImageList1: TImageList;
     Memo1: TMemo;
     Memo2: TMemo;
+    OpenDialog1: TOpenDialog;
     PageControl1: TPageControl;
     PrintDialog1: TPrintDialog;
+    SaveDialog1: TSaveDialog;
     TabSheet2: TTabSheet;
     TabSheet4: TTabSheet;
     ToolBar1: TToolBar;
     ToolButton1: TToolButton;
+    ToolButton10: TToolButton;
+    ToolButton11: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
+    ToolButton4: TToolButton;
+    ToolButton5: TToolButton;
+    ToolButton6: TToolButton;
+    ToolButton7: TToolButton;
+    ToolButton8: TToolButton;
+    ToolButton9: TToolButton;
     procedure BitBtn6Click(Sender: TObject);
     procedure BitBtn7Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
@@ -60,6 +70,15 @@ uses
     procedure Image3MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure Image3MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+    procedure ToolButton10Click(Sender: TObject);
+    procedure ToolButton11Click(Sender: TObject);
+    procedure ToolButton1Click(Sender: TObject);
+    procedure ToolButton2Click(Sender: TObject);
+    procedure ToolButton3Click(Sender: TObject);
+    procedure ToolButton4Click(Sender: TObject);
+    procedure ToolButton5Click(Sender: TObject);
+    procedure ToolButton6Click(Sender: TObject);
+    procedure ToolButton7Click(Sender: TObject);
   private
     { private declarations }
     procedure DrawGraphic(X,Y,AWidth,AHeight:Integer; Graphic: TGraphic);
@@ -84,6 +103,7 @@ var
   mdata: array[1..206] of string;                               // measured data
   s: string;                                          // general string variable
   t: text;                                         // general text file variable
+  viewer: boolean;
 
 Resourcestring
   MESSAGE09='File is exist. Replace?';
@@ -108,8 +128,10 @@ Resourcestring
 
 
 implementation
+uses frmmain;
 {$R *.lfm}
 { TForm10 }
+
 procedure writetodisplay;forward;
 
 //-- other procedures #1 -------------------------------------------------------
@@ -240,7 +262,7 @@ begin
   dark1:='';
   dark2:='';
   {$IFDEF LINUX}
-  assignfile(t,'palettes/'+displaycolor+'.pal');
+  assignfile(t,'palettes/blue.pal');
   {$ENDIF}
   {$IFDEF WIN32}
   assignfile(t,'palettes\'+displaycolor+'.pal');
@@ -403,163 +425,36 @@ begin
 end;
 
 //-- ToolBar -------------------------------------------------------------------
-
-
-
-
-//-- 1st diagram ---------------------------------------------------------------
-// cursor
-procedure TForm10.Image2MouseMove(Sender: TObject; Shift: TShiftState; X,
-  Y: Integer);
+// refresh all display;
+procedure TForm10.ToolButton10Click(Sender: TObject);
 begin
-  if (x>=8) and (y>=29) and (x<=508) and (y<=379)
-  then Image2.Cursor:=1 else Image2.Cursor:=crDefault;
+  writetodisplay;
 end;
 
-//marker position
-procedure TForm10.Image2MouseDown(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
+// clear all display
+procedure TForm10.ToolButton11Click(Sender: TObject);
 begin
-  with Image2 do
-  begin
-    Canvas.Font.Size:=8;
-    Canvas.Brush.Color:= bg;
-    Canvas.Font.Color:=fg;
-    Canvas.FillRect(200,2,Width,28);
-    if (x>=8) and (y>=29) and (x<=508) and (y<=379) then
-    begin
-      if header=true then
-      begin
-        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
-        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
-      end;
-    end else
-    begin
-     if header=true then
-     begin
-       Canvas.TextOut(200,2, MESSAGE39+'- mV');
-       Canvas.TextOut(200,14, MESSAGE39+'- uA');
-     end;
-    end;
-  end;
+  cleardisplay(99);
 end;
 
-// clear display
-procedure TForm10.BitBtn6Click(Sender: TObject);
+// new diagram
+procedure TForm10.ToolButton1Click(Sender: TObject);
 begin
-  cleardisplay(6);
-  Memo1.Clear;
+
 end;
 
-//-- 2nd diagram ---------------------------------------------------------------
-// cursor
-procedure TForm10.Image3MouseMove(Sender: TObject; Shift: TShiftState; X,
-  Y: Integer);
+// open file
+procedure TForm10.ToolButton2Click(Sender: TObject);
 begin
-  if (x>=8) and (y>=29) and (x<=508) and (y<=379)
-  then Image3.Cursor:=1 else Image3.Cursor:=crDefault;
+
 end;
 
-// marker position
-procedure TForm10.Image3MouseDown(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
-begin
-  with Image3 do
-  begin
-    Canvas.Font.Size:=8;
-    Canvas.Brush.Color:= bg;
-    Canvas.Font.Color:=fg;
-    Canvas.FillRect(200,2,Width,28);
-    if (x>=8) and (y>=29) and (x<=508) and (y<=379) then
-    begin
-      if header=true then
-      begin
-        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
-        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
-      end;
-    end else
-    begin
-     if header=true then
-     begin
-       Canvas.TextOut(200,2, MESSAGE39+'- mV');
-       Canvas.TextOut(200,14, MESSAGE39+'- uA');
-     end;
-    end;
-  end;
-end;
-
-// clear display
-procedure TForm10.BitBtn7Click(Sender: TObject);
-begin
-  cleardisplay(7);
-  Memo2.Clear;
-end;
-
-// -- Events -------------------------------------------------------------------
-// on close query
-procedure TForm10.FormCloseQuery(Sender: TObject; var CanClose: boolean);
-begin
-  canclose:=true;
-end;
-
-// on create event
-procedure TForm10.FormCreate(Sender: TObject);
-begin
-  grid:=true;
-  header:=true;
-  for b:=1 to 206 do mdata[b]:='0';
-  // default
-  g1xdiv:=100;       // x: 100mV/div
-  g1ydiv:=50;        // y: 50uA/div
-  g1xpix:=g1xdiv/25;
-  g1ypix:=g1ydiv/25;
-  g2xdiv:=1000;      // x: 1000mV/div
-  g2ydiv:=100;       // y: 100mA/div
-  g2xpix:=g2xdiv/25;
-  g2ypix:=g2ydiv/25;
-  setdisplaycolors;
-  Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
-end;
-
-initialization
-  {$I haircross.lrs}
-end.
-
-
-
- {
-// save result as BMP
-procedure TForm10.MenuItem30Click(Sender: TObject);
+// save as txt
+procedure TForm10.ToolButton3Click(Sender: TObject);
 var
   filename: string;
 begin
-  SaveDialog1.InitialDir:=datadir;
-  SaveDialog1.Title:=MESSAGE28;
-  SaveDialog1.Filename:=MESSAGE42+'.bmp';
-  SaveDialog1.Filter:=MESSAGE30;
-  SaveDialog1.FilterIndex:=0;
-  if SaveDialog1.Execute=false then exit;
-  filename:=SaveDialog1.Filename;
-  i:=length(filename);
-  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.bmp' then filename:=filename+'.bmp';
-  fsplit(filename,tdir,tname,textn);
-  if FSearch(tname+textn,tdir)<>'' then
-  if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
-  if length(filename)=0 then exit;
-  try
-    if PageControl1.ActivePageIndex=1 then Image2.Picture.SaveToFile(filename);
-    if PageControl1.ActivePageIndex=2 then Image3.Picture.SaveToFile(filename);
-  except
-    showmessage(MESSAGE32);
-  end;
-end;
-
-// save result as text
-procedure TForm10.MenuItem31Click(Sender: TObject);
-var
-  filename: string;
-begin
-  SaveDialog1.InitialDir:=datadir;
+  SaveDialog1.InitialDir:=userdir;
   SaveDialog1.Title:=MESSAGE29;
   SaveDialog1.Filename:=MESSAGE42+'.txt';
   SaveDialog1.Filter:=MESSAGE31;
@@ -580,9 +475,34 @@ begin
   end;
 end;
 
+// save as bmp
+procedure TForm10.ToolButton4Click(Sender: TObject);
+var
+  filename: string;
+begin
+  SaveDialog1.InitialDir:=userdir;
+  SaveDialog1.Title:=MESSAGE28;
+  SaveDialog1.Filename:=MESSAGE42+'.bmp';
+  SaveDialog1.Filter:=MESSAGE30;
+  SaveDialog1.FilterIndex:=0;
+  if SaveDialog1.Execute=false then exit;
+  filename:=SaveDialog1.Filename;
+  i:=length(filename);
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.bmp' then filename:=filename+'.bmp';
+  fsplit(filename,tdir,tname,textn);
+  if FSearch(tname+textn,tdir)<>'' then
+  if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
+  if length(filename)=0 then exit;
+  try
+    if PageControl1.ActivePageIndex=1 then Image2.Picture.SaveToFile(filename);
+    if PageControl1.ActivePageIndex=2 then Image3.Picture.SaveToFile(filename);
+  except
+    showmessage(MESSAGE32);
+  end;
+end;
 
-// print result
-procedure TForm10.MenuItem20Click(Sender: TObject);
+// print diagram
+procedure TForm10.ToolButton5Click(Sender: TObject);
 var
   Pic: TPicture;
   x1, x2, y1, y2: integer;
@@ -622,7 +542,7 @@ begin
     Printer.canvas.Pen.Width:=1;
     if PageControl1.ActivePageIndex=1 then
     begin
-      CenterText(Printer.PageWidth div 2, y1,MESSAGE40+' ('+Edit2.Text+')');
+//      CenterText(Printer.PageWidth div 2, y1,MESSAGE40+' ('+Edit2.Text+')');
       Pic:=TPicture.Create;
       Pic.Bitmap.Height:=Image2.Picture.Bitmap.Height;
       Pic.Bitmap.Width:=Image2.Picture.Width;
@@ -680,7 +600,7 @@ begin
       end;
       if PageControl1.ActivePageIndex=2 then
       begin
-        CenterText(Printer.PageWidth div 2, y1,MESSAGE41+' ('+Edit2.Text+')');
+//        CenterText(Printer.PageWidth div 2, y1,MESSAGE41+' ('+Edit2.Text+')');
         Pic:=TPicture.Create;
         Pic.Bitmap.Height:=Image3.Picture.Bitmap.Height;
         Pic.Bitmap.Width:=Image3.Picture.Width;
@@ -763,39 +683,139 @@ begin
   end;
 end;
 
-
-//-- View menu -----------------------------------------------------------------
-// toggle grid
-procedure TForm10.MenuItem38Click(Sender: TObject);
+// grid show/hide
+procedure TForm10.ToolButton6Click(Sender: TObject);
 begin
   grid:=not grid;
-  ToolButton10.Down:=grid;
+  ToolButton6.Down:=grid;
   cleardisplay(99);
   writetodisplay;
 end;
 
-// toggle header
-procedure TForm10.MenuItem39Click(Sender: TObject);
+// header show/hide
+procedure TForm10.ToolButton7Click(Sender: TObject);
 begin
   header:=not header;
-  ToolButton9.Down:=header;
+  ToolButton7.Down:=header;
   cleardisplay(99);
   writetodisplay;
 end;
 
-// refresh display
-procedure TForm10.MenuItem43Click(Sender: TObject);
+//-- Buttons -------------------------------------------------------------------
+// clear 1st display
+procedure TForm10.BitBtn6Click(Sender: TObject);
 begin
-  writetodisplay;
+  cleardisplay(6);
+  Memo1.Clear;
 end;
 
-// clear all display
-procedure TForm10.MenuItem44Click(Sender: TObject);
+// clear 2nd display
+procedure TForm10.BitBtn7Click(Sender: TObject);
 begin
-  cleardisplay(99);
+  cleardisplay(7);
+  Memo2.Clear;
 end;
 
-}
+//-- 1st diagram ---------------------------------------------------------------
+// cursor
+procedure TForm10.Image2MouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+begin
+  if (x>=8) and (y>=29) and (x<=508) and (y<=379)
+  then Image2.Cursor:=1 else Image2.Cursor:=crDefault;
+end;
 
+//marker position
+procedure TForm10.Image2MouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  with Image2 do
+  begin
+    Canvas.Font.Size:=8;
+    Canvas.Brush.Color:= bg;
+    Canvas.Font.Color:=fg;
+    Canvas.FillRect(200,2,Width,28);
+    if (x>=8) and (y>=29) and (x<=508) and (y<=379) then
+    begin
+      if header=true then
+      begin
+        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
+        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
+      end;
+    end else
+    begin
+     if header=true then
+     begin
+       Canvas.TextOut(200,2, MESSAGE39+'- mV');
+       Canvas.TextOut(200,14, MESSAGE39+'- uA');
+     end;
+    end;
+  end;
+end;
 
+//-- 2nd diagram ---------------------------------------------------------------
+// cursor
+procedure TForm10.Image3MouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+begin
+  if (x>=8) and (y>=29) and (x<=508) and (y<=379)
+  then Image3.Cursor:=1 else Image3.Cursor:=crDefault;
+end;
+
+// marker position
+procedure TForm10.Image3MouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  with Image3 do
+  begin
+    Canvas.Font.Size:=8;
+    Canvas.Brush.Color:= bg;
+    Canvas.Font.Color:=fg;
+    Canvas.FillRect(200,2,Width,28);
+    if (x>=8) and (y>=29) and (x<=508) and (y<=379) then
+    begin
+      if header=true then
+      begin
+        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
+        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
+      end;
+    end else
+    begin
+     if header=true then
+     begin
+       Canvas.TextOut(200,2, MESSAGE39+'- mV');
+       Canvas.TextOut(200,14, MESSAGE39+'- uA');
+     end;
+    end;
+  end;
+end;
+
+// -- Events -------------------------------------------------------------------
+// on close query
+procedure TForm10.FormCloseQuery(Sender: TObject; var CanClose: boolean);
+begin
+  canclose:=true;
+end;
+
+// on create event
+procedure TForm10.FormCreate(Sender: TObject);
+begin
+  grid:=true; header:=true;
+  for b:=1 to 206 do mdata[b]:='0';
+  // default
+  g1xdiv:=100;       // x: 100mV/div
+  g1ydiv:=50;        // y: 50uA/div
+  g1xpix:=g1xdiv/25;
+  g1ypix:=g1ydiv/25;
+  g2xdiv:=1000;      // x: 1000mV/div
+  g2ydiv:=100;       // y: 100mA/div
+  g2xpix:=g2xdiv/25;
+  g2ypix:=g2ydiv/25;
+ setdisplaycolors;
+  Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
+end;
+
+initialization
+  {$I haircross.lrs}
+end.
 
