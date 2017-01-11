@@ -65,6 +65,7 @@ uses
     ToolButton9: TToolButton;
     procedure BitBtn6Click(Sender: TObject);
     procedure BitBtn7Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure Image2MouseDown(Sender: TObject; Button: TMouseButton;
@@ -96,19 +97,19 @@ uses
   end;
 var
   Form10: TForm10;
-  grid, header: boolean;
-  i: byte;
-  tdir,tname,textn: shortstring;
-  b: byte;                                              // general byte variable
-  displaycolor: string;                                         // display color
   fg, d1, d2, bg: TColor;                              // colors of the displays
-  g1xdiv, g1ydiv, g2xdiv, g2ydiv: integer;                       // graph. ?/div
-  g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
-  mdata: array[1..206] of string;                               // measured data
+  b: byte;                                                       // general byte
+  i: byte;                                                    // general integer
   s: string;                                          // general string variable
   t: text;                                         // general text file variable
-  viewer: boolean;
-  changed: boolean; // changed data
+  changed1st, changed2nd: boolean;                               // data changes
+  grid, header: boolean;                                             //show/hide
+  displaycolor: string;                                         // display color
+  viewer: boolean;                                                // viewer mode
+  g1xdiv, g1ydiv, g2xdiv, g2ydiv: integer;                       // graph. ?/div
+  g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
+
+  tdir,tname,textn: shortstring;
 
 Resourcestring
   MESSAGE09='File is exist. Replace?';
@@ -148,11 +149,11 @@ var
 begin
   rx1:=8; ry1:=29;
   rx2:=508;ry2:=379;
-  if m=8 then mdata[6]:='0';
+//  if m=8 then mdata[6]:='0';
   if m=6 then
-    for b:=7 to 46 do mdata[b]:='0';
+//    for b:=7 to 46 do mdata[b]:='0';
   if m=7 then
-    for b:=47 to 206 do mdata[b]:='0';
+  //  for b:=47 to 206 do mdata[b]:='0';
   if (m=6) or (m=7) or (m=99) then
   begin
     with Form10.Image2.Picture.Bitmap do
@@ -351,28 +352,28 @@ begin
   // 2nd page
   b:=7;
   repeat
-    drawgraph1(g1xpix,g1ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//    drawgraph1(g1xpix,g1ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
   b:=b+2
   until b=45;
   // 3rd page
   b:=47;
   repeat
-    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+  //  drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
     b:=b+2
   until b=85;
   b:=87;
   repeat
-    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
     b:=b+2
   until b=125;
   b:=127;
   repeat
-    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+  //  drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
     b:=b+2
   until b=165;
   b:=167;
   repeat
-    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
     b:=b+2
   until b=205;
 end;
@@ -446,7 +447,7 @@ end;
 procedure TForm10.ToolButton1Click(Sender: TObject);
 begin
   //   if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
-/
+
 end;
 
 // open file
@@ -597,7 +598,7 @@ begin
           end;
           b:=7;
           repeat
-            printgraph(g1xpix,g1ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//            printgraph(g1xpix,g1ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
             b:=b+2
           until b=45;
         end;
@@ -655,22 +656,22 @@ begin
           end;
         b:=47;
         repeat
-          printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//          printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
           b:=b+2;
         until b=85;
         b:=87;
         repeat
-         printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//         printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
           b:=b+2;
         until b=125;
         b:=127;
         repeat
-          printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+  //        printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
           b:=b+2;
         until b=165;
         b:=167;
         repeat
-          printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
+//          printgraph(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
           b:=b+2;
         until b=205;
       end;
@@ -712,14 +713,17 @@ end;
 procedure TForm10.BitBtn6Click(Sender: TObject);
 begin
   cleardisplay(6);
-  Memo1.Clear;
 end;
 
 // clear 2nd display
 procedure TForm10.BitBtn7Click(Sender: TObject);
 begin
   cleardisplay(7);
-  Memo2.Clear;
+end;
+
+procedure TForm10.Button1Click(Sender: TObject);
+begin
+
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
@@ -811,12 +815,9 @@ end;
 // on create event
 procedure TForm10.FormCreate(Sender: TObject);
 begin
-  changed:=false;
-
   grid:=true; header:=true;
-
-  for b:=1 to 206 do mdata[b]:='0';
-  // default
+  changed1st:=false; changed2nd:=false;
+  // default resolutions
   g1xdiv:=100;       // x: 100mV/div
   g1ydiv:=50;        // y: 50uA/div
   g1xpix:=g1xdiv/25;
@@ -825,7 +826,7 @@ begin
   g2ydiv:=100;       // y: 100mA/div
   g2xpix:=g2xdiv/25;
   g2ypix:=g2ydiv/25;
- setdisplaycolors;
+  setdisplaycolors;
   Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
 end;
 

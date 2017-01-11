@@ -415,6 +415,7 @@ object Form10: TForm10
     BorderSpacing.Right = 4
     BorderSpacing.Bottom = 6
     Caption = '&Close'
+    OnClick = Button1Click
     TabOrder = 2
   end
   object StatusBar1: TStatusBar
