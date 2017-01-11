@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 92
+  Left = 134
   Height = 479
-  Top = 143
+  Top = 146
   Width = 853
   HelpType = htKeyword
   ActiveControl = StringGrid1

@@ -33,25 +33,28 @@ uses
   TForm10 = class(TForm)
     Bevel4: TBevel;
     Bevel5: TBevel;
-    BitBtn6: TBitBtn;
     BitBtn7: TBitBtn;
     Button1: TButton;
     Button10: TButton;
     Image2: TImage;
     Image3: TImage;
     ImageList1: TImageList;
-    Memo1: TMemo;
     Memo2: TMemo;
     OpenDialog1: TOpenDialog;
     PageControl1: TPageControl;
     PrintDialog1: TPrintDialog;
     SaveDialog1: TSaveDialog;
+    StatusBar1: TStatusBar;
+    StringGrid1: TStringGrid;
+    StringGrid2: TStringGrid;
     TabSheet2: TTabSheet;
     TabSheet4: TTabSheet;
     ToolBar1: TToolBar;
     ToolButton1: TToolButton;
     ToolButton10: TToolButton;
     ToolButton11: TToolButton;
+    ToolButton12: TToolButton;
+    ToolButton13: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
@@ -70,6 +73,7 @@ uses
     procedure Image3MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure Image3MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+    procedure PageControl1Change(Sender: TObject);
     procedure ToolButton10Click(Sender: TObject);
     procedure ToolButton11Click(Sender: TObject);
     procedure ToolButton1Click(Sender: TObject);
@@ -104,6 +108,7 @@ var
   s: string;                                          // general string variable
   t: text;                                         // general text file variable
   viewer: boolean;
+  changed: boolean; // changed data
 
 Resourcestring
   MESSAGE09='File is exist. Replace?';
@@ -440,7 +445,8 @@ end;
 // new diagram
 procedure TForm10.ToolButton1Click(Sender: TObject);
 begin
-
+  //   if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
+/
 end;
 
 // open file
@@ -468,8 +474,8 @@ begin
   if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
   if length(filename)=0 then exit;
   try
-    if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
-    if PageControl1.ActivePageIndex=2 then Memo2.Lines.SaveToFile(filename);
+ //   if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
+//    if PageControl1.ActivePageIndex=2 then Memo2.Lines.SaveToFile(filename);
   except
     showmessage(MESSAGE32);
   end;
@@ -762,6 +768,11 @@ begin
   then Image3.Cursor:=1 else Image3.Cursor:=crDefault;
 end;
 
+procedure TForm10.PageControl1Change(Sender: TObject);
+begin
+
+end;
+
 // marker position
 procedure TForm10.Image3MouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
@@ -800,7 +811,10 @@ end;
 // on create event
 procedure TForm10.FormCreate(Sender: TObject);
 begin
+  changed:=false;
+
   grid:=true; header:=true;
+
   for b:=1 to 206 do mdata[b]:='0';
   // default
   g1xdiv:=100;       // x: 100mV/div
