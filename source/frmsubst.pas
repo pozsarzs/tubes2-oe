@@ -25,12 +25,11 @@ unit frmsubst;
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, StdCtrls;
+  ExtCtrls, StdCtrls, ComCtrls;
 type
   { TForm11 }
   TForm11 = class(TForm)
     Bevel1: TBevel;
-    Button1: TButton;
     Edit1: TEdit;
     Label1: TLabel;
     Memo1: TMemo;
@@ -38,6 +37,7 @@ type
     RadioButton2: TRadioButton;
     RadioButton3: TRadioButton;
     RadioGroup1: TRadioGroup;
+    StatusBar1: TStatusBar;
     procedure Button1Click(Sender: TObject);
     procedure Edit1Change(Sender: TObject);
     procedure FormCreate(Sender: TObject);

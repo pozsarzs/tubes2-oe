@@ -1,12 +1,12 @@
 object Form11: TForm11
   Left = 508
-  Height = 174
+  Height = 177
   Top = 256
   Width = 394
-  BorderIcons = [biSystemMenu]
+  BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'Type substitution'
-  ClientHeight = 174
+  ClientHeight = 177
   ClientWidth = 394
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
@@ -121,29 +121,13 @@ object Form11: TForm11
     AnchorSideTop.Control = Owner
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    AnchorSideBottom.Control = Button1
+    AnchorSideBottom.Control = StatusBar1
     Left = 4
-    Height = 136
+    Height = 150
     Top = 4
     Width = 386
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Around = 4
-  end
-  object Button1: TButton
-    AnchorSideRight.Control = Owner
-    AnchorSideRight.Side = asrBottom
-    AnchorSideBottom.Control = Owner
-    AnchorSideBottom.Side = asrBottom
-    Left = 314
-    Height = 26
-    Top = 144
-    Width = 76
-    Anchors = [akRight, akBottom]
-    BorderSpacing.Right = 4
-    BorderSpacing.Bottom = 4
-    Caption = '&Close'
-    OnClick = Button1Click
-    TabOrder = 3
   end
   object Edit1: TEdit
     AnchorSideLeft.Control = Label1
@@ -175,7 +159,7 @@ object Form11: TForm11
     AnchorSideBottom.Control = Bevel1
     AnchorSideBottom.Side = asrBottom
     Left = 8
-    Height = 101
+    Height = 115
     Top = 35
     Width = 308
     Anchors = [akTop, akLeft, akRight, akBottom]
@@ -190,7 +174,7 @@ object Form11: TForm11
     AnchorSideBottom.Control = Bevel1
     AnchorSideBottom.Side = asrBottom
     Left = 320
-    Height = 128
+    Height = 142
     Top = 8
     Width = 66
     Anchors = [akTop, akLeft, akRight, akBottom]
@@ -204,12 +188,12 @@ object Form11: TForm11
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 124
+    ClientHeight = 138
     ClientWidth = 62
     TabOrder = 1
     object RadioButton1: TRadioButton
       Left = 6
-      Height = 42
+      Height = 46
       Top = 0
       Width = 50
       Caption = 'CV'
@@ -220,8 +204,8 @@ object Form11: TForm11
     end
     object RadioButton2: TRadioButton
       Left = 6
-      Height = 42
-      Top = 42
+      Height = 46
+      Top = 46
       Width = 50
       Caption = 'M2'
       OnChange = RadioButton1Change
@@ -229,12 +213,19 @@ object Form11: TForm11
     end
     object RadioButton3: TRadioButton
       Left = 6
-      Height = 40
-      Top = 84
+      Height = 46
+      Top = 92
       Width = 50
       Caption = 'VT'
       OnChange = RadioButton1Change
       TabOrder = 2
     end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 19
+    Top = 158
+    Width = 394
+    Panels = <>
   end
 end

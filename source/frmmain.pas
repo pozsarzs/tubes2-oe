@@ -87,7 +87,6 @@ end;
     MenuItem40: TMenuItem;
     MenuItem41: TMenuItem;
     MenuItem42: TMenuItem;
-    MenuItem43: TMenuItem;
     MenuItem44: TMenuItem;
     MenuItem45: TMenuItem;
     MenuItem46: TMenuItem;
@@ -801,13 +800,13 @@ end;
 // -- open characteristic drawer window ----------------------------------------
 procedure TForm1.MenuItem41Click(Sender: TObject);
 begin
-  Form10.ShowModal;
+  Form10.Show;
 end;
 
 // -- open type substitution window --------------------------------------------
 procedure TForm1.MenuItem35Click(Sender: TObject);
 begin
-  Form11.ShowModal;
+  Form11.Show;
 end;
 
 procedure TForm1.MenuItem58Click(Sender: TObject);

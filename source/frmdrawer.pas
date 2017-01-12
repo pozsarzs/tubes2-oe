@@ -34,7 +34,6 @@ uses
     Bevel4: TBevel;
     Bevel5: TBevel;
     BitBtn7: TBitBtn;
-    Button1: TButton;
     Button10: TButton;
     Image2: TImage;
     Image3: TImage;
@@ -58,7 +57,6 @@ uses
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
-    ToolButton5: TToolButton;
     ToolButton6: TToolButton;
     ToolButton7: TToolButton;
     ToolButton8: TToolButton;
