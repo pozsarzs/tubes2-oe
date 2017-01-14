@@ -31,13 +31,6 @@ uses
 var
   fe, fn: string;
   appmode: byte;
-const
-  commands: array[1..3,1..2] of string=
-  (
-    ('(none)','start catalogue application;'),
-    ('drawer','start characteristic drawer tool;'),
-    ('viewer','start characteristic drawer in viewer mode;')
-  );
   params: array[1..4,1..3] of string=
   (
     ('-d','--dontcheckupdate','on-line mode, but do not check updates'),
@@ -56,14 +49,7 @@ begin
     showmessage('There are one or more bad parameter in command line.') else
     begin
       writeln('Usage:');
-      writeln(' ',fn,{$IFDEF WIN32}'.',fe,{$ENDIF}' [command] [parameter] [input.csv]');
-      writeln;
-      writeln('commands:');
-      for b:=1 to 3 do
-      begin
-        write('  ',commands[b,1]);
-        gotoxy(30,wherey); writeln(commands[b,2]);
-      end;
+      writeln(' ',fn,{$IFDEF WIN32}'.',fe,{$ENDIF}' [parameter]');
       writeln;
       writeln('parameters:');
       for b:=1 to 4 do
@@ -72,9 +58,6 @@ begin
         gotoxy(8,wherey); write(params[b,2]);
         gotoxy(30,wherey); writeln(params[b,3]);
       end;
-      writeln;
-      write('input.csv:');
-      gotoxy(30,wherey); writeln('input data file in viewer mode');
       writeln;
     end;
   halt(0);
@@ -99,8 +82,6 @@ begin
   frmmain.cmdpoffline:=false;
   if length(paramstr(1))=0 then appmode:=1 else
   begin
-    for b:=2 to 3 do
-      if paramstr(1)=commands[b,1] then appmode:=b;
     for b:=1 to 4 do
       if paramstr(1)=params[b,1] then appmode:=10*b;
     for b:=1 to 4 do
@@ -108,7 +89,6 @@ begin
   end;
   case appmode of
      0: help(true);
-     4: frmdrawer.viewer:=true;
     10: frmmain.cmdpnocheckupdate:=true;
     20: help(false);
     30: frmmain.cmdpoffline:=true;
@@ -120,23 +100,16 @@ begin
   end;
   Application.Title:='Tubes2 Open edition';
   Application.Initialize;
-  case appmode of
-    2: Application.CreateForm(TForm10, Form10);
-    3: Application.CreateForm(TForm10, Form10);
-  else
-    begin
-      Application.CreateForm(TForm1, Form1);
-      Application.CreateForm(TForm2, Form2);
-      Application.CreateForm(TForm3, Form3);
-      Application.CreateForm(TForm5, Form5);
-      Application.CreateForm(TForm6, Form6);
-      Application.CreateForm(TForm7, Form7);
-      Application.CreateForm(TForm8, Form8);
-      Application.CreateForm(TForm9, Form9);
-      Application.CreateForm(TForm10, Form10);
-      Application.CreateForm(TForm11, Form11);
-    end;
-  end;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(TForm11, Form11);
   Application.Run;
 end.
 

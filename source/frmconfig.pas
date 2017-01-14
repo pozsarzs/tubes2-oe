@@ -88,6 +88,30 @@ const
                                  'https://search.yahoo.com/search?p=',
                                  'https://yandex.ru/search/?text=',
                                  '');
+  // black, blue, green, red, white, yellow
+  pals: array [1..6,1..4] of strings(
+                                ('$000000','$999999','$CCCCCC','$FFFFFF'),
+                                ('$75DDFF','$5EB1CC','$468599','$000052');
+    ('$63FF63
+    D1=$50CD50
+    D2=$3C9A3C
+    BG=$005200
+    ('$FF6363
+    D1=$CD5050
+    D2=$9A3C3C
+    BG=$520000
+    ('$FFFFFF
+    D1=$CCCCCC
+    D2=$999999
+    BG=$000000
+    ('$FFF474
+    D1=$CCC35D
+    D2=$999246
+    BG=$574A03
+
+
+
+
 Resourcestring
   MESSAGE09='Select browser application';
   MESSAGE10='Select mailer application';

@@ -578,6 +578,7 @@ end;
 
 begin
   SaveDialog1.Title:=MESSAGE28;
+  SaveDialog1.InitialDir:=userdir;
   SaveDialog1.Filename:=StringGrid1.Cells[0,StringGrid1.Row];
   SaveDialog1.Filter:=MESSAGE44;
   SaveDialog1.FilterIndex:=1;
