@@ -25,7 +25,7 @@ unit frmconfig;
 interface
 uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Buttons, ComCtrls;
+  StdCtrls, Buttons, ComCtrls, ColorBox;
 type
   { TForm7 }
   TForm7 = class(TForm)
@@ -33,6 +33,7 @@ type
     Bevel2: TBevel;
     Bevel3: TBevel;
     Bevel4: TBevel;
+    Bevel5: TBevel;
     Bevel6: TBevel;
     Button1: TButton;
     Button2: TButton;
@@ -48,6 +49,8 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
+    Image1: TImage;
+    ImageList1: TImageList;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
@@ -64,6 +67,7 @@ type
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure CheckBox1Change(Sender: TObject);
+    procedure ComboBox1Change(Sender: TObject);
     procedure ComboBox2Change(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -88,31 +92,24 @@ const
                                  'https://search.yahoo.com/search?p=',
                                  'https://yandex.ru/search/?text=',
                                  '');
-  // black, blue, green, red, white, yellow
-  pals: array [1..6,1..4] of strings(
+  pal: array [1..6,1..4] of string = (
                                 ('$000000','$999999','$CCCCCC','$FFFFFF'),
-                                ('$75DDFF','$5EB1CC','$468599','$000052');
-    ('$63FF63
-    D1=$50CD50
-    D2=$3C9A3C
-    BG=$005200
-    ('$FF6363
-    D1=$CD5050
-    D2=$9A3C3C
-    BG=$520000
-    ('$FFFFFF
-    D1=$CCCCCC
-    D2=$999999
-    BG=$000000
-    ('$FFF474
-    D1=$CCC35D
-    D2=$999246
-    BG=$574A03
-
-
-
+                                ('$75DDFF','$5EB1CC','$468599','$000052'),
+                                ('$63FF63','$50CD50','$3C9A3C','$005200'),
+                                ('$FF6363','$CD5050','$9A3C3C','$520000'),
+                                ('$FFFFFF','$CCCCCC','$999999','$000000'),
+                                ('$FFF474','$CCC35D','$999246','$574A03')
+                                     );
+  // black, blue, green, red, white, yellow
 
 Resourcestring
+  MESSAGE01='black';
+  MESSAGE02='blue';
+  MESSAGE03='green';
+  MESSAGE04='red';
+  MESSAGE05='white';
+  MESSAGE06='yellow';
+  {...}
   MESSAGE09='Select browser application';
   MESSAGE10='Select mailer application';
   MESSAGE11='executables|*.exe|all files|*.*';
@@ -120,35 +117,47 @@ Resourcestring
 
 implementation
 {$R *.lfm}
-uses frmmain;
+uses frmmain, frmdrawer;
 
 { TForm7 }
 
 //-- save data -----------------------------------------------------------------
 procedure TForm7.Button3Click(Sender: TObject);
-var tf: textfile;
+var
+  ini: textfile;
 begin
   frmmain.browserprogramme:=Edit1.Text;
+  frmmain.displaycolors:=ComboBox1.ItemIndex+1;
   frmmain.mailerprogramme:=Edit2.Text;
-  frmmain.offline:=CheckBox1.Checked;
   frmmain.nocheckupdate:=CheckBox2.Checked;
+  frmmain.offline:=CheckBox1.Checked;
   frmmain.websearchurl:=Edit3.Text;
 
-  assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
-  rewrite(tf);
-    write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
-  writeln(tf,'# | Tubes2 2.2 * Electrontube catalogue                                        |');
-  writeln(tf,'# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com                   |');
-  writeln(tf,'# | tubes2.cfg                                                                 |');
-  writeln(tf,'# | Configuration file                                                         |');
-  write(tf,'# +'); for b:=4 to 79 do write(tf,'-'); writeln(tf,'+');
-  writeln(tf,'BP='+Edit1.Text);
-  writeln(tf,'MP='+Edit2.Text);
-  write(tf,'FO='); if offline=true then writeln(tf,'1') else writeln(tf,'0');
-  write(tf,'DF='); if nocheckupdate=true then writeln(tf,'1') else writeln(tf,'0');
-  writeln(tf,'SN='+ComboBox2.Items.Strings[ComboBox2.ItemIndex]);
-  writeln(tf,'SU='+Edit3.Text);
-  closefile(tf);
+  assignfile(ini,userdir+DIR_CONFIG+'tubes2.ini');
+  try
+    rewrite(ini);
+    writeln(ini,'; '+APPNAME+' v'+VERSION);
+    writeln(ini,'');
+    writeln(ini,'[General]');
+    write(  ini,'OffLineMode=');if offline=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'NoCheckUpdate='); if nocheckupdate=true then writeln(ini,'1') else writeln(ini,'0');
+    writeln(ini,'');
+    writeln(ini,'[Applications]');
+    writeln(ini,'Browser=',browserprogramme);
+    writeln(ini,'Mailer=',mailerprogramme);
+    writeln(ini,'SearcherName=',ComboBox2.Items.Strings[ComboBox2.ItemIndex]);
+    writeln(ini,'SearcherURL=',websearchurl);
+    writeln(ini,'');
+    writeln(ini,'[Display]');
+    write(  ini,'ShowLines='); if Form1.MenuItem50.Checked=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'ShowDescription='); if Form1.MenuItem28.Checked=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'CharDrawShowGrid='); if frmdrawer.grid=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'CharDrawShowInfo='); if frmdrawer.header=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'CharDrawColour=',inttostr(displaycolors));
+    closefile(ini);
+  except
+  end;
+
   Form1.MenuItem31.Enabled:=not frmmain.offline;
   Form1.MenuItem38.Enabled:=not frmmain.offline;
   Form1.MenuItem39.Enabled:=not frmmain.offline;
@@ -202,8 +211,8 @@ begin
   Edit2.Text:=defmailer;
   CheckBox1.Checked:=false;
   CheckBox2.Checked:=false;
-  ComboBox2.ItemIndex:=0;
-  ComboBox2Change(Sender);
+  ComboBox2.ItemIndex:=0; ComboBox2Change(Sender);
+  ComboBox1.ItemIndex:=1; ComboBox1Change(Sender);
 end;
 
 //-- CheckBox change event -----------------------------------------------------
@@ -212,7 +221,13 @@ begin
   CheckBox2.Enabled:=not CheckBox1.Checked;
 end;
 
-//-- ComboBox change event -----------------------------------------------------
+//-- ComboBox change events -----------------------------------------------------
+procedure TForm7.ComboBox1Change(Sender: TObject);
+begin
+  Image1.Picture.Bitmap:= nil;
+  ImageList1.GetBitmap(ComboBox1.ItemIndex, Image1.Picture.Bitmap);
+end;
+
 procedure TForm7.ComboBox2Change(Sender: TObject);
 begin
   for b:=1 to 6 do
@@ -232,12 +247,14 @@ begin
     defbrowser:='rundll32.exe url.dll,FileProtocolHandler';
     defmailer:='rundll32.exe url.dll,FileProtocolHandler mailto:';
   {$ENDIF}
+  //general settings
   Edit1.Text:=frmmain.browserprogramme;
   if Edit1.Text='' then Edit1.Text:=defbrowser;
   Edit2.Text:=frmmain.mailerprogramme;
   if Edit2.Text='' then Edit2.Text:=defmailer;
   CheckBox1.Checked:=frmmain.offline;
   CheckBox2.Checked:=frmmain.nocheckupdate;
+  // searchers
   ComboBox2.Clear;
   for b:=1 to 6 do
     ComboBox2.Items.Add(wsname[b]);
@@ -246,6 +263,17 @@ begin
     if wsurl[b]=Edit3.Text then break;
   ComboBox2.ItemIndex:=b-1;
   if (b>0) and (b<6) then ComboBox2Change(Sender);
+  // colours
+  ComboBox1.Clear;
+  ComboBox1.Items.Add(MESSAGE01);
+  ComboBox1.Items.Add(MESSAGE02);
+  ComboBox1.Items.Add(MESSAGE03);
+  ComboBox1.Items.Add(MESSAGE04);
+  ComboBox1.Items.Add(MESSAGE05);
+  ComboBox1.Items.Add(MESSAGE06);
+  if displaycolors=0 then displaycolors:=2;
+  ComboBox1.ItemIndex:=displaycolors-1;
+  ComboBox1Change(Sender);
 end;
 
 end.

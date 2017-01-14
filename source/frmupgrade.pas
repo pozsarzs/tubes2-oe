@@ -55,6 +55,7 @@ var
   usersdatadir: string;
 
 Resourcestring
+  {...}
   MESSAGE07='Open ZIP file';
   MESSAGE08='There is no new version of database!';
   MESSAGE09='Download error!';
@@ -62,6 +63,7 @@ Resourcestring
   MESSAGE11='Install error!';
   MESSAGE12='Datafile corrupt!';
   MESSAGE13='File read/write error!';
+  {...}
   MESSAGE16='Remove error!';
   MESSAGE17='Tubes2 needs restart to use new or preinstalled database. Press OK to close application.';
   MESSAGE18='ZIP archives|*.zip|all files|*.*';

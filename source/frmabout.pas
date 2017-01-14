@@ -57,7 +57,7 @@ var
   Form2: TForm2; 
 
 Resourcestring
-  MESSAGE05='Sorry, there is off-line mode.';
+  MESSAGE01='Sorry, there is off-line mode.';
 
 implementation
 uses frmmain;
@@ -75,7 +75,7 @@ procedure TForm2.Label5Click(Sender: TObject);
 begin
   if frmmain.offline=false
   then runmailer(Label5.Caption)
-  else showmessage(MESSAGE05);
+  else showmessage(MESSAGE01);
 end;
 
 procedure TForm2.Label5MouseEnter(Sender: TObject);
@@ -93,7 +93,7 @@ procedure TForm2.Label6Click(Sender: TObject);
 begin
   if frmmain.offline=false
   then runbrowser(Label6.Caption)
-  else showmessage(MESSAGE05);
+  else showmessage(MESSAGE01);
 end;
 
 procedure TForm2.Label6MouseEnter(Sender: TObject);

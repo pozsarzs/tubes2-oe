@@ -27,9 +27,9 @@ uses
   {$IFDEF WIN32}Windows,{$ENDIF}
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
-  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, Types, dos, gettext,
-  httpsend, frmparsearch, frmconfig, frmdrawer, frmtextview, frmprogressbar,
-  frmsubst, frmupgrade, untstrconv;
+  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, IniFiles, Types,
+  dos, gettext, httpsend, frmparsearch, frmconfig, frmdrawer, frmtextview,
+  frmprogressbar, frmsubst, frmupgrade, untstrconv;
 type
 indata=record
   name1: string[16];
@@ -227,6 +227,7 @@ var
   cmdpnocheckupdate: boolean;                                // no check upgrade
   offline: boolean;                                      // computer is off-line
   nocheckupdate: boolean;                                    // no check upgrade
+  displaycolors: byte;                                        // display colours
   // data
   cpnm,cppn: array of string;                              // name and pin-names
   nodatabase: boolean;                                  // there is not database
@@ -1351,8 +1352,9 @@ end;
 
 // -- OnCreate event -----------------------------------------------------------
 procedure TForm1.FormCreate(Sender: TObject);
-{$IFDEF WIN32}
 var
+  ini: TINIFile;
+{$IFDEF WIN32}
   Buffer : PChar;
   Size : integer;
 {$ENDIF}
@@ -1556,50 +1558,70 @@ begin
     picspath:=userdir+DIR_PICS;
   end;
 
-  //load settings
-  if FSearch('tubes2.cfg',userdir+DIR_CONFIG)='' then
+  //write default setting
+  if FSearch('tubes2.ini',userdir+DIR_CONFIG)='' then
   begin
-    assignfile(tf,userdir+DIR_CONFIG+'tubes2.cfg');
+    assignfile(tf,userdir+DIR_CONFIG+'tubes2.ini');
     try
       rewrite(tf);
-      writeln(tf,'# Tubes2 - Default settings');
+      writeln(tf,'; '+APPNAME+' v'+VERSION+' - Default settings');
+      writeln(tf,'');
+      writeln(tf,'[General]');
+      writeln(tf,'OffLineMode=0');
+      writeln(tf,'NoCheckUpdate=0');
+      writeln(tf,'');
+      writeln(tf,'[Applications]');
       {$IFDEF UNIX}
-      writeln(tf,'BP=xdg-open');
-      writeln(tf,'MP=xdg-email');
+      writeln(tf,'Browser=xdg-open');
+      writeln(tf,'Mailer=xdg-email');
       {$ENDIF}
       {$IFDEF WINDOWS}
-      writeln(tf,'BP=rundll32.exe url.dll,FileProtocolHandler');
-      writeln(tf,'MP=rundll32.exe url.dll,FileProtocolHandler mailto:');
+      writeln(tf,'Browser=rundll32.exe url.dll,FileProtocolHandler');
+      writeln(tf,'Mailer=rundll32.exe url.dll,FileProtocolHandler mailto:');
       {$ENDIF}
-      writeln(tf,'FO=0');
-      writeln(tf,'DF=0');
-      writeln(tf,'SN='+wsname[1]);
-      writeln(tf,'SU='+wsurl[1]);
-    closefile(tf);
+      writeln(tf,'SearcherName='+wsname[1]);
+      writeln(tf,'SearcherURL='+wsurl[1]);
+      writeln(tf,'');
+      writeln(tf,'[Display]');
+      writeln(tf,'ShowLines=0');
+      writeln(tf,'ShowDescription=1');
+      writeln(tf,'CharDrawShowGrid=1');
+      writeln(tf,'CharDrawShowInfo=1');
+      writeln(tf,'CharDrawColour=2');
+      closefile(tf);
     except
     end;
-  end;  
-  browserprogramme:='';
-  mailerprogramme:='';
-  websearchurl:='';
+  end;
+
+  // load settings
+  ini:=TIniFile.Create(userdir+DIR_CONFIG+'tubes2.ini');
   try
-    reset(tf);
-    repeat
-      readln(tf,s);
-      if s[1]+s[2]+s[3]='BP=' then
-        for b:=4 to length(s) do browserprogramme:=browserprogramme+s[b];
-      if s[1]+s[2]+s[3]='MP=' then
-        for b:=4 to length(s) do mailerprogramme:=mailerprogramme+s[b];
-      if s[1]+s[2]+s[3]='FO=' then
-        if s[4]='1' then offline:=true else offline:=false;
-      if s[1]+s[2]+s[3]='DF=' then
-        if s[4]='1' then nocheckupdate:=true else nocheckupdate:=false;
-      if s[1]+s[2]+s[3]='SU=' then
-        for b:=4 to length(s) do websearchurl:=websearchurl+s[b];
-    until(eof(tf));
-    closefile(tf);
+    offline:=ini.ReadBool('General','OffLineMode',false);
+    nocheckupdate:=ini.ReadBool('General','NoCheckUpdate',false);
+    browserprogramme:=ini.ReadString('Applications','Browser','');
+    mailerprogramme:=ini.ReadString('Applications','Mailer','');
+    websearchurl:=ini.ReadString('Applications','SearcherURL','');
+
+    Form1.MenuItem50.Checked:=ini.ReadBool('Display','ShowLines',false);
+    Form1.MenuItem28.Checked:=ini.ReadBool('Display','ShowDescription',true);
+
+    frmdrawer.grid:=ini.ReadBool('Display','CharDrawShowGrid',true);
+    frmdrawer.header:=ini.ReadBool('Display','CharDrawShowInfo',true);
+    displaycolors:=ini.ReadInteger('Display','CharDrawColour',2);
+    ini.Free;
   except
   end;
+  MenuItem48.Checked:=MenuItem50.Checked;
+  if MenuItem50.Checked=true
+    then StringGrid1.GridLineWidth:=1
+    else StringGrid1.GridLineWidth:=0;
+  MenuItem30.Checked:=MenuItem28.Checked;
+  MenuItem49.Checked:=MenuItem28.Checked;
+  if MenuItem28.Checked=true
+    then PairSplitter1.Position:=Height-180
+    else PairSplitter1.Position:=PairSplitter1.Top+PairSplitter1.Height;
+  MenuItem31.Enabled:=not offline;
+  MenuItem62.Enabled:=not offline;
   if cmdpnocheckupdate then nocheckupdate:=true;
   if cmdpoffline then offline:=true;
   Form1.MenuItem31.Enabled:=not frmmain.offline;

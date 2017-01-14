@@ -68,7 +68,7 @@ var
   i: integer;
 
 Resourcestring
-  MESSAGE09='Not found!';
+  MESSAGE01='Not found!';
 
 implementation
 {$R *.lfm}
@@ -220,7 +220,7 @@ begin
     for i:=0 to ListBox2.Items.Count-1 do
       ListBox1.Items.Add(ListBox2.Items[i]);
   end;
-  if ListBox1.Items.Count=0 then ShowMessage(MESSAGE09) else Button4.Enabled:=true;
+  if ListBox1.Items.Count=0 then ShowMessage(MESSAGE01) else Button4.Enabled:=true;
 end;
 
 //-- OnShow event --------------------------------------------------------------

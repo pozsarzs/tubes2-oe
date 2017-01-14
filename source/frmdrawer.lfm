@@ -114,6 +114,8 @@ object Form10: TForm10
   }
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
   LCLVersion = '1.2.4.0'
   object PageControl1: TPageControl
     AnchorSideLeft.Control = Owner
@@ -668,10 +670,6 @@ object Form10: TForm10
       FF00FFFFFF00008B9C1F008C9DED008D9EEC008D9E9E008B9C21FFFFFF00FFFF
       FF00FFFFFF00FFFFFF00FFFFFF00
     }
-  end
-  object PrintDialog1: TPrintDialog
-    left = 152
-    top = 280
   end
   object SaveDialog1: TSaveDialog
     left = 159
