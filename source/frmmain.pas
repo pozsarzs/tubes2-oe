@@ -299,9 +299,10 @@ Resourcestring
   MESSAGE44='HTML files (*.html)|*.html| text files (*.txt)|*.txt|';
   MESSAGE45='Show description';
   MESSAGE46='Parameter search';
-  {...}
+  MESSAGE47='Open manufacturer''s website';
+  MESSAGE48='Open manufacturer''s datasheet';
   MESSAGE49='Categories of electrontubes';
-  {...}
+  MESSAGE50='Save datasheet in TXT or HTML format';
   MESSAGE51='Sorry, there is off-line mode.';
   MESSAGE52='Tube designation systems';
   MESSAGE53='Cannot run browser!';
@@ -1485,10 +1486,12 @@ begin
   ToolButton11.Hint:=MESSAGE37;
   ToolButton13.Hint:=MESSAGE38;
   ToolButton14.Hint:=MESSAGE52;
+  ToolButton15.Hint:=MESSAGE47;
+  ToolButton16.Hint:=MESSAGE48;
   ToolButton2.Hint:=MESSAGE30;
   ToolButton3.Hint:=MESSAGE46;
   ToolButton4.Hint:=MESSAGE62;
-  ToolButton5.Hint:=MESSAGE28;
+  ToolButton5.Hint:=MESSAGE50;
   ToolButton7.Hint:=MESSAGE01;
   ToolButton8.Hint:=MESSAGE03;
   ToolButton9.Hint:=MESSAGE32;
