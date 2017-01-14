@@ -24,8 +24,7 @@ unit frmprogressbar;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, StdCtrls, ComCtrls;
+  Classes, ExtCtrls, Forms, ComCtrls;
 type
   { TForm9 }
   TForm9 = class(TForm)

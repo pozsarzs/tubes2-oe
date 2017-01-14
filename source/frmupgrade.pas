@@ -24,8 +24,9 @@ unit frmupgrade;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  ComCtrls, Buttons, StdCtrls, HTTPSend, unzip51g, dos;
+  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
+  LResources, StdCtrls, SysUtils,
+  dos, httpsend, unzip51g;
 type
   { TForm6 }
   TForm6 = class(TForm)

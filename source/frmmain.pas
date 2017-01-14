@@ -25,11 +25,12 @@ unit frmmain;
 interface
 uses
   {$IFDEF WIN32}Windows,{$ENDIF}
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  Menus, Grids, ExtCtrls, frmabout, frmsort, LazHelpHTML, HelpIntfs, Process,
-  ComCtrls, Buttons, PairSplitter, PopupNotifier, LCLIntF, IniFiles, Types,
-  dos, gettext, httpsend, frmparsearch, frmconfig, frmdrawer, frmtextview,
-  frmprogressbar, frmsubst, frmupgrade, untstrconv;
+  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
+  Grids, HelpIntfs, IniFiles, LazHelpHTML, LCLIntF, LResources, Menus,
+  PairSplitter, Process, StdCtrls, SysUtils, Types,
+  dos, gettext, httpsend,
+  frmabout, frmconfig, frmdrawer, frmparsearch, frmprogressbar, frmsort,
+  frmsubst, frmtextview, frmupgrade, untstrconv;
 type
 indata=record
   name1: string[16];
@@ -1224,7 +1225,7 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:=APPNAME+' '+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:=APPNAME+' v'+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then
@@ -1352,9 +1353,8 @@ end;
 
 // -- OnCreate event -----------------------------------------------------------
 procedure TForm1.FormCreate(Sender: TObject);
-var
-  ini: TINIFile;
 {$IFDEF WIN32}
+var
   Buffer : PChar;
   Size : integer;
 {$ENDIF}
@@ -1558,59 +1558,11 @@ begin
     picspath:=userdir+DIR_PICS;
   end;
 
-  //write default setting
-  if FSearch('tubes2.ini',userdir+DIR_CONFIG)='' then
-  begin
-    assignfile(tf,userdir+DIR_CONFIG+'tubes2.ini');
-    try
-      rewrite(tf);
-      writeln(tf,'; '+APPNAME+' v'+VERSION+' - Default settings');
-      writeln(tf,'');
-      writeln(tf,'[General]');
-      writeln(tf,'OffLineMode=0');
-      writeln(tf,'NoCheckUpdate=0');
-      writeln(tf,'');
-      writeln(tf,'[Applications]');
-      {$IFDEF UNIX}
-      writeln(tf,'Browser=xdg-open');
-      writeln(tf,'Mailer=xdg-email');
-      {$ENDIF}
-      {$IFDEF WINDOWS}
-      writeln(tf,'Browser=rundll32.exe url.dll,FileProtocolHandler');
-      writeln(tf,'Mailer=rundll32.exe url.dll,FileProtocolHandler mailto:');
-      {$ENDIF}
-      writeln(tf,'SearcherName='+wsname[1]);
-      writeln(tf,'SearcherURL='+wsurl[1]);
-      writeln(tf,'');
-      writeln(tf,'[Display]');
-      writeln(tf,'ShowLines=0');
-      writeln(tf,'ShowDescription=1');
-      writeln(tf,'CharDrawShowGrid=1');
-      writeln(tf,'CharDrawShowInfo=1');
-      writeln(tf,'CharDrawColour=2');
-      closefile(tf);
-    except
-    end;
-  end;
+  // save default setting
+  if FSearch(frmconfig.INIFILE,userdir+DIR_CONFIG)='' then savedefaultsettings;
 
   // load settings
-  ini:=TIniFile.Create(userdir+DIR_CONFIG+'tubes2.ini');
-  try
-    offline:=ini.ReadBool('General','OffLineMode',false);
-    nocheckupdate:=ini.ReadBool('General','NoCheckUpdate',false);
-    browserprogramme:=ini.ReadString('Applications','Browser','');
-    mailerprogramme:=ini.ReadString('Applications','Mailer','');
-    websearchurl:=ini.ReadString('Applications','SearcherURL','');
-
-    Form1.MenuItem50.Checked:=ini.ReadBool('Display','ShowLines',false);
-    Form1.MenuItem28.Checked:=ini.ReadBool('Display','ShowDescription',true);
-
-    frmdrawer.grid:=ini.ReadBool('Display','CharDrawShowGrid',true);
-    frmdrawer.header:=ini.ReadBool('Display','CharDrawShowInfo',true);
-    displaycolors:=ini.ReadInteger('Display','CharDrawColour',2);
-    ini.Free;
-  except
-  end;
+  loadsettings;
   MenuItem48.Checked:=MenuItem50.Checked;
   if MenuItem50.Checked=true
     then StringGrid1.GridLineWidth:=1

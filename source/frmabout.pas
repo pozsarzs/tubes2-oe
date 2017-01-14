@@ -24,8 +24,8 @@ unit frmabout;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, Buttons,
-  ExtCtrls, StdCtrls;
+  Buttons, Classes, Controls, Dialogs, ExtCtrls, Forms, Graphics, LResources,
+  StdCtrls, SysUtils;
 type
   { TForm2 }
   TForm2 = class(TForm)

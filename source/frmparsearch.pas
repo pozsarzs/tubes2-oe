@@ -24,8 +24,8 @@ unit frmparsearch;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, Buttons,
-  StdCtrls, ExtCtrls, Spin;
+  Buttons, Classes, Controls, Dialogs, ExtCtrls, Forms, Graphics, LResources,
+  Spin, StdCtrls, SysUtils;
 type
   { TForm3 }
   TForm3 = class(TForm)

@@ -24,10 +24,10 @@ program tubes2oe;
 {$MODE OBJFPC}{$H+}
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
-  Dialogs, Forms, Interfaces, Sysutils, crt,
-  // own forms:
-  frmabout, frmconfig, frmmain, frmparsearch, frmprogressbar, frmsort,
-  frmtextview, frmupgrade, frmdrawer, frmsubst;
+  Dialogs, Forms, Interfaces, Sysutils,
+  crt,
+  frmabout, frmconfig,  frmdrawer, frmmain, frmparsearch, frmprogressbar,
+  frmsort, frmsubst, frmtextview, frmupgrade;
 var
   fe, fn: string;
   appmode: byte;

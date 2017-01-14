@@ -24,8 +24,8 @@ unit frmconfig;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Buttons, ComCtrls, ColorBox;
+  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
+  INIFiles, LResources, StdCtrls, SysUtils;
 type
   { TForm7 }
   TForm7 = class(TForm)
@@ -79,20 +79,21 @@ var
   Form7: TForm7;
   defbrowser, defmailer: string;
 const
-  wsname: array[1..6] of string=('Bing',
+  INIFILE: string=('tubes2.ini');
+  WSNAME: array[1..6] of string=('Bing',
                                  'DuckDuckGo',
                                  'Google',
                                  'Yahoo',
                                  'Yandex',
                                  '(User)');
 
-  wsurl: array[1..6] of string= ('http://www.bing.com/search?q=',
+  WSURL: array[1..6] of string= ('http://www.bing.com/search?q=',
                                  'https://duckduckgo.com/?q=',
                                  'https://www.google.hu/search?q=',
                                  'https://search.yahoo.com/search?p=',
                                  'https://yandex.ru/search/?text=',
                                  '');
-  pal: array [1..6,1..4] of string = (
+  PAL: array [1..6,1..4] of string = (
                                 ('$000000','$999999','$CCCCCC','$FFFFFF'),
                                 ('$75DDFF','$5EB1CC','$468599','$000052'),
                                 ('$63FF63','$50CD50','$3C9A3C','$005200'),
@@ -101,6 +102,9 @@ const
                                 ('$FFF474','$CCC35D','$999246','$574A03')
                                      );
   // black, blue, green, red, white, yellow
+
+procedure loadsettings;
+procedure savedefaultsettings;
 
 Resourcestring
   MESSAGE01='black';
@@ -117,11 +121,61 @@ Resourcestring
 
 implementation
 {$R *.lfm}
-uses frmmain, frmdrawer;
-
+uses frmdrawer, frmmain;
 { TForm7 }
 
-//-- save data -----------------------------------------------------------------
+//-- load setting --------------------------------------------------------------
+procedure loadsettings;
+var
+  ini: TINIFile;
+begin
+  ini:=TIniFile.Create(userdir+DIR_CONFIG+'tubes2.ini');
+  try
+    offline:=ini.ReadBool('General','OffLineMode',false);
+    nocheckupdate:=ini.ReadBool('General','NoCheckUpdate',false);
+    browserprogramme:=ini.ReadString('Applications','Browser','');
+    mailerprogramme:=ini.ReadString('Applications','Mailer','');
+    websearchurl:=ini.ReadString('Applications','SearcherURL','');
+    Form1.MenuItem50.Checked:=ini.ReadBool('Display','ShowLines',false);
+    Form1.MenuItem28.Checked:=ini.ReadBool('Display','ShowDescription',true);
+    frmdrawer.grid:=ini.ReadBool('Display','CharDrawShowGrid',true);
+    frmdrawer.header:=ini.ReadBool('Display','CharDrawShowInfo',true);
+    displaycolors:=ini.ReadInteger('Display','CharDrawColour',2);
+    ini.Free;
+  except
+  end;
+end;
+
+//-- save default setting ------------------------------------------------------
+procedure savedefaultsettings;
+begin
+  assignfile(tf,userdir+DIR_CONFIG+'tubes2.ini');
+  try
+    rewrite(tf);
+    writeln(tf,'; '+APPNAME+' v'+VERSION+' - Default settings');
+    writeln(tf,'');
+    writeln(tf,'[General]');
+    writeln(tf,'OffLineMode=0');
+    writeln(tf,'NoCheckUpdate=0');
+    writeln(tf,'');
+    writeln(tf,'[Applications]');
+    writeln(tf,'Browser='+defbrowser);
+    writeln(tf,'Mailer='+defmailer);
+    writeln(tf,'SearcherName='+WSNAME[1]);
+    writeln(tf,'SearcherURL='+WSURL[1]);
+    writeln(tf,'');
+    writeln(tf,'[Display]');
+    writeln(tf,'ShowLines=0');
+    writeln(tf,'ShowDescription=1');
+    writeln(tf,'CharDrawShowGrid=1');
+    writeln(tf,'CharDrawShowInfo=1');
+    writeln(tf,'CharDrawColour=2');
+    closefile(tf);
+  except
+  end;
+end;
+
+//-- save settings -------------------------------------------------------------
 procedure TForm7.Button3Click(Sender: TObject);
 var
   ini: textfile;
@@ -231,9 +285,9 @@ end;
 procedure TForm7.ComboBox2Change(Sender: TObject);
 begin
   for b:=1 to 6 do
-    if wsname[b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
+    if WSNAME[b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
   Edit3.Text:=wsurl[b];
-  if length(wsurl[b])=0 then Edit3.ReadOnly:=false else Edit3.ReadOnly:=true;
+  if length(WSURL[b])=0 then Edit3.ReadOnly:=false else Edit3.ReadOnly:=true;
 end;
 
 //-- OnShow event --------------------------------------------------------------
@@ -247,7 +301,7 @@ begin
     defbrowser:='rundll32.exe url.dll,FileProtocolHandler';
     defmailer:='rundll32.exe url.dll,FileProtocolHandler mailto:';
   {$ENDIF}
-  //general settings
+  // general settings
   Edit1.Text:=frmmain.browserprogramme;
   if Edit1.Text='' then Edit1.Text:=defbrowser;
   Edit2.Text:=frmmain.mailerprogramme;
@@ -257,10 +311,10 @@ begin
   // searchers
   ComboBox2.Clear;
   for b:=1 to 6 do
-    ComboBox2.Items.Add(wsname[b]);
+    ComboBox2.Items.Add(WSNAME[b]);
   Edit3.Text:=frmmain.websearchurl;
   for b:=1 to 6 do
-    if wsurl[b]=Edit3.Text then break;
+    if WSURL[b]=Edit3.Text then break;
   ComboBox2.ItemIndex:=b-1;
   if (b>0) and (b<6) then ComboBox2Change(Sender);
   // colours

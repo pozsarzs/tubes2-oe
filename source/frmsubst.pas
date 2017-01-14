@@ -24,8 +24,8 @@ unit frmsubst;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, StdCtrls, ComCtrls;
+  Classes, ComCtrls, Controls, Dialogs, ExtCtrls, FileUtil, Forms, Graphics,
+  LResources, StdCtrls, SysUtils;
 type
   { TForm11 }
   TForm11 = class(TForm)
@@ -58,6 +58,7 @@ implementation
 uses frmmain;
 { TForm11 }
 
+//-- OnChange events -----------------------------------------------------------
 procedure TForm11.Edit1Change(Sender: TObject);
 var
   i: integer;

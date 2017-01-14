@@ -24,8 +24,7 @@ unit frmtextview;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls;
+  Classes, Forms, StdCtrls;
 type
   { TForm8 }
   TForm8 = class(TForm)
