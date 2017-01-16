@@ -93,15 +93,6 @@ const
                                  'https://search.yahoo.com/search?p=',
                                  'https://yandex.ru/search/?text=',
                                  '');
-  PAL: array [1..6,1..4] of string = (
-                                ('$000000','$999999','$CCCCCC','$FFFFFF'),
-                                ('$75DDFF','$5EB1CC','$468599','$000052'),
-                                ('$63FF63','$50CD50','$3C9A3C','$005200'),
-                                ('$FF6363','$CD5050','$9A3C3C','$520000'),
-                                ('$FFFFFF','$CCCCCC','$999999','$000000'),
-                                ('$FFF474','$CCC35D','$999246','$574A03')
-                                     );
-  // black, blue, green, red, white, yellow
 
 procedure loadsettings;
 procedure savedefaultsettings;

@@ -29,6 +29,10 @@ uses
   Controls, Graphics, Dialogs, Menus, ComCtrls, ExtCtrls, StdCtrls,
   Grids, Buttons, DOM, dos, GraphUtil, ExtDlgs, convert, process;
   type
+  t2crec=record
+    title.string;
+
+  end;
   { TForm10 }
   TForm10 = class(TForm)
     Bevel4: TBevel;
@@ -100,6 +104,15 @@ var
   t: text;                                         // general text file variable
   tdir,tname,textn: shortstring;
   filename: string;                                              // filename.t2c
+const
+  PAL: array [1..6,1..4] of string = (
+                                ('$000000','$999999','$CCCCCC','$FFFFFF'),
+                                ('$75DDFF','$5EB1CC','$468599','$000052'),
+                                ('$63FF63','$50CD50','$3C9A3C','$005200'),
+                                ('$FF6363','$CD5050','$9A3C3C','$520000'),
+                                ('$FFFFFF','$CCCCCC','$999999','$000000'),
+                                ('$FFF474','$CCC35D','$999246','$574A03')
+                                     );
 
 Resourcestring
   MESSAGE01='Characteristic drawer';
@@ -114,9 +127,8 @@ Resourcestring
   MESSAGE10='Tubes2 characteristic data files (*.t2c)|*.t2c|';
   MESSAGE11='Bitmap files (*.bmp)|*.bmp|';
   MESSAGE12='CSV files (*.csv)|*.csv|';
-  {...}
-  MESSAGE32='Cannot write file!';
-  MESSAGE33='Cannot read file!';
+  MESSAGE13='Cannot write file!';
+  MESSAGE14='Cannot read file!';
   {...}
   MESSAGE35='Set aside...';
   MESSAGE36='X: ';
@@ -256,10 +268,11 @@ var
  foreground, dark1, dark2, background: string;
  hu,lu,sa: byte;
 begin
-  foreground:='$ffffff';
-  background:='$000000';
-  dark1:='$cccccc';
-  dark2:='$999999';
+  foreground:=PAL[frmmain.displaycolors,1];
+  background:=PAL[frmmain.displaycolors,4];
+  dark1:=PAL[frmmain.displaycolors,2];
+  dark2:=PAL[frmmain.displaycolors,3];
+
   RGBtoHLS(strtoint(hextodez(background[2]+background[3])),
            strtoint(hextodez(background[4]+background[5])),
            strtoint(hextodez(background[6]+background[7])),
@@ -382,7 +395,7 @@ begin
   try
     // betöltés
   except
-    showmessage(MESSAGE33);
+    showmessage(MESSAGE14);
   end;
 end;
 
@@ -408,7 +421,7 @@ begin
     // mentés
     unsaved:=false; unsavedsign;
   except
-    showmessage(MESSAGE32);
+    showmessage(MESSAGE13);
   end;
 end;
 
@@ -434,7 +447,7 @@ begin
     if PageControl1.ActivePageIndex=0 then Image2.Picture.SaveToFile(filename);
     if PageControl1.ActivePageIndex=1 then Image3.Picture.SaveToFile(filename);
   except
-    showmessage(MESSAGE32);
+    showmessage(MESSAGE13);
   end;
 end;
 
@@ -463,7 +476,7 @@ begin
       then StringGrid1.LoadFromCSVFile(filename)
       else StringGrid2.LoadFromCSVFile(filename);
   except
-    showmessage(MESSAGE33);
+    showmessage(MESSAGE14);
   end;
 end;
 
@@ -490,7 +503,7 @@ begin
       then StringGrid1.SaveToCSVFile(filename)
       else StringGrid2.SaveToCSVFile(filename);
   except
-    showmessage(MESSAGE32);
+    showmessage(MESSAGE13);
   end;
 end;
 
@@ -661,5 +674,4 @@ end;
 initialization
   {$I haircross.lrs}
 end.
-
 
