@@ -196,8 +196,8 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE20);
         Canvas.TextOut(8,14,MESSAGE21);
-        Canvas.TextOut(58,2,MESSAGE24+floattostr(g1xdiv)+' V/div');
-        Canvas.TextOut(58,14,MESSAGE24+floattostr(g1ydiv)+' mA/div');
+        Canvas.TextOut(58,2,MESSAGE24+floattostrf(g1xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(58,14,MESSAGE24+floattostrf(g1ydiv,ffFixed,20,2)+' mA/div');
         Canvas.TextOut(200,2, MESSAGE25+'- V');
         Canvas.TextOut(200,14, MESSAGE25+'- mA');
       end;
@@ -243,8 +243,8 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE22);
         Canvas.TextOut(8,14,MESSAGE23);
-        Canvas.TextOut(58,2,MESSAGE24+floattostr(g2xdiv)+' V/div');
-        Canvas.TextOut(58,14,MESSAGE24+floattostr(g2ydiv)+' mA/div');
+        Canvas.TextOut(58,2,MESSAGE24+floattostrf(g2xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(58,14,MESSAGE24+floattostrf(g2ydiv,ffFixed,20,2)+' mA/div');
         Canvas.TextOut(216,2, MESSAGE25+': - V');
         Canvas.TextOut(216,14, MESSAGE25+': - mA');
       end;
@@ -330,6 +330,10 @@ begin
   yy2:=trunc(((a4/ypix)-387)*-1)-8;
   Form10.Image2.Canvas.Pen.Color:=fg;
   Form10.Image2.Canvas.Pen.Width:=2;
+  if yy1<30 then yy1:=30;
+  if yy2<30 then yy2:=30;
+  if xx1>508 then xx1:=508;
+  if xx2>508 then xx2:=508;
   Form10.Image2.Canvas.Line(xx1,yy1,xx2,yy2);
 end;
 
@@ -343,18 +347,24 @@ begin
   yy2:=trunc(((a4/ypix)-387)*-1)-8;
   Form10.Image3.Canvas.Pen.Color:=fg;
   Form10.Image3.Canvas.Pen.Width:=2;
+  if yy1<30 then yy1:=30;
+  if yy2<30 then yy2:=30;
+  if xx1>508 then xx1:=508;
+  if xx2>508 then xx2:=508;
   Form10.Image3.Canvas.Line(xx1,yy1,xx2,yy2);
 end;
 
 begin
   for line:=1 to 254 do
   begin
-    if Form10.StringGrid1.Cells[0,line]='' then p1:=0 else p1:=strtofloat(Form10.StringGrid1.Cells[0,line]);
-    if Form10.StringGrid1.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid1.Cells[1,line]);
-    if Form10.StringGrid1.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid1.Cells[0,line+1]);
-    if Form10.StringGrid1.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid1.Cells[1,line+1]);
-    if (p1=0) and (p2=0) then exit;
-    if (p3=0) and (p4=0) then exit;
+    if (Form10.StringGrid1.Cells[0,line]='') or
+       (Form10.StringGrid1.Cells[1,line]='') or
+       (Form10.StringGrid1.Cells[0,line+1]='') or
+       (Form10.StringGrid1.Cells[1,line+1]='') then exit;
+    p1:=strtofloat(Form10.StringGrid1.Cells[0,line]);
+    p2:=strtofloat(Form10.StringGrid1.Cells[1,line]);
+    p3:=strtofloat(Form10.StringGrid1.Cells[0,line+1]);
+    p4:=strtofloat(Form10.StringGrid1.Cells[1,line+1]);
     drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
   end;
   for line:=1 to 254 do
@@ -414,10 +424,24 @@ begin
       Edit1.Text:=title;
       for line:=1 to 255 do
       begin
-        StringGrid1.Cells[0,line]:=floattostr(g1x[line]);
-        StringGrid1.Cells[1,line]:=floattostr(g1y[line]);
-        StringGrid2.Cells[0,line]:=floattostr(g2x[line]);
-        StringGrid2.Cells[1,line]:=floattostr(g2y[line]);
+        if g1x[line]=999999
+          then StringGrid1.Cells[0,line]:=''
+          else StringGrid1.Cells[0,line]:=floattostrf(g1x[line],ffFixed,20,2);
+        if g1y[line]=999999
+          then StringGrid1.Cells[1,line]:=''
+          else StringGrid1.Cells[1,line]:=floattostrf(g1y[line],ffFixed,20,2);
+        if g2x[line]=999999
+            then StringGrid2.Cells[0,line]:=''
+            else
+              if g2x[line]=9999999
+                then StringGrid2.Cells[0,line]:='-'
+                else StringGrid2.Cells[0,line]:=floattostrf(g2x[line],ffFixed,20,2);
+        if g2y[line]=999999
+            then StringGrid2.Cells[1,line]:=''
+            else
+              if g2y[line]=9999999
+                then StringGrid2.Cells[1,line]:='-'
+                else StringGrid2.Cells[1,line]:=floattostrf(g2y[line],ffFixed,20,2);
       end;
     end;
   except
@@ -452,17 +476,23 @@ begin
    for line:=1 to 255 do
    begin
      if StringGrid1.Cells[0,line]=''
-       then g1x[line]:=0
+       then g1x[line]:=999999
        else g1x[line]:=strtofloat(StringGrid1.Cells[0,line]);
      if StringGrid1.Cells[1,line]=''
-       then g1y[line]:=0
+       then g1y[line]:=999999
        else g1y[line]:=strtofloat(StringGrid1.Cells[1,line]);
      if StringGrid2.Cells[0,line]=''
-       then g2x[line]:=0
-       else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
+       then g2x[line]:=999999
+       else
+         if StringGrid2.Cells[0,line]='-'
+         then g2x[line]:=9999999
+         else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
      if StringGrid2.Cells[1,line]=''
-       then g2y[line]:=0
-       else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
+       then g2y[line]:=999999
+       else
+         if StringGrid2.Cells[1,line]='-'
+           then g2y[line]:=9999999
+           else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
    end;
   end;
   try
@@ -693,9 +723,10 @@ begin
     4: g1xdiv:=2.5;
   end;
   case ComboBox2.ItemIndex of
-    0: g1ydiv:=1;
-    1: g1ydiv:=10;
-    2: g1ydiv:=100;
+    0: g1ydiv:=0.1;
+    1: g1ydiv:=1;
+    2: g1ydiv:=10;
+    3: g1ydiv:=100;
   end;
   case ComboBox3.ItemIndex of
     0: g2xdiv:=5;
