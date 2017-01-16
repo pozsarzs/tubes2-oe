@@ -317,7 +317,8 @@ end;
 // write and draw data to displays
 procedure writetodisplay;
 var
-  b: byte;
+  line: byte;
+  p1, p2, p3, p4: single;
 
 procedure drawgraph1(xpix,ypix,a1,a2,a3,a4: single);
 var
@@ -346,33 +347,23 @@ begin
 end;
 
 begin
-  // 2nd page
-  b:=7;
-  repeat
-//    drawgraph1(g1xpix,g1ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
-  b:=b+2
-  until b=45;
-  // 3rd page
-  b:=47;
-  repeat
-  //  drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
-    b:=b+2
-  until b=85;
-  b:=87;
-  repeat
-//    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
-    b:=b+2
-  until b=125;
-  b:=127;
-  repeat
-  //  drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
-    b:=b+2
-  until b=165;
-  b:=167;
-  repeat
-//    drawgraph2(g2xpix,g2ypix,strtofloat(mdata[b]),strtofloat(mdata[b+1]),strtofloat(mdata[b+2]),strtofloat(mdata[b+3]));
-    b:=b+2
-  until b=205;
+  for line:=1 to 254 do
+  begin
+    if Form10.StringGrid1.Cells[0,line]='' then p1:=0 else p1:=strtofloat(Form10.StringGrid1.Cells[0,line]);
+    if Form10.StringGrid1.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid1.Cells[1,line]);
+    if Form10.StringGrid1.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid1.Cells[0,line+1]);
+    if Form10.StringGrid1.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid1.Cells[1,line+1]);
+    drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
+  end;
+  for line:=1 to 254 do
+  begin
+    if Form10.StringGrid2.Cells[0,line]='' then p1:=0 else p1:=strtofloat(Form10.StringGrid2.Cells[0,line]);
+    if Form10.StringGrid2.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid2.Cells[1,line]);
+    if Form10.StringGrid2.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid2.Cells[0,line+1]);
+    if Form10.StringGrid2.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid2.Cells[1,line+1]);
+    drawgraph2(g2xpix,g2ypix,p1,p2,p3,p4);
+  end;
+  exit;
 end;
 
 //-- ToolBar -------------------------------------------------------------------
