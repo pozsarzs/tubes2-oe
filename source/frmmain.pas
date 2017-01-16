@@ -32,10 +32,6 @@ uses
   frmabout, frmconfig, frmdrawer, frmparsearch, frmprogressbar, frmsort,
   frmsubst, frmtextview, frmupgrade, untstrconv;
 type
-indata=record
-  name1: string[16];
-  name2: string[16];
-end;
   { TForm1 }
   TForm1 = class(TForm)
     Bevel1: TBevel;
@@ -207,6 +203,10 @@ end;
     { private declarations }
   public
     { public declarations }
+  end;
+  indata=record
+    name1: string[16];
+    name2: string[16];
   end;
 var
   // general

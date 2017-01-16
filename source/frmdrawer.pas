@@ -29,11 +29,6 @@ uses
   Controls, Graphics, Dialogs, Menus, ComCtrls, ExtCtrls, StdCtrls,
   Grids, Buttons, DOM, dos, GraphUtil, ExtDlgs, convert, process;
   type
-{  t2crec=record
-    title: string;
-    d1xres
-
-  end;}
   { TForm10 }
   TForm10 = class(TForm)
     Bevel4: TBevel;
@@ -85,6 +80,7 @@ uses
     procedure StringGrid1EditingDone(Sender: TObject);
     procedure ToolButton10Click(Sender: TObject);
     procedure ToolButton11Click(Sender: TObject);
+    procedure ToolButton13Click(Sender: TObject);
     procedure ToolButton14Click(Sender: TObject);
     procedure ToolButton1Click(Sender: TObject);
     procedure ToolButton2Click(Sender: TObject);
@@ -97,6 +93,14 @@ uses
     { private declarations }
   public
     { public declarations }
+  end;
+  t2crec=record
+    id: string[3];
+    title: string[255];
+    g1x: array[1..255] of single;
+    g1y: array[1..255] of single;
+    g2x: array[1..255] of single;
+    g2y: array[1..255] of single;
   end;
 var
   Form10: TForm10;
@@ -111,6 +115,8 @@ var
   t: text;                                         // general text file variable
   tdir,tname,textn: shortstring;
   filename: string;                                              // filename.t2c
+  t2c: t2crec;
+  datafile: file of t2crec;
 const
   PAL: array [1..6,1..4] of string = (
                                 ('$000000','$999999','$CCCCCC','$FFFFFF'),
@@ -147,9 +153,11 @@ Resourcestring
   MESSAGE23='Y: Ia';
   MESSAGE24='resolution: ';
   MESSAGE25='marker: ';
-  {...}
-  MESSAGE40='Bipolar transistor input characteristic';
-  MESSAGE41='Bipolar transistor output characteristic';
+  MESSAGE26='Show/hide grid';
+  MESSAGE27='Show/hide header';
+  MESSAGE28='Clear all displays';
+  MESSAGE29='Refresh all displays';
+  MESSAGE30='Start drawing';
 
 implementation
 uses frmmain;
@@ -412,6 +420,7 @@ end;
 procedure TForm10.ToolButton3Click(Sender: TObject);
 var
   filename: string;
+  line: byte;
 begin
   SaveDialog1.InitialDir:=userdir;
   SaveDialog1.Title:=MESSAGE04;
@@ -426,8 +435,27 @@ begin
   if FSearch(tname+textn,tdir)<>'' then
   if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
   if length(filename)=0 then exit;
+  with t2c do
+  begin
+   id:='T2C';
+   title:=Edit1.Text;
+   for line:=1 to 255 do
+   begin
+     if StringGrid1.Cells[0,line]='' then StringGrid1.Cells[0,line]:='0';
+     if StringGrid1.Cells[1,line]='' then StringGrid1.Cells[1,line]:='0';
+     if StringGrid2.Cells[0,line]='' then StringGrid2.Cells[0,line]:='0';
+     if StringGrid2.Cells[1,line]='' then StringGrid2.Cells[1,line]:='0';
+     g1x[line]:=strtofloat(StringGrid1.Cells[0,line]);
+     g1y[line]:=strtofloat(StringGrid1.Cells[1,line]);
+     g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
+     g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
+   end;
+  end;
   try
-    // mentés
+    assignfile(datafile,filename);
+    rewrite(datafile);
+    write(datafile,t2c);
+    closefile(datafile);
     unsaved:=false; unsavedsign;
   except
     showmessage(MESSAGE13);
@@ -545,6 +573,12 @@ procedure TForm10.ToolButton10Click(Sender: TObject);
 begin
   cleardisplay(9);
   writetodisplay;
+end;
+
+// start drawing
+procedure TForm10.ToolButton13Click(Sender: TObject);
+begin
+
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
@@ -696,11 +730,16 @@ begin
   ComboBox4.Hint:=MESSAGE19;
   Edit1.Hint:=MESSAGE15;
   ToolButton1.Hint:=MESSAGE02;
+  ToolButton10.Hint:=MESSAGE29;
+  ToolButton11.Hint:=MESSAGE28;
+  ToolButton13.Hint:=MESSAGE30;
   ToolButton14.Hint:=MESSAGE07;
   ToolButton2.Hint:=MESSAGE03;
   ToolButton3.Hint:=MESSAGE04;
   ToolButton4.Hint:=MESSAGE05;
   ToolButton5.Hint:=MESSAGE06;
+  ToolButton6.Hint:=MESSAGE26;
+  ToolButton7.Hint:=MESSAGE27;
   ComboBox1Change(Sender);
 end;
 
