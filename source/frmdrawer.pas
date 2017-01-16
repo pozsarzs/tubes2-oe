@@ -38,7 +38,6 @@ uses
     Image2: TImage;
     Image3: TImage;
     ImageList1: TImageList;
-    Memo2: TMemo;
     OpenDialog1: TOpenDialog;
     PageControl1: TPageControl;
     SaveDialog1: TSaveDialog;
@@ -53,16 +52,15 @@ uses
     ToolButton11: TToolButton;
     ToolButton12: TToolButton;
     ToolButton13: TToolButton;
+    ToolButton14: TToolButton;
     ToolButton2: TToolButton;
     ToolButton3: TToolButton;
     ToolButton4: TToolButton;
+    ToolButton5: TToolButton;
     ToolButton6: TToolButton;
     ToolButton7: TToolButton;
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
-    procedure BitBtn6Click(Sender: TObject);
-    procedure BitBtn7Click(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -73,8 +71,10 @@ uses
       Shift: TShiftState; X, Y: Integer);
     procedure Image3MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
     procedure PageControl1Change(Sender: TObject);
+    procedure StringGrid1EditingDone(Sender: TObject);
     procedure ToolButton10Click(Sender: TObject);
     procedure ToolButton11Click(Sender: TObject);
+    procedure ToolButton14Click(Sender: TObject);
     procedure ToolButton1Click(Sender: TObject);
     procedure ToolButton2Click(Sender: TObject);
     procedure ToolButton3Click(Sender: TObject);
@@ -88,30 +88,33 @@ uses
   end;
 var
   Form10: TForm10;
-  fg, d1, d2, bg: TColor;                              // colors of the displays
   b: byte;                                                       // general byte
+  unsaved: boolean;                                               // data change
+  fg, d1, d2, bg: TColor;                              // colors of the displays
+  g1xdiv, g1ydiv, g2xdiv, g2ydiv: integer;                       // graph. ?/div
+  g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
+  grid, header: boolean;                                             //show/hide
   i: byte;                                                    // general integer
   s: string;                                          // general string variable
   t: text;                                         // general text file variable
-  changed1st, changed2nd: boolean;                               // data changes
-  grid, header: boolean;                                             //show/hide
-  displaycolor: string;                                         // display color
-  viewer: boolean;                                                // viewer mode
-  g1xdiv, g1ydiv, g2xdiv, g2ydiv: integer;                       // graph. ?/div
-  g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
-
   tdir,tname,textn: shortstring;
+  filename: string;                                              // filename.t2c
 
 Resourcestring
+  MESSAGE01='Characteristic drawer';
+  MESSAGE02='Create new project';
+  MESSAGE03='Load project';
+  MESSAGE04='Save project';
+  MESSAGE05='Save actual diplay to BMP file';
+  MESSAGE06='Import actual table from CSV file';
+  MESSAGE07='Export actual table to CSV file';
+  MESSAGE08='Are you sure? Project is not saved.';
   MESSAGE09='File is exist. Replace?';
-  MESSAGE21='Missing files! Please reinstall CTT!';
-  MESSAGE23='(description)';
-  MESSAGE26='(unknown)';
-  MESSAGE28='Save actual diagram in BMP format';
-  MESSAGE29='Save actual diagram in TXT format';
+  {...}
   MESSAGE30='Bitmap files (*.bmp)|*.bmp|';
-  MESSAGE31='Text files (*.txt)|*.txt|';
+  MESSAGE31='CSV files (*.csv)|*.csv|';
   MESSAGE32='Cannot save this file!';
+  {...}
   MESSAGE35='Set aside...';
   MESSAGE36='X: ';
   MESSAGE37='Y: ';
@@ -120,8 +123,6 @@ Resourcestring
   MESSAGE40='Bipolar transistor input characteristic';
   MESSAGE41='Bipolar transistor output characteristic';
   MESSAGE42='new diagram';
-  MESSAGE43='Print error!';
-  MESSAGE44='Print actual diagram';
 
 
 implementation
@@ -132,6 +133,13 @@ uses frmmain;
 procedure writetodisplay;forward;
 
 //-- other procedures #1 -------------------------------------------------------
+procedure unsavedsign;
+begin
+  if unsaved
+  then Form10.StatusBar1.Panels.Items[0].Text:=' *'
+  else Form10.StatusBar1.Panels.Items[0].Text:='';
+end;
+
 // clear display(s)
 procedure cleardisplay(m: byte);
 var
@@ -140,13 +148,7 @@ var
 begin
   rx1:=8; ry1:=29;
   rx2:=508;ry2:=379;
-//  if m=8 then mdata[6]:='0';
-  if m=6 then
-//    for b:=7 to 46 do mdata[b]:='0';
-  if m=7 then
-  //  for b:=47 to 206 do mdata[b]:='0';
-  if (m=6) or (m=7) or (m=99) then
-  begin
+  if (m=1) or (m=9) then
     with Form10.Image2.Picture.Bitmap do
     begin
       Clear;
@@ -196,6 +198,7 @@ begin
         until i=rx2+25;
       end;
     end;
+  if (m=2) or (m=9) then
     with Form10.Image3.Picture.Bitmap do
     begin
       Width:=Form10.Image3.Width;
@@ -244,9 +247,7 @@ begin
         until i=rx2+25;
       end;
     end;
-  end;
 end;
-
 
 // set display colors
 procedure setdisplaycolors;
@@ -254,36 +255,10 @@ var
  foreground, dark1, dark2, background: string;
  hu,lu,sa: byte;
 begin
-  foreground:='';
-  background:='';
-  dark1:='';
-  dark2:='';
-  {$IFDEF LINUX}
-  assignfile(t,'palettes/blue.pal');
-  {$ENDIF}
-  {$IFDEF WIN32}
-  assignfile(t,'palettes\'+displaycolor+'.pal');
-  {$ENDIF}
-  {$I-}
-  reset(t);
-  repeat
-    readln(t,s);
-    s:=lowercase(s);
-    if s[1]+s[2]+s[3]='fg=' then for b:=4 to length(s) do foreground:=foreground+s[b];
-    if s[1]+s[2]+s[3]='d1=' then for b:=4 to length(s) do dark1:=dark1+s[b];
-    if s[1]+s[2]+s[3]='d2=' then for b:=4 to length(s) do dark2:=dark2+s[b];
-    if s[1]+s[2]+s[3]='bg=' then for b:=4 to length(s) do background:=background+s[b];
-  until(eof(t));
-  {$I+}
-  if ioresult<>0 then
-  begin
-    ShowMessage(MESSAGE21);
-    foreground:='$ffffff';
-    background:='$000000';
-    dark1:='$cccccc';
-    dark2:='$999999';
-  end
-  else closefile(t);
+  foreground:='$ffffff';
+  background:='$000000';
+  dark1:='$cccccc';
+  dark2:='$999999';
   RGBtoHLS(strtoint(hextodez(background[2]+background[3])),
            strtoint(hextodez(background[4]+background[5])),
            strtoint(hextodez(background[6]+background[7])),
@@ -304,7 +279,7 @@ begin
            strtoint(hextodez(dark2[6]+dark2[7])),
            hu,lu,sa);
   d2:= HLStoColor(hu,lu,sa);
-  cleardisplay(99);
+  cleardisplay(9);
   writetodisplay;
 end;
 
@@ -370,33 +345,30 @@ begin
 end;
 
 //-- ToolBar -------------------------------------------------------------------
-// refresh all display;
-procedure TForm10.ToolButton10Click(Sender: TObject);
-begin
-  writetodisplay;
-end;
-
-// clear all display
-procedure TForm10.ToolButton11Click(Sender: TObject);
-begin
-  cleardisplay(99);
-end;
-
-// new diagram
+// new project
 procedure TForm10.ToolButton1Click(Sender: TObject);
 begin
-  //   if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
-
+  if unsaved
+  then
+    if MessageDlg(MESSAGE08,mtConfirmation, [mbYes, mbNo],0)=mrNo
+    then exit;
+  StringGrid1.Clean;
+  StringGrid2.Clean;
+  cleardisplay(9);
+  unsaved:=false; unsavedsign;
 end;
 
-// open file
+// open project
 procedure TForm10.ToolButton2Click(Sender: TObject);
 begin
-
 end;
 
-// save as txt
-procedure TForm10.ToolButton3Click(Sender: TObject);
+// save project
+// save actual image to BMP file
+// import actual table from CSV
+
+// export actual table to CSV
+procedure TForm10.ToolButton14Click(Sender: TObject);
 var
   filename: string;
 begin
@@ -419,6 +391,42 @@ begin
   except
     showmessage(MESSAGE32);
   end;
+end;
+
+// grid show/hide
+procedure TForm10.ToolButton6Click(Sender: TObject);
+begin
+  grid:=not grid;
+  ToolButton6.Down:=grid;
+  cleardisplay(9);
+  writetodisplay;
+end;
+
+// header show/hide
+procedure TForm10.ToolButton7Click(Sender: TObject);
+begin
+  header:=not header;
+  ToolButton7.Down:=header;
+  cleardisplay(9);
+  writetodisplay;
+end;
+
+// clear all display
+procedure TForm10.ToolButton11Click(Sender: TObject);
+begin
+  cleardisplay(9);
+end;
+
+// refresh all display;
+procedure TForm10.ToolButton10Click(Sender: TObject);
+begin
+  writetodisplay;
+end;
+
+//////
+// save as txt
+procedure TForm10.ToolButton3Click(Sender: TObject);
+begin
 end;
 
 // save as bmp
@@ -445,42 +453,6 @@ begin
   except
     showmessage(MESSAGE32);
   end;
-end;
-
-// grid show/hide
-procedure TForm10.ToolButton6Click(Sender: TObject);
-begin
-  grid:=not grid;
-  ToolButton6.Down:=grid;
-  cleardisplay(99);
-  writetodisplay;
-end;
-
-// header show/hide
-procedure TForm10.ToolButton7Click(Sender: TObject);
-begin
-  header:=not header;
-  ToolButton7.Down:=header;
-  cleardisplay(99);
-  writetodisplay;
-end;
-
-//-- Buttons -------------------------------------------------------------------
-// clear 1st display
-procedure TForm10.BitBtn6Click(Sender: TObject);
-begin
-  cleardisplay(6);
-end;
-
-// clear 2nd display
-procedure TForm10.BitBtn7Click(Sender: TObject);
-begin
-  cleardisplay(7);
-end;
-
-procedure TForm10.Button1Click(Sender: TObject);
-begin
-
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
@@ -529,10 +501,6 @@ begin
   then Image3.Cursor:=1 else Image3.Cursor:=crDefault;
 end;
 
-procedure TForm10.PageControl1Change(Sender: TObject);
-begin
-
-end;
 
 // marker position
 procedure TForm10.Image3MouseDown(Sender: TObject; Button: TMouseButton;
@@ -563,16 +531,41 @@ begin
 end;
 
 // -- Events -------------------------------------------------------------------
+
+// on change events
+procedure TForm10.PageControl1Change(Sender: TObject);
+begin
+  if PageControl1.ActivePageIndex=1
+    then Caption:=MESSAGE01+' - '+TabSheet2.Caption
+    else Caption:=MESSAGE01+' - '+TabSheet4.Caption;
+end;
+
+procedure TForm10.StringGrid1EditingDone(Sender: TObject);
+begin
+  unsaved:=true; unsavedsign;
+end;
+
 // on close query
 procedure TForm10.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
-  canclose:=true;
+  if not unsaved
+  then canclose:=true
+  else
+    if MessageDlg(MESSAGE08,mtConfirmation, [mbYes, mbNo],0)=mrNo
+    then canclose:=false
+    else canclose:=true;
 end;
 
 // on create event
 procedure TForm10.FormCreate(Sender: TObject);
 begin
-  changed1st:=false; changed2nd:=false;
+  Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
+  ToolButton1.Hint:=MESSAGE02;
+  ToolButton2.Hint:=MESSAGE03;
+  ToolButton3.Hint:=MESSAGE04;
+  ToolButton4.Hint:=MESSAGE05;
+  ToolButton5.Hint:=MESSAGE06;
+  ToolButton14.Hint:=MESSAGE07;
   // default resolutions
   g1xdiv:=100;       // x: 100mV/div
   g1ydiv:=50;        // y: 50uA/div
@@ -582,14 +575,18 @@ begin
   g2ydiv:=100;       // y: 100mA/div
   g2xpix:=g2xdiv/25;
   g2ypix:=g2ydiv/25;
-//  setdisplaycolors;
-  Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
 end;
 
+// on show event
 procedure TForm10.FormShow(Sender: TObject);
 begin
   ToolButton6.Down:=grid;
   ToolButton7.Down:=header;
+  PageControl1Change(Sender);
+  StringGrid1.Clean;
+  StringGrid2.Clean;
+  setdisplaycolors;
+  unsaved:=false; unsavedsign;
 end;
 
 initialization

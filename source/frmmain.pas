@@ -1226,7 +1226,7 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:=APPNAME+' v'+VERSION+' '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:=APPNAME+' v'+VERSION+' - '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then

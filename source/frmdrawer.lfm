@@ -1,11 +1,11 @@
 object Form10: TForm10
-  Left = 193
+  Left = 237
   Height = 476
-  Top = 197
-  Width = 789
+  Top = 166
+  Width = 783
   Caption = 'Characteristic drawer'
   ClientHeight = 476
-  ClientWidth = 789
+  ClientWidth = 783
   Constraints.MaxHeight = 476
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
@@ -128,7 +128,7 @@ object Form10: TForm10
     Left = 0
     Height = 427
     Top = 26
-    Width = 785
+    Width = 779
     ActivePage = TabSheet2
     Anchors = [akTop, akLeft, akRight]
     BorderSpacing.Right = 4
@@ -139,7 +139,7 @@ object Form10: TForm10
       AnchorSideBottom.Control = TabSheet4
       Caption = 'Ug-Ia characteristic'
       ClientHeight = 398
-      ClientWidth = 781
+      ClientWidth = 775
       object Bevel4: TBevel
         AnchorSideLeft.Control = TabSheet2
         AnchorSideTop.Control = TabSheet2
@@ -163,12 +163,12 @@ object Form10: TForm10
         AnchorSideRight.Side = asrBottom
         AnchorSideBottom.Control = Bevel4
         AnchorSideBottom.Side = asrBottom
-        Left = 6
-        Height = 385
-        Top = 6
-        Width = 514
+        Left = 5
+        Height = 387
+        Top = 5
+        Width = 516
         Anchors = [akTop, akLeft, akRight, akBottom]
-        BorderSpacing.Around = 2
+        BorderSpacing.Around = 1
         OnMouseDown = Image2MouseDown
         OnMouseMove = Image2MouseMove
       end
@@ -183,47 +183,68 @@ object Form10: TForm10
         Left = 526
         Height = 389
         Top = 4
-        Width = 255
+        Width = 245
         Anchors = [akTop, akLeft, akRight, akBottom]
         AutoFillColumns = True
+        BorderSpacing.Right = 4
         ColCount = 2
         Columns = <        
           item
+            Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ug [V]'
-            Width = 117
+            Width = 112
           end        
           item
+            Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 118
+            Width = 113
           end>
         FixedColor = 16771033
         FixedCols = 0
         Flat = True
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 255
         TabOrder = 0
+        OnEditingDone = StringGrid1EditingDone
         ColWidths = (
-          117
-          118
+          112
+          113
         )
       end
     end
     object TabSheet4: TTabSheet
       Caption = 'Ua-Ia characteristic'
       ClientHeight = 398
-      ClientWidth = 781
+      ClientWidth = 775
       object Bevel5: TBevel
-        Left = 8
-        Height = 389
-        Top = 8
+        AnchorSideLeft.Control = TabSheet4
+        AnchorSideTop.Control = TabSheet4
+        AnchorSideRight.Control = TabSheet4
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = TabSheet4
+        AnchorSideBottom.Side = asrBottom
+        Left = 4
+        Height = 390
+        Top = 4
         Width = 518
+        Anchors = [akTop, akLeft, akBottom]
+        BorderSpacing.Around = 4
       end
       object Image3: TImage
-        Left = 9
-        Height = 387
-        Top = 9
+        AnchorSideLeft.Control = Bevel5
+        AnchorSideTop.Control = Bevel5
+        AnchorSideRight.Control = Bevel5
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = Bevel5
+        AnchorSideBottom.Side = asrBottom
+        Left = 5
+        Height = 388
+        Top = 5
         Width = 516
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        BorderSpacing.Around = 1
         OnMouseDown = Image3MouseDown
         OnMouseMove = Image3MouseMove
       end
@@ -233,7 +254,7 @@ object Form10: TForm10
         Top = 533
         Width = 75
         Caption = '&Start'
-        TabOrder = 2
+        TabOrder = 1
       end
       object BitBtn7: TBitBtn
         Left = 368
@@ -241,61 +262,47 @@ object Form10: TForm10
         Top = 533
         Width = 75
         Caption = '&Clear'
-        OnClick = BitBtn7Click
-        TabOrder = 1
-      end
-      object Memo2: TMemo
-        Left = 16
-        Height = 115
-        Top = 120
-        Width = 516
-        Font.Color = clBlack
-        ParentFont = False
-        ReadOnly = True
-        ScrollBars = ssAutoBoth
         TabOrder = 0
-        WordWrap = False
       end
       object StringGrid2: TStringGrid
-        Left = 8
-        Height = 128
-        Top = 400
-        Width = 517
-        ColCount = 10
+        AnchorSideLeft.Control = Bevel5
+        AnchorSideLeft.Side = asrBottom
+        AnchorSideTop.Control = TabSheet4
+        AnchorSideRight.Control = TabSheet4
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = TabSheet4
+        AnchorSideBottom.Side = asrBottom
+        Left = 526
+        Height = 390
+        Top = 4
+        Width = 245
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        AutoFillColumns = True
+        BorderSpacing.Around = 4
+        ColCount = 2
         Columns = <        
           item
-            Title.Caption = 'Title'
+            Alignment = taRightJustify
+            Title.Alignment = taCenter
+            Title.Caption = 'Ua [V]'
+            Width = 112
           end        
           item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
+            Alignment = taRightJustify
+            Title.Alignment = taCenter
+            Title.Caption = 'Ia [mA]'
+            Width = 113
           end>
+        FixedColor = 16771033
         FixedCols = 0
+        Flat = True
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 255
-        TabOrder = 3
+        TabOrder = 2
+        ColWidths = (
+          112
+          113
+        )
       end
     end
   end
@@ -303,9 +310,11 @@ object Form10: TForm10
     Left = 0
     Height = 26
     Top = 0
-    Width = 789
+    Width = 783
     Caption = 'ToolBar1'
     Images = ImageList1
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 0
     object ToolButton1: TToolButton
       Left = 1
@@ -336,7 +345,7 @@ object Form10: TForm10
       OnClick = ToolButton4Click
     end
     object ToolButton6: TToolButton
-      Left = 98
+      Left = 144
       Top = 2
       Caption = 'ToolButton6'
       Down = True
@@ -345,7 +354,7 @@ object Form10: TForm10
       Style = tbsCheck
     end
     object ToolButton7: TToolButton
-      Left = 121
+      Left = 167
       Top = 2
       Caption = 'ToolButton7'
       Down = True
@@ -354,51 +363,64 @@ object Form10: TForm10
       Style = tbsCheck
     end
     object ToolButton8: TToolButton
-      Left = 93
+      Left = 139
       Top = 2
       Width = 5
       Caption = 'ToolButton8'
       Style = tbsDivider
     end
     object ToolButton9: TToolButton
-      Left = 144
+      Left = 190
       Top = 2
       Width = 5
       Caption = 'ToolButton9'
       Style = tbsDivider
     end
     object ToolButton10: TToolButton
-      Left = 149
+      Left = 218
       Top = 2
       Caption = 'ToolButton10'
       ImageIndex = 6
       OnClick = ToolButton10Click
     end
     object ToolButton11: TToolButton
-      Left = 172
+      Left = 195
       Top = 2
       Caption = 'ToolButton11'
       ImageIndex = 7
       OnClick = ToolButton11Click
     end
     object ToolButton12: TToolButton
-      Left = 195
+      Left = 241
       Top = 2
       Width = 5
       Caption = 'ToolButton12'
       Style = tbsDivider
     end
     object ToolButton13: TToolButton
-      Left = 200
+      Left = 246
       Top = 2
       Caption = 'ToolButton13'
+    end
+    object ToolButton5: TToolButton
+      Left = 93
+      Top = 2
+      Caption = 'ToolButton5'
+      ImageIndex = 8
+    end
+    object ToolButton14: TToolButton
+      Left = 116
+      Top = 2
+      Caption = 'ToolButton14'
+      ImageIndex = 9
+      OnClick = ToolButton14Click
     end
   end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 19
     Top = 457
-    Width = 789
+    Width = 783
     Panels = <    
       item
         Width = 30
@@ -412,7 +434,7 @@ object Form10: TForm10
     left = 112
     top = 280
     Bitmap = {
-      4C69080000001000000010000000FFFFFF00C17D4460C88B4DBBC88C4FEEC88C
+      4C690A0000001000000010000000FFFFFF00C17D4460C88B4DBBC88C4FEEC88C
       4FF6C88C4FF7C88C4FF7C88D4FF7C98C4FF7C78B4FF7C5894BD4C4763B91B368
       3C06FFFFFF00FFFFFF00FFFFFF00FFFFFF00C48549C3F7F2ECECF8F4EEFCF8F4
       EDFFF8F3EDFFF8F3EDFFF8F3EDFFF8F2ECFFF7F2ECFFF2E6D7FFE2B27DFFDB94
@@ -668,7 +690,71 @@ object Form10: TForm10
       FF00008B9C13008D9EE24FC3D2FD5BD3E1FF30B5C6FA0890A1F6008D9FA9008B
       9C14FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
       FF00FFFFFF00008B9C1F008C9DED008D9EEC008D9E9E008B9C21FFFFFF00FFFF
-      FF00FFFFFF00FFFFFF00FFFFFF00
+      FF00FFFFFF00FFFFFF00FFFFFF00DFB98DFFEBD3BAFFEBD3BAFFEBD2BAFFE9D2
+      BAFFE9D1BAFFE7D1BAFFE6D0BAFFE5CEBAFFE3CDBAFFE1CCB9FFE0CAB8FFDEC8
+      B7FFC39D7EFF0000000000000000ECD3BAFFF0D8A4FFF0D4A2FFEDCD99FFEBC5
+      8FFFE9BB85FFE6B37AFFE4AC72FFE3A86DFFE3A86DFFE3A86DFFE3A86DFFE2A3
+      64FFD7C1B0FF0000000000000000EBD3BAFFF1DAAAFFF1D6A8FFEED09FFFECC8
+      96FFEABF8CFFE8B882FFE6B17AFFE5AD75FFE5AD75FFE5AD75FFE5AD75FFE3A8
+      6DFFD7C0AFFF0000000000000000EAD1B8FFF7E9CEFFF7E6CCFFF6E3C8FFF5DF
+      C3FFF4DABEFFF3D7B9FFF2D3B5FFF1D1B3FFF2D1B3FFF2D1B2FFF2D1B1FFF1CF
+      AEFFD5BBAAFF0000000000000000E9D0B5FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF4
+      EEFFD2B8A5FF0000000000000000E8CFB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF2EAFFFEF3
+      ECFFD1B6A5FF0000000000000000E7CEB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFFF7F0FFFFF7F1FFFEF4ECFFFEF2EAFFFEF1E7FFFEF2
+      E9FFD0B5A4FF0000000000000000E6CDB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFFFBF8FF98B68FFF7DA877FFFEF2EAFFFEF1E7FFFEEFE4FFFEF0
+      E6FFCEB3A2FF0000000000000000E5CCB3FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFFF8F3FF609B5EFFA7E3B5FF7CA472FFFFF9F4FFFFF7F1FFFFF5EDFFFFF8
+      F1FFD8B6A9FF0000000000000000E4CBB2FFFEF8F3FFFEF6F0FFFFF7F1FFDDE2
+      D1FF509A56FFA3E7B0FF9FE8ACFF64B570FF4AA056FF489F55FF469D53FF449C
+      51FF459E53FE58A562FF005B0088E3CAB2FFFEF8F3FFFFF8F3FF9FBC97FF5EAB
+      69FFA9EFB6FF8AE397FF7FDD8CFF7EDA8CFF77D587FF6DCD7FFF63C676FF59BF
+      6DFF52B967FF8BD99FFF00560080E2C8B2FFFEF8F3FFFFF8F2FF9FBB96FF5EAB
+      69FFA9EFB6FF8AE296FF7DDB8BFF7BD88AFF74D284FF6ACB7CFF60C473FF56BC
+      6BFF4FB765FF8AD89EFF00560080E1C7B1FFFEF8F2FFFEF5EEFFFFF4EDFFDDDE
+      CCFF509A55FFA0E6AEFF9BE6A9FF62B46EFF489F55FF469E54FF439D52FF429B
+      4FFF439E52FE57A461FF00590088DFC7B0FFFEF7F1FFFEF4ECFFFEF2EAFFFEF1
+      E7FFFFF1E8FF5F985AFFA6E3B5FF7BA06BFFFFF0E5FFFFEFE3FFFFEDE0FFFFF1
+      E6FFD2B0A5FF0000000000000000DEC5AFFFFEF7F2FFFEF4EEFFFEF3ECFFFEF2
+      E9FFFEF0E6FFFFF4EDFF98B389FF7DA470FFFEECDEFFFEEADBFFFEE9DAFFFEEC
+      E0FFC6AB9DFF0000000000000000C8A283FFDAC0ADFFD9BFACFFD7BDAAFFD5BB
+      A9FFD3BAA8FFD2B8A7FFD2B7A7FFD1B6A7FFCDB3A4FFCCB2A3FFCBB1A2FFCAAF
+      A2FFA98371FF0000000000000000DFB98DFFEBD3BAFFEBD3BAFFEBD2BAFFE9D2
+      BAFFE9D1BAFFE7D1BAFFE6D0BAFFE5CEBAFFE3CDBAFFE1CCB9FFE0CAB8FFDEC8
+      B7FFC39D7EFF0000000000000000ECD3BAFFF0D8A4FFF0D4A2FFEDCD99FFEBC5
+      8FFFE9BB85FFE6B37AFFE4AC72FFE3A86DFFE3A86DFFE3A86DFFE3A86DFFE2A3
+      64FFD7C1B0FF0000000000000000EBD3BAFFF1DAAAFFF1D6A8FFEED09FFFECC8
+      96FFEABF8CFFE8B882FFE6B17AFFE5AD75FFE5AD75FFE5AD75FFE5AD75FFE3A8
+      6DFFD7C0AFFF0000000000000000EAD1B8FFF7E9CEFFF7E6CCFFF6E3C8FFF5DF
+      C3FFF4DABEFFF3D7B9FFF2D3B5FFF1D1B3FFF2D1B3FFF2D1B2FFF2D1B1FFF1CF
+      AEFFD5BBAAFF0000000000000000E9D0B5FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF4
+      EEFFD2B8A5FF0000000000000000E8CFB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF2EAFFFEF3
+      ECFFD1B6A5FF0000000000000000E7CEB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF2EAFFFFF5E8FFFEF1
+      E9FFD0B5A4FF0000000000000000E6CDB4FFFEF8F3FFFEF6F0FFFEF6F0FFFEF6
+      F0FFFEF6F0FFFEF6EFFFFEF5EEFFFEF4ECFFFEF2EAFFFFFBEAFF4A53BFFFF4E8
+      E4FFCEB3A2FF0000000000000000E5CCB3FFFEF8F3FFFEF6F0FFFDF5F0FFFFFF
+      F3FFFFFFF2FFFFFFF1FFFFFEEFFFFFFCECFFFFFBE9FFFFFFE9FF7B85D9FF858D
+      DAFF9F8997FF00000000828AEA00E4CBB2FFFEF8F3FFFEF6F0FFFFFFF3FF4652
+      C6FF6C76D7FF6871D6FF6871D7FF6871D7FF6871D7FF636ED6FF9298EBFF999F
+      F0FF8D97E4FF4D58C48600000000E3CAB2FFFEF8F3FFFEF6F0FFFFFFF2FF6C76
+      D7FF6369E6FF474DE0FF474EE0FF474EE0FF474DE0FF4C53E1FF545CE2FF6A72
+      E6FFA2A9F0FFCAD0F6FF535EC7C5E2C8B2FFFEF8F3FFFEF6EFFFFFFFF1FF6C76
+      D7FF6369E6FF474DE0FF474EE0FF474DE0FF4E54E1FF5F67E4FF6F77E7FF8890
+      EBFFB6BDF4FFCED5F6FF535EC7C5E1C7B1FFFEF8F2FFFEF5EEFFFFFFEFFF4652
+      C6FF6C76D8FF6871D7FF6871D7FF6873D8FF6C77D9FF6F7AD9FFB1B8F1FFC7CD
+      F8FF9DA7E7FF505BC58600000000DFC7B0FFFEF7F1FFFEF4ECFFFDF1EAFFFFFC
+      EAFFFFF9E7FFFFF7E3FFFFF6E1FFFFF4DEFFFFF2DAFFFFFBDAFF7F89DBFF8C94
+      DBFF9C8594FF00000000BEC8F400DEC5AFFFFEF7F2FFFEF4EEFFFEF3ECFFFEF2
+      E9FFFEF0E6FFFEEFE5FFFEEEE2FFFEECE0FFFEECDEFFFFF5DDFF4A52BEFFF4E4
+      DEFFC6AB9DFF0000000000000000C8A283FFDAC0ADFFD9BFACFFD7BDAAFFD5BB
+      A9FFD3BAA8FFD2B8A7FFD0B6A5FFCFB5A5FFCDB3A4FFCCB2A3FFCFB4A3FFC9AF
+      A2FFA98371FF0000000000000000
     }
   end
   object SaveDialog1: TSaveDialog
