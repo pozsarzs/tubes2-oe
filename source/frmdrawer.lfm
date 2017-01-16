@@ -1,12 +1,13 @@
 object Form10: TForm10
-  Left = 223
-  Height = 476
-  Top = 139
+  Left = 298
+  Height = 512
+  Top = 121
   Width = 783
   Caption = 'Characteristic drawer'
-  ClientHeight = 476
+  ClientHeight = 512
   ClientWidth = 783
-  Constraints.MaxHeight = 476
+  Constraints.MaxHeight = 512
+  Constraints.MinHeight = 512
   Icon.Data = {
     BE0C00000000010001002020000001001800A80C000016000000280000002000
     0000400000000100180000000000000C00006400000064000000000000000000
@@ -119,27 +120,26 @@ object Form10: TForm10
   LCLVersion = '1.2.4.0'
   object PageControl1: TPageControl
     AnchorSideLeft.Control = Owner
-    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Control = ComboBox1
     AnchorSideTop.Side = asrBottom
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
     Left = 0
-    Height = 427
-    Top = 26
-    Width = 779
+    Height = 429
+    Top = 61
+    Width = 783
     ActivePage = TabSheet2
     Anchors = [akTop, akLeft, akRight]
-    BorderSpacing.Right = 4
+    BorderSpacing.Top = 4
     TabIndex = 0
-    TabOrder = 1
+    TabOrder = 6
     OnChange = PageControl1Change
     object TabSheet2: TTabSheet
       AnchorSideBottom.Control = TabSheet4
       Caption = 'Ug-Ia characteristic'
-      ClientHeight = 398
-      ClientWidth = 775
+      ClientHeight = 400
+      ClientWidth = 779
       object Bevel4: TBevel
         AnchorSideLeft.Control = TabSheet2
         AnchorSideTop.Control = TabSheet2
@@ -169,6 +169,10 @@ object Form10: TForm10
         Width = 516
         Anchors = [akTop, akLeft, akRight, akBottom]
         BorderSpacing.Around = 1
+        Constraints.MaxHeight = 387
+        Constraints.MaxWidth = 516
+        Constraints.MinHeight = 387
+        Constraints.MinWidth = 516
         OnMouseDown = Image2MouseDown
         OnMouseMove = Image2MouseMove
       end
@@ -183,7 +187,7 @@ object Form10: TForm10
         Left = 526
         Height = 389
         Top = 4
-        Width = 245
+        Width = 249
         Anchors = [akTop, akLeft, akRight, akBottom]
         AutoEdit = False
         AutoFillColumns = True
@@ -193,14 +197,14 @@ object Form10: TForm10
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
-            Title.Caption = 'Ug [V]'
-            Width = 112
+            Title.Caption = '-Ug [V]'
+            Width = 114
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 113
+            Width = 115
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -210,15 +214,15 @@ object Form10: TForm10
         TabOrder = 0
         OnEditingDone = StringGrid1EditingDone
         ColWidths = (
-          112
-          113
+          114
+          115
         )
       end
     end
     object TabSheet4: TTabSheet
       Caption = 'Ua-Ia characteristic'
-      ClientHeight = 398
-      ClientWidth = 775
+      ClientHeight = 400
+      ClientWidth = 779
       object Bevel5: TBevel
         AnchorSideLeft.Control = TabSheet4
         AnchorSideTop.Control = TabSheet4
@@ -227,7 +231,7 @@ object Form10: TForm10
         AnchorSideBottom.Control = TabSheet4
         AnchorSideBottom.Side = asrBottom
         Left = 4
-        Height = 390
+        Height = 392
         Top = 4
         Width = 518
         Anchors = [akTop, akLeft, akBottom]
@@ -241,7 +245,7 @@ object Form10: TForm10
         AnchorSideBottom.Control = Bevel5
         AnchorSideBottom.Side = asrBottom
         Left = 5
-        Height = 388
+        Height = 390
         Top = 5
         Width = 516
         Anchors = [akTop, akLeft, akRight, akBottom]
@@ -274,9 +278,9 @@ object Form10: TForm10
         AnchorSideBottom.Control = TabSheet4
         AnchorSideBottom.Side = asrBottom
         Left = 526
-        Height = 390
+        Height = 392
         Top = 4
-        Width = 245
+        Width = 249
         Anchors = [akTop, akLeft, akRight, akBottom]
         AutoEdit = False
         AutoFillColumns = True
@@ -287,13 +291,13 @@ object Form10: TForm10
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ua [V]'
-            Width = 122
+            Width = 114
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 122
+            Width = 115
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -303,8 +307,8 @@ object Form10: TForm10
         TabOrder = 2
         OnEditingDone = StringGrid1EditingDone
         ColWidths = (
-          122
-          122
+          114
+          115
         )
       end
     end
@@ -423,7 +427,7 @@ object Form10: TForm10
   object StatusBar1: TStatusBar
     Left = 0
     Height = 19
-    Top = 457
+    Top = 493
     Width = 783
     Panels = <    
       item
@@ -433,6 +437,92 @@ object Form10: TForm10
         Width = 50
       end>
     SimplePanel = False
+  end
+  object ComboBox1: TComboBox
+    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    Left = 223
+    Height = 27
+    Top = 30
+    Width = 136
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object ComboBox2: TComboBox
+    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 363
+    Height = 27
+    Top = 30
+    Width = 136
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object ComboBox3: TComboBox
+    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox4
+    Left = 503
+    Height = 27
+    Top = 30
+    Width = 136
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object ComboBox4: TComboBox
+    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 643
+    Height = 27
+    Top = 30
+    Width = 136
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ToolBar1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    Left = 4
+    Height = 23
+    Top = 30
+    Width = 215
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 4
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
   end
   object ImageList1: TImageList
     left = 112

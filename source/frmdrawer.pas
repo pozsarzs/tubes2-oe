@@ -29,16 +29,22 @@ uses
   Controls, Graphics, Dialogs, Menus, ComCtrls, ExtCtrls, StdCtrls,
   Grids, Buttons, DOM, dos, GraphUtil, ExtDlgs, convert, process;
   type
-  t2crec=record
-    title.string;
+{  t2crec=record
+    title: string;
+    d1xres
 
-  end;
+  end;}
   { TForm10 }
   TForm10 = class(TForm)
     Bevel4: TBevel;
     Bevel5: TBevel;
     BitBtn7: TBitBtn;
     Button10: TButton;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    ComboBox3: TComboBox;
+    ComboBox4: TComboBox;
+    Edit1: TEdit;
     Image2: TImage;
     Image3: TImage;
     ImageList1: TImageList;
