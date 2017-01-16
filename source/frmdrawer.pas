@@ -324,9 +324,9 @@ procedure drawgraph1(xpix,ypix,a1,a2,a3,a4: single);
 var
   xx1, yy1, xx2, yy2: longint;
 begin
-  xx1:=trunc(a1/xpix)+8;
+  xx1:=508-trunc(a1/xpix);
   yy1:=trunc(((a2/ypix)-387)*-1)-8;
-  xx2:=trunc(a3/xpix)+8;
+  xx2:=508-trunc(a3/xpix);
   yy2:=trunc(((a4/ypix)-387)*-1)-8;
   Form10.Image2.Canvas.Pen.Color:=fg;
   Form10.Image2.Canvas.Pen.Width:=2;
@@ -353,6 +353,8 @@ begin
     if Form10.StringGrid1.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid1.Cells[1,line]);
     if Form10.StringGrid1.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid1.Cells[0,line+1]);
     if Form10.StringGrid1.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid1.Cells[1,line+1]);
+    if (p1=0) and (p2=0) then exit;
+    if (p3=0) and (p4=0) then exit;
     drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
   end;
   for line:=1 to 254 do
@@ -361,9 +363,10 @@ begin
     if Form10.StringGrid2.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid2.Cells[1,line]);
     if Form10.StringGrid2.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid2.Cells[0,line+1]);
     if Form10.StringGrid2.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid2.Cells[1,line+1]);
+    if (p1=0) and (p2=0) then exit;
+    if (p3=0) and (p4=0) then exit;
     drawgraph2(g2xpix,g2ypix,p1,p2,p3,p4);
   end;
-  exit;
 end;
 
 //-- ToolBar -------------------------------------------------------------------
@@ -401,7 +404,7 @@ begin
     then StringGrid1.Clean
     else StringGrid2.Clean;
   filename:=OpenDialog1.Filename;
-//  try
+  try
     assignfile(datafile,filename);
     reset(datafile);
     read(datafile,t2c);
@@ -417,9 +420,9 @@ begin
         StringGrid2.Cells[1,line]:=floattostr(g2y[line]);
       end;
     end;
-//  except
-//    showmessage(MESSAGE14);
-//  end;
+  except
+    showmessage(MESSAGE14);
+  end;
   unsaved:=false; unsavedsign;
 end;
 
@@ -458,7 +461,7 @@ begin
        then g2x[line]:=0
        else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
      if StringGrid2.Cells[1,line]=''
-       then g1y[line]:=0
+       then g2y[line]:=0
        else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
    end;
   end;
@@ -589,7 +592,7 @@ end;
 // start drawing
 procedure TForm10.ToolButton13Click(Sender: TObject);
 begin
-
+  writetodisplay;
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
