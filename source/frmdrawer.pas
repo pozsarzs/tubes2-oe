@@ -71,6 +71,7 @@ uses
     ToolButton7: TToolButton;
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
+    procedure ComboBox1Change(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -102,7 +103,7 @@ var
   b: byte;                                                       // general byte
   unsaved: boolean;                                               // data change
   fg, d1, d2, bg: TColor;                              // colors of the displays
-  g1xdiv, g1ydiv, g2xdiv, g2ydiv: integer;                       // graph. ?/div
+  g1xdiv, g1ydiv, g2xdiv, g2ydiv: single;                        // graph. ?/div
   g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
   grid, header: boolean;                                             //show/hide
   i: byte;                                                    // general integer
@@ -135,12 +136,18 @@ Resourcestring
   MESSAGE12='CSV files (*.csv)|*.csv|';
   MESSAGE13='Cannot write file!';
   MESSAGE14='Cannot read file!';
+  MESSAGE15='Subject or note';
+  MESSAGE16='Resolution of Ug/Ia diagram''s X axis';
+  MESSAGE17='Resolution of Ug/Ia diagram''s Y axis';
+  MESSAGE18='Resolution of Ua/Ia diagram''s X axis';
+  MESSAGE19='Resolution of Ua/Ia diagram''s Y axis';
+  MESSAGE20='X: -Ug1 ';
+  MESSAGE21='Y: Ia';
+  MESSAGE22='X: Ua';
+  MESSAGE23='Y: Ia';
+  MESSAGE24='resolution: ';
+  MESSAGE25='marker: ';
   {...}
-  MESSAGE35='Set aside...';
-  MESSAGE36='X: ';
-  MESSAGE37='Y: ';
-  MESSAGE38='resolution: ';
-  MESSAGE39='marker: ';
   MESSAGE40='Bipolar transistor input characteristic';
   MESSAGE41='Bipolar transistor output characteristic';
 
@@ -179,14 +186,12 @@ begin
       begin
         Canvas.Font.Size:=8;
         Canvas.Font.Color:=fg;
-        Canvas.TextOut(8,2,MESSAGE36);
-        Canvas.TextOut(8,14,MESSAGE37);
-        Canvas.TextOut(23,2,'Ube');
-        Canvas.TextOut(23,14,'Ib');
-        Canvas.TextOut(58,2,MESSAGE38+inttostr(g1xdiv)+' mV/div');
-        Canvas.TextOut(58,14,MESSAGE38+inttostr(g1ydiv)+' uA/div');
-        Canvas.TextOut(200,2, MESSAGE39+'- mV');
-        Canvas.TextOut(200,14, MESSAGE39+'- uA');
+        Canvas.TextOut(8,2,MESSAGE20);
+        Canvas.TextOut(8,14,MESSAGE21);
+        Canvas.TextOut(58,2,MESSAGE24+floattostr(g1xdiv)+' V/div');
+        Canvas.TextOut(58,14,MESSAGE24+floattostr(g1ydiv)+' mA/div');
+        Canvas.TextOut(200,2, MESSAGE25+'- V');
+        Canvas.TextOut(200,14, MESSAGE25+'- mA');
       end;
       if grid=true then
       begin
@@ -228,14 +233,12 @@ begin
       begin
         Canvas.Font.Size:=8;
         Canvas.Font.Color:=fg;
-        Canvas.TextOut(8,2,MESSAGE36);
-        Canvas.TextOut(8,14,MESSAGE37);
-        Canvas.TextOut(23,2,'Uce');
-        Canvas.TextOut(23,14,'Ic');
-        Canvas.TextOut(58,2,MESSAGE38+inttostr(g2xdiv)+' mV/div');
-        Canvas.TextOut(58,14,MESSAGE38+inttostr(g2ydiv)+' mA/div');
-        Canvas.TextOut(216,2, MESSAGE39+': - V');
-        Canvas.TextOut(216,14, MESSAGE39+': - mA');
+        Canvas.TextOut(8,2,MESSAGE22);
+        Canvas.TextOut(8,14,MESSAGE23);
+        Canvas.TextOut(58,2,MESSAGE24+floattostr(g2xdiv)+' V/div');
+        Canvas.TextOut(58,14,MESSAGE24+floattostr(g2ydiv)+' mA/div');
+        Canvas.TextOut(216,2, MESSAGE25+': - V');
+        Canvas.TextOut(216,14, MESSAGE25+': - mA');
       end;
       if grid=true then
       begin
@@ -540,6 +543,7 @@ end;
 // refresh all display;
 procedure TForm10.ToolButton10Click(Sender: TObject);
 begin
+  cleardisplay(9);
   writetodisplay;
 end;
 
@@ -566,15 +570,16 @@ begin
     begin
       if header=true then
       begin
-        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
-        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
+//        Canvas.TextOut(200,2, MESSAGE25+'-'+floattostr((x-8)*g1xpix)+' V');
+        Canvas.TextOut(200,14, MESSAGE25+floattostr((y-379)*(-1)*g1ypix)+' mA');
+        Canvas.TextOut(200,2, MESSAGE25+'-'+floattostr((508-x)*g1xpix)+' V');
       end;
     end else
     begin
      if header=true then
      begin
-       Canvas.TextOut(200,2, MESSAGE39+'- mV');
-       Canvas.TextOut(200,14, MESSAGE39+'- uA');
+       Canvas.TextOut(200,2, MESSAGE25+'- V');
+       Canvas.TextOut(200,14, MESSAGE25+'- mA');
      end;
     end;
   end;
@@ -604,15 +609,15 @@ begin
     begin
       if header=true then
       begin
-        Canvas.TextOut(200,2, MESSAGE39+floattostr((x-8)*g1xpix)+' mV');
-        Canvas.TextOut(200,14, MESSAGE39+floattostr((y-379)*(-1)*g1ypix)+' uA');
+        Canvas.TextOut(200,2, MESSAGE25+floattostr((x-8)*g2xpix)+' V');
+        Canvas.TextOut(200,14, MESSAGE25+floattostr((y-379)*(-1)*g2ypix)+' mA');
       end;
     end else
     begin
      if header=true then
      begin
-       Canvas.TextOut(200,2, MESSAGE39+'- mV');
-       Canvas.TextOut(200,14, MESSAGE39+'- uA');
+       Canvas.TextOut(200,2, MESSAGE25+'- V');
+       Canvas.TextOut(200,14, MESSAGE25+'- mA');
      end;
     end;
   end;
@@ -626,8 +631,45 @@ begin
   if PageControl1.ActivePageIndex=0
     then Caption:=MESSAGE01+' - '+TabSheet2.Caption
     else Caption:=MESSAGE01+' - '+TabSheet4.Caption;
+  cleardisplay(9);
+  writetodisplay;
 end;
 
+procedure TForm10.ComboBox1Change(Sender: TObject);
+begin
+  case ComboBox1.ItemIndex of
+    0: g1xdiv:=0.5;
+    1: g1xdiv:=1;
+    2: g1xdiv:=1.5;
+    3: g1xdiv:=2;
+    4: g1xdiv:=2.5;
+  end;
+  case ComboBox2.ItemIndex of
+    0: g1ydiv:=1;
+    1: g1ydiv:=10;
+    2: g1ydiv:=100;
+  end;
+  case ComboBox3.ItemIndex of
+    0: g2xdiv:=5;
+    1: g2xdiv:=10;
+    2: g2xdiv:=15;
+    3: g2xdiv:=20;
+    4: g2xdiv:=25;
+  end;
+  case ComboBox4.ItemIndex of
+    0: g2ydiv:=1;
+    1: g2ydiv:=10;
+    2: g2ydiv:=100;
+  end;
+  g1xpix:=g1xdiv/25;
+  g1ypix:=g1ydiv/25;
+  g2xpix:=g2xdiv/25;
+  g2ypix:=g2ydiv/25;
+  cleardisplay(9);
+  writetodisplay;
+end;
+
+// on editing done
 procedure TForm10.StringGrid1EditingDone(Sender: TObject);
 begin
   unsaved:=true; unsavedsign;
@@ -648,21 +690,18 @@ end;
 procedure TForm10.FormCreate(Sender: TObject);
 begin
   Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
+  ComboBox1.Hint:=MESSAGE16;
+  ComboBox2.Hint:=MESSAGE17;
+  ComboBox3.Hint:=MESSAGE18;
+  ComboBox4.Hint:=MESSAGE19;
+  Edit1.Hint:=MESSAGE15;
   ToolButton1.Hint:=MESSAGE02;
+  ToolButton14.Hint:=MESSAGE07;
   ToolButton2.Hint:=MESSAGE03;
   ToolButton3.Hint:=MESSAGE04;
   ToolButton4.Hint:=MESSAGE05;
   ToolButton5.Hint:=MESSAGE06;
-  ToolButton14.Hint:=MESSAGE07;
-  // default resolutions
-  g1xdiv:=100;       // x: 100mV/div
-  g1ydiv:=50;        // y: 50uA/div
-  g1xpix:=g1xdiv/25;
-  g1ypix:=g1ydiv/25;
-  g2xdiv:=1000;      // x: 1000mV/div
-  g2ydiv:=100;       // y: 100mA/div
-  g2xpix:=g2xdiv/25;
-  g2ypix:=g2ydiv/25;
+  ComboBox1Change(Sender);
 end;
 
 // on show event

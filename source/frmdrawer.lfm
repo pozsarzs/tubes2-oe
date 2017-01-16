@@ -137,7 +137,7 @@ object Form10: TForm10
     OnChange = PageControl1Change
     object TabSheet2: TTabSheet
       AnchorSideBottom.Control = TabSheet4
-      Caption = 'Ug-Ia characteristic'
+      Caption = 'Ug/Ia characteristic'
       ClientHeight = 400
       ClientWidth = 779
       object Bevel4: TBevel
@@ -220,7 +220,7 @@ object Form10: TForm10
       end
     end
     object TabSheet4: TTabSheet
-      Caption = 'Ua-Ia characteristic'
+      Caption = 'Ua/Ia characteristic'
       ClientHeight = 400
       ClientWidth = 779
       object Bevel5: TBevel
@@ -447,13 +447,24 @@ object Form10: TForm10
     Top = 30
     Width = 136
     Anchors = [akTop, akRight]
+    AutoSize = False
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '-10 V (0.5 V/div)'
+      '-20 V (1.0 V/div)'
+      '-30 V (1.5 V/div)'
+      '-40 V (2.0 V/div)'
+      '-50 V (2.5 V/div)'
+    )
+    OnChange = ComboBox1Change
     ParentShowHint = False
     ShowHint = True
     Style = csDropDownList
     TabOrder = 2
+    Text = '-10 V (0.5 V/div)'
   end
   object ComboBox2: TComboBox
     AnchorSideTop.Control = ToolBar1
@@ -464,13 +475,22 @@ object Form10: TForm10
     Top = 30
     Width = 136
     Anchors = [akTop, akRight]
+    AutoSize = False
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
+    ItemIndex = 1
+    Items.Strings = (
+      '14 mA (1 mA/div)'
+      '140 mA (10 mA/div)'
+      '1.4 A (100 mA/div)'
+    )
+    OnChange = ComboBox1Change
     ParentShowHint = False
     ShowHint = True
     Style = csDropDownList
     TabOrder = 3
+    Text = '140 mA (10 mA/div)'
   end
   object ComboBox3: TComboBox
     AnchorSideTop.Control = ToolBar1
@@ -481,13 +501,24 @@ object Form10: TForm10
     Top = 30
     Width = 136
     Anchors = [akTop, akRight]
+    AutoSize = False
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
+    ItemIndex = 2
+    Items.Strings = (
+      '100 V (5 V/div)'
+      '200 V (10 V/div)'
+      '300 V (15 V/div)'
+      '400 V (20 V/div)'
+      '500 V (25 V/div)'
+    )
+    OnChange = ComboBox1Change
     ParentShowHint = False
     ShowHint = True
     Style = csDropDownList
     TabOrder = 4
+    Text = '300 V (15 V/div)'
   end
   object ComboBox4: TComboBox
     AnchorSideTop.Control = ToolBar1
@@ -499,13 +530,22 @@ object Form10: TForm10
     Top = 30
     Width = 136
     Anchors = [akTop, akRight]
+    AutoSize = False
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
+    ItemIndex = 1
+    Items.Strings = (
+      '14 mA (1 mA/div)'
+      '140 mA (10 mA/div)'
+      '1.4 A (100 mA/div)'
+    )
+    OnChange = ComboBox1Change
     ParentShowHint = False
     ShowHint = True
     Style = csDropDownList
     TabOrder = 5
+    Text = '140 mA (10 mA/div)'
   end
   object Edit1: TEdit
     AnchorSideLeft.Control = Owner
