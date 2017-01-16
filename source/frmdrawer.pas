@@ -383,6 +383,7 @@ begin
   then
     if MessageDlg(MESSAGE08,mtConfirmation, [mbYes, mbNo],0)=mrNo
     then exit;
+  Edit1.Clear;
   StringGrid1.Clean;
   StringGrid2.Clean;
   cleardisplay(9);
@@ -393,6 +394,7 @@ end;
 procedure TForm10.ToolButton2Click(Sender: TObject);
 var
   filename: string;
+  line: byte;
 begin
   if unsaved
   then
@@ -404,16 +406,30 @@ begin
   OpenDialog1.FilterIndex:=0;
   if OpenDialog1.Execute=false then exit;
   cleardisplay(9);
-  unsaved:=false; unsavedsign;
   if PageControl1.ActivePageIndex=0
     then StringGrid1.Clean
     else StringGrid2.Clean;
   filename:=OpenDialog1.Filename;
-  try
-    // betöltés
-  except
-    showmessage(MESSAGE14);
-  end;
+//  try
+    assignfile(datafile,filename);
+    reset(datafile);
+    read(datafile,t2c);
+    closefile(datafile);
+    with t2c do
+    begin
+      Edit1.Text:=title;
+      for line:=1 to 255 do
+      begin
+        StringGrid1.Cells[0,line]:=floattostr(g1x[line]);
+        StringGrid1.Cells[1,line]:=floattostr(g1y[line]);
+        StringGrid2.Cells[0,line]:=floattostr(g2x[line]);
+        StringGrid2.Cells[1,line]:=floattostr(g2y[line]);
+      end;
+    end;
+//  except
+//    showmessage(MESSAGE14);
+//  end;
+  unsaved:=false; unsavedsign;
 end;
 
 // save project
@@ -441,14 +457,18 @@ begin
    title:=Edit1.Text;
    for line:=1 to 255 do
    begin
-     if StringGrid1.Cells[0,line]='' then StringGrid1.Cells[0,line]:='0';
-     if StringGrid1.Cells[1,line]='' then StringGrid1.Cells[1,line]:='0';
-     if StringGrid2.Cells[0,line]='' then StringGrid2.Cells[0,line]:='0';
-     if StringGrid2.Cells[1,line]='' then StringGrid2.Cells[1,line]:='0';
-     g1x[line]:=strtofloat(StringGrid1.Cells[0,line]);
-     g1y[line]:=strtofloat(StringGrid1.Cells[1,line]);
-     g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
-     g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
+     if StringGrid1.Cells[0,line]=''
+       then g1x[line]:=0
+       else g1x[line]:=strtofloat(StringGrid1.Cells[0,line]);
+     if StringGrid1.Cells[1,line]=''
+       then g1y[line]:=0
+       else g1y[line]:=strtofloat(StringGrid1.Cells[1,line]);
+     if StringGrid2.Cells[0,line]=''
+       then g2x[line]:=0
+       else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
+     if StringGrid2.Cells[1,line]=''
+       then g1y[line]:=0
+       else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
    end;
   end;
   try
