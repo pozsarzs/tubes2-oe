@@ -79,6 +79,7 @@ uses
     procedure ToolButton2Click(Sender: TObject);
     procedure ToolButton3Click(Sender: TObject);
     procedure ToolButton4Click(Sender: TObject);
+    procedure ToolButton5Click(Sender: TObject);
     procedure ToolButton6Click(Sender: TObject);
     procedure ToolButton7Click(Sender: TObject);
   private
@@ -110,10 +111,12 @@ Resourcestring
   MESSAGE07='Export actual table to CSV file';
   MESSAGE08='Are you sure? Project is not saved.';
   MESSAGE09='File is exist. Replace?';
+  MESSAGE10='Tubes2 characteristic data files (*.t2c)|*.t2c|';
+  MESSAGE11='Bitmap files (*.bmp)|*.bmp|';
+  MESSAGE12='CSV files (*.csv)|*.csv|';
   {...}
-  MESSAGE30='Bitmap files (*.bmp)|*.bmp|';
-  MESSAGE31='CSV files (*.csv)|*.csv|';
-  MESSAGE32='Cannot save this file!';
+  MESSAGE32='Cannot write file!';
+  MESSAGE33='Cannot read file!';
   {...}
   MESSAGE35='Set aside...';
   MESSAGE36='X: ';
@@ -122,8 +125,6 @@ Resourcestring
   MESSAGE39='marker: ';
   MESSAGE40='Bipolar transistor input characteristic';
   MESSAGE41='Bipolar transistor output characteristic';
-  MESSAGE42='new diagram';
-
 
 implementation
 uses frmmain;
@@ -136,7 +137,7 @@ procedure writetodisplay;forward;
 procedure unsavedsign;
 begin
   if unsaved
-  then Form10.StatusBar1.Panels.Items[0].Text:=' *'
+  then Form10.StatusBar1.Panels.Items[0].Text:='  *'
   else Form10.StatusBar1.Panels.Items[0].Text:='';
 end;
 
@@ -360,12 +361,111 @@ end;
 
 // open project
 procedure TForm10.ToolButton2Click(Sender: TObject);
+var
+  filename: string;
 begin
+  if unsaved
+  then
+    if MessageDlg(MESSAGE08,mtConfirmation, [mbYes, mbNo],0)=mrNo
+    then exit;
+  OpenDialog1.InitialDir:=userdir;
+  OpenDialog1.Title:=MESSAGE03;
+  OpenDialog1.Filter:=MESSAGE10;
+  OpenDialog1.FilterIndex:=0;
+  if OpenDialog1.Execute=false then exit;
+  cleardisplay(9);
+  unsaved:=false; unsavedsign;
+  if PageControl1.ActivePageIndex=0
+    then StringGrid1.Clean
+    else StringGrid2.Clean;
+  filename:=OpenDialog1.Filename;
+  try
+    // betöltés
+  except
+    showmessage(MESSAGE33);
+  end;
 end;
 
 // save project
+procedure TForm10.ToolButton3Click(Sender: TObject);
+var
+  filename: string;
+begin
+  SaveDialog1.InitialDir:=userdir;
+  SaveDialog1.Title:=MESSAGE04;
+  SaveDialog1.Filename:='noname.t2c';
+  SaveDialog1.Filter:=MESSAGE10;
+  SaveDialog1.FilterIndex:=0;
+  if SaveDialog1.Execute=false then exit;
+  filename:=SaveDialog1.Filename;
+  i:=length(filename);
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.t2c' then filename:=filename+'.t2c';
+  fsplit(filename,tdir,tname,textn);
+  if FSearch(tname+textn,tdir)<>'' then
+  if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
+  if length(filename)=0 then exit;
+  try
+    // mentés
+    unsaved:=false; unsavedsign;
+  except
+    showmessage(MESSAGE32);
+  end;
+end;
+
 // save actual image to BMP file
+procedure TForm10.ToolButton4Click(Sender: TObject);
+var
+  filename: string;
+begin
+  SaveDialog1.InitialDir:=userdir;
+  SaveDialog1.Title:=MESSAGE05;
+  SaveDialog1.Filename:='noname.bmp';
+  SaveDialog1.Filter:=MESSAGE11;
+  SaveDialog1.FilterIndex:=0;
+  if SaveDialog1.Execute=false then exit;
+  filename:=SaveDialog1.Filename;
+  i:=length(filename);
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.bmp' then filename:=filename+'.bmp';
+  fsplit(filename,tdir,tname,textn);
+  if FSearch(tname+textn,tdir)<>'' then
+  if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
+  if length(filename)=0 then exit;
+  try
+    if PageControl1.ActivePageIndex=0 then Image2.Picture.SaveToFile(filename);
+    if PageControl1.ActivePageIndex=1 then Image3.Picture.SaveToFile(filename);
+  except
+    showmessage(MESSAGE32);
+  end;
+end;
+
 // import actual table from CSV
+procedure TForm10.ToolButton5Click(Sender: TObject);
+var
+  filename: string;
+begin
+  if unsaved
+  then
+    if MessageDlg(MESSAGE08,mtConfirmation, [mbYes, mbNo],0)=mrNo
+    then exit;
+  OpenDialog1.InitialDir:=userdir;
+  OpenDialog1.Title:=MESSAGE07;
+  OpenDialog1.Filter:=MESSAGE12;
+  OpenDialog1.FilterIndex:=0;
+  if OpenDialog1.Execute=false then exit;
+  cleardisplay(9);
+  unsaved:=false; unsavedsign;
+  if PageControl1.ActivePageIndex=0
+    then StringGrid1.Clean
+    else StringGrid2.Clean;
+  filename:=OpenDialog1.Filename;
+  try
+    if PageControl1.ActivePageIndex=0
+      then StringGrid1.LoadFromCSVFile(filename)
+      else StringGrid2.LoadFromCSVFile(filename);
+  except
+    showmessage(MESSAGE33);
+  end;
+end;
 
 // export actual table to CSV
 procedure TForm10.ToolButton14Click(Sender: TObject);
@@ -373,21 +473,22 @@ var
   filename: string;
 begin
   SaveDialog1.InitialDir:=userdir;
-  SaveDialog1.Title:=MESSAGE29;
-  SaveDialog1.Filename:=MESSAGE42+'.txt';
-  SaveDialog1.Filter:=MESSAGE31;
+  SaveDialog1.Title:=MESSAGE07;
+  SaveDialog1.Filename:='noname.csv';
+  SaveDialog1.Filter:=MESSAGE12;
   SaveDialog1.FilterIndex:=0;
   if SaveDialog1.Execute=false then exit;
   filename:=SaveDialog1.Filename;
   i:=length(filename);
-  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.txt' then filename:=filename+'.txt';
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.csv' then filename:=filename+'.csv';
   fsplit(filename,tdir,tname,textn);
   if FSearch(tname+textn,tdir)<>'' then
   if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
   if length(filename)=0 then exit;
   try
- //   if PageControl1.ActivePageIndex=1 then Memo1.Lines.SaveToFile(filename);
-//    if PageControl1.ActivePageIndex=2 then Memo2.Lines.SaveToFile(filename);
+    if PageControl1.ActivePageIndex=0
+      then StringGrid1.SaveToCSVFile(filename)
+      else StringGrid2.SaveToCSVFile(filename);
   except
     showmessage(MESSAGE32);
   end;
@@ -421,38 +522,6 @@ end;
 procedure TForm10.ToolButton10Click(Sender: TObject);
 begin
   writetodisplay;
-end;
-
-//////
-// save as txt
-procedure TForm10.ToolButton3Click(Sender: TObject);
-begin
-end;
-
-// save as bmp
-procedure TForm10.ToolButton4Click(Sender: TObject);
-var
-  filename: string;
-begin
-  SaveDialog1.InitialDir:=userdir;
-  SaveDialog1.Title:=MESSAGE28;
-  SaveDialog1.Filename:=MESSAGE42+'.bmp';
-  SaveDialog1.Filter:=MESSAGE30;
-  SaveDialog1.FilterIndex:=0;
-  if SaveDialog1.Execute=false then exit;
-  filename:=SaveDialog1.Filename;
-  i:=length(filename);
-  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.bmp' then filename:=filename+'.bmp';
-  fsplit(filename,tdir,tname,textn);
-  if FSearch(tname+textn,tdir)<>'' then
-  if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
-  if length(filename)=0 then exit;
-  try
-    if PageControl1.ActivePageIndex=1 then Image2.Picture.SaveToFile(filename);
-    if PageControl1.ActivePageIndex=2 then Image3.Picture.SaveToFile(filename);
-  except
-    showmessage(MESSAGE32);
-  end;
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
@@ -535,7 +604,7 @@ end;
 // on change events
 procedure TForm10.PageControl1Change(Sender: TObject);
 begin
-  if PageControl1.ActivePageIndex=1
+  if PageControl1.ActivePageIndex=0
     then Caption:=MESSAGE01+' - '+TabSheet2.Caption
     else Caption:=MESSAGE01+' - '+TabSheet4.Caption;
 end;

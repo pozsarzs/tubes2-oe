@@ -185,6 +185,7 @@ object Form10: TForm10
         Top = 4
         Width = 245
         Anchors = [akTop, akLeft, akRight, akBottom]
+        AutoEdit = False
         AutoFillColumns = True
         BorderSpacing.Right = 4
         ColCount = 2
@@ -277,6 +278,7 @@ object Form10: TForm10
         Top = 4
         Width = 245
         Anchors = [akTop, akLeft, akRight, akBottom]
+        AutoEdit = False
         AutoFillColumns = True
         BorderSpacing.Around = 4
         ColCount = 2
@@ -285,13 +287,13 @@ object Form10: TForm10
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ua [V]'
-            Width = 112
+            Width = 122
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 113
+            Width = 122
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -299,9 +301,10 @@ object Form10: TForm10
         Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 255
         TabOrder = 2
+        OnEditingDone = StringGrid1EditingDone
         ColWidths = (
-          112
-          113
+          122
+          122
         )
       end
     end
@@ -407,6 +410,7 @@ object Form10: TForm10
       Top = 2
       Caption = 'ToolButton5'
       ImageIndex = 8
+      OnClick = ToolButton5Click
     end
     object ToolButton14: TToolButton
       Left = 116
