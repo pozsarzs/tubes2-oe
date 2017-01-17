@@ -1,7 +1,7 @@
 object Form10: TForm10
   Left = 239
   Height = 512
-  Top = 121
+  Top = 206
   Width = 783
   Caption = 'Characteristic drawer'
   ClientHeight = 512
@@ -243,6 +243,26 @@ object Form10: TForm10
           76
           77
         )
+      end
+      object StringGrid3: TStringGrid
+        Left = 256
+        Height = 364
+        Top = 16
+        Width = 192
+        ColCount = 2
+        Columns = <        
+          item
+            ReadOnly = False
+            Title.Caption = 'Title'
+          end        
+          item
+            ReadOnly = False
+            Title.Caption = 'Title'
+          end>
+        FixedCols = 0
+        RowCount = 256
+        TabOrder = 1
+        Visible = False
       end
     end
     object TabSheet4: TTabSheet

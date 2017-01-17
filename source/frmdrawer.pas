@@ -49,6 +49,7 @@ uses
     StatusBar1: TStatusBar;
     StringGrid1: TStringGrid;
     StringGrid2: TStringGrid;
+    StringGrid3: TStringGrid;
     TabSheet2: TTabSheet;
     TabSheet4: TTabSheet;
     ToolBar1: TToolBar;
@@ -205,6 +206,7 @@ begin
   end;
 end;
 
+// show/hide unsaved sign in statusbar
 procedure unsavedsign;
 begin
   if unsaved
@@ -357,6 +359,8 @@ procedure writetodisplay;
 var
   line: byte;
   p1, p2, p3, p4: single;
+  count: byte;
+  line3: byte;
 
 procedure drawgraph1(xpix,ypix,a1,a2,a3,a4: single);
 var
@@ -393,27 +397,46 @@ begin
 end;
 
 begin
-  for line:=1 to 254 do
+  // diagram #1
+  for count:=1 to 16 do
   begin
-    if (Form10.StringGrid1.Cells[0,line]='') or
-       (Form10.StringGrid1.Cells[1,line]='') or
-       (Form10.StringGrid1.Cells[0,line+1]='') or
-       (Form10.StringGrid1.Cells[1,line+1]='') then exit;
-    p1:=strtofloat(Form10.StringGrid1.Cells[0,line]);
-    p2:=strtofloat(Form10.StringGrid1.Cells[1,line]);
-    p3:=strtofloat(Form10.StringGrid1.Cells[0,line+1]);
-    p4:=strtofloat(Form10.StringGrid1.Cells[1,line+1]);
-    drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
+    line3:=1;
+    Form10.StringGrid3.Clear;
+    Form10.StringGrid3.RowCount:=256;
+    for line:=1 to 254 do
+      if Form10.StringGrid1.Cells[2,line]<>'' then
+        if Form10.StringGrid1.Cells[2,line]=inttostr(count) then
+        begin
+          Form10.StringGrid3.Cells[0,line3]:=Form10.StringGrid1.Cells[0,line];
+          Form10.StringGrid3.Cells[1,line3]:=Form10.StringGrid1.Cells[1,line];
+          line3:=line3+1;
+        end;
+    for line:=1 to 254 do
+    begin
+      if (Form10.StringGrid3.Cells[0,line]='') or
+         (Form10.StringGrid3.Cells[1,line]='') or
+         (Form10.StringGrid3.Cells[0,line+1]='') or
+         (Form10.StringGrid3.Cells[1,line+1]='') then exit;
+      p1:=strtofloat(Form10.StringGrid3.Cells[0,line]);
+      p2:=strtofloat(Form10.StringGrid3.Cells[1,line]);
+      p3:=strtofloat(Form10.StringGrid3.Cells[0,line+1]);
+      p4:=strtofloat(Form10.StringGrid3.Cells[1,line+1]);
+      drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
+    end;
   end;
+
+
   for line:=1 to 254 do
   begin
-    if Form10.StringGrid2.Cells[0,line]='' then p1:=0 else p1:=strtofloat(Form10.StringGrid2.Cells[0,line]);
-    if Form10.StringGrid2.Cells[1,line]='' then p2:=0 else p2:=strtofloat(Form10.StringGrid2.Cells[1,line]);
-    if Form10.StringGrid2.Cells[0,line+1]='' then p3:=0 else p3:=strtofloat(Form10.StringGrid2.Cells[0,line+1]);
-    if Form10.StringGrid2.Cells[1,line+1]='' then p4:=0 else p4:=strtofloat(Form10.StringGrid2.Cells[1,line+1]);
-    if (p1=0) and (p2=0) then exit;
-    if (p3=0) and (p4=0) then exit;
-    drawgraph2(g2xpix,g2ypix,p1,p2,p3,p4);
+    if (Form10.StringGrid2.Cells[0,line]='') or
+       (Form10.StringGrid2.Cells[1,line]='') or
+       (Form10.StringGrid2.Cells[0,line+1]='') or
+       (Form10.StringGrid2.Cells[1,line+1]='') then exit;
+    p1:=strtofloat(Form10.StringGrid2.Cells[0,line]);
+    p2:=strtofloat(Form10.StringGrid2.Cells[1,line]);
+    p3:=strtofloat(Form10.StringGrid2.Cells[0,line+1]);
+    p4:=strtofloat(Form10.StringGrid2.Cells[1,line+1]);
+    drawgraph2(g1xpix,g1ypix,p1,p2,p3,p4);
   end;
 end;
 
