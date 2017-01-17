@@ -67,6 +67,7 @@ uses
     ToolButton8: TToolButton;
     ToolButton9: TToolButton;
     procedure ComboBox1Change(Sender: TObject);
+    procedure Edit1Change(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -77,7 +78,12 @@ uses
       Shift: TShiftState; X, Y: Integer);
     procedure Image3MouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer);
     procedure PageControl1Change(Sender: TObject);
-    procedure StringGrid1EditingDone(Sender: TObject);
+    procedure StringGrid1Selection(Sender: TObject; aCol, aRow: Integer);
+    procedure StringGrid1SetEditText(Sender: TObject; ACol, ARow: Integer;
+      const Value: string);
+    procedure StringGrid2Selection(Sender: TObject; aCol, aRow: Integer);
+    procedure StringGrid2SetEditText(Sender: TObject; ACol, ARow: Integer;
+      const Value: string);
     procedure ToolButton10Click(Sender: TObject);
     procedure ToolButton11Click(Sender: TObject);
     procedure ToolButton13Click(Sender: TObject);
@@ -105,18 +111,19 @@ uses
 var
   Form10: TForm10;
   b: byte;                                                       // general byte
-  unsaved: boolean;                                               // data change
+  datafile: file of t2crec;                                          // t2c file
   fg, d1, d2, bg: TColor;                              // colors of the displays
+  filename: string;                                              // filename.t2c
   g1xdiv, g1ydiv, g2xdiv, g2ydiv: single;                        // graph. ?/div
   g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
   grid, header: boolean;                                             //show/hide
   i: byte;                                                    // general integer
+  initialvalue: string;                // value for detect change in stringgrids
   s: string;                                          // general string variable
   t: text;                                         // general text file variable
+  t2c: t2crec;                                                     // t2c record
   tdir,tname,textn: shortstring;
-  filename: string;                                              // filename.t2c
-  t2c: t2crec;
-  datafile: file of t2crec;
+  unsaved: boolean;                                               // data change
 const
   PAL: array [1..6,1..4] of string = (
                                 ('$000000','$999999','$CCCCCC','$FFFFFF'),
@@ -196,10 +203,10 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE20);
         Canvas.TextOut(8,14,MESSAGE21);
-        Canvas.TextOut(58,2,MESSAGE24+floattostrf(g1xdiv,ffFixed,20,2)+' V/div');
-        Canvas.TextOut(58,14,MESSAGE24+floattostrf(g1ydiv,ffFixed,20,2)+' mA/div');
-        Canvas.TextOut(200,2, MESSAGE25+'- V');
-        Canvas.TextOut(200,14, MESSAGE25+'- mA');
+        Canvas.TextOut(68,2,MESSAGE24+floattostrf(g1xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(68,14,MESSAGE24+floattostrf(g1ydiv,ffFixed,20,2)+' mA/div');
+        Canvas.TextOut(236,2, MESSAGE25+'- V');
+        Canvas.TextOut(236,14, MESSAGE25+'- mA');
       end;
       if grid=true then
       begin
@@ -243,10 +250,10 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE22);
         Canvas.TextOut(8,14,MESSAGE23);
-        Canvas.TextOut(58,2,MESSAGE24+floattostrf(g2xdiv,ffFixed,20,2)+' V/div');
-        Canvas.TextOut(58,14,MESSAGE24+floattostrf(g2ydiv,ffFixed,20,2)+' mA/div');
-        Canvas.TextOut(216,2, MESSAGE25+': - V');
-        Canvas.TextOut(216,14, MESSAGE25+': - mA');
+        Canvas.TextOut(68,2,MESSAGE24+floattostrf(g2xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(68,14,MESSAGE24+floattostrf(g2ydiv,ffFixed,20,2)+' mA/div');
+        Canvas.TextOut(236,2, MESSAGE25+'- V');
+        Canvas.TextOut(236,14, MESSAGE25+'- mA');
       end;
       if grid=true then
       begin
@@ -410,9 +417,9 @@ begin
   OpenDialog1.FilterIndex:=0;
   if OpenDialog1.Execute=false then exit;
   cleardisplay(9);
-  if PageControl1.ActivePageIndex=0
-    then StringGrid1.Clean
-    else StringGrid2.Clean;
+  Edit1.Clear;
+  StringGrid1.Clean;
+  StringGrid2.Clean;
   filename:=OpenDialog1.Filename;
   try
     assignfile(datafile,filename);
@@ -649,15 +656,15 @@ begin
       if header=true then
       begin
 //        Canvas.TextOut(200,2, MESSAGE25+'-'+floattostr((x-8)*g1xpix)+' V');
-        Canvas.TextOut(200,14, MESSAGE25+floattostr((y-379)*(-1)*g1ypix)+' mA');
-        Canvas.TextOut(200,2, MESSAGE25+'-'+floattostr((508-x)*g1xpix)+' V');
+        Canvas.TextOut(236,14, MESSAGE25+floattostrf((y-379)*(-1)*g1ypix,ffFixed,20,2)+' mA');
+        Canvas.TextOut(236,2, MESSAGE25+'-'+floattostrf((508-x)*g1xpix,ffFixed,20,2)+' V');
       end;
     end else
     begin
      if header=true then
      begin
-       Canvas.TextOut(200,2, MESSAGE25+'- V');
-       Canvas.TextOut(200,14, MESSAGE25+'- mA');
+       Canvas.TextOut(236,2, MESSAGE25+'- V');
+       Canvas.TextOut(236,14, MESSAGE25+'- mA');
      end;
     end;
   end;
@@ -687,15 +694,15 @@ begin
     begin
       if header=true then
       begin
-        Canvas.TextOut(200,2, MESSAGE25+floattostr((x-8)*g2xpix)+' V');
-        Canvas.TextOut(200,14, MESSAGE25+floattostr((y-379)*(-1)*g2ypix)+' mA');
+        Canvas.TextOut(236,2, MESSAGE25+floattostrf((x-8)*g2xpix,ffFixed,20,2)+' V');
+        Canvas.TextOut(236,14, MESSAGE25+floattostrf((y-379)*(-1)*g2ypix,ffFixed,20,2)+' mA');
       end;
     end else
     begin
      if header=true then
      begin
-       Canvas.TextOut(200,2, MESSAGE25+'- V');
-       Canvas.TextOut(200,14, MESSAGE25+'- mA');
+       Canvas.TextOut(236,2, MESSAGE25+'- V');
+       Canvas.TextOut(236,14, MESSAGE25+'- mA');
      end;
     end;
   end;
@@ -748,10 +755,35 @@ begin
   writetodisplay;
 end;
 
-// on editing done
-procedure TForm10.StringGrid1EditingDone(Sender: TObject);
+// check changes in stringgrids and edit
+procedure TForm10.Edit1Change(Sender: TObject);
 begin
-  unsaved:=true; unsavedsign;
+  unsaved:=true;
+  unsavedsign;
+end;
+
+procedure TForm10.StringGrid1Selection(Sender: TObject; aCol, aRow: Integer);
+begin
+  initialvalue:=StringGrid1.Cells[aCol,aRow];
+end;
+
+procedure TForm10.StringGrid1SetEditText(Sender: TObject; ACol, ARow: Integer;
+  const Value: string);
+begin
+  if value<>initialvalue then unsaved:=true;
+  unsavedsign;
+end;
+
+procedure TForm10.StringGrid2Selection(Sender: TObject; aCol, aRow: Integer);
+begin
+  initialvalue:=StringGrid2.Cells[aCol,aRow];
+end;
+
+procedure TForm10.StringGrid2SetEditText(Sender: TObject; ACol, ARow: Integer;
+  const Value: string);
+begin
+  if value<>initialvalue then unsaved:=true;
+  unsavedsign;
 end;
 
 // on close query
@@ -794,6 +826,7 @@ begin
   ToolButton6.Down:=grid;
   ToolButton7.Down:=header;
   PageControl1Change(Sender);
+  Edit1.Clear;
   StringGrid1.Clean;
   StringGrid2.Clean;
   setdisplaycolors;

@@ -1,5 +1,5 @@
 object Form10: TForm10
-  Left = 298
+  Left = 239
   Height = 512
   Top = 121
   Width = 783
@@ -212,7 +212,8 @@ object Form10: TForm10
         Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 256
         TabOrder = 0
-        OnEditingDone = StringGrid1EditingDone
+        OnSelection = StringGrid1Selection
+        OnSetEditText = StringGrid1SetEditText
         ColWidths = (
           114
           115
@@ -291,13 +292,13 @@ object Form10: TForm10
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ua [V]'
-            Width = 114
+            Width = 124
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 115
+            Width = 124
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -305,10 +306,11 @@ object Form10: TForm10
         Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 256
         TabOrder = 2
-        OnEditingDone = StringGrid1EditingDone
+        OnSelection = StringGrid2Selection
+        OnSetEditText = StringGrid2SetEditText
         ColWidths = (
-          114
-          115
+          124
+          124
         )
       end
     end
@@ -564,6 +566,7 @@ object Form10: TForm10
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     MaxLength = 255
+    OnChange = Edit1Change
     ParentShowHint = False
     ShowHint = True
     TabOrder = 1
