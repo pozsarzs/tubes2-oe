@@ -411,7 +411,6 @@ begin
           Form10.StringGrid3.Cells[1,line3]:=Form10.StringGrid1.Cells[1,line];
           line3:=line3+1;
         end;
-    writeln(count);
     for line:=1 to 254 do
     begin
       if not ((Form10.StringGrid3.Cells[0,line]='') or
@@ -427,18 +426,34 @@ begin
       end;
     end;
   end;
-
-  for line:=1 to 254 do
+  // diagram #2
+  for count:=1 to 16 do
   begin
-    if (Form10.StringGrid2.Cells[0,line]='') or
-       (Form10.StringGrid2.Cells[1,line]='') or
-       (Form10.StringGrid2.Cells[0,line+1]='') or
-       (Form10.StringGrid2.Cells[1,line+1]='') then exit;
-    p1:=strtofloat(Form10.StringGrid2.Cells[0,line]);
-    p2:=strtofloat(Form10.StringGrid2.Cells[1,line]);
-    p3:=strtofloat(Form10.StringGrid2.Cells[0,line+1]);
-    p4:=strtofloat(Form10.StringGrid2.Cells[1,line+1]);
-    drawgraph2(g1xpix,g1ypix,p1,p2,p3,p4);
+    line3:=1;
+    Form10.StringGrid3.Clear;
+    Form10.StringGrid3.RowCount:=256;
+    for line:=1 to 254 do
+      if Form10.StringGrid2.Cells[2,line]<>'' then
+        if Form10.StringGrid2.Cells[2,line]=inttostr(count) then
+        begin
+          Form10.StringGrid3.Cells[0,line3]:=Form10.StringGrid2.Cells[0,line];
+          Form10.StringGrid3.Cells[1,line3]:=Form10.StringGrid2.Cells[1,line];
+          line3:=line3+1;
+        end;
+    for line:=1 to 254 do
+    begin
+      if not ((Form10.StringGrid3.Cells[0,line]='') or
+              (Form10.StringGrid3.Cells[1,line]='') or
+              (Form10.StringGrid3.Cells[0,line+1]='') or
+              (Form10.StringGrid3.Cells[1,line+1]='')) then
+      begin
+        p1:=strtofloat(Form10.StringGrid3.Cells[0,line]);
+        p2:=strtofloat(Form10.StringGrid3.Cells[1,line]);
+        p3:=strtofloat(Form10.StringGrid3.Cells[0,line+1]);
+        p4:=strtofloat(Form10.StringGrid3.Cells[1,line+1]);
+        drawgraph2(g1xpix,g1ypix,p1,p2,p3,p4);
+      end;
+    end;
   end;
 end;
 

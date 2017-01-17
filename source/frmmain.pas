@@ -267,6 +267,10 @@ Resourcestring
   MESSAGE02='Base';
   MESSAGE03='Search selected type on internet';
   MESSAGE04='Type search';
+  MESSAGE05=' This is open source version of Tubes2 commercial software.  ';
+  MESSAGE06='Different between both software is database update rate only.';
+  MESSAGE07=' See Help for more information or order commercial version.  ';
+  MESSAGE08='             (This message will not show again.)             ';
   {...}
   MESSAGE10='Missing files! Please reinstall application.';
   MESSAGE11='Type';
@@ -1562,7 +1566,12 @@ begin
   end;
 
   // save default setting
-  if FSearch(frmconfig.INIFILE,userdir+DIR_CONFIG)='' then savedefaultsettings;
+  if FSearch(frmconfig.INIFILE,userdir+DIR_CONFIG)='' then
+  begin
+    savedefaultsettings;
+    showmessage(MESSAGE05+#13+MESSAGE06+#13+
+                MESSAGE07+#13+MESSAGE08+#13);
+  end;
 
   // load settings
   loadsettings;
