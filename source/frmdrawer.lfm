@@ -437,13 +437,6 @@ object Form10: TForm10
       Caption = 'ToolButton9'
       Style = tbsDivider
     end
-    object ToolButton10: TToolButton
-      Left = 218
-      Top = 2
-      Caption = 'ToolButton10'
-      ImageIndex = 6
-      OnClick = ToolButton10Click
-    end
     object ToolButton11: TToolButton
       Left = 195
       Top = 2
@@ -452,14 +445,14 @@ object Form10: TForm10
       OnClick = ToolButton11Click
     end
     object ToolButton12: TToolButton
-      Left = 241
+      Left = 218
       Top = 2
       Width = 5
       Caption = 'ToolButton12'
       Style = tbsDivider
     end
     object ToolButton13: TToolButton
-      Left = 246
+      Left = 223
       Top = 2
       Caption = 'ToolButton13'
       ImageIndex = 10

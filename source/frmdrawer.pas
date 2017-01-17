@@ -53,7 +53,6 @@ uses
     TabSheet4: TTabSheet;
     ToolBar1: TToolBar;
     ToolButton1: TToolButton;
-    ToolButton10: TToolButton;
     ToolButton11: TToolButton;
     ToolButton12: TToolButton;
     ToolButton13: TToolButton;
@@ -84,7 +83,6 @@ uses
     procedure StringGrid2Selection(Sender: TObject; aCol, aRow: Integer);
     procedure StringGrid2SetEditText(Sender: TObject; ACol, ARow: Integer;
       const Value: string);
-    procedure ToolButton10Click(Sender: TObject);
     procedure ToolButton11Click(Sender: TObject);
     procedure ToolButton13Click(Sender: TObject);
     procedure ToolButton14Click(Sender: TObject);
@@ -105,8 +103,10 @@ uses
     title: string[255];
     g1x: array[1..255] of single;
     g1y: array[1..255] of single;
+    g1z: array[1..255] of byte;
     g2x: array[1..255] of single;
     g2y: array[1..255] of single;
+    g2z: array[1..255] of byte;
   end;
 var
   Form10: TForm10;
@@ -163,10 +163,10 @@ Resourcestring
   MESSAGE26='Show/hide grid';
   MESSAGE27='Show/hide header';
   MESSAGE28='Clear all displays';
-  MESSAGE29='Refresh all displays';
+  MESSAGE29='Correct value is -9999..9999';
   MESSAGE30='Start drawing';
   MESSAGE31='This is not number!';
-  MESSAGE32='Correct value is 1-16!';
+  MESSAGE32='Correct value is 1..16!';
 
 implementation
 uses frmmain;
@@ -176,6 +176,35 @@ uses frmmain;
 procedure writetodisplay;forward;
 
 //-- other procedures #1 -------------------------------------------------------
+
+// check values
+function checkvalues(ac: integer; v: string): boolean;
+var
+  sl: single;
+begin
+  checkvalues:=true;
+  if v<>'' then
+  begin
+    try
+      sl:=strtofloat(v);
+    except
+      showmessage(MESSAGE31);
+      checkvalues:=false;
+      exit;
+    end;
+    if (ac=2) and ((sl<1) or (sl>16)) then
+    begin
+      showmessage(MESSAGE32);
+      checkvalues:=false;
+    end;
+    if ((ac=0) or (ac=1)) and ((sl<-9999) or (sl>9999)) then
+    begin
+      showmessage(MESSAGE29);
+      checkvalues:=false;
+    end;
+  end;
+end;
+
 procedure unsavedsign;
 begin
   if unsaved
@@ -439,18 +468,19 @@ begin
         if g1y[line]=999999
           then StringGrid1.Cells[1,line]:=''
           else StringGrid1.Cells[1,line]:=floattostrf(g1y[line],ffFixed,20,2);
+        if g1z[line]=99
+          then StringGrid1.Cells[2,line]:=''
+          else StringGrid1.Cells[2,line]:=floattostrf(g1z[line],ffFixed,20,0);
+
         if g2x[line]=999999
-            then StringGrid2.Cells[0,line]:=''
-            else
-              if g2x[line]=9999999
-                then StringGrid2.Cells[0,line]:='-'
-                else StringGrid2.Cells[0,line]:=floattostrf(g2x[line],ffFixed,20,2);
+          then StringGrid2.Cells[0,line]:=''
+          else StringGrid2.Cells[0,line]:=floattostrf(g2x[line],ffFixed,20,2);
         if g2y[line]=999999
-            then StringGrid2.Cells[1,line]:=''
-            else
-              if g2y[line]=9999999
-                then StringGrid2.Cells[1,line]:='-'
-                else StringGrid2.Cells[1,line]:=floattostrf(g2y[line],ffFixed,20,2);
+          then StringGrid2.Cells[1,line]:=''
+          else StringGrid2.Cells[1,line]:=floattostrf(g2y[line],ffFixed,20,2);
+        if g2z[line]=99
+          then StringGrid2.Cells[2,line]:=''
+          else StringGrid2.Cells[2,line]:=floattostrf(g2z[line],ffFixed,20,0);
       end;
     end;
   except
@@ -490,19 +520,20 @@ begin
      if StringGrid1.Cells[1,line]=''
        then g1y[line]:=999999
        else g1y[line]:=strtofloat(StringGrid1.Cells[1,line]);
+     if StringGrid1.Cells[2,line]=''
+       then g1z[line]:=99
+       else g1z[line]:=strtoint(StringGrid1.Cells[2,line]);
+
      if StringGrid2.Cells[0,line]=''
        then g2x[line]:=999999
-       else
-         if StringGrid2.Cells[0,line]='-'
-         then g2x[line]:=9999999
-         else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
+       else g2x[line]:=strtofloat(StringGrid2.Cells[0,line]);
      if StringGrid2.Cells[1,line]=''
        then g2y[line]:=999999
-       else
-         if StringGrid2.Cells[1,line]='-'
-           then g2y[line]:=9999999
-           else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
-   end;
+       else g2y[line]:=strtofloat(StringGrid2.Cells[1,line]);
+     if StringGrid2.Cells[2,line]=''
+       then g2z[line]:=99
+       else g2z[line]:=strtoint(StringGrid2.Cells[2,line]);
+    end;
   end;
   try
     assignfile(datafile,filename);
@@ -621,16 +652,10 @@ begin
   cleardisplay(9);
 end;
 
-// refresh all display;
-procedure TForm10.ToolButton10Click(Sender: TObject);
-begin
-  cleardisplay(9);
-  writetodisplay;
-end;
-
 // start drawing
 procedure TForm10.ToolButton13Click(Sender: TObject);
 begin
+  cleardisplay(9);
   writetodisplay;
 end;
 
@@ -771,26 +796,10 @@ end;
 
 procedure TForm10.StringGrid1SetEditText(Sender: TObject; ACol, ARow: Integer;
   const Value: string);
-var
-  sl: single;
 begin
   if value<>initialvalue then unsaved:=true;
   unsavedsign;
-  if value<>'' then
-  begin
-    try
-      sl:=strtofloat(value);
-    except
-      showmessage(MESSAGE31);
-      StringGrid1.Cells[aCol,aRow]:='';
-      exit;
-    end;
-    if (aCol=2) and ((sl<1) or (sl>16)) then
-    begin
-      showmessage(MESSAGE32);
-      StringGrid1.Cells[aCol,aRow]:='';
-    end;
-  end;
+  if not checkvalues(aCol,value) then StringGrid1.Cells[aCol,aRow]:='';
 end;
 
 procedure TForm10.StringGrid2Selection(Sender: TObject; aCol, aRow: Integer);
@@ -800,26 +809,10 @@ end;
 
 procedure TForm10.StringGrid2SetEditText(Sender: TObject; ACol, ARow: Integer;
   const Value: string);
-var
-  sl: single;
 begin
   if value<>initialvalue then unsaved:=true;
   unsavedsign;
-  if value<>'' then
-  begin
-    try
-      sl:=strtofloat(value);
-    except
-      showmessage(MESSAGE31);
-      StringGrid2.Cells[aCol,aRow]:='';
-      exit;
-    end;
-    if (aCol=2) and ((sl<1) or (sl>16)) then
-    begin
-      showmessage(MESSAGE32);
-      StringGrid2.Cells[aCol,aRow]:='';
-    end;
-  end;
+  if not checkvalues(aCol,value) then StringGrid2.Cells[aCol,aRow]:='';
 end;
 
 // on close query
@@ -843,7 +836,6 @@ begin
   ComboBox4.Hint:=MESSAGE19;
   Edit1.Hint:=MESSAGE15;
   ToolButton1.Hint:=MESSAGE02;
-  ToolButton10.Hint:=MESSAGE29;
   ToolButton11.Hint:=MESSAGE28;
   ToolButton13.Hint:=MESSAGE30;
   ToolButton14.Hint:=MESSAGE07;
