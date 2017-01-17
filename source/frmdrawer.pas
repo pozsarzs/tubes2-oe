@@ -411,20 +411,22 @@ begin
           Form10.StringGrid3.Cells[1,line3]:=Form10.StringGrid1.Cells[1,line];
           line3:=line3+1;
         end;
+    writeln(count);
     for line:=1 to 254 do
     begin
-      if (Form10.StringGrid3.Cells[0,line]='') or
-         (Form10.StringGrid3.Cells[1,line]='') or
-         (Form10.StringGrid3.Cells[0,line+1]='') or
-         (Form10.StringGrid3.Cells[1,line+1]='') then exit;
-      p1:=strtofloat(Form10.StringGrid3.Cells[0,line]);
-      p2:=strtofloat(Form10.StringGrid3.Cells[1,line]);
-      p3:=strtofloat(Form10.StringGrid3.Cells[0,line+1]);
-      p4:=strtofloat(Form10.StringGrid3.Cells[1,line+1]);
-      drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
+      if not ((Form10.StringGrid3.Cells[0,line]='') or
+              (Form10.StringGrid3.Cells[1,line]='') or
+              (Form10.StringGrid3.Cells[0,line+1]='') or
+              (Form10.StringGrid3.Cells[1,line+1]='')) then
+      begin
+        p1:=strtofloat(Form10.StringGrid3.Cells[0,line]);
+        p2:=strtofloat(Form10.StringGrid3.Cells[1,line]);
+        p3:=strtofloat(Form10.StringGrid3.Cells[0,line+1]);
+        p4:=strtofloat(Form10.StringGrid3.Cells[1,line+1]);
+        drawgraph1(g1xpix,g1ypix,p1,p2,p3,p4);
+      end;
     end;
   end;
-
 
   for line:=1 to 254 do
   begin

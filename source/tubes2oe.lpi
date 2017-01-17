@@ -99,7 +99,7 @@
         <UnitName Value="frmhelppic"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="194"/>
+        <UsageCount Value="193"/>
       </Unit3>
       <Unit4>
         <Filename Value="frmsort.pas"/>
@@ -133,7 +133,7 @@
         <UnitName Value="strconv"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="46"/>
       </Unit6>
       <Unit7>
         <Filename Value="frmparsearch.pas"/>
@@ -201,7 +201,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit11>
       <Unit12>
         <Filename Value="untstrconv.pas"/>
@@ -210,7 +210,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="7"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
@@ -218,7 +218,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="26"/>
         <CursorPos X="23" Y="40"/>
-        <UsageCount Value="15"/>
+        <UsageCount Value="14"/>
       </Unit13>
       <Unit14>
         <Filename Value="frmtester.pas"/>
@@ -229,7 +229,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="54"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="30"/>
       </Unit14>
       <Unit15>
         <Filename Value="frmdrawer.pas"/>
@@ -241,8 +241,8 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="404"/>
-        <CursorPos X="5" Y="427"/>
+        <TopLine Value="407"/>
+        <CursorPos X="1" Y="430"/>
         <UsageCount Value="98"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -268,7 +268,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="171"/>
         <CursorPos X="15" Y="185"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit17>
       <Unit18>
         <Filename Value="frmfirstrun.pas"/>
@@ -279,7 +279,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="14"/>
         <CursorPos X="1" Y="34"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="19"/>
       </Unit18>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
