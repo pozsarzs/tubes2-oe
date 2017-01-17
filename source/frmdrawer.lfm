@@ -189,22 +189,46 @@ object Form10: TForm10
         Top = 4
         Width = 249
         Anchors = [akTop, akLeft, akRight, akBottom]
-        AutoEdit = False
         AutoFillColumns = True
         BorderSpacing.Right = 4
-        ColCount = 2
+        ColCount = 3
         Columns = <        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = '-Ug [V]'
-            Width = 114
+            Width = 76
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 115
+            Width = 76
+          end        
+          item
+            Alignment = taCenter
+            ButtonStyle = cbsPickList
+            PickList.Strings = (
+              '1'
+              '2'
+              '3'
+              '4'
+              '5'
+              '6'
+              '7'
+              '8'
+              '9'
+              '10'
+              '11'
+              '12'
+              '13'
+              '14'
+              '15'
+              '16'
+            )
+            Title.Alignment = taCenter
+            Title.Caption = '#'
+            Width = 77
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -215,8 +239,9 @@ object Form10: TForm10
         OnSelection = StringGrid1Selection
         OnSetEditText = StringGrid1SetEditText
         ColWidths = (
-          114
-          115
+          76
+          76
+          77
         )
       end
     end
@@ -283,22 +308,48 @@ object Form10: TForm10
         Top = 4
         Width = 249
         Anchors = [akTop, akLeft, akRight, akBottom]
-        AutoEdit = False
         AutoFillColumns = True
         BorderSpacing.Around = 4
-        ColCount = 2
+        ColCount = 3
         Columns = <        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ua [V]'
-            Width = 124
+            Width = 76
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 124
+            Width = 76
+          end        
+          item
+            Alignment = taCenter
+            ButtonStyle = cbsPickList
+            MaxSize = 200
+            PickList.Strings = (
+              '1'
+              '2'
+              '3'
+              '4'
+              '5'
+              '6'
+              '7'
+              '8'
+              '9'
+              '10'
+              '11'
+              '12'
+              '13'
+              '14'
+              '15'
+              '16'
+            )
+            ReadOnly = False
+            Title.Alignment = taCenter
+            Title.Caption = '#'
+            Width = 77
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -309,8 +360,9 @@ object Form10: TForm10
         OnSelection = StringGrid2Selection
         OnSetEditText = StringGrid2SetEditText
         ColWidths = (
-          124
-          124
+          76
+          76
+          77
         )
       end
     end

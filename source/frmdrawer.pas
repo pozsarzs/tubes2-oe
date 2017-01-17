@@ -165,6 +165,8 @@ Resourcestring
   MESSAGE28='Clear all displays';
   MESSAGE29='Refresh all displays';
   MESSAGE30='Start drawing';
+  MESSAGE31='This is not number!';
+  MESSAGE32='Correct value is 1-16!';
 
 implementation
 uses frmmain;
@@ -769,9 +771,26 @@ end;
 
 procedure TForm10.StringGrid1SetEditText(Sender: TObject; ACol, ARow: Integer;
   const Value: string);
+var
+  sl: single;
 begin
   if value<>initialvalue then unsaved:=true;
   unsavedsign;
+  if value<>'' then
+  begin
+    try
+      sl:=strtofloat(value);
+    except
+      showmessage(MESSAGE31);
+      StringGrid1.Cells[aCol,aRow]:='';
+      exit;
+    end;
+    if (aCol=2) and ((sl<1) or (sl>16)) then
+    begin
+      showmessage(MESSAGE32);
+      StringGrid1.Cells[aCol,aRow]:='';
+    end;
+  end;
 end;
 
 procedure TForm10.StringGrid2Selection(Sender: TObject; aCol, aRow: Integer);
@@ -781,9 +800,26 @@ end;
 
 procedure TForm10.StringGrid2SetEditText(Sender: TObject; ACol, ARow: Integer;
   const Value: string);
+var
+  sl: single;
 begin
   if value<>initialvalue then unsaved:=true;
   unsavedsign;
+  if value<>'' then
+  begin
+    try
+      sl:=strtofloat(value);
+    except
+      showmessage(MESSAGE31);
+      StringGrid2.Cells[aCol,aRow]:='';
+      exit;
+    end;
+    if (aCol=2) and ((sl<1) or (sl>16)) then
+    begin
+      showmessage(MESSAGE32);
+      StringGrid2.Cells[aCol,aRow]:='';
+    end;
+  end;
 end;
 
 // on close query
