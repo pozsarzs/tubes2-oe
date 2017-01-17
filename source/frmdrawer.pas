@@ -798,9 +798,12 @@ begin
   end;
   case ComboBox2.ItemIndex of
     0: g1ydiv:=0.1;
-    1: g1ydiv:=1;
-    2: g1ydiv:=10;
-    3: g1ydiv:=100;
+    1: g1ydiv:=0.5;
+    2: g1ydiv:=1;
+    3: g1ydiv:=5;
+    4: g1ydiv:=10;
+    5: g1ydiv:=50;
+    6: g1ydiv:=100;
   end;
   case ComboBox3.ItemIndex of
     0: g2xdiv:=5;
@@ -811,9 +814,12 @@ begin
   end;
   case ComboBox4.ItemIndex of
     0: g2ydiv:=0.1;
-    1: g2ydiv:=1;
-    2: g2ydiv:=10;
-    3: g2ydiv:=100;
+    1: g2ydiv:=0.5;
+    2: g2ydiv:=1;
+    3: g2ydiv:=5;
+    4: g2ydiv:=10;
+    5: g2ydiv:=50;
+    6: g2ydiv:=100;
   end;
   g1xpix:=g1xdiv/25;
   g1ypix:=g1ydiv/25;

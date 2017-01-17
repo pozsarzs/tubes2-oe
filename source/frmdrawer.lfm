@@ -544,19 +544,23 @@ object Form10: TForm10
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
-    ItemIndex = 0
+    ItemIndex = 1
     Items.Strings = (
       '1.4 mA (0.1 mA/div)'
+      '7 mA (0.5 mA/div)'
       '14 mA (1 mA/div)'
+      '70 mA (5 mA/div)'
       '140 mA (10 mA/div)'
-      '1400 mA (100 mA/div)'
+      '700 mA (50 mA/div)'
+      '1.4 A (100 mA/div)'
+      ''
     )
     OnChange = ComboBox1Change
     ParentShowHint = False
     ShowHint = True
     Style = csDropDownList
     TabOrder = 3
-    Text = '1.4 mA (0.1 mA/div)'
+    Text = '7 mA (0.5 mA/div)'
   end
   object ComboBox3: TComboBox
     AnchorSideTop.Control = ToolBar1
@@ -600,11 +604,14 @@ object Form10: TForm10
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
-    ItemIndex = 0
+    ItemIndex = 1
     Items.Strings = (
       '1.4 mA (0.1 mA/div)'
+      '7 mA (0.5 mA/div)'
       '14 mA (1 mA/div)'
+      '70 mA (5 mA/div)'
       '140 mA (10 mA/div)'
+      '700 mA (50 mA/div)'
       '1.4 A (100 mA/div)'
     )
     OnChange = ComboBox1Change
@@ -612,7 +619,7 @@ object Form10: TForm10
     ShowHint = True
     Style = csDropDownList
     TabOrder = 5
-    Text = '1.4 mA (0.1 mA/div)'
+    Text = '7 mA (0.5 mA/div)'
   end
   object Edit1: TEdit
     AnchorSideLeft.Control = Owner
