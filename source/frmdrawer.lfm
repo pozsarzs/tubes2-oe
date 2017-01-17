@@ -252,11 +252,9 @@ object Form10: TForm10
         ColCount = 2
         Columns = <        
           item
-            ReadOnly = False
             Title.Caption = 'Title'
           end        
           item
-            ReadOnly = False
             Title.Caption = 'Title'
           end>
         FixedCols = 0
@@ -336,18 +334,17 @@ object Form10: TForm10
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ua [V]'
-            Width = 76
+            Width = 82
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
             Title.Caption = 'Ia [mA]'
-            Width = 76
+            Width = 82
           end        
           item
             Alignment = taCenter
             ButtonStyle = cbsPickList
-            MaxSize = 200
             PickList.Strings = (
               '1'
               '2'
@@ -366,10 +363,9 @@ object Form10: TForm10
               '15'
               '16'
             )
-            ReadOnly = False
             Title.Alignment = taCenter
             Title.Caption = '#'
-            Width = 77
+            Width = 84
           end>
         FixedColor = 16771033
         FixedCols = 0
@@ -380,9 +376,9 @@ object Form10: TForm10
         OnSelection = StringGrid2Selection
         OnSetEditText = StringGrid2SetEditText
         ColWidths = (
-          76
-          76
-          77
+          82
+          82
+          84
         )
       end
     end
@@ -604,8 +600,9 @@ object Form10: TForm10
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     ItemHeight = 0
-    ItemIndex = 1
+    ItemIndex = 0
     Items.Strings = (
+      '1.4 mA (0.1 mA/div)'
       '14 mA (1 mA/div)'
       '140 mA (10 mA/div)'
       '1.4 A (100 mA/div)'
@@ -615,7 +612,7 @@ object Form10: TForm10
     ShowHint = True
     Style = csDropDownList
     TabOrder = 5
-    Text = '140 mA (10 mA/div)'
+    Text = '1.4 mA (0.1 mA/div)'
   end
   object Edit1: TEdit
     AnchorSideLeft.Control = Owner

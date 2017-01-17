@@ -451,7 +451,7 @@ begin
         p2:=strtofloat(Form10.StringGrid3.Cells[1,line]);
         p3:=strtofloat(Form10.StringGrid3.Cells[0,line+1]);
         p4:=strtofloat(Form10.StringGrid3.Cells[1,line+1]);
-        drawgraph2(g1xpix,g1ypix,p1,p2,p3,p4);
+        drawgraph2(g2xpix,g2ypix,p1,p2,p3,p4);
       end;
     end;
   end;
@@ -810,9 +810,10 @@ begin
     4: g2xdiv:=25;
   end;
   case ComboBox4.ItemIndex of
-    0: g2ydiv:=1;
-    1: g2ydiv:=10;
-    2: g2ydiv:=100;
+    0: g2ydiv:=0.1;
+    1: g2ydiv:=1;
+    2: g2ydiv:=10;
+    3: g2ydiv:=100;
   end;
   g1xpix:=g1xdiv/25;
   g1ypix:=g1ydiv/25;
