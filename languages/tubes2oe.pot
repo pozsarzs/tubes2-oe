@@ -1,53 +1,29 @@
 #: frmabout.message01
-msgid "About"
-msgstr ""
-
-#: frmabout.message02
-msgid "&Close"
-msgstr ""
-
-#: frmabout.message03
-msgid "Electrontube catalogue"
-msgstr ""
-
-#: frmabout.message04
-msgid "Licence: GNU GPL 3.0 or later."
-msgstr ""
-
-#: frmabout.message05
 msgid "Sorry, there is off-line mode."
 msgstr ""
 
 #: frmconfig.message01
-msgid "Settings"
+msgid "black"
 msgstr ""
 
 #: frmconfig.message02
-msgid "Mailer application"
+msgid "blue"
 msgstr ""
 
 #: frmconfig.message03
-msgid "Browser application"
+msgid "green"
 msgstr ""
 
 #: frmconfig.message04
-msgid "Disable search new version on internet"
+msgid "red"
 msgstr ""
 
 #: frmconfig.message05
-msgid "Full off-line mode"
+msgid "white"
 msgstr ""
 
 #: frmconfig.message06
-msgid "Browse.."
-msgstr ""
-
-#: frmconfig.message07
-msgid "Save"
-msgstr ""
-
-#: frmconfig.message08
-msgid "Cancel"
+msgid "yellow"
 msgstr ""
 
 #: frmconfig.message09
@@ -66,12 +42,136 @@ msgstr ""
 msgid "all files|*.*"
 msgstr ""
 
-#: frmconfig.message13
-msgid "Default"
+#: frmdrawer.message01
+msgid "Characteristic drawer"
+msgstr ""
+
+#: frmdrawer.message02
+msgid "Create new project"
+msgstr ""
+
+#: frmdrawer.message03
+msgid "Load project"
+msgstr ""
+
+#: frmdrawer.message04
+msgid "Save project"
+msgstr ""
+
+#: frmdrawer.message05
+msgid "Save actual diplay to BMP file"
+msgstr ""
+
+#: frmdrawer.message06
+msgid "Import actual table from CSV file"
+msgstr ""
+
+#: frmdrawer.message07
+msgid "Export actual table to CSV file"
+msgstr ""
+
+#: frmdrawer.message08
+msgid "Are you sure? Project is not saved."
+msgstr ""
+
+#: frmdrawer.message09
+msgid "File is exist. Replace?"
+msgstr ""
+
+#: frmdrawer.message10
+msgid "Tubes2 characteristic data files (*.t2c)|*.t2c|"
+msgstr ""
+
+#: frmdrawer.message11
+msgid "Bitmap files (*.bmp)|*.bmp|"
+msgstr ""
+
+#: frmdrawer.message12
+msgid "CSV files (*.csv)|*.csv|"
+msgstr ""
+
+#: frmdrawer.message13
+msgid "Cannot write file!"
+msgstr ""
+
+#: frmdrawer.message14
+msgid "Cannot read file!"
+msgstr ""
+
+#: frmdrawer.message15
+msgid "Subject or note"
+msgstr ""
+
+#: frmdrawer.message16
+msgid "Resolution of Ug/Ia diagram's X axis"
+msgstr ""
+
+#: frmdrawer.message17
+msgid "Resolution of Ug/Ia diagram's Y axis"
+msgstr ""
+
+#: frmdrawer.message18
+msgid "Resolution of Ua/Ia diagram's X axis"
+msgstr ""
+
+#: frmdrawer.message19
+msgid "Resolution of Ua/Ia diagram's Y axis"
+msgstr ""
+
+#: frmdrawer.message20
+msgid "X: -Ug1 "
+msgstr ""
+
+#: frmdrawer.message21
+msgid "Y: Ia"
+msgstr ""
+
+#: frmdrawer.message22
+msgid "X: Ua"
+msgstr ""
+
+#: frmdrawer.message23
+msgid "Y: Ia"
+msgstr ""
+
+#: frmdrawer.message24
+msgid "resolution: "
+msgstr ""
+
+#: frmdrawer.message25
+msgid "marker: "
+msgstr ""
+
+#: frmdrawer.message26
+msgid "Show/hide grid"
+msgstr ""
+
+#: frmdrawer.message27
+msgid "Show/hide header"
+msgstr ""
+
+#: frmdrawer.message28
+msgid "Clear all displays"
+msgstr ""
+
+#: frmdrawer.message29
+msgid "Correct value is -9999..9999"
+msgstr ""
+
+#: frmdrawer.message30
+msgid "Start drawing"
+msgstr ""
+
+#: frmdrawer.message31
+msgid "This is not number!"
+msgstr ""
+
+#: frmdrawer.message32
+msgid "Correct value is 1..16!"
 msgstr ""
 
 #: frmmain.message01
-msgid "&File"
+msgid "Sort"
 msgstr ""
 
 #: frmmain.message02
@@ -79,7 +179,7 @@ msgid "Base"
 msgstr ""
 
 #: frmmain.message03
-msgid "&Save"
+msgid "Search selected type on internet"
 msgstr ""
 
 #: frmmain.message04
@@ -87,59 +187,27 @@ msgid "Type search"
 msgstr ""
 
 #: frmmain.message05
-msgid "&Quit"
+msgid " This is open source version of Tubes2 commercial software.  "
 msgstr ""
 
 #: frmmain.message06
-msgid "&Help"
+msgid "Different between both software is database update rate only."
 msgstr ""
 
 #: frmmain.message07
-msgid "Help co&ntent"
+msgid " See Help for more information or order commercial version.  "
 msgstr ""
 
 #: frmmain.message08
-msgid "&Image gallery"
-msgstr ""
-
-#: frmmain.message09
-msgid "&About"
+msgid "             (This message will not show again.)             "
 msgstr ""
 
 #: frmmain.message10
-msgid "Missing files! Please reinstall Tubes2 trial."
+msgid "Missing files! Please reinstall application."
 msgstr ""
 
 #: frmmain.message11
 msgid "Type"
-msgstr ""
-
-#: frmmain.message12
-msgid "&View"
-msgstr ""
-
-#: frmmain.message13
-msgid "Auto &fill"
-msgstr ""
-
-#: frmmain.message14
-msgid "Auto &column size"
-msgstr ""
-
-#: frmmain.message15
-msgid "&Search"
-msgstr ""
-
-#: frmmain.message16
-msgid "&Type search"
-msgstr ""
-
-#: frmmain.message17
-msgid "&Parameter search"
-msgstr ""
-
-#: frmmain.message18
-msgid "&Sort"
 msgstr ""
 
 #: frmmain.message19
@@ -195,7 +263,7 @@ msgid "Function"
 msgstr ""
 
 #: frmmain.message32
-msgid "&Upgrade database"
+msgid "Add selected type to bookmarks"
 msgstr ""
 
 #: frmmain.message33
@@ -215,11 +283,11 @@ msgid "Original size"
 msgstr ""
 
 #: frmmain.message37
-msgid "Copy pinout to clipboard"
+msgid "Characteristic drawer"
 msgstr ""
 
 #: frmmain.message38
-msgid "Copy description to clipboard"
+msgid "Type substitution"
 msgstr ""
 
 #: frmmain.message39
@@ -231,7 +299,7 @@ msgid "Description"
 msgstr ""
 
 #: frmmain.message41
-msgid "New version of Tubes2 trial is available."
+msgid "New version of Tubes2 Open edition is available."
 msgstr ""
 
 #: frmmain.message42
@@ -255,11 +323,11 @@ msgid "Parameter search"
 msgstr ""
 
 #: frmmain.message47
-msgid "&Get "
+msgid "Open manufacturer's website"
 msgstr ""
 
 #: frmmain.message48
-msgid "&Reporting a bug"
+msgid "Open manufacturer's datasheet"
 msgstr ""
 
 #: frmmain.message49
@@ -267,7 +335,7 @@ msgid "Categories of electrontubes"
 msgstr ""
 
 #: frmmain.message50
-msgid "Go!"
+msgid "Save datasheet in TXT or HTML format"
 msgstr ""
 
 #: frmmain.message51
@@ -275,7 +343,7 @@ msgid "Sorry, there is off-line mode."
 msgstr ""
 
 #: frmmain.message52
-msgid "Settin&gs"
+msgid "Tube designation systems"
 msgstr ""
 
 #: frmmain.message53
@@ -306,10 +374,6 @@ msgstr ""
 msgid "On-line pinout searcher"
 msgstr ""
 
-#: frmmain.message60
-msgid "New type re&quest"
-msgstr ""
-
 #: frmmain.message61
 msgid "Go to website"
 msgstr ""
@@ -326,24 +390,8 @@ msgstr ""
 msgid "File is not readable."
 msgstr ""
 
-#: frmmain.message65
-msgid "Pa&ckage information"
-msgstr ""
-
-#: frmmain.message66
-msgid "Li&cence"
-msgstr ""
-
 #: frmmain.message67
 msgid "Licence"
-msgstr ""
-
-#: frmmain.message68
-msgid "&Search in all category"
-msgstr ""
-
-#: frmmain.message69
-msgid "Ad"
 msgstr ""
 
 #: frmmain.message70
@@ -352,26 +400,6 @@ msgstr ""
 
 #: frmmain.message71
 msgid "Loading..."
-msgstr ""
-
-#: frmmain.message72
-msgid "&Go to homepage"
-msgstr ""
-
-#: frmmain.message73
-msgid "&Bookmarks"
-msgstr ""
-
-#: frmmain.message74
-msgid "&Show bookmarks"
-msgstr ""
-
-#: frmmain.message75
-msgid "&Add to bookmarks"
-msgstr ""
-
-#: frmmain.message76
-msgid "&Remove from bookmarks"
 msgstr ""
 
 #: frmmain.message77
@@ -407,95 +435,19 @@ msgid "http://pinout.pozsarzs.hu"
 msgstr ""
 
 #: frmmain.message85
-msgid "If you want to get all datapackage upgrade, use 'pro' version of Tubes2."
+msgid "Datasheet"
 msgstr ""
 
 #: frmmain.message86
-msgid "Visit our website to find out how to buy product key or require free key."
+msgid "Website"
 msgstr ""
 
 #: frmparsearch.message01
-msgid "Parameter search"
-msgstr ""
-
-#: frmparsearch.message02
-msgid "parameter/unit"
-msgstr ""
-
-#: frmparsearch.message03
-msgid "min."
-msgstr ""
-
-#: frmparsearch.message04
-msgid "max."
-msgstr ""
-
-#: frmparsearch.message05
-msgid "&Search"
-msgstr ""
-
-#: frmparsearch.message06
-msgid "&Close"
-msgstr ""
-
-#: frmparsearch.message07
-msgid "&Reset"
-msgstr ""
-
-#: frmparsearch.message08
-msgid "result list"
-msgstr ""
-
-#: frmparsearch.message09
 msgid "Not found!"
 msgstr ""
 
-#: frmparsearch.message10
-msgid "&Jump"
-msgstr ""
-
-#: frmsort.message01
-msgid "Base column"
-msgstr ""
-
-#: frmsort.message02
-msgid "&Start sort"
-msgstr ""
-
-#: frmsort.message03
-msgid "Sort"
-msgstr ""
-
-#: frmsort.message04
-msgid "&Close"
-msgstr ""
-
-#: frmtextview.message01
-msgid "&Close"
-msgstr ""
-
-#: frmupgrade.message01
-msgid "Upgrade database"
-msgstr ""
-
-#: frmupgrade.message02
-msgid "&Close"
-msgstr ""
-
-#: frmupgrade.message03
-msgid "&Browse"
-msgstr ""
-
-#: frmupgrade.message04
-msgid "&Download"
-msgstr ""
-
-#: frmupgrade.message05
-msgid "Install and upgrade from file"
-msgstr ""
-
-#: frmupgrade.message06
-msgid "Install and upgrade from internet"
+#: frmsubst.message01
+msgid "Not found."
 msgstr ""
 
 #: frmupgrade.message07
@@ -526,14 +478,6 @@ msgstr ""
 msgid "File read/write error!"
 msgstr ""
 
-#: frmupgrade.message14
-msgid "Remove all upgrade"
-msgstr ""
-
-#: frmupgrade.message15
-msgid "&Remove"
-msgstr ""
-
 #: frmupgrade.message16
 msgid "Remove error!"
 msgstr ""
@@ -544,5 +488,481 @@ msgstr ""
 
 #: frmupgrade.message18
 msgid "ZIP archives|*.zip|all files|*.*"
+msgstr ""
+
+#: tform1.menuitem1.caption
+msgid "&Search"
+msgstr ""
+
+#: tform1.menuitem11.caption
+msgid "&Type search.."
+msgstr ""
+
+#: tform1.menuitem12.caption
+msgid "&Save datasheet.."
+msgstr ""
+
+#: tform1.menuitem13.caption
+msgid "&Upgrade database.."
+msgstr ""
+
+#: tform1.menuitem14.caption
+msgid "Auto &column size"
+msgstr ""
+
+#: tform1.menuitem15.caption
+msgid "Settin&gs.."
+msgstr ""
+
+#: tform1.menuitem16.caption
+msgid "&Parameter search.."
+msgstr ""
+
+#: tform1.menuitem18.caption
+msgid "S&ort.."
+msgstr ""
+
+#: tform1.menuitem19.caption
+msgid "&Type search.."
+msgstr ""
+
+#: tform1.menuitem2.caption
+msgid "&File"
+msgstr ""
+
+#: tform1.menuitem20.caption
+msgid "&Copy pinout to clipboard"
+msgstr ""
+
+#: tform1.menuitem22.caption
+msgid "So&rt.."
+msgstr ""
+
+#: tform1.menuitem24.caption
+msgid "Auto &fill"
+msgstr ""
+
+#: tform1.menuitem25.caption
+msgid "Auto &column size"
+msgstr ""
+
+#: tform1.menuitem26.caption
+msgid "&Copy description to clipboard"
+msgstr ""
+
+#: tform1.menuitem28.caption
+msgid "Sho&w description"
+msgstr ""
+
+#: tform1.menuitem3.caption
+msgid "&Help"
+msgstr ""
+
+#: tform1.menuitem30.caption
+msgid "Show &description"
+msgstr ""
+
+#: tform1.menuitem31.caption
+msgid "&Reporting a bug"
+msgstr ""
+
+#: tform1.menuitem33.caption
+msgid "&Search in all categories.."
+msgstr ""
+
+#: tform1.menuitem34.caption
+msgid "&Tools"
+msgstr ""
+
+#: tform1.menuitem35.caption
+msgid "&Type Substitution"
+msgstr ""
+
+#: tform1.menuitem36.caption
+msgid "Tube desi&gnation systems"
+msgstr ""
+
+#: tform1.menuitem38.caption
+msgid "Search selected type on &internet"
+msgstr ""
+
+#: tform1.menuitem39.caption
+msgid "&Order commercial release"
+msgstr ""
+
+#: tform1.menuitem4.caption
+msgid "Help &content"
+msgstr ""
+
+#: tform1.menuitem40.caption
+msgid "Search selected type on &internet"
+msgstr ""
+
+#: tform1.menuitem41.caption
+msgid "&Characteristic drawer"
+msgstr ""
+
+#: tform1.menuitem44.caption
+msgid "Open manufacturer &website"
+msgstr ""
+
+#: tform1.menuitem46.caption
+msgid "&Quit"
+msgstr ""
+
+#: tform1.menuitem48.caption
+msgid "Sho&w lines"
+msgstr ""
+
+#: tform1.menuitem49.caption
+msgid "Show descri&ption"
+msgstr ""
+
+#: tform1.menuitem5.caption
+msgid "&Parameter search.."
+msgstr ""
+
+#: tform1.menuitem50.caption
+msgid "Sho&w lines"
+msgstr ""
+
+#: tform1.menuitem51.caption
+msgid "Open &datasheet on manufacturer website"
+msgstr ""
+
+#: tform1.menuitem57.caption
+msgid "&Search in all categories.."
+msgstr ""
+
+#: tform1.menuitem58.caption
+msgid "Brimar"
+msgstr ""
+
+#: tform1.menuitem59.caption
+msgid "CV (military)"
+msgstr ""
+
+#: tform1.menuitem60.caption
+msgid "&Package information"
+msgstr ""
+
+#: tform1.menuitem61.caption
+msgid "Li&cence"
+msgstr ""
+
+#: tform1.menuitem62.caption
+msgid "&Go to homepage"
+msgstr ""
+
+#: tform1.menuitem63.caption
+msgid "&Bookmarks"
+msgstr ""
+
+#: tform1.menuitem64.caption
+msgid "&Show bookmarks"
+msgstr ""
+
+#: tform1.menuitem65.caption
+msgid "&Remove from bookmarks"
+msgstr ""
+
+#: tform1.menuitem66.caption
+msgid "&Add selected type to bookmarks"
+msgstr ""
+
+#: tform1.menuitem68.caption
+msgid "&Add selected type to bookmarks"
+msgstr ""
+
+#: tform1.menuitem69.caption
+msgid "European (after 1934)"
+msgstr ""
+
+#: tform1.menuitem7.caption
+msgid "&About"
+msgstr ""
+
+#: tform1.menuitem70.caption
+msgid "Mazda"
+msgstr ""
+
+#: tform1.menuitem71.caption
+msgid "Philips"
+msgstr ""
+
+#: tform1.menuitem72.caption
+msgid "Soviet/Russian"
+msgstr ""
+
+#: tform1.menuitem73.caption
+msgid "USA"
+msgstr ""
+
+#: tform1.menuitem8.caption
+msgid "&View"
+msgstr ""
+
+#: tform1.menuitem9.caption
+msgid "Auto &fill"
+msgstr ""
+
+#: tform1.tabsheet1.caption
+msgid "Pinout"
+msgstr ""
+
+#: tform1.tabsheet2.caption
+msgid "Parameters"
+msgstr ""
+
+#: tform1.tabsheet4.caption
+msgid "Bookmarks"
+msgstr ""
+
+#: tform10.caption
+msgid "Characteristic drawer"
+msgstr ""
+
+#: tform10.combobox1.text
+msgid "-10 V (0.5 V/div)"
+msgstr ""
+
+#: tform10.combobox2.text
+msgid "7 mA (0.5 mA/div)"
+msgstr ""
+
+#: tform10.combobox3.text
+msgid "300 V (15 V/div)"
+msgstr ""
+
+#: tform10.combobox4.text
+msgid "7 mA (0.5 mA/div)"
+msgstr ""
+
+#: tform10.stringgrid1.columns[0].title.caption
+msgid "-Ug [V]"
+msgstr ""
+
+#: tform10.stringgrid1.columns[1].title.caption
+msgid "Ia [mA]"
+msgstr ""
+
+#: tform10.stringgrid2.columns[0].title.caption
+msgid "Ua [V]"
+msgstr ""
+
+#: tform10.stringgrid2.columns[1].title.caption
+msgid "Ia [mA]"
+msgstr ""
+
+#: tform10.tabsheet2.caption
+msgid "Ug/Ia characteristic"
+msgstr ""
+
+#: tform10.tabsheet4.caption
+msgid "Ua/Ia characteristic"
+msgstr ""
+
+#: tform11.caption
+msgid "Type substitution"
+msgstr ""
+
+#: tform11.radiobutton1.caption
+msgid "CV"
+msgstr ""
+
+#: tform11.radiobutton2.caption
+msgid "M2"
+msgstr ""
+
+#: tform11.radiobutton3.caption
+msgid "VT"
+msgstr ""
+
+#: tform2.button1.caption
+msgid "&Close"
+msgstr ""
+
+#: tform2.caption
+msgid "About"
+msgstr ""
+
+#: tform2.label2.caption
+msgid "Electrontube catalogue"
+msgstr ""
+
+#: tform2.label3.caption
+msgid "(C) 2008-2017 Pozsár Zsolt"
+msgstr ""
+
+#: tform2.label4.caption
+msgid "Licence: GNU GPL 3.0 or later."
+msgstr ""
+
+#: tform2.label5.caption
+msgid "pozsarzs@gmail.com"
+msgstr ""
+
+#: tform2.label6.caption
+msgid "http://www.pozsarzs.hu"
+msgstr ""
+
+#: tform2.label7.caption
+msgid "E-mail:"
+msgstr ""
+
+#: tform2.label8.caption
+msgid "Web:"
+msgstr ""
+
+#: tform3.button1.caption
+msgid "&Search"
+msgstr ""
+
+#: tform3.button2.caption
+msgid "&Close"
+msgstr ""
+
+#: tform3.button3.caption
+msgid "&Reset"
+msgstr ""
+
+#: tform3.button4.caption
+msgid "&Jump"
+msgstr ""
+
+#: tform3.caption
+msgid "Parameter search"
+msgstr ""
+
+#: tform3.label1.caption
+msgid "parameter/unit"
+msgstr ""
+
+#: tform3.label2.caption
+msgid "min."
+msgstr ""
+
+#: tform3.label3.caption
+msgid "max."
+msgstr ""
+
+#: tform3.label4.caption
+msgid "result list"
+msgstr ""
+
+#: tform5.button1.caption
+msgid "&Start sort"
+msgstr ""
+
+#: tform5.button2.caption
+msgid "&Close"
+msgstr ""
+
+#: tform5.caption
+msgid "Sort"
+msgstr ""
+
+#: tform5.label1.caption
+msgid "Base column"
+msgstr ""
+
+#: tform6.button1.caption
+msgid "&Browse.."
+msgstr ""
+
+#: tform6.button2.caption
+msgid "&Download"
+msgstr ""
+
+#: tform6.button3.caption
+msgid "&Close"
+msgstr ""
+
+#: tform6.button4.caption
+msgid "&Remove"
+msgstr ""
+
+#: tform6.caption
+msgid "Upgrade database"
+msgstr ""
+
+#: tform6.label1.caption
+msgid "Install and upgrade from file"
+msgstr ""
+
+#: tform6.label2.caption
+msgid "Install and upgrade from internet"
+msgstr ""
+
+#: tform6.label3.caption
+msgid "Remove all upgrade"
+msgstr ""
+
+#: tform7.button1.caption
+msgid "Browse.."
+msgstr ""
+
+#: tform7.button2.caption
+msgid "Browse.."
+msgstr ""
+
+#: tform7.button3.caption
+msgid "Save"
+msgstr ""
+
+#: tform7.button4.caption
+msgid "Cancel"
+msgstr ""
+
+#: tform7.button5.caption
+msgid "Default"
+msgstr ""
+
+#: tform7.caption
+msgid "Settings"
+msgstr ""
+
+#: tform7.checkbox1.caption
+msgid "Full off-line mode"
+msgstr ""
+
+#: tform7.checkbox2.caption
+msgid "Disable search new version on internet"
+msgstr ""
+
+#: tform7.label1.caption
+msgid "Browser application"
+msgstr ""
+
+#: tform7.label2.caption
+msgid "Mailer application"
+msgstr ""
+
+#: tform7.label3.caption
+msgid "Palette:"
+msgstr ""
+
+#: tform7.label4.caption
+msgid "URL"
+msgstr ""
+
+#: tform7.label6.caption
+msgid "Web searcher"
+msgstr ""
+
+#: tform7.tabsheet1.caption
+msgid "General"
+msgstr ""
+
+#: tform7.tabsheet2.caption
+msgid "Web search"
+msgstr ""
+
+#: tform7.tabsheet3.caption
+msgid "Display color"
+msgstr ""
+
+#: tform8.button1.caption
+msgid "&Close"
 msgstr ""
 
