@@ -13,22 +13,25 @@
 
  Licenc type:
                      Personal, for home use only
-                     [ ]  1 computer                                 2 750 HUF
+                     (The price includes a 10% discount.)
+                     [ ]  1 computer                                 5 400 HUF
 
                      For educational use
-                     [ ]  1 computer                                 2 500 HUF
-                     [ ]  2-5 computers                              5 000 HUF
-                     [ ]  5-.. computers                            12 500 HUF
+                     (The prices include 15% discount.)
+                     [ ]  1 computer                                 5 000 HUF
+                     [ ]  2-5 computers                             15 300 HUF
+                     [ ]  5-.. computers                            25 500 HUF
 
                      For non-profit use
-                     [ ]  1 computer                                 2 750 HUF
-                     [ ]  2-5 computers                              5 500 HUF
-                     [ ]  5-.. computers                            13 750 HUF
+                     (The prices include 10% discount.)
+                     [ ]  1 computer                                 5 400 HUF
+                     [ ]  2-5 computers                             16 200 HUF
+                     [ ]  5-.. computers                            27 000 HUF
 
                      For commercial use
-                     [ ]  1 computer                                 3 000 HUF
-                     [ ]  2-5 computers                              6 000 HUF
-                     [ ]  5-.. computers                            15 000 HUF
+                     [ ]  1 computer                                 6 000 HUF
+                     [ ]  2-5 computers                             18 000 HUF
+                     [ ]  5-.. computers                            30 000 HUF
 
  Do you want disc?   ( ) no                                              0 HUF
                      ( ) yes                     +packaging and shipping price

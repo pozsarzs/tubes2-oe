@@ -75,7 +75,7 @@
      <prmt>20</prmt>
      <prmt>?</prmt>
      <prmt>?</prmt>
-     <cpld>Uh=2.8V 0.025A; dióda: Ua=50V Ia=0.2mA [http://www.hup.hu][http://www.pozsarzs.hu]</cpld>
+     <cpld>Uh=2.8V 0.025A; dióda: Ua=50V Ia=0.2mA</cpld>
   </component>
   <component>
      <cpnm>-</cpnm>

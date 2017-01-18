@@ -7,6 +7,7 @@ tartalmazza az elektroncsövek csőfej típusát, csőfejbekötését és fontos
 adatait. Mindkét változat alap adatbázisa 4147 elektroncső adatait tartalmazza.
 Az alkalmazás on-line módban tájékoztat az elérhető frissítésekről (kivéve a
 DOS-os változat, amely külső parancsfájl segítségével frissíthető).
+  Az alkalmazás tartalmaz egy jelleggörbe rajzoló segédeszközt is.
 
   Operációs rendszerek: DOS (CUI változat), FreeBSD, Linux és Windows.
   Nyelvi támogatás: angol és magyar.

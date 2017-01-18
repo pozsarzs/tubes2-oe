@@ -5,9 +5,9 @@
 # | Makefile for documents                                                     |
 # +----------------------------------------------------------------------------+
 
-include ../Makefile.global
+include ../../Makefile.global
 
-docfiles= `ls | grep -v Makefile | grep -v ?? | grep -v sample`
+docfiles= `ls | grep -v Makefile | grep -v ??`
 lang=
 
 all:
@@ -16,17 +16,17 @@ clean:
 
 install:
 	@echo -n "- Installing document files..."
-	@$(install) -d $(datarootdir)/doc/$(name)/$(lang)
+	@$(install) -d $(datarootdir)/doc/$(name)/sample
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(install) -m $(txtmode) $$x $(datarootdir)/doc/$(name)/$(lang); fi; \
+	  if [ -e $$x ]; then $(install) -m $(txtmode) $$x $(datarootdir)/doc/$(name)/sample; fi; \
 	done
 	@echo "done."
 
 uninstall:
 	@echo -n "- Removing document files..."
 	@for x in $(docfiles); do \
-	  if [ -e $$x ]; then $(rm) $(datarootdir)/doc/$(name)/$(lang)/$$x; fi; \
+	  if [ -e $$x ]; then $(rm) $(datarootdir)/doc/$(name)/sample/$$x; fi; \
 	done
-	@rmdir $(datarootdir)/doc/$(name)/$(lang)
+	@rmdir $(datarootdir)/doc/$(name)/sample
 	@echo "done."
 

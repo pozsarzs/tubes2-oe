@@ -10,23 +10,26 @@
                      [ ]  GNU/Linux: ..........................................
                      [ ]  Windows: ............................................
 
- Licenc típus:       Magáncélú, otthoni felhasználásra
-                     [ ]  1 számítógépre                              2 750 HUF
+ Licenc típus:       Otthoni felhasználásra
+                     (az ár 10% kedvezményt tartalmaz)
+                     [ ]  1 számítógépre                              5 400 HUF
 
                      Oktatási intézmény részére
-                     [ ]  1 számítógépre                              2 500 HUF
-                     [ ]  2-5 számítógépre                            5 000 HUF
-                     [ ]  5-.. számítógépre                          12 500 HUF
+                     (az árak 15% kedvezményt tartalmaznak)
+                     [ ]  1 számítógépre                              5 000 HUF
+                     [ ]  2-5 számítógépre                           15 300 HUF
+                     [ ]  5-.. számítógépre                          25 500 HUF
 
                      Non-profit szervezet részére
-                     [ ]  1 számítógépre                              2 750 HUF
-                     [ ]  2-5 számítógépre                            5 500 HUF
-                     [ ]  5-.. számítógépre                          13 750 HUF
+                     (az árak 10% kedvezményt tartalmaznak)
+                     [ ]  1 számítógépre                              5 500 HUF
+                     [ ]  2-5 számítógépre                           16 200 HUF
+                     [ ]  5-.. számítógépre                          27 000 HUF
 
                      Üzleti használatra
-                     [ ]  1 számítógépre                              3 000 HUF
-                     [ ]  2-5 számítógépre                            6 000 HUF
-                     [ ]  5-.. számítógépre                          15 000 HUF
+                     [ ]  1 számítógépre                              6 000 HUF
+                     [ ]  2-5 számítógépre                           18 000 HUF
+                     [ ]  5-.. számítógépre                          30 000 HUF
 
  Kér-e adathordozót? ( )  nem                                             0 HUF
                      ( )  igen                     +csomagolási és postaköltség

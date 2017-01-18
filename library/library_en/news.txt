@@ -1,4 +1,4 @@
-Datapackage for Tubes2 Open edition (xedf/v160501-en)
+Datapackage for Tubes2 Open edition (xedf/v170131-en)
 
 4147 different type in this categories:
   Cathode ray tube (for oscilloscope)

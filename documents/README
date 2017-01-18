@@ -6,6 +6,7 @@ I. About software
 and some parameters of components. The base database of both applications
 contains 4147 electrontube data. In on-line mode, Tubes2 notifies about
 available updates (except DOS version, this uses a batch file update).
+  Application contains tube characteristic drawer tool.
 
   OS support: DOS (CUI version), FreeBSD, Linux and Windows.
   Language support: English and Hungarian.
