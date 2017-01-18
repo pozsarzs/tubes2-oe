@@ -114,7 +114,6 @@ var
   b: byte;                                                       // general byte
   datafile: file of t2crec;                                          // t2c file
   fg, d1, d2, bg: TColor;                              // colors of the displays
-  filename: string;                                              // filename.t2c
   g1xdiv, g1ydiv, g2xdiv, g2ydiv: single;                        // graph. ?/div
   g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
   grid, header: boolean;                                             //show/hide
@@ -126,6 +125,7 @@ var
   tdir,tname,textn: shortstring;
   unsaved: boolean;                                               // data change
 const
+  NNF: string='noname.t2c';                         // default project file name
   PAL: array [1..6,1..4] of string = (
                                 ('$000000','$999999','$CCCCCC','$FFFFFF'),
                                 ('$75DDFF','$5EB1CC','$468599','$000052'),
@@ -467,8 +467,11 @@ begin
     then exit;
   Edit1.Clear;
   StringGrid1.Clean;
+  StringGrid1.RowCount:=256;
   StringGrid2.Clean;
+  StringGrid2.RowCount:=256;
   cleardisplay(9);
+  StatusBar1.Panels.Items[1].Text:=' '+NNF;
   unsaved:=false; unsavedsign;
 end;
 
@@ -490,7 +493,9 @@ begin
   cleardisplay(9);
   Edit1.Clear;
   StringGrid1.Clean;
+  StringGrid1.RowCount:=256;
   StringGrid2.Clean;
+  StringGrid2.RowCount:=256;
   filename:=OpenDialog1.Filename;
   try
     assignfile(datafile,filename);
@@ -525,7 +530,9 @@ begin
     end;
   except
     showmessage(MESSAGE14);
+    StatusBar1.Panels.Items[1].Text:=' '+NNF;
   end;
+  StatusBar1.Panels.Items[1].Text:=' '+filename;
   unsaved:=false; unsavedsign;
 end;
 
@@ -537,7 +544,7 @@ var
 begin
   SaveDialog1.InitialDir:=userdir;
   SaveDialog1.Title:=MESSAGE04;
-  SaveDialog1.Filename:='noname.t2c';
+  SaveDialog1.Filename:=StatusBar1.Panels.Items[1].Text;
   SaveDialog1.Filter:=MESSAGE10;
   SaveDialog1.FilterIndex:=0;
   if SaveDialog1.Execute=false then exit;
@@ -903,8 +910,11 @@ begin
   PageControl1Change(Sender);
   Edit1.Clear;
   StringGrid1.Clean;
+  StringGrid1.RowCount:=256;
   StringGrid2.Clean;
+  StringGrid2.RowCount:=256;
   setdisplaycolors;
+  StatusBar1.Panels.Items[1].Text:=' '+NNF;
   unsaved:=false; unsavedsign;
 end;
 

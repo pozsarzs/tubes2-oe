@@ -221,35 +221,35 @@ var
   tf: textfile;                                              // general textfile
   xmlfile: textfile;
   // settings
-  lang: string[2];                                                   // language
+  cmdpnocheckupdate: boolean;                                // no check upgrade
+  cmdpoffline: boolean;                                  // computer is off-line
   datafileversion: string;                            // version of the database
   dbln: string;                                          // language of database
-  cmdpoffline: boolean;                                  // computer is off-line
-  cmdpnocheckupdate: boolean;                                // no check upgrade
-  offline: boolean;                                      // computer is off-line
-  nocheckupdate: boolean;                                    // no check upgrade
   displaycolors: byte;                                        // display colours
+  lang: string[2];                                                   // language
+  nocheckupdate: boolean;                                    // no check upgrade
+  offline: boolean;                                      // computer is off-line
   // data
+  compnumall, compnumcat: integer;                        // components' numbers
+  cpld: array[1..800] of widestring;                         // long description
   cpnm,cppn: array of string;                              // name and pin-names
+  cpwd: array[1..800] of widestring;                         // datasheet on web
+  cpws: array[1..800] of widestring;                                  // website
   nodatabase: boolean;                                  // there is not database
   pinout: array[1..800] of widestring;                                 // pinout
-  cpld: array[1..800] of widestring;                         // long description
-  cpws: array[1..800] of widestring;                                  // website
-  cpwd: array[1..800] of widestring;                         // datasheet on web
-  thereisnewversion: boolean;    // it's true if there's new version on internet
-  xedfname, xedfdscr: array[1..64] of string;           //xedf filename and desc
-  compnumall, compnumcat: integer;                        // components' numbers
   sponsors: array[0..1,0..63] of string;         // sponsors name and webaddress
   substdata: array[1..5000,1..2] of string[16];                     // type list
+  thereisnewversion: boolean;    // it's true if there's new version on internet
+  xedfname, xedfdscr: array[1..64] of string;           //xedf filename and desc
   // paths, files
-  xedfpath: string;                                        // path of xedf files
-  picspath: string;                                     // path of base pictures
-  exepath, p: shortstring;                                 // path of executable
-  userdir: string;                                   // directory of actual user
-  copyfile: string;                                              // copying file
-  helpfile: string;                                                 // help file
   browserprogramme: string;                       // browser programme with path
+  copyfile: string;                                              // copying file
+  exepath, p: shortstring;                                 // path of executable
+  helpfile: string;                                                 // help file
   mailerprogramme: string;                         // mailer programme with path
+  picspath: string;                                     // path of base pictures
+  userdir: string;                                   // directory of actual user
+  xedfpath: string;                                        // path of xedf files
   //urls
   checkupdateurl: string;                                          // update url
   websearchurl: string;                                         // websearch url
