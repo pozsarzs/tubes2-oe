@@ -43,6 +43,14 @@ install:
 	    mv $(mandir)/$$x/man5/cxedf_$$x.5 $(mandir)/$$x/man5/cxedf.5 ; \
 	  fi; \
 	done
+	@for x in $(languages); do \
+	  if [ -e t2c_$$x.5 ]; \
+	  then \
+	    $(install) --directory $(mandir)/$$x/man5; \
+	    $(install) --mode $(txtmode) t2c_$$x.5 $(mandir)/$$x/man5; \
+	    mv $(mandir)/$$x/man5/t2c_$$x.5 $(mandir)/$$x/man5/t2c.5 ; \
+	  fi; \
+	done
 	@$(install) --directory $(mandir)/man5;
 	@mv $(mandir)/en/man5/* $(mandir)/man5
 	@rmdir $(mandir)/en/man5/
@@ -63,9 +71,11 @@ uninstall:
 	  then \
 	    $(rm) $(mandir)/$$x/man5/xedf.5; \
 	    $(rm) $(mandir)/$$x/man5/cxedf.5; \
+	    $(rm) $(mandir)/$$x/man5/t2c.5; \
 	  fi; \
 	done
 	@$(rm) $(mandir)/man5/xedf.5;
 	@$(rm) $(mandir)/man5/cxedf.5;
+	@$(rm) $(mandir)/man5/t2c.5;
 	@echo "done."
 
