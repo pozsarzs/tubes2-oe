@@ -1,380 +1,425 @@
-#: frmabout:message01
-msgid "About"
-msgstr "Névjegy"
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Tubes2 Open edition\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pozsár Zsolt <pozsarzs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: frmabout:message02
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmabout:message03
-msgid "Electrontube catalogue"
-msgstr "Elektroncső katalógus"
-
-#: frmabout:message04
-msgid "Licence: GNU GPL 3.0 or later."
-msgstr "Licenc: GNU GPL 3.0 vagy újabb."
-
-#: frmabout:message05
+#: frmabout.message01
 msgid "Sorry, there is off-line mode."
 msgstr "Elnézést, de ez kapcsolat nélküli módban nem lehetséges."
 
-#: frmconfig:message01
-msgid "Settings"
-msgstr "Beállítások"
+#: frmconfig.message01
+msgid "black"
+msgstr "fekete"
 
-#: frmconfig:message02
-msgid "Mailer application"
-msgstr "Levelező alkalmazás"
+#: frmconfig.message02
+msgid "blue"
+msgstr "kék"
 
-#: frmconfig:message03
-msgid "Browser application"
-msgstr "Böngésző alkalmazás"
+#: frmconfig.message03
+msgid "green"
+msgstr "zöld"
 
-#: frmconfig:message04
-msgid "Disable search new version on internet"
-msgstr "Új verzió keresése kikapcsolva"
+#: frmconfig.message04
+msgid "red"
+msgstr "vörös"
 
-#: frmconfig:message05
-msgid "Full off-line mode"
-msgstr "Kapcsolat nélküli mód"
+#: frmconfig.message05
+msgid "white"
+msgstr "fehér"
 
-#: frmconfig:message06
-msgid "Browse.."
-msgstr "Tallóz.."
+#: frmconfig.message06
+msgid "yellow"
+msgstr "sárga"
 
-#: frmconfig:message07
-msgid "Save"
-msgstr "Mentés"
-
-#: frmconfig:message08
-msgid "Cancel"
-msgstr "Mégsem"
-
-#: frmconfig:message09
+#: frmconfig.message09
 msgid "Select browser application"
 msgstr "Válasszon böngészőt"
 
-#: frmconfig:message10
+#: frmconfig.message10
 msgid "Select mailer application"
 msgstr "Válasszon levelezőt"
 
-#: frmconfig:message11
+#: frmconfig.message11
 msgid "executables|*.exe|all files|*.*"
 msgstr "alkalmazások|*.exe|minden fájl|*.*"
 
-#: frmconfig:message12
+#: frmconfig.message12
 msgid "all files|*.*"
 msgstr "minden fájl|*.*"
 
-#: frmconfig:message13
-msgid "Default"
-msgstr "Alap"
+#: frmdrawer.message01
+msgid "Characteristic drawer"
+msgstr "Karakterisztika rajzoló"
 
-#: frmmain:message01
-msgid "&File"
-msgstr "&Fájl"
+#: frmdrawer.message02
+msgid "Create new project"
+msgstr "Új projekt"
 
-#: frmmain:message02
+#: frmdrawer.message03
+msgid "Load project"
+msgstr "Projekt betöltése"
+
+#: frmdrawer.message04
+msgid "Save project"
+msgstr "Projekt mentése"
+
+#: frmdrawer.message05
+msgid "Save actual diplay to BMP file"
+msgstr "Aktuális kijelző mentése BMP fájlba"
+
+#: frmdrawer.message06
+msgid "Import actual table from CSV file"
+msgstr "CSV fájl importálása az aktuális táblázatba"
+
+#: frmdrawer.message07
+msgid "Export actual table to CSV file"
+msgstr "Az aktuális táblázat exportálása CSV fájlba"
+
+#: frmdrawer.message08
+msgid "Are you sure? Project is not saved."
+msgstr "Biztosan szeretné? A projekt még nincs mentve!"
+
+#: frmdrawer.message09
+msgid "File is exist. Replace?"
+msgstr "A fájl létezik, felülírjam?"
+
+#: frmdrawer.message10
+msgid "Tubes2 characteristic data files (*.t2c)|*.t2c|"
+msgstr "Tubes2 cső karakterisztika adatfájlok (*.t2c)|*.t2c|"
+
+#: frmdrawer.message11
+msgid "Bitmap files (*.bmp)|*.bmp|"
+msgstr "BMP fájlok (*.bmp)|*.bmp|"
+
+#: frmdrawer.message12
+msgid "CSV files (*.csv)|*.csv|"
+msgstr "CSV fájlok (*.csv)|*.csv|"
+
+#: frmdrawer.message13
+msgid "Cannot write file!"
+msgstr "A fájl nem írható!"
+
+#: frmdrawer.message14
+msgid "Cannot read file!"
+msgstr "A fájl nem olvasható!"
+
+#: frmdrawer.message15
+msgid "Subject or note"
+msgstr "Tárgy vagy megjegyzés"
+
+#: frmdrawer.message16
+msgid "Resolution of Ug/Ia diagram's X axis"
+msgstr "Az Ug/Ia diagram X felbontása"
+
+#: frmdrawer.message17
+msgid "Resolution of Ug/Ia diagram's Y axis"
+msgstr "Az Ug/Ia diagram Y felbontása"
+
+#: frmdrawer.message18
+msgid "Resolution of Ua/Ia diagram's X axis"
+msgstr "Az Ua/Ia diagram X felbontása"
+
+#: frmdrawer.message19
+msgid "Resolution of Ua/Ia diagram's Y axis"
+msgstr "Az Ua/Ia diagram Y felbontása"
+
+#: frmdrawer.message20
+msgid "X: -Ug1 "
+msgstr "X: -Ug1 "
+
+#: frmdrawer.message21
+msgid "Y: Ia"
+msgstr "Y: Ia"
+
+#: frmdrawer.message22
+msgid "X: Ua"
+msgstr "X: Ua"
+
+#: frmdrawer.message23
+msgid "Y: Ia"
+msgstr "Y: Ia"
+
+#: frmdrawer.message24
+msgid "resolution: "
+msgstr "felbontás: "
+
+#: frmdrawer.message25
+msgid "marker: "
+msgstr "marker: "
+
+#: frmdrawer.message26
+msgid "Show/hide grid"
+msgstr "A rács megjelenítése/rejtése"
+
+#: frmdrawer.message27
+msgid "Show/hide header"
+msgstr "A fejléc megjelenítése/rejtése"
+
+#: frmdrawer.message28
+msgid "Clear all displays"
+msgstr "Minden kijelző törlése"
+
+#: frmdrawer.message29
+msgid "Correct value is -9999..9999"
+msgstr "A helyes érték: -9999-9999"
+
+#: frmdrawer.message30
+msgid "Start drawing"
+msgstr "Diagram rajzolása"
+
+#: frmdrawer.message31
+msgid "This is not number!"
+msgstr "Ez nem szám!"
+
+#: frmdrawer.message32
+msgid "Correct value is 1..16!"
+msgstr "A helyes érték: 1-16"
+
+#: frmmain.message01
+msgid "Sort"
+msgstr "Rendezés"
+
+#: frmmain.message02
 msgid "Base"
 msgstr "Csőfej"
 
-#: frmmain:message03
-msgid "&Save"
-msgstr "&Mentés"
+#: frmmain.message03
+msgid "Search selected type on internet"
+msgstr "A kiválasztott típus keresése az interneten"
 
-#: frmmain:message04
+#: frmmain.message04
 msgid "Type search"
 msgstr "Típus keresése"
 
-#: frmmain:message05
-msgid "&Quit"
-msgstr "&Kilépés"
+#: frmmain.message05
+msgid " This is open source version of Tubes2 commercial software.  "
+msgstr ""
 
-#: frmmain:message06
-msgid "&Help"
-msgstr "&Segítség"
+#: frmmain.message06
+msgid "Different between both software is database update rate only."
+msgstr ""
 
-#: frmmain:message07
-msgid "Help co&ntent"
-msgstr "Segítség &tartalom"
+#: frmmain.message07
+msgid " See Help for more information or order commercial version.  "
+msgstr ""
 
-#: frmmain:message08
-msgid "&Image gallery"
-msgstr "&Képgyűjtemény"
+#: frmmain.message08
+msgid "             (This message will not show again.)             "
+msgstr "(Ez az üzenet később nem fog megjelenni.)"
 
-#: frmmain:message09
-msgid "&About"
-msgstr "&Névjegy"
-
-#: frmmain:message10
-msgid "Missing files! Please reinstall Tubes2 trial."
+#: frmmain.message10
+msgid "Missing files! Please reinstall application."
 msgstr "Hiányzó fájlok! Telepítse újra a programot."
 
-#: frmmain:message11
+#: frmmain.message11
 msgid "Type"
 msgstr "Típus"
 
-#: frmmain:message12
-msgid "&View"
-msgstr "&Nézet"
-
-#: frmmain:message13
-msgid "Auto &fill"
-msgstr "&Auto kitöltés"
-
-#: frmmain:message14
-msgid "Auto &column size"
-msgstr "Auto &oszlop méret"
-
-#: frmmain:message15
-msgid "&Search"
-msgstr "&Keresés"
-
-#: frmmain:message16
-msgid "&Type search"
-msgstr "&Típus keresése"
-
-#: frmmain:message17
-msgid "&Parameter search"
-msgstr "&Paraméteres keresés"
-
-#: frmmain:message18
-msgid "&Sort"
-msgstr "&Rendezés"
-
-#: frmmain:message19
+#: frmmain.message19
 msgid "File exists, overwrite?"
 msgstr "A fájl létezik, felülírjam?"
 
-#: frmmain:message20
+#: frmmain.message20
 msgid "Write error!"
 msgstr "Írási hiba!"
 
-#: frmmain:message21
+#: frmmain.message21
 msgid "Electrontube datasheet"
 msgstr "Elektroncső adatlap"
 
-#: frmmain:message22
+#: frmmain.message22
 msgid "Pinout"
 msgstr "Lábak"
 
-#: frmmain:message23
+#: frmmain.message23
 msgid "Category"
 msgstr "Kategória"
 
-#: frmmain:message24
+#: frmmain.message24
 msgid "Parameters"
 msgstr "Jellemzők"
 
-#: frmmain:message25
+#: frmmain.message25
 msgid "Electrontube"
 msgstr "Elektroncső"
 
-#: frmmain:message26
+#: frmmain.message26
 msgid "Not found"
 msgstr "Nincs találat"
 
-#: frmmain:message27
+#: frmmain.message27
 msgid "Sorry, there is not help viewer!"
 msgstr "Nincs segítség megjelenítő!"
 
-#: frmmain:message28
+#: frmmain.message28
 msgid "Save"
 msgstr "Mentés"
 
-#: frmmain:message29
+#: frmmain.message29
 msgid "Save to file"
 msgstr "Mentés másként"
 
-#: frmmain:message30
+#: frmmain.message30
 msgid "Type search"
-msgstr "Típus keresés"
+msgstr "Típus keresése"
 
-#: frmmain:message31
+#: frmmain.message31
 msgid "Function"
 msgstr "Funkció"
 
-#: frmmain:message32
-msgid "&Upgrade database"
-msgstr "&Adatbázis frissítés"
+#: frmmain.message32
+msgid "Add selected type to bookmarks"
+msgstr "Add hozzá a könyvjelzőkhöz"
 
-#: frmmain:message33
+#: frmmain.message33
 msgid "Version"
 msgstr "Változat"
 
-#: frmmain:message34
+#: frmmain.message34
 msgid "Database is corrupt!"
 msgstr "Hibás adatbázis!"
 
-#: frmmain:message35
+#: frmmain.message35
 msgid "New version of database is available, click on 'Upgrade database' to install it."
 msgstr "Frissebb adatbázis elérhető, használja az 'Adatbázis frissítés'-t a telepítéséhez."
 
-#: frmmain:message36
+#: frmmain.message36
 msgid "Original size"
-msgstr "&Eredeti méretek"
+msgstr "Eredeti méretek"
 
-#: frmmain:message37
-msgid "Copy pinout to clipboard"
-msgstr "Lábkiosztás másolása a vágólapra"
+#: frmmain.message37
+msgid "Characteristic drawer"
+msgstr "Karakterisztika rajzoló"
 
-#: frmmain:message38
-msgid "Copy description to clipboard"
-msgstr "Leírás másolása a vágólapra"
+#: frmmain.message38
+msgid "Type substitution"
+msgstr "Típus helyettesítés"
 
-#: frmmain:message39
+#: frmmain.message39
 msgid "Electrontubes"
 msgstr "Elektroncsövek"
 
-#: frmmain:message40
+#: frmmain.message40
 msgid "Description"
 msgstr "Leírás"
 
-#: frmmain:message41
-msgid "New version of Tubes2 trial is available."
-msgstr "A Tubes2 új kiadása már elérhető."
+#: frmmain.message41
+msgid "New version of Tubes2 Open edition is available."
+msgstr "A Tubes2 Open edition új kiadása már elérhető."
 
-#: frmmain:message42
+#: frmmain.message42
 msgid "(This message does not show again.)"
 msgstr "(Ez az üzenet később nem fog megjelenni.)"
 
-#: frmmain:message43
+#: frmmain.message43
 msgid "Homepage"
 msgstr "Honlap"
 
-#: frmmain:message44
+#: frmmain.message44
 msgid "HTML files (*.html)|*.html| text files (*.txt)|*.txt|"
 msgstr "HTML fájlok (*.html)|*.html| szöveges fájlok (*.txt)|*.txt|"
 
-#: frmmain:message45
+#: frmmain.message45
 msgid "Show description"
 msgstr "A leírás megjelenítése"
 
-#: frmmain:message46
+#: frmmain.message46
 msgid "Parameter search"
 msgstr "Paraméteres keresés"
 
-#: frmmain:message47
-msgid "&Get "
-msgstr ""
+#: frmmain.message47
+#, fuzzy
+msgid "Open manufacturer's website"
+msgstr "Weboldal megnyitása"
 
-#: frmmain:message48
-msgid "&Reporting a bug"
-msgstr "&Hibajelentés"
+#: frmmain.message48
+#, fuzzy
+msgid "Open manufacturer's datasheet"
+msgstr "Elektroncső adatlap"
 
-#: frmmain:message49
+#: frmmain.message49
 msgid "Categories of electrontubes"
 msgstr "Elektroncső kategóriák"
 
-#: frmmain:message50
-msgid "Go!"
+#: frmmain.message50
+msgid "Save datasheet in TXT or HTML format"
 msgstr ""
 
-#: frmmain:message51
+#: frmmain.message51
 msgid "Sorry, there is off-line mode."
 msgstr "Elnézést, de kapcsolat nélküli módban vagyunk."
 
-#: frmmain:message52
-msgid "Settin&gs"
-msgstr "Beállítás&ok"
+#: frmmain.message52
+msgid "Tube designation systems"
+msgstr ""
 
-#: frmmain:message53
+#: frmmain.message53
 msgid "Cannot run browser!"
 msgstr "Nem tudom megnyitni a böngészőt!"
 
-#: frmmain:message54
+#: frmmain.message54
 msgid "Cannot run mailer!"
 msgstr "Nem tudom megnyitni a levelezőt!"
 
-#: frmmain:message55
+#: frmmain.message55
 msgid "Parameters"
 msgstr "Jellemzők"
 
-#: frmmain:message56
+#: frmmain.message56
 msgid "Show lines"
 msgstr "Rács"
 
-#: frmmain:message57
+#: frmmain.message57
 msgid "Please visit http://www.pozsarzs.hu for download it."
 msgstr "A letöltéshez látogassa meg a http://www.pozsarzs.hu-t."
 
-#: frmmain:message58
+#: frmmain.message58
 msgid "pinout"
 msgstr "labkiosztas"
 
-#: frmmain:message59
+#: frmmain.message59
 msgid "On-line pinout searcher"
 msgstr "On-line csőfejbekötés kereső"
-
-#: frmmain:message60
-msgid "New type re&quest"
-msgstr "Ú&j típus bejelentése"
 
 #: frmmain.message61
 msgid "Go to website"
 msgstr "Weboldal megnyitása"
 
-#: frmmain:message62
+#: frmmain.message62
 msgid "Search in all category"
 msgstr "Keresés az összes kategóriában"
 
-#: frmmain:message63
+#: frmmain.message63
 msgid "Package information"
 msgstr "Csomag információ"
 
-#: frmmain:message64
+#: frmmain.message64
 msgid "File is not readable."
 msgstr "Az állomány nem olvasható!"
 
-#: frmmain:message65
-msgid "Pa&ckage information"
-msgstr "Csomag info&rmáció"
-
-#: frmmain:message66
-msgid "Li&cence"
-msgstr "Lic&enc"
-
-#: frmmain:message67
+#: frmmain.message67
 msgid "Licence"
 msgstr "Licenc"
 
-#: frmmain:message68
-msgid "&Search in all category"
-msgstr "&Keresés az összes kategóriában"
-
-#: frmmain:message69
-msgid "Ad"
-msgstr "Reklám"
-
-#: frmmain:message70
+#: frmmain.message70
 msgid "Index file is corrupt!"
 msgstr "Hibás az index fájl!"
 
-#: frmmain:message71
+#: frmmain.message71
 msgid "Loading..."
 msgstr "Betöltés..."
 
-#: frmmain.message72
-msgid "&Go to homepage"
-msgstr "Hon&lap"
-
-#: frmmain:message73
-msgid "&Bookmarks"
-msgstr "Köny&vjelzők"
-
-#: frmmain:message74
-msgid "&Show bookmarks"
-msgstr "&Mutasd a könyvjelzőket"
-
-#: frmmain:message75
-msgid "&Add to bookmarks"
-msgstr "&Add hozzá a könyvjelzőkhöz"
-
-#: frmmain:message76
-msgid "&Remove from bookmarks"
-msgstr "Be&jegyzés eltávolítása"
-
-#: frmmain:message77
+#: frmmain.message77
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
@@ -407,141 +452,540 @@ msgid "http://pinout.pozsarzs.hu"
 msgstr "http://labkiosztas.pozsarzs.hu"
 
 #: frmmain.message85
-msgid "If you want to get all datapackage upgrade, use 'pro' version of Tubes2."
-msgstr "Használja a 'pro' változatot, ha meg akarja kapni az összes adatcsomag frissítést."
+msgid "Datasheet"
+msgstr "Elektroncső adatlap"
 
 #: frmmain.message86
-msgid "Visit our website to find out how to buy product key or require free key."
-msgstr "Látogassa meg a honlapot, hogy megtudja, hogyan vásárolhat termékkulcsot, vagy hogyan igényelhet ingyenes kulcsot."
+msgid "Website"
+msgstr "Weboldal megnyitása"
 
-#: frmparsearch:message01
-msgid "Parameter search"
-msgstr "Paraméteres keresés"
-
-#: frmparsearch:message02
-msgid "parameter/unit"
-msgstr "paraméter/egység"
-
-#: frmparsearch:message03
-msgid "min."
-msgstr "min."
-
-#: frmparsearch:message04
-msgid "max."
-msgstr "max."
-
-#: frmparsearch:message05
-msgid "&Search"
-msgstr "&Keres"
-
-#: frmparsearch:message06
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmparsearch:message07
-msgid "&Reset"
-msgstr "Ú&jra"
-
-#: frmparsearch:message08
-msgid "result list"
-msgstr "eredmény lista"
-
-#: frmparsearch:message09
+#: frmparsearch.message01
 msgid "Not found!"
-msgstr "Nem találtam!"
+msgstr "Nincs találat"
 
-#: frmparsearch:message10
-msgid "&Jump"
-msgstr "U&grás"
+#: frmsubst.message01
+msgid "Not found."
+msgstr "Nincs találat"
 
-#: frmsort:message01
-msgid "Base column"
-msgstr "Rendezési alap"
-
-#: frmsort:message02
-msgid "&Start sort"
-msgstr "&Rendez"
-
-#: frmsort:message03
-msgid "Sort"
-msgstr "Rendezés"
-
-#: frmsort:message04
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmtextview.message01
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmupgrade:message01
-msgid "Upgrade database"
-msgstr "Adatbázis frissítés"
-
-#: frmupgrade:message02
-msgid "&Close"
-msgstr "&Bezár"
-
-#: frmupgrade:message03
-msgid "&Browse"
-msgstr "&Tallóz"
-
-#: frmupgrade:message04
-msgid "&Download"
-msgstr "&Letölt"
-
-#: frmupgrade:message05
-msgid "Install and upgrade from file"
-msgstr "Telepítés és frissítés fájlból"
-
-#: frmupgrade:message06
-msgid "Install and upgrade from internet"
-msgstr "Telepítés és frissítés az internetről"
-
-#: frmupgrade:message07
+#: frmupgrade.message07
 msgid "Open ZIP file"
 msgstr "ZIP fájl megnyitása"
 
-#: frmupgrade:message08
+#: frmupgrade.message08
 msgid "There is no new version of database!"
 msgstr "Nincs frissebb adatbázis!"
 
-#: frmupgrade:message09
+#: frmupgrade.message09
 msgid "Download error!"
 msgstr "Letöltési hiba"
 
-#: frmupgrade:message10
+#: frmupgrade.message10
 msgid "Datafile is installed."
-msgstr "Az adatfájl telepítve!"
+msgstr "Az adatfájl telepítve."
 
-#: frmupgrade:message11
+#: frmupgrade.message11
 msgid "Install error!"
 msgstr "Telepítési hiba!"
 
-#: frmupgrade:message12
+#: frmupgrade.message12
 msgid "Datafile corrupt!"
 msgstr "Hibás az adatfájl!"
 
-#: frmupgrade:message13
+#: frmupgrade.message13
 msgid "File read/write error!"
 msgstr "Fálj írás/olvasási hiba!"
 
-#: frmupgrade:message14
-msgid "Remove all upgrade"
-msgstr "Az összes frissítés eltávolítása"
-
-#: frmupgrade:message15
-msgid "&Remove"
-msgstr "&Eltávolítás"
-
-#: frmupgrade:message16
+#: frmupgrade.message16
 msgid "Remove error!"
 msgstr "Eltávolítási hiba!"
 
-#: frmupgrade:message17
+#: frmupgrade.message17
 msgid "Tubes2 needs restart to use new or preinstalled database. Press OK to close application."
 msgstr "Az új vagy az előtelepített adatbázis használatához a program újraindítása szükséges. A kilépéshez nyomja meg az OK-t!"
 
-#: frmupgrade:message18
+#: frmupgrade.message18
 msgid "ZIP archives|*.zip|all files|*.*"
 msgstr "ZIP archívumok|*.zip|all files|*.*"
+
+#: tform1.menuitem1.caption
+msgid "&Search"
+msgstr "&Keresés"
+
+#: tform1.menuitem11.caption
+msgid "&Type search.."
+msgstr "&Típus keresése"
+
+#: tform1.menuitem12.caption
+msgid "&Save datasheet.."
+msgstr "Adatlap &mentése"
+
+#: tform1.menuitem13.caption
+msgid "&Upgrade database.."
+msgstr "&Adatbázis frissítés.."
+
+#: tform1.menuitem14.caption
+msgid "Auto &column size"
+msgstr "Auto &oszlop méret"
+
+#: tform1.menuitem15.caption
+msgid "Settin&gs.."
+msgstr "Beállítás&ok.."
+
+#: tform1.menuitem16.caption
+msgid "&Parameter search.."
+msgstr "&Paraméteres keresés"
+
+#: tform1.menuitem18.caption
+msgid "S&ort.."
+msgstr ""
+
+#: tform1.menuitem19.caption
+msgid "&Type search.."
+msgstr "&Típus keresése"
+
+#: tform1.menuitem2.caption
+msgid "&File"
+msgstr "&Fájl"
+
+#: tform1.menuitem20.caption
+msgid "&Copy pinout to clipboard"
+msgstr "Lábkiosztás másolása a vágólapra"
+
+#: tform1.menuitem22.caption
+msgid "So&rt.."
+msgstr ""
+
+#: tform1.menuitem24.caption
+msgid "Auto &fill"
+msgstr "&Auto kitöltés"
+
+#: tform1.menuitem25.caption
+msgid "Auto &column size"
+msgstr "Auto &oszlop méret"
+
+#: tform1.menuitem26.caption
+msgid "&Copy description to clipboard"
+msgstr "Leírás másolása a vágólapra"
+
+#: tform1.menuitem28.caption
+msgid "Sho&w description"
+msgstr "A leírás megjelenítése"
+
+#: tform1.menuitem3.caption
+msgid "&Help"
+msgstr "&Segítség"
+
+#: tform1.menuitem30.caption
+msgid "Show &description"
+msgstr "A leírás &megjelenítése"
+
+#: tform1.menuitem31.caption
+msgid "&Reporting a bug"
+msgstr "&Hibajelentés"
+
+#: tform1.menuitem33.caption
+msgid "&Search in all categories.."
+msgstr "&Keresés az összes kategóriában"
+
+#: tform1.menuitem34.caption
+msgid "&Tools"
+msgstr ""
+
+#: tform1.menuitem35.caption
+msgid "&Type Substitution"
+msgstr "&Típus helyettesítés"
+
+#: tform1.menuitem36.caption
+msgid "Tube desi&gnation systems"
+msgstr ""
+
+#: tform1.menuitem38.caption
+#, fuzzy
+msgid "Search selected type on &internet"
+msgstr "Típus keresése"
+
+#: tform1.menuitem39.caption
+msgid "&Order commercial release"
+msgstr ""
+
+#: tform1.menuitem4.caption
+msgid "Help &content"
+msgstr "Segítség &tartalom"
+
+#: tform1.menuitem40.caption
+#, fuzzy
+msgid "Search selected type on &internet"
+msgstr "Típus keresése"
+
+#: tform1.menuitem41.caption
+msgid "&Characteristic drawer"
+msgstr ""
+
+#: tform1.menuitem44.caption
+#, fuzzy
+msgid "Open manufacturer &website"
+msgstr "Weboldal megnyitása"
+
+#: tform1.menuitem46.caption
+msgid "&Quit"
+msgstr "&Kilépés"
+
+#: tform1.menuitem48.caption
+#, fuzzy
+msgid "Sho&w lines"
+msgstr "Rács"
+
+#: tform1.menuitem49.caption
+#, fuzzy
+msgid "Show descri&ption"
+msgstr "A leírás megjelenítése"
+
+#: tform1.menuitem5.caption
+msgid "&Parameter search.."
+msgstr "&Paraméteres keresés"
+
+#: tform1.menuitem50.caption
+#, fuzzy
+msgid "Sho&w lines"
+msgstr "Rács"
+
+#: tform1.menuitem51.caption
+msgid "Open &datasheet on manufacturer website"
+msgstr ""
+
+#: tform1.menuitem57.caption
+msgid "&Search in all categories.."
+msgstr "&Keresés az összes kategóriában"
+
+#: tform1.menuitem58.caption
+msgid "Brimar"
+msgstr "Brimar"
+
+#: tform1.menuitem59.caption
+msgid "CV (military)"
+msgstr "CV (katonai)"
+
+#: tform1.menuitem60.caption
+msgid "&Package information"
+msgstr "&Csomag információ"
+
+#: tform1.menuitem61.caption
+msgid "Li&cence"
+msgstr "Lic&enc"
+
+#: tform1.menuitem62.caption
+msgid "&Go to homepage"
+msgstr "Hon&lap"
+
+#: tform1.menuitem63.caption
+msgid "&Bookmarks"
+msgstr "Köny&vjelzők"
+
+#: tform1.menuitem64.caption
+msgid "&Show bookmarks"
+msgstr "&Mutasd a könyvjelzőket"
+
+#: tform1.menuitem65.caption
+msgid "&Remove from bookmarks"
+msgstr "Be&jegyzés eltávolítása"
+
+#: tform1.menuitem66.caption
+msgid "&Add selected type to bookmarks"
+msgstr "&Add hozzá a könyvjelzőkhöz"
+
+#: tform1.menuitem68.caption
+msgid "&Add selected type to bookmarks"
+msgstr "&Add hozzá a könyvjelzőkhöz"
+
+#: tform1.menuitem69.caption
+msgid "European (after 1934)"
+msgstr "Európai (1934 után)"
+
+#: tform1.menuitem7.caption
+msgid "&About"
+msgstr "&Névjegy"
+
+#: tform1.menuitem70.caption
+msgid "Mazda"
+msgstr "Mazda"
+
+#: tform1.menuitem71.caption
+msgid "Philips"
+msgstr "Philips"
+
+#: tform1.menuitem72.caption
+msgid "Soviet/Russian"
+msgstr "Szovjet/orosz"
+
+#: tform1.menuitem73.caption
+msgid "USA"
+msgstr "USA"
+
+#: tform1.menuitem8.caption
+msgid "&View"
+msgstr "&Nézet"
+
+#: tform1.menuitem9.caption
+msgid "Auto &fill"
+msgstr "&Auto kitöltés"
+
+#: tform1.tabsheet1.caption
+msgid "Pinout"
+msgstr "Lábak"
+
+#: tform1.tabsheet2.caption
+msgid "Parameters"
+msgstr "Jellemzők"
+
+#: tform1.tabsheet4.caption
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#: tform10.caption
+msgid "Characteristic drawer"
+msgstr "Karakterisztika rajzoló"
+
+#: tform10.combobox1.text
+msgid "-10 V (0.5 V/div)"
+msgstr "-10 V (0.5 V/div)"
+
+#: tform10.combobox2.text
+msgid "7 mA (0.5 mA/div)"
+msgstr "7 mA (0.5 mA/div)"
+
+#: tform10.combobox3.text
+msgid "300 V (15 V/div)"
+msgstr "300 V (15 V/div)"
+
+#: tform10.combobox4.text
+msgid "7 mA (0.5 mA/div)"
+msgstr "7 mA (0.5 mA/div)"
+
+#: tform10.stringgrid1.columns[0].title.caption
+msgid "-Ug [V]"
+msgstr "-Ug [V]"
+
+#: tform10.stringgrid1.columns[1].title.caption
+msgid "Ia [mA]"
+msgstr "Ia [mA]"
+
+#: tform10.stringgrid2.columns[0].title.caption
+msgid "Ua [V]"
+msgstr "Ua [V]"
+
+#: tform10.stringgrid2.columns[1].title.caption
+msgid "Ia [mA]"
+msgstr "Ia [mA]"
+
+#: tform10.tabsheet2.caption
+msgid "Ug/Ia characteristic"
+msgstr "Ug/Ia karakterisztika"
+
+#: tform10.tabsheet4.caption
+msgid "Ua/Ia characteristic"
+msgstr "Ua/Ia karakterisztika"
+
+#: tform11.caption
+msgid "Type substitution"
+msgstr "Típus helyettesítés"
+
+#: tform11.radiobutton1.caption
+msgid "CV"
+msgstr "CV"
+
+#: tform11.radiobutton2.caption
+msgid "M2"
+msgstr "M2"
+
+#: tform11.radiobutton3.caption
+msgid "VT"
+msgstr "VT"
+
+#: tform2.button1.caption
+msgid "&Close"
+msgstr "&Bezár"
+
+#: tform2.caption
+msgid "About"
+msgstr "Névjegy"
+
+#: tform2.label2.caption
+msgid "Electrontube catalogue"
+msgstr "Elektroncső katalógus"
+
+#: tform2.label3.caption
+msgid "(C) 2008-2017 Pozsár Zsolt"
+msgstr "(C) 2008-2017 Pozsár Zsolt"
+
+#: tform2.label4.caption
+msgid "Licence: GNU GPL 3.0 or later."
+msgstr "Licenc: GNU GPL 3.0 vagy újabb."
+
+#: tform2.label5.caption
+msgid "pozsarzs@gmail.com"
+msgstr "pozsarzs@gmail.com"
+
+#: tform2.label6.caption
+msgid "http://www.pozsarzs.hu"
+msgstr "http://www.pozsarzs.hu"
+
+#: tform2.label7.caption
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: tform2.label8.caption
+msgid "Web:"
+msgstr "Web:"
+
+#: tform3.button1.caption
+msgid "&Search"
+msgstr "&Keresés"
+
+#: tform3.button2.caption
+msgid "&Close"
+msgstr "&Bezár"
+
+#: tform3.button3.caption
+msgid "&Reset"
+msgstr "Ú&jra"
+
+#: tform3.button4.caption
+msgid "&Jump"
+msgstr "U&grás"
+
+#: tform3.caption
+msgid "Parameter search"
+msgstr "Paraméteres keresés"
+
+#: tform3.label1.caption
+msgid "parameter/unit"
+msgstr "paraméter/egység"
+
+#: tform3.label2.caption
+msgid "min."
+msgstr "min."
+
+#: tform3.label3.caption
+msgid "max."
+msgstr "max."
+
+#: tform3.label4.caption
+msgid "result list"
+msgstr "eredmény lista"
+
+#: tform5.button1.caption
+msgid "&Start sort"
+msgstr "&Rendez"
+
+#: tform5.button2.caption
+msgid "&Close"
+msgstr "&Bezár"
+
+#: tform5.caption
+msgid "Sort"
+msgstr "Rendezés"
+
+#: tform5.label1.caption
+msgid "Base column"
+msgstr "Rendezési alap"
+
+#: tform6.button1.caption
+msgid "&Browse.."
+msgstr "Tallóz.."
+
+#: tform6.button2.caption
+msgid "&Download"
+msgstr "&Letölt"
+
+#: tform6.button3.caption
+msgid "&Close"
+msgstr "&Bezár"
+
+#: tform6.button4.caption
+msgid "&Remove"
+msgstr "&Eltávolítás"
+
+#: tform6.caption
+msgid "Upgrade database"
+msgstr "Adatbázis frissítés"
+
+#: tform6.label1.caption
+msgid "Install and upgrade from file"
+msgstr "Telepítés és frissítés fájlból"
+
+#: tform6.label2.caption
+msgid "Install and upgrade from internet"
+msgstr "Telepítés és frissítés az internetről"
+
+#: tform6.label3.caption
+msgid "Remove all upgrade"
+msgstr "Az összes frissítés eltávolítása"
+
+#: tform7.button1.caption
+msgid "Browse.."
+msgstr "Tallóz.."
+
+#: tform7.button2.caption
+msgid "Browse.."
+msgstr "Tallóz.."
+
+#: tform7.button3.caption
+msgid "Save"
+msgstr "Mentés"
+
+#: tform7.button4.caption
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: tform7.button5.caption
+msgid "Default"
+msgstr "Alap"
+
+#: tform7.caption
+msgid "Settings"
+msgstr "Beállítások"
+
+#: tform7.checkbox1.caption
+msgid "Full off-line mode"
+msgstr "Kapcsolat nélküli mód"
+
+#: tform7.checkbox2.caption
+msgid "Disable search new version on internet"
+msgstr "Új verzió keresése kikapcsolva"
+
+#: tform7.label1.caption
+msgid "Browser application"
+msgstr "Böngésző alkalmazás"
+
+#: tform7.label2.caption
+msgid "Mailer application"
+msgstr "Levelező alkalmazás"
+
+#: tform7.label3.caption
+msgid "Palette:"
+msgstr "Színösszeállítás:"
+
+#: tform7.label4.caption
+msgid "URL"
+msgstr "URL"
+
+#: tform7.label6.caption
+msgid "Web searcher"
+msgstr "Webes kereső"
+
+#: tform7.tabsheet1.caption
+msgid "General"
+msgstr "Általános"
+
+#: tform7.tabsheet2.caption
+msgid "Web search"
+msgstr "Webes keresés"
+
+#: tform7.tabsheet3.caption
+msgid "Display color"
+msgstr "Kijelzőszín"
+
+#: tform8.button1.caption
+msgid "&Close"
+msgstr "&Bezár"
+
