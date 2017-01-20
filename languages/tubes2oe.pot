@@ -170,6 +170,22 @@ msgstr ""
 msgid "Correct value is 1..16!"
 msgstr ""
 
+#: frmdrawer.message20
+msgid "X: -Ug1 "
+msgstr ""
+
+#: frmdrawer.message21
+msgid "Y: Ia"
+msgstr ""
+
+#: frmdrawer.message22
+msgid "X: Ua"
+msgstr ""
+
+#: frmdrawer.message23
+msgid "Y: Ia"
+msgstr ""
+
 #: frmmain.message01
 msgid "Sort"
 msgstr ""

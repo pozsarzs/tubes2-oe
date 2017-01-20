@@ -28,7 +28,7 @@ uses
   Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
   Grids, HelpIntfs, IniFiles, LazHelpHTML, LCLIntF, LResources, Menus,
   PairSplitter, Process, StdCtrls, SysUtils, Types,
-  dos, gettext, httpsend,
+  dos, httpsend,
   frmabout, frmconfig, frmdrawer, frmparsearch, frmprogressbar, frmsort,
   frmsubst, frmtextview, frmupgrade, untstrconv;
 type
@@ -1479,13 +1479,13 @@ begin
     // messages
   {$IFDEF UNIX}
     {$IFDEF UseFHS}
-      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2oe.mo');
+//      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2oe.mo');
     {$ELSE}
-      translateresourcestrings(exepath+'languages/'+lang+'/tubes2oe.mo');
+//      translateresourcestrings(exepath+'languages/'+lang+'/tubes2oe.mo');
     {$ENDIF}
   {$ENDIF}
   {$IFDEF WIN32}
-    translateresourcestrings(exepath+'languages\'+lang+'\tubes2oe.mo');
+//    translateresourcestrings(exepath+'languages\'+lang+'\tubes2oe.mo');
   {$ENDIF}
   ToolButton11.Hint:=MESSAGE37;
   ToolButton13.Hint:=MESSAGE38;

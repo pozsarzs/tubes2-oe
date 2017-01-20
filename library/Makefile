@@ -29,6 +29,7 @@ uninstall:
 	@$(rm) $(datarootdir)/$(name)/library_hu/*
 	@$(rm) $(datarootdir)/$(name)/base/*
 	@$(rm) $(datarootdir)/$(name)/index.csv
+	@$(rm) $(datarootdir)/$(name)/subst.dat
 	@rmdir $(datarootdir)/$(name)/library_en
 	@rmdir $(datarootdir)/$(name)/library_hu
 	@rmdir $(datarootdir)/$(name)/base

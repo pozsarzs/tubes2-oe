@@ -196,13 +196,11 @@ object Form10: TForm10
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
-            Title.Caption = '-Ug [V]'
             Width = 76
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
-            Title.Caption = 'Ia [mA]'
             Width = 76
           end        
           item
@@ -227,7 +225,6 @@ object Form10: TForm10
               '16'
             )
             Title.Alignment = taCenter
-            Title.Caption = '#'
             Width = 77
           end>
         FixedColor = 16771033
@@ -250,13 +247,6 @@ object Form10: TForm10
         Top = 16
         Width = 192
         ColCount = 2
-        Columns = <        
-          item
-            Title.Caption = 'Title'
-          end        
-          item
-            Title.Caption = 'Title'
-          end>
         FixedCols = 0
         RowCount = 256
         TabOrder = 1
@@ -297,22 +287,6 @@ object Form10: TForm10
         OnMouseDown = Image3MouseDown
         OnMouseMove = Image3MouseMove
       end
-      object Button10: TButton
-        Left = 450
-        Height = 25
-        Top = 533
-        Width = 75
-        Caption = '&Start'
-        TabOrder = 1
-      end
-      object BitBtn7: TBitBtn
-        Left = 368
-        Height = 25
-        Top = 533
-        Width = 75
-        Caption = '&Clear'
-        TabOrder = 0
-      end
       object StringGrid2: TStringGrid
         AnchorSideLeft.Control = Bevel5
         AnchorSideLeft.Side = asrBottom
@@ -333,13 +307,11 @@ object Form10: TForm10
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
-            Title.Caption = 'Ua [V]'
             Width = 82
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
-            Title.Caption = 'Ia [mA]'
             Width = 82
           end        
           item
@@ -364,7 +336,6 @@ object Form10: TForm10
               '16'
             )
             Title.Alignment = taCenter
-            Title.Caption = '#'
             Width = 84
           end>
         FixedColor = 16771033

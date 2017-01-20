@@ -24,6 +24,7 @@ program tubes2oe;
 {$MODE OBJFPC}{$H+}
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
+  {$IFDEF UseFHS} unttranslator, {$ELSE} DefaultTranslator, {$ENDIF}
   Dialogs, Forms, Interfaces, Sysutils,
   crt,
   frmabout, frmconfig,  frmdrawer, frmmain, frmparsearch, frmprogressbar,

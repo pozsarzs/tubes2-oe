@@ -1,18 +1,3 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Project-Id-Version: Tubes2 Open edition\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Pozsár Zsolt <pozsarzs@gmail.com>\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: hu_HU\n"
-"X-Generator: Poedit 1.6.10\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-
 #: frmabout.message01
 msgid "Sorry, there is off-line mode."
 msgstr "Elnézést, de ez kapcsolat nélküli módban nem lehetséges."
@@ -203,19 +188,19 @@ msgstr "Típus keresése"
 
 #: frmmain.message05
 msgid " This is open source version of Tubes2 commercial software.  "
-msgstr ""
+msgstr "Ez a Tubes2 kereskedelmi szoftver nyílt forrású változata."
 
 #: frmmain.message06
-msgid "Different between both software is database update rate only."
-msgstr ""
+msgid  "Different between both software is database update rate only."
+msgstr "A különbség a két változat között csak az adatbázis frissítés gyakorisága."
 
 #: frmmain.message07
-msgid " See Help for more information or order commercial version.  "
-msgstr ""
+msgid  " See Help for more information or order commercial version.  "
+msgstr "  További információért vagy a megrendelésért nyissa meg a Segítséget."
 
 #: frmmain.message08
-msgid "             (This message will not show again.)             "
-msgstr "(Ez az üzenet később nem fog megjelenni.)"
+msgid  "             (This message will not show again.)             "
+msgstr "          (Ez az üzenet később nem fog megjelenni.)"
 
 #: frmmain.message10
 msgid "Missing files! Please reinstall application."
@@ -338,14 +323,12 @@ msgid "Parameter search"
 msgstr "Paraméteres keresés"
 
 #: frmmain.message47
-#, fuzzy
 msgid "Open manufacturer's website"
-msgstr "Weboldal megnyitása"
+msgstr "A gyártó weboldalának megnyitása"
 
 #: frmmain.message48
-#, fuzzy
 msgid "Open manufacturer's datasheet"
-msgstr "Elektroncső adatlap"
+msgstr "A gyártó adatlapjának megnyitása"
 
 #: frmmain.message49
 msgid "Categories of electrontubes"
@@ -353,7 +336,7 @@ msgstr "Elektroncső kategóriák"
 
 #: frmmain.message50
 msgid "Save datasheet in TXT or HTML format"
-msgstr ""
+msgstr "Adatlap mentése TXT vagy HTML formátumban"
 
 #: frmmain.message51
 msgid "Sorry, there is off-line mode."
@@ -361,7 +344,7 @@ msgstr "Elnézést, de kapcsolat nélküli módban vagyunk."
 
 #: frmmain.message52
 msgid "Tube designation systems"
-msgstr ""
+msgstr "Elektroncső jelölési rendszerek"
 
 #: frmmain.message53
 msgid "Cannot run browser!"
@@ -537,7 +520,7 @@ msgstr "&Paraméteres keresés"
 
 #: tform1.menuitem18.caption
 msgid "S&ort.."
-msgstr ""
+msgstr "&Rendezés.."
 
 #: tform1.menuitem19.caption
 msgid "&Type search.."
@@ -553,7 +536,7 @@ msgstr "Lábkiosztás másolása a vágólapra"
 
 #: tform1.menuitem22.caption
 msgid "So&rt.."
-msgstr ""
+msgstr "&Rendezés.."
 
 #: tform1.menuitem24.caption
 msgid "Auto &fill"
@@ -569,7 +552,7 @@ msgstr "Leírás másolása a vágólapra"
 
 #: tform1.menuitem28.caption
 msgid "Sho&w description"
-msgstr "A leírás megjelenítése"
+msgstr "A leírás &megjelenítése"
 
 #: tform1.menuitem3.caption
 msgid "&Help"
@@ -589,7 +572,7 @@ msgstr "&Keresés az összes kategóriában"
 
 #: tform1.menuitem34.caption
 msgid "&Tools"
-msgstr ""
+msgstr "&Eszközök"
 
 #: tform1.menuitem35.caption
 msgid "&Type Substitution"
@@ -597,61 +580,55 @@ msgstr "&Típus helyettesítés"
 
 #: tform1.menuitem36.caption
 msgid "Tube desi&gnation systems"
-msgstr ""
+msgstr "Elektro&ncső jelölési rendszerek"
 
 #: tform1.menuitem38.caption
-#, fuzzy
 msgid "Search selected type on &internet"
-msgstr "Típus keresése"
+msgstr "A kiválasztott típus keresése az &interneten"
 
 #: tform1.menuitem39.caption
 msgid "&Order commercial release"
-msgstr ""
+msgstr "&Kereskedelmi változat megrendelése"
 
 #: tform1.menuitem4.caption
 msgid "Help &content"
 msgstr "Segítség &tartalom"
 
 #: tform1.menuitem40.caption
-#, fuzzy
 msgid "Search selected type on &internet"
-msgstr "Típus keresése"
+msgstr "A kiválasztott típus keresése az &interneten"
 
 #: tform1.menuitem41.caption
 msgid "&Characteristic drawer"
-msgstr ""
+msgstr "&Karakterisztika rajzoló"
 
 #: tform1.menuitem44.caption
-#, fuzzy
 msgid "Open manufacturer &website"
-msgstr "Weboldal megnyitása"
+msgstr "A gyártó weboldalának megnyitása"
 
 #: tform1.menuitem46.caption
 msgid "&Quit"
 msgstr "&Kilépés"
 
 #: tform1.menuitem48.caption
-#, fuzzy
 msgid "Sho&w lines"
-msgstr "Rács"
+msgstr "&Rács"
 
 #: tform1.menuitem49.caption
-#, fuzzy
 msgid "Show descri&ption"
-msgstr "A leírás megjelenítése"
+msgstr "A leírás me&gjelenítése"
 
 #: tform1.menuitem5.caption
 msgid "&Parameter search.."
 msgstr "&Paraméteres keresés"
 
 #: tform1.menuitem50.caption
-#, fuzzy
 msgid "Sho&w lines"
-msgstr "Rács"
+msgstr "&Rács"
 
 #: tform1.menuitem51.caption
 msgid "Open &datasheet on manufacturer website"
-msgstr ""
+msgstr "A gyártó adatlapjának megnyitása"
 
 #: tform1.menuitem57.caption
 msgid "&Search in all categories.."
@@ -760,22 +737,6 @@ msgstr "300 V (15 V/div)"
 #: tform10.combobox4.text
 msgid "7 mA (0.5 mA/div)"
 msgstr "7 mA (0.5 mA/div)"
-
-#: tform10.stringgrid1.columns[0].title.caption
-msgid "-Ug [V]"
-msgstr "-Ug [V]"
-
-#: tform10.stringgrid1.columns[1].title.caption
-msgid "Ia [mA]"
-msgstr "Ia [mA]"
-
-#: tform10.stringgrid2.columns[0].title.caption
-msgid "Ua [V]"
-msgstr "Ua [V]"
-
-#: tform10.stringgrid2.columns[1].title.caption
-msgid "Ia [mA]"
-msgstr "Ia [mA]"
 
 #: tform10.tabsheet2.caption
 msgid "Ug/Ia characteristic"
@@ -988,4 +949,3 @@ msgstr "Kijelzőszín"
 #: tform8.button1.caption
 msgid "&Close"
 msgstr "&Bezár"
-

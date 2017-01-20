@@ -168,6 +168,9 @@ Resourcestring
   MESSAGE30='Start drawing';
   MESSAGE31='This is not number!';
   MESSAGE32='Correct value is 1..16!';
+  MESSAGE33='-Ug1 [V]';
+  MESSAGE34='Ua [V]';
+  MESSAGE35='Ia [mA]';
 
 implementation
 uses frmmain;
@@ -899,6 +902,12 @@ begin
   ToolButton5.Hint:=MESSAGE06;
   ToolButton6.Hint:=MESSAGE26;
   ToolButton7.Hint:=MESSAGE27;
+  StringGrid1.Columns[0].Title.Caption:=MESSAGE33;
+  StringGrid2.Columns[0].Title.Caption:=MESSAGE34;
+  StringGrid1.Columns[1].Title.Caption:=MESSAGE35;
+  StringGrid2.Columns[1].Title.Caption:=MESSAGE35;
+  StringGrid1.Columns[2].Title.Caption:='#';
+  StringGrid2.Columns[2].Title.Caption:='#';
   ComboBox1Change(Sender);
 end;
 

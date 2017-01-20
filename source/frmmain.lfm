@@ -1,5 +1,5 @@
 object Form1: TForm1
-  Left = 134
+  Left = 169
   Height = 479
   Top = 146
   Width = 853
@@ -164,7 +164,6 @@ object Form1: TForm1
     Panels = <    
       item
         Alignment = taCenter
-        Text = ' Version: 000000-xx'
         Width = 140
       end    
       item
@@ -172,7 +171,6 @@ object Form1: TForm1
       end    
       item
         Alignment = taCenter
-        Text = '0000/0000'
         Width = 100
       end    
       item
@@ -234,23 +232,19 @@ object Form1: TForm1
         BorderSpacing.Right = 2
         BorderSpacing.Bottom = 2
         BorderStyle = bsNone
-        ColCount = 3
+        ColCount = 0
         FixedColor = 16771033
         FixedCols = 0
+        FixedRows = 0
         Flat = True
         GridLineWidth = 0
         MouseWheelOption = mwGrid
         Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect, goSmoothScroll]
         PopupMenu = PopupMenu1
-        RowCount = 2
+        RowCount = 0
         ScrollBars = ssBoth
         TabOrder = 0
         OnSelection = StringGrid1Selection
-        ColWidths = (
-          78
-          64
-          64
-        )
       end
     end
     object PairSplitterSide2: TPairSplitterSide
