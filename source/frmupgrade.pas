@@ -24,9 +24,20 @@ unit frmupgrade;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
-  LResources, StdCtrls, SysUtils,
-  dos, httpsend, unzip51g;
+  Buttons,
+  Classes,
+  ComCtrls,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  Forms,
+  Graphics,
+  LResources,
+  StdCtrls,
+  SysUtils,
+  dos,
+  httpsend,
+  unzip51g;
 type
   { TForm6 }
   TForm6 = class(TForm)
@@ -70,30 +81,20 @@ Resourcestring
   MESSAGE18='ZIP archives|*.zip|all files|*.*';
 
 implementation
-uses frmmain;
+uses
+  frmmain;
+
 {$R *.lfm}
 { TForm6 }
 var
-  restart: boolean;
+  restart: boolean;                             // true if app. needs to restart
 
-//-- close box -----------------------------------------------------------------
-procedure TForm6.Button3Click(Sender: TObject);
+procedure TForm6.Button3Click(Sender: TObject);                  // close window
 begin
   Form6.Close;
 end;
 
-procedure TForm6.FormCloseQuery(Sender: TObject; var CanClose: boolean);
-begin
-  if restart=true then
-  begin
-   showmessage(MESSAGE17);
-   Application.Terminate;
-  end;
-  CanClose:=true;
-end;
-
-//-- remove user-installed datafiles -------------------------------------------
-procedure TForm6.Button4Click(Sender: TObject);
+procedure TForm6.Button4Click(Sender: TObject);    // remove user-installed data
 var
   searchresult: searchrec;
   f: file;
@@ -128,14 +129,12 @@ begin
   end;
 end;
 
-//-- check file ----------------------------------------------------------------
-function checkdatafile(filename: string): boolean;
+function checkdatafile(filename: string): boolean;                 // check file
 begin
   checkdatafile:=true;
 end;
 
-//-- unzip file ----------------------------------------------------------------
-function unzipdatafile(filename: string): boolean;
+function unzipdatafile(filename: string): boolean;                 // unzip file
 var
   zresult: integer;
   zipfile: string;
@@ -153,8 +152,7 @@ begin
   if unzipdatafile=false then ShowMessage(MESSAGE11);
 end;
 
-//-- from file -----------------------------------------------------------------
-procedure TForm6.Button1Click(Sender: TObject);
+procedure TForm6.Button1Click(Sender: TObject);             // install from file
 var
   fi, fo: file of byte;
   b: byte;
@@ -197,8 +195,7 @@ begin
   end;
 end;
 
-//-- from internet -------------------------------------------------------------
-procedure TForm6.Button2Click(Sender: TObject);
+procedure TForm6.Button2Click(Sender: TObject);         // install from internet
 var
   bin: TFileStream;
 begin
@@ -214,10 +211,12 @@ begin
   Button3.Enabled:=false;
   Button4.Enabled:=false;
   restart:=true;
-  bin:=TFileStream.Create(usersdatadir+'xedf-tubes2-current-'+frmmain.dbln+'.zip',fmCreate);
+  bin:=TFileStream.Create(usersdatadir+'xedf-tubes2-current-'+
+    frmmain.dbln+'.zip',fmCreate);
   with THTTPSend.Create do
   begin
-    if HttpGetBinary(frmmain.checkupdateurl+'xedf-tubes2-current-'+frmmain.dbln+'.zip',bin) then
+    if HttpGetBinary(frmmain.checkupdateurl+'xedf-tubes2-current-'+
+      frmmain.dbln+'.zip',bin) then
     try
     except
       showmessage(MESSAGE09);
@@ -247,7 +246,17 @@ begin
   else showmessage(MESSAGE12);
 end;
 
-//-- OnShow event --------------------------------------------------------------
+//-- Other events --------------------------------------------------------------
+procedure TForm6.FormCloseQuery(Sender: TObject; var CanClose: boolean);
+begin
+  if restart=true then
+  begin
+   showmessage(MESSAGE17);
+   Application.Terminate;
+  end;
+  CanClose:=true;
+end;
+
 procedure TForm6.FormShow(Sender: TObject);
 begin
   usersdatadir:=frmmain.userdir+DIR_DATA;

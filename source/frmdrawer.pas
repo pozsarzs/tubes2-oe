@@ -199,9 +199,7 @@ uses
 procedure writetodisplay;forward;
 
 //-- other procedures #1 -------------------------------------------------------
-
-// check values
-function checkvalues(ac: integer; v: string): boolean;
+function checkvalues(ac: integer; v: string): boolean;           // check values
 var
   sl: single;
 begin
@@ -228,16 +226,14 @@ begin
   end;
 end;
 
-// show/hide unsaved sign in statusbar
-procedure unsavedsign;
+procedure unsavedsign;                    // show/hide unsaved sign in statusbar
 begin
   if unsaved
   then Form10.StatusBar1.Panels.Items[0].Text:='  *'
   else Form10.StatusBar1.Panels.Items[0].Text:='';
 end;
 
-// clear display(s)
-procedure cleardisplay(m: byte);
+procedure cleardisplay(m: byte);                             // clear display(s)
 var
   rx1, rx2, ry1, ry2: integer;
   i: integer;
@@ -258,15 +254,17 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE20);
         Canvas.TextOut(8,14,MESSAGE21);
-        Canvas.TextOut(68,2,MESSAGE24+floattostrf(g1xdiv,ffFixed,20,2)+' V/div');
-        Canvas.TextOut(68,14,MESSAGE24+floattostrf(g1ydiv,ffFixed,20,2)+' mA/div');
+        Canvas.TextOut(68,2,MESSAGE24+
+          floattostrf(g1xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(68,14,MESSAGE24+
+          floattostrf(g1ydiv,ffFixed,20,2)+' mA/div');
         Canvas.TextOut(236,2, MESSAGE25+'- V');
         Canvas.TextOut(236,14, MESSAGE25+'- mA');
       end;
       if grid=true then
       begin
         Canvas.Pen.Width:=1;
-        // finom
+        // thin
         Canvas.Pen.Color:=d2;
         i:=ry2;
         repeat
@@ -278,7 +276,7 @@ begin
           Canvas.Line(i,ry1,i,ry2);
           i:=i+5;
         until i=rx2+5;
-        // durva
+        // thick
         Canvas.Pen.Color:=d1;
         i:=ry2;
         repeat
@@ -305,15 +303,17 @@ begin
         Canvas.Font.Color:=fg;
         Canvas.TextOut(8,2,MESSAGE22);
         Canvas.TextOut(8,14,MESSAGE23);
-        Canvas.TextOut(68,2,MESSAGE24+floattostrf(g2xdiv,ffFixed,20,2)+' V/div');
-        Canvas.TextOut(68,14,MESSAGE24+floattostrf(g2ydiv,ffFixed,20,2)+' mA/div');
+        Canvas.TextOut(68,2,MESSAGE24+
+          floattostrf(g2xdiv,ffFixed,20,2)+' V/div');
+        Canvas.TextOut(68,14,MESSAGE24+
+          floattostrf(g2ydiv,ffFixed,20,2)+' mA/div');
         Canvas.TextOut(236,2, MESSAGE25+'- V');
         Canvas.TextOut(236,14, MESSAGE25+'- mA');
       end;
       if grid=true then
       begin
         Canvas.Pen.Width:=1;
-        // finom
+        // thin
         Canvas.Pen.Color:=d2;
         i:=ry2;
         repeat
@@ -325,7 +325,7 @@ begin
           Canvas.Line(i,ry1,i,ry2);
           i:=i+5;
         until i=rx2+5;
-        // durva
+        // thick
         Canvas.Pen.Color:=d1;
         i:=ry2;
         repeat
@@ -341,8 +341,7 @@ begin
     end;
 end;
 
-// set display colors
-procedure setdisplaycolors;
+procedure setdisplaycolors;                                // set display colors
 var
  foreground, dark1, dark2, background: string;
  hu,lu,sa: byte;
@@ -376,8 +375,7 @@ begin
   writetodisplay;
 end;
 
-// write and draw data to displays
-procedure writetodisplay;
+procedure writetodisplay;                     // write and draw data to displays
 var
   line: byte;
   p1, p2, p3, p4: single;
@@ -480,8 +478,7 @@ begin
 end;
 
 //-- ToolBar -------------------------------------------------------------------
-// new project
-procedure TForm10.ToolButton1Click(Sender: TObject);
+procedure TForm10.ToolButton1Click(Sender: TObject);              // new project
 begin
   if unsaved
   then
@@ -497,8 +494,7 @@ begin
   unsaved:=false; unsavedsign;
 end;
 
-// open project
-procedure TForm10.ToolButton2Click(Sender: TObject);
+procedure TForm10.ToolButton2Click(Sender: TObject);             // open project
 var
   filename: string;
   line: byte;
@@ -558,8 +554,7 @@ begin
   unsaved:=false; unsavedsign;
 end;
 
-// save project
-procedure TForm10.ToolButton3Click(Sender: TObject);
+procedure TForm10.ToolButton3Click(Sender: TObject);             // save project
 var
   filename: string;
   line: byte;
@@ -572,7 +567,8 @@ begin
   if SaveDialog1.Execute=false then exit;
   filename:=SaveDialog1.Filename;
   i:=length(filename);
-  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.t2c' then filename:=filename+'.t2c';
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.t2c'
+    then filename:=filename+'.t2c';
   fsplit(filename,tdir,tname,textn);
   if FSearch(tname+textn,tdir)<>'' then
   if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
@@ -615,8 +611,7 @@ begin
   end;
 end;
 
-// save actual image to BMP file
-procedure TForm10.ToolButton4Click(Sender: TObject);
+procedure TForm10.ToolButton4Click(Sender: TObject);      // save display to BMP
 var
   filename: string;
 begin
@@ -641,8 +636,7 @@ begin
   end;
 end;
 
-// import actual table from CSV
-procedure TForm10.ToolButton5Click(Sender: TObject);
+procedure TForm10.ToolButton5Click(Sender: TObject);    // import table from CSV
 var
   filename: string;
 begin
@@ -670,8 +664,7 @@ begin
   end;
 end;
 
-// export actual table to CSV
-procedure TForm10.ToolButton14Click(Sender: TObject);
+procedure TForm10.ToolButton14Click(Sender: TObject);     // export table to CSV
 var
   filename: string;
 begin
@@ -683,7 +676,8 @@ begin
   if SaveDialog1.Execute=false then exit;
   filename:=SaveDialog1.Filename;
   i:=length(filename);
-  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.csv' then filename:=filename+'.csv';
+  if filename[i-3]+filename[i-2]+filename[i-1]+filename[i]<>'.csv'
+    then filename:=filename+'.csv';
   fsplit(filename,tdir,tname,textn);
   if FSearch(tname+textn,tdir)<>'' then
   if MessageDlg(MESSAGE09,mtConfirmation, [mbYes, mbNo],0)=mrNo then exit;
@@ -697,8 +691,7 @@ begin
   end;
 end;
 
-// grid show/hide
-procedure TForm10.ToolButton6Click(Sender: TObject);
+procedure TForm10.ToolButton6Click(Sender: TObject);           // grid show/hide
 begin
   grid:=not grid;
   ToolButton6.Down:=grid;
@@ -706,8 +699,7 @@ begin
   writetodisplay;
 end;
 
-// header show/hide
-procedure TForm10.ToolButton7Click(Sender: TObject);
+procedure TForm10.ToolButton7Click(Sender: TObject);         // header show/hide
 begin
   header:=not header;
   ToolButton7.Down:=header;
@@ -715,31 +707,27 @@ begin
   writetodisplay;
 end;
 
-// clear all display
-procedure TForm10.ToolButton11Click(Sender: TObject);
+procedure TForm10.ToolButton11Click(Sender: TObject);       // clear all display
 begin
   cleardisplay(9);
 end;
 
-// start drawing
-procedure TForm10.ToolButton13Click(Sender: TObject);
+procedure TForm10.ToolButton13Click(Sender: TObject);           // start drawing
 begin
   cleardisplay(9);
   writetodisplay;
 end;
 
 //-- 1st diagram ---------------------------------------------------------------
-// cursor
 procedure TForm10.Image2MouseMove(Sender: TObject; Shift: TShiftState; X,
-  Y: Integer);
+  Y: Integer);                                                         // cursor
 begin
   if (x>=8) and (y>=29) and (x<=508) and (y<=379)
   then Image2.Cursor:=1 else Image2.Cursor:=crDefault;
 end;
 
-//marker position
 procedure TForm10.Image2MouseDown(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
+  Shift: TShiftState; X, Y: Integer);                         // marker position
 begin
   with Image2 do
   begin
@@ -752,8 +740,10 @@ begin
       if header=true then
       begin
 //        Canvas.TextOut(200,2, MESSAGE25+'-'+floattostr((x-8)*g1xpix)+' V');
-        Canvas.TextOut(236,14, MESSAGE25+floattostrf((y-379)*(-1)*g1ypix,ffFixed,20,2)+' mA');
-        Canvas.TextOut(236,2, MESSAGE25+'-'+floattostrf((508-x)*g1xpix,ffFixed,20,2)+' V');
+        Canvas.TextOut(236,14, MESSAGE25+
+          floattostrf((y-379)*(-1)*g1ypix,ffFixed,20,2)+' mA');
+        Canvas.TextOut(236,2, MESSAGE25+'-'+
+          floattostrf((508-x)*g1xpix,ffFixed,20,2)+' V');
       end;
     end else
     begin
@@ -767,18 +757,15 @@ begin
 end;
 
 //-- 2nd diagram ---------------------------------------------------------------
-// cursor
 procedure TForm10.Image3MouseMove(Sender: TObject; Shift: TShiftState; X,
-  Y: Integer);
+  Y: Integer);                                                         // cursor
 begin
   if (x>=8) and (y>=29) and (x<=508) and (y<=379)
   then Image3.Cursor:=1 else Image3.Cursor:=crDefault;
 end;
 
-
-// marker position
 procedure TForm10.Image3MouseDown(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
+  Shift: TShiftState; X, Y: Integer);                         // marker position
 begin
   with Image3 do
   begin
@@ -790,8 +777,10 @@ begin
     begin
       if header=true then
       begin
-        Canvas.TextOut(236,2, MESSAGE25+floattostrf((x-8)*g2xpix,ffFixed,20,2)+' V');
-        Canvas.TextOut(236,14, MESSAGE25+floattostrf((y-379)*(-1)*g2ypix,ffFixed,20,2)+' mA');
+        Canvas.TextOut(236,2, MESSAGE25+
+          floattostrf((x-8)*g2xpix,ffFixed,20,2)+' V');
+        Canvas.TextOut(236,14, MESSAGE25+
+          floattostrf((y-379)*(-1)*g2ypix,ffFixed,20,2)+' mA');
       end;
     end else
     begin
@@ -804,9 +793,7 @@ begin
   end;
 end;
 
-// -- Events -------------------------------------------------------------------
-
-// on change events
+// -- OnChange events ----------------------------------------------------------
 procedure TForm10.PageControl1Change(Sender: TObject);
 begin
   if PageControl1.ActivePageIndex=0
@@ -891,7 +878,7 @@ begin
   if not checkvalues(aCol,value) then StringGrid2.Cells[aCol,aRow]:='';
 end;
 
-// on close query
+// -- Other events -------------------------------------------------------------
 procedure TForm10.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
   if not unsaved
@@ -902,7 +889,6 @@ begin
     else canclose:=true;
 end;
 
-// on create event
 procedure TForm10.FormCreate(Sender: TObject);
 begin
   Screen.Cursors[1] := LoadCursorFromLazarusResource('haircross');
@@ -930,7 +916,6 @@ begin
   ComboBox1Change(Sender);
 end;
 
-// on show event
 procedure TForm10.FormShow(Sender: TObject);
 begin
   ToolButton6.Down:=grid;

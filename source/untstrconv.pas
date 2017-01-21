@@ -34,8 +34,7 @@ Function rmchr3(input: widestring): widestring;
 
 implementation
 
-//-- convert special signs ----------------------------------------------------- 
-function stringconverter(input: widestring): widestring;
+function stringconverter(input: widestring): widestring;  // convert spec. signs
 begin
   for b:=1 to length(input) do
   begin
@@ -63,9 +62,8 @@ begin
   {$ENDIF}
 end;
 
-//-- remove space and tabulator from start of line -----------------------------
-function rmchr3(input: widestring): widestring;
-begin
+function rmchr3(input: widestring): widestring;    // remove space and tabulator
+begin                                              // from start of line
   rmchr3 := '';
   while (input[1]=#9) or (input[1]=#32) do delete(input,1,1);
   rmchr3 := input;

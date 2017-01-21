@@ -24,8 +24,17 @@ unit frmsubst;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, ComCtrls, Controls, Dialogs, ExtCtrls, FileUtil, Forms, Graphics,
-  LResources, StdCtrls, SysUtils;
+  Classes,
+  ComCtrls,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  FileUtil,
+  Forms,
+  Graphics,
+  LResources,
+  StdCtrls,
+  SysUtils;
 type
   { TForm11 }
   TForm11 = class(TForm)
@@ -54,9 +63,16 @@ Resourcestring
   MESSAGE01='Not found.';
 
 implementation
+uses
+  frmmain;
+
 {$R *.lfm}
-uses frmmain;
 { TForm11 }
+
+procedure TForm11.Button1Click(Sender: TObject);                 // close window
+begin
+  Form11.Close;
+end;
 
 //-- OnChange events -----------------------------------------------------------
 procedure TForm11.Edit1Change(Sender: TObject);
@@ -84,13 +100,7 @@ begin
   Edit1Change(Sender);
 end;
 
-//-- close box -----------------------------------------------------------------
-procedure TForm11.Button1Click(Sender: TObject);
-begin
-  Form11.Close;
-end;
-
-//-- OnCreate event --------------------------------------------------------------
+//-- Other event ---------------------------------------------------------------
 procedure TForm11.FormCreate(Sender: TObject);
 begin
   RadioButton1Change(Sender);

@@ -24,7 +24,10 @@ unit frmprogressbar;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, ExtCtrls, Forms, ComCtrls;
+  Classes,
+  ExtCtrls,
+  Forms,
+  ComCtrls;
 type
   { TForm9 }
   TForm9 = class(TForm)
@@ -39,6 +42,8 @@ var
   Form9: TForm9;
 
 implementation
+
 {$R *.lfm}
 { TForm9 }
+
 end.

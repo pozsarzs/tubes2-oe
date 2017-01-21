@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
 { | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
 { | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmtextview.pp                                                           | }
+{ | frmtextview.pas                                                          | }
 { | Text viewer                                                              | }
 { +--------------------------------------------------------------------------+ }
 
@@ -24,7 +24,9 @@ unit frmtextview;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, Forms, StdCtrls;
+  Classes,
+  Forms,
+  StdCtrls;
 type
   { TForm8 }
   TForm8 = class(TForm)
@@ -40,11 +42,11 @@ var
   Form8: TForm8; 
 
 implementation
+
 {$R *.lfm}
 { TForm8 }
 
-//-- Close window --------------------------------------------------------------
-procedure TForm8.Button1Click(Sender: TObject);
+procedure TForm8.Button1Click(Sender: TObject);                  // close window
 begin
   Form8.Close;
 end;
