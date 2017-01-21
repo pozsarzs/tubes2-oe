@@ -187,7 +187,7 @@ msgid "Type search"
 msgstr "Típus keresése"
 
 #: frmmain.message05
-msgid " This is open source version of Tubes2 commercial software.  "
+msgid "This is open source version of Tubes2 commercial software."
 msgstr "Ez a Tubes2 kereskedelmi szoftver nyílt forrású változata."
 
 #: frmmain.message06
@@ -195,12 +195,12 @@ msgid  "Different between both software is database update rate only."
 msgstr "A különbség a két változat között csak az adatbázis frissítés gyakorisága."
 
 #: frmmain.message07
-msgid  " See Help for more information or order commercial version.  "
-msgstr "  További információért vagy a megrendelésért nyissa meg a Segítséget."
+msgid  "See Help for more information or order commercial version."
+msgstr "További információért vagy a megrendelésért nyissa meg a Segítséget."
 
 #: frmmain.message08
-msgid  "             (This message will not show again.)             "
-msgstr "          (Ez az üzenet később nem fog megjelenni.)"
+msgid  "(This message will not show again.)"
+msgstr "(Ez az üzenet később nem fog megjelenni.)"
 
 #: frmmain.message10
 msgid "Missing files! Please reinstall application."

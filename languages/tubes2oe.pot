@@ -203,7 +203,7 @@ msgid "Type search"
 msgstr ""
 
 #: frmmain.message05
-msgid " This is open source version of Tubes2 commercial software.  "
+msgid " This is open source version of Tubes2 commercial software."
 msgstr ""
 
 #: frmmain.message06
@@ -211,11 +211,11 @@ msgid "Different between both software is database update rate only."
 msgstr ""
 
 #: frmmain.message07
-msgid " See Help for more information or order commercial version.  "
+msgid "See Help for more information or order commercial version."
 msgstr ""
 
 #: frmmain.message08
-msgid "             (This message will not show again.)             "
+msgid "(This message will not show again.)"
 msgstr ""
 
 #: frmmain.message10

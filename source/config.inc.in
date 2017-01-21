@@ -26,7 +26,16 @@ const
   VERSION='2.2';
   // install path
   INSTPATH='@prefix@/';
-  MYI18PATH='@prefix@/share/locale/';
+  {$IFDEF UseFHS}
+    MYI18PATH='@prefix@/share/locale/';
+  {$ELSE}
+    {$IFDEF UNIX}
+      MYI18PATH='/languages/';
+    {$ENDIF}
+    {$IFDEF WIN32}
+      MYI18PATH='\languages\';
+    {$ENDIF}
+  {$ENDIF}
   // urls
   URL_BUGREPORT='http://www.pozsarzs.hu/tubes/bugreport_en.php';
   URL_BUGREPORT_HU='http://www.pozsarzs.hu/tubes/bugreport_hu.php';

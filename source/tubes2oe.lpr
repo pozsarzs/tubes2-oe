@@ -39,7 +39,10 @@ uses
   frmsubst,
   frmtextview,
   frmupgrade,
-  {$IFDEF UseFHS} unttranslator {$ELSE} DefaultTranslator {$ENDIF};
+//  {$IFDEF UseFHS}
+   unttranslator
+    //{$ELSE} DefaultTranslator {$ENDIF}
+    ;
 var
   fe, fn: string;                                      // filename and extension
   appmode: byte;                                               // operation mode
