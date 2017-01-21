@@ -70,6 +70,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmmain"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="251"/>
@@ -103,7 +104,7 @@
         <UnitName Value="frmhelppic"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="193"/>
+        <UsageCount Value="192"/>
       </Unit3>
       <Unit4>
         <Filename Value="frmsort.pas"/>
@@ -138,7 +139,7 @@
         <UnitName Value="strconv"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="4"/>
-        <UsageCount Value="46"/>
+        <UsageCount Value="45"/>
       </Unit6>
       <Unit7>
         <Filename Value="frmparsearch.pas"/>
@@ -150,7 +151,7 @@
         <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="22"/>
+        <CursorPos X="1" Y="7"/>
         <ComponentState Value="1"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -195,11 +196,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmprogressbar"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="7"/>
+        <CursorPos X="1" Y="22"/>
         <ComponentState Value="1"/>
         <UsageCount Value="155"/>
         <Loaded Value="True"/>
@@ -211,7 +211,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="5"/>
       </Unit11>
       <Unit12>
         <Filename Value="untstrconv.pas"/>
@@ -220,7 +220,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="22"/>
-        <UsageCount Value="61"/>
+        <UsageCount Value="62"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
@@ -228,7 +228,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="26"/>
         <CursorPos X="23" Y="40"/>
-        <UsageCount Value="14"/>
+        <UsageCount Value="13"/>
       </Unit13>
       <Unit14>
         <Filename Value="frmtester.pas"/>
@@ -239,7 +239,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="54"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="29"/>
       </Unit14>
       <Unit15>
         <Filename Value="frmdrawer.pas"/>
@@ -279,7 +279,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="171"/>
         <CursorPos X="15" Y="185"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit17>
       <Unit18>
         <Filename Value="frmfirstrun.pas"/>
@@ -290,7 +290,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="14"/>
         <CursorPos X="1" Y="34"/>
-        <UsageCount Value="19"/>
+        <UsageCount Value="18"/>
       </Unit18>
       <Unit19>
         <Filename Value="config.inc.in"/>
@@ -306,123 +306,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="625" Column="17" TopLine="623"/>
+        <Caret Line="414" Column="1" TopLine="402"/>
       </Position1>
       <Position2>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="414" Column="1" TopLine="402"/>
+        <Caret Line="447" Column="68" TopLine="444"/>
       </Position2>
       <Position3>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="447" Column="68" TopLine="444"/>
+        <Caret Line="117" Column="77" TopLine="103"/>
       </Position3>
       <Position4>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="117" Column="77" TopLine="103"/>
+        <Caret Line="478" Column="11" TopLine="457"/>
       </Position4>
       <Position5>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="478" Column="11" TopLine="457"/>
+        <Caret Line="494" Column="11" TopLine="473"/>
       </Position5>
       <Position6>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="494" Column="11" TopLine="473"/>
+        <Caret Line="126" Column="1" TopLine="1"/>
       </Position6>
       <Position7>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="126" Column="1" TopLine="1"/>
+        <Caret Line="474" Column="1" TopLine="459"/>
       </Position7>
       <Position8>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="474" Column="1" TopLine="459"/>
+        <Caret Line="916" Column="14" TopLine="1"/>
       </Position8>
       <Position9>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="916" Column="14" TopLine="1"/>
+        <Caret Line="404" Column="32" TopLine="384"/>
       </Position9>
       <Position10>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="404" Column="32" TopLine="384"/>
+        <Caret Line="433" Column="32" TopLine="413"/>
       </Position10>
       <Position11>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="433" Column="32" TopLine="413"/>
+        <Caret Line="469" Column="23" TopLine="448"/>
       </Position11>
       <Position12>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="469" Column="23" TopLine="448"/>
+        <Caret Line="128" Column="6" TopLine="112"/>
       </Position12>
       <Position13>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="128" Column="6" TopLine="112"/>
+        <Caret Line="474" Column="43" TopLine="453"/>
       </Position13>
       <Position14>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="474" Column="43" TopLine="453"/>
+        <Caret Line="533" Column="45" TopLine="513"/>
       </Position14>
       <Position15>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="533" Column="45" TopLine="513"/>
+        <Caret Line="547" Column="56" TopLine="526"/>
       </Position15>
       <Position16>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="547" Column="56" TopLine="526"/>
+        <Caret Line="917" Column="40" TopLine="896"/>
       </Position16>
       <Position17>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="917" Column="40" TopLine="896"/>
+        <Caret Line="128" Column="6" TopLine="115"/>
       </Position17>
       <Position18>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="128" Column="6" TopLine="115"/>
+        <Caret Line="213" Column="26" TopLine="192"/>
       </Position18>
       <Position19>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="213" Column="26" TopLine="192"/>
+        <Caret Line="214" Column="26" TopLine="193"/>
       </Position19>
       <Position20>
         <Filename Value="frmdrawer.pas"/>
-        <Caret Line="214" Column="26" TopLine="193"/>
+        <Caret Line="474" Column="14" TopLine="453"/>
       </Position20>
       <Position21>
-        <Filename Value="frmdrawer.pas"/>
-        <Caret Line="474" Column="14" TopLine="453"/>
+        <Filename Value="frmabout.pas"/>
+        <Caret Line="33" Column="3" TopLine="13"/>
       </Position21>
       <Position22>
         <Filename Value="frmabout.pas"/>
-        <Caret Line="33" Column="3" TopLine="13"/>
+        <Caret Line="31" Column="1" TopLine="18"/>
       </Position22>
       <Position23>
-        <Filename Value="frmabout.pas"/>
-        <Caret Line="31" Column="1" TopLine="18"/>
+        <Filename Value="frmconfig.pas"/>
+        <Caret Line="99" Column="15" TopLine="79"/>
       </Position23>
       <Position24>
         <Filename Value="frmconfig.pas"/>
-        <Caret Line="99" Column="15" TopLine="79"/>
+        <Caret Line="98" Column="14" TopLine="80"/>
       </Position24>
       <Position25>
-        <Filename Value="frmconfig.pas"/>
-        <Caret Line="98" Column="14" TopLine="80"/>
+        <Filename Value="tubes2oe.lpr"/>
+        <Caret Line="1" Column="2" TopLine="1"/>
       </Position25>
       <Position26>
         <Filename Value="tubes2oe.lpr"/>
-        <Caret Line="1" Column="2" TopLine="1"/>
+        <Caret Line="86" Column="7" TopLine="65"/>
       </Position26>
       <Position27>
         <Filename Value="tubes2oe.lpr"/>
-        <Caret Line="86" Column="7" TopLine="65"/>
+        <Caret Line="98" Column="7" TopLine="77"/>
       </Position27>
       <Position28>
-        <Filename Value="tubes2oe.lpr"/>
-        <Caret Line="98" Column="7" TopLine="77"/>
-      </Position28>
-      <Position29>
         <Filename Value="frmdrawer.pas"/>
         <Caret Line="48" Column="4" TopLine="24"/>
-      </Position29>
-      <Position30>
+      </Position28>
+      <Position29>
         <Filename Value="untstrconv.pas"/>
         <Caret Line="65" Column="33" TopLine="43"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frmparsearch.pas"/>
+        <Caret Line="152" Column="6" TopLine="142"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>

@@ -24,8 +24,17 @@ unit frmparsearch;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Buttons, Classes, Controls, Dialogs, ExtCtrls, Forms, Graphics, LResources,
-  Spin, StdCtrls, SysUtils;
+  Buttons,
+  Classes,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  Forms,
+  Graphics,
+  LResources,
+  Spin,
+  StdCtrls,
+  SysUtils;
 type
   { TForm3 }
   TForm3 = class(TForm)
@@ -71,40 +80,18 @@ Resourcestring
   MESSAGE01='Not found!';
 
 implementation
+uses
+  frmmain;
+
 {$R *.lfm}
-uses frmmain;
 {TForm3}
 
-procedure TForm3.CheckBox3Click(Sender: TObject);
-begin
-  SpinEdit5.Enabled:=CheckBox3.Checked;
-  SpinEdit6.Enabled:=CheckBox3.Checked;
-  ComboBox3.Enabled:=CheckBox3.Checked;
-end;
-
-procedure TForm3.CheckBox2Click(Sender: TObject);
-begin
-  SpinEdit3.Enabled:=CheckBox2.Checked;
-  SpinEdit4.Enabled:=CheckBox2.Checked;
-  ComboBox2.Enabled:=CheckBox2.Checked;
-  CheckBox3.Enabled:=CheckBox2.Checked;
-  if CheckBox2.Checked=false then
-  begin
-   SpinEdit5.Enabled:=false;
-   SpinEdit6.Enabled:=false;
-   ComboBox3.Enabled:=false;
-   CheckBox3.Checked:=false;;
-  end;
-end;
-
-//-- close ---------------------------------------------------------------------
-procedure TForm3.Button2Click(Sender: TObject);
+procedure TForm3.Button2Click(Sender: TObject);                  // close window
 begin
   Form3.Close;
 end;
 
-//-- reset ---------------------------------------------------------------------
-procedure TForm3.Button3Click(Sender: TObject);
+procedure TForm3.Button3Click(Sender: TObject);                    // reset data
 begin
   SpinEdit1.Value:=0;;
   SpinEdit2.Value:=0;
@@ -119,8 +106,7 @@ begin
   Button4.Enabled:=false;
 end;
 
-//-- jump ----------------------------------------------------------------------
-procedure TForm3.Button4Click(Sender: TObject);
+procedure TForm3.Button4Click(Sender: TObject);                          // jump
 begin
   for i:=1 to 32000 do
   begin
@@ -135,11 +121,9 @@ begin
       exit;
     end;
   end;
-
 end;
 
-//-- search --------------------------------------------------------------------
-procedure TForm3.Button1Click(Sender: TObject);
+procedure TForm3.Button1Click(Sender: TObject);                        // search
 var
   v: extended;
 begin
@@ -165,7 +149,8 @@ begin
   ListBox1.Clear;
   // step 1
   for b:=0 to 255 do
-    if Form1.StringGrid1.Cells[b,0]=ComboBox1.Items[ComboBox1.ItemIndex] then break;
+    if Form1.StringGrid1.Cells[b,0]=ComboBox1.Items[ComboBox1.ItemIndex]
+      then break;
   for i:=1 to Form1.StringGrid1.RowCount-1 do
   begin
     v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
@@ -176,7 +161,8 @@ begin
   if CheckBox2.Checked=true then
   begin
     for b:=0 to 255 do
-      if Form1.StringGrid1.Cells[b,0]=ComboBox2.Items[ComboBox2.ItemIndex] then break;
+      if Form1.StringGrid1.Cells[b,0]=ComboBox2.Items[ComboBox2.ItemIndex]
+        then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
       v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
@@ -188,7 +174,8 @@ begin
   if CheckBox3.Checked=true then
   begin
     for b:=0 to 255 do
-      if Form1.StringGrid1.Cells[b,0]=ComboBox3.Items[ComboBox3.ItemIndex] then break;
+      if Form1.StringGrid1.Cells[b,0]=ComboBox3.Items[ComboBox3.ItemIndex]
+        then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
       v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
@@ -202,7 +189,8 @@ begin
     for i:=0 to ListBox1.Items.Count-3 do
     begin
       s:=ListBox1.Items[i];
-      if (ListBox1.Items[i+1]=s) and (ListBox1.Items[i+2]=s) then ListBox2.Items.Add(s);
+      if (ListBox1.Items[i+1]=s) and (ListBox1.Items[i+2]=s)
+        then ListBox2.Items.Add(s);
     end;
     ListBox1.Clear;
     for i:=0 to ListBox2.Items.Count-1 do
@@ -220,10 +208,34 @@ begin
     for i:=0 to ListBox2.Items.Count-1 do
       ListBox1.Items.Add(ListBox2.Items[i]);
   end;
-  if ListBox1.Items.Count=0 then ShowMessage(MESSAGE01) else Button4.Enabled:=true;
+  if ListBox1.Items.Count=0
+    then ShowMessage(MESSAGE01)
+    else Button4.Enabled:=true;
 end;
 
-//-- OnShow event --------------------------------------------------------------
+//-- Other events --------------------------------------------------------------
+procedure TForm3.CheckBox3Click(Sender: TObject);
+begin
+  SpinEdit5.Enabled:=CheckBox3.Checked;
+  SpinEdit6.Enabled:=CheckBox3.Checked;
+  ComboBox3.Enabled:=CheckBox3.Checked;
+end;
+
+procedure TForm3.CheckBox2Click(Sender: TObject);
+begin
+  SpinEdit3.Enabled:=CheckBox2.Checked;
+  SpinEdit4.Enabled:=CheckBox2.Checked;
+  ComboBox2.Enabled:=CheckBox2.Checked;
+  CheckBox3.Enabled:=CheckBox2.Checked;
+  if CheckBox2.Checked=false then
+  begin
+   SpinEdit5.Enabled:=false;
+   SpinEdit6.Enabled:=false;
+   ComboBox3.Enabled:=false;
+   CheckBox3.Checked:=false;;
+  end;
+end;
+
 procedure TForm3.FormShow(Sender: TObject);
 begin
   SpinEdit1.Value:=0;
@@ -238,9 +250,12 @@ begin
   ComboBox1.Clear;
   ComboBox2.Clear;
   ComboBox3.Clear;
-  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox1.Items.Add(Form1.StringGrid1.Cells[b,0]);
-  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox2.Items.Add(Form1.StringGrid1.Cells[b,0]);
-  for b:=3 to Form1.StringGrid1.ColCount-1 do ComboBox3.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do
+    ComboBox1.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do
+    ComboBox2.Items.Add(Form1.StringGrid1.Cells[b,0]);
+  for b:=3 to Form1.StringGrid1.ColCount-1 do
+    ComboBox3.Items.Add(Form1.StringGrid1.Cells[b,0]);
   ComboBox1.ItemIndex:=0;
   ComboBox2.ItemIndex:=0;
   ComboBox3.ItemIndex:=0;

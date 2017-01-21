@@ -25,9 +25,9 @@ unit frmprogressbar;
 interface
 uses
   Classes,
+  ComCtrls,
   ExtCtrls,
-  Forms,
-  ComCtrls;
+  Forms;
 type
   { TForm9 }
   TForm9 = class(TForm)

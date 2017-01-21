@@ -25,12 +25,40 @@ unit frmmain;
 interface
 uses
   {$IFDEF WIN32}Windows,{$ENDIF}
-  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
-  Grids, HelpIntfs, IniFiles, LazHelpHTML, LCLIntF, LResources, Menus,
-  PairSplitter, Process, StdCtrls, SysUtils, Types,
-  dos, httpsend,
-  frmabout, frmconfig, frmdrawer, frmparsearch, frmprogressbar, frmsort,
-  frmsubst, frmtextview, frmupgrade, untstrconv;
+  Buttons,
+  Classes,
+  ComCtrls,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  Forms,
+  Graphics,
+  Grids,
+  HelpIntfs,
+  IniFiles,
+  LazHelpHTML,
+  LCLIntF,
+  LResources,
+  Menus,
+  PairSplitter,
+  Process,
+  StdCtrls,
+  SysUtils,
+  Types,
+  dos,
+  httpsend,
+  // my forms
+  frmabout,
+  frmconfig,
+  frmdrawer,
+  frmparsearch,
+  frmprogressbar,
+  frmsort,
+  frmsubst,
+  frmtextview,
+  frmupgrade,
+  // my unit
+  untstrconv;
 type
   { TForm1 }
   TForm1 = class(TForm)
@@ -938,23 +966,22 @@ begin
 end;
 
 //****************************** POPUP MENU 4 **********************************
-//-- remove type to bookmark ---------------------------------------------------
-procedure TForm1.MenuItem65Click(Sender: TObject);
+
+procedure TForm1.MenuItem65Click(Sender: TObject);  // remove type from bookmark
 begin
   if ListBox1.Count>0 then
     if ListBox1.ItemIndex>=0
     then ListBox1.Items.Delete(ListBox1.ItemIndex);
 end;
 
-//******************* GENERAL PROCEDURES AND FUNCTIONS 2. **********************
-//-- resize window -------------------------------------------------------------
-procedure TForm1.FormResize(Sender: TObject);
+//******************************************************************************
+
+procedure TForm1.FormResize(Sender: TObject);                   // resize window
 begin
   StatusBar1.Panels.Items[1].Width:=Width-297;
 end;
 
-//-- load text and picture of selected component -------------------------------
-procedure TForm1.StringGrid1Selection;
+procedure TForm1.StringGrid1Selection;   // load text and pic. of selected comp.
 begin
   Memo1.Lines.Clear;
   Memo1.Lines.Add(pinout[StringGrid1.Row]);
@@ -992,8 +1019,7 @@ begin
   end;
 end;
 
-//-- select another category -----------------------------------------------------
-procedure TForm1.ComboBox1Change;
+procedure TForm1.ComboBox1Change;                     // select another category
 var
   compnumcatdiv2, compnumcatdiv4: integer;
   xmlfilename: string;
@@ -1006,7 +1032,7 @@ begin
     Form1.Cursor:=crHourGlass;
     Form9.Show;
     Form9.Caption:=MESSAGE71;
-    Form9.ProgressBar1.Position:=0;   // ProgressBar -> 0%
+    Form9.ProgressBar1.Position:=0;                         // ProgressBar -> 0%
   end;
   Application.ProcessMessages;
   for i:=1 to 800 do pinout[i]:='';
@@ -1172,16 +1198,21 @@ begin
             for i:=1 to length(cpld[row]) do
               if cpld[row][i]+cpld[row][i+1]='[h' then break;
             for i:=i+1 to length(cpld[row]) do
-              if cpld[row][i]=']' then break else cpws[row]:=cpws[row]+cpld[row][i];
+              if cpld[row][i]=']'
+                then break
+                else cpws[row]:=cpws[row]+cpld[row][i];
 
             for i:=i+1 to length(cpld[row]) do
               if cpld[row][i]+cpld[row][i+1]='[h' then break;
             for i:=i+1 to length(cpld[row]) do
-              if cpld[row][i]=']' then break else cpwd[row]:=cpwd[row]+cpld[row][i];
+              if cpld[row][i]=']'
+                then break
+                else cpwd[row]:=cpwd[row]+cpld[row][i];
 
             for i:=1 to length(cpld[row]) do
               if cpld[row][i]+cpld[row][i+1]='[h' then break;
-            if cpld[row][i]+cpld[row][i+1]='[h' then delete(cpld[row],i,length(cpld[row]));
+            if cpld[row][i]+cpld[row][i+1]='[h'
+              then delete(cpld[row],i,length(cpld[row]));
             end;
             if s[2..5]='cppn' then
             begin
@@ -1221,7 +1252,7 @@ begin
   except
     ShowMessage(MESSAGE34);
   end;
-  if firstload=false then Form9.ProgressBar1.Position:=8;   // ProgressBar -> 100%
+  if firstload=false then Form9.ProgressBar1.Position:=8; // ProgressBar -> 100%
   StringGrid1.Rowcount:=row-1; // :=n1
   i:=0;
   for b:=1 to StringGrid1.ColCount do
@@ -1230,7 +1261,8 @@ begin
   then MenuItem14.Click
   else MenuItem9.Click;
   Application.ProcessMessages;
-  Form1.Caption:=APPNAME+' v'+VERSION+' - '+ComboBox1.Items.Strings[ComboBox1.ItemIndex];
+  Form1.Caption:=APPNAME+' v'+VERSION+' - '+
+    ComboBox1.Items.Strings[ComboBox1.ItemIndex];
   StringGrid1Selection;
   Form1.Cursor:=crDefault;
   if firstload=false then
@@ -1242,16 +1274,15 @@ begin
   firstload:=false;
 end;
 
-// open useful links
-procedure TForm1.SpeedButton1Click(Sender: TObject);
+procedure TForm1.SpeedButton1Click(Sender: TObject);       // open an useful URL
 begin
   for b:=0 to 63 do
     if sponsors[0,b]=ComboBox2.Items.Strings[ComboBox2.ItemIndex] then break;
   runbrowser(sponsors[1,b]);
 end;
 
-//-- save bookmarks before exit ------------------------------------------------
 procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: boolean);
+                                                   // save bookmarks before exit
 begin
   try
     ListBox1.Items.SaveToFile(userdir+DIR_CONFIG+'tubes2.bmk');
@@ -1260,15 +1291,13 @@ begin
   CanClose:=true;
 end;
 
-//-- dummy popup menu ----------------------------------------------------------
-procedure TForm1.Memo3ContextPopup(Sender: TObject; MousePos: TPoint;
+procedure TForm1.Memo3ContextPopup(Sender: TObject; MousePos: TPoint;   // dummy
   var Handled: Boolean);
 begin
   Handled:=true;
 end;
 
-//-- select a bookmark----------------------------------------------------------
-procedure TForm1.ListBox1Click(Sender: TObject);
+procedure TForm1.ListBox1Click(Sender: TObject);            // select a bookmark
 var
   ftype, catnum: string;
 
@@ -1333,8 +1362,8 @@ begin
   end;
 end;
 
-//-- watch scroll-lock button --------------------------------------------------
 procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+                                                     // watch scroll-lock button
 var
   scrlckstate: boolean;
 
@@ -1356,8 +1385,7 @@ begin
   end;
 end;
 
-// -- OnCreate event -----------------------------------------------------------
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TForm1.FormCreate(Sender: TObject);                  // OnCreate event
 {$IFDEF WIN32}
 var
   Buffer : PChar;
@@ -1476,17 +1504,6 @@ begin
   if length(s)=0 then s:='en';
   lang:=lowercase(s[1..2]);
 
-    // messages
-  {$IFDEF UNIX}
-    {$IFDEF UseFHS}
-//      translateresourcestrings(instpath+'share/locale/'+lang+'/LC_MESSAGES/tubes2oe.mo');
-    {$ELSE}
-//      translateresourcestrings(exepath+'languages/'+lang+'/tubes2oe.mo');
-    {$ENDIF}
-  {$ENDIF}
-  {$IFDEF WIN32}
-//    translateresourcestrings(exepath+'languages\'+lang+'\tubes2oe.mo');
-  {$ENDIF}
   ToolButton11.Hint:=MESSAGE37;
   ToolButton13.Hint:=MESSAGE38;
   ToolButton14.Hint:=MESSAGE52;
