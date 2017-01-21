@@ -24,11 +24,28 @@ unit frmdrawer;
 {$MODE OBJFPC}{$H+}
 interface
 uses
- {$IFDEF LINUX} Types, {$ENDIF}{$IFDEF WIN32} Windows, {$ENDIF}
-  Classes, SysUtils, FileUtil, LResources, Forms,
-  Controls, Graphics, Dialogs, Menus, ComCtrls, ExtCtrls, StdCtrls,
-  Grids, Buttons, DOM, dos, GraphUtil, ExtDlgs, convert, process;
-  type
+  Buttons,
+  Classes,
+  ComCtrls,
+  Controls,
+  Dialogs,
+  DOM,
+  ExtCtrls,
+  ExtDlgs,
+  FileUtil,
+  Forms,
+  Graphics,
+  GraphUtil,
+  Grids,
+  LResources,
+  Menus,
+  StdCtrls,
+  SysUtils,
+  {$IFDEF UNIX} Types, {$ENDIF}
+  {$IFDEF WIN32} Windows, {$ENDIF}
+  convert,
+  dos;
+type
   { TForm10 }
   TForm10 = class(TForm)
     Bevel4: TBevel;
@@ -111,16 +128,16 @@ uses
   end;
 var
   Form10: TForm10;
-  b: byte;                                                       // general byte
+  b: byte;
   datafile: file of t2crec;                                          // t2c file
   fg, d1, d2, bg: TColor;                              // colors of the displays
   g1xdiv, g1ydiv, g2xdiv, g2ydiv: single;                        // graph. ?/div
   g1xpix, g1ypix, g2xpix, g2ypix: single;                   // graph. resolution
   grid, header: boolean;                                             //show/hide
-  i: byte;                                                    // general integer
+  i: byte;
   initialvalue: string;                // value for detect change in stringgrids
-  s: string;                                          // general string variable
-  t: text;                                         // general text file variable
+  s: string;
+  t: text;
   t2c: t2crec;                                                     // t2c record
   tdir,tname,textn: shortstring;
   unsaved: boolean;                                               // data change
@@ -173,7 +190,9 @@ Resourcestring
   MESSAGE35='Ia [mA]';
 
 implementation
-uses frmmain;
+uses
+  frmmain;
+
 {$R *.lfm}
 { TForm10 }
 

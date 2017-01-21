@@ -24,8 +24,16 @@ unit frmabout;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Buttons, Classes, Controls, Dialogs, ExtCtrls, Forms, Graphics, LResources,
-  StdCtrls, SysUtils;
+  Buttons,
+  Classes,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  Forms,
+  Graphics,
+  LResources,
+  StdCtrls,
+  SysUtils;
 type
   { TForm2 }
   TForm2 = class(TForm)
@@ -60,24 +68,32 @@ Resourcestring
   MESSAGE01='Sorry, there is off-line mode.';
 
 implementation
-uses frmmain;
+uses
+  frmmain;
+
 {$R *.lfm}
 { TForm2 }
 
-//-- close windows -------------------------------------------------------------
-procedure TForm2.Button1Click(Sender: TObject);
+procedure TForm2.Button1Click(Sender: TObject);                  // close window
 begin
   Form2.Close;
 end;
 
-//-- click on e-mail address ---------------------------------------------------
-procedure TForm2.Label5Click(Sender: TObject);
+procedure TForm2.Label5Click(Sender: TObject);        // click on e-mail address
 begin
   if frmmain.offline=false
   then runmailer(Label5.Caption)
   else showmessage(MESSAGE01);
 end;
 
+procedure TForm2.Label6Click(Sender: TObject);           // click on web address
+begin
+  if frmmain.offline=false
+  then runbrowser(Label6.Caption)
+  else showmessage(MESSAGE01);
+end;
+
+//-- Mouse events --------------------------------------------------------------
 procedure TForm2.Label5MouseEnter(Sender: TObject);
 begin
   Label5.Font.Color:=clMaroon;
@@ -86,14 +102,6 @@ end;
 procedure TForm2.Label5MouseLeave(Sender: TObject);
 begin
   Label5.Font.Color:=clSkyBlue;
-end;
-
-//-- click on webaddress -------------------------------------------------------
-procedure TForm2.Label6Click(Sender: TObject);
-begin
-  if frmmain.offline=false
-  then runbrowser(Label6.Caption)
-  else showmessage(MESSAGE01);
 end;
 
 procedure TForm2.Label6MouseEnter(Sender: TObject);

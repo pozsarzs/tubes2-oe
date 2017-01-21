@@ -24,8 +24,18 @@ unit frmconfig;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Buttons, Classes, ComCtrls, Controls, Dialogs, ExtCtrls, Forms, Graphics,
-  INIFiles, LResources, StdCtrls, SysUtils;
+  Buttons,
+  Classes,
+  ComCtrls,
+  Controls,
+  Dialogs,
+  ExtCtrls,
+  Forms,
+  Graphics,
+  INIFiles,
+  LResources,
+  StdCtrls,
+  SysUtils;
 type
   { TForm7 }
   TForm7 = class(TForm)
@@ -77,9 +87,16 @@ type
   end; 
 var
   Form7: TForm7;
-  defbrowser, defmailer: string;
 const
-  INIFILE: string=('tubes2.ini');
+  {$IFDEF UNIX}
+    DEFBROWSER='xdg-open';                        // default browser application
+    DEFMAILER='xdg-email';                         // default mailer application
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+    DEFBROWSER='rundll32.exe url.dll,FileProtocolHandler';
+    DEFMAILER='rundll32.exe url.dll,FileProtocolHandler mailto:';
+  {$ENDIF}
+  INIFILE: string=('tubes2.ini');                               // settings file
   WSNAME: array[1..6] of string=('Bing',
                                  'DuckDuckGo',
                                  'Google',
@@ -111,16 +128,18 @@ Resourcestring
   MESSAGE12='all files|*.*';
 
 implementation
+uses
+  frmdrawer,
+  frmmain;
+
 {$R *.lfm}
-uses frmdrawer, frmmain;
 { TForm7 }
 
-//-- load setting --------------------------------------------------------------
-procedure loadsettings;
+procedure loadsettings;                                          // load setting
 var
   ini: TINIFile;
 begin
-  ini:=TIniFile.Create(userdir+DIR_CONFIG+'tubes2.ini');
+  ini:=TIniFile.Create(userdir+DIR_CONFIG+INIFILE);
   try
     offline:=ini.ReadBool('General','OffLineMode',false);
     nocheckupdate:=ini.ReadBool('General','NoCheckUpdate',false);
@@ -137,10 +156,9 @@ begin
   end;
 end;
 
-//-- save default setting ------------------------------------------------------
-procedure savedefaultsettings;
+procedure savedefaultsettings;                           // save default setting
 begin
-  assignfile(tf,userdir+DIR_CONFIG+'tubes2.ini');
+  assignfile(tf,userdir+DIR_CONFIG+INIFILE);
   try
     rewrite(tf);
     writeln(tf,'; '+APPNAME+' v'+VERSION+' - Default settings');
@@ -166,8 +184,7 @@ begin
   end;
 end;
 
-//-- save settings -------------------------------------------------------------
-procedure TForm7.Button3Click(Sender: TObject);
+procedure TForm7.Button3Click(Sender: TObject);                 // save settings
 var
   ini: textfile;
 begin
@@ -178,14 +195,16 @@ begin
   frmmain.offline:=CheckBox1.Checked;
   frmmain.websearchurl:=Edit3.Text;
 
-  assignfile(ini,userdir+DIR_CONFIG+'tubes2.ini');
+  assignfile(ini,userdir+DIR_CONFIG+INIFILE);
   try
     rewrite(ini);
     writeln(ini,'; '+APPNAME+' v'+VERSION);
     writeln(ini,'');
     writeln(ini,'[General]');
-    write(  ini,'OffLineMode=');if offline=true then writeln(ini,'1') else writeln(ini,'0');
-    write(  ini,'NoCheckUpdate='); if nocheckupdate=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'OffLineMode=');
+    if offline=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'NoCheckUpdate=');
+    if nocheckupdate=true then writeln(ini,'1') else writeln(ini,'0');
     writeln(ini,'');
     writeln(ini,'[Applications]');
     writeln(ini,'Browser=',browserprogramme);
@@ -194,10 +213,22 @@ begin
     writeln(ini,'SearcherURL=',websearchurl);
     writeln(ini,'');
     writeln(ini,'[Display]');
-    write(  ini,'ShowLines='); if Form1.MenuItem50.Checked=true then writeln(ini,'1') else writeln(ini,'0');
-    write(  ini,'ShowDescription='); if Form1.MenuItem28.Checked=true then writeln(ini,'1') else writeln(ini,'0');
-    write(  ini,'CharDrawShowGrid='); if frmdrawer.grid=true then writeln(ini,'1') else writeln(ini,'0');
-    write(  ini,'CharDrawShowInfo='); if frmdrawer.header=true then writeln(ini,'1') else writeln(ini,'0');
+    write(  ini,'ShowLines=');
+    if Form1.MenuItem50.Checked=true
+      then writeln(ini,'1')
+      else writeln(ini,'0');
+    write(  ini,'ShowDescription=');
+    if Form1.MenuItem28.Checked=true
+      then writeln(ini,'1')
+      else writeln(ini,'0');
+    write(  ini,'CharDrawShowGrid=');
+    if frmdrawer.grid=true
+      then writeln(ini,'1')
+      else writeln(ini,'0');
+    write(  ini,'CharDrawShowInfo=');
+    if frmdrawer.header=true
+      then writeln(ini,'1')
+      else writeln(ini,'0');
     write(  ini,'CharDrawColour=',inttostr(displaycolors));
     closefile(ini);
   except
@@ -213,8 +244,7 @@ begin
   Form7.Close;
 end;
 
-//-- select browser programme --------------------------------------------------
-procedure TForm7.Button1Click(Sender: TObject);
+procedure TForm7.Button1Click(Sender: TObject);                // select browser
 begin
   OpenDialog1.InitialDir:=frmmain.userdir;
   OpenDialog1.Title:=MESSAGE09;
@@ -228,8 +258,7 @@ begin
   Edit1.Text:=OpenDialog1.FileName;
 end;
 
-//-- select mailer programme --------------------------------------------------
-procedure TForm7.Button2Click(Sender: TObject);
+procedure TForm7.Button2Click(Sender: TObject);                 // select mailer
 begin
   OpenDialog1.InitialDir:=frmmain.userdir;
   OpenDialog1.Title:=MESSAGE10;
@@ -243,30 +272,27 @@ begin
   Edit2.Text:=OpenDialog1.FileName;
 end;
 
-//-- close without save --------------------------------------------------------
-procedure TForm7.Button4Click(Sender: TObject);
+procedure TForm7.Button4Click(Sender: TObject);            // close without save
 begin
   Form7.Close;
 end;
 
-//-- set default values --------------------------------------------------------
-procedure TForm7.Button5Click(Sender: TObject);
+procedure TForm7.Button5Click(Sender: TObject);            // set default values
 begin
-  Edit1.Text:=defbrowser;
-  Edit2.Text:=defmailer;
+  Edit1.Text:=DEFBROWSER;
+  Edit2.Text:=DEFMAILER;
   CheckBox1.Checked:=false;
   CheckBox2.Checked:=false;
   ComboBox2.ItemIndex:=0; ComboBox2Change(Sender);
   ComboBox1.ItemIndex:=1; ComboBox1Change(Sender);
 end;
 
-//-- CheckBox change event -----------------------------------------------------
+//-- Change events -------------------------------------------------------------
 procedure TForm7.CheckBox1Change(Sender: TObject);
 begin
   CheckBox2.Enabled:=not CheckBox1.Checked;
 end;
 
-//-- ComboBox change events -----------------------------------------------------
 procedure TForm7.ComboBox1Change(Sender: TObject);
 begin
   Image1.Picture.Bitmap:= nil;
@@ -284,14 +310,6 @@ end;
 //-- OnShow event --------------------------------------------------------------
 procedure TForm7.FormShow(Sender: TObject);
 begin
-  {$IFDEF UNIX}
-    defbrowser:='xdg-open';
-    defmailer:='xdg-email';
-  {$ENDIF}
-  {$IFDEF WINDOWS}
-    defbrowser:='rundll32.exe url.dll,FileProtocolHandler';
-    defmailer:='rundll32.exe url.dll,FileProtocolHandler mailto:';
-  {$ENDIF}
   // general settings
   Edit1.Text:=frmmain.browserprogramme;
   if Edit1.Text='' then Edit1.Text:=defbrowser;

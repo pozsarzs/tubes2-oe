@@ -196,11 +196,13 @@ object Form10: TForm10
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 76
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 76
           end        
           item
@@ -225,6 +227,7 @@ object Form10: TForm10
               '16'
             )
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 77
           end>
         FixedColor = 16771033
@@ -307,11 +310,13 @@ object Form10: TForm10
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 82
           end        
           item
             Alignment = taRightJustify
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 82
           end        
           item
@@ -336,6 +341,7 @@ object Form10: TForm10
               '16'
             )
             Title.Alignment = taCenter
+            Title.Caption = 'Title'
             Width = 84
           end>
         FixedColor = 16771033
@@ -343,7 +349,7 @@ object Form10: TForm10
         Flat = True
         Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
         RowCount = 256
-        TabOrder = 2
+        TabOrder = 0
         OnSelection = StringGrid2Selection
         OnSetEditText = StringGrid2SetEditText
         ColWidths = (

@@ -23,16 +23,27 @@
 program tubes2oe;
 {$MODE OBJFPC}{$H+}
 uses
-  {$IFDEF UNIX}{$IFDEF UseCThreads}cthreads, {$ENDIF}{$ENDIF}
-  {$IFDEF UseFHS} unttranslator, {$ELSE} DefaultTranslator, {$ENDIF}
-  Dialogs, Forms, Interfaces, Sysutils,
+  Dialogs,
+  Forms,
+  Interfaces,
+  Sysutils,
   crt,
-  frmabout, frmconfig,  frmdrawer, frmmain, frmparsearch, frmprogressbar,
-  frmsort, frmsubst, frmtextview, frmupgrade;
+  // my forms
+  frmabout,
+  frmconfig,
+  frmdrawer,
+  frmmain,
+  frmparsearch,
+  frmprogressbar,
+  frmsort,
+  frmsubst,
+  frmtextview,
+  frmupgrade,
+  {$IFDEF UseFHS} unttranslator {$ELSE} DefaultTranslator {$ENDIF};
 var
-  fe, fn: string;
-  appmode: byte;
-  params: array[1..4,1..3] of string=
+  fe, fn: string;                                      // filename and extension
+  appmode: byte;                                               // operation mode
+  params: array[1..4,1..3] of string=                 // command line parameters
   (
     ('-d','--dontcheckupdate','on-line mode, but do not check updates'),
     ('-h','--help','show help'),
@@ -42,7 +53,7 @@ var
 
 {$R *.res}
 
-procedure help(mode: boolean);
+procedure help(mode: boolean);                          // write help to console
 var
  b: byte;
 begin
@@ -64,7 +75,7 @@ begin
   halt(0);
 end;
 
-procedure verinfo;
+procedure verinfo;             // write version and build information to console
 begin
   writeln(frmmain.APPNAME+' v'+frmmain.VERSION);
   writeln;
@@ -99,7 +110,7 @@ begin
     70: frmmain.cmdpoffline:=true;
     80: verinfo;
   end;
-  Application.Title:='Tubes2 Open edition';
+  Application.Title:=frmmain.APPNAME;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
   Application.CreateForm(TForm2, Form2);

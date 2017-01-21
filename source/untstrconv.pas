@@ -26,8 +26,8 @@ var
   s: widestring;
   b,bb: integer;
 const 
-  sign: array[1..2] of string = ('-+','+-');
-  mean: array[1..2] of char = ('<','>');
+  SIGN: array[1..2] of string = ('-+','+-');
+  MEAN: array[1..2] of char = ('<','>');
 
 function stringconverter(input: widestring): widestring;
 Function rmchr3(input: widestring): widestring;
@@ -40,9 +40,9 @@ begin
   for b:=1 to length(input) do
   begin
     for bb:=1 to 2 do
-     if input[b]+input[b+1]=sign[bb] then
+     if input[b]+input[b+1]=SIGN[bb] then
        begin
-         input[b]:=mean[bb];
+         input[b]:=MEAN[bb];
          input[b+1]:='@';
        end;
   end;
