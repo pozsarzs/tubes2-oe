@@ -639,6 +639,8 @@ end;
 procedure TForm10.ToolButton5Click(Sender: TObject);    // import table from CSV
 var
   filename: string;
+  k, kk: byte;
+  j: single;
 begin
   if unsaved
   then
@@ -661,6 +663,29 @@ begin
       else StringGrid2.LoadFromCSVFile(filename);
   except
     showmessage(MESSAGE14);
+  end;
+  if PageControl1.ActivePageIndex=0
+    then with StringGrid1 do
+         begin
+           while ColCount>3 do Columns.Delete(ColCount-1);
+           RowCount:=256;
+           Columns[0].Title.Caption:=MESSAGE33;
+           Columns[1].Title.Caption:=MESSAGE35;
+           Columns[2].Title.Caption:='#';
+           for k:=0 to 2 do
+             for kk:=1 to 255 do
+               if not checkvalues(k,Cells[k,kk]) then Cells[k,kk]:='';
+         end
+    else with StringGrid2 do
+         begin
+           while ColCount>3 do Columns.Delete(ColCount-1);
+           RowCount:=256;
+           Columns[0].Title.Caption:=MESSAGE34;
+           Columns[1].Title.Caption:=MESSAGE35;
+           Columns[2].Title.Caption:='#';
+           for k:=0 to 2 do
+             for kk:=1 to 255 do
+               if not checkvalues(k,Cells[k,kk]) then Cells[k,kk]:='';
   end;
 end;
 

@@ -24,8 +24,14 @@ unit frmsort;
 {$MODE OBJFPC}{$H+}
 interface
 uses
-  Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Buttons;
+  Buttons,
+  Classes,
+  Controls,
+  ExtCtrls,
+  Forms,
+  LResources,
+  StdCtrls,
+  SysUtils;
 type
   { TForm5 }
   TForm5 = class(TForm)
@@ -49,12 +55,13 @@ var
   s: string;
 
 implementation
+uses
+  frmmain;
+
 {$R *.lfm}
-uses frmmain;
 {TForm5}
 
-//-- start sort ----------------------------------------------------------------
-procedure TForm5.Button1Click(Sender: TObject);
+procedure TForm5.Button1Click(Sender: TObject);                    // start sort
 var
   i,j: integer;
 begin
@@ -80,13 +87,12 @@ begin
   Form1.StringGrid1.Row:=1;
 end;
 
-//-- close box -----------------------------------------------------------------
-procedure TForm5.Button2Click(Sender: TObject);
+procedure TForm5.Button2Click(Sender: TObject);                  // close window
 begin
   Form5.Close;
 end;
 
-//-- OnShow event --------------------------------------------------------------
+//-- Other event --------------------------------------------------------------
 procedure TForm5.FormShow(Sender: TObject);
 begin
   ComboBox1.Items.Clear;

@@ -194,7 +194,6 @@ type
     procedure MenuItem38Click(Sender: TObject);
     procedure MenuItem39Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
-    procedure MenuItem43Click(Sender: TObject);
     procedure MenuItem44Click(Sender: TObject);
     procedure MenuItem51Click(Sender: TObject);
     procedure MenuItem57Click(Sender: TObject);
@@ -240,14 +239,15 @@ var
   // general
   Form1: TForm1;
   bin: TFileStream;
-  firstload: boolean;                                              // first load
-  b, bb, bbb: byte;                                          // general variable
-  i: integer;                                                // general variable
-  n1, n2, n3, n4, n5: integer;                                      // XML nodes
-  s, ss, sss: string;                                          // general string
-  searchresult: searchrec;
-  tf: textfile;                                              // general textfile
+  b, bb, bbb: byte;
+  i: integer;
+  n1, n2, n3, n4, n5: integer;
+  s, ss, sss: string;
+  tf: textfile;
+  // other
   xmlfile: textfile;
+  searchresult: searchrec;
+  firstload: boolean;
   // settings
   cmdpnocheckupdate: boolean;                                // no check upgrade
   cmdpoffline: boolean;                                  // computer is off-line
@@ -380,8 +380,8 @@ implementation
 { TForm1 }
 
 //******************* GENERAL PROCEDURES AND FUNCTIONS 1. **********************
-//-- run browser ---------------------------------------------------------------
-procedure runbrowser(url: string);
+
+procedure runbrowser(url: string);                                // run browser
 begin
   if length(browserprogramme)=0
   then Form7.ShowModal else
@@ -395,8 +395,7 @@ begin
   end;
 end;
 
-//-- run mailer ----------------------------------------------------------------
-procedure runmailer(url: string);
+procedure runmailer(url: string);                                  // run mailer
 begin
   if length(mailerprogramme)=0
   then Form7.ShowModal else
@@ -410,8 +409,7 @@ begin
   end;
 end;
 
-//-- search new version of programme -------------------------------------------
-function searchnewprogversion: boolean;
+function searchnewprogversion: boolean;     // search new version of application
 var
   txt: TStringList;
   newversion: string;
@@ -449,8 +447,7 @@ begin
   txt.Free;
 end;
 
-//-- search new version of database --------------------------------------------
-function searchnewversion: boolean;
+function searchnewversion: boolean;            // search new version of database
 var
   b: byte;
   dbi, nvi, e: integer;
@@ -488,8 +485,8 @@ begin
 end;
 
 //****************************** FILE MENU *************************************
-// -- save to file -------------------------------------------------------------
-procedure TForm1.MenuItem12Click(Sender: TObject);
+
+procedure TForm1.MenuItem12Click(Sender: TObject);     // save datasheet to file
 var
   tfdir, tfname, tfext: shortstring;
 
@@ -642,20 +639,12 @@ begin
   end;
 end;
 
-// -- print datasheet ----------------------------------------------------------
-procedure TForm1.MenuItem43Click(Sender: TObject);
-begin
-  //print
-end;
-
-//-- open update window --------------------------------------------------------
-procedure TForm1.MenuItem13Click(Sender: TObject);
+procedure TForm1.MenuItem13Click(Sender: TObject);         // open update window
 begin
   Form6.ShowModal;
 end;
 
-//-- view package information --------------------------------------------------
-procedure TForm1.MenuItem60Click(Sender: TObject);
+procedure TForm1.MenuItem60Click(Sender: TObject);   // view package information
 begin
   Form8.Caption:=MESSAGE63;
   Form8.Memo1.Clear;
@@ -667,28 +656,25 @@ begin
   Form8.Show;
 end;
 
-//-- open settings window ------------------------------------------------------
-procedure TForm1.MenuItem15Click(Sender: TObject);
+procedure TForm1.MenuItem15Click(Sender: TObject);              // open settings
 begin
   Form7.ShowModal;
 end;
 
-//-- exit ----------------------------------------------------------------------
-procedure TForm1.MenuItem46Click(Sender: TObject);
+procedure TForm1.MenuItem46Click(Sender: TObject);                       // exit
 begin
   Form1.Close;
   Application.Terminate;
 end;
 
 //****************************** SEARCH MENU ***********************************
-//-- type search on internet ---------------------------------------------------
-procedure TForm1.MenuItem38Click(Sender: TObject);
+
+procedure TForm1.MenuItem38Click(Sender: TObject);    // type search on internet
 begin
   runbrowser(websearchurl+StringGrid1.Cells[0,StringGrid1.Row]);
 end;
 
-//-- type search ---------------------------------------------------------------
-procedure TForm1.MenuItem11Click(Sender: TObject);
+procedure TForm1.MenuItem11Click(Sender: TObject);                // type search
 begin
   s:=uppercase(StringGrid1.Cells[0,StringGrid1.Row]);
   if inputquery(MESSAGE04,MESSAGE25,s)=false then exit;
@@ -708,14 +694,12 @@ begin
   end;
 end;
 
-//-- parameter search ----------------------------------------------------------
-procedure TForm1.MenuItem5Click(Sender: TObject);
+procedure TForm1.MenuItem5Click(Sender: TObject);            // parameter search
 begin
   Form3.ShowModal;
 end;
 
-//-- search in all database ----------------------------------------------------
-procedure TForm1.MenuItem57Click(Sender: TObject);
+procedure TForm1.MenuItem57Click(Sender: TObject);     // search in all category
 var
   ftype, catnum: string;
 
@@ -782,65 +766,59 @@ begin
   end;
 end;
 
-//-- sort ----------------------------------------------------------------------
-procedure TForm1.MenuItem18Click(Sender: TObject);
+procedure TForm1.MenuItem18Click(Sender: TObject);                       // sort
 begin
   Form5.ShowModal;
 end;
 
 //****************************** VIEW MENU *************************************
-//-- open manufacturer's website -----------------------------------------------
-procedure TForm1.MenuItem44Click(Sender: TObject);
+
+procedure TForm1.MenuItem44Click(Sender: TObject); // open manufacturers website
 begin
   if frmmain.offline=false
   then runbrowser(cpws[StringGrid1.Row])
   else showmessage(MESSAGE51);
 end;
 
-//-- open datasheet ------------------------------------------------------------
-procedure TForm1.MenuItem51Click(Sender: TObject);
+procedure TForm1.MenuItem51Click(Sender: TObject);             // open datasheet
 begin
   if frmmain.offline=false
   then runbrowser(cpwd[StringGrid1.Row])
   else showmessage(MESSAGE51);
 end;
 
-//-- auto fill -----------------------------------------------------------------
-procedure TForm1.MenuItem9Click(Sender: TObject);
+procedure TForm1.MenuItem9Click(Sender: TObject);                   // auto fill
 begin
   StringGrid1.AutoFillColumns:=true;
   StringGrid1.AutoFillColumns:=false;
 end;
 
-//-- auto column size ----------------------------------------------------------
-procedure TForm1.MenuItem14Click(Sender: TObject);
+procedure TForm1.MenuItem14Click(Sender: TObject);           // auto column size
 begin
   StringGrid1.AutoSizeColumns;
 end;
 
 //**************************** BOOKMARKS MENU **********************************
-//-- show bookmarks ------------------------------------------------------------
-procedure TForm1.MenuItem64Click(Sender: TObject);
+
+procedure TForm1.MenuItem64Click(Sender: TObject);             // show bookmarks
 begin
   TabSheet4.Show;
   TabSheet4.SetFocus;
 end;
 
-//-- add type to bookmark ------------------------------------------------------
-procedure TForm1.MenuItem66Click(Sender: TObject);
+procedure TForm1.MenuItem66Click(Sender: TObject);       // add type to bookmark
 begin
   ListBox1.Items.Add(StringGrid1.Cells[0,StringGrid1.Row]);
 end;
 
 //****************************** TOOLS MENU ************************************
-// -- open characteristic drawer window ----------------------------------------
-procedure TForm1.MenuItem41Click(Sender: TObject);
+
+procedure TForm1.MenuItem41Click(Sender: TObject); // open characteristic drawer
 begin
   Form10.Show;
 end;
 
-// -- open type substitution window --------------------------------------------
-procedure TForm1.MenuItem35Click(Sender: TObject);
+procedure TForm1.MenuItem35Click(Sender: TObject);     // open type substitution
 begin
   Form11.Show;
 end;
@@ -881,35 +859,31 @@ begin
 end;
 
 //****************************** HELP MENU *************************************
-//-- show help -----------------------------------------------------------------
-procedure TForm1.MenuItem4Click(Sender: TObject);
+
+procedure TForm1.MenuItem4Click(Sender: TObject);           // show help content
 begin
   ShowHelpOrErrorForKeyword('','HTML/index.html');
 end;
 
-//-- send a bugreport ----------------------------------------------------------
-procedure TForm1.MenuItem31Click(Sender: TObject);
+procedure TForm1.MenuItem31Click(Sender: TObject);           // send a bugreport
 begin
   if lang='hu' then runbrowser(URL_BUGREPORT_HU)
   else runbrowser(URL_BUGREPORT);
 end;
 
-//-- order commercial release --------------------------------------------------
-procedure TForm1.MenuItem39Click(Sender: TObject);
+procedure TForm1.MenuItem39Click(Sender: TObject);   // order commercial release
 begin
   if lang='hu' then runbrowser(URL_ORDER_HU)
   else runbrowser(URL_ORDER);
 end;
 
- //-- open homepage -------------------------------------------------------------
-procedure TForm1.MenuItem62Click(Sender: TObject);
+procedure TForm1.MenuItem62Click(Sender: TObject);              // open homepage
 begin
   if lang='hu' then runbrowser(URL_HOMEPAGE_HU)
   else runbrowser(URL_HOMEPAGE);
 end;
 
-//-- view licence --------------------------------------------------------------
-procedure TForm1.MenuItem61Click(Sender: TObject);
+procedure TForm1.MenuItem61Click(Sender: TObject);               // view licence
 begin
   Form8.Caption:=MESSAGE67;
   Form8.Memo1.Clear;
@@ -921,15 +895,14 @@ begin
   Form8.Show;
 end;
 
-//-- show about ----------------------------------------------------------------
-procedure TForm1.MenuItem7Click(Sender: TObject);
+procedure TForm1.MenuItem7Click(Sender: TObject);                  // show about
 begin
   Form2.ShowModal;
 end;
 
 //****************************** POPUP MENU 1 **********************************
-//-- show/hide stringgrids lines -----------------------------------------------
-procedure TForm1.MenuItem50Click(Sender: TObject);
+
+procedure TForm1.MenuItem50Click(Sender: TObject);             // show/hide grid
 begin
   MenuItem50.Checked:=not MenuItem50.Checked;
   MenuItem48.Checked:=MenuItem50.Checked;
@@ -939,23 +912,22 @@ begin
 end;
 
 //****************************** POPUP MENU 2 **********************************
-//-- copy pinout to clipboard --------------------------------------------------
-procedure TForm1.MenuItem20Click(Sender: TObject);
+
+procedure TForm1.MenuItem20Click(Sender: TObject);   // copy pinout to clipboard
 begin
   Memo1.SelectAll;
   Memo1.CopyToClipboard;
 end;
 
 //****************************** POPUP MENU 3 **********************************
-//-- copy description to clipboard ---------------------------------------------
-procedure TForm1.MenuItem26Click(Sender: TObject);
+
+procedure TForm1.MenuItem26Click(Sender: TObject);   // copy descr. to clipboard
 begin
   Memo2.SelectAll;
   Memo2.CopyToClipboard;
 end;
 
-//-- show/hide description -----------------------------------------------------
-procedure TForm1.MenuItem28Click(Sender: TObject);
+procedure TForm1.MenuItem28Click(Sender: TObject);      // show/hide description
 begin
   MenuItem28.Checked:=not MenuItem28.Checked;
   MenuItem30.Checked:=MenuItem28.Checked;
