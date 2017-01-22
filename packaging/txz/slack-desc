@@ -1,13 +1,12 @@
-            |-----handy-ruler-----------------------------------|
-tubes2-trial: Tubes2 trial - electrontube catalog 
-tubes2-trial: This is an electrontube catalogue. Its database
-tubes2-trial: contents base type, pin-out and some parameters of
-tubes2-trial: components. This is a trial version: you can try
-tubes2-trial: out it for free, but if you decide to keep and use
-tubes2-trial: it you must register. You can redistribute this
-tubes2-trial: version and/or modify it under the terms of the
-tubes2-trial: GNU GPL 3.0 or later.
-tubes2-trial:
-tubes2-trial: Homepage: http://www.pozsarzs.hu/tubes/tubes.html 
-tubes2-trial: Package created by: Pozsar Zsolt
-
+        |-----handy-ruler-----------------------------------|
+tubes2oe: This is an electrontube catalogue application.
+tubes2oe: This is open source version of Tubes2 commercial
+tubes2oe: software. Different between both software is
+tubes2oe: database update rate only. Its database contents
+tubes2oe: base type, pin-out and some parameters of
+tubes2oe: components. Application contains characteristic
+tubes2oe: drawer tool. You can redistribute this version
+tubes2oe: and/or modify it under the terms of the GNU GPL 3.0
+tubes2oe: or later.
+tubes2oe: Homepage: http://www.pozsarzs.hu/tubes/tubes_en.html 
+tubes2oe: Package created by: Pozsar Zsolt
