@@ -1,14 +1,15 @@
-Package: tubes2-trial
-Version: 2.1
+Package: tubes2oe
+Version: 2.2
 Section: electronics
 Priority: extra
 Architecture: i386
-Installed-Size: 13 MB
+Installed-Size: 14 MB
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Depends: libc6, libglib2.0-0, libgtk2.0-0
-Description: This is an electrontube catalogue.
- Its database contents base type, pin-out and some parameters of components.
- This is a trial version: you can try out it with 'trial' version for free, but
- if you decide to keep and use it you must register. You can redistribute this
- version and/or modify it under the terms of the GNU GPL 3.0 or later.
-
+Description: This is an electrontube catalogue application.
+ This is open source version of Tubes2 commercial software.
+ Different between both software is database update rate only.
+ Its database contents base type, pin-out and some parameters
+ of components. Application contains tube characteristic
+ drawer tool. You can redistribute this version and/or modify
+ it under the terms of the GNU GPL 3.0 or later.

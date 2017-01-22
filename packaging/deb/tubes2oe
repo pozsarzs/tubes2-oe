@@ -1,0 +1,2 @@
+?package(tubes2oe):needs="X11" section="Applications/Science/Electronics"\
+        title="Tubes2 OE" icon="/usr/share/pixmaps/tubes2oe.xpm" command="/usr/bin/tubes2oe"

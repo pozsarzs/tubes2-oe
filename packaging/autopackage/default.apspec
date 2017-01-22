@@ -1,58 +1,58 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.1 trial * Electrontube catalogue                                  |
-# | Copyright (C) 2008-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 2.2 Open edition * Electrontube catalogue                           |
+# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | default.apspec                                                             |
 # | apspec file for autopackage                                                |
 # +----------------------------------------------------------------------------+
 
 [Meta]
-RootName: @pozsarzs.hu/tubes2trial:$SOFTWAREVERSION
-DisplayName: Electrontube catalogue - trial version
-ShortName: tubes2-trial
+RootName: @pozsarzs.hu/tubes2oe:$SOFTWAREVERSION
+DisplayName: Electrontube catalogue
+ShortName: tubes2oe
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Packager: Pozsar Zsolt <pozsarzs@gmail.com>
-Summary: Electrontube catalogue - trial version.
-URL: http://www.pozsarzs.hu/tubes/tubes.html
+Summary: Electrontube catalogue
+URL: http://www.pozsarzs.hu/tubes/tubes_en.html
 License: GNU General Public License, Version 3 or later
-SoftwareVersion: 2.1
-Repository: http://www.pozsarzs.hu/tubes/tubes2trial.xml
+SoftwareVersion: 2.2
+Repository: http://www.pozsarzs.hu/tubes/tubes2oe.xml
 AutopackageTarget: 1.2
 
 [BuildPrepare]
 # documents
 echo $build_root
-mkdir --parent $build_root/share/tubes2-trial/documents/hu
-cp $source_dir/documents/* $build_root/share/tubes2-trial/documents/
-cp $source_dir/documents/hu/* $build_root/share/tubes2-trial/documents/hu/
+mkdir --parent $build_root/share/tubes2oe/documents/hu
+cp $source_dir/documents/* $build_root/share/tubes2oe/documents/
+cp $source_dir/documents/hu/* $build_root/share/tubes2oe/documents/hu/
+mkdir --parent $build_root/share/tubes2oe/documents/sample
+cp $source_dir/documents/sample/* $build_root/share/tubes2oe/documents/sample/
 # help
-mkdir --parent $build_root/share/tubes2-trial/help/help_en/pics
-mkdir --parent $build_root/share/tubes2-trial/help/help_hu/pics
-cp $source_dir/help/help_en/* $build_root/share/tubes2-trial/help/help_en/
-cp $source_dir/help/help_en/pics/* $build_root/share/tubes2-trial/help/help_en/pics/
-cp $source_dir/help/help_hu/* $build_root/share/tubes2-trial/help/help_hu/
-cp $source_dir/help/help_hu/pics/* $build_root/share/tubes2-trial/help/help_hu/pics/
+mkdir --parent $build_root/share/tubes2oe/help/help_en
+mkdir --parent $build_root/share/tubes2oe/help/help_hu
+cp $source_dir/help/help_en/* $build_root/share/tubes2oe/help/help_en/
+cp $source_dir/help/help_hu/* $build_root/share/tubes2oe/help/help_hu/
 # locales
-mkdir --parent $build_root/share/tubes2-trial/languages/hu
-cp $source_dir/languages/* $build_root/share/tubes2-trial/languages/
-cp $source_dir/languages/hu/* $build_root/share/tubes2-trial/languages/hu/
+mkdir --parent $build_root/share/tubes2oe/languages/hu
+cp $source_dir/languages/* $build_root/share/tubes2oe/languages/
+cp $source_dir/languages/hu/* $build_root/share/tubes2oe/languages/hu/
 # library
-mkdir --parent $build_root/share/tubes2-trial/library/base
-mkdir --parent $build_root/share/tubes2-trial/library/library_en
-mkdir --parent $build_root/share/tubes2-trial/library/library_hu
-cp $source_dir/library/* $build_root/share/tubes2-trial/library/
-cp $source_dir/library/base/* $build_root/share/tubes2-trial/library/base/
-cp $source_dir/library/library_en/* $build_root/share/tubes2-trial/library/library_en/
-cp $source_dir/library/library_hu/* $build_root/share/tubes2-trial/library/library_hu/
+mkdir --parent $build_root/share/tubes2oe/library/base
+mkdir --parent $build_root/share/tubes2oe/library/library_en
+mkdir --parent $build_root/share/tubes2oe/library/library_hu
+cp $source_dir/library/* $build_root/share/tubes2oe/library/
+cp $source_dir/library/base/* $build_root/share/tubes2oe/library/base/
+cp $source_dir/library/library_en/* $build_root/share/tubes2oe/library/library_en/
+cp $source_dir/library/library_hu/* $build_root/share/tubes2oe/library/library_hu/
 # manuals
-mkdir --parent $build_root/share/tubes2-trial/manual
-cp $source_dir/manual/* $build_root/share/tubes2-trial/manual/
+mkdir --parent $build_root/share/tubes2oe/manual
+cp $source_dir/manual/* $build_root/share/tubes2oe/manual/
 # other files
-cp $source_dir/tubes2trial $build_root/share/tubes2-trial/
-cp $source_dir/README $build_root/share/tubes2-trial/README
+cp $source_dir/tubes2oe $build_root/share/tubes2oe/
+cp $source_dir/README $build_root/share/tubes2oe/README
 mkdir --parent $build_root/share/application/
-cp $source_dir/tubes2trial.desktop $build_root/share/application/
+cp $source_dir/tubes2oe.desktop $build_root/share/application/
 mkdir --parent $build_root/share/pixmaps/
-cp $source_dir/tubes2trial.xpm $build_root/share/pixmaps/
+cp $source_dir/tubes2oe.xpm $build_root/share/pixmaps/
 
 [BuildUnprepare]
 unprepareBuild
@@ -65,17 +65,19 @@ echo 'share/' | import
 require @xfree86.org/xlib 6.0
 
 [Install]
-installData share/tubes2-trial
+installData share/tubes2oe
 outputStatus "$intl_INSTALLING_EXE"
-linkFile --silent $PREFIX/share/tubes2-trial/tubes2trial $PREFIX/bin/tubes2trial
-linkFile --silent $PREFIX/share/manual/tubes2trial_en.7 $PREFIX/share/man/man7/tubes2trial.7
-linkFile --silent $PREFIX/share/manual/tubes2trial_hu.7 $PREFIX/share/man/hu/man7/tubes2trial.7
+linkFile --silent $PREFIX/share/tubes2oe/tubes2oe $PREFIX/bin/tubes2oe
+linkFile --silent $PREFIX/share/manual/tubes2oe_en.1 $PREFIX/share/man/man1/tubes2oe.1
+linkFile --silent $PREFIX/share/manual/tubes2oe_hu.1 $PREFIX/share/man/hu/man1/tubes2oe.1
 linkFile --silent $PREFIX/share/manual/xedf_en.5 $PREFIX/share/man/man5/xedf.5
 linkFile --silent $PREFIX/share/manual/xedf_hu.5 $PREFIX/share/man/hu/man5/xedf.5
 linkFile --silent $PREFIX/share/manual/cxedf_en.5 $PREFIX/share/man/man5/cxedf.5
 linkFile --silent $PREFIX/share/manual/cxedf_hu.5 $PREFIX/share/man/hu/man5/cxedf.5
-installDesktop "Application/Electronics" share/application/tubes2trial.desktop
-installIcon share/pixmaps/tubes2trial.xpm
+linkFile --silent $PREFIX/share/manual/t2c_en.5 $PREFIX/share/man/man5/t2c.5
+linkFile --silent $PREFIX/share/manual/t2c_hu.5 $PREFIX/share/man/hu/man5/t2c.5
+installDesktop "Application/Electronics" share/application/tubes2oe.desktop
+installIcon share/pixmaps/tubes2oe.xpm
 
 [Uninstall]
 # Usually just the following line is enough to uninstall everything

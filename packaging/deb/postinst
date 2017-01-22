@@ -2,8 +2,11 @@
 set -e
 # Automatically added by dh_installdocs
 if [ "$1" = "configure" ]; then
-  if [ -d /usr/doc -a ! -e /usr/doc/tubes2trial -a -d /usr/share/doc/tubes2-trial ]; then
-    ln -sf /usr/share/doc/tubes2trial /usr/doc/tubes2trial
+  if [ -d /usr/doc -a ! -e /usr/doc/tubes2oe -a -d /usr/share/doc/tubes2-oe ]; then
+    ln -sf /usr/share/doc/tubes2oe /usr/doc/tubes2oe
   fi
+fi
+if [ -x update-menus ]; then
+  update-menus
 fi
 # End automatically added section
