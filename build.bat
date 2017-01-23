@@ -1,6 +1,6 @@
 @echo off
 rem ----------------------------------------------------------------------------
-rem  Tubes2 Open edition 0.2 * Electrontube catalogue
+rem  Tubes2 Open edition 2.2 * Electrontube catalogue
 rem  Copyright (C) 2008-2017 Pozsar Zsolt pozsarzs@gmail.com
 rem  build.bat
 rem  Utility for build/install/uninstall application on Windows
@@ -8,7 +8,7 @@ rem ----------------------------------------------------------------------------
 
 set PPC=c:\lazarus\fpc\2.6.4\bin\i386-win32\ppc386.exe
 set LAZ=c:\lazarus\
-set NAME=Tubes2oe
+set NAME="Tubes2 OE"
 set /p VERSION=<documents\VERSION
 set OS=win32
 set ARCH=i386
@@ -41,7 +41,7 @@ if not exist "%LAZ%" ( echo Error: Folder not found! & goto end )
 set FPFLAG1=-TWin32 -MObjFPC -Scgi -O1 -ve -WG
 set FPFLAG2=-Fu%LAZ%\lcl\units\%ARCH%-%OS% -Fu%LAZ%\lcl\units\%ARCH%-%OS%\%OS%
 set FPFLAG3=-Fu%LAZ%\components\lazutils\lib\%ARCH%-%OS% -Fu. -Fu.\lib\%ARCH%-%OS%
-set FPFLAG4=-FE.\lib\%ARCH%-%OS% -dLCL -dLCLwin32 -Fu.\synapse -Fu.\modules
+set FPFLAG4=-FE.\lib\%ARCH%-%OS% -dLCL -dLCLwin32 -Fu.\synapse
 set FPFLAG5=-Fu%LAZ%\components\printers\lib\%ARCH%-%OS%\%OS%
 set FPFLAG6=-Fu%LAZ%\components\cairocanvas\lib\%ARCH%-%OS%\%OS%
 set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
@@ -49,6 +49,7 @@ set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
 cd source
 echo Compiling source code...
 echo.
+copy config.inc.in config.inc
 %PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% tubes2oe.lpr
 echo.
 if errorlevel 0 echo Run 'build.bat install' to install application.

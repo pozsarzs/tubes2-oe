@@ -5426,11 +5426,11 @@ object Form2: TForm2
     Left = 13
     Height = 25
     Top = 16
-    Width = 57
+    Width = 177
     Caption = 'Label1'
-    Font.CharSet = ANSI_CHARSET
+    Font.CharSet = 19
     Font.Color = clMaroon
-    Font.Height = 14
+    Font.Height = 16
     Font.Name = '-adobe-helvetica-*-*-*-*-*-140-*-*-*-*-iso8859-2'
     Font.Pitch = fpVariable
     Font.Style = [fsBold]
