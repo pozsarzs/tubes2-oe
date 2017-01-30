@@ -48,6 +48,7 @@ set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
 
 cd source
 echo Compiling source code...
+copy config.inc.in config.inc
 echo.
 %PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% tubes2oe.lpr
 echo.
