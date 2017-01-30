@@ -1,6 +1,6 @@
 { +--------------------------------------------------------------------------+ }
-{ | Tubes2 Open edition 2.2 * Electrontube catalogue                         | }
-{ | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | Tubes2 Open edition 2.2 * Electron tube catalog                          | }
+{ | Copyright (C) 2008-2017 Pozsar Zsolt <info@pozsarzs.hu>                  | }
 { | frmtextview.pas                                                          | }
 { | Text viewer                                                              | }
 { +--------------------------------------------------------------------------+ }
