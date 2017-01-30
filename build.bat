@@ -8,7 +8,7 @@ rem ----------------------------------------------------------------------------
 
 set PPC=c:\lazarus\fpc\2.6.4\bin\i386-win32\ppc386.exe
 set LAZ=c:\lazarus\
-set NAME=Tubes2oe
+set NAME=tubes2oe
 set /p VERSION=<documents\VERSION
 set OS=win32
 set ARCH=i386
@@ -80,6 +80,7 @@ md %INSTDIR%
 if not errorlevel 0 ( echo Error: cannot install application! & goto end )
 md %INSTDIR%\documents
 copy /y documents\*.* %INSTDIR%\documents\
+ren %INSTDIR%\documents\COPYING COPYING.txt
 del /q %INSTDIR%\documents\Makefile
 md %INSTDIR%\documents\hu
 copy /y documents\hu\*.* %INSTDIR%\documents\hu\
@@ -89,15 +90,26 @@ copy /y languages\*.pot %INSTDIR%\languages\
 md %INSTDIR%\languages\hu
 copy /y languages\%NAME%_hu.mo %INSTDIR%\languages\hu\%NAME%.mo
 del /q %INSTDIR%\languages\Makefile
-md %INSTDIR%\figures
-copy /y figures\*.* %INSTDIR%\figures\
-del /q %INSTDIR%\figures\Makefile
+md %INSTDIR%\library
+md %INSTDIR%\library\base
+md %INSTDIR%\library\library_en
+md %INSTDIR%\library\library_hu
+copy /y library\base\*.* %INSTDIR%\library\base\
+copy /y library\library_en\*.* %INSTDIR%\library\library_en\
+copy /y library\library_hu\*.* %INSTDIR%\library\library_hu\
+copy /y library\*.csv %INSTDIR%\library\
+copy /y library\*.dat %INSTDIR%\library\
+del /q %INSTDIR%\library\Makefile
 md %INSTDIR%\help
-copy /y help\*.html %INSTDIR%\help\
-copy /y help\*.css %INSTDIR%\help\
+md %INSTDIR%\help\help_en
+copy /y help\help_en\*.html %INSTDIR%\help\help_en\
+copy /y help\help_en\*.css %INSTDIR%\help\help_en\
+md %INSTDIR%\help\help_hu
+copy /y help\help_hu\*.html %INSTDIR%\help\help_hu\
+copy /y help\help_hu\*.css %INSTDIR%\help\help_hu\
 copy /y README*.* %INSTDIR%\
 copy /y source\lib\%ARCH%-%OS%\*.exe %INSTDIR%\
-config\mkshortcut.vbs /target:%INSTDIR%\%NAME%.exe /shortcut:%USERPROFILE%\desktop\Power Supplies
+config\mkshortcut.vbs /target:%INSTDIR%\%NAME%.exe /shortcut:%USERPROFILE%\desktop\Tubes2oe"
 echo.
 echo Run 'build.bat uninstall' if you remove this application.
 goto end
@@ -110,7 +122,7 @@ echo Check application's folder: %INSTDIR%
 if not exist "%INSTDIR%" ( echo Error: bad folder name in install.log file, cannot uninstall application! & goto end )
 echo Removing application...
 rd /s %INSTDIR%
-del /q %USERPROFILE%\desktop\Power Supplies.lnk
+del /q %USERPROFILE%\desktop\Tubes2oe.lnk
 goto end
 
 :end
