@@ -18,8 +18,8 @@ install:
 	@for x in $(languages); do \
 	  if [ -e $(name)_$$x.mo ]; \
 	  then \
-	    $(install) --directory $(localedir)/$$x/LC_MESSAGES; \
-	    $(install) --mode $(txtmode) $(name)_$$x.mo $(localedir)/$$x/LC_MESSAGES; \
+	    $(install) -d $(localedir)/$$x/LC_MESSAGES; \
+	    $(install) -m $(txtmode) $(name)_$$x.mo $(localedir)/$$x/LC_MESSAGES; \
 	    mv $(localedir)/$$x/LC_MESSAGES/$(name)_$$x.mo $(localedir)/$$x/LC_MESSAGES/$(name).mo ; \
 	  fi; \
 	done

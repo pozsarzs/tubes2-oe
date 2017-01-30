@@ -18,40 +18,40 @@ install:
 	@for x in $(languages); do \
 	  if [ -e $(name)_$$x.1 ]; \
 	  then \
-	    $(install) --directory $(mandir)/$$x/man1; \
-	    $(install) --mode $(txtmode) $(name)_$$x.1 $(mandir)/$$x/man1; \
+	    $(install) -d $(mandir)/$$x/man1; \
+	    $(install) -m $(txtmode) $(name)_$$x.1 $(mandir)/$$x/man1; \
 	    mv $(mandir)/$$x/man1/$(name)_$$x.1 $(mandir)/$$x/man1/$(name).1 ; \
 	  fi; \
 	done
-	@$(install) --directory $(mandir)/man1;
+	@$(install) -d $(mandir)/man1;
 	@mv $(mandir)/en/man1/* $(mandir)/man1
 	@rmdir $(mandir)/en/man1/
 	@rmdir $(mandir)/en
 	@for x in $(languages); do \
 	  if [ -e xedf_$$x.5 ]; \
 	  then \
-	    $(install) --directory $(mandir)/$$x/man5; \
-	    $(install) --mode $(txtmode) xedf_$$x.5 $(mandir)/$$x/man5; \
+	    $(install) -d $(mandir)/$$x/man5; \
+	    $(install) -m $(txtmode) xedf_$$x.5 $(mandir)/$$x/man5; \
 	    mv $(mandir)/$$x/man5/xedf_$$x.5 $(mandir)/$$x/man5/xedf.5 ; \
 	  fi; \
 	done
 	@for x in $(languages); do \
 	  if [ -e cxedf_$$x.5 ]; \
 	  then \
-	    $(install) --directory $(mandir)/$$x/man5; \
-	    $(install) --mode $(txtmode) cxedf_$$x.5 $(mandir)/$$x/man5; \
+	    $(install) -d $(mandir)/$$x/man5; \
+	    $(install) -m $(txtmode) cxedf_$$x.5 $(mandir)/$$x/man5; \
 	    mv $(mandir)/$$x/man5/cxedf_$$x.5 $(mandir)/$$x/man5/cxedf.5 ; \
 	  fi; \
 	done
 	@for x in $(languages); do \
 	  if [ -e t2c_$$x.5 ]; \
 	  then \
-	    $(install) --directory $(mandir)/$$x/man5; \
-	    $(install) --mode $(txtmode) t2c_$$x.5 $(mandir)/$$x/man5; \
+	    $(install) -d $(mandir)/$$x/man5; \
+	    $(install) -m $(txtmode) t2c_$$x.5 $(mandir)/$$x/man5; \
 	    mv $(mandir)/$$x/man5/t2c_$$x.5 $(mandir)/$$x/man5/t2c.5 ; \
 	  fi; \
 	done
-	@$(install) --directory $(mandir)/man5;
+	@$(install) -d $(mandir)/man5;
 	@mv $(mandir)/en/man5/* $(mandir)/man5
 	@rmdir $(mandir)/en/man5/
 	@rmdir $(mandir)/en

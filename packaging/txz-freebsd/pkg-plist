@@ -1,4 +1,12 @@
 bin/tubes2oe
+man/hu/man1/tubes2oe.1.gz
+man/hu/man5/cxedf.5.gz
+man/hu/man5/t2c.5.gz
+man/hu/man5/xedf.5.gz
+man/man1/tubes2oe.1.gz
+man/man5/cxedf.5.gz
+man/man5/t2c.5.gz
+man/man5/xedf.5.gz
 share/applications/tubes2oe.desktop
 share/doc/tubes2oe/AUTHORS
 share/doc/tubes2oe/ChangeLog
@@ -10,14 +18,6 @@ share/doc/tubes2oe/sample/sample-triode-2.csv
 share/doc/tubes2oe/sample/sample-triode.t2c
 share/doc/tubes2oe/VERSION
 share/locale/hu/LC_MESSAGES/tubes2oe.mo
-share/man/hu/man1/tubes2oe.1.gz
-share/man/hu/man5/cxedf.5.gz
-share/man/hu/man5/t2c.5.gz
-share/man/hu/man5/xedf.5.gz
-share/man/man1/tubes2oe.1.gz
-share/man/man5/cxedf.5.gz
-share/man/man5/t2c.5.gz
-share/man/man5/xedf.5.gz
 share/pixmaps/tubes2oe.xpm
 share/tubes2oe/base/a10.png
 share/tubes2oe/base/a8.png

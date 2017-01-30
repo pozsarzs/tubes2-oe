@@ -13,10 +13,10 @@ clean:
 
 install:
 	@echo -n "- Installing help files..."
-	@$(install) --directory $(datarootdir)/$(name)/help_en
-	@$(install) --directory $(datarootdir)/$(name)/help_hu
-	@$(install) --mode $(txtmode) help_en/*.html $(datarootdir)/$(name)/help_en/
-	@$(install) --mode $(txtmode) help_hu/*.html $(datarootdir)/$(name)/help_hu/
+	@$(install) -d $(datarootdir)/$(name)/help_en
+	@$(install) -d $(datarootdir)/$(name)/help_hu
+	@$(install) -m $(txtmode) help_en/*.html $(datarootdir)/$(name)/help_en/
+	@$(install) -m $(txtmode) help_hu/*.html $(datarootdir)/$(name)/help_hu/
 	@echo "done."
 
 uninstall:

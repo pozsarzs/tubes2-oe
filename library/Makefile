@@ -13,14 +13,14 @@ clean:
 
 install:
 	@echo -n "- Installing datafiles..."
-	@$(install) --directory $(datarootdir)/$(name)/library_en
-	@$(install) --directory $(datarootdir)/$(name)/library_hu
-	@$(install) --directory $(datarootdir)/$(name)/base
-	@$(install) --mode $(txtmode) library_en/* $(datarootdir)/$(name)/library_en/
-	@$(install) --mode $(txtmode) library_hu/* $(datarootdir)/$(name)/library_hu/
-	@$(install) --mode $(txtmode) base/* $(datarootdir)/$(name)/base/
-	@$(install) --mode $(txtmode) index.csv $(datarootdir)/$(name)/
-	@$(install) --mode $(txtmode) subst.dat $(datarootdir)/$(name)/
+	@$(install) -d $(datarootdir)/$(name)/library_en
+	@$(install) -d $(datarootdir)/$(name)/library_hu
+	@$(install) -d $(datarootdir)/$(name)/base
+	@$(install) -m $(txtmode) library_en/* $(datarootdir)/$(name)/library_en/
+	@$(install) -m $(txtmode) library_hu/* $(datarootdir)/$(name)/library_hu/
+	@$(install) -m $(txtmode) base/* $(datarootdir)/$(name)/base/
+	@$(install) -m $(txtmode) index.csv $(datarootdir)/$(name)/
+	@$(install) -m $(txtmode) subst.dat $(datarootdir)/$(name)/
 	@echo "done."
 
 uninstall:
