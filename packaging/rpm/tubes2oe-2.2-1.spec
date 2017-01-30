@@ -1,18 +1,18 @@
 Group: Sciences/Other
 License: GPL
 Name: tubes2oe
-Packager: Pozsar Zsolt <pozsarzs@gmail.com>
+Packager: Pozsar Zsolt <info@pozsarzs.hu>
 Release: 1
-Summary: Electrontube catalog
+Summary: Electron tube catalog
 Url: http://www.pozsarzs.hu/tubes/tubes_en.html
 Vendor: Pozsar Zsolt
 Version: 2.2
 
 %description
-This is an electrontube catalogue application.
+This is an electron tube catalog application.
 This is open source version of Tubes2 commercial software.
 Different between both software is database update rate only.
-Its database contents base type, pin-out and some parameters
+Its database contents base pin-out and some parameters
 of components. Application contains tube characteristic
 drawer tool. You can redistribute this version and/or modify
 it under the terms of the GNU GPL 3.0 or later.
@@ -20,12 +20,10 @@ it under the terms of the GNU GPL 3.0 or later.
 %files
 /usr/share/applications/tubes2oe.desktop
 /usr/share/doc/tubes2oe/VERSION
-/usr/share/doc/tubes2oe/hu/ordrform.txt
 /usr/share/doc/tubes2oe/hu/README
 /usr/share/doc/tubes2oe/sample/sample-triode.t2c
 /usr/share/doc/tubes2oe/sample/sample-triode-2.csv
 /usr/share/doc/tubes2oe/sample/sample-triode-1.csv
-/usr/share/doc/tubes2oe/ordrform.txt
 /usr/share/doc/tubes2oe/README
 /usr/share/doc/tubes2oe/AUTHORS
 /usr/share/doc/tubes2oe/COPYING

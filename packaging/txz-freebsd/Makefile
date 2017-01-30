@@ -1,12 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	r-circuits
-PORTVERSION=	0.4.1
+PORTNAME=	tubes2oe
+PORTVERSION=	2.2
 CATEGORIES=	science
 MASTER_SITES=	http://www.pozsarzs.hu/sources/
 
-MAINTAINER=	pozsarzs@gmail.com
-COMMENT=	R-circuit calculator application
+MAINTAINER=	info@pozsarzs.hu
+COMMENT=	Electron tube catalog
 
 GNU_CONFIGURE=	yes
 

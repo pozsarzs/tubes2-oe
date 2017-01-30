@@ -1,8 +1,12 @@
-R-circuits
-R-circuit calculator application
-You can redistribute and/or modify it under the
-terms of the EUPL v1.1.
+Tubes2 Open edition
+This is an electron tube catalog application.
+This is open source version of Tubes2 commercial
+software. Different between both software is
+database update rate only. Its database contents
+base pin-out and some parameters of components.
+Application contains characteristic drawer tool.
+You can redistribute this version and/or modify it
+under the terms of the GNU GPL 3.0 or later.
 
-Homepage: http://www.pozsarzs.hu/en/
+Homepage: http://www.pozsarzs.hu/tubes/tubes_en.html 
 Package created by: Pozsar Zsolt
-
