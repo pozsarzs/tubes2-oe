@@ -3,13 +3,13 @@ Version: 2.2
 Section: electronics
 Priority: extra
 Architecture: i386
-Installed-Size: 14 MB
-Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
+Installed-Size: 13 MB
+Maintainer: Pozsar Zsolt <info@pozsarzs.hu>
 Depends: libc6, libglib2.0-0, libgtk2.0-0
 Description: This is an electrontube catalogue application.
  This is open source version of Tubes2 commercial software.
  Different between both software is database update rate only.
- Its database contents base type, pin-out and some parameters
+ Its database contents base pin-out and some parameters
  of components. Application contains tube characteristic
  drawer tool. You can redistribute this version and/or modify
  it under the terms of the GNU GPL 3.0 or later.
