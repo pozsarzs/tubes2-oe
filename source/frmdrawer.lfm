@@ -1,7 +1,7 @@
 object Form10: TForm10
-  Left = 239
+  Left = 223
   Height = 512
-  Top = 206
+  Top = 164
   Width = 783
   Caption = 'Characteristic drawer'
   ClientHeight = 512

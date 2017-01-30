@@ -1,17 +1,17 @@
 # +----------------------------------------------------------------------------+
-# | Tubes2 2.2 Open edition * Electrontube catalogue                           |
-# | Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Tubes2 2.2 Open edition * Electron tube catalog                            |
+# | Copyright (C) 2008-2017 Pozsar Zsolt <info@pozsarzs.hu>                    |
 # | default.apspec                                                             |
 # | apspec file for autopackage                                                |
 # +----------------------------------------------------------------------------+
 
 [Meta]
 RootName: @pozsarzs.hu/tubes2oe:$SOFTWAREVERSION
-DisplayName: Electrontube catalogue
+DisplayName: Electron tube catalogue
 ShortName: tubes2oe
-Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
-Packager: Pozsar Zsolt <pozsarzs@gmail.com>
-Summary: Electrontube catalogue
+Maintainer: Pozsar Zsolt <info@pozsarzs.hu>
+Packager: Pozsar Zsolt <info@pozsarzs.hu>
+Summary: Electron tube catalogue
 URL: http://www.pozsarzs.hu/tubes/tubes_en.html
 License: GNU General Public License, Version 3 or later
 SoftwareVersion: 2.2

@@ -2,11 +2,10 @@ Tubes2 and Tubes2 Open edition - electrontube catalogue
 
 I. About software
 
-  This is an electrontube catalogue. Its database contents base type, pin-out
-and some parameters of components. The base database of both applications
-contains 4147 electrontube data. In on-line mode, Tubes2 notifies about
-available updates (except DOS version, this uses a batch file update).
-  Application contains tube characteristic drawer tool.
+  This is an electron tube catalogue. Its database contents base pin-out and
+some parameters of components. Database contains record of more than four
+thousand electron tubes. There are CV/M2/VT type substitution searcher and tube
+characteristic drawer tool (except CUI version).
 
   OS support: DOS (CUI version), FreeBSD, Linux and Windows.
   Language support: English and Hungarian.
@@ -46,12 +45,10 @@ You can choice between following two versions of Tubes2:
 1. Tubes2 Open Edition
 
   +   You can use it for free.
-  +   Its base database contains 4147 electrontubes data record.
   +   There are one kind of installer package for DOS and FreeBSD,
       three kinds for Windows and seven kinds for Linux.
   +   Source code is available.
   +   Doesn't request serial number and product key.
-  +   No time limit.
   +   You can update datafiles from internet.
   -   It uses plain (edf or xedf) datafiles only.
   -   Tubes2 Open edition's database updates only one times on year.
@@ -61,31 +58,48 @@ You can choice between following two versions of Tubes2:
 2. Tubes2
 
   +   It is a cheap electrontubes catalog.
-  +   Its base database contains 4147 electrontubes data record.
   +   There are one kind of installer package for DOS and FreeBSD, three
       kinds for Windows and six kinds for Linux.
-  +   You can buy more kinds of product keys (personal/education/non-profit/
-      business for 1/2-5/5+ computers).
+  +   You can buy more kinds of licence.
   +   It uses plain and encoded (edf/cedf or xedf/cxedf) datafiles.
   +   Tubes2's database updates monthly.
   +   You can update datafiles from internet.
   -   Source code is not available.
-  *   By buying Tubes2, you obtain non-transferable right to use application
-      and updates without restriction.
+  *   You can use this version under terms of EULA.
 
 II. How to get product key for Tubes2?
 
-   If you want to buy licence without time-limit, fill out order form
-(ordrform.txt, annexed to application) or on-line form at homepage.
+  If you want to get product key, fill out on-line form at homepage.
+  Tubes2 can be used for the following licences:
+
+  Licence type    Network install    Computer   User
+  ==================================================
+  Home             not allowed          1        1
+  --------------------------------------------------
+  Education 1      not allowed          1       all
+  Education 2-5    not allowed          2-5     all
+  Education 5+       allowed            5+      all
+  --------------------------------------------------
+  Non-profit 1     not allowed          1       all
+  Non-profit 2-5   not allowed          2-5     all
+  Non-profit 5+      allowed            5+      all
+  --------------------------------------------------
+  Business 1       not allowed          1       all
+  Business 2-5     not allowed          2-5     all
+  Business 5+        allowed            5+      all
+  --------------------------------------------------
+  Packed product   not allowed          1       all
 
 III. How to get installer package for my OS?
 
-   Visit homepage (see later) to download installer packages:
+  Visit homepage (see later) to download installer packages:
 
-  DOS:         tubeso02.zip                    portable (with source)
+  DOS:         tubes2oe.exe                    portable (with source)
+               tubes2oe.zip                    portable (with source)
                edf-tubes2-YYMMDD-en.zip
 
-               tubes02.zip                     portable
+               tubes2.exe                      portable
+               tubes2.zip                      portable
                cedf-tubes2-YYMMDD-en.zip
   -----------------------------------------------------------------------------
   FreeBSD:     tubes2oe-2.2.txz
@@ -142,37 +156,7 @@ IV. Settings
   Windows:
   - Use 'File/Settings' in main menu to set application.
 
-V. Important information
-
-  Copyright (C) 2008-2017 Pozsar Zsolt <pozsarzs@gmail.com>
-
-1. Terms and conditions of Tubes2 Open edition:
-
-  This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later
-version.
-
-  This program is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public License along with
-this program.  If not, see <http://www.gnu.org/licenses/>.
-
-2. Terms and conditions of the Tubes2:
-
-  - This application is distributed WITHOUT ANY WARRANTY.
-  - You can copy and share this software for free without personal
-    product key.
-  - You are not allowed to decode and analyse inner contruction of this
-    software.
-  - You are not allowed to transfer the serial number and product key for
-    other person.
-  - You may install this software on all operation systems of computer and
-    all of the users on computers may use it.
-
-VI. Contact
+V. Contact
 
    Homepage:             <http://www.pozsarzs.hu/tubes/tubes_en.html>
 
@@ -180,7 +164,7 @@ VI. Contact
    Tax ID:               60407850-1-36
    Registration num.:    20703695
 
-   E-mail:               <pozsarzs@gmail.com>
+   E-mail:               <info@pozsarzs.hu>
    Phone:                +36 56/470-272
    Fax:                  +36 56/470-272
    Mobile:               +36 30/359-8783
@@ -192,3 +176,7 @@ VI. Contact
    GIRO:                 10400061-67514856-53531005 (K&H Bank)
    IBAN:                 HU08 1040 0061 6751 4856 5353 1005
    PayPal:               pozsarzs@gmail.com
+
+---------------------------------------------------------------------------------
+  Tubes, Tubes2 * Copyright (C) 2008-2017 Pozsar Zsolt <info@pozsarzs.hu>
+  Tubes2 for DOS * Copyright (C) 2016-2017 Pozsar Zsolt <info@pozsarzs.hu>

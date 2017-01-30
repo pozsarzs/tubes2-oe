@@ -219,7 +219,7 @@ msgid "Write error!"
 msgstr "Írási hiba!"
 
 #: frmmain.message21
-msgid "Electrontube datasheet"
+msgid "Electron tube datasheet"
 msgstr "Elektroncső adatlap"
 
 #: frmmain.message22
@@ -235,7 +235,7 @@ msgid "Parameters"
 msgstr "Jellemzők"
 
 #: frmmain.message25
-msgid "Electrontube"
+msgid "Electron tube"
 msgstr "Elektroncső"
 
 #: frmmain.message26
@@ -291,7 +291,7 @@ msgid "Type substitution"
 msgstr "Típus helyettesítés"
 
 #: frmmain.message39
-msgid "Electrontubes"
+msgid "Electron tubes"
 msgstr "Elektroncsövek"
 
 #: frmmain.message40
@@ -331,7 +331,7 @@ msgid "Open manufacturer's datasheet"
 msgstr "A gyártó adatlapjának megnyitása"
 
 #: frmmain.message49
-msgid "Categories of electrontubes"
+msgid "Categories of electron tubes"
 msgstr "Elektroncső kategóriák"
 
 #: frmmain.message50
@@ -419,7 +419,7 @@ msgid "Pozsi's webshop"
 msgstr "Pozsi webboltja"
 
 #: frmmain.message81
-msgid "Electrontube pinouts"
+msgid "Electron tube pinouts"
 msgstr "Elektroncső csőfejbekötések"
 
 #: frmmain.message82
@@ -771,24 +771,12 @@ msgid "About"
 msgstr "Névjegy"
 
 #: tform2.label2.caption
-msgid "Electrontube catalogue"
+msgid "Electron tube catalog"
 msgstr "Elektroncső katalógus"
-
-#: tform2.label3.caption
-msgid "(C) 2008-2017 Pozsár Zsolt"
-msgstr "(C) 2008-2017 Pozsár Zsolt"
 
 #: tform2.label4.caption
 msgid "Licence: GNU GPL 3.0 or later."
 msgstr "Licenc: GNU GPL 3.0 vagy újabb."
-
-#: tform2.label5.caption
-msgid "pozsarzs@gmail.com"
-msgstr "pozsarzs@gmail.com"
-
-#: tform2.label6.caption
-msgid "http://www.pozsarzs.hu"
-msgstr "http://www.pozsarzs.hu"
 
 #: tform2.label7.caption
 msgid "E-mail:"

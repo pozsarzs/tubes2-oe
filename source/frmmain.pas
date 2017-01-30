@@ -305,11 +305,11 @@ Resourcestring
   {...}
   MESSAGE19='File exists, overwrite?';
   MESSAGE20='Write error!';
-  MESSAGE21='Electrontube datasheet';
+  MESSAGE21='Electron tube datasheet';
   MESSAGE22='Pinout';
   MESSAGE23='Category';
   MESSAGE24='Parameters';
-  MESSAGE25='Electrontube';
+  MESSAGE25='Electron tube';
   MESSAGE26='Not found';
   MESSAGE27='Sorry, there is not help viewer!';
   MESSAGE28='Save';
@@ -323,7 +323,7 @@ Resourcestring
   MESSAGE36='Original size';
   MESSAGE37='Characteristic drawer';
   MESSAGE38='Type substitution';
-  MESSAGE39='Electrontubes';
+  MESSAGE39='Electron tubes';
   MESSAGE40='Description';
   MESSAGE41='New version of Tubes2 Open edition is available.';
   MESSAGE42='(This message does not show again.)';
@@ -333,7 +333,7 @@ Resourcestring
   MESSAGE46='Parameter search';
   MESSAGE47='Open manufacturer''s website';
   MESSAGE48='Open manufacturer''s datasheet';
-  MESSAGE49='Categories of electrontubes';
+  MESSAGE49='Categories of electron tubes';
   MESSAGE50='Save datasheet in TXT or HTML format';
   MESSAGE51='Sorry, there is off-line mode.';
   MESSAGE52='Tube designation systems';
@@ -359,7 +359,7 @@ Resourcestring
   MESSAGE78='Useful websites';
   MESSAGE79='Pozsi''s homepage';
   MESSAGE80='Pozsi''s webshop';
-  MESSAGE81='Electrontube pinouts';
+  MESSAGE81='Electron tube pinouts';
   MESSAGE82='http://www.pozsarzs.hu/en/index.php';
   MESSAGE83='http://webshop.pozsarzs.hu/index.php?language=en';
   MESSAGE84='http://pinout.pozsarzs.hu';

@@ -153,7 +153,10 @@ begin
       then break;
   for i:=1 to Form1.StringGrid1.RowCount-1 do
   begin
-    v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+    try
+      v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+    except
+    end;
     if (SpinEdit1.Value<v) and (SpinEdit2.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
   end;
@@ -165,7 +168,10 @@ begin
         then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
-      v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+      try
+        v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+      except
+      end;
       if (SpinEdit3.Value<v) and (SpinEdit4.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
     end;
@@ -178,7 +184,10 @@ begin
         then break;
     for i:=1 to Form1.StringGrid1.RowCount-1 do
     begin
-      v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+      try
+        v:=StrToFloat(Form1.StringGrid1.Cells[b,i]);
+      except
+      end;
       if (SpinEdit5.Value<v) and (SpinEdit6.Value>v)
       then ListBox1.Items.Add(Form1.StringGrid1.Cells[0,i]);
     end;

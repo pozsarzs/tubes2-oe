@@ -235,7 +235,7 @@ msgid "Write error!"
 msgstr ""
 
 #: frmmain.message21
-msgid "Electrontube datasheet"
+msgid "Electron tube datasheet"
 msgstr ""
 
 #: frmmain.message22
@@ -251,7 +251,7 @@ msgid "Parameters"
 msgstr ""
 
 #: frmmain.message25
-msgid "Electrontube"
+msgid "Electron tube"
 msgstr ""
 
 #: frmmain.message26
@@ -307,7 +307,7 @@ msgid "Type substitution"
 msgstr ""
 
 #: frmmain.message39
-msgid "Electrontubes"
+msgid "Electron tubes"
 msgstr ""
 
 #: frmmain.message40
@@ -347,7 +347,7 @@ msgid "Open manufacturer's datasheet"
 msgstr ""
 
 #: frmmain.message49
-msgid "Categories of electrontubes"
+msgid "Categories of electron tubes"
 msgstr ""
 
 #: frmmain.message50
@@ -435,7 +435,7 @@ msgid "Pozsi's webshop"
 msgstr ""
 
 #: frmmain.message81
-msgid "Electrontube pinouts"
+msgid "Electron tube pinouts"
 msgstr ""
 
 #: frmmain.message82
@@ -803,23 +803,11 @@ msgid "About"
 msgstr ""
 
 #: tform2.label2.caption
-msgid "Electrontube catalogue"
-msgstr ""
-
-#: tform2.label3.caption
-msgid "(C) 2008-2017 Pozsár Zsolt"
+msgid "Electron tube catalog"
 msgstr ""
 
 #: tform2.label4.caption
 msgid "Licence: GNU GPL 3.0 or later."
-msgstr ""
-
-#: tform2.label5.caption
-msgid "pozsarzs@gmail.com"
-msgstr ""
-
-#: tform2.label6.caption
-msgid "http://www.pozsarzs.hu"
 msgstr ""
 
 #: tform2.label7.caption

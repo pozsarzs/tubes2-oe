@@ -1,13 +1,13 @@
-2012-10-19 Pozsar Zsolt <pozsarzs@gmail.com>
+2012-10-19 Pozsar Zsolt <info@pozsarzs.hu>
 	* Version 2.0:
 	Some unimportant function has removed.
 
-2012-11-04 Pozsar Zsolt <pozsarzs@gmail.com>
+2012-11-04 Pozsar Zsolt <info@pozsarzs.hu>
 	* Version 2.0.1:
 	New user's directory structure.
         Fixed bug: 'Missing files! Please reinstall Tubes.' on linux only.
 
-2015-02-08 Pozsar Zsolt <pozsarzs@gmail.com>
+2015-02-08 Pozsar Zsolt <info@pozsarzs.hu>
 	* Version 2.0.2:
 	Renamed common files and directories (trial/pro).
 	New sponsor menu is included.
@@ -16,16 +16,15 @@
 	Detailed offline documentation.
 	Fixed bugs of 'Parameter search'.
 
-2016-05-30 Pozsar Zsolt <pozsarzs@gmail.com>
+2016-05-30 Pozsar Zsolt <info@pozsarzs.hu>
 	* Version 2.1:
 	Fixed some little bugs.
 	New user's directories.
 	Reinclude update function.
 
-2016-01-31 Pozsar Zsolt <pozsarzs@gmail.com>
+2016-01-31 Pozsar Zsolt <info@pozsarzs.hu>
 	* Version 2.2:
 	Added type substitution.
 	Added characteristic drawer.
 	Modified GUI.
-
 

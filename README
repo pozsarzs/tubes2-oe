@@ -1,7 +1,7 @@
 Short information
 -----------------
-Tubes2 Open edition * Electrontube catalog
-Copyright (C) 2011-2017 Pozsar Zsolt <pozsarzs@gmail.com>
+Tubes2 Open edition * Electron tube catalog
+Copyright (C) 2008-2017 Pozsar Zsolt <info@pozsarzs.hu>
 - Licence: GNU GPL 3.0 or later
 - OS: FreeBSD, Linux and Windows
 - Language: English and Hungarian
@@ -13,10 +13,8 @@ Copyright (C) 2011-2017 Pozsar Zsolt <pozsarzs@gmail.com>
        General information             documents/README
        Installation instruction        documents/INSTALL
        Licence                         documents/COPYING
-       Order form                      documents/ordrform.txt
        Version                         documents/VERSION
 
 [HU] Információs állományok:
        Általános információk           documents/hu/readme.txt
-       Megrendelőlap                   documents/hu/ordrform.txt
        Telepítési utasítás             documents/hu/INSTALL

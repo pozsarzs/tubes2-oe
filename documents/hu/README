@@ -2,12 +2,10 @@ Tubes2/Tubes2 Open edition - elektroncső katalógus
 
 1. A szoftverről
 
-  Ez egy folyamatosan bővülő elektroncső katalógus. Az alkalmazás adatbázisa
-tartalmazza az elektroncsövek csőfej típusát, csőfejbekötését és fontosabb
-adatait. Mindkét változat alap adatbázisa 4147 elektroncső adatait tartalmazza.
-Az alkalmazás on-line módban tájékoztat az elérhető frissítésekről (kivéve a
-DOS-os változat, amely külső parancsfájl segítségével frissíthető).
-  Az alkalmazás tartalmaz egy jelleggörbe rajzoló segédeszközt is.
+  Ez egy elektroncső katalógus. Az alkalmazás adatbázisa több mint 4000
+elektroncső csőfejbekötését és fontosabb adatait tartalmazza.
+Az alkalmazás tartalmaz egy CV/M2/VT típus helyettesítés keresőt
+és a grafikus változat egy karakterisztika rajzoló segédeszközt is.
 
   Operációs rendszerek: DOS (CUI változat), FreeBSD, Linux és Windows.
   Nyelvi támogatás: angol és magyar.
@@ -52,12 +50,10 @@ A honlapról a Tubes2 kétféle változatát töltheti le:
 1. Tubes2 Open edition
 
   +  Ingyen és szabadon használható.
-  +  Az alap adatbázisa 4147 elektroncső adat bejegyzést tartalmaz.
   +  DOS-hoz és FreeBSD-hez 1-1 féle, Windows-hoz 3, Linuxhoz 7 féle
      telepítőcsomaggal rendelkezik.
   +  Elérhető a forráskód.
   +  Nem igényel sorozatszámot és termékkulcsot.
-  +  Nincs időkorlát.
   +  Az adatfájlok internetről frissíthetőek.
   -  Csak a nyílt (edf vagy xedf) adatfájlokat képes kezelni.
   -  Az alkalmazás adatbázisa évente egyszer frissül.
@@ -67,40 +63,56 @@ A honlapról a Tubes2 kétféle változatát töltheti le:
 2. Tubes2
 
   +  Ez egy olcsó elektroncső katalógus.
-  +  Az alap adatbázisa 4147 elektroncső adat bejegyzést tartalmaz.
   +  DOS-hoz és FreeBSD-hez 1-1 féle, Windows-hoz 3, Linuxhoz 6 féle
      telepítőcsomaggal rendelkezik.
   +  Vásárolhat többféle termékkulcsot (otthoni/oktatási/non-profit/üzleti
-     1/2-5/5+ számítógépre).
-  +  A Tubes2 a nyílt és a kódolt (edf/cedf vagy xedf/cxedf) adatfájlok
-     használatát is támogatja.
+     és dobozos termék).
+  +  nyílt és a kódolt (edf/cedf vagy xedf/cxedf) adatfájlok használatát
+     is támogatja.
   +  Az adatfájlok az internetről frissíthetőek.
   +  Az alkalmazás adatbázisa minden hónapban frissül.
   -  A forráskód nem elérhető.
-  *  Tubes2 csak érvényes termékkulccsal használható, amely megvásárlásával
-     a felhasználó át nem ruházható jogot szerez az alkalmazásnak és a
-     frissítéseinek korlátozás nélküli használatára.
+  *  Tubes2 az EULA szerint használható.
 
 II. Hogyan szerezhetek termékkulcsot a Tubes2-höz?
 
-  Időkorlát nélküli termékkulcsot az alkalmazáshoz mellékelt regisztrációs
-űrlap (ordrform.txt) vagy a honlapon lévő űrlap kitöltésével és elküldésével
-igényelhet.
+  Termékkulcsot a honlapon lévő űrlap kitöltésével és elküldésével
+igényelhet. A Tubes2 a következők szerint licencelhető:
+
+  Licenc típus    Hálózati telepítés  Számítógép  Felhasználó
+  ===========================================================
+  Otthoni         nem engedélyezett       1            1
+  -----------------------------------------------------------
+  Oktatási 1      nem engedélyezett       1         összes
+  Oktatási 2-5    nem engedélyezett       2-5       összes
+  Oktatási 5+     engedélyezett           5+        összes
+  -----------------------------------------------------------
+  Non-profit 1    nem engedélyezett       1         összes
+  Non-profit 2-5  nem engedélyezett       2-5       összes
+  Non-profit 5+   engedélyezett           5+        összes
+  -----------------------------------------------------------
+  Üzleti 1        nem engedélyezett       1         összes
+  Üzleti 2-5      nem engedélyezett       2-5       összes
+  Üzleti 5+       engedélyezett           5+        összes
+  -----------------------------------------------------------
+  Dobozos termék  nem engedélyezett       1         összes
 
 III. Hogyan szerezhetek telepítő csomagot az általam használt
      operációs rendszerhez?
 
   Látogassa meg a honlapot (a címet lásd később) az alábbi telepítőcsomagok
-  letöltéséhez:
+letöltéséhez:
 
-  DOS:         tubesoe02.zip                    hordozható (forráskóddal)
-               edf-tubes2-YYMMDD-hu.zip
+  DOS:         tubes2oe.exe                     hordozható (forráskóddal)
+               tubes2oe.zip                     hordozható (forráskóddal)
+               edf-tubes2-YYMMDD-en.zip
 
-               tubes02.zip                      hordozható
+               tubes2.exe                       hordozható
+               tubes2.zip                       hordozható
                cedf-tubes2-YYMMDD-hu.zip
   -----------------------------------------------------------------------------
   FreeBSD:     tubes2oe-2.2.txz
-               tubes2oe-2.2-FreeBSD-Port.shar   port cdomag
+               tubes2oe-2.2-FreeBSD-Port.shar   port csomag
                xedf-tubes2-YYMMDD-hu.zip
 
                tubes2-2.2.txz
@@ -153,37 +165,7 @@ IV. Beállítások
   Windows:
   - Használja a "Fájl/Beállítások" menüpontot az alkalmazás beállításához.
 
-V. Fontos információk
-
-  Copyright (C) 2008-2017 Pozsár Zsolt <pozsarzs@gmail.com>
-
-1. A Tubes2 Open edition felhasználási feltételei:
-
-  Ez a program szabad szoftver; terjeszthető és/vagy módosítható a Free
-Software Foundation által publikált GNU General Public License 3. vagy annál
-újabb verziója alapján.
-
-  A program annak reményében kerül terjesztésre, hogy hasznosnak bizonyul, de
-GARANCIA NÉLKÜL; még a PIACKÉPESSÉG illetve egy BIZONYOS CÉLRA VALÓ ALKALMASSÁG
-sincs garantálva. További részletek a GNU General Public License-ben.
-
-  Önnek ezzel a programmal meg kellett kapnia a GNU General Public Licence egy
-példányát, amennyiben nem így lenne, látogasson el ide:
-<http://www.gnu.org/licenses/>.
-
-2. A Tubes2 felhasználási feltételei:
-
-  - A szoftver GARANCIA NÉLKÜL kerül terjesztésre.
-  - A szoftver, a személyre szóló regisztrációs kulcs nélkül szabadon másolható
-    és terjeszthető.
-  - A szoftvert tilos visszafordítani, visszafejteni illetve és a belső
-    felépítését elemezni.
-  - A sorozatszám és a termékkulcs másra át nem ruházható.
-  - A szoftver, a regisztráláskor megadott számú számítógépen lévő összes
-    operációs rendszerre feltelepíthető, és azt a számítógép összes felhaszná-
-    lója használhatja.
-
-VI. Elérhetőség
+V. Elérhetőség
 
    Honlap:               <http://www.pozsarzs.hu/tubes/tubes.html>
 
@@ -191,7 +173,7 @@ VI. Elérhetőség
    Adószám:              60407850-1-36
    Regisztrációs szám:   20703695
 
-   E-mail:               pozsarzs@gmail.com
+   E-mail:               info@pozsarzs.hu
    Telefon:              +36 56/470-272
    Telefax:              +36 56/470-272
    Mobiltelefon:         +36 30/359-8783
@@ -201,3 +183,7 @@ VI. Elérhetőség
    GIRO:                 10400061-67514856-53531005 (K&H Bank)
    IBAN:                 HU08 1040 0061 6751 4856 5353 1005
    PayPal:               pozsarzs@gmail.com
+
+---------------------------------------------------------------------------------
+  Tubes, Tubes2 * Copyright (C) 2008-2017 Pozsar Zsolt <info@pozsarzs.hu>
+  Tubes2 for DOS * Copyright (C) 2016-2017 Pozsar Zsolt <info@pozsarzs.hu>
