@@ -5426,11 +5426,11 @@ object Form2: TForm2
     Left = 13
     Height = 25
     Top = 16
-    Width = 177
+    Width = 57
     Caption = 'Label1'
-    Font.CharSet = 19
+    Font.CharSet = ANSI_CHARSET
     Font.Color = clMaroon
-    Font.Height = 16
+    Font.Height = 14
     Font.Name = '-adobe-helvetica-*-*-*-*-*-140-*-*-*-*-iso8859-2'
     Font.Pitch = fpVariable
     Font.Style = [fsBold]
@@ -5441,8 +5441,8 @@ object Form2: TForm2
     Left = 13
     Height = 21
     Top = 40
-    Width = 177
-    Caption = 'Electrontube catalogue'
+    Width = 162
+    Caption = 'Electron tube catalog'
     Font.CharSet = 19
     Font.Color = clMaroon
     Font.Height = 16
@@ -5474,11 +5474,11 @@ object Form2: TForm2
   end
   object Label5: TLabel
     Cursor = crHandPoint
-    Left = 56
+    Left = 70
     Height = 15
     Top = 151
-    Width = 137
-    Caption = 'pozsarzs@gmail.com'
+    Width = 113
+    Caption = 'info@pozsarzs.hu'
     Font.Color = clSkyBlue
     Font.Style = [fsUnderline]
     ParentColor = False
@@ -5489,7 +5489,7 @@ object Form2: TForm2
   end
   object Label6: TLabel
     Cursor = crHandPoint
-    Left = 56
+    Left = 70
     Height = 15
     Top = 167
     Width = 145
