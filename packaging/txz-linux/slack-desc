@@ -1,9 +1,11 @@
-          |-----handy-ruler-----------------------------------|
-r-circuits: R-circuits
-r-circuits: R-circuit calculator application
-r-circuits: You can redistribute and/or modify it under the
-r-circuits: terms of the EUPL v1.1.
-r-circuits:
-r-circuits: Homepage: http://www.pozsarzs.hu/en/
-r-circuits: Package created by: Pozsar Zsolt
-
+        |-----handy-ruler-----------------------------------|
+tubes2oe: This is an electrontube catalogue application.
+tubes2oe: This is open source version of Tubes2 commercial
+tubes2oe: software. Different between both software is
+tubes2oe: database update rate only. Its database contents
+tubes2oe: base pin-out and some parameters of components.
+tubes2oe: Application contains characteristic drawer tool.
+tubes2oe: You can redistribute this version and/or modify it
+tubes2oe: under the terms of the GNU GPL 3.0 or later.
+tubes2oe: Homepage: http://www.pozsarzs.hu/tubes/tubes_en.html 
+tubes2oe: Package created by: Pozsar Zsolt
