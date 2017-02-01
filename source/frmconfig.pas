@@ -248,7 +248,7 @@ procedure TForm7.Button1Click(Sender: TObject);                // select browser
 begin
   OpenDialog1.InitialDir:=frmmain.userdir;
   OpenDialog1.Title:=MESSAGE09;
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   Opendialog1.Filter:=MESSAGE12;
   {$ENDIF}
   {$IFDEF WINDOWS}
@@ -262,7 +262,7 @@ procedure TForm7.Button2Click(Sender: TObject);                 // select mailer
 begin
   OpenDialog1.InitialDir:=frmmain.userdir;
   OpenDialog1.Title:=MESSAGE10;
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   Opendialog1.Filter:=MESSAGE12;
   {$ENDIF}
   {$IFDEF WINDOWS}

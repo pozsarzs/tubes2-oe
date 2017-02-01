@@ -43,7 +43,7 @@ const
   URL_ORDER_HU='http://www.pozsarzs.hu/tubes/registration_hu.php';
   URL_HOMEPAGE='http://www.pozsarzs.hu/tubes/tubes_en.html';
   URL_HOMEPAGE_HU='http://www.pozsarzs.hu/tubes/tubes.html';
-  URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2trial/sponsors.csv';
+  URL_SPONSORS='http://www.pozsarzs.hu/upgrade/tubes2oe/sponsors.csv';
   // user's folders
   {$IFDEF UNIX}
     DIR_CACHE='/.cache/tubes2oe/';

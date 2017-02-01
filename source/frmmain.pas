@@ -494,7 +494,7 @@ var
 function savetohtml(filename: string): boolean;
 begin
   assignfile(tf,s);
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   {$I-}mkdir(tfdir+'/pics/');{$I+} ioresult;
   {$ENDIF}
   {$IFDEF WIN32}
@@ -556,7 +556,7 @@ begin
     closefile(tf);
     // save picture
     try
-      {$IFDEF LINUX}
+      {$IFDEF UNIX}
       Image1.Picture.SaveToFile(tfdir+'/pics/'+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png')
       {$ENDIF}
       {$IFDEF WIN32}
@@ -708,7 +708,10 @@ var
     itype, icat: string;
   begin
     result:='';
-    {$IFDEF LINUX}
+    if FSearch('index.csv',xedfpath)<>''
+    then assignfile(tf,xedfpath+'index.csv')
+    else
+    {$IFDEF UNIX}
       assignfile(tf,xedfpath+'../index.csv');
     {$ENDIF}
     {$IFDEF WIN32}
@@ -980,7 +983,7 @@ begin
   Memo2.Lines.Insert(0,'');
   Memo2.Lines.Delete(0);
   try
-    {$IFDEF LINUX}
+    {$IFDEF UNIX}
     Image1.Picture.LoadFromFile(picspath+lowercase(StringGrid1.Cells[2,StringGrid1.Row])+'.png');
     {$ENDIF}
     {$IFDEF WIN32}
@@ -1278,6 +1281,9 @@ var
     itype, icat: string;
   begin
     result:='';
+    if FSearch('index.csv',xedfpath)<>''
+    then assignfile(tf,xedfpath+'index.csv')
+    else
     {$IFDEF UNIX}
       assignfile(tf,xedfpath+'../index.csv');
     {$ENDIF}
@@ -1383,6 +1389,9 @@ var
 
 begin
   filemode:=fmOpenRead;
+  if FSearch('subst.dat',xedfpath)<>''
+  then assignfile(rf,xedfpath+'subst.dat')
+  else
   {$IFDEF UNIX}
     assignfile(rf,xedfpath+'../subst.dat');
   {$ENDIF}
@@ -1588,6 +1597,9 @@ begin
 
   // count components
   compnumall:=0;
+  if FSearch('index.csv',xedfpath)<>''
+  then assignfile(xmlfile,xedfpath+'index.csv')
+  else
   {$IFDEF UNIX}
     assignfile(xmlfile,xedfpath+'../index.csv');
   {$ENDIF}
