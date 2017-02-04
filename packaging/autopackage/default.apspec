@@ -7,11 +7,11 @@
 
 [Meta]
 RootName: @pozsarzs.hu/tubes2oe:$SOFTWAREVERSION
-DisplayName: Electron tube catalogue
+DisplayName: Electron tube catalog
 ShortName: tubes2oe
 Maintainer: Pozsar Zsolt <info@pozsarzs.hu>
 Packager: Pozsar Zsolt <info@pozsarzs.hu>
-Summary: Electron tube catalogue
+Summary: Electron tube catalog
 URL: http://www.pozsarzs.hu/tubes/tubes_en.html
 License: GNU General Public License, Version 3 or later
 SoftwareVersion: 2.2

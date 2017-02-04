@@ -6,7 +6,7 @@ Architecture: i386
 Installed-Size: 13 MB
 Maintainer: Pozsar Zsolt <info@pozsarzs.hu>
 Depends: libc6, libglib2.0-0, libgtk2.0-0
-Description: This is an electrontube catalogue application.
+Description: This is an electron tube catalog application.
  This is open source version of Tubes2 commercial software.
  Different between both software is database update rate only.
  Its database contents base pin-out and some parameters

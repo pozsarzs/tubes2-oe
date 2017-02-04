@@ -1,8 +1,8 @@
-Tubes2 and Tubes2 Open edition - electrontube catalogue
+Tubes2 and Tubes2 Open edition - electron tube catalog
 
 I. About software
 
-  This is an electron tube catalogue. Its database contents base pin-out and
+  This is an electron tube catalog. Its database contents base pin-out and
 some parameters of components. Database contains record of more than four
 thousand electron tubes. There are CV/M2/VT type substitution searcher and tube
 characteristic drawer tool (except CUI version).
@@ -57,7 +57,7 @@ You can choice between following two versions of Tubes2:
 
 2. Tubes2
 
-  +   It is a cheap electrontubes catalog.
+  +   It is a cheap electron tube catalog.
   +   There are one kind of installer package for DOS and FreeBSD, three
       kinds for Windows and six kinds for Linux.
   +   You can buy more kinds of licence.
