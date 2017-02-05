@@ -1033,6 +1033,7 @@ begin
   StringGrid1.ColCount:=2;
   StringGrid1.ColCount:=4;
   StringGrid1.Clean;
+  StringGrid1.FixedRows:=1;
   StringGrid1.Cells[0,0]:=MESSAGE11;
   StringGrid1.Cells[1,0]:=MESSAGE31;
   StringGrid1.Cells[2,0]:=MESSAGE02;
