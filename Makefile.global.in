@@ -35,7 +35,6 @@ fpflag		= -T@os@ \
                   -O1 \
                   -ve \
                   -Fu./synapse/ \
-                  -Fu./modules/ \
                   -Fi@lcldir@/../components/printers/unix/ \
                   -Fu@lcldir@/../components/cairocanvas/ \
                   -Fu@lcldir@/../components/cairocanvas/lib/@architecture@-@os@/gtk2/ \
