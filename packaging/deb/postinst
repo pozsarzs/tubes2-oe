@@ -2,7 +2,7 @@
 set -e
 # Automatically added by dh_installdocs
 if [ "$1" = "configure" ]; then
-  if [ -d /usr/doc -a ! -e /usr/doc/tubes2oe -a -d /usr/share/doc/tubes2-oe ]; then
+  if [ -d /usr/doc -a ! -e /usr/doc/tubes2oe -a -d /usr/share/doc/tubes2oe ]; then
     ln -sf /usr/share/doc/tubes2oe /usr/doc/tubes2oe
   fi
 fi
